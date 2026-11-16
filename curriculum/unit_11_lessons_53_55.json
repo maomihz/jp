@@ -1,0 +1,898 @@
+{
+  "unit_number": 11,
+  "unit_slug": "unit-11-continuing-completing-actions",
+  "unit_title": "Unit 11: Continuing & Completing Actions (Lessons 53–55)",
+  "unit_overview": "Master Renshuu N3 Lessons 53–55: progressive trends, obsessive repetition, and unattended states (てばかりいる, っぱなし, 一方だ, つつある, かけ), plus the full N3 aspectual toolkit for finishing, persisting, redoing, and completing actions.",
+  "lessons": [
+    {
+      "lesson_id": "L53",
+      "lesson_number": 53,
+      "renshuu_title": "Continuing Actions",
+      "has_video": false,
+      "summary": "Distinguish five N3 continuing-action frameworks by speaker judgment, timeline direction, and attachment stem: critical repetition (〜てばかりいる / 〜ばかりで), neglected states left open or on (〜っぱなし), one-way trends and formal ongoing transitions (〜一方だ・〜つつある), temporal progression toward or away from now (〜ていく / てくる), and mid-flight interrupted actions (〜かけ).",
+      "study_tip": "Check both the verb stem and the speaker's attitude in Lesson 53: 〜てばかりいる and 〜ていく/てくる use the て-form; 〜っぱなし, 〜つつある, and 〜かけ all attach to the ます-stem; and 〜一方だ strictly requires the plain dictionary form (Vる) for unstoppable one-way trends.",
+      "grammar_points": [
+        {
+          "id": "te-bakari-iru",
+          "pattern": "〜てばかりいる",
+          "pattern_ruby": "〜てばかりいる",
+          "romaji": "~te bakari iru",
+          "meaning_en": "doing nothing but ~; always ~ing (critical complaint about repetitive behavior)",
+          "register": "neutral",
+          "renshuu_status": "verified_renshuu",
+          "mental_model": "Placing ばかり ('nothing but') inside 〜ている freezes the subject inside an endless, unproductive loop: 'all they ever do is X!' Unlike neutral 〜ている ('is currently doing X'), 〜てばかりいる almost always carries annoyance, worry, or criticism toward someone's repeated habit (playing games, complaining, sleeping). When chained into 〜てばかりで, it contrasts one repetitive activity against the productive step the person refuses to take.",
+          "formation": [
+            {
+              "pos": "{動詞|どうし}て{形|けい}",
+              "rule": "＋ ばかりいる（{丁寧|ていねい}：〜てばかりいます）"
+            },
+            {
+              "pos": "{動詞|どうし}て{形|けい}（{複文|ふくぶん}・{対比|たいひ}）",
+              "rule": "＋ ばかりで、〜ない（{次|つぎ}の{行動|こうどう}をしない）"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "{健太|けんた}は{部屋|へや}でゲームをしてばかりいて、ちっとも{宿題|しゅくだい}をしない。",
+              "structure_note": "{動詞|どうし}て{形|けい}（して）＋ ばかりいて（{批判|ひはん}・{不満|ふまん}）",
+              "en": "Kenta does nothing but play games in his room and doesn't do his homework at all."
+            },
+            {
+              "ja_ruby": "{最近|さいきん}、{弟|おとうと}は{何|なに}にでも{文句|もんく}を{言|い}ってばかりいる。",
+              "structure_note": "{動詞|どうし}て{形|けい}（{言|い}って）＋ ばかりいる",
+              "en": "Lately, my younger brother does nothing but complain about everything."
+            },
+            {
+              "ja_ruby": "{田中|たなか}さんは{言葉|ことば}を{覚|おぼ}えてばかりで、なかなか{会話|かいわ}の{練習|れんしゅう}をしようとしない。",
+              "structure_note": "{動詞|どうし}て{形|けい} ＋ ばかりで（{偏|かたよ}った{行動|こうどう}への{不満|ふまん}）",
+              "en": "Tanaka only keeps memorizing vocabulary and won't actually try practicing conversation."
+            },
+            {
+              "ja_ruby": "{休|やす}みの{日|ひ}は{家|いえ}で{寝|ね}てばかりいないで、たまには{外|そと}へ{出|で}かけましょう。",
+              "structure_note": "{動詞|どうし}て{形|けい} ＋ ばかりいないで（{忠告|ちゅうこく}）",
+              "en": "Don't spend your days off just sleeping at home—let's go out once in a while."
+            }
+          ],
+          "pitfalls": [
+            "Do NOT confuse Vてばかりいる ('doing nothing but V'—repetitive complaint) with Vたばかり ('just did V a short while ago'): {遊|あそ}んでばかりいる vs {遊|あそ}んだばかりだ.",
+            "Avoid using 〜てばかりいる to praise positive diligence or steady effort; because it signals imbalance or irritation, switch to ずっと〜ている or 〜{続|つづ}けている for admirable persistence."
+          ]
+        },
+        {
+          "id": "ppanashi",
+          "pattern": "〜っぱなし",
+          "pattern_ruby": "〜っぱなし",
+          "romaji": "~ppanashi",
+          "meaning_en": "leaving ~ undone, open, or on; keeping an action's resulting state unattended",
+          "register": "casual",
+          "renshuu_status": "canonical_n3",
+          "mental_model": "Derived from {放|はな}す ('to leave loose'), 〜っぱなし fuses onto a verb's ます-stem to spotlight a careless, improper, or unreversed aftermath: someone opened the door, switched on the TV, kicked off shoes, or stood on a train and failed to restore the normal state. Unlike neutral 〜まま (which can calmly describe sleeping with glasses on or a purposeful state), 〜っぱなし nearly always expresses annoyance, sloppiness, or discomfort from a lingering state.",
+          "formation": [
+            {
+              "pos": "{動詞|どうし}ます{形|けい}{語幹|ごかん}",
+              "rule": "＋ っぱなしだ / っぱなしにする"
+            },
+            {
+              "pos": "{動詞|どうし}ます{形|けい}{語幹|ごかん}（{名詞修飾|めいししゅうしょく}）",
+              "rule": "＋ っぱなしの ＋ {名詞|めいし}"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "{玄関|げんかん}のドアを{開|あ}けっぱなしにしないで、ちゃんと{閉|し}めてください。",
+              "structure_note": "{動詞|どうし}ます{形|けい}{語幹|ごかん}（{開|あ}け）＋ っぱなしにする",
+              "en": "Don't leave the front door standing open—please close it properly."
+            },
+            {
+              "ja_ruby": "テレビをつけっぱなしで{寝|ね}てしまったので、{電気代|でんきだい}がもったいない。",
+              "structure_note": "{動詞|どうし}ます{形|けい}{語幹|ごかん}（つけ）＋ っぱなしで（{不注意|ふちゅうい}）",
+              "en": "I fell asleep with the TV left on, which is a waste of electricity."
+            },
+            {
+              "ja_ruby": "{朝|あさ}から{電車|でんしゃ}でずっと{立|た}ちっぱなしで、{足|あし}がとても{疲|つか}れた。",
+              "structure_note": "{動詞|どうし}ます{形|けい}{語幹|ごかん}（{立|た}ち）＋ っぱなし（{同|おな}じ{姿勢|しせい}の{継続|けいぞく}）",
+              "en": "Because I was stuck standing on the train since morning, my legs got really tired."
+            },
+            {
+              "ja_ruby": "{脱|ぬ}ぎっぱなしの{靴|くつ}を{片付|かたづ}けてから、{部屋|へや}へ{入|はい}りなさい。",
+              "structure_note": "{動詞|どうし}ます{形|けい}{語幹|ごかん} ＋ っぱなしの ＋ {名詞|めいし}（{靴|くつ}）",
+              "en": "Put away the shoes you left tossed off before going into your room."
+            }
+          ],
+          "pitfalls": [
+            "Attach 〜っぱなし strictly to the ます-stem ({開|あ}けっぱなし, {脱|ぬ}ぎっぱなし), never the dictionary form or て-form (× {開|あ}けるっぱなし, × {開|あ}けてっぱなし).",
+            "When modifying a noun, 〜っぱなし takes の ({開|あ}けっぱなしの{窓|まど}), never な (× {開|あ}けっぱなしな{窓|まど}).",
+            "Only use verbs whose resulting state should normally be reversed or wrapped up; neutral or intentional kept states require 〜まま instead of 〜っぱなし."
+          ]
+        },
+        {
+          "id": "ippou-da-tsutsu-aru",
+          "pattern": "〜一方だ・〜つつある",
+          "pattern_ruby": "〜{一方|いっぽう}だ・〜つつある",
+          "romaji": "~ippou da · ~tsutsu aru",
+          "meaning_en": "keep ~ing more and more (one-way trend); be steadily in the process of ~ing (formal ongoing change)",
+          "register": "written",
+          "renshuu_status": "canonical_n3",
+          "mental_model": "Both patterns track unfolding change, yet they frame the curve differently. 〜{一方|いっぽう}だ imagines a one-way street with no U-turn: once a shift starts, it moves exclusively further in that direction ({増|ふ}える{一方|いっぽう}だ, {悪化|あっか}する{一方|いっぽう}だ), often voicing concern over a runaway trend. 〜つつある, by contrast, acts as a formal, objective spotlight on a gradual transition currently underway ({回復|かいふく}しつつある = is steadily recovering) in news, reports, and formal speech.",
+          "formation": [
+            {
+              "pos": "{動詞|どうし}{辞書形|じしょけい}（{変化動詞|へんかどうし}）",
+              "rule": "＋ {一方|いっぽう}だ"
+            },
+            {
+              "pos": "{動詞|どうし}ます{形|けい}{語幹|ごかん}（{変化動詞|へんかどうし}）",
+              "rule": "＋ つつある"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "{最近|さいきん}、{物価|ぶっか}は{上|あ}がる{一方|いっぽう}で、{生活|せいかつ}がだんだん{苦|くる}しくなっている。",
+              "structure_note": "{動詞|どうし}{辞書形|じしょけい}（{上|あ}がる）＋ {一方|いっぽう}だ",
+              "en": "Lately, prices keep doing nothing but rising, and daily life is gradually getting harder."
+            },
+            {
+              "ja_ruby": "{運動|うんどう}を{続|つづ}けないと、{体力|たいりょく}は{落|お}ちる{一方|いっぽう}だ。",
+              "structure_note": "{動詞|どうし}{辞書形|じしょけい}（{落|お}ちる）＋ {一方|いっぽう}だ",
+              "en": "If you don't keep exercising, your physical stamina will only keep declining."
+            },
+            {
+              "ja_ruby": "{台風|たいふう}の{影響|えいきょう}で{止|と}まっていた{電車|でんしゃ}が、ようやく{運転|うんてん}を{再開|さいかい}しつつある。",
+              "structure_note": "{動詞|どうし}ます{形|けい}{語幹|ごかん}（{再開|さいかい}し）＋ つつある",
+              "en": "The trains that had stopped due to the typhoon are finally in the process of resuming service."
+            },
+            {
+              "ja_ruby": "{病院|びょういん}でのリハビリのおかげで、{祖父|そふ}の{体調|たいちょう}は{少|すこ}しずつ{回復|かいふく}しつつある。",
+              "structure_note": "{動詞|どうし}ます{形|けい}{語幹|ごかん}（{回復|かいふく}し）＋ つつある",
+              "en": "Thanks to rehabilitation at the hospital, my grandfather's health is steadily recovering."
+            }
+          ],
+          "pitfalls": [
+            "Keep attachments strictly separate: 〜{一方|いっぽう}だ attaches ONLY to the plain dictionary form ({増|ふ}える{一方|いっぽう}だ, × {増|ふ}え{一方|いっぽう}だ, × {増|ふ}えている{一方|いっぽう}だ), whereas 〜つつある attaches ONLY to the ます-stem ({回復|かいふく}しつつある, × {回復|かいふく}するつつある).",
+            "Both patterns require change-of-state verbs ({増|ふ}える, {減|へ}る, {進|すす}む, {変|か}わる, {回復|かいふく}する)—never use static state verbs or ordinary everyday acts like eating lunch (use 〜ているところだ instead)."
+          ]
+        },
+        {
+          "id": "teiku-tekuru-kake",
+          "pattern": "〜ていく / てくる・〜かけ（だ / の）",
+          "pattern_ruby": "〜ていく / てくる・〜かけ（だ / の）",
+          "romaji": "~te iku / ~te kuru · ~kake (da / no)",
+          "meaning_en": "continue changing toward the future / up to now; half-finished or interrupted (half-~)",
+          "register": "neutral",
+          "renshuu_status": "canonical_n3",
+          "mental_model": "Temporal 〜てくる and 〜ていく plot change or effort along a timeline anchored at the present: 〜てくる tracks development arriving from the past up to right now ({頑張|がんば}ってきた), while 〜ていく projects continuation moving from now onward into the future ({増|ふ}えていく). Meanwhile, 〜かけ (Vます-stem + かけ) freezes a concrete action mid-flight—already begun, interrupted before completion, and left half-done ({食|た}べかけのパン = a half-eaten slice of bread).",
+          "formation": [
+            {
+              "pos": "{動詞|どうし}て{形|けい}",
+              "rule": "＋ いく / くる（{時間的|じかんてき}な{変化|へんか}・{継続|けいぞく}）"
+            },
+            {
+              "pos": "{動詞|どうし}ます{形|けい}{語幹|ごかん}",
+              "rule": "＋ かけだ / かけの ＋ {名詞|めいし}"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "{日本|にほん}へ{来|き}てから{三年|さんねん}、{毎日|まいにち}{少|すこ}しずつ{漢字|かんじ}を{覚|おぼ}えてきました。",
+              "structure_note": "{動詞|どうし}て{形|けい} ＋ きました（{過去|かこ}から{現在|げんざい}までの{継続|けいぞく}）",
+              "en": "For the three years since coming to Japan, I have been learning kanji little by little up to now."
+            },
+            {
+              "ja_ruby": "これからも{高齢化|こうれいか}が{進|すす}んでいくと{思|おも}います。",
+              "structure_note": "{動詞|どうし}て{形|けい} ＋ いく（{現在|げんざい}から{未来|みらい}への{進行|しんこう}）",
+              "en": "I think the aging of society will continue progressing from here into the future."
+            },
+            {
+              "ja_ruby": "テーブルの{上|うえ}に、{飲|の}みかけのコーヒーが{置|お}いてあった。",
+              "structure_note": "{動詞|どうし}ます{形|けい}{語幹|ごかん}（{飲|の}み）＋ かけの ＋ {名詞|めいし}",
+              "en": "A half-drunk cup of coffee had been left sitting on the table."
+            },
+            {
+              "ja_ruby": "{読|よ}みかけの{小説|しょうせつ}をカバンに{入|い}れて、{電車|でんしゃ}を{降|お}りた。",
+              "structure_note": "{動詞|どうし}ます{形|けい}{語幹|ごかん}（{読|よ}み）＋ かけの ＋ {名詞|めいし}",
+              "en": "I put my half-read novel into my bag and got off the train."
+            }
+          ],
+          "pitfalls": [
+            "Match time direction carefully: past-to-present accumulation takes 〜てきた, while present-to-future projection takes 〜ていく (× これまで{頑張|がんば}っていく, × {将来|しょうらい}{増|ふ}えてきた).",
+            "〜かけ attaches strictly to the ます-stem ({読|よ}みかけ) and assumes the action actually started before stopping halfway; when modifying a noun, connect it with の ({読|よ}みかけの{本|ほん})."
+          ]
+        }
+      ],
+      "lesson_contrast": {
+        "title": "Continuing Actions, Trends & Lingering States in Lesson 53",
+        "explanation": "Choose the right pattern by checking verb stem requirements, speaker attitude (complaint vs neutral trend), and whether the action is uninterrupted or half-finished.",
+        "rows": [
+          {
+            "expression": "〜てばかりいる",
+            "register": "Neutral / Critical",
+            "key_rule": "Vて + ばかりいる; complains that someone repeatedly does nothing else.",
+            "example_short": "ゲームをしてばかりいる。"
+          },
+          {
+            "expression": "〜っぱなし",
+            "register": "Casual / Careless",
+            "key_rule": "Vます-stem + っぱなし; leaves a reversible state improperly open or on.",
+            "example_short": "ドアを{開|あ}けっぱなしにする。"
+          },
+          {
+            "expression": "〜{一方|いっぽう}だ",
+            "register": "Written / One-way",
+            "key_rule": "Vる (dictionary form) + 一方だ; tracks a runaway single-direction trend.",
+            "example_short": "{物価|ぶっか}が{上|あ}がる{一方|いっぽう}だ。"
+          },
+          {
+            "expression": "〜つつある",
+            "register": "Written / Formal",
+            "key_rule": "Vます-stem + つつある; objective formal spotlight on a gradual transition.",
+            "example_short": "{体調|たいちょう}が{回復|かいふく}しつつある。"
+          },
+          {
+            "expression": "〜ていく / 〜てくる",
+            "register": "Neutral / Temporal",
+            "key_rule": "Vて + くる (past to now) vs Vて + いく (now into the future).",
+            "example_short": "{漢字|かんじ}を{覚|おぼ}えてきた。"
+          },
+          {
+            "expression": "〜かけ（だ / の）",
+            "register": "Neutral / Interrupted",
+            "key_rule": "Vます-stem + かけ; action started and left half-finished (noun takes の).",
+            "example_short": "{飲|の}みかけのコーヒー。"
+          }
+        ]
+      },
+      "practice_quiz": [
+        {
+          "question_id": "L53-Q1",
+          "question_type": "fill_blank",
+          "prompt_ja_ruby": "{病院|びょういん}で{薬|くすり}をもらってから、{田中|たなか}さんの{熱|ねつ}は{少|すこ}しずつ（　　　）。",
+          "context_en": "Reporting a gradual, objective medical improvement after receiving medicine at the hospital.",
+          "choices": [
+            "{下|さ}がるつつある",
+            "{下|さ}がりつつある",
+            "{下|さ}げっぱなしだ",
+            "{下|さ}がってばかりいる"
+          ],
+          "correct_index": 1,
+          "explanation": "Correct: B ({下|さ}がりつつある). 〜つつある attaches strictly to the ます-stem ({下|さ}がり) of a change verb to express a steady ongoing transition. A ({下|さ}がるつつある) wrongly uses the dictionary form; C ({下|さ}げっぱなしだ) implies carelessly leaving something lowered; D ({下|さ}がってばかりいる) implies annoying repetitive behavior rather than gradual healing."
+        },
+        {
+          "question_id": "L53-Q2",
+          "question_type": "nuance_choice",
+          "prompt_ja_ruby": "{佐藤|さとう}さんはエアコンを（　　　）{出|で}かけてしまったので、{電気|でんき}がもったいない。",
+          "context_en": "Expressing mild annoyance that Sato carelessly went out leaving the air conditioner running.",
+          "choices": [
+            "つけてばかりいて",
+            "つけかけて",
+            "つけつつあって",
+            "つけっぱなしで"
+          ],
+          "correct_index": 3,
+          "explanation": "Correct: D (つけっぱなしで). Vます-stem (つけ) + っぱなしで captures carelessly leaving an appliance running unattended before going out. A (つけてばかりいて) means doing nothing but turning it on repeatedly; B (つけかけて) means starting to turn it on and stopping halfway; C (つけつつあって) is ungrammatical here because つつある requires gradual change verbs."
+        },
+        {
+          "question_id": "L53-Q3",
+          "question_type": "attachment_trap",
+          "prompt_ja_ruby": "{物価|ぶっか}がどんどん{上|あ}がって、{毎月|まいつき}の{生活費|せいかつひ}は（　　　）。",
+          "context_en": "Testing verb conjugation before 〜一方だ ('keeps increasing'): 'Prices keep rising, and monthly living expenses just keep increasing.'",
+          "choices": [
+            "{増|ふ}える{一方|いっぽう}だ",
+            "{増|ふ}え{一方|いっぽう}だ",
+            "{増|ふ}えている{一方|いっぽう}だ",
+            "{増|ふ}えた{一方|いっぽう}だ"
+          ],
+          "correct_index": 0,
+          "explanation": "Correct: A ({増|ふ}える{一方|いっぽう}だ). 〜{一方|いっぽう}だ attaches strictly to the plain dictionary form ({増|ふ}える) of a change-of-state verb. B ({増|ふ}え{一方|いっぽう}だ) wrongly uses the ます-stem; C ({増|ふ}えている{一方|いっぽう}だ) wrongly inserts ている; D ({増|ふ}えた{一方|いっぽう}だ) wrongly uses the past た-form."
+        },
+        {
+          "question_id": "L53-Q4",
+          "question_type": "star_order",
+          "prompt_ja_ruby": "{昨日|きのう}の{夜|よる}、＿　＿　★　＿{風邪|かぜ}をひいてしまった。",
+          "context_en": "Explaining the cause of catching a cold: 'Last night, because I left the air conditioner on, I ended up catching a cold.'",
+          "choices": [
+            "つけっぱなしに",
+            "エアコンを",
+            "した",
+            "せいで"
+          ],
+          "correct_index": 2,
+          "explanation": "Correct: C (した). Full sentence: {昨日|きのう}の{夜|よる}、エアコンを(1) つけっぱなしに(2) した(3★) せいで(4) {風邪|かぜ}をひいてしまった。エアコンを is the direct object of つけっぱなしにする, and した completes the past noun-modifying clause before せいで ('because of doing X [regrettable result]')."
+        }
+      ]
+    },
+    {
+      "lesson_id": "L54",
+      "lesson_number": 54,
+      "renshuu_title": "Completing Actions",
+      "has_video": false,
+      "summary": "Master three essential N3 completion frameworks: exhausting a limit, capacity, or decisive assertion (〜切る / 〜切れる / 〜切れない), separating deliberate transitive task completion from broad or non-volitional cessation (〜終える vs 〜終わる), and marking finality, irreversibility, or regret alongside casual contractions (〜てしまう / 〜ちゃう / 〜じゃう).",
+      "study_tip": "Separate Lesson 54's finishers by control and tone: Vます + 切る stresses hitting 100% exhaustion or certainty (with potential 切れる/切れない for capacity); Vます + 終える requires a conscious human agent wrapping up a task, whereas Vます + 終わる also handles weather and natural endings; and Vて + しまう expresses finality or regret, contracting in casual chat to 〜ちゃう (from て) and 〜じゃう (from で).",
+      "grammar_points": [
+        {
+          "id": "kiru-kireru-kirenai",
+          "pattern": "〜切る / 切れる / 切れない",
+          "pattern_ruby": "〜{切|き}る / {切|き}れる / {切|き}れない",
+          "romaji": "~kiru / ~kireru / ~kirenai",
+          "meaning_en": "do ~ completely to the end; assert firmly; can / cannot finish all of ~",
+          "register": "neutral",
+          "renshuu_status": "verified_renshuu",
+          "mental_model": "Literally 'slicing cleanly all the way through,' attaching 〜{切|き}る to a verb's ます-stem means pushing an action 100% to its boundary until nothing remains ({読|よ}み{切|き}る = finish every page, {使|つか}い{切|き}る = use up completely, {言|い}い{切|き}る = state flatly without doubt). Its potential forms 〜{切|き}れる / 〜{切|き}れない measure whether a huge amount or challenge can be finished completely ({数|かぞ}え{切|き}れない = too many to finish counting; {食|た}べ{切|き}れない = too much to finish eating).",
+          "formation": [
+            {
+              "pos": "{動詞|どうし}ます{形|けい}{語幹|ごかん}",
+              "rule": "＋ {切|き}る（{最後|さいご}までやり{遂|と}げる・{断言|だんげん}する）"
+            },
+            {
+              "pos": "{動詞|どうし}ます{形|けい}{語幹|ごかん}（{可能|かのう}）",
+              "rule": "＋ {切|き}れる / {切|き}れない（{全部|ぜんぶ}〜できる・できない）"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "{厚|あつ}い{小説|しょうせつ}を{週末|しゅうまつ}のうちに{読|よ}み{切|き}った。",
+              "structure_note": "{動詞|どうし}ます{形|けい}{語幹|ごかん}（{読|よ}み）＋ {切|き}った",
+              "en": "I read the thick novel all the way to the last page over the weekend."
+            },
+            {
+              "ja_ruby": "{鈴木|すずき}さんは「{今回|こんかい}の{計画|けいかく}は{必|かなら}ず{成功|せいこう}する」と{言|い}い{切|き}った。",
+              "structure_note": "{動詞|どうし}ます{形|けい}{語幹|ごかん}（{言|い}い）＋ {切|き}った（{断言|だんげん}）",
+              "en": "Suzuki asserted flatly, 'This plan will definitely succeed.'"
+            },
+            {
+              "ja_ruby": "{夜空|よぞら}には{数|かぞ}え{切|き}れないほどの{星|ほし}が{輝|かがや}いていた。",
+              "structure_note": "{動詞|どうし}ます{形|けい}{語幹|ごかん}（{数|かぞ}え）＋ {切|き}れない",
+              "en": "In the night sky, more stars than you could ever finish counting were shining."
+            },
+            {
+              "ja_ruby": "こんなにたくさんの{料理|りょうり}、{一人|ひとり}ではとても{食|た}べ{切|き}れないよ。",
+              "structure_note": "{動詞|どうし}ます{形|けい}{語幹|ごかん}（{食|た}べ）＋ {切|き}れない",
+              "en": "There is no way I can finish eating all this food by myself."
+            }
+          ],
+          "pitfalls": [
+            "Do NOT confuse godan 〜{切|き}る ({食|た}べ{切|き}らない = deliberately choose not to finish) with ichidan potential 〜{切|き}れる ({食|た}べ{切|き}れない = physically cannot finish it all due to excess).",
+            "Attach 〜{切|き}る / {切|き}れる strictly to the ます-stem ({使|つか}い{切|き}る), never the て-form or dictionary form (× {使|つか}って{切|き}る, × {使|つか}う{切|き}る)."
+          ]
+        },
+        {
+          "id": "oeru-vs-owaru",
+          "pattern": "〜終える・〜終わる",
+          "pattern_ruby": "〜{終|お}える・〜{終|お}わる",
+          "romaji": "~oeru · ~owaru",
+          "meaning_en": "finish doing ~ (intentional completion of a task vs general/natural cessation)",
+          "register": "neutral",
+          "renshuu_status": "verified_renshuu",
+          "mental_model": "This auxiliary pair mirrors the standalone transitive/intransitive contrast between {終|お}える and {終|お}わる. 〜{終|お}える (transitive ichidan) spotlights an intentional human agent wrapping up a deliberate, bounded task (writing a thesis, reviewing all documents). 〜{終|お}わる (intransitive godan) is far broader: it covers everyday activities ({朝|あさ}ごはんを{食|た}べ{終|お}わる) AND natural or non-volitional events ending on their own ({雨|あめ}が{降|ふ}り{終|お}わる). When there is no conscious human finisher, ONLY 〜{終|お}わる is grammatical.",
+          "formation": [
+            {
+              "pos": "{動詞|どうし}ます{形|けい}{語幹|ごかん}（{意志動詞|いしどうし}）",
+              "rule": "＋ {終|お}える（{計画的|けいかくてき}・{意図的|いとてき}な{完了|かんりょう}）"
+            },
+            {
+              "pos": "{動詞|どうし}ます{形|けい}{語幹|ごかん}（{自然現象|しぜんげんしょう}も{可|か}）",
+              "rule": "＋ {終|お}わる（{一般的|いっぱんてき}な{終了|しゅうりょう}）"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "やっと{卒業論文|そつぎょうろんぶん}を{書|か}き{終|お}えて、ほっとした。",
+              "structure_note": "{動詞|どうし}ます{形|けい}{語幹|ごかん}（{書|か}き）＋ {終|お}えて（{意図的|いとてき}な{課題|かだい}の{完了|かんりょう}）",
+              "en": "I finally finished writing my graduation thesis and felt relieved."
+            },
+            {
+              "ja_ruby": "さっきから{降|ふ}っていた{雨|あめ}がようやく{降|ふ}り{終|お}わり、{空|そら}が{明|あか}るくなってきた。",
+              "structure_note": "{無意志動詞|むいしどうし}（{降|ふ}り）＋ {終|お}わる（{終|お}えるは{不可|ふか}）",
+              "en": "The rain that had been falling for a while has finally stopped falling, and the sky is brightening."
+            },
+            {
+              "ja_ruby": "{昼|ひる}ごはんを{食|た}べ{終|お}わったら、すぐ{会議室|かいぎしつ}へ{向|む}かいましょう。",
+              "structure_note": "{動詞|どうし}ます{形|けい}{語幹|ごかん}（{食|た}べ）＋ {終|お}わったら",
+              "en": "Once we finish eating lunch, let's head straight to the meeting room."
+            },
+            {
+              "ja_ruby": "{山田|やまだ}さんは{大切|たいせつ}な{書類|しょるい}をすべて{読|よ}み{終|お}えてから、サインをした。",
+              "structure_note": "{動詞|どうし}ます{形|けい}{語幹|ごかん}（{読|よ}み）＋ {終|お}えてから",
+              "en": "Yamada finished reading through all the important documents before signing."
+            }
+          ],
+          "pitfalls": [
+            "NEVER attach 〜{終|お}える to natural phenomena or non-volitional verbs (× {雨|あめ}が{降|ふ}り{終|お}える, × {桜|さくら}が{咲|さ}き{終|お}える)—always use 〜{終|お}わる when there is no deliberate human agent.",
+            "Mind the verb classes when conjugating: 〜{終|お}える is ichidan ({書|か}き{終|お}えない), whereas 〜{終|お}わる is godan ({降|ふ}り{終|お}わらない)."
+          ]
+        },
+        {
+          "id": "te-shimau",
+          "pattern": "〜てしまう / 〜ちゃう / 〜じゃう",
+          "pattern_ruby": "〜てしまう / 〜ちゃう / 〜じゃう",
+          "romaji": "~te shimau / ~chau / ~jau",
+          "meaning_en": "finish ~ completely; end up ~ing (irreversibility, inadvertence, or regret)",
+          "register": "neutral",
+          "renshuu_status": "verified_renshuu",
+          "mental_model": "〜てしまう adds two tightly connected nuances to an action: (1) total, clean completion once and for all ({全部|ぜんぶ}{読|よ}んでしまった), and (2) an irreversible accident, slip, or regrettable outcome ({傘|かさ}を{忘|わす}れてしまった = oops, I left my umbrella behind). In everyday casual speech, 〜てしまう contracts smoothly into 〜ちゃう when the て-form ends in て ({書|か}いてしまう -> {書|か}いちゃう), and into voiced 〜じゃう when the て-form ends in で ({読|よ}んでしまう -> {読|よ}んじゃう).",
+          "formation": [
+            {
+              "pos": "{動詞|どうし}て{形|けい}",
+              "rule": "＋ しまう（{標準|ひょうじゅん}・{丁寧|ていねい}：〜てしまいます）"
+            },
+            {
+              "pos": "{動詞|どうし}て{形|けい}（「〜て」→「〜ちゃう」）",
+              "rule": "「〜てしまう」の{縮約|しゅくやく}（{例|れい}：{書|か}いてしまう → {書|か}いちゃう）"
+            },
+            {
+              "pos": "{動詞|どうし}て{形|けい}（「〜で」→「〜じゃう」）",
+              "rule": "「〜でしまう」の{縮約|しゅくやく}（{例|れい}：{読|よ}んでしまう → {読|よ}んじゃう）"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "テストの{範囲|はんい}のプリントは、{昨日|きのう}のうちに{全部|ぜんぶ}{読|よ}んでしまいました。",
+              "structure_note": "{動詞|どうし}て{形|けい}（{読|よ}んで）＋ しまいました（{完了|かんりょう}）",
+              "en": "I finished reading all the handouts for the test material yesterday."
+            },
+            {
+              "ja_ruby": "せっかく{買|か}ったばかりのサングラスを、{駅|えき}のベンチに{忘|わす}れてしまった。",
+              "structure_note": "{動詞|どうし}て{形|けい}（{忘|わす}れて）＋ しまった（{後悔|こうかい}・うっかり）",
+              "en": "I accidentally left the sunglasses I had just bought on the station bench."
+            },
+            {
+              "ja_ruby": "そのケーキ、{冷蔵庫|れいぞうこ}に{入|い}れておいたのに、{弟|おとうと}がもう{食|た}べちゃったよ。",
+              "structure_note": "{食|た}べてしまった → {食|た}べちゃった（{口語|こうご}・{会話|かいわ}）",
+              "en": "Even though I put that cake in the fridge, my younger brother already ate it all up!"
+            },
+            {
+              "ja_ruby": "こんな{遅|おそ}い{時間|じかん}にコーヒーを{飲|の}んじゃったら、{今夜|こんや}{眠|ねむ}れなくなるよ。",
+              "structure_note": "{飲|の}んでしまったら → {飲|の}んじゃったら（で → じゃう）",
+              "en": "If you go and drink coffee this late at night, you won't be able to sleep tonight."
+            }
+          ],
+          "pitfalls": [
+            "Never drop the voicing on で-verbs: {読|よ}んで, {飲|の}んで, {遊|あそ}んで, and {泳|およ}いで ALWAYS contract to じゃう ({読|よ}んじゃう, {飲|の}んじゃう), NEVER ちゃう (× {読|よ}んちゃう).",
+            "〜ちゃう / 〜じゃう belong strictly to casual spoken Japanese; keep full 〜てしまいました in polite customer service, essays, or business emails.",
+            "〜てしまう does not always express regret—with intentional planning ({今日|きょう}中にやってしまおう), it simply emphasizes wrapping a task up completely."
+          ]
+        }
+      ],
+      "lesson_contrast": {
+        "title": "Ways of Completing Actions in Lesson 54",
+        "explanation": "Match the auxiliary to whether you want to stress total exhaustion/limit, deliberate vs natural stopping, or finality/regret.",
+        "rows": [
+          {
+            "expression": "〜{切|き}る / {切|き}れる",
+            "register": "Neutral",
+            "key_rule": "Vます-stem + 切る; pushes an action 100% to its limit or states capacity.",
+            "example_short": "{厚|あつ}い{本|ほん}を{読|よ}み{切|き}った。"
+          },
+          {
+            "expression": "〜{終|お}える",
+            "register": "Neutral / Formal",
+            "key_rule": "Vます-stem + 終える; intentional agent finishes a bounded task (human subject).",
+            "example_short": "{論文|ろんぶん}を{書|か}き{終|お}えた。"
+          },
+          {
+            "expression": "〜{終|お}わる",
+            "register": "Neutral",
+            "key_rule": "Vます-stem + 終わる; general finish, including non-volitional events like rain.",
+            "example_short": "{雨|あめ}が{降|ふ}り{終|お}わった。"
+          },
+          {
+            "expression": "〜てしまう / ちゃう・じゃう",
+            "register": "Neutral / Casual",
+            "key_rule": "Vて + しまう; total finish or regret/inadvertence (て->ちゃう, で->じゃう).",
+            "example_short": "{一日|いちにち}で{読|よ}んじゃった。"
+          }
+        ]
+      },
+      "practice_quiz": [
+        {
+          "question_id": "L54-Q1",
+          "question_type": "attachment_trap",
+          "prompt_ja_ruby": "「その{小説|しょうせつ}、もう{読|よ}んだ？」「うん、おもしろくて{一日|いちにち}で（　　　）よ。」",
+          "context_en": "Choosing the correct casual contraction of 〜てしまう for 読む ('to read') in friendly conversation.",
+          "choices": [
+            "{読|よ}みちゃった",
+            "{読|よ}んちゃった",
+            "{読|よ}んじゃった",
+            "{読|よ}みじゃった"
+          ],
+          "correct_index": 2,
+          "explanation": "Correct: C ({読|よ}んじゃった). Since the て-form of {読|よ}む is voiced {読|よ}んで, {読|よ}んでしまった contracts to {読|よ}んじゃった. A ({読|よ}みちゃった) and D ({読|よ}みじゃった) wrongly attach to the ます-stem instead of the て/で-form; B ({読|よ}んちゃった) forgets the mandatory voicing from で to じゃ."
+        },
+        {
+          "question_id": "L54-Q2",
+          "question_type": "nuance_choice",
+          "prompt_ja_ruby": "さっきまで{激|はげ}しく{降|ふ}っていた{雨|あめ}がようやく（　　　）、{虹|にじ}が{出|で}てきた。",
+          "context_en": "Selecting the completion auxiliary compatible with a natural weather event ('the rain finally stopped falling').",
+          "choices": [
+            "{降|ふ}り{終|お}わり",
+            "{降|ふ}り{終|お}え",
+            "{降|ふ}り{出|だ}し",
+            "{降|ふ}りかけ"
+          ],
+          "correct_index": 0,
+          "explanation": "Correct: A ({降|ふ}り{終|お}わり). Intransitive 〜{終|お}わる works naturally with non-volitional events like rain stopping. B ({降|ふ}り{終|お}え) fails because transitive 〜{終|お}える requires a deliberate human agent; C ({降|ふ}り{出|だ}し) means 'started falling,' which contradicts 'had been falling hard until a moment ago' and the rainbow appearing; D ({降|ふ}りかけ) means about to fall or halfway through falling, clashing with ようやく."
+        },
+        {
+          "question_id": "L54-Q3",
+          "question_type": "fill_blank",
+          "prompt_ja_ruby": "お{土産|みやげ}にもらったお{菓子|かし}が{多|おお}すぎて、{家族|かぞく}{全員|ぜんいん}でも（　　　）。",
+          "context_en": "Expressing inability to finish eating a huge amount of sweets: 'Even with the whole family, we cannot possibly eat it all.'",
+          "choices": [
+            "{食|た}べ{終|お}えた",
+            "{食|た}べちゃった",
+            "{食|た}べ{切|き}った",
+            "{食|た}べ{切|き}れない"
+          ],
+          "correct_index": 3,
+          "explanation": "Correct: D ({食|た}べ{切|き}れない). Potential negative Vます-stem + {切|き}れない expresses being unable to finish all of an excessive quantity, matching {多|おお}すぎて. A ({食|た}べ{終|お}えた), B ({食|た}べちゃった), and C ({食|た}べ{切|き}った) all state that they already finished eating it all, contradicting {多|おお}すぎて."
+        },
+        {
+          "question_id": "L54-Q4",
+          "question_type": "star_order",
+          "prompt_ja_ruby": "{健太|けんた}は＿　＿　★　＿、すぐ{母|はは}に{謝|あやま}った。",
+          "context_en": "Ordering a sentence expressing regret over an accidental break: 'Because Kenta ended up breaking a precious plate, he apologized to his mother right away.'",
+          "choices": [
+            "{皿|さら}を",
+            "{割|わ}って",
+            "しまったため",
+            "{大切|たいせつ}な"
+          ],
+          "correct_index": 1,
+          "explanation": "Correct: B ({割|わ}って). Full sentence: {健太|けんた}は {大切|たいせつ}な(1) {皿|さら}を(2) {割|わ}って(3★) しまったため(4)、すぐ{母|はは}に{謝|あやま}った。{大切|たいせつ}な modifies {皿|さら}を, and {割|わ}って attaches directly before しまったため to express an unintended mishap causing the apology."
+        }
+      ]
+    },
+    {
+      "lesson_id": "L55",
+      "lesson_number": 55,
+      "renshuu_title": "Completing Actions #2",
+      "has_video": false,
+      "summary": "Master Lesson 55's specialized aspectual compounds and temporal phase markers: crafting or reaching a finished product (〜上げる / 〜上がる), steadfast persistence or pushing through hardship (〜通す・〜抜く), thorough immersion and proper redoing (〜込む・〜直す), reciprocal mutual actions (〜合う), and action-phase framing plus narrow counterfactual close calls (〜ところだ / 〜ところだった).",
+      "study_tip": "Split Lesson 55 into two clean tools: compound verbs on the ます-stem specify *how* an action plays out (crafted with 上げる/上がる, endured with 通す/抜く, steeped with 込む, corrected with 直す, shared mutually with 合う), while 〜ところだ pins down exact timing on the action clock (Vる = about to, Vている = in the middle, Vた = just finished)—and remember that Vる + ところだった flips into 'almost happened!'",
+      "grammar_points": [
+        {
+          "id": "ageru-agaru",
+          "pattern": "〜上げる / 上がる",
+          "pattern_ruby": "〜{上|あ}げる / {上|あ}がる",
+          "romaji": "~ageru / ~agaru",
+          "meaning_en": "finish crafting/building ~ (transitive); be completed/ready (intransitive)",
+          "register": "neutral",
+          "renshuu_status": "canonical_n3",
+          "mental_model": "Picture shaping a sculpture, baking bread, or drafting a report up to the crowning touch: 〜{上|あ}げる and 〜{上|あ}がる mark the culmination of a creative or constructive process. Matching their standalone pair, 〜{上|あ}げる is transitive (an agent finishes producing a work: {作品|さくひん}を{作|つく}り{上|あ}げる) while 〜{上|あ}がる is intransitive (the product itself reaches readiness: パンが{焼|や}き{上|あ}がる, {建物|たてもの}が{出来|でき}{上|あ}がる).",
+          "formation": [
+            {
+              "pos": "{動詞|どうし}ます{形|けい}{語幹|ごかん}（{他動詞|たどうし}）",
+              "rule": "＋ {上|あ}げる（{完成|かんせい}させる）"
+            },
+            {
+              "pos": "{動詞|どうし}ます{形|けい}{語幹|ごかん}（{自動詞|じどうし}）",
+              "rule": "＋ {上|あ}がる（{完成|かんせい}した{状態|じょうたい}になる）"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "チームのメンバーと{協力|きょうりょく}して、やっと{発表|はっぴょう}の{資料|しりょう}を{作|つく}り{上|あ}げた。",
+              "structure_note": "{他動詞|たどうし}（{作|つく}り）＋ {上|あ}げた（を＋{上|あ}げる）",
+              "en": "Working together with my team members, I finally finished putting together the presentation materials."
+            },
+            {
+              "ja_ruby": "このセーターは、{母|はは}が{三|さん}か{月|げつ}かけて{編|あ}み{上|あ}げたものです。",
+              "structure_note": "{他動詞|たどうし}（{編|あ}み）＋ {上|あ}げた",
+              "en": "This sweater is one that my mother spent three months knitting to completion."
+            },
+            {
+              "ja_ruby": "もうすぐおいしいフランスパンが{焼|や}き{上|あ}がりますから、{少|すこ}しお{待|ま}ちください。",
+              "structure_note": "{自動詞|じどうし}（{焼|や}き）＋ {上|あ}がる（が＋{上|あ}がる）",
+              "en": "The delicious baguettes will finish baking in just a moment, so please wait a little."
+            },
+            {
+              "ja_ruby": "ついに{新|あたら}しい{体育館|たいいくかん}が{出来|でき}{上|あ}がって、{来月|らいげつ}から{使|つか}えるようになる。",
+              "structure_note": "{自動詞|じどうし}（{出来|でき}）＋ {上|あ}がる",
+              "en": "The new gymnasium is finally finished and will become usable starting next month."
+            }
+          ],
+          "pitfalls": [
+            "Match particle and transitivity strictly: direct object を pairs with transitive 〜{上|あ}げる ({資料|しりょう}を{作|つく}り{上|あ}げた), while subject が pairs with intransitive 〜{上|あ}がる (パンが{焼|や}き{上|あ}がった, never × パンが{焼|や}き{上|あ}げた).",
+            "Reserve 〜{上|あ}げる / {上|あ}がる for building, crafting, cooking, or forming a tangible/structured output—do not attach it to ordinary consumption verbs (× ごはんを{食|た}べ{上|あ}げる)."
+          ]
+        },
+        {
+          "id": "toosu-nuku",
+          "pattern": "〜通す・〜抜く",
+          "pattern_ruby": "〜{通|とお}す・〜{抜|ぬ}く",
+          "romaji": "~toosu · ~nuku",
+          "meaning_en": "keep doing ~ steadfastly from start to finish; push ~ through despite hardship",
+          "register": "neutral",
+          "renshuu_status": "canonical_n3",
+          "mental_model": "Both compounds praise relentless perseverance, yet they highlight slightly different strengths. 〜{通|とお}す ('pass straight through') emphasizes unbroken consistency of a stance, rule, or continuous action from beginning to end without wavering ({信念|しんねん}を{貫|つらぬ}き{通|とお}す, {一晩中|ひとばんじゅう}{働|はたら}き{通|とお}す). 〜{抜|ぬ}く ('break/pull all the way out') emphasizes overcoming severe pain, pressure, or mental struggle to cross the finish line (マラソンを{走|はし}り{抜|ぬ}く, {悩|なや}み{抜|ぬ}く).",
+          "formation": [
+            {
+              "pos": "{動詞|どうし}ます{形|けい}{語幹|ごかん}",
+              "rule": "＋ {通|とお}す（{最初|さいしょ}から{最後|さいご}まで{一貫|いっかん}して{続|つづ}ける）"
+            },
+            {
+              "pos": "{動詞|どうし}ます{形|けい}{語幹|ごかん}",
+              "rule": "＋ {抜|ぬ}く（{困難|こんなん}を{乗|の}り{越|こ}えてやり{遂|と}げる）"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "{周囲|しゅうい}に{反対|はんたい}されても、{佐藤|さとう}さんは{最後|さいご}まで{自分|じぶん}の{信念|しんねん}を{貫|つらぬ}き{通|とお}した。",
+              "structure_note": "{動詞|どうし}ます{形|けい}{語幹|ごかん}（{貫|つらぬ}き）＋ {通|とお}した",
+              "en": "Even though people around him opposed him, Sato held steadfastly to his beliefs until the end."
+            },
+            {
+              "ja_ruby": "{締|し}め{切|き}りに{間|ま}に{合|あ}わせるため、{一晩中|ひとばんじゅう}{働|はたら}き{通|とお}した。",
+              "structure_note": "{動詞|どうし}ます{形|けい}{語幹|ごかん}（{働|はたら}き）＋ {通|とお}した（{途切|とぎ}れない{継続|けいぞく}）",
+              "en": "In order to meet the deadline, I worked straight through the entire night."
+            },
+            {
+              "ja_ruby": "{足|あし}が{痛|いた}くなったけれど、あきらめずに42キロのマラソンを{走|はし}り{抜|ぬ}いた。",
+              "structure_note": "{動詞|どうし}ます{形|けい}{語幹|ごかん}（{走|はし}り）＋ {抜|ぬ}いた（{苦難|くなん}の{克服|こくふく}）",
+              "en": "Even though my legs started hurting, I didn't give up and ran the 42-kilometer marathon all the way to the finish."
+            },
+            {
+              "ja_ruby": "{何|なん}{日|にち}も{悩|なや}み{抜|ぬ}いた{末|すえ}に、{留学|りゅうがく}することを{決意|けつい}した。",
+              "structure_note": "{動詞|どうし}ます{形|けい}{語幹|ごかん}（{悩|なや}み）＋ {抜|ぬ}いた",
+              "en": "After agonizing over it for days, I made up my mind to study abroad."
+            }
+          ],
+          "pitfalls": [
+            "Do NOT use 〜{抜|ぬ}く for effortless everyday chores (× コーヒーを{飲|の}み{抜|ぬ}く); it belongs with actions involving real strain, endurance, or deep mental effort ({考|かんが}え{抜|ぬ}く, {生|い}き{抜|ぬ}く, {戦|たたか}い{抜|ぬ}く).",
+            "Do NOT attach 〜{通|とお}す to brief instantaneous actions without an ongoing span or stance (× {駅|えき}に{着|つ}き{通|とお}す)."
+          ]
+        },
+        {
+          "id": "komu-naosu",
+          "pattern": "〜込む・〜直す",
+          "pattern_ruby": "〜{込|こ}む・〜{直|なお}す",
+          "romaji": "~komu · ~naosu",
+          "meaning_en": "do ~ thoroughly/deeply into a state; redo ~ properly to fix or improve",
+          "register": "neutral",
+          "renshuu_status": "canonical_n3",
+          "mental_model": "〜{込|こ}む drives an action inward and deeper—either physically entering inside ({飛|と}び{込|こ}む, {書|か}き{込|こ}む) or immersing deeply until flavors, thoughts, or conditions intensify ({煮|に}{込|こ}む = simmer deeply; {話|はな}し{込|こ}む = talk absorbedly; {思|おも}い{込|こ}む = become firmly convinced). 〜{直|なお}す hits the corrective reset button: you did an action once, noticed a flaw or need for improvement, and now redo it properly ({書|か}き{直|なお}す, {見|み}{直|なお}す).",
+          "formation": [
+            {
+              "pos": "{動詞|どうし}ます{形|けい}{語幹|ごかん}",
+              "rule": "＋ {込|こ}む（{内部|ないぶ}へ・{十分|じゅうぶん}に{深|ふか}く）"
+            },
+            {
+              "pos": "{動詞|どうし}ます{形|けい}{語幹|ごかん}",
+              "rule": "＋ {直|なお}す（{修正|しゅうせい}・{改善|かいぜん}のためにやり{直|なお}す）"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "{美咲|みさき}さんとカフェで{二時間|にじかん}も{話|はな}し{込|こ}んでしまい、{気|き}がついたらもう{夕方|ゆうがた}だった。",
+              "structure_note": "{動詞|どうし}ます{形|けい}{語幹|ごかん}（{話|はな}し）＋ {込|こ}む（{深|ふか}く{集中|しゅうちゅう}）",
+              "en": "I got so deeply absorbed talking with Misaki at the café for two hours that before I knew it, it was already evening."
+            },
+            {
+              "ja_ruby": "このカレーは{弱火|よわび}でじっくり{煮|に}{込|こ}んだので、{野菜|やさい}までおいしいですよ。",
+              "structure_note": "{動詞|どうし}ます{形|けい}{語幹|ごかん}（{煮|に}）＋ {込|こ}んだ",
+              "en": "This curry has been simmered thoroughly over low heat, so even the vegetables are delicious."
+            },
+            {
+              "ja_ruby": "{漢字|かんじ}の{間違|まちが}いが{多|おお}かったので、レポートをもう{一度|いちど}{書|か}き{直|なお}すことにした。",
+              "structure_note": "{動詞|どうし}ます{形|けい}{語幹|ごかん}（{書|か}き）＋ {直|なお}す（{修正|しゅうせい}）",
+              "en": "Since there were many kanji mistakes, I decided to rewrite the report properly one more time."
+            },
+            {
+              "ja_ruby": "{計画|けいかく}に{無理|むり}があるとわかったので、スケジュールを{最初|さいしょ}から{見|み}{直|なお}しましょう。",
+              "structure_note": "{動詞|どうし}ます{形|けい}{語幹|ごかん}（{見|み}）＋ {直|なお}しましょう",
+              "en": "Now that we see the plan is unrealistic, let's review and revise the schedule from the beginning."
+            }
+          ],
+          "pitfalls": [
+            "〜{直|なお}す strictly means redoing an action to correct, improve, or reconsider it ({作|つく}り{直|なお}す, {言|い}い{直|なお}す)—never use it merely to repeat something enjoyable (× おいしいからもう{一度|いちど}{食|た}べ{直|なお}す -> ○ また{食|た}べる).",
+            "Distinguish 〜{込|こ}む's directional sense ({車|くるま}に{乗|の}り{込|こ}む = get into a car) from its deep-saturation sense ({話|はな}し{込|こ}む = talk deeply) so you don't force an unnatural compound onto simple verbs."
+          ]
+        },
+        {
+          "id": "au-reciprocal",
+          "pattern": "〜合う",
+          "pattern_ruby": "〜{合|あ}う",
+          "romaji": "~au",
+          "meaning_en": "do ~ with or to each other (mutual, reciprocal action)",
+          "register": "neutral",
+          "renshuu_status": "canonical_n3",
+          "mental_model": "Attaching 〜{合|あ}う to a verb's ます-stem converts an individual action into a two-way mutual exchange between two or more participants ({話|はな}し{合|あ}う = discuss together, {助|たす}け{合|あ}う = help one another, {教|おし}え{合|あ}う = teach each other, {励|はげ}まし{合|あ}う = encourage each other). Because reciprocity always needs multiple participants, either bundle them inside a plural subject (みんなで, {家族|かぞく}で) or name the partner with と ({同僚|どうりょう}と{話|はな}し{合|あ}う).",
+          "formation": [
+            {
+              "pos": "{動詞|どうし}ます{形|けい}{語幹|ごかん}",
+              "rule": "＋ {合|あ}う（お{互|たが}いに〜し{合|あ}う）"
+            },
+            {
+              "pos": "{相手|あいて}を{示|しめ}す{場合|ばあい}",
+              "rule": "{人|ひと}と ＋ {動詞|どうし}ます{形|けい}{語幹|ごかん} ＋ {合|あ}う"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "{卒業|そつぎょう}{後|ご}の{進路|しんろ}について、{両親|りょうしん}とじっくり{話|はな}し{合|あ}った。",
+              "structure_note": "{相手|あいて}（{両親|りょうしん}）＋ と ＋ {動詞|どうし}ます{形|けい}{語幹|ごかん}（{話|はな}し）＋ {合|あ}う",
+              "en": "I talked things over thoroughly with my parents about my path after graduation."
+            },
+            {
+              "ja_ruby": "{困|こま}ったときは、{近所|きんじょ}の{人|ひと}たちとお{互|たが}いに{助|たす}け{合|あ}うことが{大切|たいせつ}だ。",
+              "structure_note": "{動詞|どうし}ます{形|けい}{語幹|ごかん}（{助|たす}け）＋ {合|あ}う（{相互援助|そうごえんじょ}）",
+              "en": "In times of trouble, it is important to help one another with our neighbors."
+            },
+            {
+              "ja_ruby": "クラスの{仲間|なかま}とわからないところを{教|おし}え{合|あ}って、{試験|しけん}の{準備|じゅんび}をした。",
+              "structure_note": "{動詞|どうし}ます{形|けい}{語幹|ごかん}（{教|おし}え）＋ {合|あ}う",
+              "en": "My classmates and I taught each other the parts we didn't understand and prepared for the exam."
+            },
+            {
+              "ja_ruby": "{二人|ふたり}は{顔|かお}を{見|み}て、うれしそうに{笑|わら}い{合|あ}った。",
+              "structure_note": "{複数主語|ふくすうしゅご}（{二人|ふたり}は）＋ {笑|わら}い{合|あ}う",
+              "en": "The two of them looked at each other's faces and laughed happily together."
+            }
+          ],
+          "pitfalls": [
+            "〜{合|あ}う strictly requires two or more participants (a plural subject or a 〜と partner); never use it with a lone individual acting alone (× {一人|ひとり}で{話|はな}し{合|あ}った).",
+            "Attach 〜{合|あ}う solely to the ます-stem of verbs capable of mutual interaction ({助|たす}け{合|あ}う, {分|わ}け{合|あ}う), NEVER to the て-form or dictionary form (× {助|たす}けて{合|あ}う, × {助|たす}ける{合|あ}う) or solitary states like {寝|ね}る."
+          ]
+        },
+        {
+          "id": "tokoro-da-datta",
+          "pattern": "〜ところだ / 〜ところだった",
+          "pattern_ruby": "〜ところだ / 〜ところだった",
+          "romaji": "~tokoro da / ~tokoro datta",
+          "meaning_en": "be just about to / right in the middle of / just finished ~; almost ~ed (narrow escape)",
+          "register": "neutral",
+          "renshuu_status": "verified_renshuu",
+          "mental_model": "Literally 'spot/point,' 〜ところだ zooms in on the exact phase of an action via verb tense: Vる + ところだ = right on the verge of starting; Vている + ところだ = right in the middle right now; Vた + ところだ = literally just finished moments ago. Now watch the critical N3 twist: shifting Vる + ところだ into past tense (Vる + ところだった) does NOT mean 'was about to and did'—paired with もう{少|すこ}しで or あぶなく, it means 'almost happened (narrowly avoided!)'",
+          "formation": [
+            {
+              "pos": "{動詞|どうし}{辞書形|じしょけい}",
+              "rule": "＋ ところだ（これからする{直前|ちょくぜん}）"
+            },
+            {
+              "pos": "{動詞|どうし}ている{形|けい}",
+              "rule": "＋ ところだ（まさに{今|いま}している{最中|さいちゅう}）"
+            },
+            {
+              "pos": "{動詞|どうし}た{形|けい}",
+              "rule": "＋ ところだ（たった{今|いま}{終|お}わった{直後|ちょくご}）"
+            },
+            {
+              "pos": "{動詞|どうし}{辞書形|じしょけい}（{回避|かいひ}）",
+              "rule": "（もう{少|すこ}しで）＋ {動詞|どうし}{辞書形|じしょけい} ＋ ところだった"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "ちょうどこれから{昼|ひる}ごはんを{食|た}べるところです。{一緒|いっしょ}にどうですか。",
+              "structure_note": "{動詞|どうし}{辞書形|じしょけい}（{食|た}べる）＋ ところです（{直前|ちょくぜん}）",
+              "en": "I'm just about to eat lunch right now. Would you like to join me?"
+            },
+            {
+              "ja_ruby": "すみません、{今|いま}まさにお{客様|きゃくさま}にメールを{返信|へんしん}しているところなんです。",
+              "structure_note": "{動詞|どうし}ている{形|けい} ＋ ところ（{進行中|しんこうちゅう}）",
+              "en": "Sorry, I'm right in the middle of replying to a client's email at this very moment."
+            },
+            {
+              "ja_ruby": "{駅|えき}から{家|いえ}へ{帰|かえ}ってきたところなので、まだコートも{脱|ぬ}いでいません。",
+              "structure_note": "{動詞|どうし}た{形|けい} ＋ ところ（たった{今|いま}{完了|かんりょう}）",
+              "en": "Since I literally just got back home from the station, I haven't even taken off my coat yet."
+            },
+            {
+              "ja_ruby": "{階段|かいだん}で{足|あし}をすべらせて、もう{少|すこ}しで{転|ころ}ぶところだった。",
+              "structure_note": "もう{少|すこ}しで ＋ {辞書形|じしょけい} ＋ ところだった（{危機一髪|ききいっぱつ}）",
+              "en": "I slipped on the stairs and almost fell down!"
+            }
+          ],
+          "pitfalls": [
+            "For a close call ('almost happened!'), ALWAYS attach ところだった to the dictionary form (Vる), NEVER to Vた (× もう{少|すこ}しで{転|ころ}んだところだった -> ○ もう{少|すこ}しで{転|ころ}ぶところだった).",
+            "Do NOT replace Vたばかりだ with Vたところだ for events weeks or months ago: Vたところだ strictly marks an objective moment that just ended right now (× {去年|きょねん}{来|き}たところだ -> ○ {去年|きょねん}{来|き}たばかりだ)."
+          ]
+        }
+      ],
+      "lesson_contrast": {
+        "title": "Aspectual Compounds & Action Phases in Lesson 55",
+        "explanation": "Distinguish Lesson 55's completion verbs by how the work ends (crafted, persisted, immersed, corrected) and use 〜ところだ to locate timing or close calls.",
+        "rows": [
+          {
+            "expression": "〜{上|あ}げる / {上|あ}がる",
+            "register": "Neutral",
+            "key_rule": "Crafted work reaches completion; を + 上げる (transitive) vs が + 上がる (intransitive).",
+            "example_short": "{資料|しりょう}を{作|つく}り{上|あ}げた。"
+          },
+          {
+            "expression": "〜{通|とお}す",
+            "register": "Neutral",
+            "key_rule": "Vます-stem + 通す; maintain a stance or action steadily from start to end.",
+            "example_short": "{一晩中|ひとばんじゅう}{働|はたら}き{通|とお}した。"
+          },
+          {
+            "expression": "〜{抜|ぬ}く",
+            "register": "Neutral",
+            "key_rule": "Vます-stem + 抜く; push through intense hardship, pain, or deep struggle to finish.",
+            "example_short": "マラソンを{走|はし}り{抜|ぬ}いた。"
+          },
+          {
+            "expression": "〜{込|こ}む",
+            "register": "Neutral",
+            "key_rule": "Vます-stem + 込む; enter inward or saturate/immerse deeply into an activity.",
+            "example_short": "{弱火|よわび}でじっくり{煮|に}{込|こ}む。"
+          },
+          {
+            "expression": "〜{直|なお}す",
+            "register": "Neutral",
+            "key_rule": "Vます-stem + 直す; redo an action to fix errors, revise, or improve.",
+            "example_short": "レポートを{書|か}き{直|なお}す。"
+          },
+          {
+            "expression": "〜{合|あ}う",
+            "register": "Neutral",
+            "key_rule": "Vます-stem + 合う; mutual/reciprocal action with 2+ participants (often 〜と).",
+            "example_short": "{両親|りょうしん}とよく{話|はな}し{合|あ}う。"
+          },
+          {
+            "expression": "〜ところだ / ところだった",
+            "register": "Neutral",
+            "key_rule": "Vる/Vている/Vた + ところだ marks action phase; もう少しで + Vる + ところだった = 'almost!'",
+            "example_short": "もう{少|すこ}しで{転|ころ}ぶところだった。"
+          }
+        ]
+      },
+      "practice_quiz": [
+        {
+          "question_id": "L55-Q1",
+          "question_type": "attachment_trap",
+          "prompt_ja_ruby": "{道|みち}が{凍|こお}っていて、もう{少|すこ}しで{滑|すべ}って（　　　）。",
+          "context_en": "Testing verb form before 〜ところだった for a close call: 'The road was frozen, and I almost slipped and fell.'",
+          "choices": [
+            "{転|ころ}んだところだった",
+            "{転|ころ}んでいるところだった",
+            "{転|ころ}びところだった",
+            "{転|ころ}ぶところだった"
+          ],
+          "correct_index": 3,
+          "explanation": "Correct: D ({転|ころ}ぶところだった). Expressing a close call ('almost happened') requires the plain dictionary form (Vる) + ところだった. A ({転|ころ}んだところだった) uses た-form, which means 'had just fallen' instead of escaping a fall; B ({転|ころ}んでいるところだった) describes being mid-fall; C ({転|ころ}びところだった) wrongly attaches to the ます-stem."
+        },
+        {
+          "question_id": "L55-Q2",
+          "question_type": "fill_blank",
+          "prompt_ja_ruby": "パン{屋|や}さんの{奥|おく}からいいにおいがしてきた。もうすぐフランスパンが（　　　）そうだ。",
+          "context_en": "Choosing the right intransitive completion compound with subject particle が: 'It smells good from the back of the bakery—it looks like the baguettes are almost done baking.'",
+          "choices": [
+            "{焼|や}き{上|あ}げ",
+            "{焼|や}き{上|あ}がり",
+            "{焼|や}き{直|なお}し",
+            "{焼|や}き{抜|ぬ}き"
+          ],
+          "correct_index": 1,
+          "explanation": "Correct: B ({焼|や}き{上|あ}がり). Since フランスパンが is the intransitive subject, it pairs with intransitive {焼|や}き{上|あ}がる (stem {焼|や}き{上|あ}がり + そうだ). A ({焼|や}き{上|あ}げ) is transitive and requires an を object; C ({焼|や}き{直|なお}し) means re-baking to fix a mistake; D ({焼|や}き{抜|ぬ}き) misapplies hardship persistence to baking bread."
+        },
+        {
+          "question_id": "L55-Q3",
+          "question_type": "nuance_choice",
+          "prompt_ja_ruby": "{提出|ていしゅつ}した{書類|しょるい}に{数字|すうじ}のミスが{見|み}つかったので、{最初|さいしょ}から（　　　）ことにした。",
+          "context_en": "Selecting the compound verb meaning 'redo properly to correct errors' after finding numerical mistakes in a submitted document.",
+          "choices": [
+            "{作|つく}り{直|なお}す",
+            "{作|つく}り{込|こ}む",
+            "{作|つく}り{通|とお}す",
+            "{作|つく}り{抜|ぬ}く"
+          ],
+          "correct_index": 0,
+          "explanation": "Correct: A ({作|つく}り{直|なお}す). 〜{直|なお}す conveys redoing something from scratch in order to fix mistakes found in the first version. B ({作|つく}り{込|こ}む) means crafting deeply or thoroughly; C ({作|つく}り{通|とお}す) means continuously making something without stopping; D ({作|つく}り{抜|ぬ}く) stresses enduring severe hardship rather than fixing numerical errors."
+        },
+        {
+          "question_id": "L55-Q4",
+          "question_type": "star_order",
+          "prompt_ja_ruby": "{足|あし}が{痛|いた}かったが、＿　＿　★　＿{本当|ほんとう}にうれしかった。",
+          "context_en": "Ordering a sentence expressing pride in pushing through hardship: 'My legs hurt, yet being able to run all 42 kilometers through to the finish made me truly happy.'",
+          "choices": [
+            "{走|はし}り{抜|ぬ}く",
+            "42キロを",
+            "ことが",
+            "できて"
+          ],
+          "correct_index": 2,
+          "explanation": "Correct: C (ことが). Full sentence: {足|あし}が{痛|いた}かったが、42キロを(1) {走|はし}り{抜|ぬ}く(2) ことが(3★) できて(4) {本当|ほんとう}にうれしかった。42キロを serves as the direct path object of {走|はし}り{抜|ぬ}く, and ことができて nominalizes the plain verb to mean 'was able to finish running through hardship'."
+        }
+      ]
+    }
+  ]
+}

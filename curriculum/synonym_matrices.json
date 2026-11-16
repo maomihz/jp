@@ -1,0 +1,809 @@
+{
+  "matrices": [
+    {
+      "matrix_id": "M01",
+      "title": "わりに vs にしては vs くせに vs のに — Contrast Against Expectations",
+      "theme": "Contrast Against Expectations",
+      "decision_heuristic": "1. Check speaker attitude and subject first: if scolding or mocking a person for hypocrisy across the same subject, pick くせに (never for weather or inanimate objects). 2. Check if Clause 1 sets a benchmark category: bare noun directly before the pattern takes にしては ('for a beginner/child'), while noun + の or relative cost/effort-to-output takes わりに ('considering the price/effort'). 3. Otherwise, for a general surprising fact contradicting expectation with no benchmark noun needed, pick のに.",
+      "columns": [
+        "Pattern",
+        "Formation Key",
+        "Speaker Nuance",
+        "Constraints",
+        "Canonical Example"
+      ],
+      "rows": [
+        [
+          "〜わりに（は）",
+          "V plain / い-Adj / な-Adj + な / N + の + わりに（は）",
+          "Proportional ratio mismatch: 'for [price, age, or effort], unexpectedly Y.' Neutral surprise at disproportion.",
+          "Nouns REQUIRE の (× {値段|ねだん}わりに). Needs a scalable expectation to weigh against; avoid harsh blame.",
+          "このレストランは{値段|ねだん}が{安|やす}いわりに、{料理|りょうり}がとてもおいしい。"
+        ],
+        [
+          "〜にしては",
+          "V plain / い-Adj / な-Adj (bare) / N (bare) + にしては",
+          "Category benchmark surprise: 'considering X belongs to [category], Y is surprisingly good/bad.'",
+          "Nouns attach BARE without の or な (○ {初心者|しょしんしゃ}にしては, × {初心者|しょしんしゃ}のにしては). Never used to scold directly.",
+          "{健太|けんた}さんは{日本|にほん}に{来|き}たばかりにしては、{漢字|かんじ}をよく{知|し}っている。"
+        ],
+        [
+          "〜くせに",
+          "V plain / い-Adj / な-Adj + な / N + の + くせに",
+          "Sharp annoyance, sarcasm, or scolding at hypocrisy: 'even though [you/they] are X, how dare [you/they] do Y!'",
+          "Subject MUST be a person or living creature (never weather/prices) and identical in both clauses. Banned for neutral facts or self-praise.",
+          "{佐藤|さとう}さんは{自分|じぶん}で{何|なに}もしないくせに、いつも{文句|もんく}ばかり{言|い}う。"
+        ],
+        [
+          "〜のに",
+          "V plain / い-Adj / な-Adj + な / N + な + のに",
+          "General unmet expectation, surprise, or regret: 'even though X is true, unexpectedly Y happened.'",
+          "Nouns and な-adjectives REQUIRE な (○ {雨|あめ}なのに, × {雨|あめ}のに). Clause 2 cannot end with commands, requests, or invitations.",
+          "{毎日|まいにち}{一生懸命|いっしょうけんめい}{練習|れんしゅう}したのに、{試合|しあい}に{勝|か}てなかった。"
+        ]
+      ],
+      "minimal_pair_test": [
+        {
+          "pair_title": "Bare noun (にしては) vs Noun + の (わりに / くせに)",
+          "sentence_valid": "{美咲|みさき}さんは{子供|こども}にしては、とても{大人|おとな}っぽい{意見|いけん}を{言|い}う。",
+          "sentence_contrast": "× {美咲|みさき}さんは{子供|こども}のにしては、とても{大人|おとな}っぽい{意見|いけん}を{言|い}う。",
+          "explanation": "にしては attaches directly to a bare noun ({子供|こども}にしては) to evaluate an ability against a category standard. Adding の before にしては is ungrammatical, whereas わりに and くせに require の after nouns."
+        },
+        {
+          "pair_title": "Hypocritical blame toward people (くせに) vs inanimate surprise (のに)",
+          "sentence_valid": "{今年|ことし}は{冬|ふゆ}なのに、{昨日|きのう}も{今日|きょう}もコートがいらないほど{暖|あたた}かい。",
+          "sentence_contrast": "× {今年|ことし}は{冬|ふゆ}のくせに、{昨日|きのう}も{今日|きょう}もコートがいらないほど{暖|あたた}かい。",
+          "explanation": "くせに expresses critical irritation aimed exclusively at a person or living being acting inconsistently, so it cannot take inanimate subjects like {冬|ふゆ} ('winter'). Use のに (with な after nouns) for neutral natural contrasts."
+        },
+        {
+          "pair_title": "Proportional value (わりに) vs thwarted event (のに)",
+          "sentence_valid": "せっかく{人気|にんき}の{店|みせ}を{予約|よやく}したのに、{急|きゅう}な{仕事|しごと}で{行|い}けなくなった。",
+          "sentence_contrast": "× せっかく{人気|にんき}の{店|みせ}を{予約|よやく}したわりに、{急|きゅう}な{仕事|しごと}で{行|い}けなくなった。",
+          "explanation": "わりに compares a relative degree or quality against a benchmark ('considering the effort/price...'), so it clashes with an absolute thwarted plan marked by せっかく. Use のに when an actual fact defeats expectations."
+        }
+      ]
+    },
+    {
+      "matrix_id": "M02",
+      "title": "おかげで vs せいで vs ために vs ことから vs ばかりに — Causes & Reasons",
+      "theme": "Causes and Reasons",
+      "decision_heuristic": "1. Check emotional polarity first: grateful positive result = おかげで; blamed negative result = せいで; deep regret over one single misstep causing disaster = ばかりに. 2. For neutral causes without personal gratitude or blame, check predicate function: clue or origin behind a name or deduction ('from the fact that') = ことから (N + である); objective cause in formal notices or reports ('due to') = ために.",
+      "columns": [
+        "Pattern",
+        "Formation Key",
+        "Speaker Nuance",
+        "Constraints",
+        "Canonical Example"
+      ],
+      "rows": [
+        [
+          "〜おかげで",
+          "V plain / い-Adj / な-Adj + な / N + の + おかげで（おかげだ）",
+          "Warm gratitude or relief for a fortunate outcome ('thanks to X').",
+          "Restricted to positive, appreciated outcomes (except obvious sarcasm). Clause 2 cannot be a command, request, or blame.",
+          "{鈴木|すずき}さんが{手伝|てつだ}ってくれたおかげで、{時間|じかん}どおりに{仕事|しごと}が{終|お}わった。"
+        ],
+        [
+          "〜せいで",
+          "V plain / い-Adj / な-Adj + な / N + の + せいで（せいだ / せいか）",
+          "Frustrated blame or fault attribution for an unwelcome outcome ('because of X's fault').",
+          "Strictly for undesirable results; never for happy wins (× {先生|せんせい}のせいで{合格|ごうかく}した). Soften uncertain blame with せいか.",
+          "{昨日|きのう}の{台風|たいふう}のせいで、{朝|あさ}の{新幹線|しんかんせん}がすべて{止|と}まってしまった。"
+        ],
+        [
+          "〜ために",
+          "V plain / い-Adj / な-Adj + な / N + の + ために（ため / ためか）",
+          "Neutral, objective cause-and-effect ('due to X, Y occurred'), free of personal gratitude or blame.",
+          "Causal ために cannot end Clause 2 with commands, requests, or volition (which mark purpose ために). Nouns take の.",
+          "{大雨|おおあめ}のために、{今日|きょう}の{試合|しあい}は{来週|らいしゅう}に{延期|えんき}された。"
+        ],
+        [
+          "〜ことから",
+          "V plain / い-Adj / な-Adj + な・である / N + である + ことから",
+          "Objective clue, evidence, or origin behind a name, label, or judgment ('judging from the fact that X...').",
+          "TRAP: Nouns MUST use である (○ {学生|がくせい}であることから, × {学生|がくせい}のことから). Typically ends with {呼|よ}ばれている, {名付|なづ}けられた, or {分|わ}かる.",
+          "この{山|やま}は{形|かたち}が{富士山|ふじさん}に{似|に}ていることから、{地域|ちいき}の{富士|ふじ}と{呼|よ}ばれている。"
+        ],
+        [
+          "〜ばかりに",
+          "V plain (often た / ない) / い-Adj / な-Adj + な / N + である + ばかりに",
+          "Bitter regret over a single minor slip or circumstance causing a disproportionately bad outcome ('just because X...').",
+          "Clause 2 is almost always an unfortunate reality outside the speaker's control; never for routine logistics or good news.",
+          "{財布|さいふ}を{忘|わす}れたばかりに、せっかく{予約|よやく}した{店|みせ}で{食事|しょくじ}ができなかった。"
+        ]
+      ],
+      "minimal_pair_test": [
+        {
+          "pair_title": "Gratitude (おかげで) vs blame (せいで) polarity",
+          "sentence_valid": "{山田|やまだ}さんのわかりやすいアドバイスのおかげで、{面接|めんせつ}に{合格|ごうかく}できた。",
+          "sentence_contrast": "× {山田|やまだ}さんのわかりやすいアドバイスのせいで、{面接|めんせつ}に{合格|ごうかく}できた。",
+          "explanation": "せいで strictly assigns fault for an undesirable event, so pairing it with a fortunate triumph like {合格|ごうかく}できた ('passed the interview') creates an unnatural clash. Positive outcomes require おかげで."
+        },
+        {
+          "pair_title": "Noun attachment trap: N + であることから vs N + のために",
+          "sentence_valid": "この{町|まち}は{歴史|れきし}のある{港町|みなとまち}であることから、{毎年|まいとし}{多|おお}くの{観光客|かんこうきゃく}が{訪|おとず}れる。",
+          "sentence_contrast": "× この{町|まち}は{歴史|れきし}のある{港町|みなとまち}のことから、{毎年|まいとし}{多|おお}くの{観光客|かんこうきゃく}が{訪|おとず}れる。",
+          "explanation": "Before ことから, nouns require である (○ {港町|みなとまち}であることから), never の or な. By contrast, ために, おかげで, and せいで all attach to nouns with の ({港町|みなとまち}のために)."
+        },
+        {
+          "pair_title": "Bitter regret (ばかりに) vs positive result",
+          "sentence_valid": "ちょっとした{冗談|じょうだん}を{言|い}ったばかりに、{大切|たいせつ}な{友達|ともだち}を{怒|おこ}らせてしまった。",
+          "sentence_contrast": "× ちょっとした{冗談|じょうだん}を{言|い}ったばかりに、みんなが{楽|たの}しく{笑|わら}ってくれた。",
+          "explanation": "ばかりに isolates a single minor trigger that snowballed into an intensely regrettable or painful outcome ('just because I said...'). Happy outcomes like {楽|たの}しく{笑|わら}ってくれた cannot follow ばかりに."
+        }
+      ]
+    },
+    {
+      "matrix_id": "M03",
+      "title": "ように vs ために vs のに — Purpose & Utility",
+      "theme": "Purpose and Utility",
+      "decision_heuristic": "1. Check the word directly before the pattern: a bare noun ('for X') takes ために with の ({健康|けんこう}のために), never ように. 2. Check verb volition and subject alignment: same subject + controllable volitional action ('in order to buy/go') = ために; different subjects OR potential, negative, or non-volitional target state ('so that I can / won't forget') = ように. 3. Expressing a tool's usefulness or required time/money ('for doing X, it is handy / takes time') = のに.",
+      "columns": [
+        "Pattern",
+        "Formation Key",
+        "Speaker Nuance",
+        "Constraints",
+        "Canonical Example"
+      ],
+      "rows": [
+        [
+          "〜ように",
+          "V plain (non-volitional / potential) / V-ない + ように",
+          "Indirect aim toward a desired state or capability: 'so that [someone/I] can / won't fail to...'",
+          "Allows different subjects across Clause 1 and Clause 2. Rejects nouns directly (× {健康|けんこう}のように) and pure same-subject volitional plans (× {車|くるま}を{買|か}うように{貯金|ちょきん}する).",
+          "{後|うし}ろの{人|ひと}にもよく{聞|き}こえるように、{先生|せんせい}は{大|おお}きな{声|こえ}で{説明|せつめい}した。"
+        ],
+        [
+          "〜ために",
+          "V plain (volitional) / N + の + ために",
+          "Direct, intentional purpose: 'in order to achieve X, [the same agent] performs Y.'",
+          "Requires a controllable volitional verb or N + の, AND both clauses MUST share the same subject. Rejects potential verbs (× {話|はな}せるために) and V-ない (× {忘|わす}れないために).",
+          "{来年|らいねん}{京都|きょうと}へ{留学|りゅうがく}するために、{佐藤|さとう}さんはアルバイトを{始|はじ}めた。"
+        ],
+        [
+          "〜のに",
+          "V plain + のに",
+          "Functional utility, necessity, or time/cost requirement: 'for doing X, [it is handy / takes Y minutes].'",
+          "Clause 2 MUST evaluate utility, difficulty, suitability, or cost ({便利|べんり}だ, {役|やく}に{立|た}つ, {時間|じかん}がかかる, {必要|ひつよう}だ). Never expresses active planning like ために.",
+          "このアプリは{毎日|まいにち}{漢字|かんじ}を{覚|おぼ}えるのにとても{役|やく}に{立|た}つ。"
+        ]
+      ],
+      "minimal_pair_test": [
+        {
+          "pair_title": "Potential or negative verb (ように) vs volitional verb (ために)",
+          "sentence_valid": "{日本語|にほんご}が{上手|じょうず}に{話|はな}せるように、{毎日|まいにち}{声|こえ}に{出|だ}して{練習|れんしゅう}している。",
+          "sentence_contrast": "× {日本語|にほんご}が{上手|じょうず}に{話|はな}せるために、{毎日|まいにち}{声|こえ}に{出|だ}して{練習|れんしゅう}している。",
+          "explanation": "Potential verbs like {話|はな}せる express an indirect desired capability rather than a direct volitional action, so purpose ために cannot attach to them. Use ように with potential, negative (ない), or non-volitional verbs."
+        },
+        {
+          "pair_title": "Different subjects across clauses (ように vs ために)",
+          "sentence_valid": "{子供|こども}が{安心|あんしん}して{歩|ある}けるように、{町|まち}の{道|みち}を{明|あか}るくした。",
+          "sentence_contrast": "× {子供|こども}が{安心|あんしん}して{歩|ある}くために、{町|まち}の{道|みち}を{明|あか}るくした。",
+          "explanation": "Purpose ために requires the exact same agent in both clauses, whereas ように naturally bridges two different subjects (the town lights the street so that children can walk safely)."
+        },
+        {
+          "pair_title": "Required time or utility (のに) vs deliberate plan (ために)",
+          "sentence_valid": "{駅|えき}から{大学|だいがく}まで{歩|ある}くのに、{20分|にじゅっぷん}くらいかかります。",
+          "sentence_contrast": "× {駅|えき}から{大学|だいがく}まで{歩|ある}くために、{20分|にじゅっぷん}くらいかかります。",
+          "explanation": "When the main predicate states required time, expense, or usefulness ({時間|じかん}がかかる, {便利|べんり}だ), のに marks the activity requiring that resource. Purpose ために demands an intentional action in Clause 2 rather than an involuntary time cost."
+        }
+      ]
+    },
+    {
+      "matrix_id": "M04",
+      "title": "うちに vs {間|あいだ}に vs {最中|さいちゅう}に vs {途中|とちゅう}で — While / During / In the Middle Of",
+      "theme": "Temporal Overlap and Interruptions",
+      "decision_heuristic": "1. Check for a physical route or sequential journey interrupted halfway ('on the way / partway through'): pick {途中|とちゅう}で (V-る / N + の). 2. Check if an action is at its peak climax when an unexpected event hits: pick {最中|さいちゅう}に (ONLY V-ている or N + の, read さいちゅう). 3. Compare time-window urgency: if a condition will soon expire or a change steals in unnoticed ('before it gets cold / while still young'), pick うちに; if a bounded span simply hosts an event inside it ('while sleeping'), pick {間|あいだ}に.",
+      "columns": [
+        "Pattern",
+        "Formation Key",
+        "Speaker Nuance",
+        "Constraints",
+        "Canonical Example"
+      ],
+      "rows": [
+        [
+          "〜うちに",
+          "V plain / V-ている / V-ない / い-Adj / な-Adj + な / N + の + うちに",
+          "Expiring window ('before state X ends') OR gradual unnoticed shift ('while doing X, Y naturally happened').",
+          "Rejects past た-form (× {忘|わす}れたうちに). With intentional Clause 2, highlights acting before an opportunity slips away.",
+          "スープが{冷|さ}めないうちに、{早|はや}く{飲|の}んでしまいましょう。"
+        ],
+        [
+          "〜{間|あいだ}に",
+          "V plain (state) / V-ている / い-Adj / な-Adj + な / N + の + {間|あいだ}に",
+          "Bounded time container: a finite event occurs at some point inside span X (contrast bare {間|あいだ} = full continuous overlap).",
+          "Clause 2 must be a bounded event inside the span, NOT a continuous state spanning the entire duration (omit に for full-duration ずっと).",
+          "{母|はは}が{買|か}い{物|もの}に{行|い}っている{間|あいだ}に、{高橋|たかはし}さんは{部屋|へや}を{片付|かたづ}けた。"
+        ],
+        [
+          "〜{最中|さいちゅう}に",
+          "V-ている / N + の + {最中|さいちゅう}に（だ）",
+          "Dead-center peak of an ongoing activity, typically disrupted by an unexpected event ('right in the middle of X').",
+          "Verbs MUST be in ている form (× {食事|しょくじ}する{最中|さいちゅう}に, × {食|た}べた{最中|さいちゅう}に). Read strictly さいちゅう (never もなか).",
+          "{大切|たいせつ}な{会議|かいぎ}をしている{最中|さいちゅう}に、{突然|とつぜん}{地震|じしん}が{起|お}きて{驚|おどろ}いた。"
+        ],
+        [
+          "〜{途中|とちゅう}で",
+          "V plain (dictionary) / N + の + {途中|とちゅう}で（に）",
+          "Mid-route or partway along a sequential process with a clear start and destination ('on the way / halfway through').",
+          "Verbs take plain dictionary form V-る, NOT ている (○ {帰|かえ}る{途中|とちゅう}で, × {帰|かえ}っている{途中|とちゅう}で). Requires directional or sequential progress.",
+          "{学校|がっこう}から{家|いえ}へ{帰|かえ}る{途中|とちゅう}で、{駅|えき}の{前|まえ}で{田中|たなか}さんにばったり{会|あ}った。"
+        ]
+      ],
+      "minimal_pair_test": [
+        {
+          "pair_title": "Verb form trap: V-る (とちゅうで) vs V-ている (さいちゅうに)",
+          "sentence_valid": "{会社|かいしゃ}へ{行|い}く{途中|とちゅう}で、{電車|でんしゃ}が{事故|じこ}で{止|と}まってしまった。",
+          "sentence_contrast": "× {会社|かいしゃ}へ{行|い}っている{途中|とちゅう}で、{電車|でんしゃ}が{事故|じこ}で{止|と}まってしまった。",
+          "explanation": "{途中|とちゅう}で attaches directly to dictionary-form verbs ({行|い}く{途中|とちゅう}で) or nouns ({通勤|つうきん}の{途中|とちゅう}で) along a path or sequence. By contrast, {最中|さいちゅう}に strictly requires ている ({話|はな}している{最中|さいちゅう}に) and rejects dictionary-form verbs."
+        },
+        {
+          "pair_title": "Expiring negative window (うちに vs あいだに)",
+          "sentence_valid": "この{番号|ばんごう}を{忘|わす}れないうちに、すぐノートにメモしておこう。",
+          "sentence_contrast": "× この{番号|ばんごう}を{忘|わす}れない{間|あいだ}に、すぐノートにメモしておこう。",
+          "explanation": "Negative verbs meaning 'before an unwanted change occurs' ({忘|わす}れない, {冷|さ}めない, {暗|くら}くならない) require うちに to spotlight a closing window of time. {間|あいだ}に marks a static duration and cannot pair with negative urgency."
+        },
+        {
+          "pair_title": "Full continuous duration (あいだ) vs bounded event inside span (あいだに)",
+          "sentence_valid": "{妹|いもうと}が{昼寝|ひるね}をしている{間|あいだ}に、{静|しず}かに{皿|さら}を{洗|あら}ってしまおう。",
+          "sentence_contrast": "× {妹|いもうと}が{昼寝|ひるね}をしている{間|あいだ}に、わたしはずっと{横|よこ}で{本|ほん}を{読|よ}んでいた。",
+          "explanation": "When an action runs continuously from start to finish alongside another state (marked by ずっと), omit に and use bare {間|あいだ}. Adding に ({間|あいだ}に) locates a completed event inside part of that span."
+        }
+      ]
+    },
+    {
+      "matrix_id": "M05",
+      "title": "たばかり vs たて vs たところ — Just Finished Doing",
+      "theme": "Recent Completion Nuances",
+      "decision_heuristic": "1. Check verb stem morphology first: bare ます-stem (without た) for freshly produced goods retaining sensory freshness = たて ({焼|や}きたて). 2. Separate objective vs subjective recency: literally moments ago on the clock (matches さっき / たった{今|いま}) = たところ (also takes V-る / V-ている for about-to / in-progress); speaker's emotional feeling of 'just happened' even months or years later (takes の before nouns) = たばかり.",
+      "columns": [
+        "Pattern",
+        "Formation Key",
+        "Speaker Nuance",
+        "Constraints",
+        "Canonical Example"
+      ],
+      "rows": [
+        [
+          "〜たばかり",
+          "V-た + ばかりだ (before N: ばかりの + N; clause: ばかりなのに)",
+          "Subjective recency: feels 'just happened' to the speaker, whether five minutes or three years ago.",
+          "Attaches only to V-た for recent past. Takes の before nouns (× {買|か}ったばかりなスマホ) and な before のに/ので.",
+          "{佐藤|さとう}さんは{先月|せんげつ}この{会社|かいしゃ}に{入|はい}ったばかりなので、まだ{仕事|しごと}に{慣|な}れていない。"
+        ],
+        [
+          "〜たて",
+          "V-ます stem + たて（だ / の + N）",
+          "Peak sensory freshness straight off the line: 'freshly baked, freshly painted, freshly picked.'",
+          "NEVER attaches to V-た (× {焼|や}いたたて). Limited to creation, prep, or status-entry verbs; invalid for sudden arrival or non-product acts (× {着|つ}きたて).",
+          "このパン{屋|や}では、{毎朝|まいあさ}{焼|や}きたてのクロワッサンが{買|か}えます。"
+        ],
+        [
+          "〜たところ",
+          "V-た + ところだ (also V-る + ところ / V-ている + ところ)",
+          "Objective clock-time immediacy: literally just completed moments ago ('I just now finished X').",
+          "Restricted to immediate recent past (clashes with {先月|せんげつ} / {去年|きょねん}). Cannot directly modify a noun with ところの in this sense.",
+          "たった{今|いま}{家|いえ}に{帰|かえ}ってきたところなので、まだ{荷物|にもつ}も{片付|かたづ}けていない。"
+        ]
+      ],
+      "minimal_pair_test": [
+        {
+          "pair_title": "Subjective span (たばかり) vs literal moments ago (たところ)",
+          "sentence_valid": "{鈴木|すずき}さんは{去年|きょねん}{結婚|けっこん}したばかりで、とても{幸|しあわ}せそうだ。",
+          "sentence_contrast": "× {鈴木|すずき}さんは{去年|きょねん}{結婚|けっこん}したところだ。",
+          "explanation": "たところ measures literal objective clock recency (seconds or minutes ago), so time words like {去年|きょねん} or {先月|せんげつ} break its timing. たばかり captures subjective recency and works across weeks, months, or years."
+        },
+        {
+          "pair_title": "Stem attachment trap: V-ます + たて vs V-た + たて",
+          "sentence_valid": "{壁|かべ}のペンキが{塗|ぬ}りたてだから、まだ{絶対|ぜったい}に{触|さわ}らないでください。",
+          "sentence_contrast": "× {壁|かべ}のペンキが{塗|ぬ}ったたてだから、まだ{絶対|ぜったい}に{触|さわ}らないでください。",
+          "explanation": "たて attaches strictly to the Verb ます-stem ({塗|ぬ}りたて, {焼|や}きたて) to spotlight fresh surface quality, never past た-form. Before nouns, both たて and たばかり link with の ({塗|ぬ}りたての{壁|かべ}, {買|か}ったばかりの{靴|くつ})."
+        },
+        {
+          "pair_title": "Product-freshness scope of たて vs general verbs with たところ",
+          "sentence_valid": "さっき{駅|えき}に{着|つ}いたところだから、あと{10分|じゅっぷん}でそちらに{行|い}きます。",
+          "sentence_contrast": "× さっき{駅|えき}に{着|つ}きたてだから、あと{10分|じゅっぷん}でそちらに{行|い}きます。",
+          "explanation": "たて is limited to verbs yielding fresh quality or newly minted status ({焼|や}く, {沸|わ}かす, {取|と}れる, {出来|でき}る). Momentary arrival or waking verbs like {着|つ}く or {起|お}きる require たところ or たばかり."
+        }
+      ]
+    },
+    {
+      "matrix_id": "M06",
+      "title": "はずだ vs わけだ vs べきだ vs ことだ vs ものだ — Expectation, Logic & Duty",
+      "theme": "Expectation, Deduction, and Obligation",
+      "decision_heuristic": "1. Separate epistemic logic (what is true) from deontic norms/advice (what one should do): logic = はずだ or わけだ; advice/duty/norm = べきだ, ことだ, or ものだ. 2. Inside logic: unverified confident prediction ('supposed to be') = はずだ; 'aha!' explanation for an already-seen fact ('no wonder') = わけだ. 3. Inside duty/norm: firm moral/social duty ('ought to') = べきだ (する→すべき); targeted practical advice ('the best step is') = ことだ; universal human truth or nostalgic memory (たものだ) = ものだ.",
+      "columns": [
+        "Pattern",
+        "Formation Key",
+        "Speaker Nuance",
+        "Constraints",
+        "Canonical Example"
+      ],
+      "rows": [
+        [
+          "〜はずだ",
+          "V plain / い-Adj / な-Adj + な / N + の + はずだ（はずがない）",
+          "Confident logical prediction before verification: 'given the schedule/facts, X is bound to be true.'",
+          "Nouns take の (○ {日曜日|にちようび}のはずだ). Avoid for guessing one's own planned actions (× {明日|あした}{行|い}くはずだ) or facts already directly witnessed.",
+          "{健太|けんた}さんは{朝|あさ}{8時|はちじ}の{電車|でんしゃ}に{乗|の}ったから、もうすぐ{駅|えき}に{着|つ}くはずだ。"
+        ],
+        [
+          "〜わけだ",
+          "V plain / い-Adj / な-Adj + な / N + な・である + わけだ",
+          "Logical conclusion explaining a confirmed fact: 'no wonder / that explains why / in other words.'",
+          "Nouns take な or である (× {学生|がくせい}のわけだ). Always connects to an observed outcome or math premise, not an unverified guess.",
+          "このパソコンは{10年|じゅうねん}も{使|つか}っているのだから、{調子|ちょうし}が{悪|わる}くなるわけだ。"
+        ],
+        [
+          "〜べきだ",
+          "V plain (dictionary) + べきだ（する → すべき / するべき）",
+          "Firm moral, ethical, or professional obligation: 'one ought to / must do X as the right course.'",
+          "Attaches ONLY to verbs (never directly to い-adjectives or uncontrolled states). Sounds stern toward superiors; negate as べきではない.",
+          "{約束|やくそく}の{時間|じかん}に{遅|おく}れそうなときは、{早|はや}めに{相手|あいて}へ{連絡|れんらく}すべきだ。"
+        ],
+        [
+          "〜ことだ",
+          "V plain (dictionary) / V-ない + ことだ",
+          "Practical, experienced advice aimed at a specific goal: 'if you want Y, the smart thing to do is X.'",
+          "Attaches solely to plain dictionary or ない verbs. Always future-oriented practical counsel (never past tense), softer than stern べきだ.",
+          "{風邪|かぜ}を{早|はや}く{治|なお}したいなら、{今日|きょう}は{無理|むり}をせずによく{寝|ね}ることだ。"
+        ],
+        [
+          "〜ものだ",
+          "V plain / い-Adj / な-Adj + な + ものだ (norm/emotion); V-た + ものだ (nostalgia)",
+          "Timeless universal truth ('that is just how X is'), deep emotion, OR nostalgic past habit ('used to').",
+          "General-norm ものだ expresses broad cultural or natural wisdom, NOT situational tactical advice or one-off requests.",
+          "{時間|じかん}がたつのは{本当|ほんとう}に{早|はや}いもので、もう{今年|ことし}も{終|お}わりに{近|ちか}づいている。"
+        ]
+      ],
+      "minimal_pair_test": [
+        {
+          "pair_title": "Unverified prediction (はずだ) vs confirmed 'no wonder' (わけだ)",
+          "sentence_valid": "{美咲|みさき}さんは{5年間|ごねんかん}もパリに{住|す}んでいたのだから、フランス{語|ご}が{上手|じょうず}なわけだ。",
+          "sentence_contrast": "× なるほど、だからこの{料理|りょうり}はこんなに{辛|から}いはずだ。",
+          "explanation": "When the speaker directly experiences a fact right now (such as tasting spicy food) and understands its cause ('aha, that's why'), use わけだ. はずだ projects an expectation not yet directly confirmed."
+        },
+        {
+          "pair_title": "Targeted tactical advice (ことだ) vs broad social truth (ものだ)",
+          "sentence_valid": "{試験|しけん}に{合格|ごうかく}したければ、まず{毎日|まいにち}{少|すこ}しずつ{復習|ふくしゅう}することだ。",
+          "sentence_contrast": "× {試験|しけん}に{合格|ごうかく}したければ、まず{毎日|まいにち}{少|すこ}しずつ{復習|ふくしゅう}するものだ。",
+          "explanation": "ことだ offers a concrete actionable step to solve a stated goal ('if you want X, the key is to do Y'). ものだ states broad universal norms or natural truths rather than conditional problem-solving advice."
+        },
+        {
+          "pair_title": "Controllable verb obligation (べきだ) vs natural phenomenon (ものだ)",
+          "sentence_valid": "{夏|なつ}は{暑|あつ}くて{冬|ふゆ}は{寒|さむ}いものだが、{今年|ことし}の{冬|ふゆ}は{不思議|ふしぎ}と{暖|あたた}かい。",
+          "sentence_contrast": "× {夏|なつ}は{暑|あつ}くべきで{冬|ふゆ}は{寒|さむ}くべきだが、{今年|ことし}の{冬|ふゆ}は{暖|あたた}かい。",
+          "explanation": "べきだ imposes controllable human obligation and attaches strictly to verbs, never directly to い-adjectives or uncontrolled seasonal weather. Natural general truths require ものだ."
+        }
+      ]
+    },
+    {
+      "matrix_id": "M07",
+      "title": "なんか vs なんて vs など vs とか — Examples, Dismissal & Surprise",
+      "theme": "Exemplification, Dismissal, and Surprise",
+      "decision_heuristic": "1. Check register and list structure: formal writing, essays, or polite speech listing items ('such as A, B, etc.') = など; casual multi-item pairing ('A or B and stuff') or casual hearsay ('I hear...') = とか. 2. For single-target nuance: soft casual suggestion, humble modesty, or mild dismissal ('something like X') = なんか (mostly nouns); strong disbelief, shock, or emotional reaction to a full clause or quote ('to think that...!') = なんて.",
+      "columns": [
+        "Pattern",
+        "Formation Key",
+        "Speaker Nuance",
+        "Constraints",
+        "Canonical Example"
+      ],
+      "rows": [
+        [
+          "〜なんか",
+          "N / V-て・V-ます stem + なんか",
+          "Colloquial minimizer: light casual suggestion ('coffee or something?'), humility ('someone like me'), or mild dismissal.",
+          "Purely spoken/casual; avoid in formal business reports. Rarely follows full finite sentences (use なんて for clauses).",
+          "まだ{時間|じかん}があるから、カフェでコーヒーなんか{飲|の}みませんか。"
+        ],
+        [
+          "〜なんて",
+          "V plain / い-Adj / な-Adj (bare / だ) / N + なんて",
+          "Vivid exclamation of shock, disbelief, admiration, or scorn: 'to think [X happened]!' or 'such a thing as X!'",
+          "Freely attaches to full clauses and quotes unlike なんか. Carries strong emotion; unsuitable for dry objective reporting.",
+          "{山田|やまだ}さんが{来月|らいげつ}{会社|かいしゃ}を{辞|や}めるなんて、ぜんぜん{知|し}らなかった。"
+        ],
+        [
+          "〜など",
+          "N / V plain + など（や〜など）",
+          "Neutral, polite, or formal 'etc. / such as,' giving representative examples without dismissal.",
+          "Preferred in business emails, essays, and polite speech where なんか sounds disrespectful. Often pairs with や: AやBなど.",
+          "{日本|にほん}へ{行|い}ったら、{京都|きょうと}や{奈良|なら}などの{古|ふる}いお{寺|てら}を{見|み}て{回|まわ}りたいです。"
+        ],
+        [
+          "〜とか",
+          "N + とか (+ N + とか) / V plain + とか (+ V plain + とか)",
+          "Casual non-exhaustive listing ('things like A or B') OR sentence-final uncertain hearsay ('I heard that...').",
+          "Colloquial tone (less formal than や〜など). Pairs naturally across two or more casual examples; avoid in stiff essays.",
+          "{週末|しゅうまつ}は{部屋|へや}を{掃除|そうじ}するとか、{映画|えいが}を{見|み}るとかしてゆっくり{過|す}ごします。"
+        ]
+      ],
+      "minimal_pair_test": [
+        {
+          "pair_title": "Formal business examples (など) vs casual minimizer (なんか)",
+          "sentence_valid": "{会議|かいぎ}では{予算|よさん}やスケジュールなどの{重要|じゅうよう}な{点|てん}について{話|はな}し{合|あ}いました。",
+          "sentence_contrast": "× {会議|かいぎ}では{予算|よさん}やスケジュールなんかの{重要|じゅうよう}な{点|てん}について{話|はな}し{合|あ}いました。",
+          "explanation": "なんか adds casual looseness or slight belittlement, clashing sharply with formal business terms ({会議|かいぎ}, {重要|じゅうよう}な{点|てん}). Use など for polite or professional examples."
+        },
+        {
+          "pair_title": "Emotional reaction to a full clause (なんて vs なんか)",
+          "sentence_valid": "あんなに{難|むずか}しい{試験|しけん}に{一回|いっかい}で{合格|ごうかく}するなんて、{田中|たなか}さんはすごいですね。",
+          "sentence_contrast": "× あんなに{難|むずか}しい{試験|しけん}に{一回|いっかい}で{合格|ごうかく}するなんか、{田中|たなか}さんはすごいですね。",
+          "explanation": "なんか attaches chiefly to nouns rather than full verb clauses expressing astonishment. When reacting with disbelief or admiration to an entire event ('to think you passed...'), use なんて."
+        },
+        {
+          "pair_title": "Sentence-final casual hearsay (とか vs など)",
+          "sentence_valid": "この{店|みせ}のラーメンは、{最近|さいきん}テレビで{紹介|しょうかい}されてすごく{人気|にんき}があるとか。",
+          "sentence_contrast": "× この{店|みせ}のラーメンは、{最近|さいきん}テレビで{紹介|しょうかい}されてすごく{人気|にんき}があるなど。",
+          "explanation": "At the end of a declarative sentence, とか functions as casual hearsay ('I hear / apparently'), whereas など only marks open-ended examples and cannot serve as a hearsay sentence-ender."
+        }
+      ]
+    },
+    {
+      "matrix_id": "M08",
+      "title": "っぽい vs らしい vs ようだ vs みたいだ vs そうだ vs がち vs {気味|ぎみ} — Appearance & Tendency",
+      "theme": "Appearance, Evidentials, and Tendencies",
+      "decision_heuristic": "1. Separate tendency suffixes first: repeated negative habit ('prone to') = がち; mild present physical/mental onset ('a touch of') = {気味|ぎみ} (N / V-ます). 2. Split noun traits: 'superficially/childishly acting like X' = っぽい; 'embodying the ideal archetype of X' = らしい. 3. Split evidentials by attachment and source: instant visual sign right before happening = V-ます/Adj-stem + そうだ (NO bare nouns); second-hand report = plain + そうだ (N/な-Adj keep だ); reasoned inference = ようだ (N + の, written/neutral) vs みたいだ (bare N, spoken).",
+      "columns": [
+        "Pattern",
+        "Formation Key",
+        "Speaker Nuance",
+        "Constraints",
+        "Canonical Example"
+      ],
+      "rows": [
+        [
+          "〜っぽい",
+          "N / V-ます stem / い-Adj stem + っぽい",
+          "Impressionistic resemblance or dominant quality ('childish, watery, forgetful'), often slightly casual or critical.",
+          "Attaches directly to bare nouns and V-ます stems ({忘|わす}れっぽい). Conjugates as an い-adjective (っぽくない, っぽくて).",
+          "{健太|けんた}さんはもう{大学生|だいがくせい}なのに、まだ{子供|こども}っぽいところがある。"
+        ],
+        [
+          "〜らしい",
+          "N + らしい (archetype); V plain / い-Adj / な-Adj (bare) / N (bare) + らしい (rumor/evidence)",
+          "1) Authentic archetype ('truly like X': {春|はる}らしい); 2) Objective outside inference/rumor ('apparently').",
+          "No の or な before らしい (○ {雨|あめ}らしい, × {雨|あめ}ならしい). Reflects external evidence or reports rather than personal hunch.",
+          "ニュースによると、{来週|らいしゅう}からようやく{春|はる}らしい{暖|あたた}かい{日|ひ}が{続|つづ}くらしい。"
+        ],
+        [
+          "〜ようだ",
+          "V plain / い-Adj / な-Adj + な / N + の + ようだ",
+          "Measured sensory/contextual deduction ('it seems / feels like') or formal figurative simile (まるで〜ようだ).",
+          "Nouns require の and な-adjectives require な (○ {学生|がくせい}のようだ, ○ {静|しず}かなようだ). More formal/written than みたいだ.",
+          "{外|そと}で{傘|かさ}をさしている{人|ひと}が{多|おお}いので、{雨|あめ}が{降|ふ}っているようだ。"
+        ],
+        [
+          "〜みたいだ",
+          "V plain / い-Adj / な-Adj (bare) / N (bare) + みたいだ",
+          "Conversational sensory impression or simile ('looks like / just like'): spoken twin of ようだ.",
+          "TRAP: Attaches directly to bare nouns and bare な-adjectives WITHOUT の or な (○ {学生|がくせい}みたいだ, × {学生|がくせい}のみたいだ). Too casual for formal essays.",
+          "まだ{3月|さんがつ}なのに、{今日|きょう}はまるで{夏|なつ}みたいに{暑|あつ}いね。"
+        ],
+        [
+          "〜そうだ（{様態|ようたい}）",
+          "V-ます stem / い-Adj stem (よい→よさ / ない→なさ) / な-Adj (bare) + そうだ",
+          "Immediate visual impression of an impending event or surface quality ('about to fall / looks delicious').",
+          "NEVER attaches directly to nouns (× {学生|がくせい}そうだ). Insert さ for いい→よさそうだ and ない→なさそうだ. Negates as 〜そうもない / 〜そうにない.",
+          "{今|いま}にも{黒|くろ}い{雲|くも}から{雨|あめ}が{降|ふ}り{出|だ}しそうだから、{傘|かさ}を{持|も}っていこう。"
+        ],
+        [
+          "〜そうだ（{伝聞|でんぶん}）",
+          "V plain / い-Adj / な-Adj + だ / N + だ + そうだ",
+          "Pure second-hand hearsay reporting a specific source ('I heard that... / according to X').",
+          "Nouns and な-adjectives MUST keep だ (○ {雨|あめ}だそうだ, × {雨|あめ}そうだ). Does not conjugate to past でした; negate the inner clause (〜ないそうだ).",
+          "{天気予報|てんきよほう}によると、{明日|あした}の{午後|ごご}からかなり{強|つよ}い{風|かぜ}が{吹|ふ}くそうだ。"
+        ],
+        [
+          "〜がち",
+          "V-ます stem / N ({病気|びょうき}, {遅刻|ちこく}) + がちだ（がちの / がちな + N）",
+          "Recurring negative habit or unwanted tendency ('prone to / tends to happen repeatedly').",
+          "Reserved for undesirable or problematic habits (forgetting, illness, tardiness), NOT happy achievements (× {合格|ごうかく}しがち).",
+          "{忙|いそが}しいと、つい{野菜|やさい}を{食|た}べるのを{忘|わす}れがちになるので{気|き}をつけている。"
+        ],
+        [
+          "〜{気味|ぎみ}",
+          "V-ます stem / N ({風邪|かぜ}, {疲|つか}れ) + {気味|ぎみ}だ（{気味|ぎみ}の + N）",
+          "Mild current onset or slight bodily/situational sensation ('a touch of a cold / slightly behind schedule').",
+          "Marks a subtle present condition just starting to appear, NOT a lifelong habit; pairs mostly with negative/neutral sensations ({風邪気味|かぜぎみ}).",
+          "{昨日|きのう}から{少|すこ}し{風邪気味|かぜぎみ}なので、{今日|きょう}の{夜|よる}は{早|はや}めに{寝|ね}るつもりだ。"
+        ]
+      ],
+      "minimal_pair_test": [
+        {
+          "pair_title": "Ideal noun archetype (らしい) vs casual resemblance (っぽい)",
+          "sentence_valid": "この{頃|ごろ}は{雪|ゆき}がとけて{花|はな}も{咲|さ}き、ようやく{春|はる}らしい{季節|きせつ}になった。",
+          "sentence_contrast": "× この{頃|ごろ}は{雪|ゆき}がとけて{花|はな}も{咲|さ}き、ようやく{春|はる}っぽい{季節|きせつ}になった。",
+          "explanation": "らしい after a noun praises something for embodying the authentic ideal of that noun ('truly springlike'). っぽい implies a casual, superficial resemblance ('sort of like X, though not quite'), which clashes when praising the real season itself."
+        },
+        {
+          "pair_title": "Noun attachment traps: bare N + みたいだ vs N + だそうだ",
+          "sentence_valid": "{佐藤|さとう}さんは{教師|きょうし}みたいだが、{実|じつ}は{病院|びょういん}で{働|はたら}く{医者|いしゃ}だそうだ。",
+          "sentence_contrast": "× {佐藤|さとう}さんは{教師|きょうし}のみたいだが、{実|じつ}は{病院|びょういん}で{働|はたら}く{医者|いしゃ}そうだ。",
+          "explanation": "みたいだ attaches to bare nouns WITHOUT の (○ {教師|きょうし}みたいだ, unlike {教師|きょうし}のようだ). Meanwhile, hearsay そうだ MUST retain だ after a noun (○ {医者|いしゃ}だそうだ), because visual そうだ cannot attach directly to nouns."
+        },
+        {
+          "pair_title": "Repeated long-term tendency (がち) vs mild current onset (ぎみ)",
+          "sentence_valid": "{一人暮|ひとりぐ}らしを{始|はじ}めてから、{栄養|えいよう}が{不足|ふそく}しがちだと{感|かん}じている。",
+          "sentence_contrast": "× {健太|けんた}さんは{今日|きょう}ちょっと{風邪|かぜ}がちだから、{早|はや}く{帰|かえ}るそうだ。",
+          "explanation": "がち indicates a repeated pattern over time ('tends to happen again and again'), so it clashes with a one-day mild symptom like {今日|きょう}ちょっと ('a bit today'). Use {風邪気味|かぜぎみ} for a slight current onset."
+        }
+      ]
+    },
+    {
+      "matrix_id": "M09",
+      "title": "〜{切|き}る vs 〜{抜|ぬ}く vs 〜{通|とお}す vs 〜{上|あ}げる vs 〜{終|お}える — Completing Compound Verbs",
+      "theme": "Compound Verb Completion",
+      "decision_heuristic": "1. Identify the core mental image of V2: 100% total exhaustion or capacity limit ('completely / too much to finish') = 〜{切|き}る; pushing through tough hardship to the finish ('persevere through') = 〜{抜|ぬ}く; uncompromising stubborn consistency ('stick with X to the end') = 〜{通|とお}す. 2. Split creation vs neutral finish: crafting a finished product from scratch = 〜{上|あ}げる (intransitive 〜{上|あ}がる); neutrally reaching the end of an activity = 〜{終|お}える.",
+      "columns": [
+        "Pattern",
+        "Formation Key",
+        "Speaker Nuance",
+        "Constraints",
+        "Canonical Example"
+      ],
+      "rows": [
+        [
+          "〜{切|き}る",
+          "V-ます stem + {切|き}る / {切|き}れる / {切|き}れない",
+          "100% total completion or depletion to the limit ('finish/exhaust all of X'); negative 〜{切|き}れない highlights overwhelming volume.",
+          "Pairs with consumption, fatigue, counting, or capability verbs ({食|た}べ{切|き}る, {使|つか}い{切|き}る, {読|よ}み{切|き}れない, {疲|つか}れ{切|き}る).",
+          "{量|りょう}が{多|おお}すぎて、このカレーは{一人|ひとり}ではとても{食|た}べ{切|き}れない。"
+        ],
+        [
+          "〜{抜|ぬ}く",
+          "V-ます stem + {抜|ぬ}く",
+          "Tenacious perseverance through pain, rivalry, or immense difficulty all the way to the finish line.",
+          "Requires sustained struggle, intense effort, or deep thought ({走|はし}り{抜|ぬ}く, {考|かんが}え{抜|ぬ}く, {戦|たたか}い{抜|ぬ}く). Invalid for effortless daily routines (× {洗|あら}い{抜|ぬ}く).",
+          "{足|あし}が{痛|いた}かったが、{健太|けんた}さんは42キロのマラソンを{最後|さいご}まで{走|はし}り{抜|ぬ}いた。"
+        ],
+        [
+          "〜{通|とお}す",
+          "V-ます stem + {通|とお}す",
+          "Steadfast, unwavering consistency in a stance, promise, or action from start to finish despite pressure.",
+          "Spotlights stubborn persistence over time ({守|まも}り{通|とお}す, {言|い}い{通|とお}す, {立|た}ち{通|とお}す), NOT crafting an object or depleting stock.",
+          "どんなに{厳|きび}しい{状況|じょうきょう}でも、{佐藤|さとう}さんは{自分|じぶん}の{約束|やくそく}を{最後|さいご}まで{守|まも}り{通|とお}した。"
+        ],
+        [
+          "〜{上|あ}げる",
+          "V-ます stem + {上|あ}げる (transitive) / 〜{上|あ}がる (intransitive)",
+          "Completing a crafted creation, task, or polished work from start to finished product ('finish building/writing').",
+          "Requires a constructive process yielding a finished output ({書|か}き{上|あ}げる, {作|つく}り{上|あ}げる, {育|そだ}て{上|あ}げる). Invalid for mere consumption ({食|た}べる).",
+          "{1週間|いっしゅうかん}かけて、ようやく{卒業|そつぎょう}レポートを{書|か}き{上|あ}げることができた。"
+        ],
+        [
+          "〜{終|お}える",
+          "V-ます stem + {終|お}える / 〜{終|お}わる",
+          "Neutral, matter-of-fact completion of an activity ('finished reading/writing/eating').",
+          "〜{終|お}える takes transitive actions (whereas 〜{終|お}わる works broadly). Lacks dramatic nuances of hardship ({抜|ぬ}く), total depletion ({切|き}る), or creation ({上|あ}げる).",
+          "{図書館|としょかん}から{借|か}りた{小説|しょうせつ}をすべて{読|よ}み{終|お}えたので、{明日|あした}{返|かえ}しに{行|い}く。"
+        ]
+      ],
+      "minimal_pair_test": [
+        {
+          "pair_title": "Crafting a product (あげる) vs consumption finish (おえる / きる)",
+          "sentence_valid": "{時間|じかん}がなかったので、お{昼|ひる}のお{弁当|べんとう}を{5分|ごふん}で{急|いそ}いで{食|た}べ{終|お}えた。",
+          "sentence_contrast": "× {時間|じかん}がなかったので、お{昼|ひる}のお{弁当|べんとう}を{5分|ごふん}で{急|いそ}いで{食|た}べ{上|あ}げた。",
+          "explanation": "〜{上|あ}げる implies building or finishing a created work ({作|つく}り{上|あ}げる, {書|か}き{上|あ}げる), so it cannot attach to consumption verbs like {食|た}べる or {飲|の}む. Use 〜{終|お}える for neutral completion or 〜{切|き}る for finishing every last bite."
+        },
+        {
+          "pair_title": "Capacity limit (きれない) vs hardship endurance (ぬく)",
+          "sentence_valid": "{机|つくえ}の{上|うえ}に{書類|しょるい}が{山|やま}のようにあって、{今日中|きょうじゅう}にはとても{処理|しょり}し{切|き}れない。",
+          "sentence_contrast": "× {机|つくえ}の{上|うえ}に{書類|しょるい}が{山|やま}のようにあって、{今日中|きょうじゅう}にはとても{処理|しょり}し{抜|ぬ}けない。",
+          "explanation": "When expressing that volume or workload exceeds total capacity ('too much to get through completely'), use 〜{切|き}れない. 〜{抜|ぬ}く stresses gritty endurance through struggle rather than quantity capacity limits."
+        },
+        {
+          "pair_title": "Uncompromising stance under pressure (とおす) vs neutral finish (おえる)",
+          "sentence_valid": "{何度|なんど}{質問|しつもん}されても、{佐藤|さとう}さんは「{知|し}らない」と{最後|さいご}まで{言|い}い{通|とお}した。",
+          "sentence_contrast": "× {何度|なんど}{質問|しつもん}されても、{佐藤|さとう}さんは「{知|し}らない」と{最後|さいご}まで{言|い}い{終|お}えた。",
+          "explanation": "〜{終|お}える merely reports finishing the physical act of uttering words. To express stubbornly sticking to the same claim under repeated pressure all the way to the end, you must use 〜{通|とお}す."
+        }
+      ]
+    },
+    {
+      "matrix_id": "M10",
+      "title": "っぱなし vs まま vs きり vs てばかりいる — Unchanged & Ongoing States",
+      "theme": "Unchanged States and Repetitive Habits",
+      "decision_heuristic": "1. Separate repeated behavior from frozen states: doing the same action over and over to excess ('does nothing but X') = てばかりいる. 2. Inside frozen states: once-and-never-again cutoff after a past event ('ever since X, never Y since') = きり (paired with no further action); neutral unaltered state ('leaving X as-is while doing Y') = まま (V-た / V-ない / N + の); careless neglect leaving something open, on, or unended = っぱなし (V-ます stem, critical tone).",
+      "columns": [
+        "Pattern",
+        "Formation Key",
+        "Speaker Nuance",
+        "Constraints",
+        "Canonical Example"
+      ],
+      "rows": [
+        [
+          "〜っぱなし",
+          "V-ます stem + っぱなし（だ / にする / の + N）",
+          "Careless neglect or unended state: leaving a door open, appliance running, or standing endlessly (critical/weary tone).",
+          "Attaches ONLY to V-ます stems (× {開|あ}けたっぱなし). Invalid for careful preservation or neutral positive framing.",
+          "{玄関|げんかん}のドアを{開|あ}けっぱなしにして{出|で}かけたので、{部屋|へや}が{寒|さむ}くなってしまった。"
+        ],
+        [
+          "〜まま",
+          "V-た / V-ない / い-Adj / な-Adj + な / N + の + まま（で / にする）",
+          "Neutral unaltered state: doing B while leaving A unchanged ('with glasses on / just as it was').",
+          "Uses V-た (resulting state) or V-ない, NEVER dictionary V-る (× {着|き}るまま{寝|ね}る -> ○ {着|き}たまま{寝|ね}る). Neutral across positive or negative contexts.",
+          "{眼鏡|めがね}をかけたまま{寝|ね}てしまったので、{朝|あさ}{起|お}きたらフレームが{曲|ま}がっていた。"
+        ],
+        [
+          "〜きり",
+          "V-た + きり / これきり・それきり / N + きり",
+          "Final cutoff: 'ever since doing X, nothing else has happened since' OR 'only this X and nothing further.'",
+          "V-た + きり almost always pairs with ongoing non-occurrence in Clause 2 (〜ない / 〜ていない). Attaches to V-た, never V-ます stem.",
+          "{田中|たなか}さんは「ちょっと{出|で}かけてくる」と{言|い}ったきり、{夕方|ゆうがた}になっても{戻|もど}ってこない。"
+        ],
+        [
+          "〜てばかりいる",
+          "V-て + ばかりいる（てばかりだ）",
+          "Exasperated complaint over excessive repetition of a single behavior ('all they ever do is X').",
+          "Marks repeated separate actions rather than a frozen state; almost always carries speaker criticism or frustration.",
+          "{試験|しけん}が{近|ちか}いのに、{健太|けんた}は{勉強|べんきょう}しないでゲームをしてばかりいる。"
+        ]
+      ],
+      "minimal_pair_test": [
+        {
+          "pair_title": "Careful or neutral preservation (まま) vs careless neglect (っぱなし)",
+          "sentence_valid": "{大切|たいせつ}な{写真|しゃしん}を、もらったときのままアルバムに{大事|だいじ}にしまってある。",
+          "sentence_contrast": "× {大切|たいせつ}な{写真|しゃしん}を、アルバムにしまいっぱなしにして{大事|だいじ}にしている。",
+          "explanation": "まま neutrally keeps an existing state intact (including careful preservation) via V-た or N + の. っぱなし attaches strictly to V-ます stems and implies careless neglect, mess, or leaving something unintentionally open or untended."
+        },
+        {
+          "pair_title": "Ongoing silence after a single past event (きり vs まま)",
+          "sentence_valid": "{去年|きょねん}の{春|はる}に{一度|いちど}{会|あ}ったきりで、{佐藤|さとう}さんとはその{後|ご}まったく{連絡|れんらく}をとっていない。",
+          "sentence_contrast": "× {去年|きょねん}の{春|はる}に{一度|いちど}{会|あ}ったままで、{佐藤|さとう}さんとはその{後|ご}まったく{連絡|れんらく}をとっていない。",
+          "explanation": "まま preserves an active or physical state (like wearing shoes or keeping a borrowed book). When marking a single past milestone after which no further contact or follow-up happened ('since meeting once, never again...'), you must use V-た + きり."
+        },
+        {
+          "pair_title": "Continuous posture without pause (っぱなし) vs repeated action (てばかりいる)",
+          "sentence_valid": "アルバイトで{一日中|いちにちじゅう}{立|た}ちっぱなしだったので、{家|いえ}に{帰|かえ}ったら{足|あし}がパンパンだった。",
+          "sentence_contrast": "× アルバイトで{一日中|いちにちじゅう}{立|た}ってばかりいたので、{家|いえ}に{帰|かえ}ったら{足|あし}がパンパンだった。",
+          "explanation": "{立|た}ちっぱなし means remaining continuously on your feet without sitting down once. 〜てばかりいる means repeatedly performing an action over and over again across separate occasions, which distorts an uninterrupted posture."
+        }
+      ]
+    },
+    {
+      "matrix_id": "M11",
+      "title": "にとって vs に{対|たい}して vs について vs に{関|かん}して vs によって — に-Compound Relational Markers",
+      "theme": "Relational Noun Markers",
+      "decision_heuristic": "1. Match the semantic relation first: evaluative standpoint ('from X's viewpoint / for X') = にとって; attitude/action aimed at X OR side-by-side contrast = に{対|たい}して; core topic ('about X') = について (everyday) vs に{関|かん}して (broad/formal); passive agent, cause, method, or variation ('by / depending on') = によって. 2. Check the noun-modifier trap: にとって and について take の before nouns (〜についての{本|ほん}); に{対|たい}して, に{関|かん}して, and によって drop て and use dictionary form (〜に{対|たい}する, 〜に{関|かん}する, 〜による).",
+      "columns": [
+        "Pattern",
+        "Formation Key",
+        "Speaker Nuance",
+        "Constraints",
+        "Canonical Example"
+      ],
+      "rows": [
+        [
+          "〜にとって",
+          "N + にとって（は / も）; before N: にとっての + N",
+          "Evaluative perspective or personal significance: 'from X's standpoint / for X, Y is [hard/important].'",
+          "N MUST be a person, group, or institution capable of holding a viewpoint. Predicate states an evaluation ({大切|たいせつ}, {大変|たいへん}, {必要|ひつよう}), not a physical action.",
+          "{留学生|りゅうがくせい}にとって、{日本語|にほんご}の{敬語|けいご}を{自然|しぜん}に{使|つか}いこなすのはとても{難|むずか}しい。"
+        ],
+        [
+          "〜に{対|たい}して",
+          "N + に{対|たい}して; before N: に{対|たい}する + N",
+          "1) Attitude, emotion, or action directed toward a target ('toward X'); 2) Side-by-side contrast ('whereas X, Y').",
+          "Before a noun MUST drop て and use に{対|たい}する (× に{対|たい}しての). Does not express subjective standpoint evaluation like にとって.",
+          "{山田|やまだ}さんはいつもお{客|きゃく}さんに{対|たい}して、とても{丁寧|ていねい}な{言葉|ことば}づかいで{話|はな}す。"
+        ],
+        [
+          "〜について",
+          "N + について（は / も）; before N: についての + N",
+          "Pinpointed central topic ('about / concerning X') in conversation, classes, books, or reports.",
+          "Before a noun MUST add の (○ {環境|かんきょう}についての{発表|はっぴょう}). Targets topic X directly rather than broader surrounding issues.",
+          "{来週|らいしゅう}のゼミでは、{日本|にほん}の{少子化|しょうしか}の{問題|もんだい}について{自分|じぶん}の{意見|いけん}を{発表|はっぴょう}する。"
+        ],
+        [
+          "〜に{関|かん}して",
+          "N + に{関|かん}して（は / も）; before N: に{関|かん}する + N",
+          "Formal, broad scope ('regarding / related to X and associated matters'), wider and stiffer than について.",
+          "More formal than について; preferred in announcements, research, and inquiries. Before a noun use に{関|かん}する (avoid に{関|かん}しての).",
+          "この{新|あたら}しい{制度|せいど}に{関|かん}する{質問|しつもん}があれば、{今週中|こんしゅうじゅう}に{担当|たんとう}の{佐藤|さとう}までお{問|と}い{合|あ}わせください。"
+        ],
+        [
+          "〜によって",
+          "N + によって（は / も）; before N: による + N",
+          "Four roles: 1) passive creator/agent ('by'); 2) cause ('due to'); 3) method ('by means of'); 4) variation ('depending on').",
+          "Before a noun MUST become による (× によっての). Variation sense commonly ends with {違|ちが}う, {異|こと}なる, or {変|か}わる.",
+          "{言葉|ことば}の{使|つか}い{方|かた}やマナーは、{国|くに}や{文化|ぶんか}によって{大|おお}きく{異|こと}なる。"
+        ]
+      ],
+      "minimal_pair_test": [
+        {
+          "pair_title": "Noun-modifier trap: の (について・にとって) vs dictionary form (にたいする・による)",
+          "sentence_valid": "{先生|せんせい}は{生徒|せいと}からの{質問|しつもん}に{対|たい}する{丁寧|ていねい}な{答|こた}えをノートに{書|か}いた。",
+          "sentence_contrast": "× {先生|せんせい}は{生徒|せいと}からの{質問|しつもん}に{対|たい}しての{丁寧|ていねい}な{答|こた}えをノートに{書|か}いた。",
+          "explanation": "Verb-derived compound markers (に{対|たい}して, に{関|かん}して, によって) drop て and revert to plain dictionary form before a noun (に{対|たい}する, に{関|かん}する, による), whereas について and にとって retain て and add の (についての, にとっての)."
+        },
+        {
+          "pair_title": "Evaluative standpoint (にとって) vs directed attitude (にたいして)",
+          "sentence_valid": "{私|わたし}にとって、{家族|かぞく}と{過|す}ごす{時間|じかん}がいちばん{大切|たいせつ}だ。",
+          "sentence_contrast": "× {私|わたし}に{対|たい}して、{家族|かぞく}と{過|す}ごす{時間|じかん}がいちばん{大切|たいせつ}だ。",
+          "explanation": "にとって marks the evaluator whose personal viewpoint defines a value judgment ('for me / in my eyes, X is important'). に{対|たい}して targets an outward recipient for a feeling, attitude, or action ('polite toward guests')."
+        },
+        {
+          "pair_title": "Determining variable (によって) vs discussion topic (について)",
+          "sentence_valid": "{健康|けんこう}にいいかどうかは、{人|ひと}の{体質|たいしつ}によって{違|ちが}います。",
+          "sentence_contrast": "× {健康|けんこう}にいいかどうかは、{人|ひと}の{体質|たいしつ}について{違|ちが}います。",
+          "explanation": "When an outcome varies depending on a factor ({違|ちが}う, {異|こと}なる, {変|か}わる), you must use によって ('depending on X'). について introduces a topic of discussion or study rather than a variable condition."
+        }
+      ]
+    },
+    {
+      "matrix_id": "M12",
+      "title": "ところが vs ところで vs それで vs そこで vs すると — Sentence Connectors",
+      "theme": "Discourse Connectors",
+      "decision_heuristic": "1. Separate the look-alike pair first: ところが = unexpected factual plot twist ('however, contrary to expectation'); ところで = abrupt topic switch ('by the way'). 2. Split the sequential trio by human agency and immediacy: spontaneous immediate discovery right after action A ('and just then') = すると; deliberate human decision or proposal in response to situation A ('so we decided to') = そこで; natural everyday factual consequence ('and so, here is what happened') = それで (NO commands or invitations).",
+      "columns": [
+        "Pattern",
+        "Formation Key",
+        "Speaker Nuance",
+        "Constraints",
+        "Canonical Example"
+      ],
+      "rows": [
+        [
+          "ところが",
+          "「{文|ぶん}A。ところが、{文|ぶん}B」（sentence-initial）",
+          "Dramatic factual plot twist reversing expectations set in Sentence A: 'however, contrary to what one thought...'",
+          "Sentence B MUST state an actual observed fact; NEVER follow with commands, requests, invitations, or volitional plans (use でも / しかし instead).",
+          "{朝|あさ}の{天気予報|てんきよほう}は{一日中|いちにちじゅう}{晴|は}れだった。ところが、{午後|ごご}になって{急|きゅう}に{雨|あめ}が{降|ふ}り{出|だ}した。"
+        ],
+        [
+          "ところで",
+          "「{文|ぶん}A。ところで、{文|ぶん}B」（sentence-initial）",
+          "Conversational topic pivot onto an unrelated subject: 'by the way / speaking of something else...'",
+          "Requires a genuine topic jump (often into a question or new agenda); do NOT confuse with verb-attached 〜たところで ('even if one does X').",
+          "このレポートの{確認|かくにん}はもう{終|お}わりました。ところで、{来週|らいしゅう}の{歓迎会|かんげいかい}には{出席|しゅっせき}できますか。"
+        ],
+        [
+          "それで",
+          "「{文|ぶん}A。それで、{文|ぶん}B」（sentence-initial）",
+          "Everyday conversational link reporting a natural factual consequence: 'and because of that, here is what actually happened.'",
+          "Reports factual outcomes only; Sentence B CANNOT end in a command, request, advice, or invitation (× {雨|あめ}だ。それで{傘|かさ}を{持|も}ちなさい).",
+          "{昨日|きのう}は{終電|しゅうでん}を{逃|のが}してしまった。それで、しかたなくタクシーで{家|いえ}まで{帰|かえ}った。"
+        ],
+        [
+          "そこで",
+          "「{文|ぶん}A。そこで、{文|ぶん}B」（sentence-initial）",
+          "Actionable pivot: seeing a problem or turning point in A, the agent takes a deliberate step or proposes a plan in B.",
+          "Sentence B MUST reflect human agency (decision, countermeasure, proposal); NEVER use for uncontrolled natural accidents (× {地震|じしん}が{起|お}きた。そこで{停電|ていでん}した).",
+          "{駅|えき}の{前|まえ}の{道|みち}がよく{渋滞|じゅうたい}する。そこで、{市|し}は{新|あたら}しいバイパスを{作|つく}ることにした。"
+        ],
+        [
+          "すると",
+          "「{文|ぶん}A（{動作|どうさ}）。すると、{文|ぶん}B（{発見|はっけん}・{変化|へんか}）」",
+          "Immediate narrative trigger: right after performing or observing A, an immediate, unexpected event B unfolded next.",
+          "Requires instant sequential timing and a non-volitional discovery or reaction in B; invalid for delayed deliberate plans (use そこで).",
+          "{朝|あさ}{起|お}きてカーテンを{開|あ}けた。すると、{外|そと}は{一面|いちめん}の{雪|ゆき}で{真|ま}っ{白|しろ}だった。"
+        ]
+      ],
+      "minimal_pair_test": [
+        {
+          "pair_title": "Expectation-reversing twist (ところが) vs unrelated topic change (ところで)",
+          "sentence_valid": "{電車|でんしゃ}は{混|こ}んでいると{思|おも}った。ところが、{今日|きょう}は{席|せき}がたくさん{空|あ}いていた。",
+          "sentence_contrast": "× {電車|でんしゃ}は{混|こ}んでいると{思|おも}った。ところで、{今日|きょう}は{席|せき}がたくさん{空|あ}いていた。",
+          "explanation": "ところが directly flips the expectation set up in Sentence A ('contrary to what I expected'). ところで drops the current subject altogether to introduce an unrelated new question or topic ('by the way')."
+        },
+        {
+          "pair_title": "Deliberate human response (そこで) vs uncontrolled consequence (それで)",
+          "sentence_valid": "{台風|たいふう}で{橋|はし}が{壊|こわ}れてしまった。それで、{今日|きょう}のバスは{全部|ぜんぶ}{運休|うんきゅう}になった。",
+          "sentence_contrast": "× {台風|たいふう}で{橋|はし}が{壊|こわ}れてしまった。そこで、{川|かわ}の{水|みず}がどんどんあふれてしまった。",
+          "explanation": "そこで introduces a purposeful human decision, countermeasure, or group proposal triggered by Sentence A ('so we decided to...'), so it cannot introduce uncontrolled natural outcomes like overflowing rivers. Use それで (conversational) or そのため (formal) instead."
+        },
+        {
+          "pair_title": "Immediate sensory discovery (すると) vs factual command ban (それで)",
+          "sentence_valid": "{部屋|へや}のドアをそっと{開|あ}けた。すると、{中|なか}から{可愛|かわい}い{子猫|こねこ}が{飛|と}び{出|だ}してきた。",
+          "sentence_contrast": "× {明日|あした}から{旅行|りょこう}だ。それで、{今夜|こんや}のうちに{早|はや}く{荷物|にもつ}をまとめなさい。",
+          "explanation": "すると captures an immediate discovery right after an action ('and right then...'). Meanwhile, それで strictly narrates factual outcomes and cannot conclude with a command, request, or invitation (use だから / ですから for orders)."
+        }
+      ]
+    }
+  ]
+}

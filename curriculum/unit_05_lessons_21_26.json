@@ -1,0 +1,1525 @@
+{
+  "unit_number": 5,
+  "unit_slug": "unit-05-commands-requests-wishes",
+  "unit_title": "Unit 5: Commands, Requests, Wishes & Hopes (Lessons 21–26)",
+  "unit_overview": "Master Renshuu N3 Lessons 21–26: all 4 tiers of commands and requests (from ultra-polite 〜させていただきたい to written 〜こと and casual 〜ないと / 〜んじゃない) plus both lessons on wishes, hopes, and third-person desires.",
+  "lessons": [
+    {
+      "lesson_id": "L21",
+      "lesson_number": 21,
+      "renshuu_title": "Commands/Requests #1",
+      "has_video": false,
+      "summary": "Navigate polite permission and favor requests: humbly asking to act (〜させていただきたい), politely receiving permission (〜させてもらう / 〜させていただく), and climbing the request ladder from 〜てください to 〜てもらえませんか and 〜ていただけませんか.",
+      "study_tip": "Track WHO performs the action! When YOU want to do something with permission, use the causative (〜させてもらう / 〜させていただきたい); when YOU want the OTHER person to act for you, drop the causative and use 〜てもらえませんか / 〜ていただけませんか.",
+      "grammar_points": [
+        {
+          "id": "sasete-itadakitai",
+          "pattern": "〜させていただきたい",
+          "pattern_ruby": "〜させていただきたい",
+          "romaji": "~sasete itadakitai",
+          "meaning_en": "I would humbly like to be allowed to ~; please permit me to ~",
+          "register": "formal",
+          "renshuu_status": "verified_renshuu",
+          "mental_model": "Picture standing before a manager, client, or audience and gently asking for the floor. Combining the causative (〜させ- = 'allow me to') with humble receiving (いただく) and desire (〜たい) frames your own action as a gracious favor granted by the listener. Softening the end with 〜のですが or 〜と{思|おも}います turns a request for permission into smooth workplace Japanese.",
+          "formation": [
+            {
+              "pos": "{五段動詞|ごだんどうし}ない{形|けい}（ない → せていただきたい）",
+              "rule": "{書|か}く → {書|か}かせていただきたい／{使|つか}う → {使|つか}わせていただきたい"
+            },
+            {
+              "pos": "{一段動詞|いちだんどうし}ない{形|けい}（ない → させていただきたい）",
+              "rule": "{見|み}る → {見|み}させていただきたい"
+            },
+            {
+              "pos": "する・{来|く}る",
+              "rule": "させていただきたい・{来|こ}させていただきたい"
+            },
+            {
+              "pos": "（{丁寧|ていねい}な{前置|まえお}き）",
+              "rule": "〜させていただきたいのですが / と{思|おも}います"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "{会議|かいぎ}の{始|はじ}めに、{私|わたし}から{一言|ひとこと}ご{挨拶|あいさつ}させていただきたいのですが。",
+              "structure_note": "{名詞|めいし}＋する（ご{挨拶|あいさつ}する）→ ご{挨拶|あいさつ}させていただきたいのですが",
+              "en": "At the start of the meeting, I would humbly like to say a brief word of greeting."
+            },
+            {
+              "ja_ruby": "{詳|くわ}しい{資料|しりょう}を{明日|あした}までにメールで{送|おく}らせていただきたいと{思|おも}います。",
+              "structure_note": "{五段動詞|ごだんどうし}（{送|おく}る）→ {送|おく}らせていただきたい ＋ と{思|おも}います",
+              "en": "I would like to humbly send you the detailed materials by email by tomorrow."
+            },
+            {
+              "ja_ruby": "{来週|らいしゅう}の{金曜日|きんようび}、{家族|かぞく}の{用事|ようじ}で{会社|かいしゃ}を{休|やす}ませていただきたいです。",
+              "structure_note": "{五段動詞|ごだんどうし}（{休|やす}む）→ {休|やす}ませていただきたいです（{許可|きょか}の{願|ねが}い）",
+              "en": "Next Friday, I would humbly like to take the day off from work for a family matter."
+            },
+            {
+              "ja_ruby": "{鈴木|すずき}さんの{意見|いけん}について、{少|すこ}し{質問|しつもん}させていただきたいのですが、よろしいでしょうか。",
+              "structure_note": "〜させていただきたいのですが、よろしいでしょうか（{改|あらた}まった{確認|かくにん}）",
+              "en": "I would like to ask a brief question about Suzuki's opinion—would that be alright?"
+            }
+          ],
+          "pitfalls": [
+            "Avoid the common さ{入|い}れ{言葉|ことば} error on Godan verbs: use ○ {行|い}かせていただきたい / {読|よ}ませていただきたい, NEVER × {行|い}かさせていただきたい or × {読|よ}まさせていただきたい.",
+            "Only use 〜させていただきたい when another party's permission, time, or territory is genuinely involved; using it for private daily actions like eating lunch alone sounds stiff and unnatural.",
+            "Do not omit the causative element: 〜ていただきたい asks the *other* person to do something, whereas 〜させていただきたい asks permission to do it *yourself*."
+          ]
+        },
+        {
+          "id": "sasete-morau",
+          "pattern": "〜させてもらう / 〜させていただく",
+          "pattern_ruby": "〜させてもらう / 〜させていただく",
+          "romaji": "~sasete morau / ~sasete itadaku",
+          "meaning_en": "to be allowed to ~; to humbly do ~ with someone's permission",
+          "register": "neutral",
+          "renshuu_status": "canonical_n3",
+          "mental_model": "Think of this pair as two registers on the same permission track. 〜させてもらう is everyday neutral/casual Japanese for saying someone lets you do something ('Mom let me stay out late' or 'Let me borrow this for a sec'). Switching もらう to humble いただく gives 〜させていただく, used in business, emails, and announcements either to politely declare your own action ('I will now begin the presentation') or ask permission as 〜させていただけませんか.",
+          "formation": [
+            {
+              "pos": "{動詞使役|どうししえき}て{形|けい}",
+              "rule": "＋ もらう / もらいます / もらえませんか"
+            },
+            {
+              "pos": "{動詞使役|どうししえき}て{形|けい}",
+              "rule": "＋ いただく / いただきます / いただけませんか"
+            },
+            {
+              "pos": "{名詞|めいし}＋する",
+              "rule": "＋ させてもらう / させていただく（{発表|はっぴょう}させていただく）"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "もう{時間|じかん}なので、そろそろ{失礼|しつれい}させていただきます。",
+              "structure_note": "{名詞|めいし}＋する（{失礼|しつれい}する）→ {失礼|しつれい}させていただきます（{丁寧|ていねい}な{宣言|せんげん}）",
+              "en": "Since it's already time, please allow me to excuse myself now."
+            },
+            {
+              "ja_ruby": "{来月|らいげつ}の{試合|しあい}に{出|で}るため、{先輩|せんぱい}に{練習|れんしゅう}へ{参加|さんか}させてもらった。",
+              "structure_note": "{動詞使役|どうししえき}て{形|けい}（{参加|さんか}させて）＋ もらった（{許可|きょか}を{得|え}た）",
+              "en": "To prepare for next month's match, my senior let me join the practice."
+            },
+            {
+              "ja_ruby": "お{店|みせ}の{中|なか}で{写真|しゃしん}を{撮|と}らせていただけませんか。",
+              "structure_note": "{可能否定疑問|かのうひていぎもん}（〜させていただけませんか ＝ {丁寧|ていねい}な{許可依頼|きょかいらい}）",
+              "en": "Could you kindly allow me to take photos inside the shop?"
+            },
+            {
+              "ja_ruby": "ちょっと{急|いそ}ぎの{用事|ようじ}ができたから、{今日|きょう}は{早|はや}めに{帰|かえ}らせてもらうね。",
+              "structure_note": "{五段動詞|ごだんどうし}（{帰|かえ}る）→ {帰|かえ}らせてもらうね（{親|した}しい{相手|あいて}への{宣言|せんげん}）",
+              "en": "An urgent errand just came up, so I'm going to head home early today, okay?"
+            }
+          ],
+          "pitfalls": [
+            "Notice the difference between declaring and asking: 〜させていただきます politely announces an action already understood as acceptable, whereas asking fresh permission requires a question form such as 〜させていただけませんか or 〜させてもらってもいいですか.",
+            "Remember the Godan causative trap: ○ {使|つか}わせてもらう / {休|やす}ませていただく, NEVER × {使|つか}わさせてもらう.",
+            "Never confuse 〜てもらう (someone else does the action for your benefit) with 〜させてもらう (you perform the action with someone's permission)."
+          ]
+        },
+        {
+          "id": "te-itadakemasenka",
+          "pattern": "〜ていただけませんか / 〜てもらえませんか",
+          "pattern_ruby": "〜ていただけませんか / 〜てもらえませんか",
+          "romaji": "~te itadakemasen ka / ~te moraemasen ka",
+          "meaning_en": "could you please ~ for me?; would you be willing to ~?",
+          "register": "formal",
+          "renshuu_status": "canonical_n3",
+          "mental_model": "Picture a three-step politeness ladder for asking someone else to act. At the bottom, 〜てください gives a clear, direct prompt—natural on signs, among peers, or for easy tasks, yet slightly abrupt toward a boss. Stepping up to 〜てもらえませんか turns the request into a gentle potential question ('could I receive your doing X?') for friends and coworkers. At the top, 〜ていただけませんか uses humble いただく to show clear respect to teachers, clients, and superiors.",
+          "formation": [
+            {
+              "pos": "{動詞|どうし}て{形|けい}",
+              "rule": "＋ もらえませんか / もらえないでしょうか"
+            },
+            {
+              "pos": "{動詞|どうし}て{形|けい}",
+              "rule": "＋ いただけませんか / いただけないでしょうか"
+            },
+            {
+              "pos": "{動詞|どうし}ない{形|けい}＋で",
+              "rule": "＋ もらえませんか / いただけませんか（{否定|ひてい}の{依頼|いらい}）"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "{田中|たなか}{先生|せんせい}、すみませんが、この{推薦状|すいせんじょう}を{書|か}いていただけませんか。",
+              "structure_note": "{動詞|どうし}て{形|けい}（{書|か}いて）＋ いただけませんか（{目上|めうえ}への{依頼|いらい}）",
+              "en": "Professor Tanaka, excuse me, but could you possibly write this letter of recommendation for me?"
+            },
+            {
+              "ja_ruby": "{佐藤|さとう}さん、{重|おも}いので、この{荷物|にもつ}を{二階|にかい}まで{運|はこ}ぶのを{手伝|てつだ}ってもらえませんか。",
+              "structure_note": "{動詞|どうし}て{形|けい}（{手伝|てつだ}って）＋ もらえませんか（{同僚|どうりょう}・{知人|ちじん}への{依頼|いらい}）",
+              "en": "Sato, since it's heavy, could you help me carry this luggage up to the second floor?"
+            },
+            {
+              "ja_ruby": "{美術館|びじゅつかん}の{中|なか}では、フラッシュをつけて{写真|しゃしん}を{撮|と}らないでいただけませんか。",
+              "structure_note": "{動詞|どうし}ない{形|けい}＋で ＋ いただけませんか（{丁寧|ていねい}な{禁止依頼|きんしいらい}）",
+              "en": "Inside the art museum, could you please refrain from taking photos with a flash?"
+            },
+            {
+              "ja_ruby": "{駅|えき}の{場所|ばしょ}がわからないので、{地図|ちず}に{書|か}いていただけますか。",
+              "structure_note": "〜ていただけますか（{少|すこ}し{直接的|ちょくせつてき}な{丁寧依頼|ていねいいらい}）",
+              "en": "I don't know where the station is—could you write it on the map for me?"
+            }
+          ],
+          "pitfalls": [
+            "For negative requests ('please don't ~'), always use 〜ないで + いただけませんか (○ {話|はな}さないでいただけませんか), NEVER 〜なくて (× {話|はな}さなくていただけませんか).",
+            "Do not insert your own humble verb before 〜ていただけませんか when asking *the listener* to act: say ○ {資料|しりょう}を{見|み}ていただけませんか or ご{覧|らん}になっていただけませんか, NEVER × {拝見|はいけん}していただけませんか.",
+            "Remember that negative-interrogative 〜ませんか (and 〜ないでしょうか) leaves the listener room to decline politely, making it much softer than direct 〜てください toward superiors or strangers."
+          ]
+        }
+      ],
+      "lesson_contrast": {
+        "title": "Polite Request & Permission Ladder in Lesson 21",
+        "explanation": "Choose the right Lesson 21 form by checking two axes: WHO performs the action (you vs. the other person) and HOW high the social distance is.",
+        "rows": [
+          {
+            "expression": "〜させていただきたい",
+            "register": "Formal",
+            "key_rule": "Speaker performs the action; humbly requests permission ('I would like to be allowed to...').",
+            "example_short": "{私|わたし}から{説明|せつめい}させていただきたいのですが。"
+          },
+          {
+            "expression": "〜させてもらう / 〜させていただく",
+            "register": "Neutral / Formal",
+            "key_rule": "Speaker performs the action with consent; announces or receives permission (casual to keigo).",
+            "example_short": "{今日|きょう}は{先|さき}に{失礼|しつれい}させていただきます。"
+          },
+          {
+            "expression": "〜ていただけませんか / 〜てもらえませんか",
+            "register": "Formal / Polite",
+            "key_rule": "Listener performs the favor; negative potential question softens the request far above 〜てください.",
+            "example_short": "{確認|かくにん}していただけませんか。"
+          }
+        ]
+      },
+      "practice_quiz": [
+        {
+          "question_id": "L21-Q1",
+          "question_type": "fill_blank",
+          "prompt_ja_ruby": "{会議|かいぎ}の{始|はじ}めに、{新|あたら}しいプロジェクトについて{私|わたし}から{説明|せつめい}（　　　）いただきたいのですが。",
+          "context_en": "At the start of the meeting, I would humbly like to be allowed to explain the new project from my side.",
+          "choices": [
+            "して",
+            "させて",
+            "されて",
+            "できて"
+          ],
+          "correct_index": 1,
+          "explanation": "Correct: B (させて). Because {私|わたし}から marks the speaker as the person who will explain, causative {説明|せつめい}させて ＋ いただきたい is required to humbly ask permission to perform the action. A (して) would ask the listener to explain for the speaker, clashing with {私|わたし}から; C (されて) is passive and ungrammatical with いただきたい; D (できて) is potential and cannot attach before いただきたい."
+        },
+        {
+          "question_id": "L21-Q2",
+          "question_type": "nuance_choice",
+          "prompt_ja_ruby": "（{学生|がくせい}が{教授|きょうじゅ}に）{先生|せんせい}、お{忙|いそが}しいところ{申|もう}し{訳|わけ}ありませんが、{推薦状|すいせんじょう}を{書|か}いて（　　　）。",
+          "context_en": "A university student politely asking a professor to write a letter of recommendation.",
+          "choices": [
+            "もらうつもりですか",
+            "あげたいのですが",
+            "くれないですか",
+            "いただけませんか"
+          ],
+          "correct_index": 3,
+          "explanation": "Correct: D (いただけませんか). Asking a professor for a favor requires humble potential negative-interrogative 〜ていただけませんか. A (もらうつもりですか) asks 'do you intend to receive?', which is nonsensical and rude; B (あげたいのですが) reverses the direction to say the student wants to write it for the professor; C (くれないですか) uses plain くれる and is far too casual for addressing a professor."
+        },
+        {
+          "question_id": "L21-Q3",
+          "question_type": "attachment_trap",
+          "prompt_ja_ruby": "{先|さき}に{私|わたし}からメールを（　　　）と{思|おも}います。",
+          "context_en": "Testing correct Godan causative attachment without sa-ire kotoba (さ入れ言葉): 'I would humbly like to send the email first from my side.'",
+          "choices": [
+            "{送|おく}らせていただきたい",
+            "{送|おく}らさせていただきたい",
+            "{送|おく}りさせていただきたい",
+            "{送|おく}るさせていただきたい"
+          ],
+          "correct_index": 0,
+          "explanation": "Correct: A ({送|おく}らせていただきたい). {送|おく}る is a Godan verb, so its causative stem takes only せ ({送|おく}らせ) before ていただきたい. B ({送|おく}らさせていただきたい) commits the classic さ{入|い}れ{言葉|ことば} error by adding an extra さ; C ({送|おく}りさせていただきたい) wrongly uses the ます-stem; D ({送|おく}るさせていただきたい) wrongly attaches させ directly to the dictionary form."
+        },
+        {
+          "question_id": "L21-Q4",
+          "question_type": "star_order",
+          "prompt_ja_ruby": "{少|すこ}し{遅|おく}れるので、{先|さき}に＿　＿　★　＿。",
+          "context_en": "Politely asking colleagues or organizers to go ahead and start the meeting without you: 'Since I'll be a little late, could you please start the meeting first?'",
+          "choices": [
+            "ませんか",
+            "{会議|かいぎ}を",
+            "いただけ",
+            "{始|はじ}めて"
+          ],
+          "correct_index": 2,
+          "explanation": "Correct: C (いただけ). Full sentence: {少|すこ}し{遅|おく}れるので、{先|さき}に {会議|かいぎ}を(1) {始|はじ}めて(2) いただけ(3★) ませんか(4). {会議|かいぎ}を sets the direct object of {始|はじ}めて, and いただけ must stand directly between the て-form {始|はじ}めて and the polite negative ending ませんか to form 〜ていただけませんか. Placing {始|はじ}めて before {会議|かいぎ}を breaks the object-verb link, and ませんか can only close the sentence."
+        }
+      ]
+    },
+    {
+      "lesson_id": "L22",
+      "lesson_number": 22,
+      "renshuu_title": "Commands/Requests #2",
+      "has_video": false,
+      "summary": "Distinguish warm encouraging prompts (〜てごらん), constructive problem-solving advice (〜ばいい / 〜たらいい), calm senior-to-junior directives (〜なさい), and open suggestions (〜たらどうですか).",
+      "study_tip": "Never confuse 〜なさい with polite keigo just because it comes from なさる: it is strictly downward (parent, teacher, or exam instructions). When speaking to peers, switch to 〜たらどうですか or 〜ばいいですよ.",
+      "grammar_points": [
+        {
+          "id": "te-goran",
+          "pattern": "〜てごらん / 〜てごらんなさい",
+          "pattern_ruby": "〜てごらん / 〜てごらんなさい",
+          "romaji": "~te goran / ~te goran nasai",
+          "meaning_en": "try doing ~; go ahead and ~ (warm encouraging prompt)",
+          "register": "casual",
+          "renshuu_status": "canonical_n3",
+          "mental_model": "Derived from honorific ご{覧|らん}になる ('look/see') combined with 〜てみる ('try and see'), 〜てごらん acts like a supportive parent or teacher bending down to nudge a child forward: 'Go ahead—try tasting it / take a look over there!' Because it assumes warm seniority, it feels affectionate downward and deeply patronizing if aimed upward at an adult equal or superior.",
+          "formation": [
+            {
+              "pos": "{動詞|どうし}て{形|けい}",
+              "rule": "＋ ごらん（{親|した}しい・{優|やさ}しい{促|うなが}し）"
+            },
+            {
+              "pos": "{動詞|どうし}て{形|けい}",
+              "rule": "＋ ごらんなさい（やや{丁寧|ていねい}な{親|おや}・{教師|きょうし}の{表現|ひょうげん}）"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "このケーキ、すごくおいしくできたから、{一口|ひとくち}{食|た}べてごらん。",
+              "structure_note": "{動詞|どうし}て{形|けい}（{食|た}べて）＋ ごらん（{家族|かぞく}・{子供|こども}への{勧|すす}め）",
+              "en": "This cake turned out really delicious, so go ahead and try a bite!"
+            },
+            {
+              "ja_ruby": "{窓|まど}の{外|そと}を{見|み}てごらん。きれいな{虹|にじ}が{出|で}ているよ。",
+              "structure_note": "{動詞|どうし}て{形|けい}（{見|み}て）＋ ごらん（{注意|ちゅうい}を{向|む}ける）",
+              "en": "Look outside the window! There's a beautiful rainbow out."
+            },
+            {
+              "ja_ruby": "わからない{漢字|かんじ}があったら、まず{自分|じぶん}で{辞書|じしょ}を{引|ひ}いてごらんなさい。",
+              "structure_note": "{動詞|どうし}て{形|けい}（{引|ひ}いて）＋ ごらんなさい（{先生|せんせい}から{生徒|せいと}へ）",
+              "en": "If there's a kanji you don't know, try looking it up in a dictionary yourself first."
+            },
+            {
+              "ja_ruby": "{怖|こわ}がらないで、もう{一度|いちど}{自転車|じてんしゃ}に{乗|の}ってごらん。",
+              "structure_note": "〜ないで ＋ {動詞|どうし}て{形|けい} ＋ ごらん（{励|はげ}まし）",
+              "en": "Don't be scared—try getting on the bicycle one more time."
+            }
+          ],
+          "pitfalls": [
+            "Strictly downward or intimate (parent to child, teacher to young student, older to younger sibling): using 〜てごらん toward a boss, customer, or adult stranger sounds condescending.",
+            "Never insert みて before ごらん (○ {読|よ}んでごらん, × {読|よ}んでみてごらん), because ごらん already carries the 'try and see' meaning of みる.",
+            "Do not attach ごらん to negative 〜ないで as a command (× {触|さわ}らないでごらん); use it to encourage trying a positive action."
+          ]
+        },
+        {
+          "id": "ba-ii-tara-ii",
+          "pattern": "〜ばいい / 〜たらいい",
+          "pattern_ruby": "〜ばいい / 〜たらいい",
+          "romaji": "~ba ii / ~tara ii",
+          "meaning_en": "you should ~; it's fine if you ~; what should I ~? (with question word)",
+          "register": "neutral",
+          "renshuu_status": "verified_renshuu",
+          "mental_model": "Literally 'if you do X, that's good/enough,' this pattern frames advice as an easy, practical solution rather than an order. You hand the listener a clear path forward ('If you're tired, just go to sleep early')—or flip it into a question with どう / どこ / いくら to ask for guidance ('How should I fill this out?'). Compared with 〜ばいい, 〜たらいい feels slightly more conversational for concrete one-off situations.",
+          "formation": [
+            {
+              "pos": "{動詞|どうし}ば{形|けい}・{動詞|どうし}た{形|けい}＋ら",
+              "rule": "＋ いい（よ・です・ですよ）"
+            },
+            {
+              "pos": "{動詞|どうし}ない{形|けい}（〜なければ / 〜なかったら）",
+              "rule": "＋ いい（{否定的|ひていてき}な{助言|じょげん}）"
+            },
+            {
+              "pos": "{疑問詞|ぎもんし} ＋ {動詞|どうし}ば / たら",
+              "rule": "＋ いいですか（{相談|そうだん}・{質問|しつもん}）"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "この{書類|しょるい}の{書|か}き{方|かた}がわからないんですが、どこに{名前|なまえ}を{書|か}けばいいですか。",
+              "structure_note": "{疑問詞|ぎもんし}（どこに）＋ {動詞|どうし}ば{形|けい}（{書|か}けば）＋ いいですか",
+              "en": "I don't know how to fill out this form—where should I write my name?"
+            },
+            {
+              "ja_ruby": "{頭|あたま}が{痛|いた}いなら、{無理|むり}をしないで{早|はや}く{帰|かえ}ったらいいですよ。",
+              "structure_note": "{動詞|どうし}た{形|けい}＋ら（{帰|かえ}ったら）＋ いいですよ（{優|やさ}しい{助言|じょげん}）",
+              "en": "If your head hurts, you shouldn't push yourself—you should head home early."
+            },
+            {
+              "ja_ruby": "{辛|から}いのが{苦手|にがて}なら、コショウを{入|い}れなければいい。",
+              "structure_note": "{動詞|どうし}ない{形|けい}（{入|い}れなければ）＋ いい（{解決策|かいけつさく}）",
+              "en": "If you dislike spicy food, you can just leave out the pepper."
+            },
+            {
+              "ja_ruby": "{明日|あした}のパーティーには、どんな{服|ふく}を{着|き}ていったらいいでしょうか。",
+              "structure_note": "{疑問詞|ぎもんし}（どんな{服|ふく}を）＋ たら ＋ いいでしょうか（{丁寧|ていねい}な{相談|そうだん}）",
+              "en": "What kind of clothes should I wear to tomorrow's party?"
+            }
+          ],
+          "pitfalls": [
+            "Watch your ば-form stems: Ichidan verbs drop る and add れば ({見|み}ればいい, {食|た}べればいい), する becomes すればいい, {来|く}る becomes {来|く}ればいい, and い-adjectives take 〜ければ ({安|やす}ければいい, NEVER × {安|やす}いばいい).",
+            "Mind the emotional trap with 〜ばいいのに or dismissive intonation: {勝手|かって}にすればいい ('do whatever you like, then') sounds sharp or annoyed, whereas {聞|き}いてみればいいよ sounds helpful.",
+            "Remember the tense boundary: present 〜ばいい gives advice for now or the future, while past 〜ばよかった (Lesson 25) expresses counterfactual regret ('I wish I had...')."
+          ]
+        },
+        {
+          "id": "nasai-tara-dou",
+          "pattern": "〜なさい / 〜たらどうですか",
+          "pattern_ruby": "〜なさい / 〜たらどうですか",
+          "romaji": "~nasai / ~tara dou desu ka",
+          "meaning_en": "do ~! (calm authoritative directive: nasai); why don't you ~? (suggestion: tara dou desu ka)",
+          "register": "neutral",
+          "renshuu_status": "canonical_n3",
+          "mental_model": "Compare an unchallengeable instruction with an open suggestion. Vます-stem + なさい is a calm, firm command used downward by parents and teachers—or impersonally on exam prompts ('Choose the best answer')—where compliance is expected. Vたらどうですか ('how would it be if you did X?') steps down from authority to propose a helpful option to a friend, classmate, or junior.",
+          "formation": [
+            {
+              "pos": "{動詞|どうし}ます{形|けい}（{語幹|ごかん}）",
+              "rule": "＋ なさい（{書|か}きます → {書|か}きなさい）"
+            },
+            {
+              "pos": "{動詞|どうし}た{形|けい}＋ら",
+              "rule": "＋ どう（ですか）（{提案|ていあん}・アドバイス）"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "もう{夜|よる}の{11時|じゅういちじ}よ。テレビを{消|け}して、そろそろ{寝|ね}なさい。",
+              "structure_note": "{動詞|どうし}ます{形|けい}（{寝|ね}）＋ なさい（{親|おや}から{子|こ}への{指示|しじ}）",
+              "en": "It's already 11 p.m. Turn off the TV and go to sleep now."
+            },
+            {
+              "ja_ruby": "{次|つぎ}の{文章|ぶんしょう}を{読|よ}んで、{正|ただ}しい{答|こた}えを{一|ひと}つ{選|えら}びなさい。",
+              "structure_note": "{動詞|どうし}ます{形|けい}（{選|えら}び）＋ なさい（{試験問題|しけんもんだい}の{指示文|しじぶん}）",
+              "en": "Read the following passage and choose one correct answer."
+            },
+            {
+              "ja_ruby": "そんなに{疲|つか}れているなら、{今日|きょう}は{早|はや}めに{帰|かえ}ったらどうですか。",
+              "structure_note": "{動詞|どうし}た{形|けい}＋ら ＋ どうですか（{相手|あいて}への{提案|ていあん}）",
+              "en": "If you're that tired, why don't you head home early today?"
+            },
+            {
+              "ja_ruby": "パソコンの{調子|ちょうし}が{悪|わる}いなら、{詳|くわ}しい{高橋|たかはし}さんに{聞|き}いてみたらどう？",
+              "structure_note": "〜てみたらどう（{親|した}しい{間柄|あいだがら}のカジュアルな{提案|ていあん}）",
+              "en": "If your PC is acting up, why don't you try asking Takahashi, who knows a lot about them?"
+            }
+          ],
+          "pitfalls": [
+            "〜なさい attaches strictly to the ます-stem ({立|た}ちなさい, {見|み}なさい, しなさい, {来|き}なさい)—never dictionary form or て-form—and has NO negative form (for 'don't do X', use 〜てはいけません or 〜ないようにしなさい).",
+            "Even though 〜なさい originates from honorific なさる, using it toward a boss, client, or adult stranger is rude and condescending.",
+            "〜たらどうですか can sound slightly pushy or critical if said directly to a superior ('why don't you just...?'); upward, soften it to 〜てみてはいかがでしょうか."
+          ]
+        }
+      ],
+      "lesson_contrast": {
+        "title": "Encouragement, Advice & Authority in Lesson 22",
+        "explanation": "Match the relationship and urgency before giving advice or instructions: downward encouragement, open problem-solving, peer suggestion, or firm instruction.",
+        "rows": [
+          {
+            "expression": "〜てごらん（なさい）",
+            "register": "Casual (downward)",
+            "key_rule": "Warm, gentle prompt encouraging a child or student to try something ('go ahead and try X').",
+            "example_short": "おいしいから{食|た}べてごらん。"
+          },
+          {
+            "expression": "〜ばいい / 〜たらいい",
+            "register": "Neutral",
+            "key_rule": "Practical solution or advice ('you should / can just X'); with question words, asks for direction.",
+            "example_short": "{地図|ちず}を{見|み}ればいいですよ。"
+          },
+          {
+            "expression": "〜なさい",
+            "register": "Neutral (downward / tests)",
+            "key_rule": "Calm authoritative instruction (parent/teacher to junior, or exam prompts); attaches to ます-stem.",
+            "example_short": "{名前|なまえ}を{書|か}きなさい。"
+          },
+          {
+            "expression": "〜たらどうですか",
+            "register": "Neutral",
+            "key_rule": "Constructive suggestion ('why don't you...?') to peers or juniors; avoid directly upward.",
+            "example_short": "{一度|いちど}{休|やす}んだらどうですか。"
+          }
+        ]
+      },
+      "practice_quiz": [
+        {
+          "question_id": "L22-Q1",
+          "question_type": "fill_blank",
+          "prompt_ja_ruby": "（{先生|せんせい}が{生徒|せいと}に）わからないときは、まず{自分|じぶん}で{辞書|じしょ}で{調|しら}べて（　　　）。",
+          "context_en": "A teacher gently encouraging a young student: 'When you don't know, try looking it up in the dictionary yourself first.'",
+          "choices": [
+            "しまった",
+            "なさい",
+            "ごらん",
+            "どうですか"
+          ],
+          "correct_index": 2,
+          "explanation": "Correct: C (ごらん). Attaching ごらん to the て-form ({調|しら}べてごらん) produces a warm, encouraging prompt from a teacher to a student ('try looking it up'). A (しまった) expresses completed regret in the past, clashing with habitual advice (わからないときは、まず); B (なさい) attaches only to the ます-stem ({調|しら}べなさい), never to て-form; D (どうですか) requires conditional {調|しら}べたら rather than て-form."
+        },
+        {
+          "question_id": "L22-Q2",
+          "question_type": "nuance_choice",
+          "prompt_ja_ruby": "（{友人|ゆうじん}に）{進路|しんろ}に{迷|まよ}っているなら、{一度|いちど}{先生|せんせい}に{相談|そうだん}（　　　）。",
+          "context_en": "Offering an optional suggestion to a friend unsure about their career path: 'Why don't you consult a teacher once?'",
+          "choices": [
+            "したらどうですか",
+            "しなさい",
+            "してごらん",
+            "してあげてください"
+          ],
+          "correct_index": 0,
+          "explanation": "Correct: A (したらどうですか). {相談|そうだん}したらどうですか offers constructive, optional advice to a friend or equal. B (しなさい) is an authoritative downward command inappropriate between adult friends; C (してごらん) is a parent-to-child prompt that sounds condescending to a peer; D (してあげてください) implies consulting as a favor done for the teacher, distorting the meaning."
+        },
+        {
+          "question_id": "L22-Q3",
+          "question_type": "attachment_trap",
+          "prompt_ja_ruby": "{道|みち}がわからないときは、{駅員|えきいん}さんに（　　　）いいですよ。",
+          "context_en": "Testing ば-form verb conjugation for advice: 'When you don't know the way, you should just ask the station staff.'",
+          "choices": [
+            "{聞|き}くば",
+            "{聞|き}きば",
+            "{聞|き}いてば",
+            "{聞|き}けば"
+          ],
+          "correct_index": 3,
+          "explanation": "Correct: D ({聞|き}けば). To form the ば-conditional on a Godan verb like {聞|き}く, shift the final -u vowel to the え-row ({聞|き}け) and add ば to get {聞|き}けばいいですよ. A ({聞|き}くば) wrongly leaves the dictionary form; B ({聞|き}きば) uses the ます-stem; C ({聞|き}いてば) attaches ば to the て-form."
+        },
+        {
+          "question_id": "L22-Q4",
+          "question_type": "star_order",
+          "prompt_ja_ruby": "{日本|にほん}へ{行|い}くのに、＿　＿　★　＿か。",
+          "context_en": "Asking for practical advice: 'What should I prepare for going to Japan?'",
+          "choices": [
+            "いいです",
+            "したら",
+            "{準備|じゅんび}",
+            "{何|なに}を"
+          ],
+          "correct_index": 1,
+          "explanation": "Correct: B (したら). Full sentence: {日本|にほん}へ{行|い}くのに、{何|なに}を(1) {準備|じゅんび}(2) したら(3★) いいです(4) か。The question word {何|なに}を introduces the object of {準備|じゅんび}する, and the conditional たら attaches directly to {準備|じゅんび}し(て) to form {準備|じゅんび}したら followed by いいですか. Separating {何|なに}を from {準備|じゅんび} or placing いいです before したら breaks the 〜たらいいですか question structure."
+        }
+      ]
+    },
+    {
+      "lesson_id": "L23",
+      "lesson_number": 23,
+      "renshuu_title": "Commands/Requests #3",
+      "has_video": false,
+      "summary": "Master institutional and indirect instructions: impersonal posted rules (〜こと), general practical advice (〜ことだ), and reporting commands, requests, and warnings indirectly (〜ように{言|い}う / {頼|たの}む / {伝|つた}える).",
+      "study_tip": "Watch whether だ/です follows こと: bare Vる / Vない＋こと at the end of a line is a strict posted rule ('Do not enter'), whereas Vる / Vない＋ことだ shares wise personal advice ('What one ought to do is...').",
+      "grammar_points": [
+        {
+          "id": "koto-written-rule",
+          "pattern": "〜こと（規則・指示）",
+          "pattern_ruby": "〜こと（{規則|きそく}・{指示|しじ}）",
+          "romaji": "~koto (kisoku / shiji)",
+          "meaning_en": "must ~; must not ~ (impersonal written rules, signs, and instructions)",
+          "register": "written",
+          "renshuu_status": "canonical_n3",
+          "mental_model": "Picture a printed rule sheet on a dormitory wall, a lab safety manual, or the top of an exam paper. Ending a plain verb directly with bare こと strips away any personal speaker voice and turns the clause into an objective institutional directive ('One is to submit by Friday' / 'One is not to use a dictionary'). Because it omits だ/です, it belongs strictly on paper rather than in friendly spoken conversation.",
+          "formation": [
+            {
+              "pos": "{動詞|どうし}{辞書形|じしょけい}",
+              "rule": "＋ こと（{肯定|こうてい}の{規則|きそく}・{指示|しじ}）"
+            },
+            {
+              "pos": "{動詞|どうし}ない{形|けい}",
+              "rule": "＋ こと（{禁止|きんし}の{規則|きそく}・{指示|しじ}）"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "レポートは{今週|こんしゅう}の{金曜日|きんようび}の{午後|ごご}{5時|ごじ}までに{必|かなら}ず{提出|ていしゅつ}すること。",
+              "structure_note": "{動詞|どうし}{辞書形|じしょけい}（{提出|ていしゅつ}する）＋ こと（{文末|ぶんまつ}の{指示|しじ}）",
+              "en": "Reports must be submitted without fail by 5:00 p.m. this Friday."
+            },
+            {
+              "ja_ruby": "{試験中|しけんちゅう}は、{辞書|じしょ}やスマートフォンを{使|つか}わないこと。",
+              "structure_note": "{動詞|どうし}ない{形|けい}（{使|つか}わない）＋ こと（{禁止|きんし}ルール）",
+              "en": "Do not use dictionaries or smartphones during the exam."
+            },
+            {
+              "ja_ruby": "{部屋|へや}を{出|で}るときは、エアコンと{電気|でんき}を{消|け}すこと。",
+              "structure_note": "{動詞|どうし}{辞書形|じしょけい}（{消|け}す）＋ こと（{寮|りょう}・{施設|しせつ}の{規則|きそく}）",
+              "en": "Turn off the air conditioner and lights when leaving the room."
+            },
+            {
+              "ja_ruby": "{図書館|としょかん}の{本|ほん}に{線|せん}を{引|ひ}いたり、メモを{書|か}き{込|こ}んだりしないこと。",
+              "structure_note": "〜たり〜たりしない ＋ こと（{複数|ふくすう}の{禁止事項|きんしじこう}）",
+              "en": "Do not underline or write notes in library books."
+            }
+          ],
+          "pitfalls": [
+            "Strictly written and institutional (notices, manuals, rules, syllabi); saying {明日|あした}{9時|くじ}に{来|く}ること aloud to a coworker sounds cold and authoritarian.",
+            "Attaches ONLY to non-past dictionary form or ない-form—never past tense た-form, adjectives, or です (adding だ/です shifts the pattern to advisory 〜ことだ or simple definition).",
+            "Do not confuse rule-ending 〜こと with nominalizer こと ('the fact/act of...') or 〜ことができる ('can do')."
+          ]
+        },
+        {
+          "id": "koto-da-advice",
+          "pattern": "〜ことだ（忠告）",
+          "pattern_ruby": "〜ことだ（{忠告|ちゅうこく}）",
+          "romaji": "~koto da (chuukoku)",
+          "meaning_en": "what one ought to do is ~; the best thing is to ~ (advisory wisdom)",
+          "register": "neutral",
+          "renshuu_status": "canonical_n3",
+          "mental_model": "Adding だ or です after こと turns a dry rule into warm, experienced advice: 'If you really want result X, the essential thing to do is Y.' Rather than lecturing with heavy moral duty (〜べきだ) or strict legal obligation (〜なければならない), 〜ことだ highlights the sensible, practical step a wise friend or mentor recommends.",
+          "formation": [
+            {
+              "pos": "{動詞|どうし}{辞書形|じしょけい}",
+              "rule": "＋ ことだ / ことですね"
+            },
+            {
+              "pos": "{動詞|どうし}ない{形|けい}",
+              "rule": "＋ ことだ / ことですね"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "{外国語|がいこくご}が{上手|じょうず}になりたければ、{毎日|まいにち}{少|すこ}しずつでも{声|こえ}に{出|だ}して{練習|れんしゅう}することだ。",
+              "structure_note": "{条件|じょうけん}（〜たければ）＋ {動詞|どうし}{辞書形|じしょけい} ＋ ことだ（{助言|じょげん}）",
+              "en": "If you want to get better at a foreign language, the key thing is to practice aloud a little every day."
+            },
+            {
+              "ja_ruby": "{長|なが}い{人生|じんせい}では、{小|ちい}さな{失敗|しっぱい}をあまり{気|き}にしないことですよ。",
+              "structure_note": "{動詞|どうし}ない{形|けい}（{気|き}にしない）＋ ことですよ（{温|あたた}かい{忠告|ちゅうこく}）",
+              "en": "In a long life, the wise thing is not to dwell too much on small mistakes."
+            },
+            {
+              "ja_ruby": "{風邪|かぜ}を{早|はや}く{治|なお}したかったら、{温|あたた}かくしてよく{寝|ね}ることだね。",
+              "structure_note": "{動詞|どうし}{辞書形|じしょけい}（{寝|ね}る）＋ ことだね（{身近|みぢか}なアドバイス）",
+              "en": "If you want to recover from a cold quickly, the best thing is to stay warm and get plenty of sleep."
+            },
+            {
+              "ja_ruby": "{健康|けんこう}のためには、{無理|むり}なダイエットを{続|つづ}けないことだ。",
+              "structure_note": "{動詞|どうし}ない{形|けい}（{続|つづ}けない）＋ ことだ",
+              "en": "For your health, the thing to do is avoid continuing an extreme diet."
+            }
+          ],
+          "pitfalls": [
+            "Only verbs in dictionary form or ない-form express advice before ことだ; past tense た-form or nouns/adjectives before ことだ express exclamation or definition instead (e.g., {大変|たいへん}なことだ = 'that's a big deal!').",
+            "Because 〜ことだ sounds slightly wise or mentor-like ('what one should do is...'), avoid aiming it directly at a boss or senior—use softer 〜ほうがいいのではないでしょうか instead.",
+            "Remember the contrast with bare 〜こと: dropping だ turns the sentence into a posted institutional rule rather than friendly wisdom."
+          ]
+        },
+        {
+          "id": "youni-iu-tanomu",
+          "pattern": "〜ように言う / 頼む / 伝える",
+          "pattern_ruby": "〜ように{言|い}う / {頼|たの}む / {伝|つた}える",
+          "romaji": "~you ni iu / tanomu / tsutaeru",
+          "meaning_en": "tell / ask / remind someone to do ~ (indirect command or request)",
+          "register": "neutral",
+          "renshuu_status": "verified_renshuu",
+          "mental_model": "In Japanese, you cannot drop a direct command like 〜なさい or 〜てください straight into indirect speech without quotation marks 「…」. Instead, convert the requested action into a plain non-past goal (V-dict / V-ない + ように) and attach a reporting verb such as {言|い}う (tell), {頼|たの}む (ask), {伝|つた}える (pass along), or {注意|ちゅうい}する (warn). Always mark the person receiving the instruction with the particle に.",
+          "formation": [
+            {
+              "pos": "（{相手|あいて}）＋ に ＋ {動詞|どうし}{辞書形|じしょけい}",
+              "rule": "＋ ように{言|い}う / {頼|たの}む / {伝|つた}える / {注意|ちゅうい}する"
+            },
+            {
+              "pos": "（{相手|あいて}）＋ に ＋ {動詞|どうし}ない{形|けい}",
+              "rule": "＋ ように{言|い}う / {頼|たの}む / {伝|つた}える / {注意|ちゅうい}する"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "{医者|いしゃ}に、しばらくお{酒|さけ}を{飲|の}まないように{言|い}われました。",
+              "structure_note": "{動詞|どうし}ない{形|けい}（{飲|の}まない）＋ ように{言|い}われた（{指示|しじ}の{受身|うけみ}）",
+              "en": "I was told by the doctor not to drink alcohol for a while."
+            },
+            {
+              "ja_ruby": "{部長|ぶちょう}は{佐藤|さとう}さんに、{会議|かいぎ}の{資料|しりょう}を{5時|ごじ}までにコピーするように{頼|たの}んだ。",
+              "structure_note": "{相手|あいて}に（{佐藤|さとう}さんに）＋ {辞書形|じしょけい} ＋ ように{頼|たの}んだ",
+              "en": "The department manager asked Sato to copy the meeting materials by 5 o'clock."
+            },
+            {
+              "ja_ruby": "{美咲|みさき}さんに、{明日|あした}の{集合|しゅうごう}{時間|じかん}に{遅刻|ちこく}しないように{伝|つた}えておいてください。",
+              "structure_note": "{動詞|どうし}ない{形|けい}（{遅刻|ちこく}しない）＋ ように{伝|つた}える（{伝言|でんごん}の{依頼|いらい}）",
+              "en": "Please pass along to Misaki not to be late for tomorrow's meeting time."
+            },
+            {
+              "ja_ruby": "{先生|せんせい}は{生徒|せいと}に、{廊下|ろうか}では{静|しず}かにするように{注意|ちゅうい}した。",
+              "structure_note": "な{形容詞|けいようし}＋にする（{静|しず}かにする）＋ ように{注意|ちゅうい}した",
+              "en": "The teacher warned the students to be quiet in the hallway."
+            }
+          ],
+          "pitfalls": [
+            "Before ように in indirect commands, use ONLY plain non-past dictionary form or ない-form—NEVER past tense た-form (× {飲|の}まなかったように{言|い}った), polite ます-form (× {飲|の}みませんように), or て-form (× {静|しず}かにしてように).",
+            "Do NOT replace ように with ために: ために expresses purpose ('in order to'), whereas ように reports the content of an instruction or request.",
+            "With adjectives or nouns, always convert to a verb with する/なる before ように (○ {静|しず}かにするように{言|い}った, × {静|しず}かなように{言|い}った)."
+          ]
+        }
+      ],
+      "lesson_contrast": {
+        "title": "Written Rules, Wisdom & Indirect Commands in Lesson 23",
+        "explanation": "Notice how Lesson 23 shifts from direct personal requests to impersonal rules, wise principles, and third-party reporting.",
+        "rows": [
+          {
+            "expression": "〜こと（{規則|きそく}・{指示|しじ}）",
+            "register": "Written",
+            "key_rule": "Bare Vる / Vない + こと; impersonal posted rules, signs, and test/work instructions.",
+            "example_short": "{館内|かんない}で{走|はし}らないこと。"
+          },
+          {
+            "expression": "〜ことだ（{忠告|ちゅうこく}）",
+            "register": "Neutral",
+            "key_rule": "Vる / Vない + ことだ; general practical advice ('what one should do is...').",
+            "example_short": "{健康|けんこう}にはよく{寝|ね}ることだ。"
+          },
+          {
+            "expression": "〜ように{言|い}う / {頼|たの}む / {伝|つた}える",
+            "register": "Neutral",
+            "key_rule": "Vる / Vない + ように + reporting verb; turns commands/requests into indirect speech.",
+            "example_short": "{早|はや}く{来|く}るように{伝|つた}えた。"
+          }
+        ]
+      },
+      "practice_quiz": [
+        {
+          "question_id": "L23-Q1",
+          "question_type": "fill_blank",
+          "prompt_ja_ruby": "（{図書館|としょかん}の{注意書|ちゅういが}き）{館内|かんない}では{電話|でんわ}で{話|はな}さない（　　　）。",
+          "context_en": "On a posted library notice: 'One must not talk on the phone inside the building.'",
+          "choices": [
+            "こと",
+            "ように",
+            "はず",
+            "わけ"
+          ],
+          "correct_index": 0,
+          "explanation": "Correct: A (こと). Bare Vない ＋ こと at the end of a posted sign expresses an impersonal institutional rule ('must not talk on the phone'). B (ように) leaves the sentence unfinished without a verb like してください; C (はず) and D (わけ) cannot terminate a posted prohibition rule."
+        },
+        {
+          "question_id": "L23-Q2",
+          "question_type": "nuance_choice",
+          "prompt_ja_ruby": "{試験|しけん}に{合格|ごうかく}したければ、{毎日|まいにち}コツコツ{復習|ふくしゅう}する（　　　）。",
+          "context_en": "Giving sensible, general advice to a learner: 'If you want to pass the exam, the best thing to do is review steadily every day.'",
+          "choices": [
+            "わけがない",
+            "ように{言|い}った",
+            "のではない",
+            "ことだ"
+          ],
+          "correct_index": 3,
+          "explanation": "Correct: D (ことだ). V{辞書形|じしょけい} ＋ ことだ gives practical advisory wisdom ('the key thing one ought to do is...'), fitting the conditional {合格|ごうかく}したければ naturally. A (わけがない) denies possibility ('no way one reviews'); B (ように{言|い}った) reports a past speaker's instruction without a speaker subject; C (のではない) negates an assumption rather than giving advice."
+        },
+        {
+          "question_id": "L23-Q3",
+          "question_type": "attachment_trap",
+          "prompt_ja_ruby": "{鈴木|すずき}さんに、{明日|あした}の{会議|かいぎ}に{遅|おく}れ（　　　）{伝|つた}えてください。",
+          "context_en": "Testing indirect request form before 伝える: 'Please tell Suzuki not to be late for tomorrow's meeting.'",
+          "choices": [
+            "なかったように",
+            "ないように",
+            "てように",
+            "ますように"
+          ],
+          "correct_index": 1,
+          "explanation": "Correct: B (ないように). Reporting an indirect command or reminder uses plain non-past Vない{形|けい} ＋ ように ＋ {伝|つた}える ({遅|おく}れないように{伝|つた}えてください). A (なかったように) wrongly uses past tense inside an indirect command; C (てように) cannot attach ように to the て-form; D (ますように) belongs to heartfelt wishes/prayers rather than indirect messages."
+        },
+        {
+          "question_id": "L23-Q4",
+          "question_type": "star_order",
+          "prompt_ja_ruby": "{先生|せんせい}は{学生|がくせい}に、＿　＿　★　＿{注意|ちゅうい}した。",
+          "context_en": "Reporting a teacher's warning to students: 'The teacher warned the students not to run in the hallway.'",
+          "choices": [
+            "ように",
+            "{廊下|ろうか}を",
+            "ない",
+            "{走|はし}ら"
+          ],
+          "correct_index": 2,
+          "explanation": "Correct: C (ない). Full sentence: {先生|せんせい}は{学生|がくせい}に、{廊下|ろうか}を(1) {走|はし}ら(2) ない(3★) ように(4) {注意|ちゅうい}した。{廊下|ろうか}を marks the path of motion for {走|はし}ら(ない), and ように links the negative verb {走|はし}らない directly to the reporting verb {注意|ちゅうい}した. Splitting {走|はし}ら and ない or placing ように anywhere before ない is ungrammatical."
+        }
+      ]
+    },
+    {
+      "lesson_id": "L24",
+      "lesson_number": 24,
+      "renshuu_title": "Commands/Requests #4",
+      "has_video": false,
+      "summary": "Handle casual spoken obligation and blunt prohibition: contracted 〜ないと / 〜なくちゃ / 〜なきゃ, stern spoken 〜んじゃない, protective warning 〜てはいけないから, and the raw imperative prohibition Vる＋な.",
+      "study_tip": "Watch the verb form before sentence-final な: dictionary form Vる＋な is a blunt prohibition ('Don't do it!'), whereas ます-stem＋な (like {行|い}きな, short for {行|い}きなさい) is a casual command to DO it!",
+      "grammar_points": [
+        {
+          "id": "naito-nakucha",
+          "pattern": "〜ないと / 〜なくちゃ / 〜なきゃ",
+          "pattern_ruby": "〜ないと / 〜なくちゃ / 〜なきゃ",
+          "romaji": "~naito / ~nakucha / ~nakya",
+          "meaning_en": "have to ~; gotta ~ (casual spoken obligation)",
+          "register": "casual",
+          "renshuu_status": "verified_renshuu",
+          "mental_model": "Everyday conversation rarely has patience for heavy six-syllable endings like 〜なければならない. Speakers trim 〜なければ down to 〜なきゃ, trim 〜なくては down to 〜なくちゃ, and often drop the trailing いけない / だめだ completely—alongside 〜ないと ('if I don't do X, [it'll be bad]'). Ending abruptly with 〜ないと！ or 〜なくちゃ！ captures the urgent, spontaneous rhythm of real spoken Japanese.",
+          "formation": [
+            {
+              "pos": "{動詞|どうし}ない{形|けい}",
+              "rule": "＋ と（いけない・だめだ / {省略|しょうりゃく}）"
+            },
+            {
+              "pos": "{動詞|どうし}ない{形|けい}（ない → な）",
+              "rule": "＋ きゃ（いけない・ならない・だめだ / {省略|しょうりゃく}）"
+            },
+            {
+              "pos": "{動詞|どうし}ない{形|けい}（ない → な）",
+              "rule": "＋ くちゃ（いけない・だめだ / {省略|しょうりゃく}）"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "あ、もうこんな{時間|じかん}！そろそろ{家|いえ}に{帰|かえ}らないと。",
+              "structure_note": "{動詞|どうし}ない{形|けい}（{帰|かえ}らない）＋ と（いけないの{省略|しょうりゃく}）",
+              "en": "Oh, look at the time! I really gotta head home soon."
+            },
+            {
+              "ja_ruby": "{明日|あした}は{朝|あさ}{早|はや}くからバイトだから、{今日|きょう}は{早|はや}めに{寝|ね}なきゃ。",
+              "structure_note": "{寝|ね}なければ → {寝|ね}なきゃ（カジュアルな{口語|こうご}）",
+              "en": "I have my part-time job early tomorrow morning, so I have to go to bed early tonight."
+            },
+            {
+              "ja_ruby": "{冷蔵庫|れいぞうこ}が{空|から}っぽだ。{帰|かえ}りにスーパーで{買|か}い{物|もの}しなくちゃいけない。",
+              "structure_note": "しなくてはいけない → しなくちゃいけない",
+              "en": "The fridge is completely empty. I've got to go grocery shopping at the supermarket on the way home."
+            },
+            {
+              "ja_ruby": "{週末|しゅうまつ}までにレポートを{出|だ}さなきゃだめなんだ。",
+              "structure_note": "{出|だ}さなければ → {出|だ}さなきゃ ＋ だめなんだ",
+              "en": "I have to turn in the report by the weekend."
+            }
+          ],
+          "pitfalls": [
+            "Strictly casual spoken Japanese: never use 〜なきゃ, 〜なくちゃ, or dangling 〜ないと in formal emails, essays, or business speech—restore 〜なければなりません instead.",
+            "Because 〜きゃ and 〜くちゃ already replace the い of ない, NEVER keep ない before them (○ {行|い}かなきゃ, × {行|い}かないなきゃ; ○ {食|た}べなくちゃ, × {食|た}べないなくちゃ).",
+            "Context distinguishes standalone obligation 〜ないと！ ('I gotta...') from a full conditional sentence ({急|いそ}がないと{遅|おく}れるよ = 'If we don't hurry, we'll be late')."
+          ]
+        },
+        {
+          "id": "n-ja-nai",
+          "pattern": "〜んじゃない",
+          "pattern_ruby": "〜んじゃない",
+          "romaji": "~n ja nai",
+          "meaning_en": "don't do ~!; stop doing ~! (casual stern prohibition)",
+          "register": "casual",
+          "renshuu_status": "canonical_n3",
+          "mental_model": "Say a plain non-past verb followed by 〜んじゃない（よ） with a firm, falling intonation, and you get an emotional, scolding prohibition: 'Don't touch that!' / 'Stop crying!' Think of an annoyed parent, older sibling, or close friend stepping in immediately to halt bad behavior. Watch out for tense, predicate type, and pitch: past tense, adjectives, or rising confirmation pitch even on non-past verbs ({雨|あめ}が{降|ふ}るんじゃない？) flips 〜んじゃない into a casual guess/confirmation ('isn't it going to...?').",
+          "formation": [
+            {
+              "pos": "{動詞|どうし}{辞書形|じしょけい}",
+              "rule": "＋ んじゃない（よ・わよ）（{下降調|かこうちょう}の{禁止|きんし}）"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "まだ{熱|あつ}いんだから、そんなものに{触|さわ}るんじゃないよ。",
+              "structure_note": "{動詞|どうし}{辞書形|じしょけい}（{触|さわ}る）＋ んじゃないよ（{強|つよ}い{禁止|きんし}）",
+              "en": "It's still hot, so don't touch that thing!"
+            },
+            {
+              "ja_ruby": "そんなことでいつまでも{泣|な}くんじゃない。",
+              "structure_note": "{動詞|どうし}{辞書形|じしょけい}（{泣|な}く）＋ んじゃない（{叱責|しっせき}・{制止|せいし}）",
+              "en": "Don't keep crying forever over something like that!"
+            },
+            {
+              "ja_ruby": "{人|ひと}の{部屋|へや}に{勝手|かって}に{入|はい}るんじゃない！",
+              "structure_note": "{動詞|どうし}{辞書形|じしょけい}（{入|はい}る）＋ んじゃない（{厳|きび}しい{注意|ちゅうい}）",
+              "en": "Don't just barge into someone else's room without asking!"
+            },
+            {
+              "ja_ruby": "まだ{話|はなし}が{終|お}わっていないのに、すぐ{諦|あきら}めるんじゃないよ。",
+              "structure_note": "{動詞|どうし}{辞書形|じしょけい}（{諦|あきら}める）＋ んじゃないよ",
+              "en": "We're not even done talking yet—don't give up so quickly!"
+            }
+          ],
+          "pitfalls": [
+            "Only plain non-past dictionary form + んじゃない with falling scolding tone aimed at someone's behavior expresses prohibition; rising confirmation tone even with non-past verbs ({降|ふ}るんじゃない？), past tense ({行|い}ったんじゃない？), or adjectives ({高|たか}いんじゃない？) expresses conjecture or confirmation ('isn't it going to rain? / didn't they go?').",
+            "Strictly casual and hierarchical downward (parent, older sibling, close peer): never use 〜んじゃない toward teachers, superiors, customers, or strangers.",
+            "Do not confuse stern Vる＋んじゃない ('don't do X!') with negative 〜ないんじゃない？ ('probably doesn't X, right?')."
+          ]
+        },
+        {
+          "id": "tewa-ikenai-imperative-na",
+          "pattern": "〜てはいけないから・禁止形（Vる＋な）",
+          "pattern_ruby": "〜てはいけないから・{禁止形|きんしけい}（Vる＋な）",
+          "romaji": "~tewa ikenai kara · kinshikei (V-ru + na)",
+          "meaning_en": "so that [bad thing] doesn't happen (te wa ikenai kara); don't ~! (blunt negative command V-ru + na)",
+          "register": "casual",
+          "renshuu_status": "canonical_n3",
+          "mental_model": "This entry pairs two direct ways of blocking bad outcomes. First, 〜てはいけないから ('because it must not happen that...') frames a worst-case slip-up—catching a cold, getting lost, missing a train—as the reason for a sensible precaution. Second, the bare {禁止形|きんしけい} (V-dictionary + な) is the bluntest prohibition in Japanese: short, urgent, and unpadded on danger signs ('Do not enter!'), athletic cheers ('Don't lose!'), or rough speech.",
+          "formation": [
+            {
+              "pos": "{動詞|どうし}て{形|けい}（{望|のぞ}ましくない{事態|じたい}）",
+              "rule": "＋ はいけないから / ちゃいけないから / てはだめだから"
+            },
+            {
+              "pos": "{動詞|どうし}{辞書形|じしょけい}",
+              "rule": "＋ な（{禁止形|きんしけい}：{行|い}くな・{見|み}るな・するな・{来|く}るな）"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "{夜|よる}は{冷|ひ}えて{風邪|かぜ}をひいてはいけないから、{厚|あつ}いコートを{持|も}っていきなさい。",
+              "structure_note": "{動詞|どうし}て{形|けい}（ひいて）＋ はいけないから（{予防|よぼう}の{理由|りゆう}）",
+              "en": "So you don't catch a cold when it gets chilly at night, take a thick coat with you."
+            },
+            {
+              "ja_ruby": "{電車|でんしゃ}に{乗|の}り{遅|おく}れてはいけないので、{15分前|じゅうごふんまえ}に{駅|えき}へ{着|つ}くようにしよう。",
+              "structure_note": "〜てはいけないので ＋ {用心|ようじん}の{行動|こうどう}",
+              "en": "So we don't miss the train, let's aim to arrive at the station 15 minutes early."
+            },
+            {
+              "ja_ruby": "{立|た}ち{入|い}り{禁止|きんし}！あぶないから、この{中|なか}へ{入|はい}るな！",
+              "structure_note": "{動詞|どうし}{辞書形|じしょけい}（{入|はい}る）＋ な（{強|つよ}い{禁止形|きんしけい}）",
+              "en": "Keep out! It's dangerous, so don't go inside here!"
+            },
+            {
+              "ja_ruby": "{健太|けんた}、あと{少|すこ}しだ！ここで{絶対|ぜったい}に{負|ま}けるな！",
+              "structure_note": "{一段動詞|いちだんどうし}{辞書形|じしょけい}（{負|ま}ける）＋ な（{応援|おうえん}・{激励|げきれい}の{禁止形|きんしけい}）",
+              "en": "Kenta, just a bit more! Don't you dare lose here!"
+            }
+          ],
+          "pitfalls": [
+            "Form the {禁止形|きんしけい} strictly from the plain dictionary form (するな, {来|く}るな, {食|た}べるな)—NEVER attach な to the ます-stem ({来|き}な means 'come!', the exact opposite) or to ない-form (× {食|た}べないな).",
+            "In real-world Japanese, Vる＋な is extremely blunt and confrontational in face-to-face conversation; outside signs, emergencies, or cheering ('{負|ま}けるな!'), prefer 〜ないでください or 〜てはいけません.",
+            "In 〜てはいけないから, the verb before てはいけない should be an unwanted risk or mistake ({忘|わす}れる, {遅|おく}れる, {壊|こわ}す) motivating a preventive step afterward."
+          ]
+        }
+      ],
+      "lesson_contrast": {
+        "title": "Casual Obligation, Warning & Prohibition in Lesson 24",
+        "explanation": "Compare the informal spoken tools of Lesson 24 by whether they urge an action you must do, warn against an accident, or directly forbid behavior.",
+        "rows": [
+          {
+            "expression": "〜ないと / 〜なくちゃ / 〜なきゃ",
+            "register": "Casual",
+            "key_rule": "Shortened spoken forms of 〜なければならない ('gotta...'); trailing いけない often dropped.",
+            "example_short": "そろそろ{行|い}かなくちゃ！"
+          },
+          {
+            "expression": "〜んじゃない",
+            "register": "Casual (scolding)",
+            "key_rule": "Vる + んじゃない with falling tone; emotional, stern prohibition ('don't do that!').",
+            "example_short": "うそを{言|い}うんじゃない！"
+          },
+          {
+            "expression": "〜てはいけないから",
+            "register": "Neutral",
+            "key_rule": "Preventive reason ('so that [bad event] doesn't happen') leading to a precaution.",
+            "example_short": "{忘|わす}れてはいけないからメモしよう。"
+          },
+          {
+            "expression": "{禁止形|きんしけい}（Vる＋な）",
+            "register": "Casual (blunt / signs)",
+            "key_rule": "Plain dictionary verb + な; stark, shortest negative command on signs or urgent warnings.",
+            "example_short": "そこに{触|さわ}るな！"
+          }
+        ]
+      },
+      "practice_quiz": [
+        {
+          "question_id": "L24-Q1",
+          "question_type": "fill_blank",
+          "prompt_ja_ruby": "（{友人|ゆうじん}に）あ、もう{5時|ごじ}だ！そろそろ{帰|かえ}ら（　　　）！",
+          "context_en": "Saying to a friend: 'Oh, it's already 5 o'clock! I really gotta head home soon!'",
+          "choices": [
+            "んじゃない",
+            "ないな",
+            "てごらん",
+            "ないと"
+          ],
+          "correct_index": 3,
+          "explanation": "Correct: D (ないと). {帰|かえ}らないと (with implied いけない omitted) is the natural casual spoken form for 'I gotta head home.' A (んじゃない) attaches to dictionary form {帰|かえ}る rather than {帰|かえ}ら, and means stern prohibition; B (ないな) is an observation ('guess they aren't going home'); C (てごらん) cannot follow {帰|かえ}ら and means 'try going home.'"
+        },
+        {
+          "question_id": "L24-Q2",
+          "question_type": "nuance_choice",
+          "prompt_ja_ruby": "（{兄|あに}が{泣|な}いている{弟|おとうと}に）いつまでも{泣|な}く（　　　）！",
+          "context_en": "An older brother sternly telling his younger brother to stop crying: 'Don't keep crying forever!'",
+          "choices": [
+            "といいよね",
+            "ものだよ",
+            "んじゃない",
+            "べきなんだ"
+          ],
+          "correct_index": 2,
+          "explanation": "Correct: C (んじゃない). V{辞書形|じしょけい} ＋ んじゃない delivers a stern, emotional prohibition from senior to junior ('Don't keep crying!'). A (といいよね) expresses a warm wish ('it'd be nice if you cried'); B (ものだよ) states a general norm ('one naturally cries'); D (べきなんだ) means 'you ought to cry,' the opposite of stopping the child."
+        },
+        {
+          "question_id": "L24-Q3",
+          "question_type": "attachment_trap",
+          "prompt_ja_ruby": "（{危険|きけん}な{場所|ばしょ}の{前|まえ}で）あぶない！{絶対|ぜったい}にここへ（　　　）！",
+          "context_en": "Testing blunt negative imperative 禁止形 on 来る: 'Watch out! Never come over here!'",
+          "choices": [
+            "{来|く}るな",
+            "{来|き}な",
+            "{来|こ}ないな",
+            "{来|き}てな"
+          ],
+          "correct_index": 0,
+          "explanation": "Correct: A ({来|く}るな). The blunt negative command {禁止形|きんしけい} attaches な strictly to the plain dictionary form ({来|く}るな = 'Don't come!'). B ({来|き}な) attaches な to the ます-stem as a shortened form of {来|き}なさい, flipping the meaning to 'Come here!'; C ({来|こ}ないな) is an observation ('not coming, huh'); D ({来|き}てな) is a gentle conversational prompt or tag, not a prohibition."
+        },
+        {
+          "question_id": "L24-Q4",
+          "question_type": "star_order",
+          "prompt_ja_ruby": "{電車|でんしゃ}に＿　＿　★　＿{出発|しゅっぱつ}しよう。",
+          "context_en": "Taking a precaution against missing the train: 'Let's set out early so we don't miss the train.'",
+          "choices": [
+            "{遅|おく}れては",
+            "から",
+            "{早|はや}めに",
+            "いけない"
+          ],
+          "correct_index": 1,
+          "explanation": "Correct: B (から). Full sentence: {電車|でんしゃ}に {遅|おく}れては(1) いけない(2) から(3★) {早|はや}めに(4) {出発|しゅっぱつ}しよう。{電車|でんしゃ}に links directly to {遅|おく}れては, which pairs with いけないから to give the preventive reason ('so we don't miss the train'), followed by {早|はや}めに modifying {出発|しゅっぱつ}しよう. Placing {早|はや}めに before {遅|おく}れては or breaking {遅|おく}れてはいけないから produces an ungrammatical clause."
+        }
+      ]
+    },
+    {
+      "lesson_id": "L25",
+      "lesson_number": 25,
+      "renshuu_title": "Wishes & Hopes",
+      "has_video": false,
+      "summary": "Express the full spectrum of hopes and regrets: warm everyday wishes (〜といい / といいな / たらいい), heartfelt enduring dreams (〜たいものだ / てほしいものだ), counterfactual regret (〜ばよかった / ば〜のに), and formal prayers (〜ますように).",
+      "study_tip": "Match the wish form to the timeline and scale: use 〜といい for uncertain future hopes ('hope it stays sunny'), 〜ますように for prayers on ema or cards, 〜たいものだ for big lifelong dreams (contrasting sharply with 〜たものだ for nostalgic past habits!), and past 〜ばよかった（のに） for looking back with regret.",
+      "grammar_points": [
+        {
+          "id": "to-ii-wish",
+          "pattern": "〜といい / といいな（あ） / たらいい",
+          "pattern_ruby": "〜といい / といいな（あ） / たらいい",
+          "romaji": "~to ii / to ii na(a) / tara ii",
+          "meaning_en": "I hope ~; it would be nice if ~",
+          "register": "neutral",
+          "renshuu_status": "verified_renshuu",
+          "mental_model": "Use 〜といい when wishing for a happy outcome you cannot directly command—good weather tomorrow, a friend's speedy recovery, or passing an exam. Saying 〜といいな（あ） sounds like thinking aloud to yourself ('Gee, I hope I get that job!'), while 〜といいですね shares a warm, considerate hope with the listener ('I hope your trip goes smoothly!').",
+          "formation": [
+            {
+              "pos": "{動詞|どうし}・い{形容詞|けいようし}{普通形|ふつうけい}",
+              "rule": "＋ といい（な・なあ・ですね）"
+            },
+            {
+              "pos": "な{形容詞|けいようし}・{名詞|めいし}",
+              "rule": "＋ だ ＋ といい（な・なあ・ですね）"
+            },
+            {
+              "pos": "{動詞|どうし}た{形|けい}＋ら",
+              "rule": "＋ いい（な・なあ・ですね）"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "{明日|あした}の{遠足|えんそく}は、いい{天気|てんき}だといいですね。",
+              "structure_note": "{名詞|めいし}（{天気|てんき}）＋ だ ＋ といいですね（{相手|あいて}への{温|あたた}かい{願|ねが}い）",
+              "en": "I hope the weather is nice for tomorrow's field trip!"
+            },
+            {
+              "ja_ruby": "クリスマスまでに{風邪|かぜ}が{治|なお}るといいなあ。",
+              "structure_note": "{無意志動詞|むいしどうし}（{治|なお}る）＋ といいなあ（{独|ひと}り{言|ごと}の{願|ねが}い）",
+              "en": "Gee, I sure hope my cold clears up by Christmas."
+            },
+            {
+              "ja_ruby": "{来月|らいげつ}のボーナスが、もう{少|すこ}し{多|おお}かったらいいのに。",
+              "structure_note": "い{形容詞|けいようし}たら（{多|おお}かったら）＋ いいのに（{現実|げんじつ}と{違|ちが}う{願望|がんぼう}）",
+              "en": "It would be nice if next month's bonus were a little bigger."
+            },
+            {
+              "ja_ruby": "{高橋|たかはし}さんも{早|はや}く{日本語|にほんご}の{生活|せいかつ}に{慣|な}れるといいですね。",
+              "structure_note": "{可能動詞|かのうどうし}/{無意志|むいし}（{慣|な}れる）＋ といいですね",
+              "en": "I hope Takahashi gets used to life in Japan soon too."
+            }
+          ],
+          "pitfalls": [
+            "Nouns and な-adjectives MUST take だ before といい (○ {元気|げんき}だといいですね, × {元気|げんき}なといいですね, × {元気|げんき}といいですね).",
+            "Use 〜といい for hopes outside your full control (weather, luck, someone else's state), NOT for simple actions you yourself decide to do right now (for your own planned actions, use 〜たい).",
+            "Unlike Lesson 22 advice 〜たらいい ('you should do X'), wish 〜といいな describes an outcome you want to happen rather than telling someone what step to take."
+          ]
+        },
+        {
+          "id": "tai-mono-da",
+          "pattern": "〜たいものだ / 〜てほしいものだ",
+          "pattern_ruby": "〜たいものだ / 〜てほしいものだ",
+          "romaji": "~tai mono da / ~te hoshii mono da",
+          "meaning_en": "how I wish I could ~; I truly hope someone would ~ (heartfelt, enduring wish)",
+          "register": "neutral",
+          "renshuu_status": "verified_renshuu",
+          "mental_model": "Attaching ものだ onto 〜たい or 〜てほしい raises an everyday desire into a deep, heartfelt longing—something you dream about over years or feel strongly as a moral ideal ('How I'd love to live near the sea someday!' or 'I truly wish politicians would listen more carefully'). It conveys reflective emotion rather than immediate errands.",
+          "formation": [
+            {
+              "pos": "{動詞|どうし}ます{形|けい}",
+              "rule": "＋ たいものだ / たいものです"
+            },
+            {
+              "pos": "{動詞|どうし}て{形|けい}",
+              "rule": "＋ ほしいものだ / ほしいものです"
+            },
+            {
+              "pos": "{動詞|どうし}ない{形|けい}＋で",
+              "rule": "＋ ほしいものだ（{強|つよ}い{自粛|じしゅく}への{願|ねが}い）"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "{時間|じかん}とお{金|かね}に{余裕|よゆう}ができたら、いつか{世界中|せかいじゅう}をゆっくり{旅|たび}してみたいものだ。",
+              "structure_note": "{動詞|どうし}ます{形|けい}＋たい ＋ ものだ（{長|なが}い{憧|あこが}れ・{夢|ゆめ}）",
+              "en": "If I ever get the time and money, how I would love to travel slowly around the world someday."
+            },
+            {
+              "ja_ruby": "{電車|でんしゃ}の{中|なか}では、もう{少|すこ}し{周|まわ}りの{人|ひと}のことも{考|かんが}えてほしいものです。",
+              "structure_note": "{動詞|どうし}て{形|けい}＋ほしい ＋ ものです（{社会|しゃかい}への{切実|せつじつ}な{願|ねが}い）",
+              "en": "I truly wish people would be a bit more considerate of those around them on the train."
+            },
+            {
+              "ja_ruby": "{自然|しぜん}が{豊|ゆた}かなこの{町|まち}を、これからもずっと{大切|たいせつ}にしていきたいものだ。",
+              "structure_note": "〜ていきたい ＋ ものだ（{将来|しょうらい}への{強|つよ}い{決意|けつい}・{願|ねが}い）",
+              "en": "How I hope we can keep cherishing this nature-rich town for years to come."
+            },
+            {
+              "ja_ruby": "{若|わか}い{人|ひと}には、{失敗|しっぱい}を{恐|おそ}れずにもっと{挑戦|ちょうせん}してほしいものだ。",
+              "structure_note": "{対象|たいしょう}に ＋ 〜てほしいものだ（{心|こころ}からの{期待|きたい}）",
+              "en": "I genuinely wish young people would take on more challenges without fearing failure."
+            }
+          ],
+          "pitfalls": [
+            "Never use 〜たいものだ for trivial immediate needs (× のどが{渇|かわ}いたから{水|みず}を{飲|の}みたいものだ); save it for big life dreams, enduring hopes, or earnest wishes about society.",
+            "Like plain 〜たい and 〜てほしい, 〜たいものだ expresses only the speaker's own heartfelt wish, never a third person's unstated feeling (× {彼|かれ}は{行|い}きたいものだ).",
+            "Do not confuse 〜たいものだ (heartfelt wish) with past 〜たものだ (nostalgic past habit: '{昔|むかし}よく{川|かわ}で{泳|およ}いだものだ' = 'I used to swim in the river') or plain V{辞書形|じしょけい}＋ものだ (general truth or moral norm)."
+          ]
+        },
+        {
+          "id": "ba-yokatta-noni",
+          "pattern": "〜ばよかった / 〜ば〜のに",
+          "pattern_ruby": "〜ばよかった / 〜ば〜のに",
+          "romaji": "~ba yokatta / ~ba ~noni",
+          "meaning_en": "I wish I had ~; I should have ~; if only ~ (counterfactual regret)",
+          "register": "neutral",
+          "renshuu_status": "canonical_n3",
+          "mental_model": "When reality turns out poorly, 〜ばよかった (or 〜たらよかった) rewinds the clock in your head: 'If only I had brought an umbrella, it would have been good!' Using the negative conditional 〜なければよかった flips to regretting something you DID do ('I shouldn't have eaten so much!'). Adding のに (〜ばよかったのに or 〜ば〜のに) sharpens the sigh of frustration or complaint that things didn't go the better way.",
+          "formation": [
+            {
+              "pos": "{動詞|どうし}ば{形|けい}・た{形|けい}＋ら",
+              "rule": "＋ よかった（のに）（しなかったことへの{後悔|こうかい}）"
+            },
+            {
+              "pos": "{動詞|どうし}ない{形|けい}（〜なければ / 〜なかったら）",
+              "rule": "＋ よかった（のに）（してしまったことへの{後悔|こうかい}）"
+            },
+            {
+              "pos": "{条件節|じょうけんせつ}（〜ば / 〜たら）",
+              "rule": "＋ {反実仮想|はんじつかそう}の{結果|けっか} ＋ のに"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "こんなに{雨|あめ}が{強|つよ}くなるなら、{朝|あさ}{傘|かさ}を{持|も}ってくればよかった。",
+              "structure_note": "{動詞|どうし}ば{形|けい}（{来|く}れば）＋ よかった（{自分|じぶん}への{後悔|こうかい}）",
+              "en": "If it was going to rain this hard, I should have brought an umbrella this morning."
+            },
+            {
+              "ja_ruby": "あんなに{高|たか}いスマホ、{買|か}わなければよかったのにと{今|いま}になって{後悔|こうかい}している。",
+              "structure_note": "{動詞|どうし}ない{形|けい}（{買|か}わなければ）＋ よかったのに（{行動|こうどう}への{後悔|こうかい}）",
+              "en": "I'm regretting now that I shouldn't have bought such an expensive smartphone."
+            },
+            {
+              "ja_ruby": "{山田|やまだ}さんがもっと{早|はや}く{教|おし}えてくれれば、{手伝|てつだ}いに{行|い}けたのに。",
+              "structure_note": "〜ば ＋ {可能過去|かのうかこ} ＋ のに（{不満|ふまん}・{残念|ざんねん}な{気持|きも}ち）",
+              "en": "If only Yamada had told me sooner, I could have gone to help!"
+            },
+            {
+              "ja_ruby": "お{腹|なか}が{痛|いた}い。きのう、ケーキをあんなにたくさん{食|た}べなかったらよかった。",
+              "structure_note": "{動詞|どうし}ない{形|けい}（{食|た}べなかったら）＋ よかった",
+              "en": "My stomach hurts. I wish I hadn't eaten so much cake yesterday."
+            }
+          ],
+          "pitfalls": [
+            "For regret over a missed opportunity, ALWAYS put よかった in the past tense (○ {言|い}えばよかった, NOT × {言|い}えばいい, which means future/present advice!).",
+            "Watch the affirmative/negative polarity flip: 〜ばよかった regrets NOT doing X ('I should have studied'), while 〜なければよかった regrets HAVING DONE X ('I shouldn't have stayed up late').",
+            "Saying 〜ばよかったのに directly to someone else ('you should have called!') often carries sharp blame or irritation, so avoid it with superiors or sensitive situations."
+          ]
+        },
+        {
+          "id": "masu-youni-prayer",
+          "pattern": "〜ますように",
+          "pattern_ruby": "〜ますように",
+          "romaji": "~masu you ni",
+          "meaning_en": "I pray that ~; may ~ come true (heartfelt wish or prayer)",
+          "register": "neutral",
+          "renshuu_status": "canonical_n3",
+          "mental_model": "You see 〜ますように written on wooden shrine ema plaques, colorful Tanabata paper strips, and New Year's cards. By putting a wish into polite 〜ます (or 〜ません) followed by ように and leaving the main verb ('I pray / wish') unspoken, the sentence lifts gently upward like a quiet prayer. It naturally pairs with potential verbs, states, and events outside your direct control.",
+          "formation": [
+            {
+              "pos": "{動詞|どうし}ます{形|けい}（{無意志|むいし}・{可能動詞|かのうどうし}）",
+              "rule": "＋ ますように（{肯定|こうてい}の{祈|いの}り）"
+            },
+            {
+              "pos": "{動詞|どうし}ます{形|けい}",
+              "rule": "＋ ませんように（{否定|ひてい}の{祈|いの}り）"
+            },
+            {
+              "pos": "{名詞|めいし}・な{形容詞|けいようし}",
+              "rule": "＋ でありますように（{健康|けんこう}でありますように）"
+            },
+            {
+              "pos": "い{形容詞|けいようし}（い → く）",
+              "rule": "＋ なりますように（{良|よ}くなりますように）"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "{来年|らいねん}の{試験|しけん}に、{必|かなら}ず{合格|ごうかく}できますように。",
+              "structure_note": "{可能動詞|かのうどうし}（{合格|ごうかく}でき）＋ ますように（{祈願|きがん}）",
+              "en": "May I definitely pass next year's exam!"
+            },
+            {
+              "ja_ruby": "{世界中|せかいじゅう}のみんなが{平和|へいわ}に{暮|く}らせますように。",
+              "structure_note": "{可能動詞|かのうどうし}（{暮|く}らせ）＋ ますように（{七夕|たなばた}などの{願|ねが}い）",
+              "en": "May everyone around the world live in peace."
+            },
+            {
+              "ja_ruby": "{大切|たいせつ}な{試合|しあい}の{日|ひ}に、{雨|あめ}が{降|ふ}りませんように。",
+              "structure_note": "{動詞|どうし}ます{形|けい}（{降|ふ}り）＋ ませんように（{打|う}ち{消|け}しの{祈|いの}り）",
+              "en": "Please let it not rain on the day of the big match!"
+            },
+            {
+              "ja_ruby": "{今年|ことし}も{家族|かぞく}みんなが{元気|げんき}でありますように。",
+              "structure_note": "な{形容詞|けいようし}（{元気|げんき}）＋ でありますように",
+              "en": "May everyone in my family stay healthy this year too."
+            }
+          ],
+          "pitfalls": [
+            "For negative prayers ('may X not happen'), use 〜ませんように ({落|お}ちませんように), NOT incomplete plain 〜ないように alone, and NEVER past tense (× {合格|ごうかく}しましたように).",
+            "Prefer potential or non-volitional verbs before 〜ますように ({受|う}かりますように, {話|はな}せますように, {治|なお}りますように); ordinary intentional verbs sound awkward when you're praying to fate rather than deciding yourself.",
+            "Do not confuse sentence-final prayer 〜ますように with indirect command 〜ように{言|い}う (Lesson 23) or purpose 〜ように (Lesson 27)."
+          ]
+        }
+      ],
+      "lesson_contrast": {
+        "title": "Wishes, Prayers, Dreams, Regrets & Nostalgia in Lesson 25",
+        "explanation": "Pick the exact form according to whether you are hoping for an event, praying formally, longing deeply (〜たいものだ), reminiscing about past habits (〜たものだ), or regretting the past.",
+        "rows": [
+          {
+            "expression": "〜といい / といいな（あ） / たらいい",
+            "register": "Neutral / Casual",
+            "key_rule": "Warm hope for an uncertain outcome ('I hope...'); requires だ after nouns and な-adjectives.",
+            "example_short": "{明日|あした}は{晴|は}れだといいな。"
+          },
+          {
+            "expression": "〜たいものだ / 〜てほしいものだ",
+            "register": "Neutral",
+            "key_rule": "Heartfelt, enduring dream or earnest ideal ('how I wish I could...') rather than an immediate want.",
+            "example_short": "いつか{留学|りゅうがく}したいものだ。"
+          },
+          {
+            "expression": "〜たものだ（{対比|たいひ}）",
+            "register": "Neutral",
+            "key_rule": "Vた-form + ものだ; nostalgic past habit ('used to ~'), NOT a present/future wish like 〜たいものだ.",
+            "example_short": "{昔|むかし}よくこの{公園|こうえん}で{遊|あそ}んだものだ。"
+          },
+          {
+            "expression": "〜ばよかった / 〜ば〜のに",
+            "register": "Neutral",
+            "key_rule": "Past-tense counterfactual regret ('I should have / wish I had...'); のに adds sigh or reproach.",
+            "example_short": "もっと{勉強|べんきょう}すればよかった。"
+          },
+          {
+            "expression": "〜ますように / 〜ませんように",
+            "register": "Neutral (written / prayer)",
+            "key_rule": "Heartfelt prayer on ema, Tanabata strips, or cards; uses potential or non-volitional verbs.",
+            "example_short": "{合格|ごうかく}できますように。"
+          }
+        ]
+      },
+      "practice_quiz": [
+        {
+          "question_id": "L25-Q1",
+          "question_type": "fill_blank",
+          "prompt_ja_ruby": "（{七夕|たなばた}の{短冊|たんざく}に）{家族|かぞく}みんながいつまでも{健康|けんこう}で（　　　）。",
+          "context_en": "Written on a Tanabata wish strip: 'May everyone in my family stay healthy forever.'",
+          "choices": [
+            "ありたい",
+            "ありますように",
+            "あるべきだ",
+            "あったらよかった"
+          ],
+          "correct_index": 1,
+          "explanation": "Correct: B (ありますように). Written prayers on Tanabata strips and shrine plaques end in polite 〜ますように (here {健康|けんこう}でありますように). A (ありたい) expresses a first-person desire and clashes with {家族|かぞく}みんなが; C (あるべきだ) states a stern obligation rather than a wish; D (あったらよかった) is past regret, clashing with いつまでも."
+        },
+        {
+          "question_id": "L25-Q2",
+          "question_type": "nuance_choice",
+          "prompt_ja_ruby": "{時間|じかん}とお{金|かね}に{余裕|よゆう}ができたら、いつか{世界中|せかいじゅう}をゆっくり{旅|たび}してみたい（　　　）。",
+          "context_en": "Expressing a deep, long-cherished life dream: 'If I ever have time and money, how I wish I could travel around the world someday.'",
+          "choices": [
+            "ものだ",
+            "わけがない",
+            "はずだった",
+            "ばかりだ"
+          ],
+          "correct_index": 0,
+          "explanation": "Correct: A (ものだ). Attaching ものだ after 〜たい turns an ordinary desire into a deep, enduring dream ({旅|たび}してみたいものだ). B (わけがない) denies possibility ('no way I would travel'); C (はずだった) expresses an unfulfilled past expectation, clashing with いつか; D (ばかりだ) does not attach to 〜たい in this sense."
+        },
+        {
+          "question_id": "L25-Q3",
+          "question_type": "attachment_trap",
+          "prompt_ja_ruby": "{明日|あした}の{遠足|えんそく}は、いい{天気|てんき}（　　　）ですね。",
+          "context_en": "Testing noun attachment before 〜といい: 'I hope the weather is nice for tomorrow's field trip.'",
+          "choices": [
+            "といい",
+            "なといい",
+            "のといい",
+            "だといい"
+          ],
+          "correct_index": 3,
+          "explanation": "Correct: D (だといい). Nouns and な-adjectives strictly require だ before といい (いい{天気|てんき}だといいですね). A (といい) omits the mandatory copula だ; B (なといい) wrongly uses the pre-nominal modifier な instead of だ; C (のといい) wrongly inserts の before といい."
+        },
+        {
+          "question_id": "L25-Q4",
+          "question_type": "star_order",
+          "prompt_ja_ruby": "{外|そと}は{大雨|おおあめ}だ。{朝|あさ}、＿　＿　★　＿のに。",
+          "context_en": "Looking back with regret: 'It's pouring outside. I really wish I had brought an umbrella this morning!'",
+          "choices": [
+            "よかった",
+            "{傘|かさ}を",
+            "{来|く}れば",
+            "{持|も}って"
+          ],
+          "correct_index": 2,
+          "explanation": "Correct: C ({来|く}れば). Full sentence: {外|そと}は{大雨|おおあめ}だ。{朝|あさ}、{傘|かさ}を(1) {持|も}って(2) {来|く}れば(3★) よかった(4) のに。{傘|かさ}を introduces the object of {持|も}って{来|く}る, which conjugates to the ば-form {来|く}れば and pairs with past よかった before のに to express counterfactual regret. Reordering {持|も}って after {来|く}れば or separating よかった from のに is ungrammatical."
+        }
+      ]
+    },
+    {
+      "lesson_id": "L26",
+      "lesson_number": 26,
+      "renshuu_title": "Wishes & Hopes #2",
+      "has_video": false,
+      "summary": "Distinguish wanting someone NOT to act from lacking a desire for them to act (〜ないでほしい vs. 〜てほしくない), elevate direct wishes to polite/distanced requests (〜てもらいたい / 〜ていただきたい), and report a third party's visible desire (〜たがっている / {欲|ほ}しがっている).",
+      "study_tip": "Never ascribe raw 〜たい, 〜てほしい, or {欲|ほ}しい directly to a third person like {妹|いもうと} or {彼|かれ}: swap the final い for がっている ({行|い}きたがっている, {欲|ほ}しがっている) and remember that {欲|ほ}しがる switches the object particle from が to を!",
+      "grammar_points": [
+        {
+          "id": "naide-hoshii",
+          "pattern": "〜ないでほしい / 〜てほしくない",
+          "pattern_ruby": "〜ないでほしい / 〜てほしくない",
+          "romaji": "~naide hoshii / ~te hoshikunai",
+          "meaning_en": "I want you not to ~ (naide hoshii); I don't want you to ~ (te hoshikunai)",
+          "register": "neutral",
+          "renshuu_status": "verified_renshuu",
+          "mental_model": "Notice where the negative sits! Placing ない on the verb itself (〜ないでほしい) focuses directly on asking someone to refrain from an action: 'Please do NOT smoke here / Please don't forget.' Placing ない on ほしい (〜てほしくない) negates your wish as a protective or reluctant feeling: 'I don't really want you to push yourself too hard.' In direct requests to avoid an action, 〜ないでほしい is the standard everyday choice.",
+          "formation": [
+            {
+              "pos": "{動詞|どうし}ない{形|けい}",
+              "rule": "＋ でほしい（です）（〜ないことを{望|のぞ}む）"
+            },
+            {
+              "pos": "{動詞|どうし}て{形|けい}",
+              "rule": "＋ ほしくない（です）（〜てほしいとは{思|おも}わない）"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "{部屋|へや}の{中|なか}ではタバコを{吸|す}わないでほしい。",
+              "structure_note": "{動詞|どうし}ない{形|けい}（{吸|す}わない）＋ でほしい（{相手|あいて}への{禁止要望|きんしようぼう}）",
+              "en": "I want you not to smoke inside the room."
+            },
+            {
+              "ja_ruby": "{家族|かぞく}にはあまり{心配|しんぱい}してほしくないから、まだ{病院|びょういん}のことは{言|い}わない。",
+              "structure_note": "{動詞|どうし}て{形|けい}（{心配|しんぱい}して）＋ ほしくない（{望|のぞ}まない{気持|きも}ち）",
+              "en": "I don't want my family to worry too much, so I'm not mentioning the hospital yet."
+            },
+            {
+              "ja_ruby": "どんなに{忙|いそが}しくても、{今日|きょう}の{約束|やくそく}だけは{忘|わす}れないでほしいんだ。",
+              "structure_note": "{動詞|どうし}ない{形|けい}＋でほしいんだ（{強|つよ}いお{願|ねが}い）",
+              "en": "No matter how busy you are, I really want you not to forget today's promise."
+            },
+            {
+              "ja_ruby": "{兄|あに}には、お{酒|さけ}を{飲|の}んでから{車|くるま}を{運転|うんてん}してほしくない。",
+              "structure_note": "{相手|あいて}に ＋ {動詞|どうし}て{形|けい}＋ほしくない",
+              "en": "I don't want my older brother to drive after drinking alcohol."
+            }
+          ],
+          "pitfalls": [
+            "Never attach なくて before ほしい when asking someone to refrain (○ {吸|す}わないでほしい, × {吸|す}わなくてほしい); always use 〜ないで.",
+            "〜てほしい and 〜ないでほしい sound fairly direct and personal—use them with friends, family, or subordinates, NOT upward to a boss or client (use 〜ないでいただきたい / 〜ないでいただけませんか instead).",
+            "Like 〜たい, 〜ないでほしい expresses only the speaker's own desire (or a direct question to 'you'); to report a third person's wish for someone else, switch to 〜てほしがっている / 〜ないでほしがっている."
+          ]
+        },
+        {
+          "id": "te-moraitai",
+          "pattern": "〜てもらいたい / 〜ていただきたい",
+          "pattern_ruby": "〜てもらいたい / 〜ていただきたい",
+          "romaji": "~te moraitai / ~te itadakitai",
+          "meaning_en": "I would like someone to ~ (more formal or objective than 〜てほしい)",
+          "register": "formal",
+          "renshuu_status": "canonical_n3",
+          "mental_model": "Compare three distances when you want someone else to act. 〜てほしい feels intimate and personal ('I want you to...'). Stepping to 〜てもらいたい puts polite objective space between you and the listener, fitting workplace explanations, speeches, and public notices ('We would like everyone to...'). Raising もらいたい to humble いただきたい creates 〜ていただきたい, the respectful standard for asking favors from bosses, teachers, and clients (often softened as 〜ていただきたいのですが).",
+          "formation": [
+            {
+              "pos": "{動詞|どうし}て{形|けい}",
+              "rule": "＋ もらいたい（です・のですが）"
+            },
+            {
+              "pos": "{動詞|どうし}て{形|けい}",
+              "rule": "＋ いただきたい（です・のですが）"
+            },
+            {
+              "pos": "{動詞|どうし}ない{形|けい}＋で",
+              "rule": "＋ もらいたい / いただきたい（{否定|ひてい}の{要望|ようぼう}）"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "{部長|ぶちょう}、お{手数|てすう}ですが、こちらの{契約書|けいやくしょ}を{一度|いちど}{確認|かくにん}していただきたいのですが。",
+              "structure_note": "{目上|めうえ}（{部長|ぶちょう}）への{丁寧|ていねい}な{依頼|いらい}：〜ていただきたいのですが",
+              "en": "Director, sorry for the trouble, but I would like you to kindly review this contract once."
+            },
+            {
+              "ja_ruby": "お{客様|きゃくさま}には、{電車|でんしゃ}が{止|と}まるまで{黄色|きいろ}い{線|せん}の{内側|うちがわ}で{待|ま}っていただきたいと{思|おも}います。",
+              "structure_note": "〜ていただきたいと{思|おも}います（アナウンス・{公的表現|こうてきひょうげん}）",
+              "en": "We kindly ask that passengers wait behind the yellow line until the train comes to a stop."
+            },
+            {
+              "ja_ruby": "{子供|こども}たちには、{将来|しょうらい}の{進路|しんろ}は{親|おや}に{頼|たよ}らずに{自分|じぶん}で{決|き}めてもらいたい。",
+              "structure_note": "{客観的|きゃっかんてき}な{要望|ようぼう}：〜てもらいたい（{子供|こども}・{若者|わかもの}へ）",
+              "en": "I would like our children to decide their future paths for themselves without relying on their parents."
+            },
+            {
+              "ja_ruby": "{会議中|かいぎちゅう}は、スマートフォンを{見|み}ないでもらいたいですね。",
+              "structure_note": "{動詞|どうし}ない{形|けい}＋で ＋ もらいたい（{控|ひか}えめな{注意|ちゅうい}）",
+              "en": "I'd really rather people didn't look at their smartphones during meetings."
+            }
+          ],
+          "pitfalls": [
+            "Mark the person performing the action with に (or から), NEVER が, before 〜てもらいたい / 〜ていただきたい: ○ {田中|たなか}さんに{手伝|てつだ}ってもらいたい, × {田中|たなか}さんが{手伝|てつだ}ってもらいたい.",
+            "Always keep the て-form before もらいたい / いただきたい when using normal verbs (○ {読|よ}んでいただきたい, × {読|よ}みいただきたい unless using the separate keigo frame お{読|よ}みいただきたい).",
+            "Ending flatly with 〜ていただきたいです to a superior can still sound slightly declarative; adding 〜のですが or turning it into 〜ていただけませんか makes an actual favor request much smoother."
+          ]
+        },
+        {
+          "id": "tagatte-iru",
+          "pattern": "〜たがっている / 欲しがっている",
+          "pattern_ruby": "〜たがっている / {欲|ほ}しがっている",
+          "romaji": "~tagatte iru / hoshigatte iru",
+          "meaning_en": "he/she wants to ~; seems eager for ~ (third-person visible desire)",
+          "register": "neutral",
+          "renshuu_status": "verified_renshuu",
+          "mental_model": "Japanese draws a sharp border around invisible feelings inside someone else's head: you cannot plainly declare '{鈴木|すずき} is thirsty and wants water' with 〜たい or {欲|ほ}しい. Instead, chop the final い off 〜たい, {欲|ほ}しい, or 〜てほしい and attach 〜がる (usually progressive 〜ている): 〜たがっている / {欲|ほ}しがっている. Literally 'showing signs of wanting,' it reports visible words, expressions, and behavior objectively.",
+          "formation": [
+            {
+              "pos": "{動詞|どうし}ます{形|けい}",
+              "rule": "＋ たがる / たがっている"
+            },
+            {
+              "pos": "{名詞|めいし} ＋ を",
+              "rule": "＋ {欲|ほ}しがる / {欲|ほ}しがっている"
+            },
+            {
+              "pos": "{動詞|どうし}て{形|けい}",
+              "rule": "＋ ほしがる / ほしがっている"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "{鈴木|すずき}さんは{今年|ことし}、{新|あたら}しい{車|くるま}を{買|か}いたがっているそうだ。",
+              "structure_note": "{三人称|さんにんしょう}（{鈴木|すずき}さん）＋ {動詞|どうし}ます{形|けい}＋たがっている",
+              "en": "I hear Suzuki is eager to buy a new car this year."
+            },
+            {
+              "ja_ruby": "{妹|いもうと}はさっきから{誕生日|たんじょうび}プレゼントに{新|あたら}しいゲームを{欲|ほ}しがっている。",
+              "structure_note": "{名詞|めいし} ＋ を ＋ {欲|ほ}しがっている（が→をの{助詞変化|じょしへんか}）",
+              "en": "My little sister has been wanting a new video game for her birthday for a while now."
+            },
+            {
+              "ja_ruby": "{犬|いぬ}がドアの{前|まえ}で{鳴|な}いて、{外|そと}へ{出|で}たがっているよ。",
+              "structure_note": "{動物|どうぶつ}の{様子|ようす}の{描写|びょうしゃ}：〜たがっている",
+              "en": "The dog is whining by the door—it looks like it wants to go outside!"
+            },
+            {
+              "ja_ruby": "{佐藤|さとう}さんは{緊張|きんちょう}しているのか、あまり{自分|じぶん}から{話|はな}したがらない。",
+              "structure_note": "〜たがらない（{三人称|さんにんしょう}の{消極的|しょうきょくてき}な{様子|ようす}）",
+              "en": "Maybe Sato is nervous—she seems reluctant to talk much on her own."
+            }
+          ],
+          "pitfalls": [
+            "Always drop the final い of 〜たい and {欲|ほ}しい before adding がる (○ {行|い}きたがっている / {欲|ほ}しがっている, × {行|い}きたいがっている / × {欲|ほ}しいがっている).",
+            "Watch the particle switch with {欲|ほ}しがる: while first-person {欲|ほ}しい takes が (ゲームが{欲|ほ}しい), turning it into the verb {欲|ほ}しがる requires を ({妹|いもうと}はゲームを{欲|ほ}しがっている, NOT × ゲームが{欲|ほ}しがっている).",
+            "Never use 〜たがっている or {欲|ほ}しがっている for your own current feelings (× {私|わたし}はジュースを{飲|の}みたがっています), and conversely never claim raw internal 〜たい / {欲|ほ}しい as a direct fact about a third person (× {彼|かれ}は{車|くるま}を{買|か}いたいです -> use 〜たがっている or hearsay 〜たいそうだ)."
+          ]
+        }
+      ],
+      "lesson_contrast": {
+        "title": "Direct, Polite & Third-Person Desires in Lesson 26",
+        "explanation": "Choose your Lesson 26 pattern by checking whose desire you are expressing, whether the wish is negative, and how much social distance you owe the listener.",
+        "rows": [
+          {
+            "expression": "〜ないでほしい / 〜てほしくない",
+            "register": "Neutral / Casual",
+            "key_rule": "〜ないでほしい asks someone to refrain; 〜てほしくない expresses lack of desire; use downward or with peers.",
+            "example_short": "ここでタバコを{吸|す}わないでほしい。"
+          },
+          {
+            "expression": "〜てもらいたい / 〜ていただきたい",
+            "register": "Formal / Polite",
+            "key_rule": "Polite or objective version of 〜てほしい; requires particle に on the actor.",
+            "example_short": "{部長|ぶちょう}に{確認|かくにん}していただきたいです。"
+          },
+          {
+            "expression": "〜たがっている / {欲|ほ}しがっている",
+            "register": "Neutral",
+            "key_rule": "Third-person visible desire (drops い before がる); {欲|ほ}しがる takes particle を.",
+            "example_short": "{弟|おとうと}はカメラを{欲|ほ}しがっている。"
+          }
+        ]
+      },
+      "practice_quiz": [
+        {
+          "question_id": "L26-Q1",
+          "question_type": "fill_blank",
+          "prompt_ja_ruby": "{煙|けむり}が{苦手|にがて}なので、お{願|ねが}いだから{部屋|へや}の{中|なか}ではタバコを（　　　）。",
+          "context_en": "Asking someone to refrain from smoking inside the room: 'Since I really dislike smoke, please don't smoke inside the room.'",
+          "choices": [
+            "{吸|す}わないでほしい",
+            "{吸|す}ってほしがっている",
+            "{吸|す}いたがっている",
+            "{吸|す}わなくてもいい"
+          ],
+          "correct_index": 0,
+          "explanation": "Correct: A ({吸|す}わないでほしい). Attaching ないでほしい directly asks the listener to refrain from smoking inside, matching {煙|けむり}が{苦手|にがて}なので and お{願|ねが}いだから. B ({吸|す}ってほしがっている) means someone else wants the listener to smoke; C ({吸|す}いたがっている) reports a third person wanting to smoke, clashing with お{願|ねが}いだから; D ({吸|す}わなくてもいい) grants permission not to smoke rather than pleading with someone to refrain."
+        },
+        {
+          "question_id": "L26-Q2",
+          "question_type": "nuance_choice",
+          "prompt_ja_ruby": "（{会社|かいしゃ}の{上司|じょうし}に）{部長|ぶちょう}、お{手数|てすう}ですが、こちらの{契約書|けいやくしょ}を{一度|いちど}{確認|かくにん}して（　　　）のですが。",
+          "context_en": "Politely asking your department manager to review a contract: 'Director, sorry for the trouble, but I would like you to kindly review this contract once.'",
+          "choices": [
+            "ほしい",
+            "たがっている",
+            "いただきたい",
+            "あげたいと{思|おも}う"
+          ],
+          "correct_index": 2,
+          "explanation": "Correct: C (いただきたい). Speaking upward to a department manager ({部長|ぶちょう}) calls for humble 〜ていただきたいのですが. A (ほしい) is too direct and casual for a boss; B (たがっている) expresses a third person's desire and cannot follow the て-form; D (あげたいと{思|おも}う) reverses the benefactor to offer to check it for the boss instead of requesting their review."
+        },
+        {
+          "question_id": "L26-Q3",
+          "question_type": "attachment_trap",
+          "prompt_ja_ruby": "{妹|いもうと}はさっきから{新|あたら}しいゲーム（　　　）。",
+          "context_en": "Testing third-person desire particle and stem rules: 'My little sister has been wanting a new video game for a while.'",
+          "choices": [
+            "が{欲|ほ}しいがっている",
+            "を{欲|ほ}しがっている",
+            "を{欲|ほ}しいがっている",
+            "が{欲|ほ}しがっている"
+          ],
+          "correct_index": 1,
+          "explanation": "Correct: B (を{欲|ほ}しがっている). Converting {欲|ほ}しい to the verb {欲|ほ}しがる requires dropping the final い ({欲|ほ}し) AND switching the object particle from が to を. A and C wrongly keep the い of {欲|ほ}しい before がっている; A and D wrongly leave the adjective particle が instead of switching to を."
+        },
+        {
+          "question_id": "L26-Q4",
+          "question_type": "star_order",
+          "prompt_ja_ruby": "{鈴木|すずき}さんは{今年|ことし}、＿　＿　★　＿そうだ。",
+          "context_en": "Reporting what you heard about a third person's desire: 'I hear Suzuki is eager to buy a new car this year.'",
+          "choices": [
+            "がっている",
+            "{車|くるま}を",
+            "{新|あたら}しい",
+            "{買|か}いた"
+          ],
+          "correct_index": 3,
+          "explanation": "Correct: D ({買|か}いた). Full sentence: {鈴木|すずき}さんは{今年|ことし}、{新|あたら}しい(1) {車|くるま}を(2) {買|か}いた(3★) がっている(4) そうだ。{新|あたら}しい modifies {車|くるま}を, which is the direct object of {買|か}いた(がる), and がっている attaches directly to {買|か}いた before hearsay そうだ. Placing {車|くるま}を before {新|あたら}しい or separating {買|か}いた from がっている breaks the clause."
+        }
+      ]
+    }
+  ]
+}

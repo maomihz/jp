@@ -1,0 +1,1480 @@
+{
+  "unit_number": 4,
+  "unit_slug": "unit-04-degree-logic-expectations-cause",
+  "unit_title": "Unit 4: Degree, わけ Logic, Expectations, Necessity & Cause (Lessons 16–20)",
+  "unit_overview": "Master Renshuu N3 Lessons 16–20: degree and numerical bounds, the complete わけ system (わけだ・わけではない・わけがない・わけにはいかない), expectations (はず・つもり), necessity (べきだ・ねばならない), and causal attribution (おかげで・せいで・ために・ことから).",
+  "lessons": [
+    {
+      "lesson_id": "L16",
+      "lesson_number": 16,
+      "renshuu_title": "Degree/Amount",
+      "has_video": false,
+      "summary": "Express extreme states overflowing into unintended results (あまり), set realistic or modest caps (といったところだ・せいぜい), mark minimums and approximations (くらい), and highlight floors, high totals, and equal shares (は・も・ずつ).",
+      "study_tip": "Keep your numerical direction straight: {数量|すうりょう}＋は and minimal くらい push UP from a floor ('at least'), whereas {数量|すうりょう}＋も marvels at a big count ('as many as'), and せいぜい・といったところだ cap expectations LOW ('at most / about X').",
+      "grammar_points": [
+        {
+          "id": "amari-ni",
+          "pattern": "〜あまり / あまりに（も）",
+          "pattern_ruby": "〜あまり / あまりに（も）",
+          "romaji": "~amari / amari ni (mo)",
+          "meaning_en": "so ~ that...; out of excessive ~ (causing an unintended outcome)",
+          "register": "written",
+          "renshuu_status": "canonical_n3",
+          "mental_model": "Picture a cup overflowing: an emotion, effort, or state builds up past its normal boundary and spills into an involuntary or surprising result. When using 〜あまり after a state or emotion, the outcome is always something you could not hold back or did not plan. With あまりに（も） placed before an adjective or verb, you highlight that the degree itself has crossed way past reasonable limits.",
+          "formation": [
+            {
+              "pos": "{動詞|どうし}{辞書形|じしょけい}・た{形|けい}・ない{形|けい}",
+              "rule": "＋ あまり（に）"
+            },
+            {
+              "pos": "{名詞|めいし}・い{形容詞|けいようし}{語幹|ごかん}＋さ",
+              "rule": "＋ のあまり（に）"
+            },
+            {
+              "pos": "な{形容詞|けいようし}",
+              "rule": "＋ なあまり（に） / のあまり（に）"
+            },
+            {
+              "pos": "あまりに（も）",
+              "rule": "＋ {形容詞|けいようし}・{動詞|どうし}（{多|おお}くは〜すぎる / 〜て・ので）"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "{試験|しけん}の{前夜|ぜんや}は{緊張|きんちょう}のあまり、{一睡|いっすい}もできなかった。",
+              "structure_note": "{名詞|めいし}（{緊張|きんちょう}）＋ のあまり ＋ {非意志的|ひいしてき}な{結果|けっか}",
+              "en": "Out of extreme nervousness the night before the exam, I couldn't sleep a wink."
+            },
+            {
+              "ja_ruby": "{娘|むすめ}の{合格|ごうかく}を{聞|き}いて、{佐藤|さとう}さんは{嬉|うれ}しさのあまり{涙|なみだ}を{流|なが}した。",
+              "structure_note": "い{形容詞|けいようし}{語幹|ごかん}＋さ（{嬉|うれ}しさ）＋ のあまり",
+              "en": "Hearing that her daughter had passed, Sato shed tears out of overwhelming joy."
+            },
+            {
+              "ja_ruby": "{仕事|しごと}を{急|いそ}ぎすぎたあまり、{大切|たいせつ}な{書類|しょるい}にミスをしてしまった。",
+              "structure_note": "{動詞|どうし}た{形|けい}（{急|いそ}ぎすぎた）＋ あまり ＋ {望|のぞ}まない{結果|けっか}",
+              "en": "Because I rushed the work too much, I ended up making a mistake on an important document."
+            },
+            {
+              "ja_ruby": "このマンションは{駅|えき}から{近|ちか}いが、{家賃|やちん}があまりにも{高|たか}すぎる。",
+              "structure_note": "あまりにも ＋ い{形容詞|けいようし}（{高|たか}すぎる）",
+              "en": "This apartment is close to the station, yet the rent is way too high."
+            }
+          ],
+          "pitfalls": [
+            "The result clause after 〜あまり must express an involuntary, accidental, or extreme outcome—never attach requests (~てください), commands, or calm intentions (~つもりだ).",
+            "Nouns strictly require の before あまり (○ {心配|しんぱい}のあまり, × {心配|しんぱい}あまり); with emotional い-adjectives, nominalizing with 〜さ＋のあまり (○ {悲|かな}しさのあまり) is far more natural than attaching directly.",
+            "Do not confuse 〜あまり ('out of excessive ~') with the N4 adverb あまり〜ない ('not very ~')."
+          ]
+        },
+        {
+          "id": "to-itta-tokoro-da",
+          "pattern": "〜といったところだ",
+          "pattern_ruby": "〜といったところだ",
+          "romaji": "~to itta tokoro da",
+          "meaning_en": "at most about ~; roughly ~ (modest upper estimate)",
+          "register": "neutral",
+          "renshuu_status": "verified_renshuu",
+          "mental_model": "Literally 'at the point one could call X,' this expression lets the speaker put a realistic, slightly humble ceiling on a number, skill, or situation. Rather than impressing the listener, you are waving off grand expectations: 'Nothing spectacular—around X at best.' It pairs naturally with realistic qualifiers like まあまあ or {良|よ}くて.",
+          "formation": [
+            {
+              "pos": "{数量詞|すうりょうし}（＋ぐらい・ほど）",
+              "rule": "＋ といったところだ"
+            },
+            {
+              "pos": "{名詞|めいし}・な{形容詞|けいようし}{語幹|ごかん}",
+              "rule": "＋ といったところだ"
+            },
+            {
+              "pos": "{動詞|どうし}{辞書形|じしょけい}・い{形容詞|けいようし}",
+              "rule": "＋ といったところだ"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "{私|わたし}の{料理|りょうり}の{腕|うで}は、まあ{普通|ふつう}といったところです。",
+              "structure_note": "な{形容詞|けいようし}{語幹|ごかん}（{普通|ふつう}）＋ といったところだ",
+              "en": "My cooking skill is just about average, I'd say."
+            },
+            {
+              "ja_ruby": "このアルバイトの{収入|しゅうにゅう}は、{月|つき}に{10万円|じゅうまんえん}といったところだ。",
+              "structure_note": "{数量詞|すうりょうし}（{10万円|じゅうまんえん}）＋ といったところだ",
+              "en": "The income from this part-time job is around 100,000 yen a month at best."
+            },
+            {
+              "ja_ruby": "{新聞|しんぶん}は{全部|ぜんぶ}{読|よ}めないが、{見出|みだ}しがわかるといったところだ。",
+              "structure_note": "{動詞|どうし}{辞書形|じしょけい}（わかる）＋ といったところだ",
+              "en": "I can't read the whole newspaper—I'm at the level where I can make out the headlines."
+            },
+            {
+              "ja_ruby": "{今日|きょう}のテストは{難|むずか}しかったので、{良|よ}くて{60点|ろくじゅってん}といったところだろう。",
+              "structure_note": "{良|よ}くて ＋ {数量詞|すうりょうし} ＋ といったところだろう",
+              "en": "Today's test was tough, so my score will be around 60 points at best, probably."
+            }
+          ],
+          "pitfalls": [
+            "Because 〜といったところだ always understates or sets a modest upper bound, never combine it with large-quantity surprise markers like も (× {100人|ひゃくにん}もといったところだ).",
+            "It functions almost exclusively as a sentence-ending predicate (often with だろう or です); for mid-sentence approximations before nouns or verbs, use くらい / ぐらい instead."
+          ]
+        },
+        {
+          "id": "kurai-seizei",
+          "pattern": "〜くらい / ぐらい・せいぜい",
+          "pattern_ruby": "〜くらい / ぐらい・せいぜい",
+          "romaji": "~kurai / gurai · seizei",
+          "meaning_en": "about ~ / at least ~ (minimal degree); at most ~ (upper limit: seizei)",
+          "register": "neutral",
+          "renshuu_status": "verified_renshuu",
+          "mental_model": "くらい・ぐらい acts as a sliding reference point on a scale: on numbers it softens into an approximation ('around 10 minutes'), while on actions or easy tasks it marks a bare minimum ('you can at least say thank you'). The adverb せいぜい, by contrast, clamps a lid over the top of the scale ('at most, no more than'), signaling that expectations should stay modest.",
+          "formation": [
+            {
+              "pos": "{数量詞|すうりょうし}・{名詞|めいし}",
+              "rule": "＋ くらい / ぐらい"
+            },
+            {
+              "pos": "{動詞|どうし}{普通形|ふつうけい}・い{形容詞|けいようし}・な{形容詞|けいようし}＋な",
+              "rule": "＋ くらい / ぐらい"
+            },
+            {
+              "pos": "せいぜい",
+              "rule": "＋ {数量詞|すうりょうし}（＋くらいだ / しか〜ない）"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "{家|いえ}から{駅|えき}まで{歩|ある}いて{10分|じゅっぷん}ぐらいかかります。",
+              "structure_note": "{数量詞|すうりょうし}（{10分|じゅっぷん}）＋ ぐらい（{概数|がいすう}）",
+              "en": "It takes about 10 minutes on foot from my house to the station."
+            },
+            {
+              "ja_ruby": "{忙|いそが}しくても、「ありがとう」の{一言|ひとこと}ぐらい{言|い}ってほしい。",
+              "structure_note": "{名詞|めいし}（{一言|ひとこと}）＋ ぐらい（{最低限|さいていげん}）",
+              "en": "Even if you're busy, I'd like you to at least say a simple 'thank you.'"
+            },
+            {
+              "ja_ruby": "こんな{簡単|かんたん}な{漢字|かんじ}ぐらい、{辞書|じしょ}がなくても{書|か}ける。",
+              "structure_note": "{名詞|めいし}（{簡単|かんたん}な{漢字|かんじ}）＋ ぐらい（{軽視|けいし}・{容易|ようい}）",
+              "en": "I can write simple kanji like this even without a dictionary."
+            },
+            {
+              "ja_ruby": "{今月|こんげつ}は{残業|ざんぎょう}が{少|すく}ないから、{貯金|ちょきん}できるのはせいぜい{2万円|にまんえん}くらいだ。",
+              "structure_note": "せいぜい ＋ {数量詞|すうりょうし} ＋ くらいだ（{上限|じょうげん}）",
+              "en": "Since there's little overtime this month, the most I can save is about 20,000 yen."
+            }
+          ],
+          "pitfalls": [
+            "Never confuse せいぜい ('at most'—upper cap) with {少|すく}なくとも ('at least'—minimum floor): × せいぜい{毎日|まいにち}{1時間|いちじかん}は{勉強|べんきょう}しなさい should use {少|すく}なくとも.",
+            "Remember that minimal くらい ('at least say hello') often carries mild criticism or frustration toward someone failing a bare minimum, whereas せいぜい sounds resigned or modest."
+          ]
+        },
+        {
+          "id": "suuryou-wa-mo-zutsu",
+          "pattern": "数量＋は / も・〜ずつ",
+          "pattern_ruby": "{数量|すうりょう}＋は / も・〜ずつ",
+          "romaji": "suuryou + wa / mo · ~zutsu",
+          "meaning_en": "at least N (は); as many as N (も); N each / N at a time (ずつ)",
+          "register": "neutral",
+          "renshuu_status": "verified_renshuu",
+          "mental_model": "Adding a one-syllable particle after a counter tells the listener how you feel about that quantity. {数量|すうりょう}＋は draws a baseline floor ('at least this much is needed or guaranteed'), while {数量|すうりょう}＋も flags an amount as surprisingly large ('a whole N!'). Separately, 〜ずつ chops an amount into equal, repeatable portions across people, items, or moments in time.",
+          "formation": [
+            {
+              "pos": "{数量詞|すうりょうし}（{数|かず}＋{助数詞|じょすうし}）",
+              "rule": "＋ は（{最低限|さいていげん}・{推定|すいてい}）"
+            },
+            {
+              "pos": "{数量詞|すうりょうし}（{数|かず}＋{助数詞|じょすうし}）",
+              "rule": "＋ も（{予想以上|よそういじょう}の{多|おお}さ）"
+            },
+            {
+              "pos": "{数量詞|すうりょうし}・{少|すこ}し・{一人|ひとり}",
+              "rule": "＋ ずつ（{均等|きんとう}{配分|はいぶん}・{反復|はんぷく}）"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "{富士山|ふじさん}に{登|のぼ}るなら、{水|みず}を2リットルは{持|も}っていったほうがいい。",
+              "structure_note": "{数量詞|すうりょうし}（2リットル）＋ は（{最低|さいてい}ライン）",
+              "en": "If you climb Mt. Fuji, you should bring at least two liters of water."
+            },
+            {
+              "ja_ruby": "{昨日|きのう}は{疲|つか}れていたので、{12時間|じゅうにじかん}も{寝|ね}てしまった。",
+              "structure_note": "{数量詞|すうりょうし}（{12時間|じゅうにじかん}）＋ も（{多|おお}さへの{驚|おどろ}き）",
+              "en": "I was so tired yesterday that I ended up sleeping for a full 12 hours."
+            },
+            {
+              "ja_ruby": "この{薬|くすり}は{毎日|まいにち}、{食後|しょくご}に{2錠|にじょう}ずつ{飲|の}んでください。",
+              "structure_note": "{数量詞|すうりょうし}（{2錠|にじょう}）＋ ずつ（{毎度|まいど}の{定量|ていりょう}）",
+              "en": "Please take two tablets of this medicine each time after meals every day."
+            },
+            {
+              "ja_ruby": "{漢字|かんじ}は{一度|いちど}にたくさん{覚|おぼ}えようとせず、{毎日|まいにち}{少|すこ}しずつ{練習|れんしゅう}しよう。",
+              "structure_note": "{少|すこ}し ＋ ずつ（{徐々|じょじょ}に{進|すす}める）",
+              "en": "Instead of trying to memorize tons of kanji at once, let's practice a little bit each day."
+            }
+          ],
+          "pitfalls": [
+            "{数量|すうりょう}＋も meaning 'as many as N' must pair with an affirmative verb; adding a negative verb flips it to 'not even N' (and 'only N' requires しか〜ない).",
+            "は and も replace を and が directly after a counter (○ {3時間|さんじかん}も{待|ま}った, × {3時間|さんじかん}をも{待|ま}った), whereas other case particles like で or に come before them (○ {2時間|にじかん}では{終|お}わらない)."
+          ]
+        }
+      ],
+      "lesson_contrast": {
+        "title": "Degree, Caps & Numerical Attitude in Lesson 16",
+        "explanation": "Notice how each expression in Lesson 16 positions a quantity or degree on the speaker's mental scale—whether overflowing past a limit, capping low, setting a floor, or dividing equally.",
+        "rows": [
+          {
+            "expression": "〜あまり / あまりに（も）",
+            "register": "Written / Neutral",
+            "key_rule": "Excessive state/emotion overflowing into an unintended result; no requests or commands in result.",
+            "example_short": "{緊張|きんちょう}のあまり、{声|こえ}が{震|ふる}えた。"
+          },
+          {
+            "expression": "〜といったところだ",
+            "register": "Neutral",
+            "key_rule": "Modest, understated upper estimate ('around X at best'); sentence-final.",
+            "example_short": "{予算|よさん}は{5万円|ごまんえん}といったところだ。"
+          },
+          {
+            "expression": "〜くらい / せいぜい",
+            "register": "Neutral",
+            "key_rule": "くらい marks approximate or bare minimum; せいぜい imposes a modest upper cap ('at most').",
+            "example_short": "{勝|か}てるのはせいぜい{1回|いっかい}くらいだ。"
+          },
+          {
+            "expression": "{数量|すうりょう}＋は / も・ずつ",
+            "register": "Neutral",
+            "key_rule": "は = at least N; も = as many as N; ずつ = N each / N at a time.",
+            "example_short": "{毎日|まいにち}{30分|さんじゅっぷん}は{歩|ある}くべきだ。"
+          }
+        ]
+      },
+      "practice_quiz": [
+        {
+          "question_id": "L16-Q1",
+          "question_type": "fill_blank",
+          "prompt_ja_ruby": "{試験|しけん}の{合格|ごうかく}を{聞|き}いて、{田中|たなか}さんは{嬉|うれ}しさの（　　　）、{声|こえ}も{出|で}なかった。",
+          "context_en": "Hearing that they passed the exam, Tanaka was so overwhelmed with joy that they couldn't even utter a word.",
+          "choices": [
+            "せいぜい",
+            "あまり",
+            "くらい",
+            "ずつ"
+          ],
+          "correct_index": 1,
+          "explanation": "Correct: B (あまり). Nominalized い-adjective {嬉|うれ}しさ ＋ のあまり expresses an emotion so intense that an involuntary outcome ({声|こえ}も{出|で}なかった) follows. A (せいぜい) is an adverb meaning 'at most' and cannot follow の; C (くらい) marks approximate or minimal degree and does not pair with の; D (ずつ) marks equal distribution after counters."
+        },
+        {
+          "question_id": "L16-Q2",
+          "question_type": "nuance_choice",
+          "prompt_ja_ruby": "{明日|あした}の{試験|しけん}に{合格|ごうかく}するには、{今夜|こんや}{最低|さいてい}でも（　　　）{勉強|べんきょう}しなければならない。",
+          "context_en": "Setting a required minimum floor ('at least two hours tonight') in order to pass tomorrow's exam.",
+          "choices": [
+            "{2時間|にじかん}も",
+            "{2時間|にじかん}ずつ",
+            "{2時間|にじかん}しか",
+            "{2時間|にじかん}は"
+          ],
+          "correct_index": 3,
+          "explanation": "Correct: D ({2時間|にじかん}は). Adding は after a quantity sets a minimum baseline ('at least two hours'), matching {最低|さいてい}でも perfectly. A (も) expresses surprise at a large amount ('as many as'), clashing with a minimum requirement; B (ずつ) distributes equal portions across repeated times or people, which fails for a single study session tonight; C (しか) requires a negative verb ('only two hours'), so it is ungrammatical with affirmative しなければならない."
+        },
+        {
+          "question_id": "L16-Q3",
+          "question_type": "attachment_trap",
+          "prompt_ja_ruby": "{突然|とつぜん}の{発表|はっぴょう}に（　　　）、しばらく{何|なに}も{言|い}えなかった。",
+          "context_en": "So shocked by the sudden announcement that I couldn't say anything for a while.",
+          "choices": [
+            "{驚|おどろ}いたあまり",
+            "{驚|おどろ}きあまり",
+            "{驚|おどろ}くのあまり",
+            "{驚|おどろ}きだあまり"
+          ],
+          "correct_index": 0,
+          "explanation": "Correct: A ({驚|おどろ}いたあまり). Verbs attach to あまり directly in their dictionary form or た-form with no particle. B ({驚|おどろ}きあまり) omits the mandatory の after a noun ({驚|おどろ}き＋のあまり); C ({驚|おどろ}くのあまり) wrongly inserts の after a finite verb; D ({驚|おどろ}きだあまり) ungrammatically places だ before あまり."
+        },
+        {
+          "question_id": "L16-Q4",
+          "question_type": "star_order",
+          "prompt_ja_ruby": "{私|わたし}の{日本語|にほんご}は、＿　＿　★　＿。",
+          "context_en": "Modestly assessing your Japanese ability: 'My Japanese is just at the level of being able to have conversations at best.'",
+          "choices": [
+            "ところだ",
+            "{会話|かいわ}が",
+            "といった",
+            "できる"
+          ],
+          "correct_index": 2,
+          "explanation": "Correct: C (といった). Full sentence: {私|わたし}の{日本語|にほんご}は、{会話|かいわ}が(1) できる(2) といった(3★) ところだ(4). {会話|かいわ}が begins the relative predicate with できる ('can hold conversations'), and といった must directly precede ところだ to form the modest cap expression 〜といったところだ. Putting できる before {会話|かいわ}が leaves が dangling before といったところだ, and といった cannot stand after ところだ."
+        }
+      ]
+    },
+    {
+      "lesson_id": "L17",
+      "lesson_number": 17,
+      "renshuu_title": "わけ",
+      "has_video": false,
+      "summary": "Build complete control over the わけ family: logical conclusions (わけだ), polite partial negation (わけではない), emphatic impossibility (わけがない), and social or moral constraints (わけにはいかない / ないわけにはいかない).",
+      "study_tip": "Never memorize the four わけ endings as isolated vocabulary: picture わけ as 'the logical path.' わけだ = the path leads right here ('no wonder!'); わけではない = not every path leads there ('not necessarily'); わけがない = zero path exists ('no way!'); わけにはいかない = socially I cannot take that path ('cannot afford to').",
+      "grammar_points": [
+        {
+          "id": "wake-da",
+          "pattern": "〜わけだ / というわけだ",
+          "pattern_ruby": "〜わけだ / というわけだ",
+          "romaji": "~wake da / to iu wake da",
+          "meaning_en": "no wonder ~; so that means ~; naturally ~ (logical conclusion)",
+          "register": "neutral",
+          "renshuu_status": "verified_renshuu",
+          "mental_model": "Think of わけだ as clicking two puzzle pieces together out loud: 'Aha, given Fact A, Outcome B makes complete sense—no wonder!' Unlike はずだ, which predicts something unverified, わけだ explains an already observed result or paraphrases what the previous facts logically add up to (というわけだ = 'so in other words, that means...').",
+          "formation": [
+            {
+              "pos": "{動詞|どうし}・い{形容詞|けいようし}{普通形|ふつうけい}",
+              "rule": "＋ わけだ / というわけだ"
+            },
+            {
+              "pos": "な{形容詞|けいようし}",
+              "rule": "＋ な ＋ わけだ / （だ）というわけだ"
+            },
+            {
+              "pos": "{名詞|めいし}",
+              "rule": "＋ な（・である）＋ わけだ / ＋ というわけだ"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "{田中|たなか}さんは{10年|じゅうねん}もパリに{住|す}んでいたのか。フランス{語|ご}が{上手|じょうず}なわけだ。",
+              "structure_note": "な{形容詞|けいようし}（{上手|じょうず}）＋ な ＋ わけだ（{納得|なっとく}）",
+              "en": "Oh, Tanaka lived in Paris for 10 years? No wonder his French is so good!"
+            },
+            {
+              "ja_ruby": "{電車|でんしゃ}が{事故|じこ}で{止|と}まっているから、{道|みち}がこんなに{混|こ}んでいるわけだ。",
+              "structure_note": "{動詞|どうし}＋ている ＋ わけだ（{当然|とうぜん}の{帰結|きけつ}）",
+              "en": "The train is stopped because of an accident, which explains why the roads are this jammed."
+            },
+            {
+              "ja_ruby": "{全品|ぜんぴん}{半額|はんがく}ということは、{普段|ふだん}{2,000円|にせんえん}のシャツも{1,000円|せんえん}で{買|か}えるというわけですね。",
+              "structure_note": "{名詞|めいし}・{普通形|ふつうけい} ＋ というわけだ（{言|い}い{換|か}え・{結論|けつろん}）",
+              "en": "So 'everything half off' means you can buy a normally 2,000-yen shirt for 1,000 yen, right?"
+            },
+            {
+              "ja_ruby": "この{店|みせ}は{材料|ざいりょう}にこだわっているから、{値段|ねだん}も{高|たか}いわけだ。",
+              "structure_note": "い{形容詞|けいようし}（{高|たか}い）＋ わけだ",
+              "en": "This shop is picky about its ingredients, so no wonder the prices are high too."
+            }
+          ],
+          "pitfalls": [
+            "Do not use わけだ for pure guesses about uncertain future events without a known premise—use はずだ or だろう instead.",
+            "Watch noun and な-adjective links: before わけだ, nouns and な-adjectives take な (or である in formal prose, or というわけだ), NEVER bare だ or の (× {学生|がくせい}だわけだ / × {学生|がくせい}のわけだ -> ○ {学生|がくせい}なわけだ / {学生|がくせい}というわけだ)."
+          ]
+        },
+        {
+          "id": "wake-dewa-nai",
+          "pattern": "〜わけではない",
+          "pattern_ruby": "〜わけではない",
+          "romaji": "~wake dewa nai",
+          "meaning_en": "it doesn't necessarily mean that ~; it's not that ~ (partial negation)",
+          "register": "neutral",
+          "renshuu_status": "verified_renshuu",
+          "mental_model": "This pattern denies an over-simple assumption rather than denying reality outright. When the listener might jump from Fact A to Conclusion B ('Oh, so you hate Japanese food?'), 〜わけではない gently pushes back: 'Wait—it's not that I *hate* it; there's just another nuance.' It is the backbone of polite qualification and partial negation in N3 Japanese.",
+          "formation": [
+            {
+              "pos": "{動詞|どうし}・い{形容詞|けいようし}{普通形|ふつうけい}",
+              "rule": "＋ わけではない / わけじゃない"
+            },
+            {
+              "pos": "な{形容詞|けいようし}",
+              "rule": "＋ な ＋ わけではない"
+            },
+            {
+              "pos": "{名詞|めいし}",
+              "rule": "＋ という ＋ わけではない / ＋ な（・である）＋ わけではない"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "{日本食|にほんしょく}が{嫌|きら}いなわけではないが、{毎日|まいにち}{魚|さかな}ばかりだと{飽|あ}きる。",
+              "structure_note": "な{形容詞|けいようし}（{嫌|きら}い）＋ な ＋ わけではない",
+              "en": "It's not that I dislike Japanese food, it's just that eating only fish every day gets tiring."
+            },
+            {
+              "ja_ruby": "{一人|ひとり}で{住|す}むのが{嫌|いや}になったわけではなく、{会社|かいしゃ}に{近|ちか}い{部屋|へや}へ{移|うつ}るだけです。",
+              "structure_note": "{動詞|どうし}た{形|けい} ＋ わけではなく（{誤解|ごかい}の{否定|ひてい}）",
+              "en": "It's not that I got tired of living alone; I'm just moving to an apartment closer to work."
+            },
+            {
+              "ja_ruby": "{毎日|まいにち}{練習|れんしゅう}すれば{必|かなら}ず{試合|しあい}に{勝|か}てるというわけではない。",
+              "structure_note": "{必|かなら}ず 〜 というわけではない（{部分否定|ぶぶんひてい}）",
+              "en": "Practicing every day doesn't necessarily mean you're guaranteed to win the match."
+            },
+            {
+              "ja_ruby": "{高|たか}いレストランだからといって、いつもおいしいわけではない。",
+              "structure_note": "い{形容詞|けいようし}（おいしい）＋ わけではない",
+              "en": "Just because a restaurant is expensive doesn't mean it's always delicious."
+            }
+          ],
+          "pitfalls": [
+            "〜わけではない means 'it isn't necessarily the case that ~,' NEVER 'it is impossible to ~' (which requires わけがない or わけにはいかない).",
+            "For identity nouns, N＋というわけではない (○ {彼|かれ}が{悪|わる}い{人|ひと}というわけではない) or N＋なわけではない / N＋であるわけではない is grammatical, whereas N＋のわけではない is unnatural and avoided; in casual conversation, わけじゃない is commonly used."
+          ]
+        },
+        {
+          "id": "wake-ga-nai",
+          "pattern": "〜わけがない",
+          "pattern_ruby": "〜わけがない",
+          "romaji": "~wake ga nai",
+          "meaning_en": "there is no way that ~; it is completely impossible that ~",
+          "register": "neutral",
+          "renshuu_status": "canonical_n3",
+          "mental_model": "Literally 'no logical reason or path exists for X.' While 〜わけではない leaves room for exceptions, 〜わけがない slams the door shut with 100% subjective conviction: 'That's out of the question—no way!' It carries stronger emotional certainty and disbelief than the cooler, evidence-focused 〜はずがない.",
+          "formation": [
+            {
+              "pos": "{動詞|どうし}・い{形容詞|けいようし}{普通形|ふつうけい}",
+              "rule": "＋ わけがない / わけはない"
+            },
+            {
+              "pos": "な{形容詞|けいようし}",
+              "rule": "＋ な ＋ わけがない"
+            },
+            {
+              "pos": "{名詞|めいし}",
+              "rule": "＋ の（・である）＋ わけがない"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "{毎日|まいにち}{10分|じゅっぷん}しか{勉強|べんきょう}しないで、N3に{合格|ごうかく}できるわけがない。",
+              "structure_note": "{可能動詞|かのうどうし}（{合格|ごうかく}できる）＋ わけがない",
+              "en": "Studying only 10 minutes a day, there's no way you can pass N3."
+            },
+            {
+              "ja_ruby": "いつも{時間|じかん}に{厳|きび}しい{鈴木|すずき}さんが、{連絡|れんらく}もなく{遅刻|ちこく}するわけがない。",
+              "structure_note": "{動詞|どうし}{辞書形|じしょけい}（{遅刻|ちこく}する）＋ わけがない",
+              "en": "Suzuki is always strict about time, so there's no way he'd be late without contacting us."
+            },
+            {
+              "ja_ruby": "こんな{辛|から}いカレーを、{小|ちい}さい{子|こ}どもが{食|た}べられるわけがない。",
+              "structure_note": "{可能動詞|かのうどうし}（{食|た}べられる）＋ わけがない",
+              "en": "There's no way a small child can eat curry this spicy."
+            },
+            {
+              "ja_ruby": "{昨日|きのう}{会|あ}ったばかりの{人|ひと}が、そんなに{簡単|かんたん}にお{金|かね}を{貸|か}してくれる{親切|しんせつ}な{人|ひと}のわけがない。",
+              "structure_note": "{名詞|めいし}＋の ＋ わけがない",
+              "en": "Someone you just met yesterday could never be kind enough to lend money that easily."
+            }
+          ],
+          "pitfalls": [
+            "Do not confuse 〜わけがない ('0% chance / absurd to think so') with 〜わけではない ('doesn't necessarily mean so').",
+            "Because 〜わけがない sounds blunt and emphatic, avoid using it to flatly reject a boss's or client's suggestion—use 〜はずがありません or soften with 〜とは{思|おも}えません."
+          ]
+        },
+        {
+          "id": "wake-niwa-ikanai",
+          "pattern": "〜わけにはいかない / ないわけにはいかない",
+          "pattern_ruby": "〜わけにはいかない / ないわけにはいかない",
+          "romaji": "~wake niwa ikanai / nai wake niwa ikanai",
+          "meaning_en": "cannot afford to ~ (socially/morally); cannot avoid doing ~ (compelled duty)",
+          "register": "neutral",
+          "renshuu_status": "verified_renshuu",
+          "mental_model": "Even when an action is physically possible, social rules, ethics, or promises block the path ('I cannot allow myself to go down that road: わけにはいかない'). Flipping the verb into the negative (〜ないわけにはいかない) creates a double negative: you cannot afford NOT to do it, meaning obligation or pressure compels you to act.",
+          "formation": [
+            {
+              "pos": "{動詞|どうし}{辞書形|じしょけい}",
+              "rule": "＋ わけにはいかない（{社会的|しゃかいてき}・{道徳的|どうとくてき}{禁止|きんし}）"
+            },
+            {
+              "pos": "{動詞|どうし}ない{形|けい}",
+              "rule": "＋ わけにはいかない（そうせざるを{得|え}ない）"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "{明日|あした}は{大切|たいせつ}な{面接|めんせつ}があるので、{今夜|こんや}は{夜更|よふ}かしするわけにはいかない。",
+              "structure_note": "{動詞|どうし}{辞書形|じしょけい}（{夜更|よふ}かしする）＋ わけにはいかない",
+              "en": "I have an important interview tomorrow, so I can't afford to stay up late tonight."
+            },
+            {
+              "ja_ruby": "{先輩|せんぱい}に{頼|たの}まれた{仕事|しごと}だから、{大変|たいへん}でも{断|ことわ}るわけにはいかない。",
+              "structure_note": "{動詞|どうし}{辞書形|じしょけい}（{断|ことわ}る）＋ わけにはいかない",
+              "en": "Since a senior colleague asked me to do this work, I can't refuse even though it's tough."
+            },
+            {
+              "ja_ruby": "{友達|ともだち}の{結婚式|けっこんしき}に{招待|しょうたい}されたので、{出席|しゅっせき}しないわけにはいかない。",
+              "structure_note": "{動詞|どうし}ない{形|けい}（{出席|しゅっせき}しない）＋ わけにはいかない",
+              "en": "Since I was invited to my friend's wedding, I have no choice but to attend."
+            },
+            {
+              "ja_ruby": "まだ{社内|しゃない}だけの{秘密|ひみつ}なので、{他|ほか}の{人|ひと}に{話|はな}すわけにはいきません。",
+              "structure_note": "{丁寧体|ていねいたい}：〜わけにはいきません",
+              "en": "Since this is still an internal company secret, I cannot tell anyone else."
+            }
+          ],
+          "pitfalls": [
+            "Attaches strictly to verbs in the dictionary form or ない-form; NEVER use past た-form (× {休|やす}んだわけにはいかない), adjectives, or nouns.",
+            "Do not use 〜わけにはいかない for pure physical impossibility (× {足|あし}をけがして{走|はし}るわけにはいかない -> use {走|はし}れない). There must be a moral, social, or situational reason stopping you.",
+            "Keep the two polarities straight: V-dict ＋ わけにはいかない = 'must not do V,' while V-nai ＋ わけにはいかない = 'must do V (cannot get out of it).'"
+          ]
+        }
+      ],
+      "lesson_contrast": {
+        "title": "The Four わけ Patterns in Lesson 17",
+        "explanation": "All four patterns share the noun わけ ('reason / logical chain'), yet one particle shift flips the sentence from natural conclusion to partial denial, total disbelief, or social obligation.",
+        "rows": [
+          {
+            "expression": "〜わけだ / というわけだ",
+            "register": "Neutral",
+            "key_rule": "Fact-to-conclusion: 'no wonder / so that means...'; N takes な/である or というわけだ.",
+            "example_short": "{10年|じゅうねん}{住|す}んでいれば{詳|くわ}しいわけだ。"
+          },
+          {
+            "expression": "〜わけではない",
+            "register": "Neutral",
+            "key_rule": "Partial negation: softens or rejects an absolute assumption ('doesn't necessarily mean').",
+            "example_short": "{高|たか}いからおいしいわけではない。"
+          },
+          {
+            "expression": "〜わけがない",
+            "register": "Neutral",
+            "key_rule": "Strong logical impossibility ('there is no way that...'); N takes の.",
+            "example_short": "{勉強|べんきょう}せずに{受|う}かるわけがない。"
+          },
+          {
+            "expression": "〜わけにはいかない",
+            "register": "Neutral",
+            "key_rule": "Verb-only; moral/social inability (V{辞書形|じしょけい}) or compelled duty (Vない{形|けい}).",
+            "example_short": "{約束|やくそく}したから{休|やす}むわけにはいかない。"
+          }
+        ]
+      },
+      "practice_quiz": [
+        {
+          "question_id": "L17-Q1",
+          "question_type": "fill_blank",
+          "prompt_ja_ruby": "{彼女|かのじょ}は{10年|じゅうねん}も{東京|とうきょう}に{住|す}んでいたのだから、この{辺|あた}りの{道|みち}に{詳|くわ}しい（　　　）。",
+          "context_en": "Drawing a natural logical conclusion from a known fact: 'She lived in Tokyo for 10 years, so no wonder she knows the roads around here well.'",
+          "choices": [
+            "わけではない",
+            "わけがない",
+            "わけだ",
+            "わけにはいかない"
+          ],
+          "correct_index": 2,
+          "explanation": "Correct: C (わけだ). Linking a known premise ({10年|じゅうねん}も{住|す}んでいたのだから) to its natural result uses 〜わけだ ('no wonder'). A (わけではない) means 'doesn't necessarily mean,' contradicting the logical deduction; B (わけがない) means 'there's no way,' inverting the logic; D (わけにはいかない) only attaches to verbs and expresses social obligation."
+        },
+        {
+          "question_id": "L17-Q2",
+          "question_type": "nuance_choice",
+          "prompt_ja_ruby": "「{一人|ひとり}で{住|す}むのが{嫌|いや}になったの？」「いや、{嫌|いや}になった（　　　）。ただ、{会社|かいしゃ}に{近|ちか}い{部屋|へや}へ{移|うつ}りたいだけだよ。」",
+          "context_en": "Clarifying your motive to prevent a misunderstanding: 'No, it's not that I grew tired of living alone; I just want to move closer to work.'",
+          "choices": [
+            "わけではない",
+            "わけがない",
+            "わけにはいかない",
+            "わけだ"
+          ],
+          "correct_index": 0,
+          "explanation": "Correct: A (わけではない). Used after いや to partially negate an assumed reason and clarify the true motive ('it's not that...'). B (わけがない) expresses shocked impossibility ('there's no way') and is unnatural for calmly explaining one's own preference; C (わけにはいかない) cannot follow past tense た-form; D (わけだ) affirms the reason instead of negating it, directly contradicting いや."
+        },
+        {
+          "question_id": "L17-Q3",
+          "question_type": "attachment_trap",
+          "prompt_ja_ruby": "{明日|あした}は{大切|たいせつ}なプレゼンがあるので、{少|すこ}しぐらい{眠|ねむ}くても{会社|かいしゃ}を（　　　）。",
+          "context_en": "Social/professional responsibility: 'Since there's an important presentation tomorrow, I can't afford to take the day off even if I'm a little sleepy.'",
+          "choices": [
+            "{休|やす}んだわけにはいかない",
+            "{休|やす}みわけにはいかない",
+            "{休|やす}もうわけにはいかない",
+            "{休|やす}むわけにはいかない"
+          ],
+          "correct_index": 3,
+          "explanation": "Correct: D ({休|やす}むわけにはいかない). 〜わけにはいかない only attaches to verbs in the dictionary form (or ない-form for 'must do'). A wrongly uses the past た-form; B wrongly uses the ます-stem; C wrongly uses the volitional form."
+        },
+        {
+          "question_id": "L17-Q4",
+          "question_type": "star_order",
+          "prompt_ja_ruby": "{友達|ともだち}から{誕生日|たんじょうび}プレゼントをもらったので、＿　＿　★　＿。",
+          "context_en": "Compelled social duty: 'Since I received a birthday present from my friend, I can't avoid saying thank you.'",
+          "choices": [
+            "いかない",
+            "わけには",
+            "お{礼|れい}を",
+            "{言|い}わない"
+          ],
+          "correct_index": 1,
+          "explanation": "Correct: B (わけには). Full sentence: お{礼|れい}を(1) {言|い}わない(2) わけには(3★) いかない(4). {言|い}う takes お{礼|れい}を as its object and conjugates to {言|い}わない before the double-negative obligation pattern わけにはいかない ('cannot avoid doing'). わけには must sit between the ない-form verb and いかない."
+        }
+      ]
+    },
+    {
+      "lesson_id": "L18",
+      "lesson_number": 18,
+      "renshuu_title": "Expectations",
+      "has_video": false,
+      "summary": "Separate objective, evidence-backed expectations (はずだ・はずだった) from personal intentions and mistaken assumptions (つもりだった・つもりで), strong speaker conviction (に{違|ちが}いない), and logical exceptions (とは{限|かぎ}らない).",
+      "study_tip": "Drill the noun and な-adjective links here—they are the #1 N3 attachment trap! はずだ takes Nの / Naな, つもりだ takes Nの / Naな, に{違|ちが}いない takes BARE N / Na (no particle!), and とは{限|かぎ}らない takes optional だ (N(だ) / Na(だ)).",
+      "grammar_points": [
+        {
+          "id": "hazu-da",
+          "pattern": "〜はずだ / はずがない / はずだった",
+          "pattern_ruby": "〜はずだ / はずがない / はずだった",
+          "romaji": "~hazu da / hazu ga nai / hazu datta",
+          "meaning_en": "supposed to be ~; bound to ~ (evidence-based); was supposed to ~ (unfulfilled)",
+          "register": "neutral",
+          "renshuu_status": "verified_renshuu",
+          "mental_model": "Originally the notch that keeps a bowstring aligned with its arrow, はず expresses rational expectation based on schedules, rules, or concrete evidence ('given what I checked, X ought to be true'). Flip it to はずがない to reject a possibility rationally, or shift to past tense はずだった（のに） to express surprise or disappointment when reality breaks that plan.",
+          "formation": [
+            {
+              "pos": "{動詞|どうし}・い{形容詞|けいようし}{普通形|ふつうけい}",
+              "rule": "＋ はずだ / はずがない / はずだった"
+            },
+            {
+              "pos": "な{形容詞|けいようし}",
+              "rule": "＋ な ＋ はずだ / はずがない / はずだった"
+            },
+            {
+              "pos": "{名詞|めいし}",
+              "rule": "＋ の ＋ はずだ / はずがない / はずだった"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "{佐藤|さとう}さんは{昨日|きのう}メールを{送|おく}ったと{言|い}っていたから、もう{届|とど}いているはずだ。",
+              "structure_note": "{動詞|どうし}＋ている ＋ はずだ（{根拠|こんきょ}のある{推論|すいろん}）",
+              "en": "Sato said she sent the email yesterday, so it should have arrived by now."
+            },
+            {
+              "ja_ruby": "{今日|きょう}は{日曜日|にちようび}だから、この{銀行|ぎんこう}は{開|あ}いているはずがない。",
+              "structure_note": "はずがない（{論理的|ろんりてき}な{否定|ひてい}）",
+              "en": "Today is Sunday, so there's no way this bank is open."
+            },
+            {
+              "ja_ruby": "{3時|さんじ}の{電車|でんしゃ}に{乗|の}るはずだったのに、{寝坊|ねぼう}して{乗|の}り{遅|おく}れてしまった。",
+              "structure_note": "はずだったのに（{実現|じつげん}しなかった{予定|よてい}）",
+              "en": "I was supposed to catch the 3 o'clock train, yet I overslept and missed it."
+            },
+            {
+              "ja_ruby": "この{通|とお}りは{平日|へいじつ}なら{静|しず}かなはずだが、{今日|きょう}は{工事|こうじ}をしていてうるさい。",
+              "structure_note": "な{形容詞|けいようし}（{静|しず}か）＋ な ＋ はずだ",
+              "en": "This street is supposed to be quiet on weekdays, but it's noisy today because of construction."
+            }
+          ],
+          "pitfalls": [
+            "Nouns strictly require の (○ {明日|あした}は{休|やす}みのはずだ, × {休|やす}みはずだ) and な-adjectives strictly require な (○ {安全|あんぜん}なはずだ) before はず.",
+            "Do not use はずだ for wild guesses lacking evidence (use だろう / かもしれない) or for your own direct decisions (use つもりだ). Also distinguish はずだ ('predicted, not yet confirmed') from わけだ ('already seen—no wonder!')."
+          ]
+        },
+        {
+          "id": "tsumori-datta",
+          "pattern": "〜つもりだった / つもりで",
+          "pattern_ruby": "〜つもりだった / つもりで",
+          "romaji": "~tsumori datta / tsumori de",
+          "meaning_en": "was planning to / thought I had ~ (unfulfilled or mistaken); acting as if / intending as ~",
+          "register": "neutral",
+          "renshuu_status": "verified_renshuu",
+          "mental_model": "While present 〜つもりだ states a firm plan, past 〜つもりだった highlights a collision between what you intended or believed and what actually happened. With V-dict ＋ つもりだった, a plan fell through; with V-ta ＋ つもりだった, you wrongly believed you had already completed an action. Meanwhile, 〜つもりで describes acting under an assumed mindset or role ('treating it as if...').",
+          "formation": [
+            {
+              "pos": "{動詞|どうし}{辞書形|じしょけい}・ない{形|けい}",
+              "rule": "＋ つもりだった（{未達成|みたっせい}の{予定|よてい}）"
+            },
+            {
+              "pos": "{動詞|どうし}た{形|けい}",
+              "rule": "＋ つもりだった / つもりだ（{思|おも}い{込|こ}み・{仮定|かてい}）"
+            },
+            {
+              "pos": "{名詞|めいし}＋の / な{形容詞|けいようし}＋な / い{形容詞|けいようし}",
+              "rule": "＋ つもりで（〜という{気持|きも}ちで）"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "{週末|しゅうまつ}は{部屋|へや}を{掃除|そうじ}するつもりだったが、{風邪|かぜ}をひいてずっと{寝|ね}ていた。",
+              "structure_note": "{動詞|どうし}{辞書形|じしょけい} ＋ つもりだった（{計画|けいかく}の{挫折|ざせつ}）",
+              "en": "I had planned to clean my room over the weekend, but I caught a cold and stayed in bed."
+            },
+            {
+              "ja_ruby": "しっかり{鍵|かぎ}を{閉|し}めたつもりだったのに、ドアが{開|あ}いたままだった。",
+              "structure_note": "{動詞|どうし}た{形|けい}（{閉|し}めた）＋ つもりだった（{勘違|かんちが}い）",
+              "en": "I thought for sure I had locked the door properly, yet it was left unlocked."
+            },
+            {
+              "ja_ruby": "{冗談|じょうだん}のつもりで{言|い}ったのに、{相手|あいて}を{怒|おこ}らせてしまった。",
+              "structure_note": "{名詞|めいし}（{冗談|じょうだん}）＋ のつもりで",
+              "en": "I said it meaning it as a joke, yet I ended up making the other person angry."
+            },
+            {
+              "ja_ruby": "{旅行|りょこう}に{行|い}ったつもりで、そのお{金|かね}を{貯金|ちょきん}することにした。",
+              "structure_note": "{動詞|どうし}た{形|けい} ＋ つもりで（〜した{気分|きぶん}で）",
+              "en": "Pretending I went on a trip, I decided to put that money into savings instead."
+            }
+          ],
+          "pitfalls": [
+            "Watch verb tense closely: {書|か}くつもりだった = 'I planned to write it (but didn't get around to it)'; {書|か}いたつもりだった = 'I thought I had already written it (but realized I missed it or got it wrong).'",
+            "つもり expresses the speaker's own internal intention or assumption; when describing a third person, pair it with evidential markers such as 〜つもりだったようだ or 〜つもりだったらしい."
+          ]
+        },
+        {
+          "id": "ni-chigainai",
+          "pattern": "〜に違いない",
+          "pattern_ruby": "〜に{違|ちが}いない",
+          "romaji": "~ni chigainai",
+          "meaning_en": "must be ~; no doubt ~; I'm convinced that ~",
+          "register": "neutral",
+          "renshuu_status": "canonical_n3",
+          "mental_model": "Literally 'there is no discrepancy from X,' 〜に{違|ちが}いない expresses strong, confident speaker conviction. Compared to はずだ—which calmly checks off schedules or rules—に{違|ちが}いない carries gut certainty and personal persuasion ('Look at the clue: it's gotta be X!').",
+          "formation": [
+            {
+              "pos": "{動詞|どうし}・い{形容詞|けいようし}{普通形|ふつうけい}",
+              "rule": "＋ に{違|ちが}いない"
+            },
+            {
+              "pos": "な{形容詞|けいようし}{語幹|ごかん}",
+              "rule": "＋ に{違|ちが}いない（`だ`・`な`を{入|い}れない）"
+            },
+            {
+              "pos": "{名詞|めいし}",
+              "rule": "＋ に{違|ちが}いない（`だ`・`の`を{入|い}れない；{硬|かた}い{文|ぶん}では`である`）"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "{鈴木|すずき}さんの{部屋|へや}の{電気|でんき}がついているから、もう{帰|かえ}っているに{違|ちが}いない。",
+              "structure_note": "{動詞|どうし}＋ている ＋ に{違|ちが}いない",
+              "en": "The light in Suzuki's room is on, so he must already be home."
+            },
+            {
+              "ja_ruby": "{毎日|まいにち}あんなに{練習|れんしゅう}しているのだから、{今度|こんど}の{試合|しあい}は{勝|か}つに{違|ちが}いない。",
+              "structure_note": "{動詞|どうし}{辞書形|じしょけい} ＋ に{違|ちが}いない",
+              "en": "Since she's practicing that hard every day, she's bound to win the upcoming match."
+            },
+            {
+              "ja_ruby": "こんな{素敵|すてき}なプレゼントをもらったら、{美咲|みさき}さんも{喜|よろこ}ぶに{違|ちが}いない。",
+              "structure_note": "{仮定|かてい}からの{確信|かくしん} ＋ に{違|ちが}いない",
+              "en": "If she gets such a wonderful present, Misaki is sure to be delighted."
+            },
+            {
+              "ja_ruby": "この{古|ふる}い{日記|にっき}は、{祖父|そふ}が{若|わか}いころに{書|か}いたものに{違|ちが}いない。",
+              "structure_note": "{名詞|めいし}（もの）＋ に{違|ちが}いない（{直接|ちょくせつ}{接続|せつぞく}）",
+              "en": "This old diary must undoubtedly be something my grandfather wrote when he was young."
+            }
+          ],
+          "pitfalls": [
+            "Critical attachment rule: nouns and な-adjectives connect DIRECTLY before に{違|ちが}いない with NO だ, な, or の (○ {犯人|はんにん}に{違|ちが}いない, ○ {便利|べんり}に{違|ちが}いない; × {便利|べんり}なに{違|ちが}いない, × {犯人|はんにん}だに{違|ちが}いない).",
+            "Do not negate に{違|ちが}いない itself (× に{違|ちが}いなくない); to express 'must NOT be,' negate the verb or adjective before it (○ {来|こ}ないに{違|ちが}いない)."
+          ]
+        },
+        {
+          "id": "towa-kagiranai",
+          "pattern": "〜とは限らない",
+          "pattern_ruby": "〜とは{限|かぎ}らない",
+          "romaji": "~towa kagiranai",
+          "meaning_en": "not necessarily true that ~; not always ~ (exceptions exist)",
+          "register": "neutral",
+          "renshuu_status": "canonical_n3",
+          "mental_model": "Literally 'it is not restricted to X,' this pattern punches holes in sweeping generalizations and stereotypes. Just because a pattern holds most of the time doesn't mean there are zero exceptions. It loves partnering with universal words like いつも, {必|かなら}ずしも, {全員|ぜんいん}, and からといって ('just because...').",
+          "formation": [
+            {
+              "pos": "{動詞|どうし}・い{形容詞|けいようし}{普通形|ふつうけい}",
+              "rule": "＋ とは{限|かぎ}らない"
+            },
+            {
+              "pos": "な{形容詞|けいようし}{語幹|ごかん}（＋だ・である）",
+              "rule": "＋ とは{限|かぎ}らない"
+            },
+            {
+              "pos": "{名詞|めいし}（＋だ・である）",
+              "rule": "＋ とは{限|かぎ}らない"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "{値段|ねだん}が{高|たか}いものが、いつも{品質|ひんしつ}が{良|よ}いとは{限|かぎ}らない。",
+              "structure_note": "い{形容詞|けいようし}（{良|よ}い）＋ とは{限|かぎ}らない",
+              "en": "Expensive things are not always high in quality."
+            },
+            {
+              "ja_ruby": "{日本人|にほんじん}だからといって、{全員|ぜんいん}が{敬語|けいご}を{完璧|かんぺき}に{使|つか}えるとは{限|かぎ}らない。",
+              "structure_note": "からといって 〜 {全員|ぜんいん} 〜 とは{限|かぎ}らない",
+              "en": "Just because someone is Japanese doesn't necessarily mean they can all use honorifics perfectly."
+            },
+            {
+              "ja_ruby": "{天気予報|てんきよほう}が{必|かなら}ず{当|あ}たるとは{限|かぎ}らないので、{傘|かさ}を{持|も}っていこう。",
+              "structure_note": "{動詞|どうし}{辞書形|じしょけい}（{当|あ}たる）＋ とは{限|かぎ}らない",
+              "en": "The weather forecast isn't always right, so let's bring an umbrella."
+            },
+            {
+              "ja_ruby": "{有名|ゆうめい}な{大学|だいがく}を{出|で}たからといって、{仕事|しごと}ができる{人|ひと}だとは{限|かぎ}らない。",
+              "structure_note": "{名詞|めいし}＋だ ＋ とは{限|かぎ}らない",
+              "en": "Just because someone graduated from a famous university doesn't mean they're automatically capable at work."
+            }
+          ],
+          "pitfalls": [
+            "Unlike はずだ (which needs な/の), nouns and な-adjectives before とは{限|かぎ}らない take optional だ or bare stem (○ {本当|ほんとう}だとは{限|かぎ}らない / {本当|ほんとう}とは{限|かぎ}らない), NEVER な or の (× {親切|しんせつ}なとは{限|かぎ}らない).",
+            "Do not confuse 〜とは{限|かぎ}らない ('sometimes yes, sometimes no—exceptions exist') with 〜はずがない ('completely impossible')."
+          ]
+        }
+      ],
+      "lesson_contrast": {
+        "title": "Expectations, Conviction & Exceptions in Lesson 18",
+        "explanation": "Compare how Lesson 18 patterns differ in source of certainty (objective evidence vs. gut conviction vs. personal plan) and especially in how they attach to nouns and な-adjectives.",
+        "rows": [
+          {
+            "expression": "〜はずだ / はずだった",
+            "register": "Neutral",
+            "key_rule": "Evidence/schedule-based expectation (Nの / Naな); past はずだったのに = unfulfilled.",
+            "example_short": "{今日|きょう}は{休|やす}みのはずだ。"
+          },
+          {
+            "expression": "〜つもりだった / つもりで",
+            "register": "Neutral",
+            "key_rule": "V{辞書形|じしょけい} = thwarted plan; Vた{形|けい} = mistaken belief; Nの/Naな＋つもりで = assuming mindset.",
+            "example_short": "{鍵|かぎ}を{閉|し}めたつもりだった。"
+          },
+          {
+            "expression": "〜に{違|ちが}いない",
+            "register": "Neutral",
+            "key_rule": "Strong personal conviction; BARE N / Na stem only (NO だ, な, の!).",
+            "example_short": "{彼|かれ}が{犯人|はんにん}に{違|ちが}いない。"
+          },
+          {
+            "expression": "〜とは{限|かぎ}らない",
+            "register": "Neutral",
+            "key_rule": "Exceptions exist ('not necessarily'); N(だ) / Na(だ) + とは{限|かぎ}らない (NO な/の).",
+            "example_short": "{安|やす}いから{悪|わる}いとは{限|かぎ}らない。"
+          }
+        ]
+      },
+      "practice_quiz": [
+        {
+          "question_id": "L18-Q1",
+          "question_type": "fill_blank",
+          "prompt_ja_ruby": "{荷物|にもつ}は{今日|きょう}の{午前中|ごぜんちゅう}に{届|とど}く（　　　）のに、まだ{来|き}ていない。",
+          "context_en": "An evidence-based schedule that failed to happen: 'The package was supposed to arrive this morning, yet it still hasn't come.'",
+          "choices": [
+            "に{違|ちが}いない",
+            "とは{限|かぎ}らない",
+            "つもりだった",
+            "はずだった"
+          ],
+          "correct_index": 3,
+          "explanation": "Correct: D (はずだった). When an expectation backed by a schedule fails to happen, 〜はずだったのに expresses 'was supposed to, yet...' A (に{違|ちが}いない) lacks past expectation nuance before のに; B (とは{限|かぎ}らない) means 'not necessarily' and contradicts the surprise of のに; C (つもりだった) expresses human intention and cannot describe an inanimate package."
+        },
+        {
+          "question_id": "L18-Q2",
+          "question_type": "nuance_choice",
+          "prompt_ja_ruby": "{有名|ゆうめい}な{店|みせ}だからといって、{必|かなら}ずしも{味|あじ}が{良|よ}い（　　　）。",
+          "context_en": "Rebutting a stereotype: 'Just because a restaurant is famous doesn't necessarily mean the food is good.'",
+          "choices": [
+            "に{違|ちが}いない",
+            "とは{限|かぎ}らない",
+            "はずがない",
+            "つもりではない"
+          ],
+          "correct_index": 1,
+          "explanation": "Correct: B (とは{限|かぎ}らない). {必|かなら}ずしも 〜 とは{限|かぎ}らない ('not necessarily...') is the standard pairing with だからといって to point out exceptions. A (に{違|ちが}いない) affirms 'must be good,' contradicting {必|かなら}ずしも; C (はずがない) overstates into 'there's no way it's good'; D (つもりではない) is ungrammatical/meaningless for food quality."
+        },
+        {
+          "question_id": "L18-Q3",
+          "question_type": "attachment_trap",
+          "prompt_ja_ruby": "これだけたくさんの{人|ひと}が{使|つか}っているのだから、このアプリはとても（　　　）。",
+          "context_en": "Strong speaker conviction attached to a な-adjective: 'Since this many people use it, this app must be very convenient.'",
+          "choices": [
+            "{便利|べんり}なに{違|ちが}いない",
+            "{便利|べんり}のに{違|ちが}いない",
+            "{便利|べんり}に{違|ちが}いない",
+            "{便利|べんり}だに{違|ちが}いない"
+          ],
+          "correct_index": 2,
+          "explanation": "Correct: C ({便利|べんり}に{違|ちが}いない). Nouns and な-adjectives attach directly via their bare stem before に{違|ちが}いない without any linking particle. A inserts な (valid for はずだ, invalid for に{違|ちが}いない); B inserts の; D inserts plain だ."
+        },
+        {
+          "question_id": "L18-Q4",
+          "question_type": "star_order",
+          "prompt_ja_ruby": "{財布|さいふ}に{1万円|いちまんえん}を＿　＿　★　＿、{中|なか}はからっぽだった。",
+          "context_en": "Mistaken belief about a past action: 'Even though I thought I had put 10,000 yen in my wallet, it was empty inside.'",
+          "choices": [
+            "つもり",
+            "おいた",
+            "だったのに",
+            "{入|い}れて"
+          ],
+          "correct_index": 0,
+          "explanation": "Correct: A (つもり). Full sentence: {入|い}れて(1) おいた(2) つもり(3★) だったのに(4). {入|い}れる links to おいた ('had put in beforehand'), which connects in た-form to つもりだったのに ('even though I thought I had...'). Neither おいた nor だったのに can precede {入|い}れて."
+        }
+      ]
+    },
+    {
+      "lesson_id": "L19",
+      "lesson_number": 19,
+      "renshuu_title": "Necessity",
+      "has_video": false,
+      "summary": "Distinguish four shades of necessity and non-necessity: moral duty (べきだ), formal/written obligation (ねばならない), reassuring lack of need (ことはない), and resigned lack of alternatives (しかない).",
+      "study_tip": "Watch the verb forms closely! べきだ and ことはない and しかない take the dictionary form (with irregular する → すべきだ), whereas ねばならない attaches to the ない-stem and conjugates する → せねばならない (NEVER しねばならない!).",
+      "grammar_points": [
+        {
+          "id": "beki-da",
+          "pattern": "〜べきだ / すべきだ / べきではない",
+          "pattern_ruby": "〜べきだ / すべきだ / べきではない",
+          "romaji": "~beki da / subeki da / beki dewa nai",
+          "meaning_en": "ought to ~; should ~ (moral/rational duty); shouldn't ~",
+          "register": "formal",
+          "renshuu_status": "verified_renshuu",
+          "mental_model": "While N4 〜たほうがいい gives friendly situational tips ('you'd better bring a coat'), 〜べきだ appeals to moral principle, social standards, or common sense ('people ought to keep promises'). It carries firm authority—great in essays, advice to juniors/peers, and self-reflection (~べきだった = 'I should have'), but risky if aimed straight at a superior.",
+          "formation": [
+            {
+              "pos": "{動詞|どうし}{辞書形|じしょけい}",
+              "rule": "＋ べきだ / べきではない / べきだった"
+            },
+            {
+              "pos": "する（{不規則|ふきそく}）",
+              "rule": "→ すべきだ（または するべきだ）"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "{約束|やくそく}した{時間|じかん}は{必|かなら}ず{守|まも}るべきだ。",
+              "structure_note": "{動詞|どうし}{辞書形|じしょけい}（{守|まも}る）＋ べきだ（{社会規範|しゃかいきはん}）",
+              "en": "One should always keep a promised time."
+            },
+            {
+              "ja_ruby": "こんな{大切|たいせつ}なことは、メールではなく{直接|ちょくせつ}{会|あ}って{相談|そうだん}すべきだと{思|おも}います。",
+              "structure_note": "する → すべき（{不規則|ふきそく}{活用|かつよう}）",
+              "en": "I think we ought to meet and discuss something this important in person rather than by email."
+            },
+            {
+              "ja_ruby": "{電車|でんしゃ}の{中|なか}では、{大|おお}きな{声|こえ}で{電話|でんわ}すべきではない。",
+              "structure_note": "すべきではない（{禁止|きんし}・{非難|ひなん}）",
+              "en": "One shouldn't talk loudly on the phone inside a train."
+            },
+            {
+              "ja_ruby": "もっと{早|はや}く{医者|いしゃ}に{診|み}てもらうべきだったと{後悔|こうかい}している。",
+              "structure_note": "べきだった（{過去|かこ}への{後悔|こうかい}）",
+              "en": "I regret that I should have had a doctor examine me sooner."
+            }
+          ],
+          "pitfalls": [
+            "Never use 〜べきだ as a direct directive to a superior (× {部長|ぶちょう}、この{資料|しりょう}を{読|よ}むべきです); it sounds condescending and preachy. Soften with 〜てはいかがでしょうか or 〜たほうがよろしいかと.",
+            "To make it negative, negate AFTER べき (○ すべきではない), NEVER before it (× しないべきだ). Note irregular する → すべきだ (standard alongside するべきだ)."
+          ]
+        },
+        {
+          "id": "neba-naranai",
+          "pattern": "〜ねばならない / せねばならない",
+          "pattern_ruby": "〜ねばならない / せねばならない",
+          "romaji": "~neba naranai / seneba naranai",
+          "meaning_en": "must ~; have to ~ (formal, written, or resolute obligation)",
+          "register": "written",
+          "renshuu_status": "verified_renshuu",
+          "mental_model": "The stately, literary counterpart to everyday 〜なければならない. Formed from the classical negative ぬ ＋ conditional ば ＋ ならない ('if one fails to do X, it will not stand'), it brings seriousness, institutional gravity, or quiet inner resolve to speeches, essays, rules, and personal vows.",
+          "formation": [
+            {
+              "pos": "{動詞|どうし}ない{形|けい}{語幹|ごかん}",
+              "rule": "＋ ねばならない（{例|れい}：{行|い}か＋ねばならない）"
+            },
+            {
+              "pos": "する（{不規則|ふきそく}）",
+              "rule": "→ せねばならない（× しねばならない）"
+            },
+            {
+              "pos": "{来|く}る（{不規則|ふきそく}）",
+              "rule": "→ {来|こ}ねばならない"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "{締|し}め{切|き}りが{明日|あした}なので、{今夜|こんや}じゅうにレポートを{書|か}き{終|お}えねばならない。",
+              "structure_note": "II{類|るい}{動詞|どうし}ない{形|けい}{語幹|ごかん}（{書|か}き{終|お}え）＋ ねばならない",
+              "en": "Since the deadline is tomorrow, I must finish writing the report by tonight."
+            },
+            {
+              "ja_ruby": "{環境|かんきょう}{問題|もんだい}を{解決|かいけつ}するために、{私|わたし}たちは{協力|きょうりょく}して{行動|こうどう}せねばならない。",
+              "structure_note": "する → せねばならない（{不規則|ふきそく}）",
+              "en": "In order to solve environmental problems, we must cooperate and take action."
+            },
+            {
+              "ja_ruby": "{大切|たいせつ}な{変更|へんこう}があるので、{新|あたら}しいルールを{全員|ぜんいん}に{知|し}らせねばならない。",
+              "structure_note": "II{類|るい}{動詞|どうし}（{知|し}らせる → {知|し}らせ）＋ ねばならない",
+              "en": "Because there is an important change, we must inform everyone of the new rule."
+            },
+            {
+              "ja_ruby": "{家族|かぞく}を{守|まも}るためにも、もっと{強|つよ}くならねばならないと{決心|けっしん}した。",
+              "structure_note": "I{類|るい}{動詞|どうし}（なる → なら）＋ ねばならない",
+              "en": "For the sake of protecting my family as well, I resolved that I must become stronger."
+            }
+          ],
+          "pitfalls": [
+            "Irregular する trap: する NEVER becomes *しねばならない—it always conjugates to せねばならない (and {来|く}る becomes {来|こ}ねばならない).",
+            "Avoid 〜ねばならない in casual daily conversation about minor chores (× お{皿|さら}を{洗|あら}わねばならない -> use 〜ないと / 〜なきゃ / 〜なければならない)."
+          ]
+        },
+        {
+          "id": "koto-wa-nai",
+          "pattern": "〜ことはない",
+          "pattern_ruby": "〜ことはない",
+          "romaji": "~koto wa nai",
+          "meaning_en": "there is no need to ~; you don't have to ~",
+          "register": "neutral",
+          "renshuu_status": "canonical_n3",
+          "mental_model": "Literally 'the act/necessity of doing V does not exist.' Whereas N4 〜なくてもいい states dry permission ('you're allowed not to'), 〜ことはない puts a reassuring hand on the listener's shoulder: 'Take a breath—there's really no need to worry or go to that trouble.' It only works with dictionary-form verbs; switching to た-form flips the meaning entirely to 'have never done.'",
+          "formation": [
+            {
+              "pos": "{動詞|どうし}{辞書形|じしょけい}",
+              "rule": "＋ ことはない / ことはありません"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "まだ{時間|じかん}はたっぷりあるから、そんなに{急|いそ}ぐことはないよ。",
+              "structure_note": "{動詞|どうし}{辞書形|じしょけい}（{急|いそ}ぐ）＋ ことはない",
+              "en": "We still have plenty of time, so there's no need to rush like that."
+            },
+            {
+              "ja_ruby": "{一回|いっかい}{失敗|しっぱい}したといっても、そこまで{気|き}にすることはありません。",
+              "structure_note": "{辞書形|じしょけい} ＋ ことはありません（{丁寧|ていねい}な{励|はげ}まし）",
+              "en": "Even if you failed once, there's no need to worry that much about it."
+            },
+            {
+              "ja_ruby": "{自分|じぶん}で{解決|かいけつ}できる{問題|もんだい}だから、わざわざ{会社|かいしゃ}に{電話|でんわ}することはない。",
+              "structure_note": "わざわざ 〜 ことはない（{不必要|ふひつよう}な{労力|ろうりょく}）",
+              "en": "Since it's a problem I can solve myself, there's no need to go out of my way to call the office."
+            },
+            {
+              "ja_ruby": "{彼|かれ}が{手伝|てつだ}ってくれるのなら、{君|きみ}が{一人|ひとり}で{無理|むり}をすることはない。",
+              "structure_note": "{辞書形|じしょけい}（{無理|むり}をする）＋ ことはない",
+              "en": "If he's going to help out, there's no need for you to push yourself all alone."
+            }
+          ],
+          "pitfalls": [
+            "Tense trap: V-dict ＋ ことはない means 'no need to V,' whereas V-ta ＋ ことはない means 'have never experienced V' ({行|い}ったことはない).",
+            "Do not confuse 'no need to' (〜ことはない) with prohibition ('must not,' 〜てはいけない / 〜べきではない)."
+          ]
+        },
+        {
+          "id": "shika-nai",
+          "pattern": "〜しかない",
+          "pattern_ruby": "〜しかない",
+          "romaji": "~shika nai",
+          "meaning_en": "have no choice but to ~; nothing left except to ~",
+          "register": "neutral",
+          "renshuu_status": "canonical_n3",
+          "mental_model": "Literally 'nothing exists other than doing V.' Imagine every side door closing until only one narrow exit remains. Unlike dutiful obligation (〜なければならない), 〜しかない voices resigned acceptance or determined focus when all alternatives are gone ('Well, I guess we just have to...').",
+          "formation": [
+            {
+              "pos": "{動詞|どうし}{辞書形|じしょけい}",
+              "rule": "＋ しかない / しかありません"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "{終電|しゅうでん}を{逃|のが}してしまったので、タクシーで{帰|かえ}るしかない。",
+              "structure_note": "{動詞|どうし}{辞書形|じしょけい}（{帰|かえ}る）＋ しかない（{諦|あきら}め）",
+              "en": "I missed the last train, so I have no choice but to take a taxi home."
+            },
+            {
+              "ja_ruby": "パソコンのデータが{消|き}えてしまったから、{最初|さいしょ}からやり{直|なお}すしかない。",
+              "structure_note": "{辞書形|じしょけい}（やり{直|なお}す）＋ しかない",
+              "en": "Since the data on my computer got wiped, there's nothing left to do but start over from scratch."
+            },
+            {
+              "ja_ruby": "{合格|ごうかく}したいなら、{毎日|まいにち}コツコツ{努力|どりょく}するしかありません。",
+              "structure_note": "{辞書形|じしょけい} ＋ しかありません（{決意|けつい}）",
+              "en": "If you want to pass, you simply have no choice but to work steadily every day."
+            },
+            {
+              "ja_ruby": "{道|みち}が{込|こ}んでいて{車|くるま}が{動|うご}かないから、{降|お}りて{歩|ある}くしかないだろう。",
+              "structure_note": "{辞書形|じしょけい} ＋ しかないだろう",
+              "en": "The road is jammed and the car isn't moving, so we'll probably just have to get out and walk."
+            }
+          ],
+          "pitfalls": [
+            "Attaches strictly to the verb dictionary form (○ {待|ま}つしかない); NEVER attach しかない to the ない-form (× {待|ま}たないしかない) or た-form (× {待|ま}ったしかない).",
+            "Because しかない already ends in negative ない, never add another negative ending (× {行|い}くしかなくない)."
+          ]
+        }
+      ],
+      "lesson_contrast": {
+        "title": "Shades of Obligation, Lack of Need & Last Resort in Lesson 19",
+        "explanation": "Compare both meaning and verb stem across Lesson 19: moral principle vs. formal duty vs. reassurance vs. zero-alternative resignation.",
+        "rows": [
+          {
+            "expression": "〜べきだ / すべきだ",
+            "register": "Formal",
+            "key_rule": "Moral/rational duty (V{辞書形|じしょけい}; する→すべき); never direct to superiors.",
+            "example_short": "{約束|やくそく}は{守|まも}るべきだ。"
+          },
+          {
+            "expression": "〜ねばならない",
+            "register": "Written",
+            "key_rule": "Formal/written obligation (Vない{語幹|ごかん}; する→せねばならない).",
+            "example_short": "{全員|ぜんいん}で{協力|きょうりょく}せねばならない。"
+          },
+          {
+            "expression": "〜ことはない",
+            "register": "Neutral",
+            "key_rule": "Reassuring lack of necessity ('no need to'; V{辞書形|じしょけい} only).",
+            "example_short": "そんなに{心配|しんぱい}することはない。"
+          },
+          {
+            "expression": "〜しかない",
+            "register": "Neutral",
+            "key_rule": "Last resort when no other options remain (V{辞書形|じしょけい} only).",
+            "example_short": "{電車|でんしゃ}がないから{歩|ある}くしかない。"
+          }
+        ]
+      },
+      "practice_quiz": [
+        {
+          "question_id": "L19-Q1",
+          "question_type": "fill_blank",
+          "prompt_ja_ruby": "{終電|しゅうでん}を{逃|のが}してしまったし、タクシー{代|だい}もないので、{家|いえ}まで{歩|ある}く（　　　）。",
+          "context_en": "Last resort after missing the last train with no taxi money: 'Since I missed the last train and have no money for a taxi, I have no choice but to walk home.'",
+          "choices": [
+            "しかない",
+            "ことはない",
+            "べきではない",
+            "わけがない"
+          ],
+          "correct_index": 0,
+          "explanation": "Correct: A (しかない). Expresses resigned necessity when no other option remains ('have no choice but to walk home'). B (ことはない) means 'there is no need to walk,' which makes no sense when you still need to get home without a train or taxi fare; C (べきではない) means 'ought not to walk'; D (わけがない) means 'there is no way I'll walk.'"
+        },
+        {
+          "question_id": "L19-Q2",
+          "question_type": "nuance_choice",
+          "prompt_ja_ruby": "まだ{時間|じかん}はたくさんあるのだから、そんなに{急|いそ}ぐ（　　　）よ。",
+          "context_en": "Reassuring a friend or colleague: 'We still have plenty of time, so there's no need to hurry so much.'",
+          "choices": [
+            "しかない",
+            "わけにはいかない",
+            "ことはない",
+            "べきだ"
+          ],
+          "correct_index": 2,
+          "explanation": "Correct: C (ことはない). V-dict ＋ ことはない gently reassures the listener that an action is unnecessary ('no need to hurry'). A (しかない) means 'no choice except to hurry'; B (わけにはいかない) means 'cannot afford to hurry,' which clashes with a reassuring 'there's plenty of time'; D (べきだ) means 'ought to hurry,' the exact opposite meaning."
+        },
+        {
+          "question_id": "L19-Q3",
+          "question_type": "attachment_trap",
+          "prompt_ja_ruby": "{国際|こくさい}{会議|かいぎ}を{成功|せいこう}させるために、{各国|かっこく}が{協力|きょうりょく}（　　　）という{意見|いけん}が{多|おお}かった。",
+          "context_en": "Formal written/reported necessity using the irregular verb する: 'Many expressed the opinion that each country must cooperate.'",
+          "choices": [
+            "しねばならない",
+            "せねばならない",
+            "するねばならない",
+            "すねばならない"
+          ],
+          "correct_index": 1,
+          "explanation": "Correct: B (せねばならない). With 〜ねばならない, the irregular verb する conjugates to せねばならない (derived from classical negative せ＋ず). A (しねばならない) mistakenly uses the ます-stem; C (するねばならない) attaches to the dictionary form; D (すねばならない) drops る without changing to せ."
+        },
+        {
+          "question_id": "L19-Q4",
+          "question_type": "star_order",
+          "prompt_ja_ruby": "{他人|たにん}の{失敗|しっぱい}を＿　＿　★　＿と{思|おも}う。",
+          "context_en": "Moral judgment: 'I think one shouldn't just laugh at other people's mistakes.'",
+          "choices": [
+            "{笑|わら}う",
+            "ただ",
+            "ではない",
+            "べき"
+          ],
+          "correct_index": 3,
+          "explanation": "Correct: D (べき). Full sentence: {他人|たにん}の{失敗|しっぱい}を ただ(1) {笑|わら}う(2) べき(3★) ではない(4) と{思|おも}う. ただ modifies {笑|わら}う ('merely laugh at'), and べき must sit right after dictionary verb {笑|わら}う and before ではない to form 〜べきではない ('should not'). Putting ではない before べき or placing ただ after {笑|わら}う is ungrammatical."
+        }
+      ]
+    },
+    {
+      "lesson_id": "L20",
+      "lesson_number": 20,
+      "renshuu_title": "Because",
+      "has_video": false,
+      "summary": "Choose the exact causal connector for every stance: gratitude (おかげで), blame or unsure hunch (せいで・せいか), formal objective cause (ために), clue-based inference or naming (ことから), and apologetic spoken excuses (ものだから).",
+      "study_tip": "Before picking a 'because' word, run a 3-point check: (1) Outcome mood—grateful (おかげで), negative blame (せいで), or neutral/official (ために)? (2) Main clause—does it end in a request (~てください)? If yes, ために and ものだから are BANNED! (3) Noun attachment—Nの (おかげで/せいで/ために) vs Nである (ことから) vs Nな (ものだから).",
+      "grammar_points": [
+        {
+          "id": "okage-de",
+          "pattern": "〜おかげで / おかげだ",
+          "pattern_ruby": "〜おかげで / おかげだ",
+          "romaji": "~okage de / okage da",
+          "meaning_en": "thanks to ~ (grateful/positive causal attribution)",
+          "register": "neutral",
+          "renshuu_status": "verified_renshuu",
+          "mental_model": "Literally 'protective shade or grace,' 〜おかげで credits a person, effort, or fortunate circumstance for a **desirable, happy result**. Use おかげで mid-sentence to introduce the beneficial cause ('Thanks to A, B went well'), and おかげだ at the end to point back to who or what deserves the credit ('B is all thanks to A').",
+          "formation": [
+            {
+              "pos": "{動詞|どうし}・い{形容詞|けいようし}{普通形|ふつうけい}",
+              "rule": "＋ おかげで / おかげだ"
+            },
+            {
+              "pos": "な{形容詞|けいようし}",
+              "rule": "＋ な ＋ おかげで / おかげだ"
+            },
+            {
+              "pos": "{名詞|めいし}",
+              "rule": "＋ の ＋ おかげで / おかげだ"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "{先生|せんせい}が{丁寧|ていねい}に{教|おし}えてくださったおかげで、JLPT N3に{合格|ごうかく}できた。",
+              "structure_note": "{動詞|どうし}た{形|けい} ＋ おかげで（{感謝|かんしゃ}）",
+              "en": "Thanks to my teacher teaching me carefully, I was able to pass JLPT N3."
+            },
+            {
+              "ja_ruby": "{天気|てんき}が{良|よ}かったおかげで、{運動会|うんどうかい}は{無事|ぶじ}に{終|お}わった。",
+              "structure_note": "い{形容詞|けいようし}た{形|けい}（{良|よ}かった）＋ おかげで",
+              "en": "Thanks to the good weather, the sports festival ended smoothly."
+            },
+            {
+              "ja_ruby": "{駅|えき}の{近|ちか}くに{便利|べんり}なスーパーができたおかげで、{買|か}い{物|もの}が{楽|らく}になった。",
+              "structure_note": "{動詞|どうし}た{形|けい}（できた）＋ おかげで",
+              "en": "Thanks to a convenient supermarket opening near the station, shopping has become easy."
+            },
+            {
+              "ja_ruby": "{日本|にほん}での{生活|せいかつ}が{楽|たの}しいのは、やさしい{友達|ともだち}のおかげだ。",
+              "structure_note": "{名詞|めいし}（{友達|ともだち}）＋ のおかげだ（{文末|ぶんまつ}）",
+              "en": "The reason life in Japan is enjoyable is thanks to my kind friends."
+            }
+          ],
+          "pitfalls": [
+            "Result polarity trap: 〜おかげで is reserved for fortunate, welcome outcomes—using it for disasters or bad news sounds unnatural or heavily sarcastic (× {病気|びょうき}のおかげで{仕事|しごと}を{失|うしな}った -> use せいで).",
+            "Nouns require の (○ {皆|みな}さんのおかげで) and な-adjectives require な (○ {親切|しんせつ}なおかげで) before おかげで."
+          ]
+        },
+        {
+          "id": "sei-de",
+          "pattern": "〜せいで / せいだ / せいか",
+          "pattern_ruby": "〜せいで / せいだ / せいか",
+          "romaji": "~sei de / sei da / sei ka",
+          "meaning_en": "because of ~ (blame for bad result); maybe because ~ (せいか)",
+          "register": "neutral",
+          "renshuu_status": "verified_renshuu",
+          "mental_model": "The negative mirror image of おかげで. 〜せいで points a finger of blame or frustration at whatever caused an **unwanted, regrettable outcome** ('It's because of X that Y went wrong!'). Adding か to form 〜せいか softens accusation into an uncertain personal hunch ('Maybe it's because of X, [this strange/unpleasant thing happened]').",
+          "formation": [
+            {
+              "pos": "{動詞|どうし}・い{形容詞|けいようし}{普通形|ふつうけい}",
+              "rule": "＋ せいで / せいだ / せいか"
+            },
+            {
+              "pos": "な{形容詞|けいようし}",
+              "rule": "＋ な ＋ せいで / せいだ / せいか"
+            },
+            {
+              "pos": "{名詞|めいし}",
+              "rule": "＋ の ＋ せいで / せいだ / せいか"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "{昨日|きのう}、{遅|おそ}くまでゲームをしていたせいで、{今朝|けさ}{寝坊|ねぼう}してしまった。",
+              "structure_note": "{動詞|どうし}＋ていた ＋ せいで（{後悔|こうかい}・{失敗|しっぱい}）",
+              "en": "Because I was playing games until late yesterday, I overslept this morning."
+            },
+            {
+              "ja_ruby": "{大雨|おおあめ}のせいで、{今日|きょう}のサッカーの{試合|しあい}は{中止|ちゅうし}になった。",
+              "structure_note": "{名詞|めいし}（{大雨|おおあめ}）＋ のせいで",
+              "en": "Because of the heavy rain, today's soccer match was canceled."
+            },
+            {
+              "ja_ruby": "{部屋|へや}が{狭|せま}いせいで、{大|おお}きいソファを{置|お}くことができない。",
+              "structure_note": "い{形容詞|けいようし}（{狭|せま}い）＋ せいで",
+              "en": "Because the room is small, I can't put a big sofa in it."
+            },
+            {
+              "ja_ruby": "{最近|さいきん}{運動|うんどう}していないせいか、{少|すこ}し{階段|かいだん}を{上|のぼ}っただけで{疲|つか}れる。",
+              "structure_note": "せいか（{不確実|ふかくじつ}な{推測|すいそく}・ぼんやりした{原因|げんいん}）",
+              "en": "Maybe because I haven't been exercising lately, I get tired just climbing a few stairs."
+            }
+          ],
+          "pitfalls": [
+            "Never use 〜せいで for positive results (× {薬|くすり}のせいで{元気|げんき}になった -> use おかげで). Also be cautious with あなたのせいで in conversation, as it sounds like direct accusation.",
+            "Remember attachment: nouns take の ({台風|たいふう}のせいで), while な-adjectives take な ({複雑|ふくざつ}なせいで), NEVER の or だ on a な-adjective."
+          ]
+        },
+        {
+          "id": "tame-ni-cause",
+          "pattern": "〜ため（に）",
+          "pattern_ruby": "〜ため（に）",
+          "romaji": "~tame (ni)",
+          "meaning_en": "because of ~; due to ~ (formal, objective cause)",
+          "register": "formal",
+          "renshuu_status": "verified_renshuu",
+          "mental_model": "Beyond its N4 purpose meaning ('in order to V'), 〜ため（に） functions as the crisp, emotion-neutral reporter of cause and effect. Unlike grateful おかげで or blaming せいで, ため（に） states objective facts calmly—the voice of train announcements, news reports, and formal essays. Because it strictly reports factual consequences, the second clause can never be a request or command.",
+          "formation": [
+            {
+              "pos": "{動詞|どうし}・い{形容詞|けいようし}{普通形|ふつうけい}",
+              "rule": "＋ ため（に）（{原因|げんいん}では{過去|かこ}・{状態|じょうたい}・{否定|ひてい}が{多|おお}い）"
+            },
+            {
+              "pos": "な{形容詞|けいようし}",
+              "rule": "＋ な ＋ ため（に）"
+            },
+            {
+              "pos": "{名詞|めいし}",
+              "rule": "＋ の ＋ ため（に）"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "{台風|たいふう}のため、{午後|ごご}の{新幹線|しんかんせん}はすべて{運休|うんきゅう}となりました。",
+              "structure_note": "{名詞|めいし}（{台風|たいふう}）＋ のため（{公式|こうしき}{発表|はっぴょう}）",
+              "en": "Due to the typhoon, all afternoon Shinkansen trains have been suspended."
+            },
+            {
+              "ja_ruby": "この{地域|ちいき}は{交通|こうつう}が{不便|ふべん}なため、{車|くるま}がないと{生活|せいかつ}しにくい。",
+              "structure_note": "な{形容詞|けいようし}（{不便|ふべん}）＋ な ＋ ため",
+              "en": "Because transportation in this area is inconvenient, it is hard to live without a car."
+            },
+            {
+              "ja_ruby": "{気温|きおん}が{急|きゅう}に{下|さ}がったために、{風邪|かぜ}をひく{人|ひと}が{増|ふ}えている。",
+              "structure_note": "{動詞|どうし}た{形|けい}（{下|さ}がった）＋ ために（{客観的|きゃっかんてき}{因果|いんが}）",
+              "en": "Because temperatures dropped suddenly, the number of people catching colds is increasing."
+            },
+            {
+              "ja_ruby": "{商品|しょうひん}に{問題|もんだい}が{見|み}つかったため、{発売|はつばい}が{延期|えんき}された。",
+              "structure_note": "{非意志|ひいし}{結果|けっか}：ため（`に`{省略|しょうりゃく}）",
+              "en": "Because a problem was found with the product, the release was postponed."
+            }
+          ],
+          "pitfalls": [
+            "Hard exam rule: causal 〜ため（に） can NEVER precede requests (~てください), commands (~なさい), invitations (~ましょう), or volitional intentions (× {雨|あめ}のため、{早|はや}く{帰|かえ}りましょう -> use ので or から).",
+            "Avoid ambiguity with purpose ために ('in order to'): a volitional dictionary verb ({行|い}くために) signals purpose, while past tense ({行|い}ったため), stative verbs, or non-volitional verbs signal cause."
+          ]
+        },
+        {
+          "id": "kotokara-monodakara",
+          "pattern": "〜ことから・〜ものだから",
+          "pattern_ruby": "〜ことから・〜ものだから",
+          "romaji": "~kotokara · ~monodakara",
+          "meaning_en": "from the fact/clue that ~ (kotokara); because [apologetic/personal excuse] (monodakara)",
+          "register": "neutral",
+          "renshuu_status": "canonical_n3",
+          "mental_model": "Both anchor a reason in a real fact, yet point in opposite directions. 〜ことから acts like an objective detective or historian: 'From the clue/fact X, people deduced Y or named it Y.' By contrast, 〜ものだから (casual もんだから) is warm, spoken, and apologetic: 'You see, the thing was X, so I couldn't help Y'—perfect for personal excuses.",
+          "formation": [
+            {
+              "pos": "{動詞|どうし}・い{形容詞|けいようし}{普通形|ふつうけい}",
+              "rule": "＋ ことから / ものだから"
+            },
+            {
+              "pos": "な{形容詞|けいようし}",
+              "rule": "＋ な（・である）＋ ことから / ＋ な ＋ ものだから"
+            },
+            {
+              "pos": "{名詞|めいし}",
+              "rule": "＋ である ＋ ことから / ＋ な ＋ ものだから"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "{形|かたち}が{雪|ゆき}の{傘|かさ}のように{見|み}えることから、この{花|はな}は「ユキガサ」と{呼|よ}ばれている。",
+              "structure_note": "〜ことから、〜と{呼|よ}ばれている（{名称|めいしょう}の{由来|ゆらい}）",
+              "en": "From the fact that its shape looks like a snowy umbrella, this flower is called 'Yukigasa.'"
+            },
+            {
+              "ja_ruby": "{現場|げんば}に{靴|くつ}の{跡|あと}が{残|のこ}っていたことから、{犯人|はんにん}は{男|おとこ}だとわかった。",
+              "structure_note": "〜ことから（{手|て}がかりからの{判断|はんだん}）",
+              "en": "From the fact that footprints were left at the scene, they figured out the culprit was a man."
+            },
+            {
+              "ja_ruby": "{電車|でんしゃ}が{遅|おく}れたものだから、{約束|やくそく}の{時間|じかん}に{間|ま}に{合|あ}いませんでした。",
+              "structure_note": "{動詞|どうし}た{形|けい} ＋ ものだから（{言|い}い{訳|わけ}・{弁解|べんかい}）",
+              "en": "You see, the train was delayed, so I couldn't make it in time for our appointment."
+            },
+            {
+              "ja_ruby": "セールで{服|ふく}があまりにも{安|やす}かったものだから、つい{買|か}いすぎてしまった。",
+              "structure_note": "い{形容詞|けいようし}た{形|けい} ＋ ものだから（つい〜てしまった）",
+              "en": "Clothes at the sale were just so cheap that I ended up buying too much without meaning to."
+            }
+          ],
+          "pitfalls": [
+            "Crucial noun trap: before ことから, nouns MUST use である (○ {学生|がくせい}であることから, × {学生|がくせい}のことから / {学生|がくせい}なことから); before ものだから, nouns take な (○ {休日|きゅうじつ}なものだから, × {休日|きゅうじつ}のものだから).",
+            "Just like ために, 〜ものだから cannot precede requests, commands, or invitations (× {急|いそ}いでいるものだから、{先|さき}に{通|とお}してください -> use から / ので)."
+          ]
+        }
+      ],
+      "lesson_contrast": {
+        "title": "Choosing the Right 'Because' in Lesson 20",
+        "explanation": "In JLPT N3, causal connectors are tested on three axes: emotional stance (gratitude vs. blame vs. neutral vs. excuse), noun connector (の vs. である vs. な), and whether requests are allowed in the result clause.",
+        "rows": [
+          {
+            "expression": "〜おかげで / おかげだ",
+            "register": "Neutral",
+            "key_rule": "Grateful positive outcome; takes Nの / Naな.",
+            "example_short": "{先生|せんせい}のおかげで{合格|ごうかく}した。"
+          },
+          {
+            "expression": "〜せいで / せいか",
+            "register": "Neutral",
+            "key_rule": "Negative blame (せいで) or unsure hunch (せいか); takes Nの / Naな.",
+            "example_short": "{大雨|おおあめ}のせいで{中止|ちゅうし}になった。"
+          },
+          {
+            "expression": "〜ため（に）",
+            "register": "Formal",
+            "key_rule": "Objective/official cause; NO requests/commands allowed; takes Nの / Naな.",
+            "example_short": "{台風|たいふう}のため{休校|きゅうこう}となった。"
+          },
+          {
+            "expression": "〜ことから / ものだから",
+            "register": "Neutral / Spoken",
+            "key_rule": "ことから = clue/naming (Nである); ものだから = spoken excuse (Nな, no requests).",
+            "example_short": "{形|かたち}が{似|に}ていることから{名付|なづ}けられた。"
+          }
+        ]
+      },
+      "practice_quiz": [
+        {
+          "question_id": "L20-Q1",
+          "question_type": "fill_blank",
+          "prompt_ja_ruby": "この{山|やま}は、{形|かたち}が{富士山|ふじさん}によく{似|に}ている（　　　）、「{小富士|こふじ}」と{呼|よ}ばれている。",
+          "context_en": "Explaining the origin of a name: 'From the fact that its shape closely resembles Mt. Fuji, this mountain is called Little Fuji.'",
+          "choices": [
+            "せいで",
+            "ことから",
+            "おかげで",
+            "ものだから"
+          ],
+          "correct_index": 1,
+          "explanation": "Correct: B (ことから). Introducing the clue or factual basis behind a name or judgment (〜と{呼|よ}ばれている) is the hallmark use of 〜ことから. A (せいで) blames a negative result; C (おかげで) expresses gratitude for a personal benefit; D (ものだから) is a conversational personal excuse."
+        },
+        {
+          "question_id": "L20-Q2",
+          "question_type": "nuance_choice",
+          "prompt_ja_ruby": "{佐藤|さとう}さんが{空港|くうこう}まで{車|くるま}で{送|おく}ってくれた（　　　）、{飛行機|ひこうき}に{遅|おく}れずにすんだ。",
+          "context_en": "Expressing gratitude for a helpful favor: 'Thanks to Sato driving me to the airport, I managed not to miss my flight.'",
+          "choices": [
+            "せいで",
+            "せいか",
+            "ことから",
+            "おかげで"
+          ],
+          "correct_index": 3,
+          "explanation": "Correct: D (おかげで). Attributes a fortunate, grateful outcome ({遅|おく}れずにすんだ) to Sato's kindness. A (せいで) is strictly for blaming bad outcomes; B (せいか) expresses an uncertain guess about an unfortunate or strange state; C (ことから) marks an objective clue for naming or deduction, not gratitude."
+        },
+        {
+          "question_id": "L20-Q3",
+          "question_type": "attachment_trap",
+          "prompt_ja_ruby": "{駅前|えきまえ}の{道|みち}が（　　　）、{初|はじ}めて{来|き}た{人|ひと}はよく{迷|まよ}ってしまう。",
+          "context_en": "Attaching せいで to a な-adjective (fukuzatsu): 'Because the roads in front of the station are complicated, first-time visitors often get lost.'",
+          "choices": [
+            "{複雑|ふくざつ}なせいで",
+            "{複雑|ふくざつ}のせいで",
+            "{複雑|ふくざつ}だせいで",
+            "{複雑|ふくざつ}にせいで"
+          ],
+          "correct_index": 0,
+          "explanation": "Correct: A ({複雑|ふくざつ}なせいで). {複雑|ふくざつ} is a な-adjective, so it requires な before せいで. B wrongly uses の (which is only for nouns); C wrongly retains plain だ; D ungrammatically uses the adverbial particle に."
+        },
+        {
+          "question_id": "L20-Q4",
+          "question_type": "star_order",
+          "prompt_ja_ruby": "{久|ひさ}しぶりに{友達|ともだち}に＿　＿　★　＿しまった。",
+          "context_en": "Apologetic personal excuse: 'Because I hadn't seen my friend in a long time, I ended up talking too much.'",
+          "choices": [
+            "{会|あ}った",
+            "もの",
+            "だから",
+            "{話|はな}しすぎて"
+          ],
+          "correct_index": 2,
+          "explanation": "Correct: C (だから). Full sentence: {会|あ}った(1) もの(2) だから(3★) {話|はな}しすぎて(4). {友達|ともだち}に takes {会|あ}った ('met'), followed by もの ＋ だから to give a personal excuse, leading into the unintended result {話|はな}しすぎてしまった ('ended up talking too much')."
+        }
+      ]
+    }
+  ]
+}

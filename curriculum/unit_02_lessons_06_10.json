@@ -1,0 +1,1392 @@
+{
+  "unit_number": 2,
+  "unit_slug": "unit-02-sentence-links-conjunctions",
+  "unit_title": "Unit 2: Sentence Links & Conjunctions with でも (Lessons 6–10)",
+  "unit_overview": "Master Renshuu N3 Lessons 6–10: causal, additive, and adversative sentence connectors (そのため, したがって, そこで, それで, それと, あと, ところが, ところで) plus the full range of でも from extreme baselines and soft suggestions to concessive arguments.",
+  "lessons": [
+    {
+      "lesson_id": "L06",
+      "lesson_number": 6,
+      "renshuu_title": "Sentence Links (Because)",
+      "has_video": true,
+      "summary": "Separate Japanese causal sentence connectors by register, logical strictness, and speaker control: formal objective そのため（に）, logical deduction したがって, deliberate response そこで, conversational factual result それで, plus outcome-marker その{結果|けっか} and backward-explaining なぜなら〜からだ.",
+      "study_tip": "Before picking a 'so / therefore' connector on Renshuu, inspect Sentence B first: is it a planned human action (そこで), a formal rule-based deduction (したがって), an objective report (そのため), or a casual factual recap with zero commands attached (それで)?",
+      "grammar_points": [
+        {
+          "id": "sono-tame-ni",
+          "pattern": "そのため（に）",
+          "pattern_ruby": "そのため（に）",
+          "romaji": "sono tame (ni)",
+          "meaning_en": "for that reason; because of that; consequently",
+          "register": "formal",
+          "renshuu_status": "verified_renshuu",
+          "mental_model": "Think of そのため（に） as an objective, newsroom-style camera panning from Cause A to Consequence B. Unlike conversational それで, it keeps a calm, impersonal distance suitable for announcements, reports, and formal explanations. Adding に slightly spotlights 'on account of that cause,' whereas bare そのため feels crisp and informational.",
+          "formation": [
+            {
+              "pos": "{前文|ぜんぶん}（{原因|げんいん}・{事情|じじょう}）",
+              "rule": "「{文|ぶん}A。そのため、{文|ぶん}B」または「{文|ぶん}A。そのために、{文|ぶん}B」"
+            },
+            {
+              "pos": "{後文|こうぶん}の{性質|せいしつ}",
+              "rule": "{客観的|きゃっかんてき}な{結果|けっか}や{合理的|ごうりてき}な{対策|たいさく}・{決定|けってい}を{述|の}べる"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "{台風|たいふう}が{近|ちか}づいています。そのため、{明日|あした}の{試合|しあい}は{中止|ちゅうし}になりました。",
+              "structure_note": "Sentence 1 states the objective external reason; そのため introduces the formal organizational outcome (cancellation).",
+              "en": "A typhoon is approaching. For that reason, tomorrow's match has been canceled."
+            },
+            {
+              "ja_ruby": "{最近|さいきん}、{物価|ぶっか}が{急|きゅう}に{上|あ}がった。そのために、{生活費|せいかつひ}を{節約|せつやく}する{人|ひと}が{増|ふ}えている。",
+              "structure_note": "Including に in そのために highlights the causal link between rising prices and the social trend that followed.",
+              "en": "Prices have risen sharply recently. Because of that, more people are cutting back on living expenses."
+            },
+            {
+              "ja_ruby": "{鈴木|すずき}さんは{来月|らいげつ}から{大阪|おおさか}へ{転勤|てんきん}します。そのため、{送別会|そうべつかい}を{開|ひら}くことになりました。",
+              "structure_note": "Smoothly links a workplace personnel change to an official group decision (ことになりました).",
+              "en": "Suzuki-san is transferring to Osaka next month. For that reason, it has been decided that we will hold a farewell party."
+            },
+            {
+              "ja_ruby": "{夜|よる}から{大雪|おおゆき}が{降|ふ}り{続|つづ}いている。そのため、{高速道路|こうそくどうろ}が{通行止|つうこうど}めになっているそうだ。",
+              "structure_note": "Pairs an ongoing natural cause with a reported objective disruption rather than a personal emotion.",
+              "en": "Heavy snow has been falling continuously since last night. Consequently, I hear the expressway is closed to traffic."
+            }
+          ],
+          "pitfalls": [
+            "Avoid pairing そのため（に） with commands, requests, invitations, or direct speaker volition (even polite ones like 「×台風が来ます。そのため、気をつけてください」)—use だから or ～から instead.",
+            "Do not confuse sentence-initial そのため（に） ('for that reason') with purpose-clause ～ために ('in order to ~'); in そのため, その points back to an already-stated cause."
+          ]
+        },
+        {
+          "id": "shitagatte",
+          "pattern": "したがって",
+          "pattern_ruby": "したがって",
+          "romaji": "shitagatte",
+          "meaning_en": "therefore; consequently; accordingly (logical deduction)",
+          "register": "written",
+          "renshuu_status": "verified_renshuu",
+          "mental_model": "Built from {従|したが}う ('to follow/obey'), したがって signals strict, unavoidable deduction: 'Following logically from Premise A, Conclusion B holds.' It is the voice of policy rules, legal reasoning, proofs, and analytical essays—far too stiff for everyday excuses or personal feelings.",
+          "formation": [
+            {
+              "pos": "{前文|ぜんぶん}（{前提|ぜんてい}・{規則|きそく}・{根拠|こんきょ}）",
+              "rule": "「{文|ぶん}A。したがって、{文|ぶん}B」の{形|かたち}で{文頭|ぶんとう}に{置|お}く"
+            },
+            {
+              "pos": "{文体|ぶんたい}の{条件|じょうけん}",
+              "rule": "{書|か}き{言葉|ことば}や{公式|こうしき}な{説明|せつめい}で{使|つか}い、{日常会話|にちじょうかいわ}の{感情|かんじょう}・{依頼|いらい}には{使|つか}わない"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "{今週|こんしゅう}の{土曜日|どようび}は{祝日|しゅくじつ}です。したがって、{図書館|としょかん}は{休館|きゅうかん}となります。",
+              "structure_note": "Calendar rule (Saturday is a holiday) logically entails the institutional conclusion (closure) via したがって.",
+              "en": "This Saturday is a national holiday. Therefore, the library will be closed."
+            },
+            {
+              "ja_ruby": "{今年|ことし}は{応募者|おうぼしゃ}が{定員|ていいん}の{二倍|にばい}に{達|たっ}した。したがって、{抽選|ちゅうせん}で{参加者|さんかしゃ}を{決|き}めることになった。",
+              "structure_note": "Objective numerical premise (double capacity) leads to the formal procedural decision (holding a lottery).",
+              "en": "This year, applicants reached twice the capacity. Consequently, it has been decided to choose participants by lottery."
+            },
+            {
+              "ja_ruby": "{未成年者|みせいねんしゃ}は{法律|ほうりつ}で{飲酒|いんしゅ}が{禁止|きんし}されている。したがって、この{店|みせ}では{年齢確認|ねんれいかくにん}を{徹底|てってい}している。",
+              "structure_note": "Links a legal premise directly to the logical compliance policy in formal explanatory prose.",
+              "en": "Drinking alcohol by minors is prohibited by law. Accordingly, this shop strictly enforces age verification."
+            }
+          ],
+          "pitfalls": [
+            "Do not use したがって in casual daily chat or personal whims (e.g., 「×お腹がすいた。したがってラーメンを食べよう」 sounds stiffly comedic; use だから or それで).",
+            "Make sure Sentence B actually follows by rule, logic, or principle from Sentence A—do not use したがって for coincidental events or side remarks."
+          ]
+        },
+        {
+          "id": "sokode",
+          "pattern": "そこで",
+          "pattern_ruby": "そこで",
+          "romaji": "sokode",
+          "meaning_en": "so; accordingly; thereupon (deliberate action in response)",
+          "register": "neutral",
+          "renshuu_status": "verified_renshuu",
+          "mental_model": "Imagine encountering a problem or turning point in Sentence A, pausing right 'at that juncture' (そこ), and deciding what action to take next: 'So, here is what I/we decided to do.' Unlike それで or そのため, そこで demands human agency—a deliberate step, countermeasure, or proposal, never an uncontrolled event.",
+          "formation": [
+            {
+              "pos": "{前文|ぜんぶん}（{状況|じょうきょう}・{課題|かだい}）",
+              "rule": "「{文|ぶん}A。そこで、{文|ぶん}B」の{形|かたち}できっかけとなる{場面|ばめん}を{示|しめ}す"
+            },
+            {
+              "pos": "{後文|こうぶん}（{意志的|いしてき}な{行動|こうどう}）",
+              "rule": "{人|ひと}や{組織|そしき}の{意図的|いとてき}な{行動|こうどう}・{対策|たいさく}・{提案|ていあん}を{置|お}く"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "{部屋|へや}が{少|すこ}し{寒|さむ}くなってきた。そこで、{高橋|たかはし}さんはエアコンをつけることにした。",
+              "structure_note": "Feeling the cold room prompts Takahashi-san's deliberate countermeasure (エアコンをつけることにした).",
+              "en": "The room started getting a bit cold. So Takahashi-san decided to turn on the air conditioner."
+            },
+            {
+              "ja_ruby": "{駅|えき}の{前|まえ}の{道|みち}がいつも{混|こ}んでいる。そこで、{市|し}は{新|あたら}しいバス{路線|ろせん}を{作|つく}る{計画|けいかく}を{立|た}てた。",
+              "structure_note": "Urban traffic problem in Sentence 1 triggers an intentional policy plan by the city in Sentence 2.",
+              "en": "The road in front of the station is always crowded. Accordingly, the city drew up a plan to create a new bus route."
+            },
+            {
+              "ja_ruby": "{健太|けんた}さんは{漢字|かんじ}がなかなか{覚|おぼ}えられなかった。そこで、{毎日|まいにち}{十個|じゅっこ}ずつノートに{書|か}くようにした。",
+              "structure_note": "Connects a study obstacle directly to Kenta-san's intentional new study routine.",
+              "en": "Kenta-san had trouble memorizing kanji. So he made a habit of writing ten of them in his notebook every day."
+            },
+            {
+              "ja_ruby": "{来月|らいげつ}の{学園祭|がくえんさい}について{大切|たいせつ}な{連絡|れんらく}があります。そこで、{今週|こんしゅう}の{金曜日|きんようび}に{全員|ぜんいん}で{集|あつ}まりましょう。",
+              "structure_note": "Shows that そこで can also introduce a purposeful proposal or group call to action (～ましょう).",
+              "en": "There is an important announcement about next month's school festival. So let's all gather this Friday."
+            }
+          ],
+          "pitfalls": [
+            "NEVER follow そこで with uncontrolled natural phenomena, automatic failures, or involuntary outcomes (e.g., 「×大雨が降った。そこで川の水があふれた」→ use そのため or それで).",
+            "Do not confuse sentence-initial conjunction そこで ('so / accordingly') with the place particle sequence そこで ('at that place', as in 「そこで昼ご飯を食べた」)."
+          ]
+        },
+        {
+          "id": "sorede",
+          "pattern": "それで",
+          "pattern_ruby": "それで",
+          "romaji": "sorede",
+          "meaning_en": "so; because of that; and then (conversational factual result)",
+          "register": "neutral",
+          "renshuu_status": "verified_renshuu",
+          "mental_model": "それで is the everyday conversational storyteller's connector: 'and because of that, here is what actually happened.' It treats the connection between A and B as a natural chain of lived facts rather than a formal proof or directive. Because it reports factual outcomes, B cannot end with a command, request, or invitation.",
+          "formation": [
+            {
+              "pos": "{前文|ぜんぶん}（{理由|りゆう}・きっかけ）",
+              "rule": "「{文|ぶん}A。それで、{文|ぶん}B」で{会話|かいわ}や{出来事|できごと}をつなぐ"
+            },
+            {
+              "pos": "{後文|こうぶん}の{制限|せいげん}",
+              "rule": "{実際|じっさい}に{起|お}きた{結果|けっか}や{現在|げんざい}の{状態|じょうたい}を{述|の}べ、{命令|めいれい}・{依頼|いらい}・{勧誘|かんゆう}・{未実行|みじっこう}の{意志|いし}は{避|さ}ける"
+            },
+            {
+              "pos": "{会話|かいわ}での{促|うなが}し",
+              "rule": "「それで？（{続|つづ}きはどうなりましたか）」と{相手|あいて}に{先|さき}を{尋|たず}ねるときにも{使|つか}う"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "{昨日|きのう}は{寝坊|ねぼう}してしまった。それで、{朝|あさ}ご{飯|はん}を{食|た}べずに{家|いえ}を{出|で}た。",
+              "structure_note": "Reports a past mishap (oversleeping) leading naturally to a completed factual outcome.",
+              "en": "I overslept yesterday. So I left the house without eating breakfast."
+            },
+            {
+              "ja_ruby": "{電車|でんしゃ}が{事故|じこ}で{止|と}まっていたんです。それで、{約束|やくそく}の{時間|じかん}に{遅|おく}れました。",
+              "structure_note": "Polite spoken explanation attributing a factual delay to an external train stoppage.",
+              "en": "The train was stopped due to an accident. That's why I was late for our appointment."
+            },
+            {
+              "ja_ruby": "{美咲|みさき}さん、{面接|めんせつ}はどうでしたか。それで、{合格|ごうかく}の{連絡|れんらく}は{来|き}ましたか。",
+              "structure_note": "Functions as a natural conversational follow-up prompting the listener for what happened next.",
+              "en": "Misaki-san, how did the interview go? So, did you hear back about passing?"
+            },
+            {
+              "ja_ruby": "{最近|さいきん}{運動不足|うんどうぶそく}で{体重|たいじゅう}が{増|ふ}えた。それで、{先週|せんしゅう}から{近所|きんじょ}を{走|はし}り{始|はじ}めたんだ。",
+              "structure_note": "Natural because the action already started (走り始めた); it reports an accomplished fact rather than an unfulfilled command.",
+              "en": "I haven't been getting enough exercise lately and gained weight. So I started running around the neighborhood last week."
+            }
+          ],
+          "pitfalls": [
+            "NEVER follow それで with commands, requests, invitations, or unfulfilled intentions (e.g., 「×雨が降りそうだ。それで、傘を持って行きなさい / 帰りましょう」→ use だから).",
+            "In official notices, academic essays, or formal business reports, それで feels overly conversational; replace it with そのため or したがって."
+          ]
+        },
+        {
+          "id": "sono-kekka-nazenara",
+          "pattern": "その結果 / なぜなら〜からだ",
+          "pattern_ruby": "その{結果|けっか} / なぜなら〜からだ",
+          "romaji": "sono kekka / nazenara ~ kara da",
+          "meaning_en": "as a result of that / the reason is that...",
+          "register": "formal",
+          "renshuu_status": "canonical_n3",
+          "mental_model": "These two discourse tools frame causality from opposite sides. その結果 summarizes a sustained process, trial, or sequence of events in A and presents the concrete end outcome B ('as a result of that'). なぜなら〜からだ reverses standard cause-first Japanese word order: state your conclusion up front, then announce 'why?' and close the reason firmly with からだ.",
+          "formation": [
+            {
+              "pos": "その{結果|けっか}",
+              "rule": "「{文|ぶん}A（{過程|かてい}・{取|と}り{組|く}み）。その{結果|けっか}、{文|ぶん}B（{具体的|ぐたいてき}な{結末|けつまつ}）」"
+            },
+            {
+              "pos": "なぜなら〜からだ（{動詞|どうし}・い{形容詞|けいようし}）",
+              "rule": "なぜなら＋{普通形|ふつうけい}＋からだ／からです"
+            },
+            {
+              "pos": "なぜなら〜からだ（{名詞|めいし}・な{形容詞|けいようし}）",
+              "rule": "なぜなら＋{名詞|めいし}／な{形容詞語幹|けいようしごかん}＋だからだ／だからです"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "{佐藤|さとう}さんは{半年|はんとし}{間|かん}、{毎日|まいにち}{単語|たんご}を{復習|ふくしゅう}した。その{結果|けっか}、{模擬試験|もぎしけん}で{満点|まんてん}を{取|と}った。",
+              "structure_note": "Summarizes six months of continuous study and presents the measurable concrete result via その結果.",
+              "en": "Sato-san reviewed vocabulary every day for half a year. As a result, he got a perfect score on the mock exam."
+            },
+            {
+              "ja_ruby": "{新|あたら}しい{広告|こうこく}を{出|だ}してみた。その{結果|けっか}、{先月|せんげつ}より{客|きゃく}が{三割|さんわり}{増|ふ}えたそうだ。",
+              "structure_note": "Evaluates the tangible outcome of a deliberate trial (putting out a new ad -> 30% customer growth).",
+              "en": "They tried running a new advertisement. As a result, I hear customers increased by 30% compared to last month."
+            },
+            {
+              "ja_ruby": "{夏|なつ}の{京都|きょうと}は{旅行客|りょこうきゃく}が{多|おお}い。なぜなら、{歴史的|れきしてき}なお{寺|てら}や{祭|まつ}りが{有名|ゆうめい}だからだ。",
+              "structure_note": "States the claim first; なぜなら opens the inverted explanation ending in na-adjective + だからだ.",
+              "en": "Kyoto gets many tourists in summer. That is because its historic temples and festivals are famous."
+            },
+            {
+              "ja_ruby": "{山田|やまだ}さんは{今日|きょう}の{会議|かいぎ}に{出席|しゅっせき}できません。なぜなら、{急|きゅう}な{出張|しゅっちょう}が{入|はい}ったからです。",
+              "structure_note": "Polite spoken/business pattern closing the reason with plain past verb + からです.",
+              "en": "Yamada-san cannot attend today's meeting. The reason is that an urgent business trip came up."
+            }
+          ],
+          "pitfalls": [
+            "Never drop からだ／からです at the end of a なぜなら sentence: 「×なぜなら忙しい。」 is grammatically incomplete—always close with からだ (or ～ためだ).",
+            "With nouns and na-adjectives before からだ, you MUST keep だ (「雨だからだ」「便利だからだ」); never write 「×雨からだ」 or 「×便利なからだ」.",
+            "Reserve その結果 for the outcome of a sustained process or initiative rather than instant everyday sensations (e.g., avoid 「×辛い物を食べた。その結果、口が痛い」)."
+          ]
+        }
+      ],
+      "lesson_contrast": {
+        "title": "Choosing the Right Causal Connector",
+        "explanation": "Although all six connectors translate roughly to 'because / so / therefore,' JLPT N3 and Renshuu test three boundaries: register, whether Sentence B is controlled by human will, and whether cause precedes or follows conclusion.",
+        "rows": [
+          {
+            "expression": "そのため（に）",
+            "register": "Formal / Explanatory",
+            "key_rule": "Objective cause → factual result or formal measure; avoid casual imperatives.",
+            "example_short": "{雪|ゆき}だ。そのため{電車|でんしゃ}が{遅|おく}れた。"
+          },
+          {
+            "expression": "したがって",
+            "register": "Written / Official",
+            "key_rule": "Strict logical or rule-based deduction from premise A to conclusion B.",
+            "example_short": "{祝日|しゅくじつ}だ。したがって{休館|きゅうかん}となる。"
+          },
+          {
+            "expression": "そこで",
+            "register": "Neutral / Narrative",
+            "key_rule": "Situation A → deliberate human decision/action B; never natural phenomena.",
+            "example_short": "{寒|さむ}い。そこでストーブをつけた。"
+          },
+          {
+            "expression": "それで",
+            "register": "Neutral / Conversational",
+            "key_rule": "Cause A → actual factual result B; never commands, requests, or invitations.",
+            "example_short": "{寝坊|ねぼう}した。それで{遅刻|ちこく}した。"
+          },
+          {
+            "expression": "その{結果|けっか} / なぜなら〜からだ",
+            "register": "Formal / Analytical",
+            "key_rule": "Process → outcome (その結果) vs Claim first → reason ending in からだ (なぜなら).",
+            "example_short": "{努力|どりょく}した。その{結果|けっか}{合格|ごうかく}した。"
+          }
+        ]
+      },
+      "practice_quiz": [
+        {
+          "question_id": "L06-Q1",
+          "question_type": "nuance_choice",
+          "prompt_ja_ruby": "{駅|えき}の{自転車|じてんしゃ}{置|お}き{場|ば}がいつも{満車|まんしゃ}だ。＿＿、{来月|らいげつ}から{歩|ある}いて{通|かよ}うことにした。",
+          "context_en": "The bicycle parking lot at the station is always full. So I decided to commute on foot starting next month.",
+          "choices": [
+            "ところが",
+            "そこで",
+            "なぜなら",
+            "それでも"
+          ],
+          "correct_index": 1,
+          "explanation": "B (そこで) is correct because the speaker responds to an ongoing problem (full bike parking) with a deliberate personal decision (歩くことにした). A (ところが) marks an unexpected reversal rather than a rational response; C (なぜなら) reverses cause and effect and requires ～からだ at the end; D (それでも, 'even so') contradicts choosing to walk because the bike lot is full."
+        },
+        {
+          "question_id": "L06-Q2",
+          "question_type": "fill_blank",
+          "prompt_ja_ruby": "{昨夜|さくや}から{強|つよ}い{風|かぜ}が{吹|ふ}き{続|つづ}いた。＿＿、{朝|あさ}には{多|おお}くの{木|き}が{倒|たお}れていた。",
+          "context_en": "Strong winds kept blowing since last night. For that reason, many trees had fallen by morning.",
+          "choices": [
+            "そこで",
+            "なぜなら",
+            "ただし",
+            "そのため"
+          ],
+          "correct_index": 3,
+          "explanation": "D (そのため) fits cleanly because fallen trees are an objective physical consequence of continuous strong winds. A (そこで) is wrong because そこで cannot introduce uncontrolled natural phenomena; B (なぜなら) requires the result to come first and must close with ～からだ; C (ただし) introduces an exception or proviso, not a causal outcome."
+        },
+        {
+          "question_id": "L06-Q3",
+          "question_type": "attachment_trap",
+          "prompt_ja_ruby": "{田中|たなか}さんがこの{街|まち}を{好|す}きなのには、{理由|りゆう}がある。なぜなら、{交通|こうつう}が＿＿からだ。",
+          "context_en": "There is a reason why Tanaka-san likes this town. That is because transportation is convenient.",
+          "choices": [
+            "{便利|べんり}だ",
+            "{便利|べんり}な",
+            "{便利|べんり}",
+            "{便利|べんり}で"
+          ],
+          "correct_index": 0,
+          "explanation": "A ({便利|べんり}だ) is the only grammatical attachment: before からだ, nouns and na-adjectives MUST take the plain copula だ (便利だからだ). B (便利な) is an illegal adnominal form before からだ unless nominalized with の (便利なのだ); C (便利) omits the required だ; D (便利で) uses the conjunctive te-form, which cannot link directly to からだ."
+        },
+        {
+          "question_id": "L06-Q4",
+          "question_type": "star_order",
+          "prompt_ja_ruby": "{彼|かれ}は{実験|じっけん}を{続|つづ}けた。＿　＿　★　＿　できた。",
+          "context_en": "He continued the experiments. As a result, he was able to create a new medicine.",
+          "choices": [
+            "{作|つく}ることが",
+            "その{結果|けっか}、",
+            "{薬|くすり}を",
+            "{新|あたら}しい"
+          ],
+          "correct_index": 2,
+          "explanation": "The only grammatical order is [B: その{結果|けっか}、] → [D: {新|あたら}しい] → [C ★: {薬|くすり}を] → [A: {作|つく}ることが] (できた). その結果、 opens the outcome sentence after the period; 新しい must modify the noun 薬を; and 作ることが attaches directly before できた. Therefore {薬|くすり}を (C) lands on the ★ slot."
+        }
+      ]
+    },
+    {
+      "lesson_id": "L07",
+      "lesson_number": 7,
+      "renshuu_title": "Sentence Links #2",
+      "has_video": true,
+      "summary": "Master additive and transitional links across registers: casual spoken additions それと・あと, argument-stacking それに・しかも, formal written escalation さらに, narrative immediate discovery すると / そうすると, and poised topic shifts さて.",
+      "study_tip": "Track the speaker's intent when adding Sentence B: casually tacking on an extra item (それと・あと), piling up matching evidence (それに・しかも), escalating formally in writing (さらに), reporting what instantly happened next without volition (すると), or moving cleanly to the main agenda (さて).",
+      "grammar_points": [
+        {
+          "id": "soreto-ato",
+          "pattern": "それと・あと",
+          "pattern_ruby": "それと・あと",
+          "romaji": "sore to / ato",
+          "meaning_en": "and also; oh, and; besides (casual spoken addition)",
+          "register": "casual",
+          "renshuu_status": "verified_renshuu",
+          "mental_model": "Both それと and あと act like conversational sticky notes tacked onto what you just said. それと smoothly adds another item, request, or point ('and in addition to that'), while あと feels slightly more spontaneous, as if a reminder or extra detail just popped into mind ('oh, and one more thing').",
+          "formation": [
+            {
+              "pos": "{文頭|ぶんとう}（{接続詞|せつぞくし}）",
+              "rule": "「{文|ぶん}A。それと、{文|ぶん}B」／「{文|ぶん}A。あと、{文|ぶん}B」"
+            },
+            {
+              "pos": "{名詞|めいし}の{追加|ついか}",
+              "rule": "「{名詞|めいし}Aと、それと{名詞|めいし}B」の{形|かたち}で{注文|ちゅうもん}や{列挙|れっきょ}にも{使|つか}う"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "ホットコーヒーを{一|ひと}つください。それと、チーズケーキも{一|ひと}つお{願|ねが}いします。",
+              "structure_note": "それと cleanly adds a second item when ordering without sounding stiff or repetitive.",
+              "en": "One hot coffee, please. And also, one cheesecake as well."
+            },
+            {
+              "ja_ruby": "{明日|あした}はノートを{持|も}ってきてね。あと、{先週|せんしゅう}のプリントも{忘|わす}れないで。",
+              "structure_note": "あと adds a friendly afterthought reminder in casual conversation.",
+              "en": "Bring your notebook tomorrow, okay? Oh, and don't forget last week's handout either."
+            },
+            {
+              "ja_ruby": "{来週|らいしゅう}の{旅行|りょこう}は{新幹線|しんかんせん}で{行|い}く。それと、ホテルはもう{予約|よやく}してあるよ。",
+              "structure_note": "Adds a separate parallel update on travel arrangements in relaxed speech.",
+              "en": "We're taking the Shinkansen for next week's trip. Also, I've already booked the hotel."
+            },
+            {
+              "ja_ruby": "{午後|ごご}から{掃除|そうじ}をしよう。あ、あと、ゴミ{袋|ぶくろ}がもうないから{買|か}わなきゃ。",
+              "structure_note": "Often paired with あ、 in speech when an extra detail suddenly comes to mind.",
+              "en": "Let's clean starting this afternoon. Oh, and we're out of trash bags, so we have to buy some."
+            }
+          ],
+          "pitfalls": [
+            "Do not use それと or あと in formal essays, business reports, or official notices—upgrade to さらに or また.",
+            "Do not confuse sentence-initial conjunction あと ('and also') with temporal ～たあと（で） ('after doing ~') or quantity あと＋数字 ('X more remaining', e.g., あと五分)."
+          ]
+        },
+        {
+          "id": "soreni-shikamo",
+          "pattern": "それに・しかも",
+          "pattern_ruby": "それに・しかも",
+          "romaji": "sore ni / shikamo",
+          "meaning_en": "besides; moreover; on top of that",
+          "register": "neutral",
+          "renshuu_status": "canonical_n3",
+          "mental_model": "Unlike それと (a neutral extra item on a list), それに and しかも pile up reinforcing evidence. それに stacks same-polarity reasons to support your judgment ('A is great, and besides that B is great too'). しかも adds punchy escalation or surprise ('moreover / and what's more!'), intensifying the impression already created by A.",
+          "formation": [
+            {
+              "pos": "{文頭|ぶんとう}（{接続詞|せつぞくし}）",
+              "rule": "「{文|ぶん}A。それに、{文|ぶん}B」／「{文|ぶん}A。しかも、{文|ぶん}B」"
+            },
+            {
+              "pos": "{文|ぶん}の{途中|とちゅう}（しかも）",
+              "rule": "「〜て、しかも〜」の{形|かたち}で{二|ふた}つの{強|つよ}い{特徴|とくちょう}を{強調|きょうちょう}してつなぐ"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "この{部屋|へや}は{広|ひろ}い。それに、{駅|えき}からも{近|ちか}いのでとても{便利|べんり}だ。",
+              "structure_note": "Both Sentence A and Sentence B are positive evaluations supporting the conclusion (convenient).",
+              "en": "This room is spacious. Besides, it's close to the station, so it's very convenient."
+            },
+            {
+              "ja_ruby": "{今日|きょう}は{雨|あめ}が{降|ふ}っている。それに、{風|かぜ}も{冷|つめ}たいから{家|いえ}にいよう。",
+              "structure_note": "Stacks two matching negative weather reasons to justify staying inside.",
+              "en": "It's raining today. On top of that, the wind is cold, so let's stay home."
+            },
+            {
+              "ja_ruby": "{高橋|たかはし}さんは{英語|えいご}がペラペラだ。しかも、{独学|どくがく}で{覚|おぼ}えたらしい。",
+              "structure_note": "しかも highlights an impressive, surprising additional detail beyond mere fluency.",
+              "en": "Takahashi-san speaks English fluently. What's more, I hear he learned it completely on his own."
+            },
+            {
+              "ja_ruby": "そのレストランは{味|あじ}が{良|よ}くて、しかも{値段|ねだん}が{安|やす}いからいつも{並|なら}んでいる。",
+              "structure_note": "Mid-sentence ～て、しかも～ underscores an unusual combination (delicious AND cheap).",
+              "en": "That restaurant tastes great and is moreover inexpensive, so there's always a line."
+            }
+          ],
+          "pitfalls": [
+            "Never use それに to link opposite evaluations (e.g., 「×部屋は広い。それに家賃が高い」 mixes good and bad—use が, ただ, or しかし instead).",
+            "Do not use しかも for mundane reminders like buying milk after buying bread; reserve しかも for striking, emphatic, or escalating facts."
+          ]
+        },
+        {
+          "id": "sarani",
+          "pattern": "さらに",
+          "pattern_ruby": "さらに",
+          "romaji": "sarani",
+          "meaning_en": "furthermore; in addition; even more",
+          "register": "written",
+          "renshuu_status": "canonical_n3",
+          "mental_model": "さらに has two related jobs in formal speech and writing. At the start of a sentence, it acts like 'Furthermore'—adding a broader or higher-tier measure, fact, or argument. Placed right before a verb or adjective, it acts as an adverb meaning 'even further / still more,' pushing an already noticeable degree higher.",
+          "formation": [
+            {
+              "pos": "{文頭|ぶんとう}（{接続詞|せつぞくし}）",
+              "rule": "「{文|ぶん}A。さらに、{文|ぶん}B」で{公式|こうしき}な{追加|ついか}・{発展|はってん}を{述|の}べる"
+            },
+            {
+              "pos": "{述語|じゅつご}の{前|まえ}（{副詞|ふくし}）",
+              "rule": "「さらに＋{動詞|どうし}・{形容詞|けいようし}」で「いっそう・もっと」という{程度|ていど}の{上昇|じょうしょう}を{表|あらわ}す"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "{来月|らいげつ}から{営業時間|えいぎょうじかん}を{延|の}ばします。さらに、{土日|どにち}の{割引|わりびき}サービスも{始|はじ}めます。",
+              "structure_note": "Sentence-initial さらに introduces a second formal service expansion in an announcement.",
+              "en": "Starting next month, we will extend our business hours. Furthermore, we will launch weekend discount services."
+            },
+            {
+              "ja_ruby": "{午後|ごご}になって、{台風|たいふう}の{風|かぜ}がさらに{強|つよ}くなった。",
+              "structure_note": "Adverbial さらに before 強くなった signals escalation ('became even stronger').",
+              "en": "In the afternoon, the typhoon's winds grew even stronger."
+            },
+            {
+              "ja_ruby": "{調査|ちょうさ}の{結果|けっか}を{見直|みなお}し、さらに{詳|くわ}しいアンケートを{実施|じっし}することにした。",
+              "structure_note": "Formal report usage modifying the adjective 詳しい ('even more detailed').",
+              "en": "We reviewed the survey results and decided to conduct an even more detailed questionnaire."
+            }
+          ],
+          "pitfalls": [
+            "Avoid さらに for trivial everyday errands (e.g., 「×スーパーで卵を買った。さらに牛乳も買った」 sounds overly journalistic; use それと or あと).",
+            "Distinguish sentence-initial さらに ('Furthermore, ...') from adverbial さらに ('even more ~') so you do not misread which element is being escalated."
+          ]
+        },
+        {
+          "id": "suruto-sate",
+          "pattern": "すると / そうすると・さて",
+          "pattern_ruby": "すると / そうすると・さて",
+          "romaji": "suruto / sō suruto / sate",
+          "meaning_en": "thereupon / and then (immediate discovery); well then / now (topic pivot)",
+          "register": "neutral",
+          "renshuu_status": "canonical_n3",
+          "mental_model": "すると and そうすると lock two actions onto a tight cause-and-effect trigger: do A, and immediately—without speaker volition—B pops into view or happens next (すると favors past storytelling surprises; そうすると also handles general procedures). さて sits in a completely different role: it calmly closes the intro or small talk and turns the spotlight to the main business ('Now then...').",
+          "formation": [
+            {
+              "pos": "すると／そうすると",
+              "rule": "「{文|ぶん}A（{動作|どうさ}・{手順|てじゅん}）。すると／そうすると、{文|ぶん}B（{発見|はっけん}・{自然|しぜん}な{展開|てんかい}）」"
+            },
+            {
+              "pos": "さて",
+              "rule": "「{挨拶|あいさつ}・{前|まえ}{置|お}き。さて、{文|ぶん}B（{本題|ほんだい}・{次|つぎ}の{段階|だんかい}）」"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "{山田|やまだ}さんがカーテンを{開|あ}けた。すると、{外|そと}は{一面|いちめん}の{雪|ゆき}だった。",
+              "structure_note": "Classic narrative discovery with すると: opening the curtain immediately reveals an unexpected scene (a snowy landscape).",
+              "en": "Yamada-san opened the curtain. Thereupon, everything outside was covered in snow."
+            },
+            {
+              "ja_ruby": "まずこの{赤|あか}いボタンを{押|お}してください。そうすると、{番号|ばんごう}が{書|か}いてある{紙|かみ}が{出|で}てきます。",
+              "structure_note": "Procedural instruction where そうすると predicts the automatic mechanical result of pressing the button.",
+              "en": "First, please press this red button. When you do that, a slip of paper with a number written on it will come out."
+            },
+            {
+              "ja_ruby": "{昼食|ちゅうしょく}も{終|お}わりましたね。さて、これから{午後|ごご}の{会議|かいぎ}を{始|はじ}めましょう。",
+              "structure_note": "さて marks a poised, orderly transition from lunch break to the scheduled afternoon meeting.",
+              "en": "We've finished lunch, haven't we? Well then, let's begin the afternoon meeting now."
+            },
+            {
+              "ja_ruby": "さて、そろそろ{帰|かえ}る{時間|じかん}ですね。{今日|きょう}はありがとうございました。",
+              "structure_note": "Used smoothly in conversation to signal wrapping up and moving to the next phase (heading home).",
+              "en": "Well now, it's just about time to head home, isn't it? Thank you for today."
+            }
+          ],
+          "pitfalls": [
+            "Like clause-internal ～と, sentence-initial すると CANNOT precede the speaker's command, invitation, request, or raw volition (e.g., 「×窓を開けた。すると、お茶を飲もう」→ use それから or そこで).",
+            "Do not confuse organized transition さて ('well then, onto our next step') with abrupt off-topic digression ところで ('by the way, completely unrelated...')."
+          ]
+        }
+      ],
+      "lesson_contrast": {
+        "title": "Adding Ideas vs Shifting Scenes",
+        "explanation": "Choosing between Lesson 7's additive and transitional connectors depends on register, emotional emphasis, and whether Sentence B is an item, a reinforcing argument, a sudden discovery, or a scheduled transition.",
+        "rows": [
+          {
+            "expression": "それと・あと",
+            "register": "Casual / Spoken",
+            "key_rule": "Tacks on an extra item, side detail, or casual afterthought.",
+            "example_short": "パンを{買|か}う。あと、{牛乳|ぎゅうにゅう}も。"
+          },
+          {
+            "expression": "それに",
+            "register": "Neutral",
+            "key_rule": "Stacks a matching positive/negative reason to reinforce an evaluation.",
+            "example_short": "{静|しず}かだ。それに{駅|えき}も{近|ちか}い。"
+          },
+          {
+            "expression": "しかも",
+            "register": "Neutral / Emphatic",
+            "key_rule": "Adds a striking, surprising, or intensifying point ('and what's more').",
+            "example_short": "{安|やす}い。しかもすごく{美味|おい}しい。"
+          },
+          {
+            "expression": "さらに",
+            "register": "Written / Formal",
+            "key_rule": "Formal 'furthermore' at sentence start or 'even more' before predicates.",
+            "example_short": "{風|かぜ}がさらに{強|つよ}くなった。"
+          },
+          {
+            "expression": "すると / そうすると・さて",
+            "register": "Neutral",
+            "key_rule": "Immediate non-volitional discovery (すると) vs planned topic pivot (さて).",
+            "example_short": "さて、{本題|ほんだい}に{入|はい}りましょう。"
+          }
+        ]
+      },
+      "practice_quiz": [
+        {
+          "question_id": "L07-Q1",
+          "question_type": "nuance_choice",
+          "prompt_ja_ruby": "{古|ふる}い{箱|はこ}をそっと{開|あ}けてみた。＿＿、{中|なか}から{昔|むかし}の{写真|しゃしん}が{何枚|なんまい}も{出|で}てきた。",
+          "context_en": "I gently tried opening the old box. Thereupon, several old photos came out from inside.",
+          "choices": [
+            "すると",
+            "さて",
+            "それに",
+            "それと"
+          ],
+          "correct_index": 0,
+          "explanation": "A (すると) is correct because opening the box led immediately to an unexpected third-person/narrative discovery (old photos appearing inside). B (さて) signals a speaker's planned topic transition; C (それに) stacks matching evaluative reasons; D (それと) adds a casual item or reminder."
+        },
+        {
+          "question_id": "L07-Q2",
+          "question_type": "fill_blank",
+          "prompt_ja_ruby": "{挨拶|あいさつ}はこのくらいにして、＿＿、{今日|きょう}の{本題|ほんだい}に{入|はい}りましょう。",
+          "context_en": "Let's keep the greetings short; well now, let's move into today's main topic.",
+          "choices": [
+            "それに",
+            "すると",
+            "さて",
+            "あと"
+          ],
+          "correct_index": 2,
+          "explanation": "C (さて) cleanly signals a poised transition from introductory remarks into the planned main topic. A (それに) adds a reinforcing reason; B (すると) reports an automatic/unexpected result rather than a speaker's deliberate pivot; D (あと) introduces an informal afterthought."
+        },
+        {
+          "question_id": "L07-Q3",
+          "question_type": "attachment_trap",
+          "prompt_ja_ruby": "ドアを{開|あ}けた。すると、＿＿。",
+          "context_en": "I opened the door. Thereupon, a cool breeze blew in.",
+          "choices": [
+            "{中|なか}をちょっと{見|み}てください",
+            "すぐ{部屋|へや}に{入|はい}りましょう",
+            "{荷物|にもつ}を{中|なか}に{置|お}こう",
+            "{涼|すず}しい{風|かぜ}が{吹|ふ}いてきた"
+          ],
+          "correct_index": 3,
+          "explanation": "D ({涼|すず}しい{風|かぜ}が{吹|ふ}いてきた) is the only grammatical continuation after すると because すると cannot introduce speaker commands/requests (A: ～てください), invitations (B: ～ましょう), or raw speaker volition (C: ～よう). Only an uncontrolled, immediately observed event fits すると."
+        },
+        {
+          "question_id": "L07-Q4",
+          "question_type": "star_order",
+          "prompt_ja_ruby": "このアパートは{家賃|やちん}が{安|やす}い。＿　＿　★　＿　のが{魅力|みりょく}だ。",
+          "context_en": "The rent for this apartment is cheap. Moreover, the fact that it faces south and gets very good sunlight is its appeal.",
+          "choices": [
+            "{南向|みなみむ}きで",
+            "{日当|ひあ}たりが",
+            "とても{良|よ}い",
+            "しかも、"
+          ],
+          "correct_index": 1,
+          "explanation": "The unique grammatical sequence is [D: しかも、] → [A: {南向|みなみむ}きで] → [B ★: {日当|ひあ}たりが] → [C: とても{良|よ}い] (のが{魅力|みりょく}だ). しかも、 opens the added point; 南向きで gives the orientation causing good light; 日当たりが serves as subject of とても良い; and とても良い modifies nominalizer の. Thus {日当|ひあ}たりが (B) occupies ★."
+        }
+      ]
+    },
+    {
+      "lesson_id": "L08",
+      "lesson_number": 8,
+      "renshuu_title": "Sentence Links #3",
+      "has_video": true,
+      "summary": "Distinguish adversative, topic-changing, and qualifying sentence links: factual reversal ところが, abrupt subject jump ところで, qualifying concession もっとも vs binding exception ただし, and counterproductive backfire かえって.",
+      "study_tip": "Never mix up ところが ('however, contrary to what happened') with ところで ('by the way'). Check whether Sentence B reports a factual plot twist (ところが), limits a rule with an exception (ただし), softens a bold claim (もっとも), or backfires opposite to expectation (かえって).",
+      "grammar_points": [
+        {
+          "id": "tokoroga",
+          "pattern": "ところが",
+          "pattern_ruby": "ところが",
+          "romaji": "tokoro ga",
+          "meaning_en": "however; yet; contrary to expectation (factual reversal)",
+          "register": "neutral",
+          "renshuu_status": "verified_renshuu",
+          "mental_model": "ところが is a plot-twist connector between two realized facts: Sentence A sets up a reasonable expectation ('the forecast said sunny,' 'I planned to save money'), and Sentence B delivers what actually happened in reality—surprisingly going the opposite way. Because it reports lived reality, B cannot be a command, request, or mere static comparison.",
+          "formation": [
+            {
+              "pos": "{前文|ぜんぶん}（{予想|よそう}・{予定|よてい}・{状況|じょうきょう}）",
+              "rule": "「{文|ぶん}A。ところが、{文|ぶん}B」で{文頭|ぶんとう}に{置|お}く"
+            },
+            {
+              "pos": "{後文|こうぶん}の{制約|せいやく}",
+              "rule": "{予想|よそう}に{反|はん}して{実際|じっさい}に{起|お}きた{事実|じじつ}（{多|おお}くは{過去形|かこけい}）を{述|の}べる"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "{天気予報|てんきよほう}は{晴|は}れだった。ところが、{昼|ひる}すぎから{急|きゅう}に{雨|あめ}が{降|ふ}り{出|だ}した。",
+              "structure_note": "Expected clear weather in Sentence 1 is overturned by observed sudden rain in Sentence 2.",
+              "en": "The weather forecast called for sun. However, it suddenly started raining past noon."
+            },
+            {
+              "ja_ruby": "{朝|あさ}の{電車|でんしゃ}は{混|こ}んでいると{思|おも}った。ところが、{今日|きょう}はほとんど{人|ひと}がいなかった。",
+              "structure_note": "Contrasts the speaker's expectation with the surprising observed state.",
+              "en": "I thought the morning train would be crowded. To my surprise, however, there was hardly anyone on it today."
+            },
+            {
+              "ja_ruby": "{健太|けんた}さんは{毎日|まいにち}{走|はし}るつもりだった。ところが、{三日|みっか}で{足|あし}が{痛|いた}くなってやめてしまった。",
+              "structure_note": "Planned resolve collides with a factual setback reported in the past tense.",
+              "en": "Kenta-san intended to run every day. However, after three days his legs started hurting and he quit."
+            }
+          ],
+          "pitfalls": [
+            "Never follow ところが with commands, requests, invitations, or unfulfilled opinions (e.g., 「×高い。ところが、買ってください」→ use でも or しかし).",
+            "Do not use ところが for timeless static contrasts between two separate subjects (e.g., 「×兄は背が高い。ところが弟は低い」→ use 一方 or が)."
+          ]
+        },
+        {
+          "id": "tokorode",
+          "pattern": "ところで",
+          "pattern_ruby": "ところで",
+          "romaji": "tokoro de",
+          "meaning_en": "by the way; changing the subject",
+          "register": "neutral",
+          "renshuu_status": "canonical_n3",
+          "mental_model": "While ところが flips the current topic upside down, ところで jumps tracks onto an unrelated subject ('by the way'). Speakers use it in conversation, emails, and letters to pivot freely from work to lunch plans, or from small talk to an unexpected question, without needing a logical bridge.",
+          "formation": [
+            {
+              "pos": "{文頭|ぶんとう}（{話題|わだい}の{転換|てんかん}）",
+              "rule": "「{文|ぶん}A。ところで、{文|ぶん}B」の{形|かたち}で{前|まえ}の{話題|わだい}とは{別|べつ}の{話|はなし}を{切|き}り{出|だ}す"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "{今日|きょう}の{授業|じゅぎょう}は{難|むずか}しかったですね。ところで、{週末|しゅうまつ}の{予定|よてい}はもう{決|き}まりましたか。",
+              "structure_note": "Abruptly shifts from class difficulty to asking about weekend plans.",
+              "en": "Today's class was tough, wasn't it? By the way, have you decided your plans for the weekend yet?"
+            },
+            {
+              "ja_ruby": "この{資料|しりょう}の{修正|しゅうせい}は{終|お}わりました。ところで、{先月|せんげつ}お{願|ねが}いした{件|けん}はどうなりましたか。",
+              "structure_note": "Polite workplace pivot from one finished task to an unrelated pending request.",
+              "en": "The revisions to this document are finished. By the way, what happened with the matter I asked you about last month?"
+            },
+            {
+              "ja_ruby": "{美咲|みさき}さん、お{茶|ちゃ}のおかわりはいかがですか。ところで、{最近|さいきん}よく{行|い}くお{店|みせ}はありますか。",
+              "structure_note": "Casual polite conversation shift opening a fresh topic.",
+              "en": "Misaki-san, would you like another cup of tea? By the way, are there any shops you go to often lately?"
+            }
+          ],
+          "pitfalls": [
+            "Do not confuse ところで ('by the way') with look-alike ところが ('however, contrary to expectation'); one kana changes the entire discourse relation.",
+            "Do not confuse sentence-initial ところで with verb-attached ～たところで ('even if one does ~, it makes no difference')."
+          ]
+        },
+        {
+          "id": "mottomo-tadashi",
+          "pattern": "もっとも・ただし",
+          "pattern_ruby": "もっとも・ただし",
+          "romaji": "mottomo / tadashi",
+          "meaning_en": "although; mind you (caveat) / however; provided that (formal exception)",
+          "register": "written",
+          "renshuu_status": "canonical_n3",
+          "mental_model": "Both qualify Sentence A rather than flatly rejecting it, yet with distinct jobs. もっとも steps back from a broad claim or compliment to admit a realistic caveat ('though admittedly / mind you'). ただし acts like fine print on a contract or sign: it attaches a strict condition or exception ('provided that / except when').",
+          "formation": [
+            {
+              "pos": "もっとも（{補足|ほそく}・{制限|せいげん}）",
+              "rule": "「{文|ぶん}A（{主張|しゅちょう}・{評価|ひょうか}）。もっとも、{文|ぶん}B（{現実的|げんじつてき}な{例外|れいがい}・{留保|りゅうほ}）」"
+            },
+            {
+              "pos": "ただし（{条件|じょうけん}・{除外|じょがい}）",
+              "rule": "「{文|ぶん}A（{規則|きそく}・{一般論|いっぱんろん}）。ただし、{文|ぶん}B（{必要|ひつよう}な{条件|じょうけん}・{例外|れいがい}{規定|きてい}）」"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "{新|あたら}しいシステムはとても{便利|べんり}だ。もっとも、{慣|な}れるまでには{少|すこ}し{時間|じかん}がかかる。",
+              "structure_note": "もっとも qualifies the praise in Sentence 1 by acknowledging a fair practical caveat.",
+              "en": "The new system is very convenient. Though admittedly, it takes a little time to get used to."
+            },
+            {
+              "ja_ruby": "{佐藤|さとう}さんはいつも{元気|げんき}に{見|み}える。もっとも、{本当|ほんとう}は{疲|つか}れていることもあるだろう。",
+              "structure_note": "Tempers an absolute observation with a realistic qualification.",
+              "en": "Sato-san always looks energetic. Mind you, there are probably times when he's actually tired."
+            },
+            {
+              "ja_ruby": "この{図書館|としょかん}は{誰|だれ}でも{利用|りよう}できます。ただし、{本|ほん}を{借|か}りるには{登録|とうろく}が{必要|ひつよう}です。",
+              "structure_note": "Classic rule-and-proviso structure: open access in A, binding condition in B via ただし.",
+              "en": "Anyone can use this library. However, registration is required in order to borrow books."
+            },
+            {
+              "ja_ruby": "{雨|あめ}でもイベントは{行|おこな}います。ただし、{台風|たいふう}の{場合|ばあい}は{中止|ちゅうし}となります。",
+              "structure_note": "States the explicit formal exception to a public event schedule.",
+              "en": "The event will be held even in the rain. Provided, however, that in the case of a typhoon it will be canceled."
+            }
+          ],
+          "pitfalls": [
+            "Do not confuse conjunction もっとも ('though admittedly') with superlative adverb {最|もっと}も ('most', as in 最も大切なこと).",
+            "Do not use rule-bound ただし for casual emotional contrasts (e.g., 「×このケーキは高い。ただし美味しい」→ use でも or が)."
+          ]
+        },
+        {
+          "id": "kaette",
+          "pattern": "かえって",
+          "pattern_ruby": "かえって",
+          "romaji": "kaette",
+          "meaning_en": "on the contrary; rather; all the more (backfiring effect)",
+          "register": "neutral",
+          "renshuu_status": "canonical_n3",
+          "mental_model": "かえって marks irony in action: you do something expecting result X (resting to recover, buying cheap to save, taking a shortcut to save time), yet it backfires and produces the exact opposite—often worse—result! Grammatically it works as an adverb right before the predicate or after ～のに／～と.",
+          "formation": [
+            {
+              "pos": "{複文|ふくぶん}・{文頭|ぶんとう}",
+              "rule": "「{文|ぶん}A。かえって{文|ぶん}B」または「〜のに／〜と、かえって＋{述語|じゅつご}」"
+            },
+            {
+              "pos": "{頻出|ひんしゅつ}の{後続語|こうぞくご}",
+              "rule": "「かえって{疲|つか}れた」「かえって{悪|わる}くなる」「かえって{時間|じかん}がかかる」など{逆効果|ぎゃくこうか}を{表|あらわ}す"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "{今日|きょう}は{早|はや}く{寝|ね}ようとしたのに、かえって{目|め}が{冴|さ}えて{眠|ねむ}れなかった。",
+              "structure_note": "Trying to sleep early produced the opposite counterproductive result via かえって.",
+              "en": "Even though I tried to go to bed early today, on the contrary I became wide awake and couldn't sleep."
+            },
+            {
+              "ja_ruby": "{安|やす}い{靴|くつ}を{買|か}ったが、すぐ{壊|こわ}れてしまい、かえってお{金|かね}がかかった。",
+              "structure_note": "Intended savings backfired into greater expense.",
+              "en": "I bought cheap shoes, but they broke right away and ended up costing more instead."
+            },
+            {
+              "ja_ruby": "{良|よ}かれと{思|おも}って{手伝|てつだ}ったのに、かえって{相手|あいて}の{邪魔|じゃま}になってしまった。",
+              "structure_note": "Highlights the ironic backfire between good intentions and actual outcome.",
+              "en": "I helped thinking it would be good for them, yet on the contrary I ended up getting in their way."
+            },
+            {
+              "ja_ruby": "{難|むずか}しい{言葉|ことば}で{説明|せつめい}すると、{聞|き}き{手|て}はかえって{混乱|こんらん}するかもしれない。",
+              "structure_note": "Used after ～と to warn of an unintended negative consequence.",
+              "en": "If you explain using difficult words, the listener might become all the more confused instead."
+            }
+          ],
+          "pitfalls": [
+            "Do not use かえって merely to compare two static opposites with no failed intention or backfire (e.g., 「×夏は暑いが、かえって冬は寒い」→ use 一方 or 逆に).",
+            "Remember that かえって is an adverb modifying the resulting predicate, so place it in the result clause rather than at the very start of Sentence A."
+          ]
+        }
+      ],
+      "lesson_contrast": {
+        "title": "Reversal, Topic Shift, Proviso, and Backfire",
+        "explanation": "Lesson 8 connectors all pivot away from Sentence A, but they differ sharply in whether they flip expectations, jump to a new subject, add fine print, or highlight a counterproductive result.",
+        "rows": [
+          {
+            "expression": "ところが",
+            "register": "Neutral",
+            "key_rule": "Unexpected factual reversal between realized events; no commands/requests.",
+            "example_short": "{晴|は}れのはずだ。ところが{雨|あめ}になった。"
+          },
+          {
+            "expression": "ところで",
+            "register": "Neutral",
+            "key_rule": "Abrupt topic jump to an unrelated subject ('by the way').",
+            "example_short": "ところで、{来週|らいしゅう}は{暇|ひま}ですか。"
+          },
+          {
+            "expression": "もっとも",
+            "register": "Written / Analytical",
+            "key_rule": "Qualifying caveat softening a broad claim or praise ('though admittedly').",
+            "example_short": "{便利|べんり}だ。もっとも{値段|ねだん}は{高|たか}い。"
+          },
+          {
+            "expression": "ただし",
+            "register": "Written / Official",
+            "key_rule": "Formal binding condition or exception ('provided that').",
+            "example_short": "{参加|さんか}{自由|じゆう}。ただし{予約|よやく}が{必要|ひつよう}だ。"
+          },
+          {
+            "expression": "かえって",
+            "register": "Neutral",
+            "key_rule": "Adverbial backfire opposite to intended effort ('all the more / instead').",
+            "example_short": "{休|やす}みすぎて、かえって{疲|つか}れた。"
+          }
+        ]
+      },
+      "practice_quiz": [
+        {
+          "question_id": "L08-Q1",
+          "question_type": "fill_blank",
+          "prompt_ja_ruby": "{図書館|としょかん}の{本|ほん}は{誰|だれ}でも{借|か}りられます。＿＿、{一度|いちど}に{五冊|ごさつ}までという{決|き}まりがあります。",
+          "context_en": "Anyone can borrow library books. However, there is a rule limiting you to five books at a time.",
+          "choices": [
+            "ところで",
+            "かえって",
+            "ただし",
+            "ところが"
+          ],
+          "correct_index": 2,
+          "explanation": "C (ただし) is correct because it attaches a binding formal condition or limit (up to five books) to a general rule (anyone can borrow). A (ところで) changes the topic altogether; B (かえって) expresses a backfiring result; D (ところが) marks a surprising factual plot twist rather than an official rule proviso."
+        },
+        {
+          "question_id": "L08-Q2",
+          "question_type": "nuance_choice",
+          "prompt_ja_ruby": "{時間|じかん}を{節約|せつやく}しようと{近道|ちかみち}をしたのに、{工事|こうじ}で{道|みち}が{混|こ}んでいて、＿＿{時間|じかん}がかかってしまった。",
+          "context_en": "Even though I took a shortcut trying to save time, the road was jammed with construction and ended up taking even longer instead.",
+          "choices": [
+            "かえって",
+            "ところが",
+            "ところで",
+            "ただし"
+          ],
+          "correct_index": 0,
+          "explanation": "A (かえって) fits both meaning and position: it modifies 時間がかかってしまった inside the clause to show the opposite backfiring result of trying to save time. B (ところが), C (ところで), and D (ただし) are sentence-initial conjunctions that neither fit grammatically mid-clause after ～いて、 nor express backfiring irony."
+        },
+        {
+          "question_id": "L08-Q3",
+          "question_type": "attachment_trap",
+          "prompt_ja_ruby": "{朝|あさ}の{天気予報|てんきよほう}は{晴|は}れだった。ところが、＿＿。",
+          "context_en": "The morning weather forecast was sunny. However, in the afternoon it suddenly started raining.",
+          "choices": [
+            "{念|ねん}のため{傘|かさ}を{持|も}ちなさい",
+            "みんなで{散歩|さんぽ}に{行|い}きましょう",
+            "ちょっと{外|そと}へ{出|で}かけよう",
+            "{午後|ごご}に{急|きゅう}に{雨|あめ}が{降|ふ}った"
+          ],
+          "correct_index": 3,
+          "explanation": "D ({午後|ごご}に{急|きゅう}に{雨|あめ}が{降|ふ}った) is the only valid completion because ところが must introduce an actual factual event reversing the expectation set in Sentence 1. Commands (A: 持ちなさい), invitations (B: 行きましょう), and volitional proposals (C: 出かけよう) cannot follow ところが."
+        },
+        {
+          "question_id": "L08-Q4",
+          "question_type": "star_order",
+          "prompt_ja_ruby": "{仕事|しごと}の{話|はなし}はここまで。＿　＿　★　＿　か。",
+          "context_en": "Let's leave work talk here. By the way, can you attend next week's welcome party?",
+          "choices": [
+            "{出席|しゅっせき}できます",
+            "{歓迎会|かんげいかい}に",
+            "ところで、",
+            "{来週|らいしゅう}の"
+          ],
+          "correct_index": 1,
+          "explanation": "The unique grammatical sequence is [C: ところで、] → [D: {来週|らいしゅう}の] → [B ★: {歓迎会|かんげいかい}に] → [A: {出席|しゅっせき}できます] (か). ところで、 starts the new topic; 来週の must precede the noun 歓迎会に; and 出席できます attaches before the question particle か. Therefore {歓迎会|かんげいかい}に (B) sits at ★."
+        }
+      ]
+    },
+    {
+      "lesson_id": "L09",
+      "lesson_number": 9,
+      "renshuu_title": "Conjunctions: でも",
+      "has_video": true,
+      "summary": "Unlock all three noun-level functions of でも: highlighting an extreme baseline ('even X'), offering a low-pressure suggestion ('X or something'), and pairing with question words for universal affirmatives ('anyone / anything / anywhere / anytime').",
+      "study_tip": "Watch particle order like a hawk: でも completely replaces が and を, yet MUST stand after に・で・へ・から・と (日曜日にでも, 誰とでも). And remember: 疑問詞＋でも only pairs with positive/universal claims—switch to 疑問詞＋も〜ない for 'nobody / nothing / nowhere.'",
+      "grammar_points": [
+        {
+          "id": "noun-demo-extreme",
+          "pattern": "名詞＋でも（極端な例）",
+          "pattern_ruby": "{名詞|めいし}＋でも（{極端|きょくたん}な{例|れい}）",
+          "romaji": "meishi + demo (kyokutan na rei)",
+          "meaning_en": "even X (highlighting an extreme or minimal baseline)",
+          "register": "neutral",
+          "renshuu_status": "verified_renshuu",
+          "mental_model": "Extreme-example でも picks one edge case (the easiest, busiest, most expert, or least likely person/time) to prove a sweeping rule: 'If even this extreme X applies, then obviously everything else does too!' Unlike dramatic さえ, this でも stays conversational and everyday.",
+          "formation": [
+            {
+              "pos": "{名詞|めいし}（が・を{削除|さくじょ}）",
+              "rule": "{名詞|めいし}＋でも（{主語|しゅご}の「が」と{目的語|もくてきご}の「を」は{消|き}える）"
+            },
+            {
+              "pos": "{格助詞|かくじょし}（に・で・へ・から・と）",
+              "rule": "{名詞|めいし}＋に／で／へ／から／と＋でも（{助詞|じょし}の{後|あと}に「でも」）"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "この{漢字|かんじ}は{簡単|かんたん}だから、{小学校|しょうがっこう}{一年生|いちねんせい}でも{読|よ}めます。",
+              "structure_note": "Sets a lower-end extreme (first grader) to emphasize how easy the kanji is for everyone else.",
+              "en": "This kanji is easy, so even a first-grade elementary student can read it."
+            },
+            {
+              "ja_ruby": "そのお{店|みせ}は{日曜日|にちようび}でも{開|あ}いているので{助|たす}かります。",
+              "structure_note": "Marks Sunday as an extreme day when many other shops close.",
+              "en": "That shop is open even on Sundays, which is really helpful."
+            },
+            {
+              "ja_ruby": "{経験|けいけん}のあるプロでも、ときには{簡単|かんたん}なところで{間違|まちが}えることがある。",
+              "structure_note": "Sets an upper-end extreme (experienced pros) to normalize making simple mistakes.",
+              "en": "Even experienced pros sometimes make mistakes on simple things."
+            },
+            {
+              "ja_ruby": "そんな{重|おも}い{荷物|にもつ}は、{大人|おとな}でも{一人|ひとり}では{運|はこ}べないよ。",
+              "structure_note": "Upper-extreme negative ('even an adult cannot -> nobody can') works naturally with でも.",
+              "en": "Even an adult can't carry such heavy luggage alone."
+            }
+          ],
+          "pitfalls": [
+            "Never keep が or を before でも (say 「子供でもできる」, NEVER 「×子供がでもできる」).",
+            "For minimal-unit negatives ('not even one drop / not even a single word'), use ～も〜ない or ～さえ〜ない (「水も飲めない」), NOT 「×水でも飲めない」."
+          ]
+        },
+        {
+          "id": "noun-demo-suggestion",
+          "pattern": "名詞＋でも（例示・提案）",
+          "pattern_ruby": "{名詞|めいし}＋でも（{例示|れいじ}・{提案|ていあん}）",
+          "romaji": "meishi + demo (reiji / teian)",
+          "meaning_en": "X or something; something like X (soft suggestion)",
+          "register": "neutral",
+          "renshuu_status": "verified_renshuu",
+          "mental_model": "Soft-suggestion でも puts one casual idea on the table while leaving the door wide open to alternatives: 'Coffee or something? (Tea or juice is fine too!)' It removes pressure from invitations, offers, and brainstorming—sounding polite, relaxed, and considerate rather than pushy.",
+          "formation": [
+            {
+              "pos": "{名詞|めいし}（が・を{置換|ちかん}）",
+              "rule": "{名詞|めいし}＋でも＋{勧誘|かんゆう}・{提案|ていあん}（〜ませんか／〜ましょう／〜よう）"
+            },
+            {
+              "pos": "{格助詞|かくじょし}（に・で・へ・から・と）",
+              "rule": "{名詞|めいし}＋に／で／へ／から／と＋でも（{必|かなら}ず{助詞|じょし}の{後|あと}に「でも」）"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "ちょっと{疲|つか}れましたね。お{茶|ちゃ}でも{飲|の}みませんか。",
+              "structure_note": "Replaces を after お茶, offering tea as an easy, non-binding break idea.",
+              "en": "We're getting a bit tired, aren't we? How about grabbing tea or something?"
+            },
+            {
+              "ja_ruby": "{今度|こんど}の{土曜日|どようび}にでも、{映画|えいが}を{見|み}に{行|い}きませんか。",
+              "structure_note": "Notice particle order: time marker に comes BEFORE でも (土曜日にでも).",
+              "en": "Shall we go see a movie next Saturday or sometime around then?"
+            },
+            {
+              "ja_ruby": "{分|わ}からないところがあれば、{田中|たなか}さんとでも{相談|そうだん}してみてください。",
+              "structure_note": "Partner particle と comes BEFORE でも (田中さんとでも).",
+              "en": "If there are parts you don't understand, try consulting with Tanaka-san or someone like him."
+            },
+            {
+              "ja_ruby": "{連休|れんきゅう}は、{近|ちか}くの{温泉|おんせん}へでも{出|で}かけようかと{思|おも}っています。",
+              "structure_note": "Direction particle へ precedes でも to suggest a relaxed tentative destination.",
+              "en": "For the long weekend, I'm thinking of heading out to a nearby hot spring or somewhere."
+            }
+          ],
+          "pitfalls": [
+            "ALWAYS place に・で・へ・から・と BEFORE でも (「来週にでも」○ vs 「×来週でもに」), and drop が・を completely (「映画でも見よう」○ vs 「×映画をでも見よう」).",
+            "Do not use soft-suggestion でも for urgent emergencies or strict mandatory rules (e.g., 「×火事だ！水でもかけろ」 sounds oddly casual)."
+          ]
+        },
+        {
+          "id": "wh-demo-universal",
+          "pattern": "疑問詞＋でも",
+          "pattern_ruby": "{疑問詞|ぎもんし}＋でも",
+          "romaji": "gimonshi + demo",
+          "meaning_en": "anytime / anyone / anywhere / anything (universal affirmative)",
+          "register": "neutral",
+          "renshuu_status": "verified_renshuu",
+          "mental_model": "Attaching でも to a question word (いつ, {誰|だれ}, どこ, {何|なん}, どれ) turns 'which one?' into 'whichever one you pick—ALL of them!' Crucially, this universal free-choice form lives in affirmative or broad potential statements. The moment you express total negation ('nobody / nothing / nowhere'), Japanese switches from でも to ～も〜ない.",
+          "formation": [
+            {
+              "pos": "{基本|きほん}の{疑問詞|ぎもんし}",
+              "rule": "いつでも・{誰|だれ}でも・どこでも・{何|なん}でも・どれでも・どちらでも"
+            },
+            {
+              "pos": "{格助詞|かくじょし}を{伴|ともな}う{場合|ばあい}",
+              "rule": "{疑問詞|ぎもんし}＋に／で／へ／から／と＋でも（{例|れい}：どこにでも・{誰|だれ}とでも）"
+            },
+            {
+              "pos": "{全面否定|ぜんめんひてい}との{切|き}り{替|か}え",
+              "rule": "{否定文|ひていぶん}では「{誰|だれ}も〜ない」「{何|なに}も〜ない」「どこへも〜ない」を{使|つか}う"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "この{公園|こうえん}は{入場|にゅうじょう}{無料|むりょう}なので、{誰|だれ}でも{自由|じゆう}に{入|はい}れます。",
+              "structure_note": "Universal affirmative subject: 誰でも ('anyone at all') replaces が before the potential verb.",
+              "en": "Admission to this park is free, so anyone can enter freely."
+            },
+            {
+              "ja_ruby": "{分|わ}からないことがあったら、いつでも{何|なん}でも{聞|き}いてくださいね。",
+              "structure_note": "Reads 何 as なん before でも (いつでも何でも = 'anytime, anything').",
+              "en": "If there's anything you don't understand, please ask me anything anytime."
+            },
+            {
+              "ja_ruby": "このパソコンは{軽|かる}いから、どこにでも{持|も}ち{運|はこ}ぶことができて{便利|べんり}だ。",
+              "structure_note": "Location particle に sits between どこ and でも (どこにでも).",
+              "en": "This laptop is light, so it's convenient to carry anywhere."
+            },
+            {
+              "ja_ruby": "{鈴木|すずき}さんは{話|はな}し{上手|じょうず}で、{初|はじ}めて{会|あ}う{人|ひと}とでもすぐ{仲良|なかよ}くなれる。",
+              "structure_note": "Stacks と + でも after the noun phrase modified by 初めて会う.",
+              "en": "Suzuki-san is a great conversationalist and can quickly get along with anyone, even people she meets for the first time."
+            }
+          ],
+          "pitfalls": [
+            "ALWAYS read {何|なん}でも as なんでも—never なにでも!",
+            "NEVER use 疑問詞＋でも directly with a negated predicate to mean 'nobody / nothing / nowhere' (e.g., 「×誰でも来なかった」「×何でも食べなかった」→ use 「誰も来なかった」「何も食べなかった」).",
+            "Keep case particles BEFORE でも: say 「誰とでも話す」, NEVER 「×誰でもと話す」."
+          ]
+        }
+      ],
+      "lesson_contrast": {
+        "title": "Three Faces of Noun + でも vs Negative ～も〜ない",
+        "explanation": "Even though the surface particle でも looks identical across Lesson 9, context, intonation, predicate polarity, and particle order tell you whether the speaker means 'even X,' 'X or something,' or 'anyone/anything.'",
+        "rows": [
+          {
+            "expression": "{名詞|めいし}＋でも（{極端|きょくたん}な{例|れい}）",
+            "register": "Neutral",
+            "key_rule": "Extreme baseline ('even X'); replaces が/を, follows に/で/へ/から/と.",
+            "example_short": "{子供|こども}でも{知|し}っている。"
+          },
+          {
+            "expression": "{名詞|めいし}＋でも（{例示|れいじ}・{提案|ていあん}）",
+            "register": "Neutral",
+            "key_rule": "Soft non-binding option ('X or something') in offers and plans.",
+            "example_short": "お{茶|ちゃ}でも{飲|の}みませんか。"
+          },
+          {
+            "expression": "{疑問詞|ぎもんし}＋でも",
+            "register": "Neutral",
+            "key_rule": "Universal affirmative ('anyone / anything / anytime / anywhere').",
+            "example_short": "{誰|だれ}でも{参加|さんか}できる。"
+          },
+          {
+            "expression": "{疑問詞|ぎもんし}＋も 〜 ない",
+            "register": "Neutral",
+            "key_rule": "Total negation ('nobody / nothing / nowhere'); never use でも here.",
+            "example_short": "{誰|だれ}も{来|こ}なかった。"
+          }
+        ]
+      },
+      "practice_quiz": [
+        {
+          "question_id": "L09-Q1",
+          "question_type": "nuance_choice",
+          "prompt_ja_ruby": "{少|すこ}し{疲|つか}れましたね。よかったら、そこのカフェで＿＿ませんか。",
+          "context_en": "We're getting a bit tired, aren't we? If you'd like, how about grabbing tea or something at that cafe?",
+          "choices": [
+            "お{茶|ちゃ}ばかり{飲|の}み",
+            "お{茶|ちゃ}しか{飲|の}み",
+            "お{茶|ちゃ}をでも{飲|の}み",
+            "お{茶|ちゃ}でも{飲|の}み"
+          ],
+          "correct_index": 3,
+          "explanation": "D (お{茶|ちゃ}でも{飲|の}み) is correct: でも replaces を and frames tea as a casual, low-pressure suggestion ('tea or something'). A (ばかり) means 'drink nothing but tea'; B (しか) must pair with a plain negative like 飲まない, not an invitation ませんか; C (をでも) illegally keeps を before でも."
+        },
+        {
+          "question_id": "L09-Q2",
+          "question_type": "attachment_trap",
+          "prompt_ja_ruby": "この{仕事|しごと}について、＿＿{相談|そうだん}してみてください。",
+          "context_en": "Regarding this work, please try consulting with a senior colleague or someone like that.",
+          "choices": [
+            "{先輩|せんぱい}とでも",
+            "{先輩|せんぱい}でもと",
+            "{先輩|せんぱい}がでも",
+            "{先輩|せんぱい}をでも"
+          ],
+          "correct_index": 0,
+          "explanation": "A ({先輩|せんぱい}とでも) is the only valid particle order: because 相談する ('consult with ~') requires と, でも MUST attach after と. B (でもと) reverses the required particle order; C (がでも) and D (をでも) both use wrong case roles and illegally keep が/を before でも."
+        },
+        {
+          "question_id": "L09-Q3",
+          "question_type": "fill_blank",
+          "prompt_ja_ruby": "{昨日|きのう}は{図書館|としょかん}が{閉|し}まっていたので、＿＿{中|なか}に{入|はい}れなかった。",
+          "context_en": "Because the library was closed yesterday, nobody could get inside.",
+          "choices": [
+            "{誰|だれ}でも",
+            "{誰|だれ}かに",
+            "{誰|だれ}も",
+            "{誰|だれ}とでも"
+          ],
+          "correct_index": 2,
+          "explanation": "C ({誰|だれ}も) is required because Japanese total negation ('nobody could enter') pairs 疑問詞＋も with a negative verb (入れなかった). A (誰でも) and D (誰とでも) express universal affirmative ('anyone') and clash with direct negative predicates; B (誰かに) means 'to someone,' which does not fit the subject slot."
+        },
+        {
+          "question_id": "L09-Q4",
+          "question_type": "star_order",
+          "prompt_ja_ruby": "この{辞書|じしょ}は{説明|せつめい}がわかりやすいので、＿　＿　★　＿　わかる。",
+          "context_en": "Because the explanations in this dictionary are easy to understand, even a beginner who has just started learning Japanese can understand the meanings.",
+          "choices": [
+            "{意味|いみ}が",
+            "{初心者|しょしんしゃ}でも",
+            "{日本語|にほんご}を",
+            "{習|なら}い{始|はじ}めたばかりの"
+          ],
+          "correct_index": 1,
+          "explanation": "The unique grammatical sequence is [C: {日本語|にほんご}を] → [D: {習|なら}い{始|はじ}めたばかりの] → [B ★: {初心者|しょしんしゃ}でも] → [A: {意味|いみ}が] (わかる). 日本語を is the object of 習い始めたばかり; ばかりの modifies the noun 初心者でも; and 意味が pairs directly with わかる. Thus {初心者|しょしんしゃ}でも (B) lands on ★."
+        }
+      ]
+    },
+    {
+      "lesson_id": "L10",
+      "lesson_number": 10,
+      "renshuu_title": "Conjunctions: でも #2",
+      "has_video": true,
+      "summary": "Build full concessive arguments using でも and ～ても: acknowledging fact A while pivoting to B ({譲歩|じょうほ}の「でも」), quantifying unstoppable persistence (いくら〜ても / どんなに〜ても), showing outcome irrelevance (〜ても〜なくても), and framing hypothetical worst cases (たとえ〜ても).",
+      "study_tip": "Match concessive adverbs to their exact partners: いくら highlights measurable amount or repeated effort, どんなに targets emotional or qualitative intensity, and たとえ demands a hypothetical ～ても / ～でも ending—never a known past fact with のに.",
+      "grammar_points": [
+        {
+          "id": "concessive-demo",
+          "pattern": "譲歩の「でも」",
+          "pattern_ruby": "{譲歩|じょうほ}の「でも」",
+          "romaji": "jōho no demo",
+          "meaning_en": "but; even so; still; nevertheless (concessive pivot)",
+          "register": "neutral",
+          "renshuu_status": "verified_renshuu",
+          "mental_model": "Concessive でも is the polite, grounded way to say 'Yes, I hear A—and A may be true—yet B still stands.' Whether opening a new sentence ('でも、〜') or attaching directly to a noun/na-adjective ('雨でも〜') as the cousin of verb ～ても, it lets you validate one point before asserting your overriding reason, feeling, or plan.",
+          "formation": [
+            {
+              "pos": "{文頭|ぶんとう}（{接続詞|せつぞくし}）",
+              "rule": "「{文|ぶん}A（{認|みと}める{事実|じじつ}）。でも、{文|ぶん}B（{反対|はんたい}・{主張|しゅちょう}）」"
+            },
+            {
+              "pos": "{名詞|めいし}・な{形容詞|けいようし}",
+              "rule": "{名詞|めいし}／な{形容詞語幹|けいようしごかん}＋でも、{文|ぶん}B"
+            },
+            {
+              "pos": "{動詞|どうし}・い{形容詞|けいようし}",
+              "rule": "{動詞|どうし}て{形|けい}＋も ／ い{形容詞語幹|けいようしごかん}＋くても、{文|ぶん}B"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "そのマンションは{確|たし}かに{駅|えき}に{近|ちか}くて{便利|べんり}だ。でも、{家賃|やちん}が{高|たか}すぎる。",
+              "structure_note": "Validates the positive point (確かに便利だ) first, then pivots to the decisive objection via でも.",
+              "en": "That apartment is certainly close to the station and convenient. Even so, the rent is way too high."
+            },
+            {
+              "ja_ruby": "{本当|ほんとう}は{一緒|いっしょ}に{行|い}きたいです。でも、{明日|あした}は{朝|あさ}から{仕事|しごと}があるんです。",
+              "structure_note": "Polite spoken refusal acknowledging desire in Sentence 1 before giving the overriding obstacle.",
+              "en": "I really want to go with you. Still, I have work from the morning tomorrow."
+            },
+            {
+              "ja_ruby": "{日曜日|にちようび}でも、{試験|しけん}の{前|まえ}は{図書館|としょかん}で{勉強|べんきょう}する{学生|がくせい}が{多|おお}い。",
+              "structure_note": "Noun-attached concessive でも ('even though it's Sunday').",
+              "en": "Even on Sundays, there are many students studying in the library before exams."
+            },
+            {
+              "ja_ruby": "どんなに{忙|いそが}しくても、{高橋|たかはし}さんは{毎日|まいにち}{家族|かぞく}に{連絡|れんらく}するようにしている。",
+              "structure_note": "Concessive ～くても on an i-adjective connecting ongoing busyness to steady effort.",
+              "en": "No matter how busy he is, Takahashi-san makes sure to contact his family every day."
+            }
+          ],
+          "pitfalls": [
+            "In formal reports, academic papers, or stiff business correspondence, replace sentence-initial でも with しかし or けれども.",
+            "Keep concessive endings separate by part of speech: nouns and na-adjectives take ～でも (「暇でも」), while i-adjectives take ～くても (「安くて＋も」→「安くても」, NEVER 「×安いでも」)."
+          ]
+        },
+        {
+          "id": "ikura-donnani-temo",
+          "pattern": "いくら〜ても / どんなに〜ても",
+          "pattern_ruby": "いくら〜ても / どんなに〜ても",
+          "romaji": "ikura ~temo / donna ni ~temo",
+          "meaning_en": "no matter how much / no matter how (degree, effort, or emotion)",
+          "register": "neutral",
+          "renshuu_status": "canonical_n3",
+          "mental_model": "Both patterns state that pushing Condition A all the way up the dial still fails to change Result B. The split is intuitive: いくら measures countable quantity, money, time, or repeated effort ('no matter how many times / how expensive'), whereas どんなに measures qualitative depth, difficulty, or emotion ('no matter how deeply / terribly').",
+          "formation": [
+            {
+              "pos": "{動詞|どうし}",
+              "rule": "いくら／どんなに＋{動詞|どうし}て{形|けい}＋も"
+            },
+            {
+              "pos": "い{形容詞|けいようし}",
+              "rule": "いくら／どんなに＋い{形容詞語幹|けいようしごかん}＋くても"
+            },
+            {
+              "pos": "な{形容詞|けいようし}・{名詞|めいし}",
+              "rule": "いくら／どんなに＋な{形容詞語幹|けいようしごかん}／{名詞|めいし}＋でも"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "この{単語|たんご}はいくら{練習|れんしゅう}しても、なかなか{覚|おぼ}えられない。",
+              "structure_note": "いくら pairs naturally with repeated quantifiable effort (練習しても).",
+              "en": "No matter how much I practice these vocabulary words, I just can't seem to memorize them."
+            },
+            {
+              "ja_ruby": "{体|からだ}に{良|よ}いものなら、いくら{高|たか}くても{買|か}いたいと{思|おも}う{人|ひと}がいる。",
+              "structure_note": "いくら pairs directly with price (高くても = 'no matter how expensive').",
+              "en": "There are people who want to buy something no matter how expensive it is, as long as it's good for their health."
+            },
+            {
+              "ja_ruby": "どんなに{辛|つら}くても、{自分|じぶん}で{決|き}めた{道|みち}だからあきらめない。",
+              "structure_note": "どんなに pairs with qualitative emotional hardship (辛くても).",
+              "en": "No matter how painful it gets, I won't give up because it's the path I chose myself."
+            },
+            {
+              "ja_ruby": "どんなに{有名|ゆうめい}な{選手|せんしゅ}でも、{毎日|まいにち}の{基礎|きそ}{練習|れんしゅう}は{欠|か}かさないそうだ。",
+              "structure_note": "Shows どんなに with a na-adjective + noun phrase ending in でも.",
+              "en": "I hear that no matter how famous an athlete is, they never skip daily basic practice."
+            }
+          ],
+          "pitfalls": [
+            "Use どんなに rather than いくら for pure feelings and qualitative states (say 「どんなに悲しくても」, avoid 「×いくら悲しくても」).",
+            "Do not attach でも directly to plain dictionary i-adjectives (say 「いくら安くても」, NEVER 「×いくら安いでも」 or 「×いくら安いても」)."
+          ]
+        },
+        {
+          "id": "temo-nakutemo-tatoe",
+          "pattern": "〜ても〜なくても・たとえ〜ても",
+          "pattern_ruby": "〜ても〜なくても・たとえ〜ても",
+          "romaji": "~temo ~nakutemo / tatoe ~temo",
+          "meaning_en": "whether A or not A / even supposing (hypothetical extreme)",
+          "register": "neutral",
+          "renshuu_status": "canonical_n3",
+          "mental_model": "〜ても〜なくても puts both yes and no on the table ('whether X happens or does not happen, B stays completely unchanged'). たとえ〜ても zooms into an extreme hypothetical scenario ('even supposing the worst-case X happens, B still holds'). Unlike plain ～ても, たとえ strictly forbids already-realized past facts.",
+          "formation": [
+            {
+              "pos": "〜ても〜なくても（{動詞|どうし}）",
+              "rule": "{動詞|どうし}て{形|けい}＋も ＋ ない{形|けい}（〜なくて）＋も"
+            },
+            {
+              "pos": "〜ても〜なくても（{形容詞|けいようし}・{名詞|めいし}）",
+              "rule": "〜くても〜くなくても ／ 〜でも〜じゃなくても（でなくても）"
+            },
+            {
+              "pos": "たとえ〜ても",
+              "rule": "たとえ＋（{仮定|かてい}の{節|せつ}）＋〜ても／〜でも（{既定|きてい}の{過去事実|かこじじつ}には{使|つか}わない）"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "{明日|あした}は{雨|あめ}が{降|ふ}っても{降|ふ}らなくても、{運動会|うんどうかい}は{体育館|たいいくかん}で{行|おこな}います。",
+              "structure_note": "Pairs affirmative 降っても and negative 降らなくても to show the venue is fixed regardless of weather.",
+              "en": "Whether it rains tomorrow or not, we will hold the sports day in the gymnasium."
+            },
+            {
+              "ja_ruby": "{経験|けいけん}があってもなくても、やる{気|き}がある{人|ひと}なら{歓迎|かんげい}します。",
+              "structure_note": "Contrasts あっても and なくても (from ある/ない) to declare experience optional.",
+              "en": "Whether you have experience or not, anyone with motivation is welcome."
+            },
+            {
+              "ja_ruby": "たとえ{失敗|しっぱい}しても、いい{経験|けいけん}になるからやってみたほうがいい。",
+              "structure_note": "たとえ marks failing as a purely hypothetical case, paired tightly with しても.",
+              "en": "Even supposing you fail, it will become good experience, so you should give it a try."
+            },
+            {
+              "ja_ruby": "たとえ{家族|かぞく}に{反対|はんたい}されても、{留学|りゅうがく}する{決心|けっしん}は{変|か}わらない。",
+              "structure_note": "たとえ frames anticipated opposition as an extreme hypothetical that cannot sway the speaker's resolve.",
+              "en": "Even if my family were to oppose it, my determination to study abroad won't change."
+            }
+          ],
+          "pitfalls": [
+            "When you open a clause with たとえ, you MUST close it with a concessive form like ～ても／～でも／～としても—never with ～たら, ～ば, or ～のに.",
+            "NEVER use たとえ for an actual, confirmed past fact (e.g., 「×たとえ昨日雨が降ったのに、出かけた」→ drop たとえ and use ～のに or ～ても without たとえ)."
+          ]
+        }
+      ],
+      "lesson_contrast": {
+        "title": "Concession Spectrum: Pivot, Degree, Alternatives, and Hypotheticals",
+        "explanation": "All Lesson 10 structures concede A before stating B, but they differ in whether A is a conceded fact, a scaled extreme, a binary pair, or an imagined worst case.",
+        "rows": [
+          {
+            "expression": "{譲歩|じょうほ}の「でも」",
+            "register": "Neutral",
+            "key_rule": "Acknowledges fact/point A, then pivots to overriding B.",
+            "example_short": "{高|たか}い。でも、{買|か}いたい。"
+          },
+          {
+            "expression": "いくら〜ても",
+            "register": "Neutral",
+            "key_rule": "Unstoppable degree focused on amount, price, time, or effort.",
+            "example_short": "いくら{寝|ね}ても{眠|ねむ}い。"
+          },
+          {
+            "expression": "どんなに〜ても",
+            "register": "Neutral",
+            "key_rule": "Unstoppable degree focused on emotion or qualitative intensity.",
+            "example_short": "どんなに{辛|つら}くても{笑|わら}う。"
+          },
+          {
+            "expression": "〜ても〜なくても・たとえ〜ても",
+            "register": "Neutral",
+            "key_rule": "Whether A or not A (irrelevant) vs extreme hypothetical ('even supposing').",
+            "example_short": "たとえ{雨|あめ}でも{行|い}く。"
+          }
+        ]
+      },
+      "practice_quiz": [
+        {
+          "question_id": "L10-Q1",
+          "question_type": "fill_blank",
+          "prompt_ja_ruby": "たとえ{言葉|ことば}が{通|つう}じ＿＿、{笑顔|えがお}があれば{気持|きも}ちは{伝|つた}わるものだ。",
+          "context_en": "Even supposing your words don't get across, as long as you smile, your feelings will naturally come through.",
+          "choices": [
+            "なくても",
+            "なかったら",
+            "ないのに",
+            "ないから"
+          ],
+          "correct_index": 0,
+          "explanation": "A (なくても) is required because たとえ demands a concessive ending (～ても / ～なくても) to express an extreme hypothetical condition. B (なかったら) is a plain conditional incompatible with たとえ; C (ないのに) reports a known real-world fact rather than a supposition; D (ないから) expresses cause instead of concession."
+        },
+        {
+          "question_id": "L10-Q2",
+          "question_type": "attachment_trap",
+          "prompt_ja_ruby": "あの{旅館|りょかん}は{景色|けしき}が{素晴|すば}らしいから、いくら＿＿、きっと{人気|にんき}があるはずだ。",
+          "context_en": "That traditional inn has wonderful scenery, so no matter how expensive it is, it is surely popular.",
+          "choices": [
+            "{高|たか}いでも",
+            "{高|たか}いで",
+            "{高|たか}くても",
+            "{高|たか}くて"
+          ],
+          "correct_index": 2,
+          "explanation": "C ({高|たか}くても) is the sole grammatical attachment for i-adjectives with いくら〜ても: replace final い with くても. A (高いでも) illegally attaches でも directly to an i-adjective; B (高いで) is ungrammatical; D (高くて) drops も, losing the concessive 'even if / no matter how' meaning."
+        },
+        {
+          "question_id": "L10-Q3",
+          "question_type": "nuance_choice",
+          "prompt_ja_ruby": "{明日|あした}の{会議|かいぎ}には、{部長|ぶちょう}が＿＿、{予定通|よていどお}り{午前|ごぜん}{九時|くじ}に{始|はじ}めます。",
+          "context_en": "For tomorrow's meeting, whether the department manager comes or not, we will start at 9:00 a.m. as scheduled.",
+          "choices": [
+            "{来|き}たら{来|こ}なくても",
+            "{来|く}るのでも",
+            "{来|き}ても{来|こ}ないでも",
+            "{来|き}ても{来|こ}なくても"
+          ],
+          "correct_index": 3,
+          "explanation": "D ({来|き}ても{来|こ}なくても) properly pairs affirmative て-form 来ても and negative 来なくても to express 'whether the manager comes or not.' A mixes たら with なくても ungrammatically; B (来るのでも) lacks the binary alternative structure; C (来ても来ないでも) illegally uses ないでも instead of なくても."
+        },
+        {
+          "question_id": "L10-Q4",
+          "question_type": "star_order",
+          "prompt_ja_ruby": "{試験|しけん}の{前|まえ}でも、＿　＿　★　＿　ようにしている。",
+          "context_en": "Even before an exam, no matter how busy I am, I try to get sufficient sleep.",
+          "choices": [
+            "{睡眠|すいみん}を{取|と}る",
+            "{十分|じゅうぶん}な",
+            "どんなに",
+            "{忙|いそが}しくても、"
+          ],
+          "correct_index": 1,
+          "explanation": "The unique grammatical sequence is [C: どんなに] → [D: {忙|いそが}しくても、] → [B ★: {十分|じゅうぶん}な] → [A: {睡眠|すいみん}を{取|と}る] (ようにしている). どんなに pairs with 忙しくても、; 十分な must directly modify 睡眠を; and dictionary-form 取る is the only verb attaching before ようにしている. Hence {十分|じゅうぶん}な (B) lands on ★."
+        }
+      ]
+    }
+  ]
+}

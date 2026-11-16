@@ -1,0 +1,785 @@
+{
+  "unit_number": 10,
+  "unit_slug": "unit-10-garu-ppoi-seeming",
+  "unit_title": "Unit 10: Third-Person Feelings, Similitude & Seeming/Pretending (Lessons 50–52)",
+  "unit_overview": "Master Renshuu N3 Lessons 50–52: converting internal adjectives/desires into third-person observations with 〜がる, forming '-ish / prone to' adjectives with 〜っぽい, and distinguishing all N3 appearance, pretense, and tendency forms.",
+  "lessons": [
+    {
+      "lesson_id": "L50",
+      "lesson_number": 50,
+      "renshuu_title": "Using ~がる",
+      "has_video": false,
+      "summary": "Master externalizing third-person emotions, sensations, and desires with 〜がる and 〜たがる / {欲|ほ}しがる, including the critical が→を particle shift and lexicalized idioms like {強|つよ}がる and {得意|とくい}がる.",
+      "study_tip": "Japanese treats inner feelings and desires as private unless visibly displayed. For third-person subjects, convert emotion adjectives and 〜たい into 〜がる / 〜たがる—and remember that the object particle shifts from が to を when expressing someone else's desire or emotion target.",
+      "grammar_points": [
+        {
+          "id": "garu-gatteiru",
+          "pattern": "〜がる / 〜がっている",
+          "pattern_ruby": "〜がる / 〜がっている",
+          "romaji": "~garu / ~gatte iru",
+          "meaning_en": "to show signs of feeling ~; to seem/act ~ (third-person emotions & sensations)",
+          "register": "neutral",
+          "renshuu_status": "verified_renshuu",
+          "mental_model": "In Japanese, you cannot directly declare what another person feels inside—saying '×{田中|たなか}さんは{悲|かな}しい' sounds unnaturally omniscient unless wrapped in inference (ようだ・そうだ) or turned into an observable verb with 〜がる. Attaching 〜がる to an emotion or sensation adjective stem converts an invisible inner state into visible outward behavior ('shows signs of feeling ~'). Crucially, bare 〜がる describes a general habit or recurring reaction ({犬|いぬ}を{怖|こわ}がる = tends to fear dogs), whereas progressive 〜がっている reports what someone is visibly displaying right now ({寒|さむ}がっている = is acting cold right now).",
+          "formation": [
+            {
+              "pos": "い{形容詞|けいようし}{語幹|ごかん}（{悲|かな}し・{怖|こわ}・{寒|さむ}・{嬉|うれ}し・{恥|は}ずかし）",
+              "rule": "＋ がる / がっている（{五段動詞|ごだんどうし}{活用|かつよう}）"
+            },
+            {
+              "pos": "な{形容詞|けいようし}{語幹|ごかん}（{嫌|いや}・{残念|ざんねん}・{不思議|ふしぎ}・{可哀想|かわいそう}）",
+              "rule": "＋ がる / がっている（※{好|す}き・{嫌|きら}いは{不可|ふか}）"
+            },
+            {
+              "pos": "{対象|たいしょう}・{原因|げんいん}の{助詞|じょし}",
+              "rule": "{名詞|めいし} ＋ を ＋ 〜がる（{犬|いぬ}を{怖|こわ}がる）"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "{妹|いもうと}は{大切|たいせつ}なぬいぐるみをなくして、とても{悲|かな}しがっている。",
+              "structure_note": "い{形容詞|けいようし}{語幹|ごかん}（{悲|かな}し）＋ がっている（{今|いま}{目|め}の{前|まえ}で{見|み}えている{感情|かんじょう}）",
+              "en": "Having lost her treasured stuffed animal, my younger sister is visibly upset."
+            },
+            {
+              "ja_ruby": "{佐藤|さとう}さんの{飼|か}っている{猫|ねこ}は、{初|はじ}めて{会|あ}う{人|ひと}をいつも{怖|こわ}がる。",
+              "structure_note": "い{形容詞|けいようし}{語幹|ごかん}（{怖|こわ}）＋ がる（{習慣的|しゅうかんてき}な{傾向|けいこう}・を{格|かく}）",
+              "en": "The cat that Sato keeps is always scared of people it meets for the first time."
+            },
+            {
+              "ja_ruby": "{子供|こども}がピーマンを{嫌|いや}がって、なかなか{食|た}べようとしない。",
+              "structure_note": "な{形容詞|けいようし}{語幹|ごかん}（{嫌|いや}）＋ がって（{嫌|きら}う{様子|ようす}）",
+              "en": "The child shows reluctance toward green peppers and won't try to eat them."
+            },
+            {
+              "ja_ruby": "{鈴木|すずき}さんはエアコンの{風|かぜ}が{冷|つめ}たいのか、さっきから{寒|さむ}がっている。",
+              "structure_note": "{感覚|かんかく}のい{形容詞|けいようし}（{寒|さむ}い）＋ がっている（{第三者|だいさんしゃ}の{現在|げんざい}の{様子|ようす}）",
+              "en": "Perhaps because the air conditioner breeze is cold, Suzuki has been acting chilly for a while now."
+            }
+          ],
+          "pitfalls": [
+            "Never use 〜がる for your own present sensations or emotions (×{私|わたし}は{寒|さむ}がっている -> ○{私|わたし}は{寒|さむ}い). Bare adjectives express first-person feeling directly.",
+            "Do not attach 〜がる to {好|す}き or {嫌|きら}い (×{好|す}きがる, ×{嫌|きら}いがる); use {嫌|いや}がる for reluctance/dislike or regular verbs like {好|この}む and {嫌|きら}う instead.",
+            "Because 〜がる turns an adjective into a godan transitive verb, the target of the feeling takes を rather than が (○{蛇|へび}を{怖|こわ}がる, ×{蛇|へび}が{怖|こわ}がる). Also separate general habit (-がる) from visible right-now display (-がっている)."
+          ]
+        },
+        {
+          "id": "tagaru-hoshigaru",
+          "pattern": "〜たがる / 欲しがる（が→を変換）",
+          "pattern_ruby": "〜たがる / {欲|ほ}しがる（が→を{変換|へんかん}）",
+          "romaji": "~tagaru / hoshigaru (ga -> o henkan)",
+          "meaning_en": "wants to do ~; wants [object] (third-person desire with を)",
+          "register": "neutral",
+          "renshuu_status": "verified_renshuu",
+          "mental_model": "Just as you cannot state another person's raw emotions directly, you cannot say '×{弟|おとうと}は{水|みず}が{欲|ほ}しい' or '×{美咲|みさき}さんは{日本|にほん}へ{行|い}きたい' as a bare factual declaration. Convert the adjective-like desire forms 〜たい and {欲|ほ}しい into observable verbs: 〜たがる / 〜たがっている and {欲|ほ}しがる / {欲|ほ}しがっている. Because adding 〜がる converts an い-adjective into a regular transitive godan verb, the object particle switches obligatorily from が to を: '{水|みず}が{欲|ほ}しい' (I want water) becomes '{水|みず}を{欲|ほ}しがっている' (someone wants water).",
+          "formation": [
+            {
+              "pos": "{動詞|どうし}ます{形|けい}{語幹|ごかん}",
+              "rule": "＋ たがる / たがっている"
+            },
+            {
+              "pos": "{名詞|めいし} ＋ を",
+              "rule": "＋ {欲|ほ}しがる / {欲|ほ}しがっている（※「が」→「を」）"
+            },
+            {
+              "pos": "{活用|かつよう}（{五段動詞|ごだんどうし}）",
+              "rule": "〜たがらない・〜たがった・〜たがって"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "お{腹|なか}がすいたのか、{犬|いぬ}がさっきから{水|みず}やエサを{欲|ほ}しがっている。",
+              "structure_note": "{名詞|めいし} ＋ を ＋ {欲|ほ}しがっている（が→を{変換|へんかん}）",
+              "en": "Perhaps because it is hungry, the dog has been wanting water and food for a while now."
+            },
+            {
+              "ja_ruby": "{美咲|みさき}さんは{来年|らいねん}、{日本|にほん}へ{留学|りゅうがく}したがっている。",
+              "structure_note": "{動詞|どうし}ます{形|けい}{語幹|ごかん}（{留学|りゅうがく}し）＋ たがっている",
+              "en": "Misaki wants to study abroad in Japan next year."
+            },
+            {
+              "ja_ruby": "{弟|おとうと}は{怖|こわ}い{映画|えいが}ばかり{見|み}たがるが、{夜|よる}になると{一人|ひとり}でトイレに{行|い}けなくなる。",
+              "structure_note": "〜たがる（{普段|ふだん}からの{傾向|けいこう}・{習性|しゅうせい}）",
+              "en": "My younger brother always wants to watch scary movies, yet when night comes he can't go to the bathroom alone."
+            },
+            {
+              "ja_ruby": "{健太|けんた}くんは{自転車|じてんしゃ}を{買|か}いたがっていたが、{値段|ねだん}を{見|み}てあきらめたようだ。",
+              "structure_note": "〜たがっていた（{過去|かこ}の{第三者|だいさんしゃ}の{願望|がんぼう}）",
+              "en": "Kenta had been wanting to buy a bicycle, but seeing the price he seems to have given up."
+            }
+          ],
+          "pitfalls": [
+            "Always change が to を before {欲|ほ}しがる and 〜たがる when marking a desired object (○{新|あたら}しいゲームを{欲|ほ}しがっている, ×{新|あたら}しいゲームが{欲|ほ}しがっている).",
+            "Never use 〜たがる for polite offers or direct questions to a listener's face (×コーヒーを{飲|の}みたがりますか -> ○コーヒーはいかがですか); observing someone's desire with 〜たがる sounds invasive when addressed straight to them.",
+            "If you want to keep 〜たい or {欲|ほ}しい for a third person without switching to 〜がる, wrap the sentence in an indirect hearsay or inference frame such as 〜たいそうだ, 〜たいようだ, or 〜たいらしい."
+          ]
+        },
+        {
+          "id": "tsuyogaru-idioms",
+          "pattern": "強がる・得意がる（慣用表現）",
+          "pattern_ruby": "{強|つよ}がる・{得意|とくい}がる（{慣用表現|かんようひょうげん}）",
+          "romaji": "tsuyogaru · tokuigaru (kan'you hyougen)",
+          "meaning_en": "to act tough / put on a brave front; to act proud / boastful",
+          "register": "neutral",
+          "renshuu_status": "verified_renshuu",
+          "mental_model": "While ordinary 〜がる objectively reports another person's visible feeling ({痛|いた}がる), certain lexicalized 〜がる verbs judge someone as putting on an exaggerated show. {強|つよ}がる ({強|つよ}い + がる) means 'to act tough / pretend not to be hurt or scared,' and {得意|とくい}がる ({得意|とくい} + がる) means 'to act smug / show off.' Because these idioms describe outward behavioral attitudes rather than unobservable inner feelings, speakers CAN apply them even to themselves in self-reflection—especially in past tense or negative advice ({強|つよ}がっていただけだ = I was just acting tough, {強|つよ}がらなくていい = you don't have to act tough).",
+          "formation": [
+            {
+              "pos": "い{形容詞|けいようし}{語幹|ごかん}（{強|つよ}い → {強|つよ}）",
+              "rule": "＋ がる（{強|つよ}がる＝{弱音|よわね}を{吐|は}かず{強|つよ}く{見|み}せる）"
+            },
+            {
+              "pos": "な{形容詞|けいようし}{語幹|ごかん}（{得意|とくい}）",
+              "rule": "＋ がる（{得意|とくい}がる＝{自慢|じまん}げにふるまう）"
+            },
+            {
+              "pos": "{他|ほか}の{慣用|かんよう}「〜がる」",
+              "rule": "{偉|えら}がる・{新|あたら}しがる・{面白|おもしろ}がる"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "{本当|ほんとう}は{寂|さび}しかったのに、あの{時|とき}の{私|わたし}はただ{強|つよ}がっていただけだ。",
+              "structure_note": "{一人称|いちにんしょう}の{過去|かこ}の{振|ふ}り{返|かえ}り（{無理|むり}に{平気|へいき}なふりをしていた）",
+              "en": "Even though I was actually lonely, back then I was just putting on a tough front."
+            },
+            {
+              "ja_ruby": "{高橋|たかはし}さんは{足|あし}をひねったのに、みんなの{前|まえ}で{強|つよ}がって「{全然|ぜんぜん}{平気|へいき}だ」と{笑|わら}った。",
+              "structure_note": "{強|つよ}がって ＋ {発言|はつげん}（{痛|いた}みや{弱|よわ}さを{隠|かく}す）",
+              "en": "Even though Takahashi twisted his ankle, he acted tough in front of everyone and laughed, saying 'I'm totally fine.'"
+            },
+            {
+              "ja_ruby": "{健太|けんた}は{少|すこ}し{英語|えいご}が{話|はな}せるからといって、{最近|さいきん}いつも{得意|とくい}がっている。",
+              "structure_note": "{得意|とくい}がっている（{少|すこ}し{自慢|じまん}げなニュアンス）",
+              "en": "Just because Kenta can speak a little English, lately he has been acting all proud of himself."
+            },
+            {
+              "ja_ruby": "そんなにつらいなら、{無理|むり}をして{強|つよ}がらなくてもいいんだよ。",
+              "structure_note": "{否定形|ひていけい}（{強|つよ}がらなくてもいい＝アドバイス）",
+              "en": "If things are that hard, you don't have to force yourself to act tough."
+            }
+          ],
+          "pitfalls": [
+            "Unlike plain emotion 〜がる (which cannot describe your own current feelings), behavioral idioms like {強|つよ}がる and {偉|えら}がる naturally describe your own past front ({強|つよ}がっていた) or negative advice ({強|つよ}がるな).",
+            "{得意|とくい}がる carries a critical 'acting smug / showing off' tone—never use it to sincerely compliment someone's talent (use 〜が{得意|とくい}だ or {誇|ほこ}りに{思|おも}っている instead)."
+          ]
+        }
+      ],
+      "lesson_contrast": {
+        "title": "Third-Person Feelings vs. Desires vs. Behavioral Idioms in Lesson 50",
+        "explanation": "Check whether 〜がる externalizes a raw third-person emotion, converts a third-person desire (requiring を instead of が), or expresses a behavioral attitude usable even in past self-reflection.",
+        "rows": [
+          {
+            "expression": "〜がる / 〜がっている",
+            "register": "Neutral",
+            "key_rule": "Habitual trait (-がる) vs. right-now visible emotion (-がっている); third-person only; no {好|す}き/{嫌|きら}い.",
+            "example_short": "{犬|いぬ}が{寒|さむ}がっている。"
+          },
+          {
+            "expression": "〜たがる / {欲|ほ}しがる",
+            "register": "Neutral",
+            "key_rule": "Converts 〜たい / {欲|ほ}しい for third persons; desired object MUST shift from が to を.",
+            "example_short": "{水|みず}を{欲|ほ}しがっている。"
+          },
+          {
+            "expression": "{強|つよ}がる・{得意|とくい}がる",
+            "register": "Neutral / Casual",
+            "key_rule": "Lexicalized attitudes ('act tough / act smug'); natural in past self-reflection or negative advice.",
+            "example_short": "あの{時|とき}は{強|つよ}がっていた。"
+          }
+        ]
+      },
+      "practice_quiz": [
+        {
+          "question_id": "L50-Q1",
+          "question_type": "attachment_trap",
+          "prompt_ja_ruby": "さっきからデパートの{売|う}り{場|ば}で{男|おとこ}の{子|こ}が、ずっと（　　　）。",
+          "context_en": "Observing right now at a department store counter that a boy has been wanting a new toy.",
+          "choices": [
+            "{新|あたら}しいおもちゃが{欲|ほ}しがっている",
+            "{新|あたら}しいおもちゃを{欲|ほ}しがっている",
+            "{新|あたら}しいおもちゃが{欲|ほ}しいがっている",
+            "{新|あたら}しいおもちゃを{欲|ほ}しいている"
+          ],
+          "correct_index": 1,
+          "explanation": "Correct: B ({新|あたら}しいおもちゃを{欲|ほ}しがっている). Converting third-person desire {欲|ほ}しい into the observable verb {欲|ほ}しがっている requires dropping the final い and changing the object marker from が to を. A wrongly retains が with transitive {欲|ほ}しがっている; C keeps both wrong が and adjective-final い; D fails to insert 〜がる and attaches 〜ている directly to an い-adjective."
+        },
+        {
+          "question_id": "L50-Q2",
+          "question_type": "nuance_choice",
+          "prompt_ja_ruby": "「あの{日|ひ}、{本当|ほんとう}はひとりぼっちで{心細|こころぼそ}かったのに、みんなの{前|まえ}でただ（　　　）だけなんだ。」",
+          "context_en": "Speaker reflecting honestly on their own past behavior: 'Even though I actually felt lonely and insecure that day, I just ended up acting tough in front of everyone.'",
+          "choices": [
+            "{得意|とくい}がった",
+            "{怖|こわ}がっていた",
+            "{強|つよ}がっていた",
+            "{嫌|いや}がった"
+          ],
+          "correct_index": 2,
+          "explanation": "Correct: C ({強|つよ}がっていた). The behavioral idiom {強|つよ}がる ('to act tough / hide vulnerability') naturally describes the speaker's own past front when reflecting candidly afterward. A ({得意|とくい}がった) means acting smug or boastful; B ({怖|こわ}がっていた) means visibly showing fear rather than hiding it; D ({嫌|いや}がった) means acting reluctant or showing distaste."
+        },
+        {
+          "question_id": "L50-Q3",
+          "question_type": "fill_blank",
+          "prompt_ja_ruby": "{佐藤|さとう}さんの{娘|むすめ}さんは、{初|はじ}めて{会|あ}う{大人|おとな}を（　　　）から、ゆっくり{話|はな}しかけてあげてね。",
+          "context_en": "Explaining that Sato's daughter tends to be afraid of adults she meets for the first time, so speak gently to her.",
+          "choices": [
+            "{怖|こわ}がる",
+            "{好|す}きがる",
+            "{嫌|きら}いがる",
+            "{怖|こわ}い"
+          ],
+          "correct_index": 0,
+          "explanation": "Correct: A ({怖|こわ}がる). Dropping い from {怖|こわ}い and adding 〜がる creates a transitive godan verb that matches the object marker を ({大人|おとな}を{怖|こわ}がる) and describes a third person's habitual fear. B ({好|す}きがる) and C ({嫌|きら}いがる) are ungrammatical formations because 〜がる cannot attach to {好|す}き or {嫌|きら}い; D ({怖|こわ}い) cannot take particle を or directly state a third person's private feeling."
+        },
+        {
+          "question_id": "L50-Q4",
+          "question_type": "star_order",
+          "prompt_ja_ruby": "{山田|やまだ}さんの{息子|むすこ}さんは、{最近|さいきん}　＿　＿　★　＿　そうだ。",
+          "context_en": "I heard that lately Yamada's son wants to become able to speak English.",
+          "choices": [
+            "{英語|えいご}を",
+            "{話|はな}せる",
+            "なりたがっている",
+            "ように"
+          ],
+          "correct_index": 3,
+          "explanation": "Correct: D (ように). Full sentence: {山田|やまだ}さんの{息子|むすこ}さんは、{最近|さいきん} {英語|えいご}を(1) {話|はな}せる(2) ように(3★) なりたがっている(4) そうだ。{英語|えいご}を is the direct object of potential verb {話|はな}せる, and ようになる ('become able to') takes 〜たがっている to report a third person's desire right before hearsay そうだ."
+        }
+      ]
+    },
+    {
+      "lesson_id": "L51",
+      "lesson_number": 51,
+      "renshuu_title": "Using っぽい",
+      "has_video": false,
+      "summary": "Learn how 〜っぽい attaches to nouns (often signaling something is NOT truly that thing), verb ます-stems (habitual proneness), and い-adjective stems (visual impression), while conjugating strictly like a regular い-adjective.",
+      "study_tip": "Check the word class right before 〜っぽい to decode the nuance: Noun＋っぽい means 'resembles X (often critically, because it isn't really X),' Verbます-stem＋っぽい means 'prone to doing X by temperament,' and い-adjective stem＋っぽい means 'gives a touch/impression of X.'",
+      "grammar_points": [
+        {
+          "id": "noun-ppoi",
+          "pattern": "名詞＋っぽい",
+          "pattern_ruby": "{名詞|めいし}＋っぽい",
+          "romaji": "meishi + ppoi",
+          "meaning_en": "-ish; like ~ (often implying something is NOT truly that thing, or has an unwelcome trace)",
+          "register": "casual",
+          "renshuu_status": "verified_renshuu",
+          "mental_model": "Attach 〜っぽい directly to a noun to say something looks, tastes, or acts '-ish'—and pay close attention to the built-in twist: Noun＋っぽい frequently implies the subject is NOT genuinely that noun, or carries an unwanted excess of it! Calling a college student {子供|こども}っぽい ('childish') criticizes immaturity, whereas calling an actual child {子供|こども}らしい ('childlike') praises authentic innocence (Lesson 52). Likewise, {水|みず}っぽい means 'watery' (soup lacking richness), {男|おとこ}っぽい means 'boyish / masculine-styled,' and {嘘|うそ}っぽい means 'sounding fishy / fake.'",
+          "formation": [
+            {
+              "pos": "{名詞|めいし}（{子供|こども}・{大人|おとな}・{男|おとこ}・{水|みず}・{油|あぶら}・{熱|ねつ}・{嘘|うそ}）",
+              "rule": "＋ っぽい（※だ・のは{不要|ふよう}）"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "{健太|けんた}はもう{大学生|だいがくせい}なのに、{話|はな}し{方|かた}がまだ{子供|こども}っぽい。",
+              "structure_note": "{名詞|めいし}（{子供|こども}）＋ っぽい（{大人|おとな}なのに{未熟|みじゅく}という{批判|ひはん}ニュアンス）",
+              "en": "Even though Kenta is already a college student, his way of speaking is still childish."
+            },
+            {
+              "ja_ruby": "{美咲|みさき}さんはスカートをほとんどはかず、いつも{男|おとこ}っぽいファッションを{好|この}んでいる。",
+              "structure_note": "{名詞|めいし}（{男|おとこ}）＋ っぽい（{実際|じっさい}は{女性|じょせい}だがボーイッシュな{雰囲気|ふんいき}）",
+              "en": "Misaki rarely wears skirts and always prefers boyish fashion."
+            },
+            {
+              "ja_ruby": "このスープは{野菜|やさい}から{水分|すいぶん}が{出|で}すぎたのか、ちょっと{水|みず}っぽいね。",
+              "structure_note": "{名詞|めいし}（{水|みず}）＋ っぽい（{味|あじ}が{薄|うす}くて{水|みず}のようだというマイナス{評価|ひょうか}）",
+              "en": "Maybe too much moisture came out of the vegetables—this soup tastes a bit watery, doesn't it?"
+            },
+            {
+              "ja_ruby": "さっきから{頭|あたま}が{重|おも}くて、なんだか{熱|ねつ}っぽい。",
+              "structure_note": "{名詞|めいし}（{熱|ねつ}）＋ っぽい（{熱|ねつ}があるように{感|かん}じられる{状態|じょうたい}）",
+              "en": "My head has been feeling heavy for a while, and I feel kind of feverish."
+            }
+          ],
+          "pitfalls": [
+            "Never insert の or だ between a noun and っぽい (×{子供|こども}のっぽい, ×{水|みず}だっぽい -> ○{子供|こども}っぽい, ○{水|みず}っぽい).",
+            "Do not use {子供|こども}っぽい as a warm compliment for actual children—it carries a critical 'immature' ring; use {子供|こども}らしい for positive, genuine childlike qualities.",
+            "Avoid 〜っぽい in formal business reports or essays; switch to 〜のような, 〜{的|てき}だ, or 〜がちだ depending on the intended meaning."
+          ]
+        },
+        {
+          "id": "verb-ppoi",
+          "pattern": "動詞ます形＋っぽい",
+          "pattern_ruby": "{動詞|どうし}ます{形|けい}＋っぽい",
+          "romaji": "doushi masu-kei + ppoi",
+          "meaning_en": "prone to ~; easily ~ing (character quirk or habitual tendency)",
+          "register": "casual",
+          "renshuu_status": "verified_renshuu",
+          "mental_model": "When 〜っぽい attaches to the ます-stem of select verbs, it shifts from physical likeness ('-ish') to human temperament and habitual proneness: 'tending to do X too easily.' Essential N3 vocabulary items are {忘|わす}れっぽい ('forgetful'), {飽|あ}きっぽい ('easily bored / fickle'), {怒|おこ}りっぽい ('short-tempered / irritable'), and {泣|な}きっぽい ('quick to cry'). Note two strict constraints: it nearly always describes an unfavorable personality flaw or state, and it is NOT freely productive like 〜やすい—you cannot attach 〜っぽい to arbitrary verbs like '×{割|わ}れっぽい' or '×{読|よ}みっぽい.'",
+          "formation": [
+            {
+              "pos": "{動詞|どうし}ます{形|けい}{語幹|ごかん}（{忘|わす}れ・{飽|あ}き・{怒|おこ}り・{泣|な}き・{惚|ほ}れ）",
+              "rule": "＋ っぽい（{性格|せいかく}・{気質|きしつ}の{傾向|けいこう}）"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "うちの{祖父|そふ}は{最近|さいきん}{忘|わす}れっぽくなって、{眼鏡|めがね}をどこに{置|お}いたかすぐ{忘|わす}れてしまう。",
+              "structure_note": "{動詞|どうし}ます{形|けい}（{忘|わす}れ）＋ っぽい → っぽく（{副詞的|ふくしてき}）",
+              "en": "My grandfather has become forgetful lately and immediately forgets where he put his glasses."
+            },
+            {
+              "ja_ruby": "{弟|おとうと}は{飽|あ}きっぽい{性格|せいかく}で、どの{習|なら}い{事|ごと}も{半年|はんとし}と{続|つづ}かない。",
+              "structure_note": "{動詞|どうし}ます{形|けい}{語幹|ごかん}（{飽|あ}き）＋ っぽい ＋ {名詞|めいし}（{性格|せいかく}）",
+              "en": "My younger brother has an easily bored personality, so none of his lessons ever last even half a year."
+            },
+            {
+              "ja_ruby": "{田中|たなか}さんは{普段|ふだん}は{優|やさ}しいけれど、お{酒|さけ}を{飲|の}むと{少|すこ}し{怒|おこ}りっぽくなる。",
+              "structure_note": "{動詞|どうし}ます{形|けい}{語幹|ごかん}（{怒|おこ}り）＋ っぽくなる",
+              "en": "Tanaka is gentle normally, but when he drinks alcohol he becomes a bit quick to anger."
+            },
+            {
+              "ja_ruby": "{美咲|みさき}さんは{感動|かんどう}するとすぐ{涙|なみだ}が{出|で}る、とても{泣|な}きっぽいタイプだ。",
+              "structure_note": "{動詞|どうし}ます{形|けい}{語幹|ごかん}（{泣|な}き）＋ っぽい（{感情|かんじょう}が{表|おもて}に{出|で}やすい{気質|きしつ}）",
+              "en": "Misaki tears up immediately whenever she's moved—she's the very easily brought-to-tears type."
+            }
+          ],
+          "pitfalls": [
+            "Never attach 〜っぽい to dictionary form or て-form verbs (×{忘|わす}れるっぽい, ×{忘|わす}れてっぽい); it attaches strictly to the ます-stem ({忘|わす}れっぽい, {怒|おこ}りっぽい).",
+            "Verb＋っぽい is limited to established temperament or condition words ({忘|わす}れっぽい, {飽|あ}きっぽい, {怒|おこ}りっぽい, {湿|しめ}りっぽい). For general ease or physical tendency with any verb, use 〜やすい (○このグラスは{割|わ}れやすい, ×{割|わ}れっぽい) or 〜がちだ."
+          ]
+        },
+        {
+          "id": "adj-ppoi-conjugation",
+          "pattern": "い形容詞語幹＋っぽい・活用規則",
+          "pattern_ruby": "い{形容詞|けいようし}{語幹|ごかん}＋っぽい・{活用規則|かつようきそく}",
+          "romaji": "i-keiyoushi gokan + ppoi · katsuyou kisoku",
+          "meaning_en": "looks/feels somewhat ~ (い-adjective stem); conjugates strictly as an い-adjective",
+          "register": "casual",
+          "renshuu_status": "verified_renshuu",
+          "mental_model": "A compact set of い-adjectives—chiefly {安|やす}い ('cheap') and color adjectives such as {白|しろ}い, {黒|くろ}い, and {赤|あか}い—drop their final い and attach 〜っぽい to express 'looks or feels somewhat ~' ({安|やす}っぽい = cheap-looking/tacky; {白|しろ}っぽい = whitish). Regardless of whether 〜っぽい attached to a noun, verb stem, or い-adjective stem, the resulting word ALWAYS conjugates like a normal い-adjective: negative 〜っぽくない, past 〜っぽかった, adverbial 〜っぽく (before なる/する/{見|み}える), and noun-modifier 〜っぽい＋{名詞|めいし}. Crucially, 〜っぽい CANNOT replace visual prediction 〜そうだ (×{雨|あめ}が{降|ふ}りっぽい -> ○{降|ふ}りそうだ).",
+          "formation": [
+            {
+              "pos": "い{形容詞|けいようし}{語幹|ごかん}（{安|やす}・{白|しろ}・{黒|くろ}・{赤|あか}・{青|あお}）",
+              "rule": "＋ っぽい（{外観|がいかん}・{色合|いろあ}いの{印象|いんしょう}）"
+            },
+            {
+              "pos": "{活用表|かつようひょう}（い{形容詞型|けいようしがた}）",
+              "rule": "〜っぽくない・〜っぽかった・〜っぽく（なる）・〜っぽい＋{名詞|めいし}"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "このジャケットはデザインがちょっと{安|やす}っぽく{見|み}える。",
+              "structure_note": "い{形容詞|けいようし}{語幹|ごかん}（{安|やす}）＋ っぽく ＋ {見|み}える（{副詞|ふくし}{活用|かつよう}）",
+              "en": "This jacket's design looks a little cheap-looking."
+            },
+            {
+              "ja_ruby": "その{鞄|かばん}は{子供|こども}っぽくないから、{大人|おとな}が{持|も}っても{素敵|すてき}だと{思|おも}うよ。",
+              "structure_note": "{否定形|ひていけい}（〜っぽくない：×{子供|こども}っぽじゃない）",
+              "en": "That bag isn't childish at all, so I think it looks great even when an adult carries it."
+            },
+            {
+              "ja_ruby": "{雪|ゆき}が{混|ま}じったのか、{今朝|けさ}の{空|そら}はいつもより{白|しろ}っぽかった。",
+              "structure_note": "{色|いろ}のい{形容詞|けいようし}{語幹|ごかん}（{白|しろ}）＋ っぽかった（{過去形|かこけい}）",
+              "en": "Perhaps because snow was mixed in, this morning's sky looked more whitish than usual."
+            },
+            {
+              "ja_ruby": "あのポスターの{広告|こうこく}、なんだかちょっと{嘘|うそ}っぽくて{信用|しんよう}できない。",
+              "structure_note": "て{形|けい}（〜っぽくて：い{形容詞|けいようし}と{同|おな}じ{接続|せつぞく}）",
+              "en": "That poster advertisement feels kind of sketchy, so I can't trust it."
+            }
+          ],
+          "pitfalls": [
+            "Never conjugate 〜っぽい like a な-adjective (×{子供|こども}っぽだ, ×{安|やす}っぽな{服|ふく}, ×{子供|こども}っぽじゃない): it conjugates strictly as an い-adjective (○{安|やす}っぽい{服|ふく}, ○{子供|こども}っぽくない, ○{安|やす}っぽく{見|み}える).",
+            "Do not attach 〜っぽい to arbitrary い-adjectives (×{楽|たの}しっぽい, ×{難|むずか}しっぽい) or use it for imminent visual prediction (×{雨|あめ}が{降|ふ}りっぽい); reserve い-adjective＋っぽい mainly for {安|やす}っぽい and colors ({白|しろ}っぽい, {黒|くろ}っぽい), and use 〜そうだ for imminent appearance."
+          ]
+        }
+      ],
+      "lesson_contrast": {
+        "title": "How 〜っぽい Changes Meaning by Word Class in Lesson 51",
+        "explanation": "Every 〜っぽい word conjugates as a regular い-adjective (っぽくない / っぽく / っぽかった), while the base word right before っぽい determines whether it means '-ish like N,' 'prone to V,' or 'somewhat Adj.'",
+        "rows": [
+          {
+            "expression": "{名詞|めいし}＋っぽい",
+            "register": "Casual",
+            "key_rule": "'-ish / like N'—often implies it isn't truly N or has an unwelcome trace; no の/だ.",
+            "example_short": "あの{人|ひと}は{子供|こども}っぽい。"
+          },
+          {
+            "expression": "{動詞|どうし}ます{形|けい}＋っぽい",
+            "register": "Casual",
+            "key_rule": "Fixed temperament/habit words ('prone to V'); distinct from productive 〜やすい.",
+            "example_short": "{最近|さいきん}{忘|わす}れっぽくなった。"
+          },
+          {
+            "expression": "い{形容詞|けいようし}{語幹|ごかん}＋っぽい",
+            "register": "Casual",
+            "key_rule": "Limited mainly to {安|やす}っぽい and colors ({白|しろ}っぽい); conjugates strictly as い-Adj.",
+            "example_short": "この{靴|くつ}は{安|やす}っぽく{見|み}える。"
+          }
+        ]
+      },
+      "practice_quiz": [
+        {
+          "question_id": "L51-Q1",
+          "question_type": "attachment_trap",
+          "prompt_ja_ruby": "その{時計|とけい}はプラスチックでできているせいか、どう{見|み}ても（　　　）{見|み}えてしまう。",
+          "context_en": "Testing how 〜っぽい attaches to an い-adjective and conjugates before the verb 見える ('looks cheap').",
+          "choices": [
+            "{安|やす}っぽに",
+            "{安|やす}いっぽく",
+            "{安|やす}っぽく",
+            "{安|やす}っぽだ"
+          ],
+          "correct_index": 2,
+          "explanation": "Correct: C ({安|やす}っぽく). い-adjective {安|やす}い drops its final い to become stem {安|やす}＋っぽい, and because every 〜っぽい word conjugates as an い-adjective, its adverbial form before {見|み}える must be 〜っぽく. A ({安|やす}っぽに) and D ({安|やす}っぽだ) wrongly treat っぽい as a な-adjective; B ({安|やす}いっぽく) fails to drop い before っぽい."
+        },
+        {
+          "question_id": "L51-Q2",
+          "question_type": "nuance_choice",
+          "prompt_ja_ruby": "{健太|けんた}は{新|あたら}しい{趣味|しゅみ}を{始|はじ}めてもすぐやめてしまうから、{本当|ほんとう}に（　　　）{性格|せいかく}だ。",
+          "context_en": "Describing someone who starts new hobbies and quits right away as easily bored / fickle.",
+          "choices": [
+            "{飽|あ}きっぽい",
+            "{忘|わす}れっぽい",
+            "{怒|おこ}りっぽい",
+            "{安|やす}っぽい"
+          ],
+          "correct_index": 0,
+          "explanation": "Correct: A ({飽|あ}きっぽい). Attached to the ます-stem of {飽|あ}きる ('to lose interest'), {飽|あ}きっぽい describes a fickle temperament that quits new hobbies quickly. B ({忘|わす}れっぽい) means 'forgetful,' C ({怒|おこ}りっぽい) means 'quick-tempered,' and D ({安|やす}っぽい) means 'cheap-looking,' none of which match quitting hobbies quickly."
+        },
+        {
+          "question_id": "L51-Q3",
+          "question_type": "fill_blank",
+          "prompt_ja_ruby": "このスープは{味|あじ}が{薄|うす}くて（　　　）から、もう{少|すこ}し{塩|しお}を{足|た}したほうがいいと{思|おも}う。",
+          "context_en": "Commenting that the soup is weak in flavor and watery, so adding a little more salt would help.",
+          "choices": [
+            "{油|あぶら}っぽい",
+            "{白|しろ}っぽい",
+            "{熱|ねつ}っぽい",
+            "{水|みず}っぽい"
+          ],
+          "correct_index": 3,
+          "explanation": "Correct: D ({水|みず}っぽい). Noun {水|みず}＋っぽい means 'watery / overly diluted' and pairs naturally with {味|あじ}が{薄|うす}い ('weak in flavor'). A ({油|あぶら}っぽい) means 'oily/greasy,' the opposite of thin flavor; B ({白|しろ}っぽい) describes a whitish color rather than thin taste; C ({熱|ねつ}っぽい) means 'feverish,' which describes a person's body rather than soup."
+        },
+        {
+          "question_id": "L51-Q4",
+          "question_type": "star_order",
+          "prompt_ja_ruby": "{佐藤|さとう}さんが{着|き}ているコートは、{値段|ねだん}が{安|やす}いのに　＿　＿　★　＿　いいデザインだ。",
+          "context_en": "Even though the coat Sato is wearing is inexpensive, it doesn't look cheap at all and has a really great design.",
+          "choices": [
+            "{安|やす}っぽく",
+            "なくて",
+            "{全|まった}く",
+            "とても"
+          ],
+          "correct_index": 1,
+          "explanation": "Correct: B (なくて). Full sentence: {佐藤|さとう}さんが{着|き}ているコートは、{値段|ねだん}が{安|やす}いのに {全|まった}く(1) {安|やす}っぽく(2) なくて(3★) とても(4) いいデザインだ。{全|まった}く pairs with negative {安|やす}っぽくなくて ('not cheap-looking at all'), and positive adverb とても modifies いいデザインだ at the end."
+        }
+      ]
+    },
+    {
+      "lesson_id": "L52",
+      "lesson_number": 52,
+      "renshuu_title": "Seeming/Pretending",
+      "has_video": false,
+      "summary": "Master deliberate pretending with 〜ふりをする, separate evidential 〜らしい from quintessential {名詞|めいし}＋らしい, distinguish sensory/inferential 〜ようだ / みたいだ / ような{気|き}がする / とみえる, and contrast frequent 〜がち with slight-onset 〜{気味|ぎみ}.",
+      "study_tip": "Separate 'pretense,' 'appearance,' and 'tendency' by intent and evidence: 〜ふりをする is deliberate acting; 〜らしい cites outside rumors or quintessential ideals; 〜ようだ / みたいだ / とみえる rely on your own sensory clues or deduction; 〜がち flags frequent bad habits while 〜{気味|ぎみ} marks a slight touch or onset.",
+      "grammar_points": [
+        {
+          "id": "furi-wo-suru",
+          "pattern": "〜ふりをする",
+          "pattern_ruby": "〜ふりをする",
+          "romaji": "~furi wo suru",
+          "meaning_en": "to pretend to ~; to act as if ~",
+          "register": "neutral",
+          "renshuu_status": "verified_renshuu",
+          "mental_model": "Think of 〜ふりをする as putting on an intentional outward performance to mislead observers. Unlike 〜っぽい ('gives off an impression') or 〜ようだ ('appears to be'), 〜ふりをする always involves deliberate human agency—someone is consciously faking an action or condition that is NOT true. Notice how verb tense shapes the scene: non-past dictionary form ({寝|ね}るふりをする) often frames pretending to start an action, past た-form ({寝|ね}たふりをする) frames pretending a state has taken hold ('pretend to be asleep'), and negative {知|し}らないふり / {見|み}て{見|み}ぬふり fakes ignorance.",
+          "formation": [
+            {
+              "pos": "{動詞|どうし}{普通形|ふつうけい}（{辞書形|じしょけい}・た{形|けい}・ない{形|けい}・ている{形|けい}）",
+              "rule": "＋ ふりをする"
+            },
+            {
+              "pos": "い{形容詞|けいようし}・な{形容詞|けいようし} ＋ な",
+              "rule": "＋ ふりをする"
+            },
+            {
+              "pos": "{名詞|めいし} ＋ の",
+              "rule": "＋ ふりをする"
+            },
+            {
+              "pos": "{慣用|かんよう}{表現|ひょうげん}",
+              "rule": "{見|み}て{見|み}ぬふりをする（{気|き}づかないふりをする）"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "{電車|でんしゃ}で{眠|ねむ}くないのに{寝|ね}たふりをするのは、あまりよくないことだ。",
+              "structure_note": "{動詞|どうし}た{形|けい}（{寝|ね}た）＋ ふりをする（{今|いま}まさに{眠|ねむ}っているかのように{装|よそお}う）",
+              "en": "Pretending to be asleep on the train even though you aren't sleepy is not a very nice thing to do."
+            },
+            {
+              "ja_ruby": "{田中|たなか}さんは{本当|ほんとう}は{全部|ぜんぶ}{聞|き}こえていたくせに、{何|なに}も{知|し}らないふりをした。",
+              "structure_note": "{動詞|どうし}ない{形|けい}（{知|し}らない）＋ ふりをする",
+              "en": "Even though Tanaka actually heard everything, he pretended not to know anything."
+            },
+            {
+              "ja_ruby": "{駅|えき}の{前|まえ}でごみをポイ{捨|す}てする{人|ひと}を{見|み}ても、{怖|こわ}くてつい{見|み}て{見|み}ぬふりをしてしまう。",
+              "structure_note": "{慣用|かんよう}{表現|ひょうげん}：{見|み}て{見|み}ぬふり（{見|み}ていないかのように{無視|むし}する）",
+              "en": "Even when I see someone littering in front of the station, I feel intimidated and end up turning a blind eye."
+            },
+            {
+              "ja_ruby": "{鈴木|すずき}さんはすごく{緊張|きんちょう}していたはずなのに、{面接|めんせつ}では{平気|へいき}なふりをして{笑顔|えがお}で{答|こた}えた。",
+              "structure_note": "な{形容詞|けいようし}（{平気|へいき}）＋ な ＋ ふりをする",
+              "en": "Even though Suzuki must have been super nervous, at the interview he pretended to be unfazed and answered with a smile."
+            }
+          ],
+          "pitfalls": [
+            "Never omit な after a な-adjective or の after a noun before ふりをする (×{平気|へいき}ふりをする, ×{病気|びょうき}ふりをする -> ○{平気|へいき}なふりをする, ○{病気|びょうき}のふりをする).",
+            "Do not use 〜ふりをする for passive appearance or inanimate objects (×{空|そら}が{晴|は}れたふりをしている); it strictly requires a conscious agent putting on an act.",
+            "Negative pretense uses plain 〜ないふり or literary 〜ぬふり ({見|み}て{見|み}ぬふり)—never say ×{知|し}らずふりをする."
+          ]
+        },
+        {
+          "id": "rashii-quintessential-vs-hearsay",
+          "pattern": "〜らしい",
+          "pattern_ruby": "〜らしい",
+          "romaji": "~rashii",
+          "meaning_en": "it seems / apparently ~ (evidential/hearsay); truly ~-like / quintessential (N+らしい)",
+          "register": "neutral",
+          "renshuu_status": "canonical_n3",
+          "mental_model": "〜らしい plays two distinct roles at N3 depending on what sits before it. First, attached to a full plain clause (dropping だ after non-past nouns and な-adjectives), 〜らしい expresses objective inference from outside evidence or hearsay ('apparently / word has it that...'), grounded more in third-party clues than a personal hunch. Second, attached directly to a noun as a standalone い-adjective, Noun＋らしい praises something for living up to its quintessential ideal: {春|はる}らしい{陽気|ようき} ('true spring-like weather'), {子供|こども}らしい{笑顔|えがお} ('an admirably childlike smile'—positive ideal, unlike critical {子供|こども}っぽい!).",
+          "formation": [
+            {
+              "pos": "{動詞|どうし}・い{形容詞|けいようし}{普通形|ふつうけい}",
+              "rule": "＋ らしい（{伝聞|でんぶん}・{客観的|きゃっかんてき}{推量|すいりょう}）"
+            },
+            {
+              "pos": "な{形容詞|けいようし}{語幹|ごかん}・{名詞|めいし}（{現在形|げんざいけい}）",
+              "rule": "＋ らしい（※「だ」は{入|い}れない／{過去|かこ}は「〜だったらしい」）"
+            },
+            {
+              "pos": "{名詞|めいし}（{典型的|てんけいてき}・{理想的|りそうてき}）",
+              "rule": "＋ らしい ＋ {名詞|めいし}（{春|はる}らしい・{男|おとこ}らしい・{自分|じぶん}らしい）"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "{高橋|たかはし}さんの{話|はなし}によると、{駅前|えきまえ}に{新|あたら}しいパン{屋|や}がオープンしたらしいよ。",
+              "structure_note": "{普通形|ふつうけい}（オープンした）＋ らしい（{伝聞|でんぶん}・{外部|がいぶ}からの{情報|じょうほう}）",
+              "en": "According to Takahashi, it seems a new bakery opened in front of the station."
+            },
+            {
+              "ja_ruby": "さっきから{傘|かさ}をさしている{人|ひと}が{多|おお}いから、{外|そと}は{雨|あめ}らしい。",
+              "structure_note": "{名詞|めいし}（{雨|あめ}）＋ らしい（{現在形|げんざいけい}は「だ」なし／{目撃|もくげき}{情報|じょうほう}からの{推量|すいりょう}）",
+              "en": "Since so many people have umbrellas open right now, it looks like it's raining outside."
+            },
+            {
+              "ja_ruby": "やっと{暖|あたた}かくなって、{今日|きょう}はいかにも{春|はる}らしいお{天気|てんき}ですね。",
+              "structure_note": "{名詞|めいし}（{春|はる}）＋ らしい ＋ {名詞|めいし}（{典型的|てんけいてき}で{理想的|りそうてき}な{春|はる}らしさ）",
+              "en": "It has finally warmed up, and today really feels like quintessential spring weather, doesn't it?"
+            },
+            {
+              "ja_ruby": "おままごとをして{無邪気|むじゃき}に{笑|わら}う{姿|すがた}が、いかにも{子供|こども}らしくて{微笑|ほほえ}ましい。",
+              "structure_note": "〜らしくて（い{形容詞|けいようし}と{同|おな}じ{活用|かつよう}／{子供|こども}っぽいとの{対比|たいひ}）",
+              "en": "Seeing them play house and laugh so innocently is genuinely childlike and heartwarming."
+            }
+          ],
+          "pitfalls": [
+            "Never put だ between a non-past noun or な-adjective and evidential/hearsay らしい (×{雨|あめ}だらしい, ×{静|しず}かだらしい -> ○{雨|あめ}らしい, ○{静|しず}からしい). Past tense, however, keeps だった (○{雨|あめ}だったらしい).",
+            "Do not confuse quintessential {子供|こども}らしい ('admirably childlike—genuine innocence') with {子供|こども}っぽい ('childish—immature for one's age').",
+            "Evidential 〜らしい never attaches to your own internal sensations (×{私|わたし}は{頭|あたま}が{痛|いた}いらしい); it relies on outside reports or indirect clues."
+          ]
+        },
+        {
+          "id": "youda-mitai-tomieru",
+          "pattern": "〜ようだ / みたいだ / ような気がする / とみえる",
+          "pattern_ruby": "〜ようだ / みたいだ / ような{気|き}がする / とみえる",
+          "romaji": "~you da / mitai da / you na ki ga suru / to mieru",
+          "meaning_en": "it seems/looks like ~ (sensory/inferential); I have a hunch that ~; apparently (reasoned observation)",
+          "register": "neutral",
+          "renshuu_status": "canonical_n3",
+          "mental_model": "These four forms express personal judgment based on what YOU sense or deduce—spanning a scale from vague intuition to reasoned observation. 〜ようだ (neutral/written) and 〜みたいだ (conversational equivalent) share the same core: you directly see, hear, or sense clues and judge what is happening ('looks like / seems like'). Soften 〜ようだ into 〜ような{気|き}がする for a weak intuition or hunch ('I have a feeling that...'). Elevate to 〜とみえる (formal/written-leaning) when clear external evidence leads you to an objective conclusion ('judging from appearances, it seems...'). Note carefully how noun/な-adjective links split: ようだ needs の/な, whereas みたいだ attaches bare!",
+          "formation": [
+            {
+              "pos": "{動詞|どうし}・い{形容詞|けいようし}{普通形|ふつうけい}",
+              "rule": "＋ ようだ / みたいだ / ような{気|き}がする / とみえる"
+            },
+            {
+              "pos": "な{形容詞|けいようし} ＋ な / {名詞|めいし} ＋ の",
+              "rule": "＋ ようだ / ような{気|き}がする"
+            },
+            {
+              "pos": "な{形容詞|けいようし}{語幹|ごかん}・{名詞|めいし}（だ{不要|ふよう}）",
+              "rule": "＋ みたいだ / みたいな ＋ {名詞|めいし}"
+            },
+            {
+              "pos": "な{形容詞|けいようし}・{名詞|めいし} ＋ だ / だった",
+              "rule": "＋ とみえる（※「だ」あり）"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "ドアの{鍵|かぎ}が{開|あ}いている。{誰|だれ}かもう{帰|かえ}ってきたようだ。",
+              "structure_note": "{五感|ごかん}・{目撃|もくげき}からの{推量|すいりょう}「〜ようだ」（{普通形|ふつうけい}＋ようだ）",
+              "en": "The door is unlocked. It looks like someone has already come home."
+            },
+            {
+              "ja_ruby": "{美咲|みさき}さん、さっきから{元気|げんき}がないね。{何|なに}か{心配事|しんぱいごと}があるみたいだよ。",
+              "structure_note": "{会話的|かいわてき}な「〜みたいだ」（ようだより{口語的|こうごてき}）",
+              "en": "Misaki has seemed down for a while, hasn't she? It looks like she has something worrying her."
+            },
+            {
+              "ja_ruby": "どこかでこの{曲|きょく}を{聞|き}いたことがあるような{気|き}がするんだけど、タイトルが{思|おも}い{出|だ}せない。",
+              "structure_note": "〜ような{気|き}がする（あいまいな{直感|ちょっかん}・{記憶|きおく}）",
+              "en": "I have a feeling I've heard this song somewhere before, though I can't recall the title."
+            },
+            {
+              "ja_ruby": "{玄関|げんかん}の{電気|でんき}がついているところを{見|み}ると、{山田|やまだ}さんはもう{帰宅|きたく}したとみえる。",
+              "structure_note": "{観察|かんさつ}による{判断|はんだん}「〜とみえる」（やや{改|あらた}まった・{客観的|きゃっかんてき}）",
+              "en": "Seeing that the entryway light is on, it appears Yamada has already returned home."
+            }
+          ],
+          "pitfalls": [
+            "Master the #1 attachment trap between ようだ and みたいだ: nouns and な-adjectives take の/な before ようだ ({雨|あめ}のようだ, {暇|ひま}なようだ), whereas みたいだ attaches bare ({雨|あめ}みたいだ, {暇|ひま}みたいだ—never ×{雨|あめ}のみたいだ or ×{雨|あめ}だみたいだ).",
+            "Before 〜とみえる, nouns and な-adjectives keep だ in the non-past ({本当|ほんとう}だとみえる, {留守|るす}だとみえる), and 〜とみえる does not express vague personal hunches (use 〜ような{気|き}がする for intuition).",
+            "Contrast 〜ようだ (personal sensory observation/judgment) with 〜らしい (indirect hearsay or external clues you haven't directly experienced yourself)."
+          ]
+        },
+        {
+          "id": "gachi-gimi",
+          "pattern": "〜がち・〜気味（ぎみ）",
+          "pattern_ruby": "〜がち・〜{気味|ぎみ}（ぎみ）",
+          "romaji": "~gachi · ~gimi",
+          "meaning_en": "prone to ~ / tends to ~ often (negative habit: gachi); a slight touch/onset of ~ (gimi)",
+          "register": "neutral",
+          "renshuu_status": "canonical_n3",
+          "mental_model": "Both 〜がち and 〜{気味|ぎみ} lean toward unwanted conditions, yet they measure two completely different dimensions: frequency versus mild degree! 〜がち means 'tends to happen too often' (frequent undesirable events or habits like {休|やす}みがち, {忘|わす}れがち, {曇|くも}りがち) and behaves like a な-adjective/noun (がちだ・がちな・がちになる). By contrast, 〜{気味|ぎみ} means 'a slight touch or early onset of a physical, mental, or situational state' right now—for example {風邪気味|かぜぎみ} (かぜぎみ, 'a touch of a cold'), {疲|つか}れ{気味|ぎみ} (つかれぎみ, 'a bit worn out'), or {遅|おく}れ{気味|ぎみ} ('running slightly behind schedule').",
+          "formation": [
+            {
+              "pos": "{動詞|どうし}ます{形|けい}{語幹|ごかん}・{一部|いちぶ}の{名詞|めいし}（{病気|びょうき}・{雨|あめ}・{遠慮|えんりょ}）",
+              "rule": "＋ がちだ / がちな ＋ {名詞|めいし} / がちになる"
+            },
+            {
+              "pos": "{動詞|どうし}ます{形|けい}{語幹|ごかん}（{疲|つか}れ・{太|ふと}り・{遅|おく}れ）",
+              "rule": "＋ {気味|ぎみ}だ / {気味|ぎみ}の ＋ {名詞|めいし}"
+            },
+            {
+              "pos": "{名詞|めいし}（{風邪|かぜ}・{緊張|きんちょう}・{寝不足|ねぶそく}）",
+              "rule": "＋ {気味|ぎみ}だ（かぜぎみ・つかれぎみ）"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "{一人暮|ひとりぐ}らしを{始|はじ}めてから、ついコンビニの{弁当|べんとう}ばかりで{栄養|えいよう}が{偏|かたよ}りがちだ。",
+              "structure_note": "{動詞|どうし}ます{形|けい}（{偏|かたよ}り）＋ がちだ（よくない{傾向|けいこう}が{繰|く}り{返|かえ}される）",
+              "en": "Ever since I started living alone, I tend to rely only on convenience store bentos and end up with an unbalanced diet."
+            },
+            {
+              "ja_ruby": "{梅雨|つゆ}の{時期|じき}は{曇|くも}りがちな{天気|てんき}が{続|つづ}き、{洗濯物|せんたくもの}がなかなか{乾|かわ}かない。",
+              "structure_note": "〜がち ＋ な ＋ {名詞|めいし}（な{形容詞|けいようし}と{同|おな}じ{名詞修飾|めいししゅうしょく}）",
+              "en": "During the rainy season, cloudy weather tends to continue, and laundry doesn't dry easily."
+            },
+            {
+              "ja_ruby": "{昨日|きのう}から{少|すこ}し{風邪気味|かぜぎみ}なので、{今日|きょう}の{夜|よる}は{暖|あたた}かくして{早|はや}めに{寝|ね}ます。",
+              "structure_note": "{名詞|めいし}（{風邪|かぜ}）＋ {気味|ぎみ}（＝かぜぎみ・{少|すこ}しその{症状|しょうじょう}がある）",
+              "en": "Since I've had a slight touch of a cold since yesterday, tonight I'll keep warm and go to bed early."
+            },
+            {
+              "ja_ruby": "{今週|こんしゅう}は{残業|ざんぎょう}が{続|つづ}いてみんな{疲|つか}れ{気味|ぎみ}なので、{休憩|きゅうけい}を{多|おお}めにとりましょう。",
+              "structure_note": "{動詞|どうし}ます{形|けい}（{疲|つか}れ）＋ {気味|ぎみ}（＝つかれぎみ・{少|すこ}し{疲|つか}れている{状態|じょうたい}）",
+              "en": "Everyone is a bit worn out from continuous overtime this week, so let's take extra breaks."
+            }
+          ],
+          "pitfalls": [
+            "Never use 〜がち for positive, praiseworthy habits (×{笑顔|えがお}になりがち, ×{成功|せいこう}しがち); 〜がち is skewed toward negative or inconvenient tendencies ({遅刻|ちこく}しがち, {忘|わす}れがち).",
+            "Watch noun-modifier links: 〜がち takes な before a noun ({休|やす}みがちな{生徒|せいと}), whereas 〜{気味|ぎみ} takes の ({風邪気味|かぜぎみ}の{人|ひと}, {太|ふと}り{気味|ぎみ}の{体|からだ}).",
+            "Do not confuse 〜{気味|ぎみ} ('a mild onset/touch right now,' like {風邪気味|かぜぎみ}) with 〜がち ('frequent recurring habit,' like {風邪|かぜ}をひきがち) or 〜っぽい ('personality trait/appearance,' like {怒|おこ}りっぽい)."
+          ]
+        }
+      ],
+      "lesson_contrast": {
+        "title": "Pretending vs. Seeming/Inference vs. Tendency in Lesson 52",
+        "explanation": "Pinpoint the speaker's stance before choosing: conscious acting (ふり), external clues or quintessential ideal (らしい), personal sensory inference or hunch (ようだ / みたいだ / ような{気|き}がする / とみえる), frequent bad habit (がち), or mild onset ({気味|ぎみ}).",
+        "rows": [
+          {
+            "expression": "〜ふりをする",
+            "register": "Neutral",
+            "key_rule": "Deliberate acting/pretense; requires な-Adj＋な and N＋の before ふり.",
+            "example_short": "{知|し}らないふりをした。"
+          },
+          {
+            "expression": "〜らしい",
+            "register": "Neutral",
+            "key_rule": "Hearsay/clues (N/な-Adj drop だ) vs. positive ideal N＋らしい ({子供|こども}らしい).",
+            "example_short": "{春|はる}らしい{天気|てんき}だ。"
+          },
+          {
+            "expression": "〜ようだ / みたいだ / ような{気|き}がする / とみえる",
+            "register": "Neutral / Casual / Written",
+            "key_rule": "Personal clues/hunch/deduction; ようだ takes N＋の・な-Adj＋な, みたいだ attaches bare.",
+            "example_short": "{誰|だれ}か{来|き}たみたいだ。"
+          },
+          {
+            "expression": "〜がち・〜{気味|ぎみ}",
+            "register": "Neutral",
+            "key_rule": "がち = frequent bad habit (がちな＋N); {気味|ぎみ} = slight touch/onset ({気味|ぎみ}の＋N).",
+            "example_short": "{少|すこ}し{風邪気味|かぜぎみ}だ。"
+          }
+        ]
+      },
+      "practice_quiz": [
+        {
+          "question_id": "L52-Q1",
+          "question_type": "nuance_choice",
+          "prompt_ja_ruby": "{公園|こうえん}で{無邪気|むじゃき}に{走|はし}り{回|まわ}る{小学生|しょうがくせい}の{笑顔|えがお}は、とても（　　　）{素敵|すてき}ですね。",
+          "context_en": "Warmly praising elementary school children's innocent smiles as admirably childlike (positive ideal, not critical).",
+          "choices": [
+            "{子供|こども}っぽくて",
+            "{子供|こども}らしくて",
+            "{子供|こども}がちで",
+            "{子供|こども}ふりで"
+          ],
+          "correct_index": 1,
+          "explanation": "Correct: B ({子供|こども}らしくて). Noun＋らしい expresses positive, quintessential qualities matching what someone should ideally be ('admirably childlike'). A ({子供|こども}っぽくて) carries a critical 'immature/childish' nuance that clashes with warm praise ({素敵|すてき}ですね); C ({子供|こども}がちで) wrongly attaches frequent-habit 〜がち; D ({子供|こども}ふりで) is ungrammatical because ふり requires の and をする."
+        },
+        {
+          "question_id": "L52-Q2",
+          "question_type": "attachment_trap",
+          "prompt_ja_ruby": "{外|そと}で{傘|かさ}をさしている{人|ひと}がいるから、もう（　　　）ですよ。",
+          "context_en": "Testing noun attachment with みたいだ vs. ようだ ('It looks like it is already raining outside').",
+          "choices": [
+            "{雨|あめ}のみたい",
+            "{雨|あめ}だみたい",
+            "{雨|あめ}みたい",
+            "{雨|あめ}なよう"
+          ],
+          "correct_index": 2,
+          "explanation": "Correct: C ({雨|あめ}みたい). Unlike ようだ, conversational みたいだ attaches directly to a bare noun or な-adjective stem without any linking particle or だ. A ({雨|あめ}のみたい) wrongly inserts possessive の as if attaching ようだ; B ({雨|あめ}だみたい) wrongly inserts copula だ; D ({雨|あめ}なよう) wrongly uses な-adjective linker な on the noun {雨|あめ} instead of の ({雨|あめ}のよう)."
+        },
+        {
+          "question_id": "L52-Q3",
+          "question_type": "fill_blank",
+          "prompt_ja_ruby": "{昨日|きのう}から{少|すこ}しのどが{痛|いた}くて（　　　）なので、{今日|きょう}の{夜|よる}は{早|はや}めに{寝|ね}ようと{思|おも}う。",
+          "context_en": "Saying you've had a slight sore throat and touch of a cold since yesterday, so you plan to sleep early tonight.",
+          "choices": [
+            "{風邪気味|かぜぎみ}",
+            "{風邪|かぜ}がち",
+            "{病気|びょうき}のふり",
+            "{休|やす}みがち"
+          ],
+          "correct_index": 0,
+          "explanation": "Correct: A ({風邪気味|かぜぎみ}). 〜{気味|ぎみ} expresses a slight touch or early onset of a physical state right now, matching {昨日|きのう}から{少|すこ}し ('a bit since yesterday'). B ({風邪|かぜ}がち) is ungrammatical because 〜がち marks frequent repeated occurrences rather than a mild current onset; C ({病気|びょうき}のふり) means pretending to be sick; D ({休|やす}みがち) means frequently taking days off over time."
+        },
+        {
+          "question_id": "L52-Q4",
+          "question_type": "star_order",
+          "prompt_ja_ruby": "{健太|けんた}は{授業中|じゅぎょうちゅう}、{先生|せんせい}に{見|み}つからないように　＿　＿　★　＿　こっそりスマホを{見|み}ていた。",
+          "context_en": "During class, Kenta was secretly looking at his smartphone while pretending to look at his notebook so the teacher wouldn't notice.",
+          "choices": [
+            "しながら、",
+            "ノートを",
+            "{見|み}ている",
+            "ふりを"
+          ],
+          "correct_index": 3,
+          "explanation": "Correct: D (ふりを). Full sentence: {健太|けんた}は{授業中|じゅぎょうちゅう}、{先生|せんせい}に{見|み}つからないように ノートを(1) {見|み}ている(2) ふりを(3★) しながら、(4) こっそりスマホを{見|み}ていた。ノートを is the object of {見|み}ている, which modifies ふりを ('pretending to look at his notebook'), and しながら links the pretense to his secret smartphone checking."
+        }
+      ]
+    }
+  ]
+}

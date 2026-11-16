@@ -1,0 +1,1844 @@
+{
+  "unit_number": 8,
+  "unit_slug": "unit-08-contrast-comparison-exclusivity",
+  "unit_title": "Unit 8: Concession, Substitution, Comparisons & Exclusivity (Lessons 40–45)",
+  "unit_overview": "Master Renshuu N3 Lessons 40–45: nuanced 'although' and 'even though' concessions, substitution ('instead'), comparisons, '(not) only' additive/exclusive structures, and emphatic も〜ない / double-negative negation.",
+  "lessons": [
+    {
+      "lesson_id": "L40",
+      "lesson_number": 40,
+      "renshuu_title": "Although",
+      "has_video": false,
+      "summary": "Distinguish four N3 'although' concessions by speaker attitude and context: composed reflective contrast (〜ながらも), critical annoyance toward people (〜くせに), fact-vs-reality shortfall (〜ものの), and expectation calibration or qualified agreement (〜といっても・〜ことは〜が).",
+      "study_tip": "When choosing among 'although' patterns on Renshuu, check the speaker's target and emotion first: angry/annoyed at a person takes 〜くせに; calm reflective contrast takes 〜ながらも; a real action followed by an unexpected shortcoming takes 〜ものの; toning down a label or granting a point with a 'but' uses 〜といっても or 〜ことは〜が.",
+      "grammar_points": [
+        {
+          "id": "nagaramo",
+          "pattern": "〜ながらも",
+          "pattern_ruby": "〜ながらも",
+          "romaji": "~nagaramo",
+          "meaning_en": "although ~; even while ~ (reflective, composed contrast)",
+          "register": "written",
+          "renshuu_status": "verified_renshuu",
+          "mental_model": "Unlike everyday 〜ながら ('while doing A, also do B'), adding も creates 〜ながらも, which pivots to a calm, reflective concession: 'although A is the case, B still holds true.' It feels measured and slightly literary, praising modest virtues ({狭|せま}いながらも{快適|かいてき}だ) or quietly acknowledging an inner conflict ({悪|わる}いと{知|し}っていながらも). Because both halves describe the same subject in a poised tone, it avoids emotional finger-pointing.",
+          "formation": [
+            {
+              "pos": "{動詞|どうし}ます{形|けい}{語幹|ごかん}",
+              "rule": "＋ ながらも"
+            },
+            {
+              "pos": "い{形容詞|けいようし}",
+              "rule": "＋ ながらも"
+            },
+            {
+              "pos": "な{形容詞|けいようし}{語幹|ごかん}・{名詞|めいし}",
+              "rule": "＋ ながらも（だ・な・のは{不要|ふよう}）"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "{狭|せま}いながらも、{日当|ひあ}たりが{良|よ}くて{快適|かいてき}な{部屋|へや}です。",
+              "structure_note": "い{形容詞|けいようし}（{狭|せま}い）＋ ながらも",
+              "en": "Although it is small, it is a sunny and comfortable room."
+            },
+            {
+              "ja_ruby": "{身体|からだ}に{悪|わる}いと{知|し}っていながらも、つい{夜更|よふ}かしをしてしまう。",
+              "structure_note": "{動詞|どうし}ます{形|けい}{語幹|ごかん}（{知|し}ってい）＋ ながらも",
+              "en": "Even while knowing it is bad for my health, I end up staying up late."
+            },
+            {
+              "ja_ruby": "{残念|ざんねん}ながらも、{今年|ことし}の{大会|たいかい}は{中止|ちゅうし}になりました。",
+              "structure_note": "な{形容詞|けいようし}{語幹|ごかん}（{残念|ざんねん}）＋ ながらも",
+              "en": "Although it is regrettable, this year's tournament has been canceled."
+            },
+            {
+              "ja_ruby": "{佐藤|さとう}さんは{新入社員|しんにゅうしゃいん}ながらも、{会議|かいぎ}で{堂々|どうどう}と{意見|いけん}を{述|の}べた。",
+              "structure_note": "{名詞|めいし}（{新入社員|しんにゅうしゃいん}）＋ ながらも",
+              "en": "Although Sato is a new employee, she stated her opinion confidently at the meeting."
+            }
+          ],
+          "pitfalls": [
+            "Never insert だ, な, or の between a noun or な-adjective and ながらも (× {不便|ふべん}なながらも, × {子供|こども}だながらも -> ○ {不便|ふべん}ながらも, ○ {子供|こども}ながらも).",
+            "Do not attach ながらも to finite past tense verbs like た-form (× {買|か}ったながらも); verbs attach strictly via their ます-stem ({知|し}っていながらも, {思|おも}いながらも).",
+            "Because 〜ながらも sounds composed and reflective, do not use it to scold or blame someone angrily—switch to 〜くせに or 〜のに for irritation."
+          ]
+        },
+        {
+          "id": "kuseni",
+          "pattern": "〜くせに",
+          "pattern_ruby": "〜くせに",
+          "romaji": "~kuseni",
+          "meaning_en": "even though ~; and yet ~ (critical, annoyed, or scornful toward someone)",
+          "register": "casual",
+          "renshuu_status": "verified_renshuu",
+          "mental_model": "Picture raising an eyebrow and calling out hypocrisy: 'For someone who is/did A, how dare you act like B!' The noun くせ originally means a habit or trait, so 〜くせに attaches using noun-modifying forms (な for な-adjectives, の for nouns) and injects unmistakable annoyance, criticism, or disdain. Two strict rules govern it: the subject MUST be a person or living creature (never weather, prices, or objects), and both clauses share that same subject. Never use it for neutral facts or modest praise of your own effort.",
+          "formation": [
+            {
+              "pos": "{動詞|どうし}{普通形|ふつうけい}",
+              "rule": "＋ くせに"
+            },
+            {
+              "pos": "い{形容詞|けいようし}",
+              "rule": "＋ くせに"
+            },
+            {
+              "pos": "な{形容詞|けいようし}",
+              "rule": "＋ な ＋ くせに"
+            },
+            {
+              "pos": "{名詞|めいし}",
+              "rule": "＋ の ＋ くせに"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "{自分|じぶん}では{何|なに}もしないくせに、{人|ひと}の{文句|もんく}ばかり{言|い}っている。",
+              "structure_note": "{動詞|どうし}ない{形|けい}（しない）＋ くせに（{非難|ひなん}）",
+              "en": "Even though they don't do anything themselves, all they do is complain about others."
+            },
+            {
+              "ja_ruby": "{健太|けんた}は{約束|やくそく}したくせに、また{待|ま}ち{合|あ}わせに{遅|おく}れてきた。",
+              "structure_note": "{動詞|どうし}た{形|けい}（{約束|やくそく}した）＋ くせに",
+              "en": "Even though Kenta promised, he showed up late to our meeting spot again."
+            },
+            {
+              "ja_ruby": "{鈴木|すずき}さんは{料理|りょうり}が{下手|へた}なくせに、いつも{味|あじ}にうるさい。",
+              "structure_note": "な{形容詞|けいようし}（{下手|へた}）＋ な ＋ くせに",
+              "en": "Even though Suzuki is bad at cooking, he is always picky about the taste."
+            },
+            {
+              "ja_ruby": "{弟|おとうと}は{中学生|ちゅうがくせい}のくせに、{大人|おとな}のような{口調|くちょう}で{話|はな}す。",
+              "structure_note": "{名詞|めいし}（{中学生|ちゅうがくせい}）＋ の ＋ くせに",
+              "en": "Even though my younger brother is just a middle schooler, he talks in an adult-like tone."
+            }
+          ],
+          "pitfalls": [
+            "ONLY use 〜くせに toward people or living things—never toward inanimate objects, prices, or weather (× {冬|ふゆ}のくせに{暖|あたた}かい -> ○ {冬|ふゆ}なのに{暖|あたた}かい).",
+            "Never use 〜くせに for neutral observation or praising the speaker's own accomplishments (× {私|わたし}は{忙|いそが}しいくせに{合格|ごうかく}した -> ○ {忙|いそが}しいのに{合格|ごうかく}した).",
+            "Keep the subject identical across both clauses, and remember noun-modifier links: な-adjectives require な ({暇|ひま}なくせに) and nouns require の ({初心者|しょしんしゃ}のくせに)."
+          ]
+        },
+        {
+          "id": "monono",
+          "pattern": "〜ものの",
+          "pattern_ruby": "〜ものの",
+          "romaji": "~monono",
+          "meaning_en": "although ~; even though ~ (acknowledging fact A, yet contrasting reality B)",
+          "register": "written",
+          "renshuu_status": "canonical_n3",
+          "mental_model": "〜ものの expresses a sober, formal-leaning contrast between a real action or condition you acknowledge in Clause A and a disappointing, incomplete, or contrasting reality in Clause B. Think of the classic '{買|か}ったものの{使|つか}っていない' ('I bought it, alright, though I haven't used it'): you aren't scolding anyone or imagining a hypothetical; you are calmly setting a real milestone against what actually happened afterward.",
+          "formation": [
+            {
+              "pos": "{動詞|どうし}{普通形|ふつうけい}",
+              "rule": "＋ ものの"
+            },
+            {
+              "pos": "い{形容詞|けいようし}",
+              "rule": "＋ ものの"
+            },
+            {
+              "pos": "な{形容詞|けいようし}",
+              "rule": "＋ な（・である）＋ ものの"
+            },
+            {
+              "pos": "{名詞|めいし}",
+              "rule": "＋ であるものの / とはいうものの"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "{高|たか}いカメラを{買|か}ったものの、{忙|いそが}しくてまだほとんど{使|つか}っていない。",
+              "structure_note": "{動詞|どうし}た{形|けい}（{買|か}った）＋ ものの（{予想外|よそうがい}の{現実|げんじつ}）",
+              "en": "Although I bought an expensive camera, I am so busy that I have barely used it yet."
+            },
+            {
+              "ja_ruby": "{日本語|にほんご}の{文法|ぶんぽう}は{一通|ひととお}り{覚|おぼ}えたものの、{会話|かいわ}になると{言葉|ことば}が{出|で}てこない。",
+              "structure_note": "{動詞|どうし}た{形|けい}（{覚|おぼ}えた）＋ ものの",
+              "en": "Although I learned the basic Japanese grammar, when it comes to conversation the words don't come out."
+            },
+            {
+              "ja_ruby": "このパソコンは{軽|かる}くて{便利|べんり}なものの、バッテリーがすぐ{切|き}れる。",
+              "structure_note": "な{形容詞|けいようし}（{便利|べんり}）＋ な ＋ ものの",
+              "en": "Although this laptop is light and convenient, its battery runs out quickly."
+            },
+            {
+              "ja_ruby": "{鈴木|すずき}さんは{学生|がくせい}であるものの、すでに{本格的|ほんかくてき}な{研究|けんきゅう}を{始|はじ}めている。",
+              "structure_note": "{名詞|めいし}（{学生|がくせい}）＋ である ＋ ものの",
+              "en": "Although Suzuki is still a student, he has already started full-scale research."
+            }
+          ],
+          "pitfalls": [
+            "Nouns cannot attach to ものの with の (× {春|はる}のものの); use であるものの, とはいうものの, or turn the noun into a verb clause ({春|はる}になったものの).",
+            "Clause A must be a real, acknowledged fact rather than an unverified future guess ('even if...'), and Clause B cannot be a command or request (× {買|か}ったものの、{使|つか}ってください)."
+          ]
+        },
+        {
+          "id": "to-ittemo-kotowa-ga",
+          "pattern": "〜といっても・〜ことは〜が",
+          "pattern_ruby": "〜といっても・〜ことは〜が",
+          "romaji": "~to ittemo · ~koto wa ~ga",
+          "meaning_en": "although I say ~, actually... (calibrating expectations); admittedly ~, but... (qualified concession)",
+          "register": "neutral",
+          "renshuu_status": "canonical_n3",
+          "mental_model": "Both patterns manage listener expectations smoothly. 〜といっても prevents the listener from over-imagining a word you just used: 'Even though I say I can cook, we're just talking about making simple curry.' Meanwhile, 〜ことは〜が echoes the exact same verb or adjective twice to concede a point fairly ('Admittedly the cake IS delicious, BUT...') before introducing a drawback or caveat.",
+          "formation": [
+            {
+              "pos": "{動詞|どうし}・い{形容詞|けいようし}{普通形|ふつうけい}",
+              "rule": "＋ といっても"
+            },
+            {
+              "pos": "な{形容詞|けいようし}・{名詞|めいし}",
+              "rule": "（＋ だ）＋ といっても"
+            },
+            {
+              "pos": "{動詞|どうし}・い{形容詞|けいようし}",
+              "rule": "A ＋ ことは ＋ A ＋ が（・けれど）"
+            },
+            {
+              "pos": "な{形容詞|けいようし}",
+              "rule": "Aな ＋ ことは ＋ Aだ ＋ が（・けれど）"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "{料理|りょうり}ができるといっても、{簡単|かんたん}なカレーを{作|つく}るぐらいです。",
+              "structure_note": "{動詞|どうし}{辞書形|じしょけい} ＋ といっても（{程度|ていど}の{限定|げんてい}）",
+              "en": "Although I say I can cook, it is only to the extent of making simple curry."
+            },
+            {
+              "ja_ruby": "もう{春|はる}だといっても、{風|かぜ}が{冷|つめ}たくてまだ{冬|ふゆ}のようだ。",
+              "structure_note": "{名詞|めいし}＋だ ＋ といっても",
+              "en": "Even though people say it is spring already, the wind is cold and it still feels like winter."
+            },
+            {
+              "ja_ruby": "このケーキは{美味|おい}しいことは{美味|おい}しいが、{私|わたし}には{少|すこ}し{甘|あま}すぎる。",
+              "structure_note": "い{形容詞|けいようし}（{美味|おい}しい）＋ ことは ＋ {美味|おい}しい ＋ が",
+              "en": "Admittedly this cake is delicious, but it is a little too sweet for me."
+            },
+            {
+              "ja_ruby": "{駅|えき}の{近|ちか}くは{便利|べんり}なことは{便利|べんり}だが、{夜|よる}まで{電車|でんしゃ}の{音|おと}がうるさい。",
+              "structure_note": "な{形容詞|けいようし}（{便利|べんり}）＋ なことは ＋ {便利|べんり}だ ＋ が",
+              "en": "Living near the station is certainly convenient, but the train noise is loud late into the night."
+            }
+          ],
+          "pitfalls": [
+            "In 〜ことは〜が, you must repeat the SAME predicate (verb or adjective) before ことは and before が—never swap in a different word (× {安|やす}いことは{美味|おい}しいが).",
+            "Do not use 〜といっても to blame someone or express surprise at dramatic events; it specifically scales down an exaggerated impression of the preceding word."
+          ]
+        }
+      ],
+      "lesson_contrast": {
+        "title": "Four Ways to Say 'Although' in Lesson 40",
+        "explanation": "Choose your concession by checking speaker emotion, subject restrictions, and whether you are calming down, complaining, acknowledging fact, or calibrating a label.",
+        "rows": [
+          {
+            "expression": "〜ながらも",
+            "register": "Written / Reflective",
+            "key_rule": "Calm, poised concession; attaches to Vます-stem, い-Adj, or bare な-Adj/Noun.",
+            "example_short": "{狭|せま}いながらも{快適|かいてき}だ。"
+          },
+          {
+            "expression": "〜くせに",
+            "register": "Casual / Critical",
+            "key_rule": "Annoyed/blaming tone ONLY toward people or living things; never neutral self-praise.",
+            "example_short": "{約束|やくそく}したくせに{遅|おく}れた。"
+          },
+          {
+            "expression": "〜ものの",
+            "register": "Written / Formal",
+            "key_rule": "Real acknowledged fact in A vs incomplete or contrasting reality in B; N takes であるものの.",
+            "example_short": "{買|か}ったものの{使|つか}っていない。"
+          },
+          {
+            "expression": "〜といっても / ことは〜が",
+            "register": "Neutral",
+            "key_rule": "といっても scales down expectations; AことはAが repeats predicate to grant A before 'but'.",
+            "example_short": "{美味|おい}しいことは{美味|おい}しいが{甘|あま}い。"
+          }
+        ]
+      },
+      "practice_quiz": [
+        {
+          "question_id": "L40-Q1",
+          "question_type": "fill_blank",
+          "prompt_ja_ruby": "この{計画|けいかく}は{先月|せんげつ}{始|はじ}まった（　　　）、{予算|よさん}が{足|た}りずになかなか{進|すす}んでいない。",
+          "context_en": "Stating neutrally that although this project started last month, it isn't making much progress due to a lack of budget.",
+          "choices": [
+            "くせに",
+            "ながらも",
+            "ものの",
+            "ことは"
+          ],
+          "correct_index": 2,
+          "explanation": "Correct: C (ものの). Verb た-form ({始|はじ}まった) ＋ ものの smoothly introduces an acknowledged fact followed by an incomplete or disappointing reality ({進|すす}んでいない). A (くせに) only applies critically to living beings rather than an inanimate project; B (ながらも) cannot attach to past た-form verbs (requires ます-stem); D (ことは) is ungrammatical because 〜ことは〜が requires repeating the predicate before が."
+        },
+        {
+          "question_id": "L40-Q2",
+          "question_type": "nuance_choice",
+          "prompt_ja_ruby": "{弟|おとうと}は{自分|じぶん}が{約束|やくそく}を{破|やぶ}った（　　　）、{謝|あやま}りもせずに{笑|わら}っている。",
+          "context_en": "Expressing clear irritation toward a younger brother who broke his own promise yet laughs without even apologizing.",
+          "choices": [
+            "くせに",
+            "ながらも",
+            "といっても",
+            "ことは"
+          ],
+          "correct_index": 0,
+          "explanation": "Correct: A (くせに). 〜くせに attaches to plain past {破|やぶ}った and expresses strong annoyance toward a person's contradictory behavior ({謝|あやま}りもせずに{笑|わら}っている). B (ながらも) cannot follow た-form and sounds calm rather than irritated; C (といっても) scales down a label rather than accusing someone; D (ことは) is incomplete because 〜ことは〜が requires repeating the predicate before が."
+        },
+        {
+          "question_id": "L40-Q3",
+          "question_type": "attachment_trap",
+          "prompt_ja_ruby": "この{店|みせ}は{場所|ばしょ}が{少|すこ}し（　　　）、いつも{多|おお}くの{客|きゃく}でにぎわっている。",
+          "context_en": "Testing な-adjective attachment before ながらも: 'Although the location is a bit inconvenient, this shop is always bustling with customers.'",
+          "choices": [
+            "{不便|ふべん}なながらも",
+            "{不便|ふべん}だながらも",
+            "{不便|ふべん}のながらも",
+            "{不便|ふべん}ながらも"
+          ],
+          "correct_index": 3,
+          "explanation": "Correct: D ({不便|ふべん}ながらも). な-adjectives and nouns attach directly to ながらも using their bare stem with zero linking particle. A (なながらも) wrongly treats ながらも like a noun modifier; B (だながらも) wrongly inserts copula だ; C (のながらも) wrongly inserts possessive/noun-linker の."
+        },
+        {
+          "question_id": "L40-Q4",
+          "question_type": "star_order",
+          "prompt_ja_ruby": "{日本|にほん}の{会社|かいしゃ}で＿　＿　★　＿、{日常会話|にちじょうかいわ}が{中心|ちゅうしん}です。",
+          "context_en": "Calibrating expectations: 'Even though I say I work at a Japanese company, the Japanese I use is mainly everyday conversation.'",
+          "choices": [
+            "{日本語|にほんご}は",
+            "{使|つか}う",
+            "といっても",
+            "{働|はたら}いている"
+          ],
+          "correct_index": 1,
+          "explanation": "Correct: B ({使|つか}う). Full sentence: {日本|にほん}の{会社|かいしゃ}で {働|はたら}いている(1) といっても(2) {使|つか}う(3★) {日本語|にほんご}は(4)、{日常会話|にちじょうかいわ}が{中心|ちゅうしん}です。といっても must immediately follow {働|はたら}いている to qualify the statement, and {使|つか}う modifies the topic noun {日本語|にほんご}は before the final predicate. Placing {使|つか}う before {働|はたら}いている creates an ungrammatical verb chain."
+        }
+      ]
+    },
+    {
+      "lesson_id": "L41",
+      "lesson_number": 41,
+      "renshuu_title": "Even Though",
+      "has_video": false,
+      "summary": "Master hypothetical and emphatic 'even if / even granting' concessions: granting a premise or pairing two options (〜にしても), hypothetical supposition (〜としても), colloquial emphatic 〜たって / だって, permissive 〜てもかまわない, and futility/helplessness contrasts (〜ても{始|はじ}まらない vs. 〜てもしょうがない / 〜てもしかたがない).",
+      "study_tip": "Watch formality and noun/adjective links in Lesson 41: neutral granting uses 〜にしても (bare noun/な-adj, never だ) or 〜としても (noun + だとしても), while casual spoken speech turns 〜ても into 〜たって / 〜くたって / 〜だって. Also separate permissive 〜てもかまわない from futility 〜ても{始|はじ}まらない and resigned 〜てもしょうがない / 〜てもしかたがない.",
+      "grammar_points": [
+        {
+          "id": "ni-shitemo",
+          "pattern": "〜にしても",
+          "pattern_ruby": "〜にしても",
+          "romaji": "~ni shitemo",
+          "meaning_en": "even granting that ~; even if ~; whether A or B (A にしても B にしても)",
+          "register": "neutral",
+          "renshuu_status": "canonical_n3",
+          "mental_model": "〜にしても lets you step onto someone's premise for a moment ('Okay, even granting A...') only to point out that B still applies ('...even so, you should have texted'). When doubled as A にしても B にしても, it wraps two alternatives together ('whether A or B, either way...'). Unlike 〜としても, it attaches directly to bare nouns and な-adjective stems without だ.",
+          "formation": [
+            {
+              "pos": "{動詞|どうし}・い{形容詞|けいようし}{普通形|ふつうけい}",
+              "rule": "＋ にしても"
+            },
+            {
+              "pos": "な{形容詞|けいようし}{語幹|ごかん}・{名詞|めいし}",
+              "rule": "＋ にしても（だ・なは{不要|ふよう}）"
+            },
+            {
+              "pos": "{並列|へいれつ}（whether A or B）",
+              "rule": "A にしても B にしても"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "どんなに{忙|いそが}しいにしても、{一言|ひとこと}{連絡|れんらく}をくれるべきだった。",
+              "structure_note": "い{形容詞|けいようし}（{忙|いそが}しい）＋ にしても（{譲歩|じょうほ}・{批判|ひはん}）",
+              "en": "Even granting how busy you were, you should have sent at least a brief message."
+            },
+            {
+              "ja_ruby": "たとえ{冗談|じょうだん}にしても、そんな{傷|きず}つくことは{言|い}わないほうがいい。",
+              "structure_note": "{名詞|めいし}（{冗談|じょうだん}）＋ にしても（だは{入|い}れない）",
+              "en": "Even if it was meant as a joke, you shouldn't say something that hurtful."
+            },
+            {
+              "ja_ruby": "{電車|でんしゃ}で{行|い}くにしても、{車|くるま}で{行|い}くにしても、{早|はや}めに{出発|しゅっぱつ}したほうがいい。",
+              "structure_note": "A にしても B にしても（どちらにしても）",
+              "en": "Whether we go by train or by car, it is better to leave early."
+            },
+            {
+              "ja_ruby": "{合格|ごうかく}するにしても{不合格|ふごうかく}にしても、{来週|らいしゅう}の{金曜日|きんようび}には{結果|けっか}が{分|わ}かる。",
+              "structure_note": "{対照的|たいしょうてき}な{選択肢|せんたくし} ＋ にしても",
+              "en": "Whether I pass or fail, we will know the results by next Friday."
+            }
+          ],
+          "pitfalls": [
+            "Never place だ or な before にしても after nouns or な-adjectives (× {冗談|じょうだん}だにしても, × {暇|ひま}なにしても -> ○ {冗談|じょうだん}にしても, ○ {暇|ひま}にしても).",
+            "Do not use 〜としても to form paired 'whether A or B' choices (× {行|い}くとしても{行|い}かないとしても); paired alternatives require 〜にしても."
+          ]
+        },
+        {
+          "id": "to-shitemo",
+          "pattern": "〜としても",
+          "pattern_ruby": "〜としても",
+          "romaji": "~to shitemo",
+          "meaning_en": "even supposing ~; even assuming ~ (hypothetical concession)",
+          "register": "neutral",
+          "renshuu_status": "canonical_n3",
+          "mental_model": "Picture setting up a hypothetical 'what-if' scenario on a whiteboard: 'Even supposing A happens (or turns out to be true), B will still be the outcome.' Because と acts like a quotation/assumption marker ('suppose that...'), nouns and な-adjectives normally keep だ before としても ({本当|ほんとう}だとしても), which also neatly prevents confusion with N＋としても meaning 'as N too.'",
+          "formation": [
+            {
+              "pos": "{動詞|どうし}・い{形容詞|けいようし}{普通形|ふつうけい}",
+              "rule": "＋ としても"
+            },
+            {
+              "pos": "な{形容詞|けいようし}・{名詞|めいし}",
+              "rule": "＋ だ（・である）＋ としても"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "{今|いま}から{急|いそ}いで{向|む}かったとしても、{開演|かいえん}には{間|ま}に{合|あ}わないだろう。",
+              "structure_note": "{動詞|どうし}た{形|けい}（{向|む}かった）＋ としても（{仮定|かてい}）",
+              "en": "Even supposing we hurried over there right now, we probably wouldn't make it before the show starts."
+            },
+            {
+              "ja_ruby": "もし{彼|かれ}の{話|はなし}が{本当|ほんとう}だとしても、すぐには{信|しん}じられない。",
+              "structure_note": "な{形容詞|けいようし}・{名詞|めいし}（{本当|ほんとう}）＋ だ ＋ としても",
+              "en": "Even assuming his story is true, I cannot believe it right away."
+            },
+            {
+              "ja_ruby": "この{計画|けいかく}が{成功|せいこう}するとしても、かなり{時間|じかん}がかかるはずだ。",
+              "structure_note": "{動詞|どうし}{辞書形|じしょけい}（{成功|せいこう}する）＋ としても",
+              "en": "Even if this plan succeeds, it is bound to take quite a lot of time."
+            },
+            {
+              "ja_ruby": "どんなに{便利|べんり}だとしても、{安全性|あんぜんせい}に{問題|もんだい}があるなら{使|つか}えない。",
+              "structure_note": "な{形容詞|けいようし}（{便利|べんり}）＋ だ ＋ としても",
+              "en": "No matter how convenient it might be, if there is a safety issue we cannot use it."
+            }
+          ],
+          "pitfalls": [
+            "Keep だ before としても on nouns to avoid mixing up 'even if it is N' ({先生|せんせい}だとしても) with 'also in the role of N' ({先生|せんせい}としても, Unit 1's として＋も).",
+            "Never attach な after a な-adjective before としても (× {便利|べんり}なとしても -> ○ {便利|べんり}だとしても)."
+          ]
+        },
+        {
+          "id": "tatte",
+          "pattern": "〜たって / だって",
+          "pattern_ruby": "〜たって / だって",
+          "romaji": "~tatte / datte",
+          "meaning_en": "even if ~; even though ~ (emphatic colloquial equivalent of 〜ても / でも)",
+          "register": "casual",
+          "renshuu_status": "canonical_n3",
+          "mental_model": "〜たって / だって is the punchy, spoken cousin of 〜ても / 〜でも, loaded with emotion, frustration, or insistence ('Even if you apologize now, it's too late!', 'Even a kid knows that!'). Its sound changes mirror 〜ても / 〜でも: unvoiced verb stems take 〜たって, voiced stems (ん/い) take 〜だって, い-adjectives shift い to 〜くたって, and nouns or な-adjectives take 〜だって.",
+          "formation": [
+            {
+              "pos": "{動詞|どうし}て{形|けい}（て → たって / で → だって）",
+              "rule": "Vたって / Vだって"
+            },
+            {
+              "pos": "い{形容詞|けいようし}",
+              "rule": "{語幹|ごかん} ＋ くたって"
+            },
+            {
+              "pos": "な{形容詞|けいようし}{語幹|ごかん}・{名詞|めいし}",
+              "rule": "＋ だって"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "{今|いま}さら{謝|あやま}ったって、もう{遅|おそ}いよ。",
+              "structure_note": "{動詞|どうし}（{謝|あやま}って → {謝|あやま}ったって）",
+              "en": "Even if you apologize now, it is already too late."
+            },
+            {
+              "ja_ruby": "そんなに{急|いそ}いだって、{電車|でんしゃ}はすぐには{来|こ}ないよ。",
+              "structure_note": "{濁音|だくおん}の{動詞|どうし}（{急|いそ}いで → {急|いそ}いだって）",
+              "en": "Even if you rush that much, the train isn't going to come right away."
+            },
+            {
+              "ja_ruby": "{値段|ねだん}が{高|たか}くたって、{品質|ひんしつ}が{良|よ}ければ{買|か}うつもりだ。",
+              "structure_note": "い{形容詞|けいようし}（{高|たか}い → {高|たか}くたって）",
+              "en": "Even if the price is high, if the quality is good I plan to buy it."
+            },
+            {
+              "ja_ruby": "{子供|こども}だって、それくらいのルールは{知|し}っている。",
+              "structure_note": "{名詞|めいし}（{子供|こども}）＋ だって",
+              "en": "Even a child knows a simple rule like that."
+            }
+          ],
+          "pitfalls": [
+            "い-adjectives MUST change 〜い to 〜く before たって (○ {高|たか}くたって, × {高|たか}いたって, × {高|たか}くだって).",
+            "Reserve 〜たって / だって strictly for casual speech with friends or family—in formal emails, reports, or polite conversation, use 〜ても / でも or 〜にしても."
+          ]
+        },
+        {
+          "id": "temo-kamawanai-hajimaranai",
+          "pattern": "〜てもかまわない・〜ても始まらない",
+          "pattern_ruby": "〜てもかまわない・〜ても{始|はじ}まらない",
+          "romaji": "~temo kamawanai · ~temo hajimaranai",
+          "meaning_en": "doesn't matter if ~ / it's fine even if ~ (てもかまわない); there's no point in ~ / gets nowhere (ても始まらない)",
+          "register": "neutral",
+          "renshuu_status": "canonical_n3",
+          "mental_model": "Both attach to 〜ても / 〜でも, yet their messages point in opposite directions. 〜てもかまわない gives a green light or expresses easy acceptance ('Go ahead—I don't mind if you wear casual clothes'), and its negative 〜なくてもかまわない means 'you don't have to.' By contrast, 〜ても{始|はじ}まらない warns that an action produces zero progress ('Even if you regret it, nothing gets started—it's pointless!'), pairing naturally with 〜てもしょうがない / 〜てもしかたがない ('it's no use / can't be helped', covered in the next card).",
+          "formation": [
+            {
+              "pos": "{動詞|どうし}て{形|けい}（・ない{形|けい} → なくて）",
+              "rule": "＋ も（・でも）＋ かまわない / かまいません"
+            },
+            {
+              "pos": "い{形容詞|けいようし}（くて）・な{形容詞|けいようし} / {名詞|めいし}（で）",
+              "rule": "＋ も ＋ かまわない / かまいません"
+            },
+            {
+              "pos": "{動詞|どうし}て{形|けい}",
+              "rule": "＋ も（・でも）＋ {始|はじ}まらない"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "{明日|あした}の{会議|かいぎ}は{私服|しふく}で{来|き}てもかまいません。",
+              "structure_note": "{動詞|どうし}て{形|けい} ＋ も ＋ かまいません（{許可|きょか}）",
+              "en": "It is fine if you come to tomorrow's meeting in casual clothes."
+            },
+            {
+              "ja_ruby": "{名前|なまえ}は{鉛筆|えんぴつ}で{書|か}いてもかまわないが、{消|け}せないペンは{使|つか}わないでください。",
+              "structure_note": "{動詞|どうし}て{形|けい} ＋ も ＋ かまわない",
+              "en": "It doesn't matter if you write your name in pencil, though please do not use a pen you cannot erase."
+            },
+            {
+              "ja_ruby": "{失敗|しっぱい}したことを{今|いま}さら{後悔|こうかい}しても{始|はじ}まらないから、{前|まえ}を{向|む}こう。",
+              "structure_note": "{後悔|こうかい}して ＋ も ＋ {始|はじ}まらない（{無意味|むいみ}）",
+              "en": "There is no point regretting past mistakes now, so let's look forward."
+            },
+            {
+              "ja_ruby": "いくら{文句|もんく}を{言|い}っても{始|はじ}まらないから、すぐに{対策|たいさく}を{考|かんが}えよう。",
+              "structure_note": "{文句|もんく}を{言|い}って ＋ も ＋ {始|はじ}まらない",
+              "en": "Complaining no matter how much gets us nowhere, so let's think of a countermeasure right away."
+            }
+          ],
+          "pitfalls": [
+            "Keep 〜ても{始|はじ}まらない in its fixed negative form with fruitless actions like {悩|なや}む, {後悔|こうかい}する, or {泣|な}く—never turn it affirmative (× {後悔|こうかい}しても{始|はじ}まる).",
+            "Do not confuse permissive 〜なくてもかまわない ('you don't need to / it's okay not to') with prohibition 〜てはいけない ('you must not')."
+          ]
+        },
+        {
+          "id": "temo-shouganai-shikataganai",
+          "pattern": "〜てもしょうがない / 〜てもしかたがない",
+          "pattern_ruby": "〜てもしょうがない / 〜てもしかたがない",
+          "romaji": "~temo shou ga nai / ~temo shikata ga nai",
+          "meaning_en": "there is no use doing ~; it does no good even if ~ (resigned helplessness, contrasted with ても始まらない)",
+          "register": "neutral",
+          "renshuu_status": "canonical_n3",
+          "mental_model": "Both 〜てもしょうがない / 〜てもしかたがない and 〜ても{始|はじ}まらない mean 'there's no point doing X,' yet they carry subtly different stances. While 〜ても{始|はじ}まらない rejects X as unproductive so you pivot toward forward action ('complaining gets nothing started, so let's act!'), 〜てもしょうがない (spoken) and 〜てもしかたがない (more formal/written) express resigned acceptance that X cannot alter an unchangeable reality ('even if you rush/regret it, nothing can be done'). Unlike 〜ても{始|はじ}まらない, they also attach cleanly to い-adjectives, な-adjectives, and nouns ({安|やす}くてもしょうがない).",
+          "formation": [
+            {
+              "pos": "{動詞|どうし}て{形|けい}（・〜なくて）",
+              "rule": "＋ も（・でも）＋ しょうがない / しかたがない"
+            },
+            {
+              "pos": "い{形容詞|けいようし}（くて）・な{形容詞|けいようし} / {名詞|めいし}（で）",
+              "rule": "＋ も ＋ しょうがない / しかたがない"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "もう{終電|しゅうでん}を{逃|のが}したのだから、{今|いま}さら{走|はし}ってもしかたがない。",
+              "structure_note": "{動詞|どうし}て{形|けい} ＋ も ＋ しかたがない（{変|か}えられない{現実|げんじつ}へのあきらめ）",
+              "en": "Since we already missed the last train, there's no use running now."
+            },
+            {
+              "ja_ruby": "すでに{決|き}まったことに{文句|もんく}を{言|い}ってもしょうがないよ。",
+              "structure_note": "〜てもしょうがない（{口語的|こうごてき}な「{無意味|むいみ}・しかたがない」）",
+              "en": "It does no good complaining about something that's already been decided."
+            },
+            {
+              "ja_ruby": "いくら{値段|ねだん}が{安|やす}くても、すぐ{壊|こわ}れてしまうのではしょうがない。",
+              "structure_note": "い{形容詞|けいようし}（{安|やす}くて）＋ も ＋ しょうがない（{役|やく}に{立|た}たない）",
+              "en": "No matter how cheap the price is, it's no good if it breaks right away."
+            },
+            {
+              "ja_ruby": "{過去|かこ}の{失敗|しっぱい}をいつまでも{悔|く}やんでいても{始|はじ}まらないし、{悩|なや}んでもしかたがない。",
+              "structure_note": "〜ても{始|はじ}まらない vs. 〜てもしかたがない の{対比|たいひ}",
+              "en": "There is no point endlessly regretting past mistakes, and worrying does no good either."
+            }
+          ],
+          "pitfalls": [
+            "Do NOT mix up 〜てもしょうがない / しかたがない ('no use doing X') with 〜てしょうがない / 〜てしかたがない ('unbearably X', as in {眠|ねむ}くてしょうがない): the single particle も completely changes the meaning from 'excessive feeling' to 'futility.'",
+            "Use 〜てもしかたがない in essays, speeches, or polite conversation (〜てもしかたがありません) and reserve 〜てもしょうがない mainly for everyday speech."
+          ]
+        }
+      ],
+      "lesson_contrast": {
+        "title": "Concession Register & Attachment Matrix in Lesson 41",
+        "explanation": "Compare how each 'even though / even if' pattern attaches to nouns and adjectives, and separate permission from futility and resigned helplessness.",
+        "rows": [
+          {
+            "expression": "〜にしても",
+            "register": "Neutral",
+            "key_rule": "Granting a point or pairing A にしても B にしても; bare N/な-Adj (no だ).",
+            "example_short": "{冗談|じょうだん}にしてもよくない。"
+          },
+          {
+            "expression": "〜としても",
+            "register": "Neutral",
+            "key_rule": "Hypothetical supposition ('even assuming'); N/な-Adj normally takes だとしても.",
+            "example_short": "{本当|ほんとう}だとしても{驚|おどろ}く。"
+          },
+          {
+            "expression": "〜たって / だって",
+            "register": "Casual",
+            "key_rule": "Emphatic spoken 〜ても/でも; い-Adj becomes 〜くたって, N/な-Adj takes だって.",
+            "example_short": "{高|たか}くたって{買|か}うよ。"
+          },
+          {
+            "expression": "〜てもかまわない",
+            "register": "Neutral",
+            "key_rule": "Permission / easy acceptance ('it's fine even if ~'); negative 〜なくてもかまわない.",
+            "example_short": "{私服|しふく}で{来|き}てもかまわない。"
+          },
+          {
+            "expression": "〜ても{始|はじ}まらない / しょうがない / しかたがない",
+            "register": "Neutral / Spoken",
+            "key_rule": "{始|はじ}まらない = futile, produces zero progress; しょうがない / しかたがない = resigned 'no use / can't be helped' (keep も distinct from 〜てしょうがない).",
+            "example_short": "{後悔|こうかい}してもしかたがない。"
+          }
+        ]
+      },
+      "practice_quiz": [
+        {
+          "question_id": "L41-Q1",
+          "question_type": "attachment_trap",
+          "prompt_ja_ruby": "どんなに（　　　）、{毎日|まいにち}{30分|さんじゅっぷん}は{日本語|にほんご}を{勉強|べんきょう}するようにしている。",
+          "context_en": "Testing colloquial 〜たって attachment on an い-adjective: 'No matter how busy I am, I try to study Japanese for 30 minutes every day.'",
+          "choices": [
+            "{忙|いそが}しいたって",
+            "{忙|いそが}しくたって",
+            "{忙|いそが}しいだって",
+            "{忙|いそが}しくだって"
+          ],
+          "correct_index": 1,
+          "explanation": "Correct: B ({忙|いそが}しくたって). Like 〜ても ({忙|いそが}しくても), い-adjectives drop い and add くたって for the casual emphatic 'even if'. A ({忙|いそが}しいたって) wrongly leaves finite い; C ({忙|いそが}しいだって) misuses noun/な-adj だって; D ({忙|いそが}しくだって) wrongly voices た into だ after く."
+        },
+        {
+          "question_id": "L41-Q2",
+          "question_type": "fill_blank",
+          "prompt_ja_ruby": "もう{終|お}わったテストのことでいくら{悩|なや}んでも（　　　）から、{次|つぎ}の{試験|しけん}に{向|む}けて{準備|じゅんび}しよう。",
+          "context_en": "Urging someone to move on: 'No matter how much you worry about a test that's already over, it gets you nowhere, so let's prepare for the next exam.'",
+          "choices": [
+            "かまわない",
+            "ならない",
+            "いけない",
+            "{始|はじ}まらない"
+          ],
+          "correct_index": 3,
+          "explanation": "Correct: D ({始|はじ}まらない). 〜ても{始|はじ}まらない is the fixed N3 expression meaning 'even if you do X, there is no point / nothing comes of it.' A (かまわない) means 'it's fine if you worry', contradicting the urge to move on; B (ならない) and C (いけない) form prohibitions with ては, not ても."
+        },
+        {
+          "question_id": "L41-Q3",
+          "question_type": "nuance_choice",
+          "prompt_ja_ruby": "この{仕事|しごと}は、{経験|けいけん}がない{人|ひと}が（　　　）ので、{安心|あんしん}して{応募|おうぼ}してください。",
+          "context_en": "Reassuring applicants that lack of experience is completely acceptable: 'Since it is fine even if people with no experience do this job, please apply with peace of mind.'",
+          "choices": [
+            "やってもかまわない",
+            "やっても{始|はじ}まらない",
+            "やってはいけない",
+            "やるべきではない"
+          ],
+          "correct_index": 0,
+          "explanation": "Correct: A (やってもかまわない). 〜てもかまわない expresses easy acceptance or permission ('it doesn't matter / it's fine even if...'), matching {安心|あんしん}して{応募|おうぼ}してください. B (やっても{始|はじ}まらない) means doing it is pointless; C (やってはいけない) forbids inexperienced applicants; D (やるべきではない) advises against applying."
+        },
+        {
+          "question_id": "L41-Q4",
+          "question_type": "star_order",
+          "prompt_ja_ruby": "どんなに＿　＿　★　＿、{最後|さいご}まであきらめないつもりだ。",
+          "context_en": "Hypothetical determination: 'No matter how difficult the exam questions may be, I intend not to give up until the end.'",
+          "choices": [
+            "{問題|もんだい}が",
+            "としても",
+            "{難|むずか}しい",
+            "{試験|しけん}の"
+          ],
+          "correct_index": 2,
+          "explanation": "Correct: C ({難|むずか}しい). Full sentence: どんなに {試験|しけん}の(1) {問題|もんだい}が(2) {難|むずか}しい(3★) としても(4)、{最後|さいご}まであきらめないつもりだ。{試験|しけん}の modifies {問題|もんだい}が to form the subject phrase, {難|むずか}しい acts as its predicate, and としても closes the hypothetical clause before the comma."
+        }
+      ]
+    },
+    {
+      "lesson_id": "L42",
+      "lesson_number": 42,
+      "renshuu_title": "Instead",
+      "has_video": false,
+      "summary": "Contrast four ways to express 'instead' and substitution: re-labeling something more accurately (〜というより), all three uses of 〜かわりに (substitution, person proxy, compensation), formal role replacement (〜に{代|か}わって / に{代|か}わり), and corrective or preferential framing (〜むしろ・〜ではなく（て）).",
+      "study_tip": "Ask what kind of 'instead' you mean before choosing: swapping one action/item for another or balancing a trade-off takes 〜かわりに; formally stepping into a person's role takes 〜に{代|か}わって; refining how you label one thing takes 〜というより; rejecting a false claim takes 〜ではなく（て）.",
+      "grammar_points": [
+        {
+          "id": "to-iu-yori",
+          "pattern": "〜というより",
+          "pattern_ruby": "〜というより",
+          "romaji": "~to iu yori",
+          "meaning_en": "rather than calling it ~; more accurately ~ (rephrasing A as B)",
+          "register": "neutral",
+          "renshuu_status": "verified_renshuu",
+          "mental_model": "Unlike N4's AよりBのほうが (which weighs two separate objects on a scale), 〜というより puts a magnifying glass on ONE thing and upgrades your wording: 'Rather than calling it A, it's more accurately B.' He isn't merely a friend—calling him family fits better. It often teams up with むしろ ('if anything') or といったほうがいい.",
+          "formation": [
+            {
+              "pos": "{動詞|どうし}・い{形容詞|けいようし}{普通形|ふつうけい}",
+              "rule": "＋ というより（も）"
+            },
+            {
+              "pos": "な{形容詞|けいようし}{語幹|ごかん}・{名詞|めいし}",
+              "rule": "（＋ だ）＋ というより（も）"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "{田中|たなか}さんは{友達|ともだち}というより、まるで{家族|かぞく}のような{存在|そんざい}だ。",
+              "structure_note": "{名詞|めいし}（{友達|ともだち}）＋ というより（{表現|ひょうげん}の{言|い}い{直|なお}し）",
+              "en": "Rather than a friend, Tanaka feels almost like family to me."
+            },
+            {
+              "ja_ruby": "この{部屋|へや}は{涼|すず}しいというより、むしろちょっと{寒|さむ}いくらいだ。",
+              "structure_note": "い{形容詞|けいようし} ＋ というより ＋ むしろ",
+              "en": "Rather than cool, this room is actually almost a little cold."
+            },
+            {
+              "ja_ruby": "あの{人|ひと}は{親切|しんせつ}というより、ただのおせっかいだと{思|おも}う。",
+              "structure_note": "な{形容詞|けいようし}（{親切|しんせつ}）＋ というより",
+              "en": "Rather than being kind, I think that person is just meddlesome."
+            },
+            {
+              "ja_ruby": "さっきの{会議|かいぎ}は{話|はな}し{合|あ}いというより、{社長|しゃちょう}の{説明|せつめい}だけだった。",
+              "structure_note": "{名詞|めいし}（{話|はな}し{合|あ}い）＋ というより",
+              "en": "Rather than a discussion, the meeting just now was really just an explanation from the president."
+            }
+          ],
+          "pitfalls": [
+            "Never insert な after a な-adjective before というより (× {便利|べんり}なというより -> ○ {便利|べんり}（だ）というより).",
+            "Do not use 〜というより for swapping two action plans ('instead of drinking coffee, let's drink tea'); action substitution requires 〜かわりに."
+          ]
+        },
+        {
+          "id": "kawari-ni",
+          "pattern": "〜かわりに",
+          "pattern_ruby": "〜かわりに",
+          "romaji": "~kawari ni",
+          "meaning_en": "instead of ~ (substitution); on behalf of ~ (proxy); in exchange for ~ / on the other hand ~ (compensation)",
+          "register": "neutral",
+          "renshuu_status": "verified_renshuu",
+          "mental_model": "Picture a two-pan balance scale: one thing goes onto the left pan so another balances it on the right. This single image powers all three N3 uses of 〜かわりに: (1) substitution ('instead of A, do/use B'), (2) person proxy ('in place of absent person A, B acts'), and (3) compensation or trade-off ('I'll cook in return for you washing dishes' / 'rent is cheap, though on the other hand it's far from the station').",
+          "formation": [
+            {
+              "pos": "{動詞|どうし}{普通形|ふつうけい}",
+              "rule": "＋ かわりに（{代替|だいたい}は{辞書形|じしょけい}）"
+            },
+            {
+              "pos": "い{形容詞|けいようし}",
+              "rule": "＋ かわりに（{相殺|そうさい}・トレードオフ）"
+            },
+            {
+              "pos": "な{形容詞|けいようし}",
+              "rule": "＋ な ＋ かわりに"
+            },
+            {
+              "pos": "{名詞|めいし}",
+              "rule": "＋ の ＋ かわりに"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "{今日|きょう}は{電車|でんしゃ}に{乗|の}るかわりに、{健康|けんこう}のために{駅|えき}まで{歩|ある}いた。",
+              "structure_note": "{動詞|どうし}{辞書形|じしょけい} ＋ かわりに（{行動|こうどう}の{代替|だいたい}）",
+              "en": "Instead of taking the train today, I walked to the station for my health."
+            },
+            {
+              "ja_ruby": "{砂糖|さとう}のかわりにハチミツを{入|い}れると、やさしい{甘|あま}さになります。",
+              "structure_note": "{名詞|めいし} ＋ の ＋ かわりに（{物|もの}の{代用|だいよう}）",
+              "en": "If you put in honey instead of sugar, it gives a gentle sweetness."
+            },
+            {
+              "ja_ruby": "{風邪|かぜ}で{休|やす}んだ{佐藤|さとう}さんのかわりに、{高橋|たかはし}さんが{発表|はっぴょう}をした。",
+              "structure_note": "{人|ひと}の{名詞|めいし} ＋ の ＋ かわりに（{代理|だいり}）",
+              "en": "On behalf of Sato, who was absent with a cold, Takahashi gave the presentation."
+            },
+            {
+              "ja_ruby": "このレストランは{値段|ねだん}が{少|すこ}し{高|たか}いかわりに、どの{料理|りょうり}もとても{美味|おい}しい。",
+              "structure_note": "い{形容詞|けいようし} ＋ かわりに（{長所|ちょうしょ}と{短所|たんしょ}の{相殺|そうさい}）",
+              "en": "In exchange for its prices being a bit high, every dish at this restaurant is delicious."
+            }
+          ],
+          "pitfalls": [
+            "Nouns strictly require の before かわりに (○ {社長|しゃちょう}のかわりに, × {社長|しゃちょう}かわりに), whereas な-adjectives require な (○ {静|しず}かなかわりに).",
+            "For unperformed substitution ('instead of doing A, I did B'), use dictionary form + かわりに ({乗|の}るかわりに); past た-form + かわりに implies 'in exchange for having done A'.",
+            "In the trade-off use, the two clauses must balance positive vs negative (or reciprocal duties); if both are purely bad, 〜かわりに sounds unnatural."
+          ]
+        },
+        {
+          "id": "ni-kawatte",
+          "pattern": "〜に代わって / に代わり",
+          "pattern_ruby": "〜に{代|か}わって / に{代|か}わり",
+          "romaji": "~ni kawatte / ni kawari",
+          "meaning_en": "on behalf of ~; replacing ~ (formal substitution of a person, role, or system)",
+          "register": "formal",
+          "renshuu_status": "canonical_n3",
+          "mental_model": "While 〜のかわりに works casually for honey instead of sugar or a friend filling in, 〜に{代|か}わって (and its even stiffer written stem 〜に{代|か}わり) formally hands over an official role, authority, or established standard. You hear it when a vice president delivers greetings for an absent boss, a substitute player enters a match, or digital tools replace paper across society.",
+          "formation": [
+            {
+              "pos": "{名詞|めいし}（{人|ひと}・{役職|やくしょく}・{既存|きぞん}のもの）",
+              "rule": "＋ に{代|か}わって / に{代|か}わり（のは{不要|ふよう}）"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "{本日|ほんじつ}は{欠席|けっせき}の{部長|ぶちょう}に{代|か}わって、{私|わたし}がご{説明|せつめい}いたします。",
+              "structure_note": "{役職|やくしょく}{名詞|めいし}（{部長|ぶちょう}）＋ に{代|か}わって",
+              "en": "Today, I will explain on behalf of the absent department manager."
+            },
+            {
+              "ja_ruby": "{山田|やまだ}{選手|せんしゅ}に{代|か}わり、{新|あたら}しく{鈴木|すずき}{選手|せんしゅ}がグラウンドに{入|はい}りました。",
+              "structure_note": "{名詞|めいし}（{山田選手|やまだせんしゅ}）＋ に{代|か}わり",
+              "en": "Replacing player Yamada, player Suzuki has newly entered the field."
+            },
+            {
+              "ja_ruby": "{最近|さいきん}では{紙|かみ}の{地図|ちず}に{代|か}わって、スマートフォンのアプリを{使|つか}う{人|ひと}が{増|ふ}えた。",
+              "structure_note": "{名詞|めいし}（{地図|ちず}）＋ に{代|か}わって（{世代交代|せだいこうたい}）",
+              "en": "Recently, replacing paper maps, the number of people using smartphone apps has increased."
+            },
+            {
+              "ja_ruby": "{手紙|てがみ}や{葉書|はがき}に{代|か}わり、メールやSNSで{年末|ねんまつ}のあいさつをする{人|ひと}が{多|おお}い。",
+              "structure_note": "{名詞|めいし} ＋ に{代|か}わり（{書|か}き{言葉|ことば}）",
+              "en": "Taking the place of letters and postcards, many people send year-end greetings via email and SNS."
+            }
+          ],
+          "pitfalls": [
+            "〜に{代|か}わって / に{代|か}わり attaches ONLY directly to nouns—never insert の (× {部長|ぶちょう}のに{代|か}わって) and never attach it to verbs or adjectives (× {行|い}くに{代|か}わって).",
+            "Do not use 〜に{代|か}わって for casual one-off personal swaps like tea instead of coffee or for balancing pros and cons—use 〜かわりに there."
+          ]
+        },
+        {
+          "id": "mushiro-dewanakute",
+          "pattern": "〜むしろ・〜ではなく（て）",
+          "pattern_ruby": "〜むしろ・〜ではなく（て）",
+          "romaji": "~mushiro · ~dewa naku(te)",
+          "meaning_en": "rather / preferably (mushiro); not A, but B (dewa naku(te))",
+          "register": "neutral",
+          "renshuu_status": "canonical_n3",
+          "mental_model": "When you need to cross out A completely and point to B instead, use A ではなく（て）B ('not A, it's B'). Unlike 〜かわりに (which trades one valid choice for another) or 〜というより (which softens a label), 〜ではなく（て） flatly denies A as wrong or unintended. Meanwhile, the adverb むしろ ('rather / if anything') leans your preference toward B, often partnering with 〜というより or 〜より.",
+          "formation": [
+            {
+              "pos": "{名詞|めいし}・な{形容詞|けいようし}{語幹|ごかん}",
+              "rule": "＋ ではなく（て） / じゃなくて"
+            },
+            {
+              "pos": "{動詞|どうし}・い{形容詞|けいようし}{普通形|ふつうけい}",
+              "rule": "＋ のではなく（て） / んじゃなくて"
+            },
+            {
+              "pos": "むしろ（{副詞|ふくし}）",
+              "rule": "（〜というより / 〜より）＋ むしろ ＋ {述語|じゅつご}"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "{今日|きょう}は{日曜日|にちようび}ではなくて、{祝日|しゅくじつ}の{月曜日|げつようび}ですよ。",
+              "structure_note": "{名詞|めいし} ＋ ではなくて（{事実|じじつ}の{訂正|ていせい}）",
+              "en": "Today isn't Sunday—it is a public holiday Monday."
+            },
+            {
+              "ja_ruby": "{休|やす}みの{日|ひ}は{外|そと}へ{出|で}かけるのではなく、{家|いえ}でゆっくり{休|やす}みたい。",
+              "structure_note": "{動詞|どうし} ＋ のではなく（{否定|ひてい}と{選択|せんたく}）",
+              "en": "On my days off, rather than going out, I want to rest peacefully at home."
+            },
+            {
+              "ja_ruby": "その{言葉|ことば}は{親切|しんせつ}というより、むしろ{皮肉|ひにく}に{聞|き}こえた。",
+              "structure_note": "〜というより ＋ むしろ",
+              "en": "Those words sounded more like sarcasm than kindness, if anything."
+            },
+            {
+              "ja_ruby": "{無理|むり}に{急|いそ}ぐより、むしろ{時間|じかん}をかけて{正確|せいかく}に{仕上|しあ}げたほうがいい。",
+              "structure_note": "〜より ＋ むしろ ＋ 〜ほうがいい",
+              "en": "Rather than rushing recklessly, it is better to take time and finish it accurately."
+            }
+          ],
+          "pitfalls": [
+            "Verbs and い-adjectives MUST be nominalized with の before ではなく（て） (○ {出|で}かけるのではなく, × {出|で}かけるではなく).",
+            "Do not confuse corrective A ではなくて B ('not A, it's B') with compensatory 〜かわりに ('cheap, though on the other hand far'); ではなくて rejects A completely."
+          ]
+        }
+      ],
+      "lesson_contrast": {
+        "title": "Substitution, Rephrasing & Correction in Lesson 42",
+        "explanation": "Keep the four 'instead' functions clearly separated by checking whether you are refining a description, trading/substituting, acting in an official role, or rejecting A outright.",
+        "rows": [
+          {
+            "expression": "〜というより",
+            "register": "Neutral",
+            "key_rule": "Re-labels ONE thing more accurately ('less A, more like B'); no な before というより.",
+            "example_short": "{友達|ともだち}というより{家族|かぞく}だ。"
+          },
+          {
+            "expression": "〜かわりに",
+            "register": "Neutral",
+            "key_rule": "3 uses: substitution, person proxy, or trade-off; N takes のかわりに.",
+            "example_short": "{砂糖|さとう}のかわりにハチミツを{使|つか}う。"
+          },
+          {
+            "expression": "〜に{代|か}わって / に{代|か}わり",
+            "register": "Formal",
+            "key_rule": "Official role/system replacement; attaches directly to bare nouns only.",
+            "example_short": "{社長|しゃちょう}に{代|か}わってご{挨拶|あいさつ}します。"
+          },
+          {
+            "expression": "むしろ・〜ではなく（て）",
+            "register": "Neutral",
+            "key_rule": "むしろ = 'rather/preferably'; ではなく（て） rejects A completely (V/い-Adj need の).",
+            "example_short": "{出|で}かけるのではなく{家|いえ}で{休|やす}む。"
+          }
+        ]
+      },
+      "practice_quiz": [
+        {
+          "question_id": "L42-Q1",
+          "question_type": "nuance_choice",
+          "prompt_ja_ruby": "この{家|いえ}は{築|ちく}{30年|さんじゅうねん}で{古|ふる}い（　　　）、{部屋|へや}が{広|ひろ}くて{日当|ひあ}たりがとても{良|よ}い。",
+          "context_en": "Balancing a downside against an upside: 'In exchange for being 30 years old and old, the rooms are spacious and very sunny.'",
+          "choices": [
+            "というより",
+            "かわりに",
+            "に{代|か}わって",
+            "ではなくて"
+          ],
+          "correct_index": 1,
+          "explanation": "Correct: B (かわりに). In its compensation/trade-off sense, い-adjective {古|ふる}い ＋ かわりに balances a drawback against a compensating advantage ({広|ひろ}くて{日当|ひあ}たりが{良|よ}い). A (というより) attempts to re-label 'old' as 'spacious', which is illogical; C (に{代|か}わって) only follows nouns for formal replacement; D (ではなくて) requires の after い-adjectives and denies being old."
+        },
+        {
+          "question_id": "L42-Q2",
+          "question_type": "attachment_trap",
+          "prompt_ja_ruby": "{単語|たんご}はただ{丸暗記|まるあんき}（　　　）、{例文|れいぶん}の{中|なか}で{覚|おぼ}えたほうがいい。",
+          "context_en": "Testing verb nominalization before ではなく: 'Rather than just memorizing vocabulary by rote, it is better to learn it in example sentences.'",
+          "choices": [
+            "するではなくて",
+            "するに{代|か}わって",
+            "するのではなく",
+            "するに{代|か}わり"
+          ],
+          "correct_index": 2,
+          "explanation": "Correct: C (するのではなく). Verbs and い-adjectives require nominalizer の before ではなく（て） ({丸暗記|まるあんき}するのではなく). A (するではなくて) omits the mandatory の; B (するに{代|か}わって) and D (するに{代|か}わり) are ungrammatical because 〜に{代|か}わって / に{代|か}わり can only attach directly to nouns."
+        },
+        {
+          "question_id": "L42-Q3",
+          "question_type": "fill_blank",
+          "prompt_ja_ruby": "{式典|しきてん}では、{出張中|しゅっちょうちゅう}の{社長|しゃちょう}（　　　）、{専務|せんむ}があいさつをいたしました。",
+          "context_en": "Formal official replacement at a ceremony: 'At the ceremony, on behalf of the president who is away on business, the managing director delivered the greeting.'",
+          "choices": [
+            "に{代|か}わって",
+            "かわりに",
+            "というより",
+            "に{対|たい}して"
+          ],
+          "correct_index": 0,
+          "explanation": "Correct: A (に{代|か}わって). Directly after a person/role noun ({社長|しゃちょう}) in a formal setting, に{代|か}わって means 'on behalf of / officially replacing'. B (かわりに) is ungrammatical without の ({社長|しゃちょう}のかわりに); C (というより) re-labels the president as the managing director; D (に{対|たい}して) means 'toward/directed at the president' rather than acting as proxy."
+        },
+        {
+          "question_id": "L42-Q4",
+          "question_type": "star_order",
+          "prompt_ja_ruby": "この{課題|かだい}は、＿　＿　★　＿、{時間|じかん}がかかるだけだ。",
+          "context_en": "Refining a description: 'Rather than the content being difficult, this assignment is really just time-consuming.'",
+          "choices": [
+            "{難|むずか}しい",
+            "むしろ",
+            "{内容|ないよう}が",
+            "というより"
+          ],
+          "correct_index": 3,
+          "explanation": "Correct: D (というより). Full sentence: この{課題|かだい}は、{内容|ないよう}が(1) {難|むずか}しい(2) というより(3★) むしろ(4)、{時間|じかん}がかかるだけだ。{内容|ないよう}が{難|むずか}しい forms the first characterization, というより pivots away from it, and むしろ introduces the more accurate second clause ({時間|じかん}がかかるだけだ)."
+        }
+      ]
+    },
+    {
+      "lesson_id": "L43",
+      "lesson_number": 43,
+      "renshuu_title": "Comparisons",
+      "has_video": false,
+      "summary": "Expand basic comparisons to N3 precision: objective benchmarks (〜に{比|くら}べて), intensified gaps (〜より（も）〜ほうが＋ずっと), equivalence and contrast (〜と{同|おな}じくらい・〜と{同|おな}じで / と{違|ちが}って, plus direct {同|おな}じ＋Noun), and co-changing trends or two-sided balance (〜につれて・{一方|いっぽう}で).",
+      "study_tip": "Lock in three particle habits for Lesson 43: benchmark comparisons use 〜に{比|くら}べて (with に); sameness and difference use 〜と{同|おな}じで / 〜と{違|ちが}って (with と); and {同|おな}じ attaches directly to nouns with ZERO の or な (○ {同|おな}じ{意見|いけん}, × {同|おな}じの{意見|いけん}).",
+      "grammar_points": [
+        {
+          "id": "ni-kurabete-comparison",
+          "pattern": "〜に比べて",
+          "pattern_ruby": "〜に{比|くら}べて",
+          "romaji": "~ni kurabete",
+          "meaning_en": "compared to ~; in comparison with ~",
+          "register": "neutral",
+          "renshuu_status": "verified_renshuu",
+          "mental_model": "〜に{比|くら}べて (plus its more report-like cousins 〜に{比|くら}べると and written 〜に{比|くら}べ) puts Item X on a formal inspection pedestal as your baseline before describing how Item Y measures up. While Lesson 3 introduced 〜に{比|くら}べて inside the に-suffix family (contrasting it with flat side-by-side 〜に{対|たい}して), Lesson 43 expands it into a full comparative toolkit alongside 〜に{比|くら}べると, verb nominalization (〜のに{比|くら}べて), 〜より（も）〜ほうがずっと, and 〜と{同|おな}じくらい. Unlike everyday 〜より, it feels deliberate and analytical, making it a staple for comparing years ({去年|きょねん}に{比|くら}べて), cities, or before-and-after progress.",
+          "formation": [
+            {
+              "pos": "{名詞|めいし}",
+              "rule": "＋ に{比|くら}べて / に{比|くら}べると / に{比|くら}べ"
+            },
+            {
+              "pos": "{動詞|どうし}{辞書形|じしょけい}・た{形|けい}",
+              "rule": "＋ の ＋ に{比|くら}べて"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "{今年|ことし}の{夏|なつ}は{去年|きょねん}に{比|くら}べて、ずっと{涼|すず}しい{日|ひ}が{多|おお}い。",
+              "structure_note": "{時間|じかん}{名詞|めいし}（{去年|きょねん}）＋ に{比|くら}べて",
+              "en": "Compared to last year, there are far more cool days this summer."
+            },
+            {
+              "ja_ruby": "{東京|とうきょう}に{比|くら}べて、{私|わたし}の{出身地|しゅっしんち}は{物価|ぶっか}がかなり{安|やす}い。",
+              "structure_note": "{場所|ばしょ}{名詞|めいし}（{東京|とうきょう}）＋ に{比|くら}べて",
+              "en": "Compared to Tokyo, the cost of living in my hometown is considerably lower."
+            },
+            {
+              "ja_ruby": "{以前|いぜん}に{比|くら}べると、{最近|さいきん}は{漢字|かんじ}がだいぶ{読|よ}めるようになった。",
+              "structure_note": "{名詞|めいし} ＋ に{比|くら}べると（{変化|へんか}の{実感|じっかん}）",
+              "en": "Compared to before, I have become able to read quite a lot more kanji lately."
+            },
+            {
+              "ja_ruby": "バスで{行|い}くのに{比|くら}べ、{新幹線|しんかんせん}なら{半分|はんぶん}の{時間|じかん}で{着|つ}く。",
+              "structure_note": "{動詞|どうし}{辞書形|じしょけい} ＋ の ＋ に{比|くら}べ",
+              "en": "Compared with going by bus, you arrive in half the time by Shinkansen."
+            }
+          ],
+          "pitfalls": [
+            "Verbs must be nominalized with の before に{比|くら}べて (○ {歩|ある}くのに{比|くら}べて, × {歩|ある}くに{比|くら}べて); nouns attach directly without の (× {去年|きょねん}のに{比|くら}べて).",
+            "Do not confuse 〜に{比|くら}べて (comparing measurable degree, 'more/less than X') with 〜に{対|たい}して (contrasting opposing attitudes or roles, 'whereas X does A, Y does B')."
+          ]
+        },
+        {
+          "id": "yorimo-zutto",
+          "pattern": "〜より（も）〜ほうが＋ずっと",
+          "pattern_ruby": "〜より（も）〜ほうが＋ずっと",
+          "romaji": "~yori (mo) ~hou ga + zutto",
+          "meaning_en": "far more ~ than ~; way ~-er than ~ (intensified comparison)",
+          "register": "neutral",
+          "renshuu_status": "canonical_n3",
+          "mental_model": "Take the basic N4 comparison AよりBのほうが〜 and widen the gap dramatically. Adding も after より spotlights the rejected baseline ('more than A, even'), and dropping ずっと right before the predicate stretches the difference ('way cheaper / far better'). Keep your attachment tight: nouns take の before ほうが, while verbs attach straight to ほうが with no の.",
+          "formation": [
+            {
+              "pos": "{名詞|めいし} A・{名詞|めいし} B",
+              "rule": "A より（も）＋ B のほうが ＋ ずっと ＋ {述語|じゅつご}"
+            },
+            {
+              "pos": "{動詞|どうし} A・{動詞|どうし} B（{辞書形|じしょけい}・た{形|けい}）",
+              "rule": "A より（も）＋ B ほうが ＋ ずっと ＋ {述語|じゅつご}（のは{不要|ふよう}）"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "{自転車|じてんしゃ}に{乗|の}るよりも{歩|ある}いていくほうが、ずっと{安全|あんぜん}だと{思|おも}う。",
+              "structure_note": "{動詞|どうし}＋よりも ＋ {動詞|どうし}＋ほうが ＋ ずっと",
+              "en": "I think walking is far safer than riding a bicycle."
+            },
+            {
+              "ja_ruby": "{写真|しゃしん}で{見|み}るより、{実物|じつぶつ}を{見|み}たほうがずっと{迫力|はくりょく}がある。",
+              "structure_note": "{動詞|どうし}た{形|けい}（{見|み}た）＋ ほうが ＋ ずっと",
+              "en": "Seeing the real thing is way more impressive than looking at it in photos."
+            },
+            {
+              "ja_ruby": "{自分|じぶん}で{悩|なや}み{続|つづ}けるよりも、{先生|せんせい}に{質問|しつもん}したほうがずっと{早|はや}く{解決|かいけつ}する。",
+              "structure_note": "{動詞|どうし}た{形|けい} ＋ ほうが ＋ ずっと ＋ {副詞|ふくし}",
+              "en": "Rather than worrying on your own, asking the teacher resolves things much faster."
+            },
+            {
+              "ja_ruby": "{夏|なつ}の{海|うみ}より、{秋|あき}の{山|やま}のほうがずっと{静|しず}かで{落|お}ち{着|つ}ける。",
+              "structure_note": "{名詞|めいし}（{秋|あき}の{山|やま}）＋ のほうが ＋ ずっと",
+              "en": "The autumn mountains are far quieter and more relaxing than the summer beach."
+            }
+          ],
+          "pitfalls": [
+            "Place ずっと immediately inside the predicate (○ B のほうがずっと{安|やす}い), never before the より phrase (× ずっと A より B のほうが{安|やす}い).",
+            "Watch の before ほうが: nouns require の ({夏|なつ}のほうが), whereas verbs attach directly without の (○ {相談|そうだん}するほうが, × {相談|そうだん}するのほうが)."
+          ]
+        },
+        {
+          "id": "onaji-kurai-chigatte",
+          "pattern": "〜と同じくらい・〜と同じで / と違って",
+          "pattern_ruby": "〜と{同|おな}じくらい・〜と{同|おな}じで / と{違|ちが}って",
+          "romaji": "~to onaji kurai · ~to onaji de / to chigatte",
+          "meaning_en": "about the same as ~ (onaji kurai); just like ~ / unlike ~ (onaji de / chigatte)",
+          "register": "neutral",
+          "renshuu_status": "canonical_n3",
+          "mental_model": "When two things match or diverge rather than outranking each other, particle と is your anchor: 〜と{同|おな}じくらい puts two items at roughly equal height on a scale ('about as tall as Mom'), while 〜と{同|おな}じで ('just like X') and 〜と{違|ちが}って ('unlike X') link whole clauses. Crucially, {同|おな}じ is a special noun modifier that snaps onto nouns directly with ZERO の and ZERO な: always say {同|おな}じ{色|いろ}, never {同|おな}じの{色|いろ}.",
+          "formation": [
+            {
+              "pos": "{名詞|めいし}",
+              "rule": "＋ と{同|おな}じくらい（ぐらい）＋ {形容詞|けいようし}・{動詞|どうし}"
+            },
+            {
+              "pos": "{名詞|めいし}",
+              "rule": "＋ と{同|おな}じで / と{違|ちが}って ＋ {文|ぶん}"
+            },
+            {
+              "pos": "{名詞|めいし}{修飾|しゅうしょく}（{直結|ちょっけつ}）",
+              "rule": "{同|おな}じ ＋ {名詞|めいし}（の・なは{絶対|ぜったい}に{入|い}れない）"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "{妹|いもうと}はもうすぐ{母|はは}と{同|おな}じくらい{背|せ}が{高|たか}くなりそうだ。",
+              "structure_note": "{名詞|めいし}（{母|はは}）＋ と{同|おな}じくらい ＋ {形容詞|けいようし}",
+              "en": "It looks like my younger sister will soon be about as tall as our mother."
+            },
+            {
+              "ja_ruby": "{美咲|みさき}さんも{私|わたし}と{同|おな}じで、{朝|あさ}はコーヒーがないと{目|め}が{覚|さ}めないそうだ。",
+              "structure_note": "{名詞|めいし}（{私|わたし}）＋ と{同|おな}じで（{共通点|きょうつうてん}）",
+              "en": "Just like me, Misaki apparently cannot wake up in the morning without coffee."
+            },
+            {
+              "ja_ruby": "{兄|あに}と{違|ちが}って、{弟|おとうと}は{初対面|しょたいめん}の{人|ひと}ともすぐに{仲良|なかよ}くなれる。",
+              "structure_note": "{名詞|めいし}（{兄|あに}）＋ と{違|ちが}って（{相違点|そういてん}）",
+              "en": "Unlike my older brother, my younger brother can quickly make friends even with people he meets for the first time."
+            },
+            {
+              "ja_ruby": "{佐藤|さとう}さんと{鈴木|すずき}さんは、たまたま{同|おな}じ{色|いろ}のコートを{着|き}て{来|き}た。",
+              "structure_note": "{同|おな}じ ＋ {名詞|めいし}（の・ななし）",
+              "en": "Sato and Suzuki happened to come wearing coats of the same color."
+            }
+          ],
+          "pitfalls": [
+            "NEVER insert の or な between {同|おな}じ and a noun (○ {同|おな}じ{意見|いけん}, × {同|おな}じの{意見|いけん}, × {同|おな}じな{意見|いけん}). Note that 〜のと{同|おな}じ uses の to nominalize the preceding word, not after {同|おな}じ.",
+            "Always mark the comparison partner with と (not に or が) before {同|おな}じくらい, {同|おな}じで, and {違|ちが}って (○ {去年|きょねん}と{違|ちが}って, × {去年|きょねん}に{違|ちが}って)."
+          ]
+        },
+        {
+          "id": "ni-tsurete-ippoude",
+          "pattern": "〜につれて・一方で",
+          "pattern_ruby": "〜につれて・{一方|いっぽう}で",
+          "romaji": "~ni tsurete · ippou de",
+          "meaning_en": "as ~ changes, ~ changes too (ni tsurete); on the other hand / while simultaneously (ippou de)",
+          "register": "written",
+          "renshuu_status": "canonical_n3",
+          "mental_model": "Both patterns examine pairs, in different dimensions. 〜につれて links two changes across time like gears turning together: as A shifts continuously in one direction ({年|とし}をとる, {登|のぼ}る), B shifts right alongside it ({弱|よわ}くなる, {下|さ}がる). By contrast, {一方|いっぽう}で acts like a balanced scale holding two coexisting sides at once—either two contrasting traits of one thing, or two people/roles moving simultaneously.",
+          "formation": [
+            {
+              "pos": "{動詞|どうし}{辞書形|じしょけい}・{変化|へんか}の{名詞|めいし}",
+              "rule": "＋ につれて（{比例|ひれい}{変化|へんか}）"
+            },
+            {
+              "pos": "{動詞|どうし}{普通形|ふつうけい}・い{形容詞|けいようし}",
+              "rule": "＋ {一方|いっぽう}（で）"
+            },
+            {
+              "pos": "な{形容詞|けいようし}（な / である）・{名詞|めいし}（である / の）",
+              "rule": "＋ {一方|いっぽう}（で）"
+            },
+            {
+              "pos": "{接続詞|せつぞくし}（{文頭|ぶんとう}）",
+              "rule": "{文|ぶん}A。{一方|いっぽう}（で）、{文|ぶん}B。"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "{山|やま}を{登|のぼ}るにつれて、だんだん{気温|きおん}が{下|さ}がってきた。",
+              "structure_note": "{変化|へんか}{動詞|どうし}（{登|のぼ}る）＋ につれて",
+              "en": "As we climbed higher up the mountain, the temperature gradually dropped."
+            },
+            {
+              "ja_ruby": "{時代|じだい}の{変化|へんか}につれて、{人々|ひとびと}の{働|はたら}き{方|かた}も{大|おお}きく{変|か}わった。",
+              "structure_note": "{変化|へんか}{名詞|めいし}（{時代|じだい}の{変化|へんか}）＋ につれて",
+              "en": "As the times changed, the way people work also changed greatly."
+            },
+            {
+              "ja_ruby": "{田中|たなか}さんは{会社|かいしゃ}で{働|はたら}く{一方|いっぽう}で、{週末|しゅうまつ}は{地域|ちいき}のボランティアをしている。",
+              "structure_note": "{動詞|どうし}{辞書形|じしょけい} ＋ {一方|いっぽう}で（{並行|へいこう}）",
+              "en": "While working at a company, Tanaka does local volunteer work on weekends."
+            },
+            {
+              "ja_ruby": "このアプリは{操作|そうさ}が{簡単|かんたん}な{一方|いっぽう}で、{細|こま}かい{設定|せってい}ができないという{弱点|じゃくてん}がある。",
+              "structure_note": "な{形容詞|けいようし}（{簡単|かんたん}）＋ な ＋ {一方|いっぽう}で（{両面|りょうめん}）",
+              "en": "While this app is easy to operate, on the other hand it has the drawback that you cannot make detailed settings."
+            }
+          ],
+          "pitfalls": [
+            "〜につれて requires gradual, ongoing change in BOTH clauses—never use it with one-time actions, commands, or requests (× {駅|えき}に{着|つ}くにつれて{電話|でんわ}してください).",
+            "Before {一方|いっぽう}で, な-adjectives take な (or である) and nouns take である (or の)—never use bare だ (× {便利|べんり}だ{一方|いっぽう}で -> ○ {便利|べんり}な{一方|いっぽう}で)."
+          ]
+        }
+      ],
+      "lesson_contrast": {
+        "title": "Comparison, Sameness & Co-Change in Lesson 43",
+        "explanation": "Keep comparison particles (に vs と), direct {同|おな}じ＋Noun modification, and dynamic co-change vs balanced two-sided contrast distinct.",
+        "rows": [
+          {
+            "expression": "〜に{比|くら}べて",
+            "register": "Neutral",
+            "key_rule": "Objective benchmark comparison using に; verbs take の before に{比|くら}べて.",
+            "example_short": "{去年|きょねん}に{比|くら}べて{涼|すず}しい。"
+          },
+          {
+            "expression": "〜より（も）〜ほうが＋ずっと",
+            "register": "Neutral",
+            "key_rule": "Intensified gap; ずっと goes before predicate, verbs need no の before ほうが.",
+            "example_short": "バスより{電車|でんしゃ}のほうがずっと{早|はや}い。"
+          },
+          {
+            "expression": "〜と{同|おな}じ / と{違|ちが}って",
+            "register": "Neutral",
+            "key_rule": "Marks standard with と; {同|おな}じ attaches directly to Noun (never {同|おな}じの).",
+            "example_short": "{同|おな}じ{色|いろ}だが{形|かたち}が{違|ちが}う。"
+          },
+          {
+            "expression": "〜につれて・{一方|いっぽう}で",
+            "register": "Written / Neutral",
+            "key_rule": "につれて = proportional ongoing change; {一方|いっぽう}で = two-sided contrast or parallel roles.",
+            "example_short": "{便利|べんり}な{一方|いっぽう}で{危険|きけん}もある。"
+          }
+        ]
+      },
+      "practice_quiz": [
+        {
+          "question_id": "L43-Q1",
+          "question_type": "attachment_trap",
+          "prompt_ja_ruby": "{鈴木|すずき}さんと{私|わたし}は、たまたま（　　　）を{選|えら}んでいた。",
+          "context_en": "Testing the direct noun-modification rule for 同じ: 'Suzuki and I happened to have chosen the same design.'",
+          "choices": [
+            "{同|おな}じデザイン",
+            "{同|おな}じのデザイン",
+            "{同|おな}じなデザイン",
+            "{同|おな}じくデザイン"
+          ],
+          "correct_index": 0,
+          "explanation": "Correct: A ({同|おな}じデザイン). {同|おな}じ attaches directly before a noun with zero linking particle. B ({同|おな}じのデザイン) commits the most common N3 error by adding の; C ({同|おな}じなデザイン) wrongly adds だ; D ({同|おな}じくデザイン) uses adverbial く, which cannot modify a noun."
+        },
+        {
+          "question_id": "L43-Q2",
+          "question_type": "nuance_choice",
+          "prompt_ja_ruby": "{試験|しけん}の{日|ひ}が{近|ちか}づく（　　　）、だんだん{緊張|きんちょう}してきた。",
+          "context_en": "Showing proportional co-change over time: 'As the exam day approaches, I have gradually gotten nervous.'",
+          "choices": [
+            "{一方|いっぽう}で",
+            "のに{比|くら}べて",
+            "のと{違|ちが}って",
+            "につれて"
+          ],
+          "correct_index": 3,
+          "explanation": "Correct: D (につれて). Change verb {近|ちか}づく ＋ につれて captures a proportional progression over time ('as the exam day draws nearer, nervousness steadily rises'). A ({一方|いっぽう}で) contrasts two parallel sides rather than a single temporal trigger causing gradual change; B (のに{比|くら}べて) and C (のと{違|ちが}って) compare two items rather than ongoing progression."
+        },
+        {
+          "question_id": "L43-Q3",
+          "question_type": "star_order",
+          "prompt_ja_ruby": "{夜|よる}のバスで{移動|いどう}するよりも、＿　＿　★　＿{楽|らく}だ。",
+          "context_en": "Expressing a strong comparative preference: 'Compared to traveling by night bus, the morning Shinkansen is far easier.'",
+          "choices": [
+            "{朝|あさ}の",
+            "ずっと",
+            "のほうが",
+            "{新幹線|しんかんせん}"
+          ],
+          "correct_index": 2,
+          "explanation": "Correct: C (のほうが). Full sentence: {夜|よる}のバスで{移動|いどう}するよりも、{朝|あさ}の(1) {新幹線|しんかんせん}(2) のほうが(3★) ずっと(4) {楽|らく}だ。{朝|あさ}の modifies the noun {新幹線|しんかんせん}, which takes のほうが before intensifying adverb ずっと and predicate {楽|らく}だ. Putting ずっと earlier before {朝|あさ}の or {新幹線|しんかんせん} is ungrammatical."
+        },
+        {
+          "question_id": "L43-Q4",
+          "question_type": "fill_blank",
+          "prompt_ja_ruby": "{最近|さいきん}のパソコンは{昔|むかし}のもの（　　　）、ずっと{軽|かる}くて{持|も}ち{運|はこ}びやすい。",
+          "context_en": "Benchmarking modern laptops against older models: 'Compared to older ones, recent laptops are much lighter and easier to carry around.'",
+          "choices": [
+            "と{同|おな}じで",
+            "に{比|くら}べて",
+            "と{同|おな}じくらい",
+            "につれて"
+          ],
+          "correct_index": 1,
+          "explanation": "Correct: B (に{比|くら}べて). Noun {昔|むかし}のもの ＋ に{比|くら}べて sets older models as the comparison benchmark, matching the comparative gap ずっと{軽|かる}くて. A (と{同|おな}じで) and C (と{同|おな}じくらい) mean 'the same as / as light as', contradicting ずっと{軽|かる}くて; D (につれて) requires an ongoing change verb or change noun rather than a static noun."
+        }
+      ]
+    },
+    {
+      "lesson_id": "L44",
+      "lesson_number": 44,
+      "renshuu_title": "(Not) Only",
+      "has_video": false,
+      "summary": "Master N3 additive and exclusive expressions: neutral 'not only A, but also B' (〜だけでなく・〜ばかりでなく), stacking conditions of the same direction (〜{上|うえ}に), dramatic escalation with surprise (〜ばかりか), obvious baseline expansion (〜はもちろん / はもとより), emphatic restriction (〜だけしか〜ない), and ironic bad timing or trusted exception (〜に{限|かぎ}って).",
+      "study_tip": "Check particle links and sentence direction in Lesson 44: 〜だけでなく / ばかりでなく attach directly to nouns, whereas 〜{上|うえ}に requires の after nouns (N＋の{上|うえ}に) and stacks two same-polarity traits; 〜ばかりか / はもちろん expand upward (with も, まで, さえ), while 〜だけしか〜ない narrows down and MUST end negatively.",
+      "grammar_points": [
+        {
+          "id": "dake-denaku-bakari-denaku",
+          "pattern": "〜だけでなく・〜ばかりでなく",
+          "pattern_ruby": "〜だけでなく・〜ばかりでなく",
+          "romaji": "~dake de naku · ~bakari de naku",
+          "meaning_en": "not only ~, but also ~ (additive expansion)",
+          "register": "neutral",
+          "renshuu_status": "verified_renshuu",
+          "mental_model": "Both patterns build a two-step 'not only A, but also B' bridge, where Clause B normally carries も ('also') to confirm the addition. 〜だけでなく is your everyday all-purpose workhorse, while 〜ばかりでなく sounds slightly fuller and more emphatic ('not merely A, and on top of that B...'). Watch nouns versus な-adjectives: nouns attach directly with no particle, while な-adjectives need な.",
+          "formation": [
+            {
+              "pos": "{動詞|どうし}・い{形容詞|けいようし}{普通形|ふつうけい}",
+              "rule": "＋ だけでなく / ばかりでなく"
+            },
+            {
+              "pos": "な{形容詞|けいようし}",
+              "rule": "＋ な ＋ だけでなく / ばかりでなく"
+            },
+            {
+              "pos": "{名詞|めいし}",
+              "rule": "＋ だけでなく / ばかりでなく（のは{不要|ふよう}）"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "{佐藤|さとう}さんは{英語|えいご}だけでなく、{中国語|ちゅうごくご}も{上手|じょうず}に{話|はな}せる。",
+              "structure_note": "{名詞|めいし}（{英語|えいご}）＋ だけでなく ＋ {中国語|ちゅうごくご}も",
+              "en": "Sato can speak not only English, but also Chinese well."
+            },
+            {
+              "ja_ruby": "このレストランは{味|あじ}が{良|よ}いばかりでなく、{店員|てんいん}の{態度|たいど}もとても{丁寧|ていねい}だ。",
+              "structure_note": "い{形容詞|けいようし}（{良|よ}い）＋ ばかりでなく ＋ {態度|たいど}も",
+              "en": "Not only is the food good at this restaurant, but the staff's attitude is also very polite."
+            },
+            {
+              "ja_ruby": "この{公園|こうえん}は{昼|ひる}だけでなく、{夜|よる}のライトアップもきれいだ。",
+              "structure_note": "{名詞|めいし}（{昼|ひる}）＋ だけでなく",
+              "en": "Not only during the daytime, this park is also pretty when lit up at night."
+            },
+            {
+              "ja_ruby": "この{仕事|しごと}は{大変|たいへん}なばかりでなく、{責任|せきにん}もかなり{重|おも}い。",
+              "structure_note": "な{形容詞|けいようし}（{大変|たいへん}）＋ な ＋ ばかりでなく",
+              "en": "Not only is this job tough, the responsibility is also quite heavy."
+            }
+          ],
+          "pitfalls": [
+            "Always mark the added item in Clause B with も (or まで / さえ) so the 'but also' link stays clear (○ {英語|えいご}だけでなく{日本語|にほんご}もできる, × {日本語|にほんご}ができる).",
+            "Nouns take NO particle before だけでなく / ばかりでなく (× {学生|がくせい}のばかりでなく), while な-adjectives require な (○ {便利|べんり}なばかりでなく, × {便利|べんり}だばかりでなく)."
+          ]
+        },
+        {
+          "id": "bakari-ka",
+          "pattern": "〜ばかりか",
+          "pattern_ruby": "〜ばかりか",
+          "romaji": "~bakari ka",
+          "meaning_en": "not only ~, why, even ~! (strong escalation with surprise)",
+          "register": "written",
+          "renshuu_status": "verified_renshuu",
+          "mental_model": "Take 〜ばかりでなく and crank up the shock factor. 〜ばかりか says: 'Never mind stopping at A—it actually goes ALL the way to astonishing B!' Because Clause B jumps beyond ordinary expectation, it naturally attracts dramatic escalators like 〜さえ ('even') or 〜まで ('all the way to'). It works for jaw-dropping talent or snowballing disasters.",
+          "formation": [
+            {
+              "pos": "{動詞|どうし}・い{形容詞|けいようし}{普通形|ふつうけい}",
+              "rule": "＋ ばかりか"
+            },
+            {
+              "pos": "な{形容詞|けいようし}",
+              "rule": "＋ な ＋ ばかりか"
+            },
+            {
+              "pos": "{名詞|めいし}",
+              "rule": "＋ ばかりか（＋ Clause B に も・まで・さえ）"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "{彼|かれ}は{漢字|かんじ}ばかりか、カタカナさえほとんど{読|よ}めないそうだ。",
+              "structure_note": "{名詞|めいし} ＋ ばかりか ＋ カタカナさえ（{驚|おどろ}きの{強調|きょうちょう}）",
+              "en": "I hear he can barely read even katakana, let alone kanji."
+            },
+            {
+              "ja_ruby": "{午後|ごご}から{雨|あめ}ばかりか、{強|つよ}い{風|かぜ}まで{吹|ふ}き{始|はじ}めた。",
+              "structure_note": "{名詞|めいし}（{雨|あめ}）＋ ばかりか ＋ {風|かぜ}まで",
+              "en": "Since the afternoon, not only rain, even strong winds started blowing!"
+            },
+            {
+              "ja_ruby": "{健太|けんた}くんはピアノばかりか、バイオリンまでプロの{演奏家|えんそうか}のように{弾|ひ}ける。",
+              "structure_note": "{名詞|めいし} ＋ ばかりか ＋ バイオリンまで",
+              "en": "Kenta can play not only the piano, why, even the violin like a professional musician."
+            },
+            {
+              "ja_ruby": "{高橋|たかはし}さんは{遅刻|ちこく}したばかりか、おわびの{一言|ひとこと}も{言|い}わなかった。",
+              "structure_note": "{動詞|どうし}た{形|けい}（{遅刻|ちこく}した）＋ ばかりか",
+              "en": "Not only did Takahashi arrive late, he didn't even say a single word of apology."
+            }
+          ],
+          "pitfalls": [
+            "Reserve 〜ばかりか for surprising or dramatic escalation; for neutral everyday lists ('not only apples, also bananas'), use 〜だけでなく.",
+            "Do not confuse 〜ばかりか ('not only A, even B!') with 〜ばかりだ ('only getting worse/more ~')."
+          ]
+        },
+        {
+          "id": "wa-mochiron-motoyori",
+          "pattern": "〜はもちろん / はもとより",
+          "pattern_ruby": "〜はもちろん / はもとより",
+          "romaji": "~wa mochiron / wa motoyori",
+          "meaning_en": "~ goes without saying, let alone/plus ~; naturally ~ as well as ~",
+          "register": "formal",
+          "renshuu_status": "verified_renshuu",
+          "mental_model": "Instead of treating A and B equally, 〜はもちろん (neutral/everyday) and 〜はもとより (formal/written) declare A to be an obvious, taken-for-granted baseline ('Of course A!') before expanding to broader or more impressive B ('and naturally/even B too!'). Notice the order rule: the easier or more expected item MUST come first before はもちろん / はもとより.",
+          "formation": [
+            {
+              "pos": "{名詞|めいし}（＋ で・に・へ・から）",
+              "rule": "＋ はもちろん / はもとより（が・をは{省略|しょうりゃく}）"
+            },
+            {
+              "pos": "{動詞|どうし}・い{形容詞|けいようし}{普通形|ふつうけい}（な{形容詞|けいようし}＋な）",
+              "rule": "＋ のはもちろん / のはもとより"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "{日本|にほん}ではもちろん、{海外|かいがい}でもこのアニメはとても{人気|にんき}がある。",
+              "structure_note": "{場所|ばしょ}（{日本|にほん}で）＋ はもちろん ＋ {海外|かいがい}でも",
+              "en": "This anime is very popular not only in Japan, of course, but overseas as well."
+            },
+            {
+              "ja_ruby": "{家族|かぞく}はもちろん、{近所|きんじょ}の{人|ひと}たちも{引|ひ}っ{越|こ}しを{手伝|てつだ}ってくれた。",
+              "structure_note": "{名詞|めいし}（{家族|かぞく}）＋ はもちろん",
+              "en": "Naturally my family, and even the neighbors, helped me with the move."
+            },
+            {
+              "ja_ruby": "このホテルは{客室|きゃくしつ}の{広|ひろ}さはもとより、{食事|しょくじ}の{質|しつ}でも{高|たか}く{評価|ひょうか}されている。",
+              "structure_note": "{名詞|めいし} ＋ はもとより（{改|あらた}まった{表現|ひょうげん}）",
+              "en": "This hotel is highly rated not only for the spaciousness of its rooms, as goes without saying, but also for the quality of its meals."
+            },
+            {
+              "ja_ruby": "{健康|けんこう}のためには{運動|うんどう}はもとより、{毎日|まいにち}の{睡眠|すいみん}も{欠|か}かせない。",
+              "structure_note": "{名詞|めいし}（{運動|うんどう}）＋ はもとより",
+              "en": "For good health, exercise goes without saying, and daily sleep is indispensable too."
+            }
+          ],
+          "pitfalls": [
+            "Always put the more obvious, expected baseline BEFORE はもちろん / はもとより (○ ひらがなはもちろん{漢字|かんじ}も, × {漢字|かんじ}はもちろんひらがなも).",
+            "Drop particles が and を before はもちろん / はもとより (○ {英語|えいご}はもちろん, × {英語|えいご}をはもちろん), though particles like で, に, and へ stay before は ({日本|にほん}ではもちろん)."
+          ]
+        },
+        {
+          "id": "dakeshika-ni-kagitte",
+          "pattern": "〜だけしか〜ない・〜に限って",
+          "pattern_ruby": "〜だけしか〜ない・〜に{限|かぎ}って",
+          "romaji": "~dake shika ~nai · ~ni kagitte",
+          "meaning_en": "nothing but ~ / only ~ (emphatic restriction); of all times/people ~ / specifically ~ would never ~ (ni kagitte)",
+          "register": "neutral",
+          "renshuu_status": "canonical_n3",
+          "mental_model": "Both narrow the spotlight to one pinpoint target in very different ways. Stacking 〜だけしか〜ない squeezes an amount down to a tiny remainder ('literally ONLY 100 yen left and nothing more') and ALWAYS ends in a negative verb because of しか. Meanwhile, 〜に{限|かぎ}って zooms in on one fateful target for two classic N3 scenarios: (1) Murphy's-law bad timing ('specifically on the day I forgot my umbrella, it pours!'), and (2) unshakable trust ('of all people, Tanaka would NEVER do that!').",
+          "formation": [
+            {
+              "pos": "{名詞|めいし}・{数量詞|すうりょうし}・{動詞|どうし}{辞書形|じしょけい}",
+              "rule": "＋ だけしか ＋ {否定形|ひていけい}（〜ない）"
+            },
+            {
+              "pos": "{時|とき}・{日|ひ}・{場合|ばあい}の{名詞|めいし}",
+              "rule": "＋ に{限|かぎ}って ＋ {困|こま}った{出来事|できごと}（Murphy's law）"
+            },
+            {
+              "pos": "{人|ひと}の{名詞|めいし}",
+              "rule": "＋ に{限|かぎ}って ＋ {否定|ひてい}・〜はずがない（{強|つよ}い{信頼|しんらい}）"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "{財布|さいふ}を{見|み}たら、{100円|ひゃくえん}だけしか{残|のこ}っていなかった。",
+              "structure_note": "{数量詞|すうりょうし}（{100円|ひゃくえん}）＋ だけしか ＋ {否定|ひてい}",
+              "en": "When I looked in my wallet, there was literally only 100 yen left."
+            },
+            {
+              "ja_ruby": "{朝|あさ}から{忙|いそが}しくて、コーヒーを{一杯|いっぱい}だけしか{飲|の}んでいない。",
+              "structure_note": "{数量詞|すうりょうし} ＋ だけしか ＋ {飲|の}んでいない",
+              "en": "I have been so busy since morning that I have drunk nothing more than a single cup of coffee."
+            },
+            {
+              "ja_ruby": "{傘|かさ}を{家|いえ}に{忘|わす}れた{日|ひ}に{限|かぎ}って、{夕方|ゆうがた}から{大雨|おおあめ}が{降|ふ}るものだ。",
+              "structure_note": "{状況|じょうきょう}{名詞|めいし} ＋ に{限|かぎ}って（{皮肉|ひにく}なタイミング）",
+              "en": "Of all days, it always rains heavily in the evening specifically on the day I forget my umbrella at home."
+            },
+            {
+              "ja_ruby": "いつも{真面目|まじめ}な{山田|やまだ}さんに{限|かぎ}って、{無断|むだん}で{会社|かいしゃ}を{休|やす}むはずがない。",
+              "structure_note": "{人|ひと} ＋ に{限|かぎ}って ＋ 〜はずがない（{信頼|しんらい}）",
+              "en": "Always conscientious as they are, Yamada of all people would never take off from work without notice."
+            }
+          ],
+          "pitfalls": [
+            "〜だけしか MUST pair with a negative predicate because of しか (○ {100円|ひゃくえん}だけしかない, × {100円|ひゃくえん}だけしかある).",
+            "When 〜に{限|かぎ}って refers to a trusted person ('of all people, X would never...'), it must end negatively (~ない / ~はずがない); do not use it for general positive praise (× {田中|たなか}さんに{限|かぎ}って{頭|あたま}がいい)."
+          ]
+        },
+        {
+          "id": "ueni-moreover",
+          "pattern": "〜上に",
+          "pattern_ruby": "〜{上|うえ}に",
+          "romaji": "~ue ni",
+          "meaning_en": "in addition to ~; on top of ~; moreover",
+          "register": "neutral",
+          "renshuu_status": "verified_renshuu",
+          "mental_model": "Picture stacking a second matching weight onto the same side of a scale: 'A is already true, AND on top of that B is true too!' Unlike 〜だけでなく / ばかりでなく (which take bare nouns), 〜{上|うえ}に treats {上|うえ} as a relational noun—so nouns require の ({休日|きゅうじつ}の{上|うえ}に) and な-adjectives require な ({静|しず}かな{上|うえ}に). Crucially, both halves MUST push in the exact same evaluative direction: praise + praise, or misfortune + misfortune—never mix good and bad.",
+          "formation": [
+            {
+              "pos": "{動詞|どうし}・い{形容詞|けいようし}{普通形|ふつうけい}",
+              "rule": "＋ {上|うえ}に"
+            },
+            {
+              "pos": "な{形容詞|けいようし}",
+              "rule": "＋ な ＋ {上|うえ}に"
+            },
+            {
+              "pos": "{名詞|めいし}",
+              "rule": "＋ の ＋ {上|うえ}に（のは{必須|ひっす}）"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "このアパートは{駅|えき}から{近|ちか}い{上|うえ}に、{家賃|やちん}も{安|やす}くてとても{人気|にんき}がある。",
+              "structure_note": "い{形容詞|けいようし}（{近|ちか}い）＋ {上|うえ}に（{良|よ}い{点|てん}の{積|つ}み{重|かさ}ね）",
+              "en": "In addition to being close to the station, this apartment also has cheap rent and is very popular."
+            },
+            {
+              "ja_ruby": "この{図書館|としょかん}は{静|しず}かな{上|うえ}に、{新|あたら}しい{本|ほん}もたくさんあって{勉強|べんきょう}しやすい。",
+              "structure_note": "な{形容詞|けいようし}（{静|しず}か）＋ な ＋ {上|うえ}に",
+              "en": "Not only is this library quiet, on top of that there are many new books, making it easy to study."
+            },
+            {
+              "ja_ruby": "{朝|あさ}から{雨|あめ}が{降|ふ}り{出|だ}した{上|うえ}に、{風|かぜ}まで{強|つよ}くなってきた。",
+              "structure_note": "{動詞|どうし}た{形|けい} ＋ {上|うえ}に（{悪|わる}い{状況|じょうきょう}の{重|かさ}なり）",
+              "en": "On top of rain starting to fall in the morning, even the wind has grown strong."
+            },
+            {
+              "ja_ruby": "{休日|きゅうじつ}の{上|うえ}に{天気|てんき}も{良|よ}いので、{公園|こうえん}はたくさんの{人|ひと}でにぎわっている。",
+              "structure_note": "{名詞|めいし}（{休日|きゅうじつ}）＋ の ＋ {上|うえ}に",
+              "en": "On top of it being a holiday, the weather is good too, so the park is bustling with lots of people."
+            }
+          ],
+          "pitfalls": [
+            "Remember the noun link difference in Lesson 44: 〜{上|うえ}に MUST take の after a noun ({大雪|おおゆき}の{上|うえ}に, × {大雪|おおゆき}{上|うえ}に) and な after a な-adjective ({便利|べんり}な{上|うえ}に, × {便利|べんり}だ{上|うえ}に), whereas 〜だけでなく / ばかりでなく take bare nouns.",
+            "Keep both clauses in the SAME evaluative direction (good + good, or bad + bad): never pair opposite sides like × {安|やす}い{上|うえ}にまずい (use 〜かわりに or 〜けれど instead).",
+            "Do not confuse additive 〜{上|うえ}に ('in addition to / moreover') with sequential 〜{上|うえ}で ('after / upon doing')."
+          ]
+        }
+      ],
+      "lesson_contrast": {
+        "title": "Expansion vs. Exclusive Spotlight in Lesson 44",
+        "explanation": "Sort the '(not) only' and additive expressions by how they attach to nouns and whether they expand upward, stack same-polarity traits, or pinpoint one target.",
+        "rows": [
+          {
+            "expression": "〜だけでなく・ばかりでなく",
+            "register": "Neutral",
+            "key_rule": "Neutral 'not only A, also B'; bare N (no の), な-Adj takes な; pair Clause B with も.",
+            "example_short": "{味|あじ}だけでなく{値段|ねだん}も{良|よ}い。"
+          },
+          {
+            "expression": "〜{上|うえ}に",
+            "register": "Neutral",
+            "key_rule": "Stacks same-polarity traits/events ('moreover / on top of'); N takes の{上|うえ}に, な-Adj takes な{上|うえ}に.",
+            "example_short": "{駅|えき}に{近|ちか}い{上|うえ}に{安|やす}い。"
+          },
+          {
+            "expression": "〜ばかりか",
+            "register": "Written / Emphatic",
+            "key_rule": "Strong surprise escalation ('not only A, why, even B!'); pairs with さえ / まで.",
+            "example_short": "{漢字|かんじ}ばかりかカタカナさえ{読|よ}めない。"
+          },
+          {
+            "expression": "〜はもちろん / はもとより",
+            "register": "Neutral / Formal",
+            "key_rule": "Obvious baseline A comes FIRST ('A goes without saying, plus B').",
+            "example_short": "{国内|こくない}はもとより{海外|かいがい}でも{人気|にんき}だ。"
+          },
+          {
+            "expression": "〜だけしか〜ない・に{限|かぎ}って",
+            "register": "Neutral",
+            "key_rule": "だけしか requires negative verb; に{限|かぎ}って = bad timing OR trusted negative exception.",
+            "example_short": "{忙|いそが}しい{日|ひ}に{限|かぎ}ってトラブルが{起|お}きる。"
+          }
+        ]
+      },
+      "practice_quiz": [
+        {
+          "question_id": "L44-Q1",
+          "question_type": "fill_blank",
+          "prompt_ja_ruby": "{時間|じかん}がなかったので、テストの{問題|もんだい}は{半分|はんぶん}（　　　）{解|と}けなかった。",
+          "context_en": "Emphasizing a strict limit with a negative verb: 'Because there was no time, I could solve only half of the test questions.'",
+          "choices": [
+            "ばかりか",
+            "はもちろん",
+            "だけでなく",
+            "だけしか"
+          ],
+          "correct_index": 3,
+          "explanation": "Correct: D (だけしか). 〜だけしか pairs with negative {解|と}けなかった to emphatically restrict the count ('only half and nothing more'). A (ばかりか), B (はもちろん), and C (だけでなく) all require a second expanded clause with も, まで, or さえ rather than ending in a single negative limitation."
+        },
+        {
+          "question_id": "L44-Q2",
+          "question_type": "nuance_choice",
+          "prompt_ja_ruby": "いつも{約束|やくそく}をきちんと{守|まも}る{田中|たなか}さん（　　　）、{連絡|れんらく}もせずに{遅刻|ちこく}するはずがない。",
+          "context_en": "Defending a reliable colleague: 'Tanaka, of all people—who always keeps promises—would never be late without even contacting us.'",
+          "choices": [
+            "ばかりでなく",
+            "に{限|かぎ}って",
+            "ばかりか",
+            "はもとより"
+          ],
+          "correct_index": 1,
+          "explanation": "Correct: B (に{限|かぎ}って). Placed after a trusted person ({田中|たなか}さん) and paired with negative certainty (〜はずがない), 〜に{限|かぎ}って means 'of all people, X would never...'. A (ばかりでなく), C (ばかりか), and D (はもとより) all introduce a second expanded clause with も, まで, or さえ and fail in a single-subject negative certainty clause."
+        },
+        {
+          "question_id": "L44-Q3",
+          "question_type": "attachment_trap",
+          "prompt_ja_ruby": "{今日|きょう}は{大雪|おおゆき}（　　　）、{電車|でんしゃ}まで{止|と}まってしまって{大変|たいへん}だった。",
+          "context_en": "Testing noun attachment before 〜上に: 'On top of heavy snow today, even the trains stopped, making things tough.'",
+          "choices": [
+            "の{上|うえ}に",
+            "{上|うえ}に",
+            "な{上|うえ}に",
+            "だ{上|うえ}に"
+          ],
+          "correct_index": 0,
+          "explanation": "Correct: A (の{上|うえ}に). Unlike 〜だけでなく / ばかりでなく (which take bare nouns), 〜{上|うえ}に treats {上|うえ} as a noun and strictly requires の after a noun ({大雪|おおゆき}の{上|うえ}に). B ({上|うえ}に) omits the mandatory の; C (な{上|うえ}に) misapplies the な-adjective connector; D (だ{上|うえ}に) wrongly inserts copula だ."
+        },
+        {
+          "question_id": "L44-Q4",
+          "question_type": "star_order",
+          "prompt_ja_ruby": "{最近|さいきん}{日本語|にほんご}を{始|はじ}めたばかりなのに、＿　＿　★　＿{読|よ}めるらしい。",
+          "context_en": "Expressing impressive progression from an easy baseline: 'Even though they just started Japanese recently, they can apparently read hiragana of course, and even kanji.'",
+          "choices": [
+            "もちろん",
+            "まで",
+            "{漢字|かんじ}",
+            "ひらがなは"
+          ],
+          "correct_index": 2,
+          "explanation": "Correct: C ({漢字|かんじ}). Full sentence: {最近|さいきん}{日本語|にほんご}を{始|はじ}めたばかりなのに、ひらがなは(1) もちろん(2) {漢字|かんじ}(3★) まで(4){読|よ}めるらしい。The obvious baseline ひらがなは comes first before もちろん, followed by the escalated item {漢字|かんじ} and emphatic particle まで."
+        }
+      ]
+    },
+    {
+      "lesson_id": "L45",
+      "lesson_number": 45,
+      "renshuu_title": "も~ない",
+      "has_video": false,
+      "summary": "Master complete and partial negation built around も and ない: total zero negation with {一|いち}＋{助数詞|じょすうし}＋も〜ない, exhaustive 'neither A nor B' pairing (A も B も〜ない), and hesitant double negatives (〜なくはない / なくもない・〜ないことはない).",
+      "study_tip": "Always read all the way to the predicate in Lesson 45: {数量|すうりょう}＋も flips meaning completely at the verb ending (affirmative = 'as many as N', negative = 'not even one'), while double negatives like 〜なくはない soften into a reluctant 'kind of / not impossible' rather than an enthusiastic yes.",
+      "grammar_points": [
+        {
+          "id": "hitotsu-mo-nai",
+          "pattern": "一＋助数詞＋も〜ない",
+          "pattern_ruby": "{一|いち}＋{助数詞|じょすうし}＋も〜ない",
+          "romaji": "ichi + josuushi + mo ~nai",
+          "meaning_en": "not even one ~; none at all; not a bit (~ない)",
+          "register": "neutral",
+          "renshuu_status": "verified_renshuu",
+          "mental_model": "Putting も right after '1 + counter' ({一|ひと}つも, {一人|ひとり}も, {一度|いちど}も, {一冊|いっさつ}も) or minimal {少|すこ}しも and finishing with a negative verb slams the total count all the way down to absolute zero ('not even ONE!'). Unlike Unit 4's {数量|すうりょう}＋も with an affirmative verb ('as many as N'), pairing '1 + counter + も' with 〜ない leaves zero exceptions.",
+          "formation": [
+            {
+              "pos": "1 ＋ {助数詞|じょすうし}（{一|ひと}つ・{一人|ひとり}・{一度|いちど}・{一冊|いっさつ}）",
+              "rule": "＋ も ＋ {否定形|ひていけい}（〜ない）"
+            },
+            {
+              "pos": "{少|すこ}し（{数量|すうりょう}・{程度|ていど}）",
+              "rule": "＋ も ＋ {否定形|ひていけい}（〜ない）"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "{朝|あさ}{早|はや}く{駅|えき}に{行|い}ったら、ホームにまだ{一人|ひとり}もいなかった。",
+              "structure_note": "{一人|ひとり} ＋ も ＋ いなかった（{完全否定|かんぜんひてい}）",
+              "en": "When I went to the station early in the morning, there wasn't even a single person on the platform yet."
+            },
+            {
+              "ja_ruby": "{日本|にほん}へ{来|き}てから、まだ{一度|いちど}も{雪|ゆき}を{見|み}たことがない。",
+              "structure_note": "{一度|いちど} ＋ も ＋ {見|み}たことがない",
+              "en": "Since coming to Japan, I still haven't seen snow even once."
+            },
+            {
+              "ja_ruby": "{忙|いそが}しくて、{今週|こんしゅう}は{図書館|としょかん}の{本|ほん}を{一冊|いっさつ}も{読|よ}んでいない。",
+              "structure_note": "{一冊|いっさつ} ＋ も（をを{置|お}き{換|か}え）＋ {否定|ひてい}",
+              "en": "I've been so busy that I haven't read even one library book this week."
+            },
+            {
+              "ja_ruby": "この{問題|もんだい}は{難|むずか}しすぎて、{少|すこ}しも{意味|いみ}が{分|わ}からない。",
+              "structure_note": "{少|すこ}し ＋ も ＋ {否定|ひてい}（{全|まった}く〜ない）",
+              "en": "This question is so difficult that I don't understand its meaning at all."
+            }
+          ],
+          "pitfalls": [
+            "ALWAYS end the clause with a negative verb or adjective (○ {一人|ひとり}もいません, × {一人|ひとり}もいます); an affirmative verb turns {数量|すうりょう}＋も into 'as many as N'.",
+            "Particle も directly replaces が and を after the counter (○ {一冊|いっさつ}も{読|よ}まない, × {一冊|いっさつ}をも{読|よ}まない)."
+          ]
+        },
+        {
+          "id": "mo-mo-nai",
+          "pattern": "A も B も〜ない",
+          "pattern_ruby": "A も B も〜ない",
+          "romaji": "A mo B mo ~nai",
+          "meaning_en": "neither A nor B",
+          "register": "neutral",
+          "renshuu_status": "verified_renshuu",
+          "mental_model": "Japanese has no standalone words for 'neither' or 'nor'—instead, you tag BOTH targets with も and put ONE negative predicate at the end: 'A also, B also -> does not exist / cannot do.' Watch the particle stacking rule: が and を disappear into も (お{金|かね}も{時間|じかん}もない), whereas location/means particles like に and で stay right before も ({東京|とうきょう}にも{大阪|おおさか}にも). Adjectives follow the exact same rhythm via 〜くも〜くもない ('neither hot nor cold').",
+          "formation": [
+            {
+              "pos": "{名詞|めいし} A・{名詞|めいし} B",
+              "rule": "A も B も ＋ {否定形|ひていけい}（が・をは{省略|しょうりゃく}）"
+            },
+            {
+              "pos": "{名詞|めいし} ＋ {格助詞|かくじょし}（に・で・へ・から）",
+              "rule": "A に/で ＋ も ＋ B に/で ＋ も ＋ {否定形|ひていけい}"
+            },
+            {
+              "pos": "い{形容詞|けいようし} A・い{形容詞|けいようし} B",
+              "rule": "A くも B くも ＋ ない"
+            },
+            {
+              "pos": "な{形容詞|けいようし}・{名詞|めいし}",
+              "rule": "A でも B でも ＋ ない"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "{試験|しけん}の{前|まえ}は{時間|じかん}もお{金|かね}もないので、{旅行|りょこう}には{行|い}けない。",
+              "structure_note": "{名詞|めいし}＋も ＋ {名詞|めいし}＋も ＋ ない",
+              "en": "Before exams I have neither time nor money, so I cannot go on a trip."
+            },
+            {
+              "ja_ruby": "{昨日|きのう}は{体調|たいちょう}が{悪|わる}くて、{朝|あさ}ごはんも{昼|ひる}ごはんも{食|た}べられなかった。",
+              "structure_note": "{目的語|もくてきご}のをを も に{置|お}き{換|か}え ＋ {否定|ひてい}",
+              "en": "I wasn't feeling well yesterday, so I could eat neither breakfast nor lunch."
+            },
+            {
+              "ja_ruby": "その{限定|げんてい}のお{菓子|かし}は、{東京|とうきょう}にも{大阪|おおさか}にも{売|う}っていないらしい。",
+              "structure_note": "{場所|ばしょ}（に）＋ も ＋ {場所|ばしょ}（に）＋ も ＋ {否定|ひてい}",
+              "en": "Apparently those limited-edition sweets aren't sold in either Tokyo or Osaka."
+            },
+            {
+              "ja_ruby": "このスープは{辛|から}くも{甘|あま}くもない、やさしい{味|あじ}がする。",
+              "structure_note": "い{形容詞|けいようし}（{辛|から}くも ＋ {甘|あま}くも ＋ ない）",
+              "en": "This soup is neither spicy nor sweet—it has a gentle flavor."
+            }
+          ],
+          "pitfalls": [
+            "Keep case particles like に and で before も (○ {東京|とうきょう}にも{大阪|おおさか}にも{行|い}かない, × {東京|とうきょう}も{大阪|おおさか}も{行|い}かない), while dropping が and を.",
+            "Remember NOT to drop く on い-adjectives before も〜ない (○ {暑|あつ}くも{寒|さむ}くもない, × {暑|あつ}いも{寒|さむ}いもない)."
+          ]
+        },
+        {
+          "id": "nakuwanai-naikotowanai",
+          "pattern": "〜なくはない / なくもない・〜ないことはない",
+          "pattern_ruby": "〜なくはない / なくもない・〜ないことはない",
+          "romaji": "~naku wa nai / naku mo nai · ~nai koto wa nai",
+          "meaning_en": "it's not that I don't ~; kind of ~; not impossible to ~ (hesitant double negative)",
+          "register": "neutral",
+          "renshuu_status": "verified_renshuu",
+          "mental_model": "Two negatives here do NOT add up to a cheerful 'YES!'—they neutralize each other into a cautious, reluctant 'well, I wouldn't say I can't / don't...' Because you are hedging, these double negatives almost always lead into が or けれど ('...though it takes effort / though I'd rather not'). 〜なくはない / なくもない feels slightly softer and more subjective ('sort of / not unwilling'), while 〜ないことはない emphasizes feasibility ('not impossible if necessary').",
+          "formation": [
+            {
+              "pos": "{動詞|どうし}ない{形|けい}（〜ない → 〜なく）",
+              "rule": "＋ はない / もない（{例|れい}：{行|い}かなくはない）"
+            },
+            {
+              "pos": "い{形容詞|けいようし}（〜くない）・な{形容詞|けいようし} / {名詞|めいし}（〜で）",
+              "rule": "い{形|けい}〜くなくはない / 〜で（は）なくはない・なくもない"
+            },
+            {
+              "pos": "{普通形|ふつうけい}{否定|ひてい}（〜ない）",
+              "rule": "＋ ことはない / こともない（{例|れい}：{高|たか}くないことはない）"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "{辛|から}いものが{全|まった}く{食|た}べられなくはないが、できれば{避|さ}けたい。",
+              "structure_note": "{動詞|どうし}ない{語幹|ごかん} ＋ なくはない（{消極的|しょうきょくてき}{肯定|こうてい}）",
+              "en": "It isn't that I can't eat spicy food at all, though I'd prefer to avoid it if possible."
+            },
+            {
+              "ja_ruby": "この{条件|じょうけん}なら、{引|ひ}き{受|う}けなくもないけれど、もう{少|すこ}し{考|かんが}えさせてください。",
+              "structure_note": "{動詞|どうし} ＋ なくもない（{条件付|じょうけんつ}き・{迷|まよ}い）",
+              "en": "Under these terms it isn't out of the question for me to take it on, though please let me think a bit longer."
+            },
+            {
+              "ja_ruby": "{地図|ちず}を{見|み}れば{行|い}けないことはないが、{車|くるま}がなければかなり{不便|ふべん}だ。",
+              "structure_note": "{動詞|どうし}ない{形|けい} ＋ ことはない（{可能性|かのうせい}）",
+              "en": "If you check a map it isn't impossible to get there, though without a car it is pretty inconvenient."
+            },
+            {
+              "ja_ruby": "あの{選手|せんしゅ}の{実力|じつりょく}なら、{優勝|ゆうしょう}できないこともないと{思|おも}う。",
+              "structure_note": "{動詞|どうし}ない{形|けい} ＋ こともない",
+              "en": "With that athlete's skill, I think winning the championship isn't completely out of reach."
+            }
+          ],
+          "pitfalls": [
+            "Watch the final い on ない: 〜なくはない DROPS い ({分|わ}からなくはない, × {分|わ}からないくはない), whereas 〜ないことはない KEEPS い ({分|わ}からないことはない, × {分|わ}からなくことはない).",
+            "Do not treat double negatives as enthusiastic agreement—they express hesitation or a catch, and do not confuse 〜ないことはない ('not impossible') with 〜ことはない ('there's no need to')."
+          ]
+        }
+      ],
+      "lesson_contrast": {
+        "title": "Total Zero Negation vs. Hedged Double Negatives in Lesson 45",
+        "explanation": "Compare how adding も + ない creates absolute zero negation, whereas stacking two negatives softens into hesitant qualification.",
+        "rows": [
+          {
+            "expression": "{一|いち}＋{助数詞|じょすうし}＋も〜ない",
+            "register": "Neutral",
+            "key_rule": "Absolute zero ('not even one'); must end negatively, replaces が / を.",
+            "example_short": "{一人|ひとり}もいなかった。"
+          },
+          {
+            "expression": "A も B も〜ない",
+            "register": "Neutral",
+            "key_rule": "Exhaustive 'neither A nor B'; keep に / で before も, drop が / を.",
+            "example_short": "{時間|じかん}もお{金|かね}もない。"
+          },
+          {
+            "expression": "〜なくはない / ないことはない",
+            "register": "Neutral",
+            "key_rule": "Hesitant double negative ('kind of / not impossible'); usually followed by が / けれど.",
+            "example_short": "{読|よ}めないことはないが{難|むずか}しい。"
+          }
+        ]
+      },
+      "practice_quiz": [
+        {
+          "question_id": "L45-Q1",
+          "question_type": "fill_blank",
+          "prompt_ja_ruby": "{台風|たいふう}のニュースを{見|み}て{急|いそ}いでスーパーへ{行|い}ったが、{売|う}り{場|ば}はからっぽで、もうパンは（　　　）{残|のこ}っていなかった。",
+          "context_en": "Expressing total zero remaining: 'Seeing the typhoon news I hurried to the supermarket, yet the shelves were empty and not even a single loaf of bread was left.'",
+          "choices": [
+            "{一|ひと}つだけ",
+            "{一|ひと}つも",
+            "{一|ひと}つをも",
+            "{一|ひと}つずつ"
+          ],
+          "correct_index": 1,
+          "explanation": "Correct: B ({一|ひと}つも). '1 + counter + も' paired with negative {残|のこ}っていなかった emphasizes absolute zero ('not even one was left'), matching {売|う}り{場|ば}はからっぽで. A ({一|ひと}つだけ) means 'only one' and clashes with negative {残|のこ}っていなかった and an empty shelf; C ({一|ひと}つをも) wrongly retains を before も; D ({一|ひと}つずつ) means 'one by one' and makes no sense here."
+        },
+        {
+          "question_id": "L45-Q2",
+          "question_type": "attachment_trap",
+          "prompt_ja_ruby": "{佐藤|さとう}さんの{言|い}っていることも、（　　　）が、まだ{納得|なっとく}できない。",
+          "context_en": "Testing double-negative conjugation: 'It isn't that I don't understand what Sato is saying either, though I still cannot agree.'",
+          "choices": [
+            "{分|わ}からないくはない",
+            "{分|わ}からなくことはない",
+            "{分|わ}からずはない",
+            "{分|わ}からなくはない"
+          ],
+          "correct_index": 3,
+          "explanation": "Correct: D ({分|わ}からなくはない). Forming 〜なくはない requires dropping the final い from the negative ない-form ({分|わ}からない -> {分|わ}からなくはない). A ({分|わ}からないくはない) fails to drop い; B ({分|わ}からなくことはない) wrongly drops い before ことはない; C ({分|わ}からずはない) is ungrammatical."
+        },
+        {
+          "question_id": "L45-Q3",
+          "question_type": "nuance_choice",
+          "prompt_ja_ruby": "「この{漢字|かんじ}、{読|よ}めますか。」「うーん、{読|よ}めないことはないですが、（　　　）。」",
+          "context_en": "Completing a hesitant double-negative reply: 'Hmm, it's not that I can't read it, though...'",
+          "choices": [
+            "{実|じつ}はとても{得意|とくい}です",
+            "{誰|だれ}よりも{早|はや}く{読|よ}めます",
+            "かなり{時間|じかん}がかかります",
+            "{全|まった}く{読|よ}んだことがありません"
+          ],
+          "correct_index": 2,
+          "explanation": "Correct: C (かなり{時間|じかん}がかかります). Double negative {読|よ}めないことはない expresses reluctant, qualified ability, so the clause after が naturally adds a caveat ('it takes quite a bit of time'). A (とても{得意|とくい}です) and B ({誰|だれ}よりも{早|はや}く{読|よ}めます) sound overly confident and clash with the hesitation; D ({全|まった}く{読|よ}んだことがありません) contradicts 'it's not that I can't read it'."
+        },
+        {
+          "question_id": "L45-Q4",
+          "question_type": "star_order",
+          "prompt_ja_ruby": "{駅|えき}の{周|まわ}りには、{銀行|ぎんこう}も＿　＿　★　＿、とても{不便|ふべん}だ。",
+          "context_en": "Listing two missing facilities with 'neither A nor B': 'Around the station there is neither a bank nor a large supermarket, so it is very inconvenient.'",
+          "choices": [
+            "も",
+            "{大|おお}きな",
+            "なくて",
+            "スーパー"
+          ],
+          "correct_index": 0,
+          "explanation": "Correct: A (も). Full sentence: {駅|えき}の{周|まわ}りには、{銀行|ぎんこう}も {大|おお}きな(1) スーパー(2) も(3★) なくて(4)、とても{不便|ふべん}だ。{大|おお}きな modifies the noun スーパー, も closes the second target of A も B も〜ない, and なくて connects the negative reason to とても{不便|ふべん}だ."
+        }
+      ]
+    }
+  ]
+}

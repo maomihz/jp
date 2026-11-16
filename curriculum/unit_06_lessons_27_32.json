@@ -1,0 +1,1530 @@
+{
+  "unit_number": 6,
+  "unit_slug": "unit-06-youni-moshi-actions-time",
+  "unit_title": "Unit 6: Using ように, Hypothetical もし & Actions in Time (Lessons 27–32)",
+  "unit_overview": "Master Renshuu N3 Lessons 27–32: both ように units (purpose, effort habits, state transitions, likeness, prayers), hypothetical もし framing, and all temporal action grammar (うちに, たばかり, たて, 最中に, 際に, たびに, ついでに, たとたん, 上で, おきに/ごとに).",
+  "lessons": [
+    {
+      "lesson_id": "L27",
+      "lesson_number": 27,
+      "renshuu_title": "Using ように",
+      "has_video": false,
+      "summary": "Separate the core verb uses of ように: setting an indirect or non-volitional purpose (ように vs. ために), building conscious efforts and personal habits (ようにする vs. ことにする), and describing gradual shifts in ability or state (ようになる vs. ことになる / ことになっている).",
+      "study_tip": "Ask who controls the change: gradual shift over time = ようになる; conscious daily effort = ようにする; firm personal choice = ことにする; external decision = ことになる; standing rule or schedule = ことになっている!",
+      "grammar_points": [
+        {
+          "id": "youni-purpose",
+          "pattern": "〜ように（目的）",
+          "pattern_ruby": "〜ように（{目的|もくてき}）",
+          "romaji": "~you ni (purpose)",
+          "meaning_en": "so that ~; in order that ~ (non-volitional or potential goal)",
+          "register": "neutral",
+          "renshuu_status": "verified_renshuu",
+          "mental_model": "Think of purpose 〜ように as aiming toward an outcome you cannot directly command into existence by sheer willpower—such as becoming able to hear, not forgetting, or catching a train on time. You perform the deliberate action in Clause 2 so that the desired state or ability in Clause 1 becomes possible. Unlike direct volitional 〜ために, purpose 〜ように also lets Clause 1 and Clause 2 have completely different subjects.",
+          "formation": [
+            {
+              "pos": "{動詞|どうし}{辞書形|じしょけい}（{無意志動詞|むいしどうし}・{可能形|かのうけい}）",
+              "rule": "＋ ように"
+            },
+            {
+              "pos": "{動詞|どうし}ない{形|けい}",
+              "rule": "＋ ように"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "{日本語|にほんご}の{新聞|しんぶん}が{読|よ}めるように、{毎日|まいにち}{漢字|かんじ}を{勉強|べんきょう}しています。",
+              "structure_note": "{可能形|かのうけい}（{読|よ}める）＋ ように（{能力|のうりょく}の{獲得|かくとく}）",
+              "en": "I study kanji every day so that I can read Japanese newspapers."
+            },
+            {
+              "ja_ruby": "{大切|たいせつ}な{予定|よてい}を{忘|わす}れないように、{手帳|てちょう}にメモしておきました。",
+              "structure_note": "{動詞|どうし}ない{形|けい}（{忘|わす}れない）＋ ように（{予防|よぼう}の{目的|もくてき}）",
+              "en": "I wrote a note in my planner so that I wouldn't forget the important schedule."
+            },
+            {
+              "ja_ruby": "{後|うし}ろの{席|せき}の{人|ひと}にもよく{聞|き}こえるように、{高橋|たかはし}さんは{大|おお}きな{声|こえ}で{話|はな}した。",
+              "structure_note": "{異|こと}なる{主語|しゅご}（{人|ひと}に{聞|き}こえる）＋ ように ＋ {高橋|たかはし}さんの{行動|こうどう}",
+              "en": "Takahashi spoke in a loud voice so that even people in the back seats could hear clearly."
+            },
+            {
+              "ja_ruby": "{電車|でんしゃ}に{間|ま}に{合|あ}うように、{普段|ふだん}より{30分|さんじゅっぷん}{早|はや}く{家|いえ}を{出|で}た。",
+              "structure_note": "{無意志動詞|むいしどうし}（{間|ま}に{合|あ}う）＋ ように",
+              "en": "I left home 30 minutes earlier than usual so that I would make it in time for the train."
+            }
+          ],
+          "pitfalls": [
+            "Never attach purpose 〜ように directly to a noun or a purely volitional action done by the same subject (× {車|くるま}を{買|か}うように{貯金|ちょきん}する -> use {買|か}うために; × {健康|けんこう}のように -> use {健康|けんこう}のために).",
+            "Contrasting with 〜ために: 〜ために takes volitional dictionary verbs or Noun＋の with the same subject across both clauses, whereas 〜ように takes potential, negative ない, or non-volitional verbs and allows a different subject in Clause 1."
+          ]
+        },
+        {
+          "id": "youni-suru",
+          "pattern": "〜ようにする / ようにしている",
+          "pattern_ruby": "〜ようにする / ようにしている",
+          "romaji": "~you ni suru / ~you ni shite iru",
+          "meaning_en": "to try to ~; to make a conscious effort to ~ / to make it a habit to ~",
+          "register": "neutral",
+          "renshuu_status": "verified_renshuu",
+          "mental_model": "Literally 'arrange things toward the goal of doing X,' 〜ようにする frames an action as deliberate self-regulation rather than an automatic reflex. Using 〜ようにする expresses a resolution or effort for a situation ('try to make sure I do X'), while 〜ようにしている zooms out to an ongoing daily habit ('I make a point of doing X regularly'). It feels gentler and more effort-focused than decisive 〜ことにする.",
+          "formation": [
+            {
+              "pos": "{動詞|どうし}{辞書形|じしょけい}",
+              "rule": "＋ ようにする / ようにしている"
+            },
+            {
+              "pos": "{動詞|どうし}ない{形|けい}",
+              "rule": "＋ ようにする / ようにしている"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "{健康|けんこう}のために、{毎日|まいにち}{野菜|やさい}をたくさん{食|た}べるようにしています。",
+              "structure_note": "{動詞|どうし}{辞書形|じしょけい} ＋ ようにしている（{継続的|けいぞくてき}な{習慣|しゅうかん}）",
+              "en": "For my health, I make a point of eating plenty of vegetables every day."
+            },
+            {
+              "ja_ruby": "{夜|よる}、{寝|ね}る{前|まえ}にはコーヒーを{飲|の}まないようにしている。",
+              "structure_note": "{動詞|どうし}ない{形|けい} ＋ ようにしている（{避|さ}ける{習慣|しゅうかん}）",
+              "en": "I try not to drink coffee before going to bed at night."
+            },
+            {
+              "ja_ruby": "{来月|らいげつ}からは{生活|せいかつ}リズムを{整|ととの}えて、{毎朝|まいあさ}{7時|しちじ}に{起|お}きるようにします。",
+              "structure_note": "{動詞|どうし}{辞書形|じしょけい} ＋ ようにする（これからの{努力|どりょく}・{決意|けつい}）",
+              "en": "Starting next month, I'll regulate my routine and try to wake up at 7 a.m. every morning."
+            },
+            {
+              "ja_ruby": "{部屋|へや}を{出|で}る{時|とき}は、{必|かなら}ずエアコンを{消|け}すようにしてください。",
+              "structure_note": "〜ようにしてください（{相手|あいて}への{丁寧|ていねい}な{注意|ちゅうい}・{依頼|いらい}）",
+              "en": "When leaving the room, please make sure to turn off the air conditioner."
+            }
+          ],
+          "pitfalls": [
+            "Do not confuse 〜ようにする (ongoing effort/self-regulation) with 〜ことにする (a single firm decision): for actions requiring willpower against temptation like 'try not to eat sweets,' 〜ようにしている is far more natural than 〜ことにしている.",
+            "Unlike purpose 〜ように, 〜ようにする works with volitional verbs ({食|た}べる, {起|お}きる), yet never attaches directly to nouns or adjectives (× {静|しず}かなようにしてください -> use {静|しず}かにしてください)."
+          ]
+        },
+        {
+          "id": "youni-naru",
+          "pattern": "〜ようになる",
+          "pattern_ruby": "〜ようになる",
+          "romaji": "~you ni naru",
+          "meaning_en": "to come to ~; to become able to ~; to reach the point where ~",
+          "register": "neutral",
+          "renshuu_status": "verified_renshuu",
+          "mental_model": "If 〜ようにする is steering the wheel yourself, 〜ようになる watches the scenery gradually change over time. It marks a transition from 'could not / did not do X' to 'can now / naturally do X'—or with ないようになる, to no longer doing it. Because the focus is on cumulative growth or natural shift, it pairs effortlessly with potential verbs, perception verbs, and evolving habits.",
+          "formation": [
+            {
+              "pos": "{動詞|どうし}{辞書形|じしょけい}（{可能形|かのうけい}・{習慣|しゅうかん}など）",
+              "rule": "＋ ようになる"
+            },
+            {
+              "pos": "{動詞|どうし}ない{形|けい}",
+              "rule": "＋ ようになる"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "{1年間|いちねんかん}{日本|にほん}で{生活|せいかつ}して、{日本語|にほんご}がずいぶん{話|はな}せるようになりました。",
+              "structure_note": "{可能形|かのうけい}（{話|はな}せる）＋ ようになる（{能力|のうりょく}の{変化|へんか}）",
+              "en": "After living in Japan for a year, I became able to speak Japanese quite well."
+            },
+            {
+              "ja_ruby": "{佐藤|さとう}さんは{最近|さいきん}、{料理|りょうり}を{自分|じぶん}で{作|つく}るようになったそうだ。",
+              "structure_note": "{動詞|どうし}{辞書形|じしょけい} ＋ ようになった（{新|あたら}しい{習慣|しゅうかん}への{移行|いこう}）",
+              "en": "I heard that Sato has recently started cooking meals by himself."
+            },
+            {
+              "ja_ruby": "{社会人|しゃかいじん}になってから、あまりお{酒|さけ}を{飲|の}まないようになった。",
+              "structure_note": "{動詞|どうし}ない{形|けい} ＋ ようになった（{習慣|しゅうかん}の{減少|げんしょう}・{停止|ていし}）",
+              "en": "Since entering the workforce, I have reached the point where I don't drink much alcohol anymore."
+            },
+            {
+              "ja_ruby": "この{眼鏡|めがね}をかけたら、{遠|とお}くの{文字|もじ}もはっきり{見|み}えるようになった。",
+              "structure_note": "{無意志動詞|むいしどうし}（{見|み}える）＋ ようになった",
+              "en": "Once I put on these glasses, I became able to see distant letters clearly too."
+            }
+          ],
+          "pitfalls": [
+            "Strictly verb-only: 〜ようになる cannot attach directly to adjectives or nouns (× {日本語|にほんご}が{上手|じょうず}なようになる -> use {上手|じょうず}になる; × {寒|さむ}いようになる -> use {寒|さむ}くなる).",
+            "Do not use 〜ようになる for a sudden, one-time deliberate choice (× {来週|らいしゅう}から{毎日|まいにち}{走|はし}るようになります -> use {走|はし}ることにします or {走|はし}るようにします).",
+            "Contrast 〜ようになる vs. 〜ことになる / ことになっている: 〜ようになる tracks a natural or gradual change over time, 〜ことになる reports a decision made by an external group or circumstances ('it was decided that...'), and 〜ことになっている states an established rule, policy, or fixed schedule ({毎週|まいしゅう}{金曜日|きんようび}に{会議|かいぎ}をすることになっている)."
+          ]
+        }
+      ],
+      "lesson_contrast": {
+        "title": "Purpose, Effort, Decisions, Rules & State Shift in Lesson 27",
+        "explanation": "Compare Lesson 27's ように patterns against 〜ために, 〜ことにする, and 〜ことになる / ことになっている by checking volition, control, and whether a rule or schedule is fixed.",
+        "rows": [
+          {
+            "expression": "〜ように（{目的|もくてき}）",
+            "register": "Neutral",
+            "key_rule": "Non-volitional, potential, or ない verb in goal clause; allows different subjects.",
+            "example_short": "{忘|わす}れないようにメモする。"
+          },
+          {
+            "expression": "〜ために（{目的|もくてき}）",
+            "register": "Neutral",
+            "key_rule": "Volitional verb or Noun＋の in goal clause; requires same subject in both clauses.",
+            "example_short": "{車|くるま}を{買|か}うために{貯金|ちょきん}する。"
+          },
+          {
+            "expression": "〜ようにする / している",
+            "register": "Neutral",
+            "key_rule": "Conscious effort (する) or ongoing self-regulation habit (している) with volitional verbs.",
+            "example_short": "{早|はや}く{寝|ね}るようにしている。"
+          },
+          {
+            "expression": "〜ことにする / している",
+            "register": "Neutral",
+            "key_rule": "Speaker's decisive personal choice (ことにする) or fixed self-imposed rule (ことにしている).",
+            "example_short": "{来年|らいねん}{留学|りゅうがく}することにした。"
+          },
+          {
+            "expression": "〜ようになる",
+            "register": "Neutral",
+            "key_rule": "Gradual natural transition into a new ability, habit, or state over time; verbs only.",
+            "example_short": "{漢字|かんじ}が{読|よ}めるようになった。"
+          },
+          {
+            "expression": "〜ことになる / ことになっている",
+            "register": "Neutral",
+            "key_rule": "ことになる = external/group decision; ことになっている = standing rule, policy, or fixed schedule.",
+            "example_short": "{毎週|まいしゅう}{会議|かいぎ}をすることになっている。"
+          }
+        ]
+      },
+      "practice_quiz": [
+        {
+          "question_id": "L27-Q1",
+          "question_type": "fill_blank",
+          "prompt_ja_ruby": "{子|こ}どもでも{簡単|かんたん}に{読|よ}める（　　　）、すべての{漢字|かんじ}にふりがなが{付|つ}いている。",
+          "context_en": "Setting a non-volitional goal with a different subject: 'Furigana is attached to every kanji so that even children can read it easily.'",
+          "choices": [
+            "ために",
+            "ように",
+            "ことに",
+            "そうに"
+          ],
+          "correct_index": 1,
+          "explanation": "Correct: B (ように). Clause 1 uses potential {読|よ}める with its own subject ({子|こ}ども), while Clause 2 describes the writer's action, requiring purpose ように. A (ために) requires a volitional verb and the same subject; C (ことに) forms personal decisions or emotional comments, not purpose clauses; D (そうに) marks appearance from verb stems, not after finite {読|よ}める."
+        },
+        {
+          "question_id": "L27-Q2",
+          "question_type": "nuance_choice",
+          "prompt_ja_ruby": "{鈴木|すずき}さんは{去年|きょねん}まで{全|まった}く{泳|およ}げなかったが、{毎日|まいにち}{練習|れんしゅう}して、ついに25メートル{泳|およ}げる（　　　）。",
+          "context_en": "Describing a gradual breakthrough in ability: 'Suzuki couldn't swim at all until last year, but after practicing daily, he finally became able to swim 25 meters.'",
+          "choices": [
+            "ようにしている",
+            "ようにした",
+            "ことにした",
+            "ようになった"
+          ],
+          "correct_index": 3,
+          "explanation": "Correct: D (ようになった). Combined with potential {泳|およ}げる and ついに ('finally'), ようになった expresses a gradual transition from inability to ability. A (ようにしている) describes an ongoing deliberate habit; B (ようにした) indicates trying/making an effort rather than achieving an ability breakthrough; C (ことにした) denotes a conscious personal decision, which cannot govern non-volitional {泳|およ}げる."
+        },
+        {
+          "question_id": "L27-Q3",
+          "question_type": "attachment_trap",
+          "prompt_ja_ruby": "{大切|たいせつ}な{会議|かいぎ}に（　　　）、{10分前|じゅっぷんまえ}に{会社|かいしゃ}を{出|で}ることにしている。",
+          "context_en": "Attaching a negative verb before a purpose clause: 'I make it a rule to leave the office 10 minutes early so as not to be late for important meetings.'",
+          "choices": [
+            "{遅|おく}れないように",
+            "{遅|おく}れないために",
+            "{遅|おく}れなように",
+            "{遅|おく}れるために"
+          ],
+          "correct_index": 0,
+          "explanation": "Correct: A ({遅|おく}れないように). Negative ない-form attaches directly to purpose ように to express preventing an unwanted outcome. B ({遅|おく}れないために) is ungrammatical because purpose ために cannot take ない-forms; C ({遅|おく}れなように) wrongly drops い from ない; D ({遅|おく}れるために) reverses the meaning to 'in order to be late.'"
+        },
+        {
+          "question_id": "L27-Q4",
+          "question_type": "star_order",
+          "prompt_ja_ruby": "{健康|けんこう}のために、{佐藤|さとう}さんは＿　＿　★　＿。",
+          "context_en": "Expressing an ongoing personal health habit: 'For his health, Sato tries not to drink alcohol.'",
+          "choices": [
+            "{飲|の}まない",
+            "お{酒|さけ}を",
+            "ように",
+            "している"
+          ],
+          "correct_index": 2,
+          "explanation": "Correct: C (ように). Full sentence: {健康|けんこう}のために、{佐藤|さとう}さんはお{酒|さけ}を(1) {飲|の}まない(2) ように(3★) している(4). Object お{酒|さけ}を precedes negative verb {飲|の}まない, which attaches to ように before している to form the ongoing effort pattern 〜ようにしている."
+        }
+      ]
+    },
+    {
+      "lesson_id": "L28",
+      "lesson_number": 28,
+      "renshuu_title": "Using ように #2",
+      "has_video": false,
+      "summary": "Master the resemblance and wish uses of ように / ようだ: forming similes and representative examples (のように vs. とおりに), making sincere wishes and prayers (ように{祈|いの}る / {願|ねが}う), and describing outward visual impressions (ように{見|み}える / まるで〜ようだ).",
+      "study_tip": "Treat ようだ as a な-adjective-like noun at heart: attach の before it after nouns ({氷|こおり}のように), な before it after な-adjectives ({元気|げんき}なように{見|み}える), and direct plain forms (or polite ます for prayers!) after verbs.",
+      "grammar_points": [
+        {
+          "id": "no-youni-simile",
+          "pattern": "〜のように / 〜ように（比喩・例）",
+          "pattern_ruby": "〜のように / 〜ように（{比喩|ひゆ}・{例|れい}）",
+          "romaji": "~no you ni / ~you ni (simile / example)",
+          "meaning_en": "just like ~; as ~; such as ~ (comparison, example, or model)",
+          "register": "neutral",
+          "renshuu_status": "verified_renshuu",
+          "mental_model": "Think of ようだ here as holding up a mirror: you clarify an unfamiliar quality, action, or category by pointing to something similar ('cold like ice,' 'fruits such as apples'). Because ようだ behaves grammatically like a noun/な-adjective hybrid, it uses ような before nouns and ように before verbs or adjectives. Unlike 〜とおりに, which demands an exact copy of instructions, 〜ように highlights likeness or a flexible model.",
+          "formation": [
+            {
+              "pos": "{名詞|めいし}",
+              "rule": "＋ の ＋ ように / ような＋{名詞|めいし}"
+            },
+            {
+              "pos": "{動詞|どうし}{普通形|ふつうけい}・い{形容詞|けいようし}",
+              "rule": "＋ ように / ような＋{名詞|めいし}"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "{北海道|ほっかいどう}の{冬|ふゆ}は、{氷|こおり}のように{冷|つめ}たい{風|かぜ}が{吹|ふ}く。",
+              "structure_note": "{名詞|めいし}（{氷|こおり}）＋ のように ＋ {形容詞|けいようし}（{比喩|ひゆ}）",
+              "en": "In Hokkaido's winter, a wind blows that is as cold as ice."
+            },
+            {
+              "ja_ruby": "この{店|みせ}では、リンゴやミカンのような{季節|きせつ}の{果物|くだもの}を{売|う}っています。",
+              "structure_note": "{名詞|めいし} ＋ のような ＋ {名詞|めいし}（{代表例|だいひょうれい}の{提示|ていじ}）",
+              "en": "This shop sells seasonal fruits such as apples and mandarin oranges."
+            },
+            {
+              "ja_ruby": "{山田|やまだ}さんのように、{英語|えいご}をぺらぺら{話|はな}せるようになりたい。",
+              "structure_note": "{名詞|めいし}（{人名|じんめい}）＋ のように（{目標|もくひょう}モデル）",
+              "en": "I want to become able to speak English fluently just like Yamada."
+            },
+            {
+              "ja_ruby": "さっき{黒板|こくばん}に{書|か}いたように、{次|つぎ}の{問題|もんだい}も{解|と}いてみてください。",
+              "structure_note": "{動詞|どうし}た{形|けい} ＋ ように（{手本|てほん}・{前例|ぜんれい}の{参照|さんしょう}）",
+              "en": "Just like I wrote on the blackboard a moment ago, please try solving the next problem too."
+            }
+          ],
+          "pitfalls": [
+            "Contrasting with 〜とおりに: use 〜とおりに for faithful, zero-deviation adherence to instructions, maps, or exact words ({説明書|せつめいしょ}のとおりに{作|つく}る); never use 〜とおりに for figurative similes (× {氷|こおり}のとおりに{冷|つめ}たい) or open examples (× リンゴのとおりな{果物|くだもの}).",
+            "Always insert の between a noun and ように / ような (○ {子供|こども}のように, × {子供|こども}ように); before a noun, ようだ takes な (○ {夢|ゆめ}のような{話|はなし}, × {夢|ゆめ}のように{話|はなし})."
+          ]
+        },
+        {
+          "id": "youni-inoru-negau",
+          "pattern": "〜ように祈る / 願う",
+          "pattern_ruby": "〜ように{祈|いの}る / {願|ねが}う",
+          "romaji": "~you ni inoru / negau",
+          "meaning_en": "to pray/wish that ~; may ~ happen",
+          "register": "neutral",
+          "renshuu_status": "verified_renshuu",
+          "mental_model": "When an outcome lies beyond human control—weather, recovery, exam luck—you hand the wish to fate using 〜ように{祈|いの}る or {願|ねが}う. It appears either embedded inside a sentence ('prayed that X would happen') or as a standalone sentence ending directly in 〜ように ('May X happen!'). In direct standalone wishes, Japanese warmly prefers the polite ます-form right before ように.",
+          "formation": [
+            {
+              "pos": "{動詞|どうし}{辞書形|じしょけい}・ない{形|けい}（{無意志|むいし}・{可能|かのう}）",
+              "rule": "＋ ように（と）{祈|いの}る / {願|ねが}う"
+            },
+            {
+              "pos": "{動詞|どうし}ます{形|けい} / ません",
+              "rule": "＋ ように。（{願|ねが}いの{文末|ぶんまつ}・{引用|いんよう}）"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "{明日|あした}の{運動会|うんどうかい}は、{雨|あめ}が{降|ふ}りませんように。",
+              "structure_note": "{動詞|どうし}ません ＋ ように。（{文末|ぶんまつ}の{祈|いの}り）",
+              "en": "May it not rain for tomorrow's sports day!"
+            },
+            {
+              "ja_ruby": "{友達|ともだち}の{病気|びょうき}が{一日|いちにち}も{早|はや}く{治|なお}るように、{神社|じんじゃ}で{祈|いの}った。",
+              "structure_note": "{無意志動詞|むいしどうし}（{治|なお}る）＋ ように ＋ {祈|いの}った",
+              "en": "I prayed at the shrine that my friend's illness would heal as soon as possible."
+            },
+            {
+              "ja_ruby": "みなさんのこれからの{一年|いちねん}が{幸|しあわ}せでありますようにと、{心|こころ}から{願|ねが}っています。",
+              "structure_note": "〜でありますように ＋ と{願|ねが}っています（{丁寧|ていねい}な{祈願|きがん}）",
+              "en": "I sincerely wish that this coming year may be a happy one for all of you."
+            },
+            {
+              "ja_ruby": "「{第一志望|だいいちしぼう}の{大学|だいがく}に{合格|ごうかく}しますように」と{絵馬|えま}に{書|か}いた。",
+              "structure_note": "{動詞|どうし}ます{形|けい} ＋ ように（{直接|ちょくせつ}{引用|いんよう}の{願|ねが}い）",
+              "en": "I wrote 'May I pass my first-choice university' on the wooden prayer plaque."
+            }
+          ],
+          "pitfalls": [
+            "Unlike ordinary embedded clauses where polite ます sounds awkward, standalone prayers ending in 〜ように strongly prefer ます or ません (○ {合格|ごうかく}しますように, ? {合格|ごうかく}するように。 alone).",
+            "Do not use volitional verbs expressing things you already decide for yourself (× {明日|あした}、{朝|あさ}ごはんを{食|た}べますように); prayers target uncontrollable hopes, safety, success, or another person's well-being."
+          ]
+        },
+        {
+          "id": "youni-mieru-marude",
+          "pattern": "〜ように見える / まるで〜ようだ",
+          "pattern_ruby": "〜ように{見|み}える / まるで〜ようだ",
+          "romaji": "~you ni mieru / marude ~you da",
+          "meaning_en": "to look as if ~; to seem just like ~ (visual impression)",
+          "register": "neutral",
+          "renshuu_status": "canonical_n3",
+          "mental_model": "Both patterns paint an observer's impression—often highlighting the gap between surface appearance and actual reality. 〜ように{見|み}える reports what an outside eye perceives ('looks calm, though inside they're nervous'), extending naturally to {聞|き}こえる ('sounds as if') and {思|おも}える ('feels as if'). Adding the adverb まるで ('just like / completely as if') pairs tightly with ようだ or ように{見|み}える to make vivid, dramatic comparisons.",
+          "formation": [
+            {
+              "pos": "{動詞|どうし}{普通形|ふつうけい}・い{形容詞|けいようし}",
+              "rule": "＋ ように{見|み}える / ようだ"
+            },
+            {
+              "pos": "な{形容詞|けいようし}",
+              "rule": "＋ な ＋ ように{見|み}える / ようだ"
+            },
+            {
+              "pos": "{名詞|めいし}",
+              "rule": "＋ の ＋ ように{見|み}える / ようだ"
+            },
+            {
+              "pos": "まるで",
+              "rule": "＋ 〜ようだ / ように{見|み}える（{強|つよ}い{比喩|ひゆ}）"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "{田中|たなか}さんは{静|しず}かなように{見|み}えるが、{話|はな}してみるととても{面白|おもしろ}い{人|ひと}だ。",
+              "structure_note": "な{形容詞|けいようし}（{静|しず}か）＋ な ＋ ように{見|み}える（{外見|がいけん}と{実際|じっさい}の{対比|たいひ}）",
+              "en": "Tanaka looks quiet at first glance, yet when you talk to him, he is a very funny person."
+            },
+            {
+              "ja_ruby": "この{時計|とけい}は{安|やす}いのに、まるで{高級品|こうきゅうひん}のように{見|み}える。",
+              "structure_note": "まるで ＋ {名詞|めいし}（{高級品|こうきゅうひん}）＋ のように{見|み}える",
+              "en": "Even though this watch is cheap, it looks just like a luxury item."
+            },
+            {
+              "ja_ruby": "{今日|きょう}は{12月|じゅうにがつ}とは{思|おも}えないほど{暖|あたた}かくて、まるで{春|はる}が{来|き}たようだ。",
+              "structure_note": "まるで ＋ {動詞|どうし}た{形|けい} ＋ ようだ（{劇的|げきてき}な{比喩|ひゆ}）",
+              "en": "Today is so warm it doesn't feel like December—it's just as if spring has arrived."
+            },
+            {
+              "ja_ruby": "{風|かぜ}で{木|き}の{葉|は}が{揺|ゆ}れる{音|おと}が、まるで{誰|だれ}かが{話|はな}しているように{聞|き}こえた。",
+              "structure_note": "まるで ＋ 〜ように{聞|き}こえた（{聴覚|ちょうかく}の{印象|いんしょう}）",
+              "en": "The sound of leaves rustling in the wind sounded just as if someone were talking."
+            }
+          ],
+          "pitfalls": [
+            "Major attachment trap: な-adjectives MUST take な before ように{見|み}える or ようだ (○ {元気|げんき}なように{見|み}える, × {元気|げんき}だように{見|み}える / × {元気|げんき}のように{見|み}える), while nouns MUST take の.",
+            "Remember that まるで cannot introduce an actual factual match—it frames an unreal or figurative likeness, so it pairs with ようだ / みたいだ / ように{見|み}える, never with そうだ (hearsay) or はずだ."
+          ]
+        }
+      ],
+      "lesson_contrast": {
+        "title": "Simile, Instruction, Prayer & Impression in Lesson 28",
+        "explanation": "Distinguish likeness (ように), exact fidelity (とおりに), prayers (ように{祈|いの}る), and visual impressions (ように{見|み}える / まるで〜ようだ) by checking connector rules and clause intent.",
+        "rows": [
+          {
+            "expression": "〜のように / ような",
+            "register": "Neutral",
+            "key_rule": "Simile ('like X') or representative example ('such as X'); nouns take の.",
+            "example_short": "{氷|こおり}のように{冷|つめ}たい。"
+          },
+          {
+            "expression": "〜とおりに",
+            "register": "Neutral",
+            "key_rule": "Exact, faithful copy of instructions, maps, or words; NO similes.",
+            "example_short": "{説明書|せつめいしょ}のとおりに{組|く}み{立|た}てる。"
+          },
+          {
+            "expression": "〜ように{祈|いの}る / {願|ねが}う",
+            "register": "Neutral",
+            "key_rule": "Wish/prayer for an uncontrollable outcome; standalone prayers often take ます.",
+            "example_short": "{無事|ぶじ}に{着|つ}きますように。"
+          },
+          {
+            "expression": "〜ように{見|み}える / まるで〜ようだ",
+            "register": "Neutral",
+            "key_rule": "Outward impression vs. reality or vivid 'as if'; な-adj takes な, noun takes の.",
+            "example_short": "まるで{夏|なつ}が{来|き}たようだ。"
+          }
+        ]
+      },
+      "practice_quiz": [
+        {
+          "question_id": "L28-Q1",
+          "question_type": "fill_blank",
+          "prompt_ja_ruby": "{外|そと}は{雪|ゆき}が{積|つ}もっていて、まるで{別|べつ}の{世界|せかい}に{来|き}た（　　　）。",
+          "context_en": "Completing a vivid simile with まるで: 'Snow has piled up outside, and it feels just as if we came to another world.'",
+          "choices": [
+            "とおりだ",
+            "ためだ",
+            "ようだ",
+            "ばかりだ"
+          ],
+          "correct_index": 2,
+          "explanation": "Correct: C (ようだ). The adverb まるで ('just as if') pairs specifically with ようだ / みたいだ to express a figurative likeness. A (とおりだ) means an exact match to what was stated or expected; B (ためだ) expresses cause or purpose; D (ばかりだ) means 'just happened' or 'only keeps doing.'"
+        },
+        {
+          "question_id": "L28-Q2",
+          "question_type": "nuance_choice",
+          "prompt_ja_ruby": "{美咲|みさき}さんは、まるでプロの{歌手|かしゅ}の（　　　）{上手|じょうず}に{歌|うた}う。",
+          "context_en": "Forming a simile rather than following exact instructions: 'Misaki sings skillfully, just like a professional singer.'",
+          "choices": [
+            "ように",
+            "とおりに",
+            "たびに",
+            "せいで"
+          ],
+          "correct_index": 0,
+          "explanation": "Correct: A (ように). Expresses figurative comparison/simile ('just like a pro singer'), matching まるで. B (とおりに) requires reproducing exact words, instructions, or plans rather than making a simile; C (たびに) means 'every time'; D (せいで) assigns blame for a negative result."
+        },
+        {
+          "question_id": "L28-Q3",
+          "question_type": "attachment_trap",
+          "prompt_ja_ruby": "{田中|たなか}さんは{仕事|しごと}が{忙|いそが}しいはずなのに、いつも（　　　）{見|み}える。",
+          "context_en": "Attaching a な-adjective (hima) before ように見える: 'Even though Tanaka should be busy with work, he always looks free.'",
+          "choices": [
+            "{暇|ひま}だように",
+            "{暇|ひま}のように",
+            "{暇|ひま}にように",
+            "{暇|ひま}なように"
+          ],
+          "correct_index": 3,
+          "explanation": "Correct: D ({暇|ひま}なように). Because {暇|ひま} is a な-adjective, it must take な before ように{見|み}える. A ({暇|ひま}だように) wrongly keeps the plain copula だ; B ({暇|ひま}のように) uses the noun linker の on a な-adjective; C ({暇|ひま}にように) ungrammatically inserts adverbial に."
+        },
+        {
+          "question_id": "L28-Q4",
+          "question_type": "star_order",
+          "prompt_ja_ruby": "{毎日|まいにち}、{家族|かぞく}が＿　＿　★　＿{心|こころ}から{願|ねが}っている。",
+          "context_en": "Expressing a heartfelt prayer: 'Every day, I wish from the bottom of my heart that my family can live in good health.'",
+          "choices": [
+            "{過|す}ごせます",
+            "ように",
+            "と",
+            "{元気|げんき}で"
+          ],
+          "correct_index": 1,
+          "explanation": "Correct: B (ように). Full sentence: {毎日|まいにち}、{家族|かぞく}が{元気|げんき}で(1) {過|す}ごせます(2) ように(3★) と(4) {心|こころ}から{願|ねが}っている. Adverbial {元気|げんき}で modifies potential verb {過|す}ごせます, followed by prayer marker ように and quotation particle と before {願|ねが}っている."
+        }
+      ]
+    },
+    {
+      "lesson_id": "L29",
+      "lesson_number": 29,
+      "renshuu_title": "Using もし",
+      "has_video": false,
+      "summary": "Frame hypothetical and counterfactual scenarios cleanly: pairing もし・もしも with たら・ば・なら (never と), expressing unlikely suppositions and concessions (もし〜たなら / 〜としても), guessing with もしかしたら〜かもしれない, and setting minimal sufficient conditions with 〜さえ〜ば.",
+      "study_tip": "Never mix up もし ('if' -> must end with a conditional like たら・ば・なら・としても) with もしかしたら ('perhaps / by any chance' -> must end with uncertainty like かもしれない・だろう). And keep もし far away from automatic と!",
+      "grammar_points": [
+        {
+          "id": "moshimo-tara-nara",
+          "pattern": "もしも〜たら / なら",
+          "pattern_ruby": "もしも〜たら / なら",
+          "romaji": "moshimo ~tara / nara",
+          "meaning_en": "if by any chance ~; suppose ~ (hypothetical framing)",
+          "register": "neutral",
+          "renshuu_status": "verified_renshuu",
+          "mental_model": "Think of もし (and its slightly more dramatic, emotional cousin もしも) as raising a 'What If?' flag at the very start of your sentence. It doesn't create the conditional grammar on its own—it pairs with 〜たら, 〜ば, or 〜なら at the end of the clause to warn the listener early that you are imagining an unverified or hypothetical scenario.",
+          "formation": [
+            {
+              "pos": "もし / もしも ＋ {節|せつ}",
+              "rule": "＋ 〜たら / 〜ば（{仮定|かてい}・{想像|そうぞう}）"
+            },
+            {
+              "pos": "もし / もしも ＋ {節|せつ}",
+              "rule": "＋ 〜なら（{相手|あいて}の{予定|よてい}や{前提|ぜんてい}への{反応|はんのう}）"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "もし{明日|あした}{雨|あめ}が{降|ふ}ったら、{試合|しあい}は{中止|ちゅうし}になります。",
+              "structure_note": "もし ＋ 〜たら（{未来|みらい}の{仮定|かてい}）",
+              "en": "If it rains tomorrow, the match will be canceled."
+            },
+            {
+              "ja_ruby": "もしも{宝|たから}くじで{一億円|いちおくえん}{当|あ}たったら、{世界一周|せかいいっしゅう}{旅行|りょこう}をしてみたい。",
+              "structure_note": "もしも ＋ 〜たら（{非現実的|ひげんじつてき}な{想像|そうぞう}・{願望|がんぼう}）",
+              "en": "If I ever won 100 million yen in the lottery, I'd love to travel around the world."
+            },
+            {
+              "ja_ruby": "もし{京都|きょうと}へ{行|い}くなら、{春|はる}の{桜|さくら}の{季節|きせつ}が{一番|いちばん}おすすめですよ。",
+              "structure_note": "もし ＋ {動詞|どうし}{辞書形|じしょけい} ＋ なら（{予定|よてい}へのアドバイス）",
+              "en": "If you're going to Kyoto, the spring cherry-blossom season is my top recommendation."
+            },
+            {
+              "ja_ruby": "もし{道|みち}がわからなければ、いつでもこの{電話番号|でんわばんごう}に{連絡|れんらく}してください。",
+              "structure_note": "もし ＋ 〜ば ＋ {依頼|いらい}",
+              "en": "If you don't know the way, please contact this phone number anytime."
+            }
+          ],
+          "pitfalls": [
+            "Hard conditional rule: NEVER pair もし / もしも with 〜と (× もし{春|はる}になると{花|はな}が{咲|さ}く). Because 〜と expresses inevitable natural laws or automatic sequences, it clashes directly with hypothetical 'if' framing.",
+            "Also avoid もし with factual past 〜たら discoveries ('when I opened the door, a cat was there')—もし is strictly for unverified, imagined, or hypothetical conditions."
+          ]
+        },
+        {
+          "id": "moshi-tanara-toshitemo",
+          "pattern": "もし〜たなら / もし〜としても",
+          "pattern_ruby": "もし〜たなら / もし〜としても",
+          "romaji": "moshi ~ta nara / moshi ~to shite mo",
+          "meaning_en": "if it had happened / if indeed ~ (supposition); even supposing ~ (concession)",
+          "register": "neutral",
+          "renshuu_status": "verified_renshuu",
+          "mental_model": "These two extensions sharpen hypothetical reasoning. もし〜たなら (or もし〜たならば) looks either at a completed future condition ('if X has happened') or a reflective counterfactual past ('if I had done X back then'). By contrast, もし〜としても concedes an extreme hypothetical premise for the sake of argument ('even assuming X is true, I still won't change Y'), treating X strictly as supposition rather than a confirmed fact.",
+          "formation": [
+            {
+              "pos": "もし ＋ {動詞|どうし}た{形|けい}",
+              "rule": "＋ なら（ば）（{反事実|はんじじつ}の{後悔|こうかい}・{完了|かんりょう}{条件|じょうけん}）"
+            },
+            {
+              "pos": "もし ＋ {動詞|どうし}・い{形容詞|けいようし}{普通形|ふつうけい}",
+              "rule": "＋ としても"
+            },
+            {
+              "pos": "もし ＋ な{形容詞|けいようし}・{名詞|めいし}（＋だ）",
+              "rule": "＋ としても"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "もしあの{時|とき}、あと{5分|ごふん}{早|はや}く{家|いえ}を{出|で}ていたなら、{終電|しゅうでん}に{間|ま}に{合|あ}っただろう。",
+              "structure_note": "もし ＋ していたなら ＋ 〜ただろう（{過去|かこ}の{反事実|はんじじつ}）",
+              "en": "If I had left the house five minutes earlier back then, I probably would have caught the last train."
+            },
+            {
+              "ja_ruby": "もし{台風|たいふう}で{飛行機|ひこうき}が{遅|おく}れたなら、すぐにホテルへ{連絡|れんらく}してください。",
+              "structure_note": "もし ＋ {動詞|どうし}た{形|けい} ＋ なら（{発生後|はっせいご}の{指示|しじ}）",
+              "en": "If your flight ends up delayed by the typhoon, please contact the hotel right away."
+            },
+            {
+              "ja_ruby": "もし{全員|ぜんいん}に{反対|はんたい}されたとしても、{私|わたし}はこの{計画|けいかく}を{続|つづ}けるつもりだ。",
+              "structure_note": "もし ＋ {動詞|どうし}た{形|けい} ＋ としても（{仮定|かてい}の{逆接|ぎゃくせつ}）",
+              "en": "Even supposing everyone opposed me, I intend to continue with this plan."
+            },
+            {
+              "ja_ruby": "もしそれが{本当|ほんとう}だとしても、{今|いま}さら{過去|かこ}を{変|か}えることはできない。",
+              "structure_note": "{名詞|めいし} ＋ だ ＋ としても（{事実|じじつ}と{仮定|かてい}しても）",
+              "en": "Even if that were true, there's no changing the past now."
+            }
+          ],
+          "pitfalls": [
+            "Unlike 〜ても, which can concede an already-known real fact ('even though it's raining right now'), 〜としても treats Clause 1 strictly as a hypothetical or unverified assumption ('even supposing X').",
+            "Before としても, nouns and な-adjectives use the plain copula だ (or omit it in formal prose: {雨|あめ}だとしても / {雨|あめ}としても), NEVER な or の (× {本当|ほんとう}なとしても)."
+          ]
+        },
+        {
+          "id": "moshikashitara-saeba",
+          "pattern": "もしかしたら〜かもしれない・〜さえ〜ば",
+          "pattern_ruby": "もしかしたら〜かもしれない・〜さえ〜ば",
+          "romaji": "moshikashitara ~kamo shirenai · ~sae ~ba",
+          "meaning_en": "perhaps / by any chance ~ (maybe); if only X, then Y (minimum sufficient condition)",
+          "register": "neutral",
+          "renshuu_status": "canonical_n3",
+          "mental_model": "Despite looking like cousins of もし, these two idioms solve very different problems. もしかしたら (or もしかすると) introduces an intuitive hunch—'Maybe, just maybe, X might be true'—and always calls for uncertainty at the end of the sentence. Meanwhile, 〜さえ〜ば acts like a single master key: out of all possible requirements, 'if only this one minimal piece X is in place, everything else (Y) follows automatically.'",
+          "formation": [
+            {
+              "pos": "もしかしたら / もしかすると",
+              "rule": "＋ 〜かもしれない / のではないか"
+            },
+            {
+              "pos": "{名詞|めいし}（が・を{省略|しょうりゃく}）",
+              "rule": "＋ さえ ＋ 〜ば / 〜なら"
+            },
+            {
+              "pos": "{動詞|どうし}ます{語幹|ごかん}",
+              "rule": "＋ さえ ＋ すれば / しなければ"
+            },
+            {
+              "pos": "{動詞|どうし}て{形|けい}",
+              "rule": "＋ さえ ＋ いれば / いたら"
+            },
+            {
+              "pos": "い{形容詞|けいようし}く / な{形容詞|けいようし}で",
+              "rule": "＋ さえ ＋ あれば（{名詞|めいし}さえ＋{形容詞|けいようし}なら）"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "{空|そら}が{暗|くら}くなってきた。もしかしたら、これから{大雨|おおあめ}が{降|ふ}るかもしれない。",
+              "structure_note": "もしかしたら ＋ 〜かもしれない（{推測|すいそく}・{可能性|かのうせい}）",
+              "en": "The sky has gotten dark. Perhaps heavy rain might fall from now on."
+            },
+            {
+              "ja_ruby": "{田中|たなか}さんはまだ{来|き}ていない。もしかすると、{電車|でんしゃ}が{遅|おく}れているのかもしれない。",
+              "structure_note": "もしかすると ＋ 〜のかもしれない",
+              "en": "Tanaka hasn't arrived yet. Maybe his train is delayed."
+            },
+            {
+              "ja_ruby": "{時間|じかん}さえあれば、この{本|ほん}は{一日|いちにち}で{読|よ}めるはずだ。",
+              "structure_note": "{名詞|めいし}（{時間|じかん}）＋ さえ ＋ あれば（{最低限|さいていげん}の{条件|じょうけん}）",
+              "en": "If only I have the time, I should be able to read this book in a single day."
+            },
+            {
+              "ja_ruby": "{毎日|まいにち}{少|すこ}しずつ{練習|れんしゅう}さえすれば、{漢字|かんじ}はきっと{覚|おぼ}えられる。",
+              "structure_note": "{動詞|どうし}ます{語幹|ごかん}（{練習|れんしゅう}）＋ さえ ＋ すれば",
+              "en": "If you just practice little by little every day, you'll surely be able to memorize the kanji."
+            }
+          ],
+          "pitfalls": [
+            "Never confuse もし ('if' -> conditional たら/ば/なら) with もしかしたら ('maybe' -> かもしれない/だろう): × もしかしたら{雨|あめ}が{降|ふ}ったら{中止|ちゅうし}だ should use もし.",
+            "Strict 〜さえ〜ば attachment rules: drop particles が and を before さえ (○ お{金|かね}さえあれば, × お{金|かね}がさえあれば), and attach verbs via ます-stem＋さえ＋すれば (○ {見|み}さえすれば, × {見|み}るさえすれば) or て-form＋さえ＋いれば."
+          ]
+        }
+      ],
+      "lesson_contrast": {
+        "title": "Hypothetical Framing, Hunches & Minimum Conditions in Lesson 29",
+        "explanation": "Keep the four もし-family structures distinct by checking both the opening adverb and the required ending of the clause.",
+        "rows": [
+          {
+            "expression": "もし / もしも〜たら・なら",
+            "register": "Neutral",
+            "key_rule": "Signals hypothetical condition; pairs with たら・ば・なら, NEVER と.",
+            "example_short": "もし{暇|ひま}なら{遊|あそ}びにおいで。"
+          },
+          {
+            "expression": "もし〜たなら / 〜としても",
+            "register": "Neutral",
+            "key_rule": "たなら = counterfactual/completed premise; としても = hypothetical concession (even if).",
+            "example_short": "{失敗|しっぱい}したとしても{諦|あきら}めない。"
+          },
+          {
+            "expression": "もしかしたら〜かもしれない",
+            "register": "Neutral",
+            "key_rule": "Uncertain hunch ('maybe'); pairs with かもしれない, NOT conditional clauses.",
+            "example_short": "もしかしたら{忘|わす}れたのかもしれない。"
+          },
+          {
+            "expression": "〜さえ〜ば",
+            "register": "Neutral",
+            "key_rule": "Minimum sufficient condition ('if only X'); drops が・を; Vます-stem＋さえすれば.",
+            "example_short": "{体|からだ}さえ{元気|げんき}ならいい。"
+          }
+        ]
+      },
+      "practice_quiz": [
+        {
+          "question_id": "L29-Q1",
+          "question_type": "nuance_choice",
+          "prompt_ja_ruby": "{佐藤|さとう}さんの{携帯|けいたい}に{何度|なんど}かけても{出|で}ない。（　　　）、もう{寝|ね}てしまったのかもしれない。",
+          "context_en": "Expressing an uncertain hunch rather than a conditional 'if': 'No matter how many times I call Sato's cell phone, he doesn't answer. Maybe he has already gone to sleep.'",
+          "choices": [
+            "もしも",
+            "たとえ",
+            "さぞ",
+            "もしかしたら"
+          ],
+          "correct_index": 3,
+          "explanation": "Correct: D (もしかしたら). Pairs naturally with {寝|ね}てしまったのかもしれない to voice an uncertain guess ('perhaps/maybe'). A (もしも) requires a conditional ending like たら or ば; B (たとえ) requires a concessive ending like ても or としても; C (さぞ) expresses strong certainty about someone's feelings ('surely/must feel') and clashes with のかもしれない."
+        },
+        {
+          "question_id": "L29-Q2",
+          "question_type": "fill_blank",
+          "prompt_ja_ruby": "{体|からだ}（　　　）{丈夫|じょうぶ}なら、ほかに{何|なに}も{望|のぞ}みません。",
+          "context_en": "Stating the single sufficient condition: 'As long as my body is healthy, I ask for nothing else.'",
+          "choices": [
+            "しか",
+            "さえ",
+            "ほど",
+            "ばかりに"
+          ],
+          "correct_index": 1,
+          "explanation": "Correct: B (さえ). Forms 〜さえ〜ば/なら ('if only X, then Y'), highlighting health as the one minimal requirement while dropping subject particle が. A (しか) requires a negative predicate in the same clause; C (ほど) expresses degree or comparison; D (ばかりに) marks a regrettable cause ('just because') after predicates and cannot attach directly between {体|からだ} and {丈夫|じょうぶ}なら."
+        },
+        {
+          "question_id": "L29-Q3",
+          "question_type": "attachment_trap",
+          "prompt_ja_ruby": "{約束|やくそく}を（　　　）ば、きっと{信|しん}じてもらえるはずだ。",
+          "context_en": "Attaching a verb cleanly to 〜さえ〜ば: 'If you just keep your promise, they should surely come to trust you.'",
+          "choices": [
+            "{守|まも}るさえすれ",
+            "{守|まも}ってさえすれ",
+            "{守|まも}りさえすれ",
+            "{守|まも}れさえすれ"
+          ],
+          "correct_index": 2,
+          "explanation": "Correct: C ({守|まも}りさえすれ). To insert さえ into a single verb with 〜ば, attach さえ to the ます-stem ({守|まも}り) followed by すれば. A ({守|まも}るさえすれ) wrongly uses the dictionary form; B ({守|まも}ってさえすれ) wrongly pairs て-form with すれば instead of いれば; D ({守|まも}れさえすれ) wrongly uses the imperative/potential stem."
+        },
+        {
+          "question_id": "L29-Q4",
+          "question_type": "star_order",
+          "prompt_ja_ruby": "もしそれが＿　＿　★　＿、{信|しん}じることはできない。",
+          "context_en": "Hypothetical concession with a noun: 'Even supposing that is Tanaka's story, I cannot believe it.'",
+          "choices": [
+            "だ",
+            "{田中|たなか}さんの",
+            "としても",
+            "{話|はなし}"
+          ],
+          "correct_index": 0,
+          "explanation": "Correct: A (だ). Full sentence: もしそれが{田中|たなか}さんの(1) {話|はなし}(2) だ(3★) としても(4)、{信|しん}じることはできない. Noun modifier {田中|たなか}さんの links to {話|はなし}, which takes the plain copula だ right before concessive としても."
+        }
+      ]
+    },
+    {
+      "lesson_id": "L30",
+      "lesson_number": 30,
+      "renshuu_title": "Actions & Time: うち",
+      "has_video": false,
+      "summary": "Master the three temporal uses of うち: seizing a favorable state before it changes (うちに), watching an unexpected or gradual change unfold during an ongoing activity (ているうちに), and acting before an unwanted shift occurs (ないうちに vs. 〜{間|あいだ}に / 〜の{間|あいだ}に).",
+      "study_tip": "Picture うち as 'inside a fragile bubble before it pops.' State + うちに = act before the good condition fades; V-ている + うちに = something gradually shifts while you're busy doing V; V-ない + うちに = hurry up before the negative flip happens!",
+      "grammar_points": [
+        {
+          "id": "uchi-ni",
+          "pattern": "〜うちに",
+          "pattern_ruby": "〜うちに",
+          "romaji": "~uchi ni",
+          "meaning_en": "while ~ (before the current favorable state changes)",
+          "register": "neutral",
+          "renshuu_status": "verified_renshuu",
+          "mental_model": "Literally 'inside the period of X,' 〜うちに always carries a subtle sense of urgency: the current favorable condition won't last forever, so take action right now before it spoils, cools down, or slips away. Unlike neutral 〜{間|あいだ}に / 〜の{間|あいだ}に, which merely frames a fixed window on a clock, 〜うちに tells you why acting now matters.",
+          "formation": [
+            {
+              "pos": "{動詞|どうし}{辞書形|じしょけい}（{状態動詞|じょうたいどうし}）・ている",
+              "rule": "＋ うちに"
+            },
+            {
+              "pos": "い{形容詞|けいようし}",
+              "rule": "＋ うちに"
+            },
+            {
+              "pos": "な{形容詞|けいようし}",
+              "rule": "＋ な ＋ うちに"
+            },
+            {
+              "pos": "{名詞|めいし}",
+              "rule": "＋ の ＋ うちに"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "このスープは、{温|あたた}かいうちに{早|はや}く{飲|の}んでくださいね。",
+              "structure_note": "い{形容詞|けいようし}（{温|あたた}かい）＋ うちに（{冷|さ}める{前|まえ}に）",
+              "en": "Please drink this soup quickly while it's still hot."
+            },
+            {
+              "ja_ruby": "{体|からだ}が{元気|げんき}なうちに、いろいろな{国|くに}へ{旅行|りょこう}しておきたい。",
+              "structure_note": "な{形容詞|けいようし}（{元気|げんき}）＋ な ＋ うちに",
+              "en": "While I'm still healthy and energetic, I want to travel to various countries."
+            },
+            {
+              "ja_ruby": "{独身|どくしん}のうちに、{自分|じぶん}のやりたい{仕事|しごと}にどんどん{挑戦|ちょうせん}しようと{思|おも}う。",
+              "structure_note": "{名詞|めいし}（{独身|どくしん}）＋ の ＋ うちに",
+              "en": "While I'm still single, I want to boldly take on the work I want to do."
+            },
+            {
+              "ja_ruby": "{時間|じかん}があるうちに、{旅行|りょこう}の{準備|じゅんび}を{済|す}ませておいたほうがいい。",
+              "structure_note": "{状態動詞|じょうたいどうし}（ある）＋ うちに",
+              "en": "You had better finish preparing for the trip while you still have time."
+            }
+          ],
+          "pitfalls": [
+            "Never attach 〜うちに to a single instantaneous action verb in dictionary form (× {会社|かいしゃ}へ{行|い}くうちに -> use {行|い}く{途中|とちゅう}で or {行|い}く{前|まえ}に); Clause 1 before うちに must describe an ongoing state.",
+            "Remember the linker split: nouns take の ({学生|がくせい}のうちに), whereas な-adjectives take な ({静|しず}かなうちに, × {静|しず}かのうちに)."
+          ]
+        },
+        {
+          "id": "teiru-uchi-ni",
+          "pattern": "〜ているうちに",
+          "pattern_ruby": "〜ているうちに",
+          "romaji": "~te iru uchi ni",
+          "meaning_en": "while ~ing (a gradual or unexpected change happens)",
+          "register": "neutral",
+          "renshuu_status": "verified_renshuu",
+          "mental_model": "When 〜ている attaches to うちに, the spotlight shifts from urgency to quiet transformation: while you are immersed in Activity A, Change B slips in gradually or catches you by surprise—you talk and become friends, read and fall asleep, or study until it gets dark outside. Because Change B happens naturally rather than by plan, Clause 2 is almost always non-volitional.",
+          "formation": [
+            {
+              "pos": "{動詞|どうし}て{形|けい} ＋ いる",
+              "rule": "＋ うちに ＋ {自然|しぜん}な{変化|へんか}・{予想外|よそうがい}の{出来事|できごと}"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "{初|はじ}めは{緊張|きんちょう}していたが、{一緒|いっしょ}に{話|はな}しているうちに{仲良|なかよ}くなった。",
+              "structure_note": "{動詞|どうし}ている ＋ うちに ＋ {自然|しぜん}な{変化|へんか}（{仲良|なかよ}くなった）",
+              "en": "At first we were nervous, but as we kept talking together, we became good friends."
+            },
+            {
+              "ja_ruby": "{難|むずか}しい{本|ほん}を{読|よ}んでいるうちに、いつの{間|ま}にか{眠|ねむ}ってしまった。",
+              "structure_note": "{動詞|どうし}ている ＋ うちに ＋ {無意識|むいしき}の{結果|けっか}",
+              "en": "While reading a difficult book, I fell asleep before I knew it."
+            },
+            {
+              "ja_ruby": "{毎日|まいにち}{料理|りょうり}を{作|つく}っているうちに、だんだん{上手|じょうず}に{作|つく}れるようになった。",
+              "structure_note": "{反復|はんぷく}のている ＋ うちに ＋ 〜ようになった",
+              "en": "In the course of cooking every day, I gradually became able to cook well."
+            },
+            {
+              "ja_ruby": "{部屋|へや}で{勉強|べんきょう}しているうちに、いつの{間|ま}にか{外|そと}は{暗|くら}くなっていた。",
+              "structure_note": "{動詞|どうし}ている ＋ うちに ＋ {周囲|しゅうい}の{変化|へんか}",
+              "en": "While I was studying in my room, it had gotten dark outside without me noticing."
+            }
+          ],
+          "pitfalls": [
+            "To express an unexpected or gradual change occurring during an ongoing activity, Clause 2 should NOT be a deliberate command or plan (× テレビを{見|み}ているうちに{晩|ばん}ごはんを{作|つく}りましょう -> use {見|み}ている{間|あいだ}に or {見|み}ながら).",
+            "Do not drop ている on dynamic action verbs (× {話|はな}すうちに{仲|なか}{良|よ}くなった -> must use {話|はな}しているうちに)."
+          ]
+        },
+        {
+          "id": "nai-uchi-ni",
+          "pattern": "〜ないうちに",
+          "pattern_ruby": "〜ないうちに",
+          "romaji": "~nai uchi ni",
+          "meaning_en": "before ~ happens; while ~ hasn't happened yet",
+          "register": "neutral",
+          "renshuu_status": "verified_renshuu",
+          "mental_model": "Literally 'inside the state where X has not happened yet,' 〜ないうちに urges you to complete an action before an unwanted, hard-to-reverse change occurs—such as forgetting, getting dark, crowds arriving, or snow piling up. Unlike neutral 〜{前|まえ}に, which sequences fixed schedules ('before going to bed'), 〜ないうちに spotlights seizing the window before conditions turn inconvenient.",
+          "formation": [
+            {
+              "pos": "{動詞|どうし}ない{形|けい}",
+              "rule": "＋ うちに"
+            },
+            {
+              "pos": "い{形容詞|けいようし}く / な{形容詞|けいようし}に ＋ ならない",
+              "rule": "＋ うちに"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "{今|いま}{聞|き}いたことを{忘|わす}れないうちに、すぐノートにメモしよう。",
+              "structure_note": "{動詞|どうし}ない{形|けい}（{忘|わす}れない）＋ うちに",
+              "en": "Before I forget what I just heard, let's jot it down in my notebook right away."
+            },
+            {
+              "ja_ruby": "{外|そと}が{暗|くら}くならないうちに、{早|はや}く{家|いえ}へ{帰|かえ}りましょう。",
+              "structure_note": "い{形容詞|けいようし}く＋ならない ＋ うちに",
+              "en": "Let's hurry home before it gets dark outside."
+            },
+            {
+              "ja_ruby": "スーパーが{混|こ}まないうちに、{午前中|ごぜんちゅう}に{買|か}い{物|もの}を{済|す}ませてしまった。",
+              "structure_note": "{動詞|どうし}ない{形|けい}（{混|こ}まない）＋ うちに",
+              "en": "I finished my shopping in the morning before the supermarket got crowded."
+            },
+            {
+              "ja_ruby": "{雪|ゆき}が{積|つ}もらないうちに、{車|くるま}のタイヤを{交換|こうかん}しておいたほうがいいですよ。",
+              "structure_note": "〜ないうちに ＋ 〜ておいたほうがいい（{予防|よぼう}のアドバイス）",
+              "en": "You had better change your car tires before the snow piles up."
+            }
+          ],
+          "pitfalls": [
+            "Contrasting 〜ないうちに vs. 〜{前|まえ}に: use 〜{前|まえ}に for planned, regular sequences (○ {寝|ね}る{前|まえ}に{歯|は}を{磨|みが}く, × {寝|ね}ないうちに{歯|は}を{磨|みが}く); reserve 〜ないうちに for acting before an unwanted or timing-sensitive change occurs.",
+            "Contrasting 〜うちに vs. 〜{間|あいだ}に / 〜の{間|あいだ}に: 〜{間|あいだ}に ({寝|ね}ている{間|あいだ}に / {留守|るす}の{間|あいだ}に) locates an event inside an objective bounded span (while bare 〜{間|あいだ} indicates continuous overlap for the entire span), whereas 〜うちに / 〜ないうちに warns against missing the window before the state flips (× {忘|わす}れない{間|あいだ}に)."
+          ]
+        }
+      ],
+      "lesson_contrast": {
+        "title": "Urgency, Gradual Change & Time Windows in Lesson 30",
+        "explanation": "Compare the three うち patterns against 〜{間|あいだ}に / 〜の{間|あいだ}に to see how verb aspect, noun attachment, and speaker urgency shape your choice.",
+        "rows": [
+          {
+            "expression": "〜うちに",
+            "register": "Neutral",
+            "key_rule": "Act while a favorable state still lasts; takes Nの / Naな / いAdj / {状態|じょうたい}V.",
+            "example_short": "{温|あたた}かいうちに{食|た}べよう。"
+          },
+          {
+            "expression": "〜ているうちに",
+            "register": "Neutral",
+            "key_rule": "Unintended or gradual change happens during an ongoing action; Clause 2 is non-volitional.",
+            "example_short": "{話|はな}しているうちに{仲良|なかよ}くなった。"
+          },
+          {
+            "expression": "〜ないうちに",
+            "register": "Neutral",
+            "key_rule": "Act before an unwanted state flip occurs ('before X happens'); Vない-form only.",
+            "example_short": "{忘|わす}れないうちにメモする。"
+          },
+          {
+            "expression": "〜{間|あいだ}に / 〜の{間|あいだ}に",
+            "register": "Neutral",
+            "key_rule": "Bounded time window (Vている{間|あいだ}に / Nの{間|あいだ}に) hosting an event; omit に for full continuous span.",
+            "example_short": "{昼休|ひるやす}みの{間|あいだ}に{電話|でんわ}した。"
+          }
+        ]
+      },
+      "practice_quiz": [
+        {
+          "question_id": "L30-Q1",
+          "question_type": "fill_blank",
+          "prompt_ja_ruby": "{高橋|たかはし}さんと{一緒|いっしょ}に{旅行|りょこう}をして（　　　）、だんだん{気|き}が{合|あ}うようになった。",
+          "context_en": "Describing a gradual change during an ongoing activity: 'While traveling together with Takahashi, we gradually came to hit it off.'",
+          "choices": [
+            "ないうちに",
+            "いるうちに",
+            "いるとたんに",
+            "いるついでに"
+          ],
+          "correct_index": 1,
+          "explanation": "Correct: B (いるうちに). Attaches to て-form ({旅行|りょこう}をして) to form 〜ているうちに, expressing a gradual, natural development (だんだん{気|き}が{合|あ}うようになった) during an ongoing trip. A (ないうちに) cannot follow て-form and reverses the meaning to 'before traveling'; C (とたんに) requires a past た-form and marks an instant shock; D (ついでに) frames a minor deliberate side errand, clashing with だんだん."
+        },
+        {
+          "question_id": "L30-Q2",
+          "question_type": "nuance_choice",
+          "prompt_ja_ruby": "{今|いま}の{話|はなし}を（　　　）、メモしておいてください。",
+          "context_en": "Advising someone to take notes before forgetting: 'Please write down what we just talked about before you forget it.'",
+          "choices": [
+            "{忘|わす}れる{間|あいだ}に",
+            "{忘|わす}れたうちに",
+            "{忘|わす}れないうちに",
+            "{忘|わす}れたばかりに"
+          ],
+          "correct_index": 2,
+          "explanation": "Correct: C ({忘|わす}れないうちに). Uses negative verb {忘|わす}れない ＋ うちに to express 'before the unwanted state of forgetting happens.' A ({忘|わす}れる{間|あいだ}に) means 'during the process of forgetting'; B ({忘|わす}れたうちに) ungrammatically attaches past た-form to うちに; D ({忘|わす}れたばかりに) means 'just because I forgot' (regrettable cause)."
+        },
+        {
+          "question_id": "L30-Q3",
+          "question_type": "attachment_trap",
+          "prompt_ja_ruby": "まだ{体|からだ}が（　　　）、やりたいことをどんどんやっておこう。",
+          "context_en": "Attaching a な-adjective (genki) before うちに: 'While my body is still healthy and energetic, let's do the things I want to do.'",
+          "choices": [
+            "{元気|げんき}なうちに",
+            "{元気|げんき}のうちに",
+            "{元気|げんき}だうちに",
+            "{元気|げんき}にうちに"
+          ],
+          "correct_index": 0,
+          "explanation": "Correct: A ({元気|げんき}なうちに). As a な-adjective, {元気|げんき} requires な directly before the noun うち. B ({元気|げんき}のうちに) wrongly applies the noun linker の to a な-adjective; C ({元気|げんき}だうちに) retains the plain copula だ; D ({元気|げんき}にうちに) wrongly uses adverbial に."
+        },
+        {
+          "question_id": "L30-Q4",
+          "question_type": "star_order",
+          "prompt_ja_ruby": "このスープは、＿　＿　★　＿{早|はや}く{飲|の}んでしまいましょう。",
+          "context_en": "Acting before food cools down: 'Let's drink this soup quickly before it gets completely cold.'",
+          "choices": [
+            "{冷|さ}めて",
+            "うちに",
+            "しまわ",
+            "ない"
+          ],
+          "correct_index": 3,
+          "explanation": "Correct: D (ない). Full sentence: このスープは、{冷|さ}めて(1) しまわ(2) ない(3★) うちに(4) {早|はや}く{飲|の}んでしまいましょう. Verb {冷|さ}めて pairs with auxiliary しまう in its negative stem しまわ, which attaches to ない right before うちに to mean 'before it gets completely cold.'"
+        }
+      ]
+    },
+    {
+      "lesson_id": "L31",
+      "lesson_number": 31,
+      "renshuu_title": "Actions & Time: Endings",
+      "has_video": false,
+      "summary": "Separate two 'just happened' patterns that behave like nouns/な-adjectives: subjective recency across minutes or months (〜たばかり) and vivid sensory freshness right after creation or production (〜たて / 〜{立|た}ての).",
+      "study_tip": "Check both the verb stem and the speaker's lens: 〜たばかり attaches to た-form and measures how recent the event FEELS (even months ago!), while 〜たて attaches ONLY to ます-stem and captures sensory freshness right after making something ({焼|や}きたて, {塗|ぬ}りたて).",
+      "grammar_points": [
+        {
+          "id": "ta-bakari",
+          "pattern": "〜たばかり",
+          "pattern_ruby": "〜たばかり",
+          "romaji": "~ta bakari",
+          "meaning_en": "just did ~ (speaker's subjective feeling of recency)",
+          "register": "neutral",
+          "renshuu_status": "verified_renshuu",
+          "mental_model": "Unlike clock-bound 〜たところだ ('just a few seconds ago'), 〜たばかり runs on psychological time: it expresses that an event still feels fresh in the speaker's mind—whether it happened five minutes ago or six months ago. Grammatically, 〜たばかり acts like a hybrid Noun/な-adjective, taking の before nouns ({買|か}ったばかりの{靴|くつ}) and な before ので・のに.",
+          "formation": [
+            {
+              "pos": "{動詞|どうし}た{形|けい}",
+              "rule": "＋ ばかりだ / ばかりです"
+            },
+            {
+              "pos": "{動詞|どうし}た{形|けい} ＋ ばかりの",
+              "rule": "＋ {名詞|めいし}"
+            },
+            {
+              "pos": "{動詞|どうし}た{形|けい} ＋ ばかりな",
+              "rule": "＋ のに / ので"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "{昼|ひる}ごはんを{食|た}べたばかりなので、まだおなかがすいていません。",
+              "structure_note": "{動詞|どうし}た{形|けい} ＋ ばかりな ＋ ので（{理由|りゆう}）",
+              "en": "Since I just ate lunch, I'm not hungry yet."
+            },
+            {
+              "ja_ruby": "このパソコンは{先週|せんしゅう}{買|か}ったばかりなのに、もう{動|うご}かなくなってしまった。",
+              "structure_note": "{先週|せんしゅう}（{数日前|すうじつまえ}）＋ {動詞|どうし}た{形|けい} ＋ ばかりな ＋ のに",
+              "en": "Even though I only bought this computer last week, it has already stopped working."
+            },
+            {
+              "ja_ruby": "{日本|にほん}に{来|き}たばかりの{頃|ころ}は、{電車|でんしゃ}の{乗|の}り{方|かた}がわからなくて{困|こま}った。",
+              "structure_note": "〜たばかりの ＋ {名詞|めいし}（{頃|ころ}）",
+              "en": "Back when I had just come to Japan, I had trouble because I didn't know how to ride the trains."
+            },
+            {
+              "ja_ruby": "{鈴木|すずき}さんは{今年|ことし}、{大学|だいがく}を{卒業|そつぎょう}したばかりで、まだ{新入社員|しんにゅうしゃいん}だ。",
+              "structure_note": "〜たばかりで（{理由|りゆう}・{状況|じょうきょう}の{並列|へいれつ}）",
+              "en": "Suzuki just graduated from university this year and is still a brand-new employee."
+            }
+          ],
+          "pitfalls": [
+            "Major attachment trap: before a noun, 〜たばかり MUST take の (○ {買|か}ったばかりの{車|くるま}, × {買|か}ったばかりな{車|くるま} / × {買|か}ったばかり{車|くるま}), whereas before のに and ので it takes な (○ {買|か}ったばかりなのに, × {買|か}ったばかりのに).",
+            "Do not confuse 〜たばかり with 〜たところだ: 〜たところだ requires physical immediacy right at the moment ('just arrived a second ago') and cannot modify nouns directly (× {来|き}たところの{頃|ころ}) or describe events from weeks/months ago."
+          ]
+        },
+        {
+          "id": "tate-no",
+          "pattern": "〜たて / 〜立ての",
+          "pattern_ruby": "〜たて / 〜{立|た}ての",
+          "romaji": "~tate / ~tate no",
+          "meaning_en": "freshly ~ed; brand-new right after production",
+          "register": "neutral",
+          "renshuu_status": "verified_renshuu",
+          "mental_model": "Picture steam rising off bread straight from the oven or wet paint gleaming on a bench: 〜たて attaches strictly to the ます-stem of creation, preparation, or fresh state-entry verbs to highlight palpable, sensory freshness right after something was made or produced. Once formed, it behaves like a noun/な-adjective (usually 〜たての＋Noun or 〜たてだ), yet refuses negative or destructive verbs.",
+          "formation": [
+            {
+              "pos": "{動詞|どうし}ます{語幹|ごかん}（{作成|さくせい}・{生産|せいさん}など）",
+              "rule": "＋ たてだ / たての ＋ {名詞|めいし}"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "このパン{屋|や}の{焼|や}きたてのパンは、{外|そと}がさくさくしていてとてもおいしい。",
+              "structure_note": "{動詞|どうし}ます{語幹|ごかん}（{焼|や}き）＋ たての ＋ {名詞|めいし}",
+              "en": "The freshly baked bread from this bakery is crispy on the outside and delicious."
+            },
+            {
+              "ja_ruby": "ペンキが{塗|ぬ}りたてですから、{壁|かべ}に{触|さわ}らないようにしてください。",
+              "structure_note": "{動詞|どうし}ます{語幹|ごかん}（{塗|ぬ}り）＋ たてだ（{状態|じょうたい}の{説明|せつめい}）",
+              "en": "Since the paint is freshly applied, please try not to touch the wall."
+            },
+            {
+              "ja_ruby": "{朝|あさ}、{淹|い}れたてのコーヒーを{飲|の}みながら{新聞|しんぶん}を{読|よ}むのが{楽|たの}しみだ。",
+              "structure_note": "{動詞|どうし}ます{語幹|ごかん}（{淹|い}れ）＋ たてのコーヒー",
+              "en": "Reading the newspaper in the morning while drinking freshly brewed coffee is my pleasure."
+            },
+            {
+              "ja_ruby": "{畑|はたけ}で{採|と}れたての{新鮮|しんせん}なトマトを、{佐藤|さとう}さんが{持|も}ってきてくれた。",
+              "structure_note": "{動詞|どうし}ます{語幹|ごかん}（{採|と}れ）＋ たての ＋ {名詞|めいし}",
+              "en": "Sato brought over fresh tomatoes straight from the field."
+            }
+          ],
+          "pitfalls": [
+            "Strict verb-choice limit: 〜たて NEVER attaches to negative, destructive, or unpleasant events such as breaking, losing, or dying (× {壊|こわ}れたて, × {落|お}としたて, × {死|し}にたて -> use 〜たばかり for {壊|こわ}れたばかり).",
+            "Strict stem rule: attach ONLY to the ます-stem, never to the た-form or dictionary form (○ {炊|た}きたてのごはん, × {炊|た}いたたてのごはん / × {炊|た}くたてのごはん)."
+          ]
+        }
+      ],
+      "lesson_contrast": {
+        "title": "Subjective Recency vs. Sensory Freshness in Lesson 31",
+        "explanation": "Compare the three 'just did' structures by checking verb form, time span, and whether noun modification is allowed.",
+        "rows": [
+          {
+            "expression": "〜たばかり",
+            "register": "Neutral",
+            "key_rule": "Subjective recency (minutes to months ago); takes Vた; modifies nouns with の and のに/ので with な.",
+            "example_short": "{先月|せんげつ}{日本|にほん}へ{来|き}たばかりだ。"
+          },
+          {
+            "expression": "〜たところだ",
+            "register": "Neutral",
+            "key_rule": "Objective physical immediacy (just moments ago); takes Vた; cannot modify nouns with の.",
+            "example_short": "{今|いま}{家|いえ}に{着|つ}いたところだ。"
+          },
+          {
+            "expression": "〜たて / 〜{立|た}ての",
+            "register": "Neutral",
+            "key_rule": "Sensory freshness after creation/production; Vます-stem only; no destructive verbs.",
+            "example_short": "{焼|や}きたてのパンが{並|なら}ぶ。"
+          }
+        ]
+      },
+      "practice_quiz": [
+        {
+          "question_id": "L31-Q1",
+          "question_type": "nuance_choice",
+          "prompt_ja_ruby": "{美咲|みさき}さんは{半年前|はんとしまえ}にこの{町|まち}へ{引|ひ}っ{越|こ}してきた（　　　）なので、まだ{道|みち}をよく{知|し}らない。",
+          "context_en": "Describing subjective recency for an event six months ago: 'Misaki only moved to this town half a year ago, so she still doesn't know the streets well.'",
+          "choices": [
+            "ところ",
+            "たて",
+            "ばかり",
+            "ほど"
+          ],
+          "correct_index": 2,
+          "explanation": "Correct: C (ばかり). Forms 〜たばかりなので to convey the speaker's subjective feeling that moving here six months ago was still very recent. A (ところ) only covers literal immediacy seconds or minutes ago and cannot attach to な＋ので; B (たて) only follows the ます-stem of production/freshness verbs, not た-form {引|ひ}っ{越|こ}してきた; D (ほど) marks extent or degree."
+        },
+        {
+          "question_id": "L31-Q2",
+          "question_type": "fill_blank",
+          "prompt_ja_ruby": "{朝|あさ}、パン{屋|や}さんに{並|なら}んでいた（　　　）のパンは、まだ{温|あたた}かくてとてもおいしい。",
+          "context_en": "Highlighting sensory freshness straight from the oven: 'The freshly baked bread lined up at the bakery in the morning is still warm and delicious.'",
+          "choices": [
+            "{焼|や}きたて",
+            "{焼|や}くばかり",
+            "{焼|や}くところ",
+            "{焼|や}いたたて"
+          ],
+          "correct_index": 0,
+          "explanation": "Correct: A ({焼|や}きたて). Attaches ます-stem ({焼|や}き) to たて before の＋パン to convey fresh-from-the-oven warmth. B ({焼|や}くばかり) wrongly uses the dictionary form instead of past た-form; C ({焼|や}くところ) means 'just about to bake'; D ({焼|や}いたたて) ungrammatically attaches たて to a た-form."
+        },
+        {
+          "question_id": "L31-Q3",
+          "question_type": "attachment_trap",
+          "prompt_ja_ruby": "{昨日|きのう}{買|か}った（　　　）スマホをうっかり{落|お}としてしまった。",
+          "context_en": "Modifying a noun with 〜たばかり: 'I accidentally dropped the smartphone I had just bought yesterday.'",
+          "choices": [
+            "ばかりな",
+            "ばかりの",
+            "ばかりだ",
+            "ばかりに"
+          ],
+          "correct_index": 1,
+          "explanation": "Correct: B (ばかりの). Before a noun like スマホ, 〜たばかり conjugates like a noun and takes の ({買|か}ったばかりのスマホ). A (ばかりな) wrongly uses な before a noun (な is only for のに・ので); C (ばかりだ) is a sentence-final predicate and cannot directly modify a noun; D (ばかりに) means 'simply because [regrettable cause].'"
+        },
+        {
+          "question_id": "L31-Q4",
+          "question_type": "star_order",
+          "prompt_ja_ruby": "{田中|たなか}さんは＿　＿　★　＿、もう{辞|や}めたいと{言|い}っている。",
+          "context_en": "Expressing surprise at a recent event: 'Even though Tanaka just joined the company, he already says he wants to quit.'",
+          "choices": [
+            "なのに",
+            "{入|はい}った",
+            "{会社|かいしゃ}に",
+            "ばかり"
+          ],
+          "correct_index": 3,
+          "explanation": "Correct: D (ばかり). Full sentence: {田中|たなか}さんは{会社|かいしゃ}に(1) {入|はい}った(2) ばかり(3★) なのに(4)、もう{辞|や}めたいと{言|い}っている. {会社|かいしゃ}に takes verb {入|はい}った, followed by ばかり and concessive なのに (requiring な after ばかり)."
+        }
+      ]
+    },
+    {
+      "lesson_id": "L32",
+      "lesson_number": 32,
+      "renshuu_title": "Actions & Time #3",
+      "has_video": false,
+      "summary": "Complete your N3 temporal toolkit: mid-action interruptions ({最中|さいちゅう}に), mid-route events ({途中|とちゅう}で / {途中|とちゅう}に), simultaneous pairing ({共|とも}に), formal occasions and sequential prerequisites ({際|さい}に・{上|うえ}で), repeated triggers vs. convenient side errands (たびに・ついでに), and instant triggers vs. interval counts (たとたん・おきに / ごとに).",
+      "study_tip": "Check two instant traps in Lesson 32: read {最中|さいちゅう}に as さいちゅう (NEVER もなか, the sweet wafer!), and count the skipped gap in おきに—{一日|いちにち}おきに means every OTHER day (skipping 1 day), whereas {一日|いちにち}ごとに means every single day!",
+      "grammar_points": [
+        {
+          "id": "saichuu-ni",
+          "pattern": "〜最中に（さいちゅうに）",
+          "pattern_ruby": "〜{最中|さいちゅう}に（さいちゅうに）",
+          "romaji": "~saichuu ni",
+          "meaning_en": "right in the middle of ~ (when an unexpected interruption occurs)",
+          "register": "neutral",
+          "renshuu_status": "verified_renshuu",
+          "mental_model": "Picture hitting pause right at the climax of an activity: 〜{最中|さいちゅう}に zooms into the very peak of an event (a meeting, exam, meal, or phone call) right as something sudden and unexpected interrupts it—a power outage, a ringing phone, or a sudden downpour. Read the kanji strictly as さいちゅう (never もなか, which is a bean-jam sweet!).",
+          "formation": [
+            {
+              "pos": "{動詞|どうし}ている",
+              "rule": "＋ {最中|さいちゅう}に / {最中|さいちゅう}だ"
+            },
+            {
+              "pos": "{名詞|めいし}（{動作|どうさ}・{出来事|できごと}を{表|あらわ}す{名詞|めいし}）",
+              "rule": "＋ の ＋ {最中|さいちゅう}に / {最中|さいちゅう}だ"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "{大切|たいせつ}な{会議|かいぎ}をしている{最中|さいちゅう}に、{急|きゅう}に{停電|ていでん}になってしまった。",
+              "structure_note": "{動詞|どうし}ている ＋ {最中|さいちゅう}に ＋ {予想外|よそうがい}のトラブル",
+              "en": "Right in the middle of holding an important meeting, the power suddenly went out."
+            },
+            {
+              "ja_ruby": "{試験|しけん}の{最中|さいちゅう}に{携帯|けいたい}{電話|でんわ}が{鳴|な}って、{本当|ほんとう}に{焦|あせ}った。",
+              "structure_note": "{名詞|めいし}（{試験|しけん}）＋ の ＋ {最中|さいちゅう}に",
+              "en": "A cell phone rang right in the middle of the exam, and I panicked."
+            },
+            {
+              "ja_ruby": "{今|いま}ちょうど{夕飯|ゆうはん}を{作|つく}っている{最中|さいちゅう}だから、あと{10分|じゅっぷん}ほど{待|ま}っていて。",
+              "structure_note": "{動詞|どうし}ている ＋ {最中|さいちゅう}だ（{進行|しんこう}のピーク）",
+              "en": "I'm right in the middle of making dinner now, so please wait about 10 more minutes."
+            },
+            {
+              "ja_ruby": "{外|そと}でランニングをしている{最中|さいちゅう}に、{突然|とつぜん}{大粒|おおつぶ}の{雨|あめ}が{降|ふ}り{出|だ}した。",
+              "structure_note": "{動詞|どうし}ている ＋ {最中|さいちゅう}に（{天候|てんこう}の{急変|きゅうへん}）",
+              "en": "Right while I was running outside, big drops of rain suddenly started pouring down."
+            }
+          ],
+          "pitfalls": [
+            "Reading check: in grammar, {最中|さいちゅう} is ALWAYS read さいちゅう—never もなか (which means a traditional Japanese sweet).",
+            "Verb attachment and clause constraint: verbs MUST be in 〜ている form (NEVER dictionary {食|た}べる{最中|さいちゅう}に or past {食|た}べた{最中|さいちゅう}に), and Clause 2 with 〜{最中|さいちゅう}に describes an interruption or unplanned occurrence rather than a routine scheduled step."
+          ]
+        },
+        {
+          "id": "sai-ni-ue-de",
+          "pattern": "〜際に（さいに）・〜上で（うえで）",
+          "pattern_ruby": "〜{際|さい}に（さいに）・〜{上|うえ}で（うえで）",
+          "romaji": "~sai ni · ~ue de",
+          "meaning_en": "on the occasion of / when ~ (formal: sai ni); upon doing X first / after ~ing (ue de)",
+          "register": "formal",
+          "renshuu_status": "canonical_n3",
+          "mental_model": "Both bring crisp structure to serious or formal events. 〜{際|さい}（に） is the polite, official counterpart to 〜{時|とき}（に）, heard on train announcements and service counters ('on the occasion of boarding or applying'). 〜{上|うえ}で builds a two-step staircase: first complete preparation Step 1 (researching, consulting, checking) thoroughly, and only upon that solid foundation proceed to important Decision 2.",
+          "formation": [
+            {
+              "pos": "{動詞|どうし}{辞書形|じしょけい}・た{形|けい} / {名詞|めいし}＋の",
+              "rule": "＋ {際|さい}（に・は）"
+            },
+            {
+              "pos": "{動詞|どうし}た{形|けい} / {名詞|めいし}（{動作|どうさ}{名詞|めいし}）＋の",
+              "rule": "＋ {上|うえ}で"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "{電車|でんしゃ}をお{降|お}りの{際|さい}は、お{忘|わす}れ{物|もの}のないようご{注意|ちゅうい}ください。",
+              "structure_note": "お＋{動詞|どうし}ます{語幹|ごかん}＋の＋{際|さい}は（{駅|えき}のアナウンス）",
+              "en": "When getting off the train, please be careful not to leave any belongings behind."
+            },
+            {
+              "ja_ruby": "このパソコンを{修理|しゅうり}に{出|だ}す{際|さい}に、{大切|たいせつ}なデータはすべてバックアップしておいた。",
+              "structure_note": "{動詞|どうし}{辞書形|じしょけい} ＋ {際|さい}に（{特別|とくべつ}な{機会|きかい}）",
+              "en": "On the occasion of sending this computer in for repair, I backed up all my important data."
+            },
+            {
+              "ja_ruby": "{両親|りょうしん}とよく{相談|そうだん}した{上|うえ}で、{留学|りゅうがく}するかどうかを{決|き}めます。",
+              "structure_note": "{動詞|どうし}た{形|けい}（{相談|そうだん}した）＋ {上|うえ}で（{前提|ぜんてい}ステップ）",
+              "en": "After consulting thoroughly with my parents, I will decide whether to study abroad."
+            },
+            {
+              "ja_ruby": "{契約書|けいやくしょ}の{内容|ないよう}を{十分|じゅうぶん}に{確認|かくにん}の{上|うえ}で、こちらにサインをお{願|ねが}いします。",
+              "structure_note": "{名詞|めいし}（{確認|かくにん}）＋ の ＋ {上|うえ}で",
+              "en": "Upon thoroughly confirming the contents of the contract, please sign here."
+            }
+          ],
+          "pitfalls": [
+            "For 'after doing X first,' 〜{上|うえ}で strictly requires the た-form ({調|しら}べた{上|うえ}で) or Noun＋の ({検討|けんとう}の{上|うえ}で); using dictionary form ({調|しら}べる{上|うえ}で) shifts the meaning to 'when it comes to / in the process of doing X' rather than sequential preparation.",
+            "Do not use formal 〜{際|さい}に for trivial everyday routines (× {朝|あさ}{起|お}きる{際|さい}に{水|みず}を{飲|の}む) or adjectives (× {安|やす}い{際|さい}に); similarly, reserve 〜た{上|うえ}で for deliberate, meaningful decisions rather than mundane steps like brushing teeth before bed (use 〜てから)."
+          ]
+        },
+        {
+          "id": "tabini-tsuideni",
+          "pattern": "〜たびに・〜ついでに",
+          "pattern_ruby": "〜たびに・〜ついでに",
+          "romaji": "~tabi ni · ~tsuide ni",
+          "meaning_en": "every single time ~ (tabi ni); while already doing X / on the way (tsuide ni)",
+          "register": "neutral",
+          "renshuu_status": "verified_renshuu",
+          "mental_model": "Both link two actions in time, yet with completely different logic. 〜たびに is a reliable trigger button: every single time Event X occurs, Effect Y repeats without fail ('every time I hear this song, I remember home'). By contrast, 〜ついでに is smart errand-stacking: since you are already going out or doing main task X anyway, you conveniently tack on minor bonus task Y along the way.",
+          "formation": [
+            {
+              "pos": "{動詞|どうし}{辞書形|じしょけい} / {名詞|めいし}＋の",
+              "rule": "＋ たびに（{毎回|まいかい}の{反復|はんぷく}）"
+            },
+            {
+              "pos": "{動詞|どうし}{辞書形|じしょけい}・た{形|けい} / {名詞|めいし}＋の",
+              "rule": "＋ ついでに（ついで{行動|こうどう}）"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "この{写真|しゃしん}を{見|み}るたびに、{高校時代|こうこうじだい}の{楽|たの}しかった{思|おも}い{出|で}がよみがえる。",
+              "structure_note": "{動詞|どうし}{辞書形|じしょけい} ＋ たびに（{毎回|まいかい}{起|お}こる{感情|かんじょう}）",
+              "en": "Every time I look at this photo, fun memories of my high school days come flooding back."
+            },
+            {
+              "ja_ruby": "{山田|やまだ}さんは{海外|かいがい}{出張|しゅっちょう}のたびに、いつもお{土産|みやげ}を{買|か}ってきてくれる。",
+              "structure_note": "{名詞|めいし} ＋ の ＋ たびに",
+              "en": "Every single time Yamada goes on an overseas business trip, he always buys souvenirs for us."
+            },
+            {
+              "ja_ruby": "{駅|えき}の{近|ちか}くへ{行|い}ったついでに、{図書館|としょかん}で{本|ほん}を{返|かえ}してきた。",
+              "structure_note": "{動詞|どうし}た{形|けい} ＋ ついでに（{既|すで}に{行|い}った{際|さい}の{副次的|ふかじてき}な{用事|ようじ}）",
+              "en": "While I happened to go near the station, I returned my books at the library too."
+            },
+            {
+              "ja_ruby": "{銀行|ぎんこう}へ{行|い}くついでに、コンビニで{切手|きって}も{買|か}っておこう。",
+              "structure_note": "{動詞|どうし}{辞書形|じしょけい} ＋ ついでに（{今後|こんご}の{効率的|こうりつてき}な{予定|よてい}）",
+              "en": "While going to the bank, let's also pick up stamps at the convenience store."
+            }
+          ],
+          "pitfalls": [
+            "Form trap for 〜たびに: verbs MUST stay in dictionary form—never past た-form (○ {会|あ}うたびに, × {会|あ}ったたびに)—whereas 〜ついでに freely accepts both dictionary form ({行|い}くついでに) and た-form ({行|い}ったついでに).",
+            "Semantic rule for 〜ついでに: Clause 2 must be an intentional, minor bonus errand secondary to Clause 1; never put a major life purchase or an involuntary accident in Clause 2 (× {散歩|さんぽ}のついでに{転|ころ}んでけがをした)."
+          ]
+        },
+        {
+          "id": "tatotan-okini-gotoni",
+          "pattern": "〜たとたん（に）・〜おきに / ごとに",
+          "pattern_ruby": "〜たとたん（に）・〜おきに / ごとに",
+          "romaji": "~ta totan (ni) · ~oki ni / goto ni",
+          "meaning_en": "the instant ~ happened (unexpected trigger); at intervals of ~ / every ~",
+          "register": "neutral",
+          "renshuu_status": "canonical_n3",
+          "mental_model": "〜たとたん（に） works like a hair-trigger spring: the exact split second instantaneous Action A completes, surprising Event B snaps right into place—with zero room for human planning in Clause 2. Separately, 〜おきに and 〜ごとに measure repeating intervals with a crucial math trap: 〜ごとに means EVERY N with zero gap, while 〜おきに literally places N units IN BETWEEN (so {一日|いちにち}おきに skips one day = every OTHER day!).",
+          "formation": [
+            {
+              "pos": "{動詞|どうし}た{形|けい}（{瞬間動詞|しゅんかんどうし}）",
+              "rule": "＋ とたん（に） ＋ {予想外|よそうがい}の{出来事|できごと}"
+            },
+            {
+              "pos": "{数量詞|すうりょうし}",
+              "rule": "＋ おきに（{間|あいだ}を{空|あ}けた{間隔|かんかく}）"
+            },
+            {
+              "pos": "{数量詞|すうりょうし}・{名詞|めいし}・{動詞|どうし}{辞書形|じしょけい}",
+              "rule": "＋ ごとに（{毎回|まいかい}・{毎|まい}〜）"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "{窓|まど}を{開|あ}けたとたんに、{冷|つめ}たい{風|かぜ}が{部屋|へや}に{入|はい}り{込|こ}んできた。",
+              "structure_note": "{動詞|どうし}た{形|けい} ＋ とたんに（{瞬間的|しゅんかんてき}な{変化|へんか}）",
+              "en": "The instant I opened the window, a cold gust of wind blew into the room."
+            },
+            {
+              "ja_ruby": "{駅|えき}に{着|つ}いたとたん、ちょうど{乗|の}りたかった{電車|でんしゃ}が{出発|しゅっぱつ}してしまった。",
+              "structure_note": "{動詞|どうし}た{形|けい} ＋ とたん（に{省略|しょうりゃく}・{不本意|ふほんい}な{結果|けっか}）",
+              "en": "The very moment I arrived at the station, the exact train I wanted to catch departed."
+            },
+            {
+              "ja_ruby": "この{花|はな}には、{夏|なつ}は{一日|いちにち}おきに{水|みず}をあげてください。",
+              "structure_note": "{数量詞|すうりょうし}（{一日|いちにち}）＋ おきに（{1日|いちにち}スキップ＝{隔日|かくじつ}）",
+              "en": "Please water this flower every other day during the summer."
+            },
+            {
+              "ja_ruby": "この{特急|とっきゅう}{電車|でんしゃ}は、{1時間|いちじかん}ごとに{東京駅|とうきょうえき}を{出発|しゅっぱつ}します。",
+              "structure_note": "{数量詞|すうりょうし}（{1時間|いちじかん}）＋ ごとに（{毎時間|まいじかん}・{隙間|すきま}なし）",
+              "en": "This limited express train departs Tokyo Station every hour."
+            }
+          ],
+          "pitfalls": [
+            "Hard Clause 2 ban for 〜たとたん（に）: NEVER place volitional plans, commands, requests, or intentions after とたん (× {家|いえ}に{帰|かえ}ったとたんに、すぐシャワーを{浴|あ}びよう -> use 〜たらすぐ); Clause 2 must be sudden, surprising, or beyond your control, and Clause 1 must be た-form.",
+            "Classic interval math trap: {一日|いちにち}おきに means every OTHER day (day 1, skip day 2, day 3), {2日|ふつか}おきに means every 3rd day (skip 2 days), and {一年|いちねん}おきに means every 2 years—whereas {一日|いちにち}ごとに means every single day without skipping."
+          ]
+        },
+        {
+          "id": "tochuu-de-tomoni",
+          "pattern": "〜途中で / 途中に・〜と共に",
+          "pattern_ruby": "〜{途中|とちゅう}で / {途中|とちゅう}に・〜と{共|とも}に",
+          "romaji": "~tochuu de / tochuu ni · ~to tomo ni",
+          "meaning_en": "on the way / in the middle of ~ (tochuu de/ni); together with / at the same time as ~ (to tomo ni)",
+          "register": "neutral",
+          "renshuu_status": "canonical_n3",
+          "mental_model": "Both anchor events along an unfolding path, yet track different relationships. 〜{途中|とちゅう}で（に） places an event or landmark partway along a directional journey or sequential process ('on the way home / halfway through a task') and strictly takes a plain dictionary verb or Noun＋の. 〜と{共|とも}に (read ともに) links two things side by side: either working/spending time together with people, or marking two events/changes happening simultaneously ('upon graduating / as one grows older').",
+          "formation": [
+            {
+              "pos": "{動詞|どうし}{辞書形|じしょけい}・{名詞|めいし}＋の",
+              "rule": "＋ {途中|とちゅう}で / {途中|とちゅう}に（{移動|いどう}・{作業|さぎょう}の{中間|ちゅうかん}）"
+            },
+            {
+              "pos": "{名詞|めいし}",
+              "rule": "＋ と{共|とも}に（{一緒|いっしょ}に・{同時|どうじ}に）"
+            },
+            {
+              "pos": "{動詞|どうし}{辞書形|じしょけい}",
+              "rule": "＋ と{共|とも}に（{変化|へんか}の{並行|へいこう}）"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "{学校|がっこう}から{家|いえ}へ{帰|かえ}る{途中|とちゅう}で、{駅|えき}の{前|まえ}で{田中|たなか}さんにばったり{会|あ}った。",
+              "structure_note": "{動詞|どうし}{辞書形|じしょけい}（{帰|かえ}る）＋ {途中|とちゅう}で（{移動中|いどうちゅう}の{出来事|できごと}）",
+              "en": "On the way home from school, I happened to run into Tanaka in front of the station."
+            },
+            {
+              "ja_ruby": "{通勤|つうきん}の{途中|とちゅう}に、いつもおいしいパンが{買|か}える{店|みせ}がある。",
+              "structure_note": "{名詞|めいし}（{通勤|つうきん}）＋ の ＋ {途中|とちゅう}に（{経路上|けいろじょう}の{場所|ばしょ}）",
+              "en": "Along my commute to work, there is a shop where you can always buy delicious bread."
+            },
+            {
+              "ja_ruby": "{大切|たいせつ}な{仲間|なかま}と{共|とも}に、{半年|はんとし}かけてこのイベントを{成功|せいこう}させた。",
+              "structure_note": "{名詞|めいし}（{仲間|なかま}）＋ と{共|とも}に（{一緒|いっしょ}に）",
+              "en": "Together with my valued teammates, I spent half a year making this event a success."
+            },
+            {
+              "ja_ruby": "{大学|だいがく}の{卒業|そつぎょう}と{共|とも}に、{社会人|しゃかいじん}としての{新|あたら}しい{生活|せいかつ}が{始|はじ}まった。",
+              "structure_note": "{名詞|めいし}（{卒業|そつぎょう}）＋ と{共|とも}に（〜と{同時|どうじ}に）",
+              "en": "At the same time as graduating from university, my new life as a working adult began."
+            },
+            {
+              "ja_ruby": "{年|とし}をとると{共|とも}に、{健康|けんこう}の{大切|たいせつ}さを{強|つよ}く{感|かん}じるようになった。",
+              "structure_note": "{動詞|どうし}{辞書形|じしょけい} ＋ と{共|とも}に（{並行|へいこう}する{変化|へんか}）",
+              "en": "Along with growing older, I have come to feel the importance of health strongly."
+            }
+          ],
+          "pitfalls": [
+            "Verb-form contrast with 〜{最中|さいちゅう}に: 〜{途中|とちゅう}で strictly takes plain dictionary form (○ {帰|かえ}る{途中|とちゅう}で, × {帰|かえ}っている{途中|とちゅう}で), whereas 〜{最中|さいちゅう}に requires 〜ている (○ {食事|しょくじ}している{最中|さいちゅう}に). Also, use {途中|とちゅう}で for actions/events happening midway and {途中|とちゅう}に for places or points located along a route.",
+            "〜と{共|とも}に is slightly formal/written and attaches directly to nouns or dictionary-form verbs without の (○ {卒業|そつぎょう}と{共|とも}に, × {卒業|そつぎょう}のと{共|とも}に); in everyday casual speech for 'together with a friend,' prefer {友達|ともだち}と{一緒|いっしょ}に rather than {友達|ともだち}と{共|とも}に."
+          ]
+        }
+      ],
+      "lesson_contrast": {
+        "title": "Temporal Precision & Interval Logic in Lesson 32",
+        "explanation": "Master Lesson 32's temporal expressions by checking whether the main event is an interruption, a mid-route event, a simultaneous pair, a formal occasion, a prerequisite step, a side errand, an instant trigger, or a counted interval.",
+        "rows": [
+          {
+            "expression": "〜{最中|さいちゅう}に",
+            "register": "Neutral",
+            "key_rule": "Read さいちゅう (never もなか); unexpected interruption at event peak; Vている / Nの.",
+            "example_short": "{食事|しょくじ}の{最中|さいちゅう}に{地震|じしん}がきた。"
+          },
+          {
+            "expression": "〜{途中|とちゅう}で / {途中|とちゅう}に",
+            "register": "Neutral",
+            "key_rule": "Partway along a route or process; V{辞書形|じしょけい} / Nの (NEVER Vている); で = event, に = point/place.",
+            "example_short": "{帰|かえ}る{途中|とちゅう}で{友達|ともだち}に{会|あ}った。"
+          },
+          {
+            "expression": "〜と{共|とも}に",
+            "register": "Formal / Written",
+            "key_rule": "Together with (N) or simultaneously / progressively along with (N / V{辞書形|じしょけい}, no の).",
+            "example_short": "{春|はる}と{共|とも}に{桜|さくら}が{咲|さ}き{始|はじ}めた。"
+          },
+          {
+            "expression": "〜{際|さい}に / 〜{上|うえ}で",
+            "register": "Formal",
+            "key_rule": "{際|さい}に = formal 'when'; た{上|うえ}で = after prerequisite Step 1, take deliberate Step 2.",
+            "example_short": "{相談|そうだん}した{上|うえ}で{決|き}めます。"
+          },
+          {
+            "expression": "〜たびに / 〜ついでに",
+            "register": "Neutral",
+            "key_rule": "たびに = every single time (V{辞書|じしょ}/Nの); ついでに = convenient secondary errand.",
+            "example_short": "{買|か}い{物|もの}のついでに{手紙|てがみ}を{出|だ}す。"
+          },
+          {
+            "expression": "〜たとたん / おきに・ごとに",
+            "register": "Neutral",
+            "key_rule": "たとたん = instant unexpected trigger (no volition); {一日|いちにち}おきに = every other day vs. ごとに = every day.",
+            "example_short": "{立|た}ったとたんにめまいがした。"
+          }
+        ]
+      },
+      "practice_quiz": [
+        {
+          "question_id": "L32-Q1",
+          "question_type": "nuance_choice",
+          "prompt_ja_ruby": "{月曜日|げつようび}、{水曜日|すいようび}、{金曜日|きんようび}というように、この{薬|くすり}は（　　　）{飲|の}むことになっている。",
+          "context_en": "Distinguishing skipped-gap intervals from every-unit intervals: 'Like Monday, Wednesday, and Friday, we are supposed to take this medicine every other day.'",
+          "choices": [
+            "{一日|いちにち}おきに",
+            "{一日|いちにち}ごとに",
+            "{一日|いちにち}たびに",
+            "{一日|いちにち}ついでに"
+          ],
+          "correct_index": 0,
+          "explanation": "Correct: A ({一日|いちにち}おきに). Placing おきに after {一日|いちにち} skips one day between doses ('every other day'), matching the Monday–Wednesday–Friday schedule. B ({一日|いちにち}ごとに) means 'every single day' with zero skipped days; C ({一日|いちにち}たびに) omits required の after a noun and means 'every time' rather than intervals; D ({一日|いちにち}ついでに) makes no sense as a side errand."
+        },
+        {
+          "question_id": "L32-Q2",
+          "question_type": "fill_blank",
+          "prompt_ja_ruby": "{佐藤|さとう}さんが{玄関|げんかん}のドアを{開|あ}けた（　　　）、{飼|か}っていた{猫|ねこ}が{外|そと}へ{飛|と}び{出|だ}していった。",
+          "context_en": "Expressing an instantaneous unexpected reaction: 'The instant Sato opened the front door, his pet cat bolted outside.'",
+          "choices": [
+            "ついでに",
+            "{最中|さいちゅう}に",
+            "{上|うえ}で",
+            "とたんに"
+          ],
+          "correct_index": 3,
+          "explanation": "Correct: D (とたんに). Attaches directly to past た-form ({開|あ}けた) to show an instantaneous, surprising event occurring the split second the door opened. A (ついでに) indicates a planned minor side errand; B ({最中|さいちゅう}に) requires Vている rather than た-form and marks mid-process interruption; C ({上|うえ}で) marks a deliberate planned decision following a prerequisite."
+        },
+        {
+          "question_id": "L32-Q3",
+          "question_type": "attachment_trap",
+          "prompt_ja_ruby": "{大切|たいせつ}な{発表|はっぴょう}を（　　　）{最中|さいちゅう}に、マイクの{音|おと}が{突然|とつぜん}{切|き}れてしまった。",
+          "context_en": "Attaching a verb cleanly before 最中に (saichuu ni): 'Right in the middle of giving an important presentation, the microphone sound suddenly cut out.'",
+          "choices": [
+            "する",
+            "している",
+            "した",
+            "して"
+          ],
+          "correct_index": 1,
+          "explanation": "Correct: B (している). Verbs before 〜{最中|さいちゅう}に MUST appear in the progressive ている form to capture an ongoing action at its peak. A (する) dictionary form, C (した) past た-form, and D (して) bare て-form are all ungrammatical directly before {最中|さいちゅう}に."
+        },
+        {
+          "question_id": "L32-Q4",
+          "question_type": "star_order",
+          "prompt_ja_ruby": "{買|か}い{物|もの}に＿　＿　★　＿{返|かえ}してきた。",
+          "context_en": "Stacking a convenient errand onto a main trip: 'While out shopping, I also returned the library books along the way.'",
+          "choices": [
+            "ついでに",
+            "{出|で}かけた",
+            "{図書館|としょかん}の",
+            "{本|ほん}を"
+          ],
+          "correct_index": 2,
+          "explanation": "Correct: C ({図書館|としょかん}の). Full sentence: {買|か}い{物|もの}に{出|で}かけた(1) ついでに(2) {図書館|としょかん}の(3★) {本|ほん}を(4) {返|かえ}してきた. {買|か}い{物|もの}に links to {出|で}かけた, which attaches to ついでに to mark the side errand, followed by noun phrase {図書館|としょかん}の{本|ほん}を before {返|かえ}してきた."
+        }
+      ]
+    }
+  ]
+}

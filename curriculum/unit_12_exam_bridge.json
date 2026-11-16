@@ -1,0 +1,1170 @@
+{
+  "unit_number": 12,
+  "unit_slug": "unit-12-exam-bridge",
+  "unit_title": "Unit 12: JLPT N3 Exam Bridge (N4 Prerequisites, N2-Border Patterns & Star Puzzles)",
+  "unit_overview": "Close every remaining gap between Renshuu's 55-lesson N3 schedule and the full JLPT N3 exam: Voice & Keigo prerequisites (N4-to-N3), high-frequency N3 exam patterns Renshuu places in N2 or omits as standalone lessons, and JLPT Section 2/3 Star-Puzzle (並べ替え) & Discourse Grammar.",
+  "lessons": [
+    {
+      "lesson_id": "B01",
+      "lesson_number": "B1",
+      "renshuu_title": "Exam Bridge 1: Voice & Keigo Essentials (N4-to-N3)",
+      "has_video": false,
+      "summary": "Lock down the four N4-to-N3 grammar pillars constantly tested across JLPT N3 grammar, reading, and listening: direct vs. adversative passive ({受|う}け{身|み}), を/に causative causee marking ({使役|しえき}), Godan causative-passive contraction traps ({使役受身|しえきうけみ}), and honorific vs. humble keigo boundaries ({尊敬語|そんけいご}・{謙譲語|けんじょうご}).",
+      "study_tip": "In every JLPT N3 voice or keigo item, map the subject and particle arrows first: passive puts the affected experiencer in は/が, causative switches the doer to に whenever an を object already exists, causative-passive NEVER contracts す-verbs like {話|はな}す to 〜される, and keigo NEVER puts the speaker into an honorific verb or the listener into a humble verb.",
+      "grammar_points": [
+        {
+          "id": "ukemi-passive",
+          "pattern": "受身（直接受身・被害の受身）",
+          "pattern_ruby": "{受身|うけみ}（{直接受身|ちょくせつうけみ}・{被害|ひがい}の{受身|うけみ}）",
+          "romaji": "ukemi (chokusetsu-ukemi / higai no ukemi)",
+          "meaning_en": "passive voice: direct passive and Japanese-specific indirect 'suffering/adversative' passive",
+          "register": "neutral",
+          "renshuu_status": "n4_prerequisite",
+          "mental_model": "Japanese passive ({受|う}け{身|み}) does double duty compared to English. In a direct passive ({直接受身|ちょくせつうけみ}), the receiver of an action becomes the は/が topic and the agent takes に (or によって for creations, discoveries, buildings, and official announcements). In the uniquely Japanese indirect 'suffering' passive ({被害|ひがい}の{受身|うけみ}), even INTRANSITIVE verbs like {降|ふ}る, {泣|な}く, or {死|し}ぬ become passive when someone else's action inconveniences you ({雨|あめ}に{降|ふ}られた). Crucially, if a thief steals your wallet or someone steps on your foot, the affected person stays the implied は topic, the doer takes に, and the possession keeps を ({財布|さいふ}を{盗|ぬす}まれた).",
+          "formation": [
+            {
+              "pos": "{五段動詞|ごだんどうし}",
+              "rule": "ない{形|けい}{語幹|ごかん}（ア{段|だん}）＋ れる（う→わ：{使|つか}われる）"
+            },
+            {
+              "pos": "{一段動詞|いちだんどうし}",
+              "rule": "ます{形|けい}{語幹|ごかん} ＋ られる"
+            },
+            {
+              "pos": "{不規則動詞|ふきそくどうし}",
+              "rule": "する → される ／ {来|く}る → {来|こ}られる"
+            },
+            {
+              "pos": "{被害|ひがい}の{受身文型|うけみぶんけい}",
+              "rule": "（{被害者|ひがいしゃ}は）＋ {行為者|こういしゃ}に ＋ ［{対象|たいしょう}を］＋ {受身形|うけみけい}"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "{田中|たなか}さんは{会議|かいぎ}での{発表|はっぴょう}を{部長|ぶちょう}に{褒|ほ}められた。",
+              "structure_note": "{直接受身|ちょくせつうけみ}: {田中|たなか}さん is promoted to topic, and the agent {部長|ぶちょう} takes に.",
+              "en": "Tanaka was praised by the department manager for his presentation at the meeting."
+            },
+            {
+              "ja_ruby": "この{橋|はし}は{百年|ひゃくねん}ほど{前|まえ}に、{当時|とうじ}の{技術者|ぎじゅつしゃ}によって{建|た}てられた。",
+              "structure_note": "{創造|そうぞう}・{建設|けんせつ}の{受身|うけみ}: によって marks the creator/builder of an inanimate structure.",
+              "en": "This bridge was built about a hundred years ago by engineers of that era."
+            },
+            {
+              "ja_ruby": "{昨日|きのう}、{満員電車|まんいんでんしゃ}の{中|なか}でだれかに{財布|さいふ}を{盗|ぬす}まれてしまった。",
+              "structure_note": "{被害|ひがい}の{受身|うけみ}: the doer takes に (だれかに) while the stolen possession retains を ({財布|さいふ}を).",
+              "en": "Yesterday, I had my wallet stolen by someone inside a packed train."
+            },
+            {
+              "ja_ruby": "せっかく{洗濯物|せんたくもの}を{干|ほ}したのに、{急|きゅう}に{雨|あめ}に{降|ふ}られて{困|こま}った。",
+              "structure_note": "{自動詞|じどうし}の{迷惑受身|めいわくうけみ}: intransitive {降|ふ}る forms {雨|あめ}に{降|ふ}られる to express misfortune.",
+              "en": "Even though I went to the trouble of hanging out the laundry, I got caught in a sudden rain."
+            }
+          ],
+          "pitfalls": [
+            "Do not drop を in possessive adversative passives: keep を on the affected object or body part and に on the doer ({足|あし}を{踏|ふ}まれた, NOT × {足|あし}に{踏|ふ}まれた).",
+            "Do not use によって for personal emotional or suffering passives (× {雨|あめ}によって{降|ふ}られた -> ○ {雨|あめ}に{降|ふ}られた); reserve によって for discoveries, works, or institutions.",
+            "Remember Ichidan passive {見|み}られる matches the formal potential form morphologically; check whether a に agent ({先生|せんせい}に{見|み}られた) is present to identify passive voice."
+          ]
+        },
+        {
+          "id": "shieki-causative",
+          "pattern": "使役（「を」と「に」の使い分け）",
+          "pattern_ruby": "{使役|しえき}（「を」と「に」の{使|つか}い{分|わ}け）",
+          "romaji": "shieki ('wo' to 'ni' no tsukaiwake)",
+          "meaning_en": "causative voice: 'make/let someone do' and choosing を vs. に for the causee",
+          "register": "neutral",
+          "renshuu_status": "n4_prerequisite",
+          "mental_model": "Causative ({使役|しえき}) puts the causer in は/が ('make X happen' or 'allow X to happen') and forces one critical particle choice for the person doing the action (the causee). Whenever the base verb is TRANSITIVE and already takes a direct object with を, Japanese strictly forbids two を phrases in the same clause—so the causee MUST take に ({子供|こども}に{野菜|やさい}を{食|た}べさせる). With INTRANSITIVE verbs that have no を object, the causee usually takes を ({社員|しゃいん}を{出張|しゅっちょう}させる), though に may appear when softly granting permission ({好|す}きなだけ{遊|あそ}ばせる), while emotional/involuntary verbs like {泣|な}かせる, {笑|わら}わせる, and {心配|しんぱい}させる strictly require を.",
+          "formation": [
+            {
+              "pos": "{五段動詞|ごだんどうし}",
+              "rule": "ない{形|けい}{語幹|ごかん}（ア{段|だん}）＋ せる（う→わ：{買|か}わせる）"
+            },
+            {
+              "pos": "{一段動詞|いちだんどうし}",
+              "rule": "ます{形|けい}{語幹|ごかん} ＋ させる"
+            },
+            {
+              "pos": "{不規則動詞|ふきそくどうし}",
+              "rule": "する → させる ／ {来|く}る → {来|こ}させる"
+            },
+            {
+              "pos": "{使役対象|しえきたいしょう}の{助詞|じょし}",
+              "rule": "{自動詞|じどうし} → {人|ひと}を（{許可|きょか}は「に」も{可|か}）／ {他動詞|たどうし}（〜を）→ {人|ひと}に ＋ {目的語|もくてきご}を"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "{母|はは}は{健康|けんこう}のために、{子供|こども}に{毎日|まいにち}{野菜|やさい}を{食|た}べさせている。",
+              "structure_note": "{他動詞|たどうし}（{野菜|やさい}を{食|た}べる）のため、{使役対象|しえきたいしょう}の{子供|こども}には「に」を{使|つか}う。",
+              "en": "For their health, the mother makes her children eat vegetables every day."
+            },
+            {
+              "ja_ruby": "{鈴木|すずき}さんはおもしろい{冗談|じょうだん}を{言|い}って、みんなを{笑|わら}わせた。",
+              "structure_note": "{感情|かんじょう}・{無意志|むいし}{動詞|どうし}（{笑|わら}う）の{使役|しえき}は{必|かなら}ず「〜を」をとる。",
+              "en": "Suzuki told a funny joke and made everyone laugh."
+            },
+            {
+              "ja_ruby": "{風邪|かぜ}がひどそうだったので、{部長|ぶちょう}は{部下|ぶか}を{早|はや}く{帰|かえ}らせた。",
+              "structure_note": "{自動詞|じどうし}（{帰|かえ}る）では「{部下|ぶか}を」と「を」で{対象|たいしょう}をマークする。",
+              "en": "Because the subordinate's cold looked bad, the manager let them go home early."
+            },
+            {
+              "ja_ruby": "この{件|けん}については、{私|わたし}にもう{少|すこ}し{調|しら}べさせていただけませんか。",
+              "structure_note": "「〜させていただけませんか」は{相手|あいて}に{許可|きょか}を{求|もと}める{丁寧|ていねい}な{依頼|いらい}。",
+              "en": "Regarding this matter, could you please let me look into it a little further?"
+            }
+          ],
+          "pitfalls": [
+            "Never put を on both the causee and the direct object in one clause (× {部下|ぶか}を{資料|しりょう}を{作|つく}らせる -> ○ {部下|ぶか}に{資料|しりょう}を{作|つく}らせる).",
+            "Do not use に for involuntary emotion causatives like {泣|な}かせる, {驚|おどろ}かせる, or {安心|あんしん}させる (× {親|おや}に{安心|あんしん}させる -> ○ {親|おや}を{安心|あんしん}させる).",
+            "Do not confuse 〜させてください ('please let ME do it') with 〜てください ('please do it for me')."
+          ]
+        },
+        {
+          "id": "shieki-ukemi",
+          "pattern": "使役受身（短縮形・非短縮の罠）",
+          "pattern_ruby": "{使役受身|しえきうけみ}（{短縮形|たんしゅくけい}・{非短縮|ひたんしゅく}の{罠|わな}）",
+          "romaji": "shieki-ukemi (tanshukukei / hi-tanshuku no wana)",
+          "meaning_en": "causative-passive ('be made/forced to do'); contracted short forms vs. non-contracting verb traps",
+          "register": "neutral",
+          "renshuu_status": "n4_prerequisite",
+          "mental_model": "Causative-passive ({使役受身|しえきうけみ}) layers passive onto causative to mean 'to be forced/made to do X'—or in reflective contexts, 'to be moved/compelled to think' ({考|かんが}えさせられる). Every JLPT N3 exam tests one sharp morphological split: regular Godan verbs contract from 〜せられる to the shorter 〜される ({待|ま}たせられる → {待|ま}たされる, {飲|の}まされる, {書|か}かされる). HOWEVER, Godan verbs ending in す ({話|はな}す, {出|だ}す, {渡|わた}す, {直|なお}す) NEVER contract because dropping せ from {話|はな}させられる would produce {話|はな}される, colliding with the simple passive! Ichidan verbs ({食|た}べさせられる) and irregular する/来る (させられる / {来|こ}させられる) NEVER contract either.",
+          "formation": [
+            {
+              "pos": "「す」{以外|いがい}の{五段動詞|ごだんどうし}",
+              "rule": "ない{形|けい}{語幹|ごかん}（ア{段|だん}）＋ される（{非短縮|ひたんしゅく}：＋ せられる）"
+            },
+            {
+              "pos": "「す」で{終|お}わる{五段動詞|ごだんどうし}",
+              "rule": "ない{形|けい}{語幹|ごかん}（さ）＋ せられる（{短縮不可|たんしゅくふか}：× される）"
+            },
+            {
+              "pos": "{一段動詞|いちだんどうし}",
+              "rule": "ます{形|けい}{語幹|ごかん} ＋ させられる（{短縮不可|たんしゅくふか}：× さされる）"
+            },
+            {
+              "pos": "{不規則動詞|ふきそくどうし}",
+              "rule": "する → させられる ／ {来|く}る → {来|こ}させられる"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "{人気|にんき}のラーメン{店|てん}で、{雨|あめ}の{中|なか}{一時間|いちじかん}も{待|ま}たされた。",
+              "structure_note": "{五段動詞|ごだんどうし}「{待|ま}つ」は「{待|ま}たせられる」が{短縮|たんしゅく}して「{待|ま}たされる」になる。",
+              "en": "At the popular ramen shop, I was made to wait in the rain for a full hour."
+            },
+            {
+              "ja_ruby": "{私|わたし}は{人前|ひとまえ}でしゃべるのが{苦手|にがて}なのに、{忘年会|ぼうねんかい}でみんなの{前|まえ}で{十分間|じゅっぷんかん}も{話|はな}させられた。",
+              "structure_note": "「{話|はな}す」のような「す」{動詞|どうし}は{短縮|たんしゅく}せず、{必|かなら}ず「{話|はな}させられる」とする。",
+              "en": "Even though I am bad at speaking in front of people, I was made to talk for ten minutes in front of everyone at the year-end party."
+            },
+            {
+              "ja_ruby": "{高校|こうこう}の{授業|じゅぎょう}で、{難|むずか}しい{漢字|かんじ}のリストを{全部|ぜんぶ}{覚|おぼ}えさせられた。",
+              "structure_note": "{一段動詞|いちだんどうし}「{覚|おぼ}える」は{短縮|たんしゅく}せず「{覚|おぼ}えさせられる」のみ。",
+              "en": "In high school class, we were forced to memorize the entire list of difficult kanji."
+            },
+            {
+              "ja_ruby": "このドキュメンタリーを{見|み}て、{環境問題|かんきょうもんだい}について{深|ふか}く{考|かんが}えさせられた。",
+              "structure_note": "{自発的|じはつてき}な{感動|かんどう}・{反省|はんせい}を{表|あらわ}す「{考|かんが}えさせられる」はN3{読解|どっかい}の{定番|ていばん}。",
+              "en": "Watching this documentary really made me think deeply about environmental issues."
+            }
+          ],
+          "pitfalls": [
+            "NEVER contract Godan verbs ending in す ({話|はな}す, {出|だ}す, {渡|わた}す, {押|お}す): × {話|はな}された is simple passive, whereas causative-passive MUST be {話|はな}させられた.",
+            "NEVER invent × 〜さされる on Ichidan or する verbs (× {食|た}べさされた, × さされた -> ○ {食|た}べさせられた, ○ させられた).",
+            "In a causative-passive sentence, mark the person who forced you with に ({上司|じょうし}に{残業|ざんぎょう}させられた), not を."
+          ]
+        },
+        {
+          "id": "keigo-essentials",
+          "pattern": "敬語の基礎（尊敬語・謙譲語）",
+          "pattern_ruby": "{敬語|けいご}の{基礎|きそ}（{尊敬語|そんけいご}・{謙譲語|けんじょうご}）",
+          "romaji": "keigo no kiso (sonkeigo / kenjougo)",
+          "meaning_en": "core keigo: elevating respected others (sonkeigo) vs. humbling oneself (kenjougo)",
+          "register": "formal",
+          "renshuu_status": "n4_prerequisite",
+          "mental_model": "Think of keigo strictly as a directional arrow. Honorific ({尊敬語|そんけいご}) points UP at a respected person's own action—using お〜になる, passive 〜れる/られる, or special verbs (いらっしゃる, おっしゃる, ご{覧|らん}になる, なさる, {召|め}し{上|あ}がる, くださる)—and NEVER describes you or your in-group. Humble ({謙譲語|けんじょうご}) points DOWN on your own (or your in-group's) action directed toward a superior—using お〜する/いたす or special verbs ({参|まい}る, {申|もう}す, {拝見|はいけん}する, いただく, {伺|うかが}う, {存|ぞん}じている)—and NEVER describes the customer, teacher, or manager. Remember the pair お{待|ま}ちになる (guest waits) vs お{待|ま}ちする (I wait for guest), and watch out for forbidden double keigo (× おっしゃられる) or mixed frames (× {拝見|はいけん}になる).",
+          "formation": [
+            {
+              "pos": "{尊敬語|そんけいご}（お〜になる・{特別動詞|とくべつどうし}）",
+              "rule": "お ＋ {動詞|どうし}ます{形|けい}{語幹|ごかん} ＋ になる ／ ご ＋ {漢語|かんご} ＋ になる ／ いらっしゃる・おっしゃる・ご{覧|らん}になる・なさる"
+            },
+            {
+              "pos": "{謙譲語|けんじょうご}（お〜する・{特別動詞|とくべつどうし}）",
+              "rule": "お ＋ {動詞|どうし}ます{形|けい}{語幹|ごかん} ＋ する（いたす）／ ご ＋ {漢語|かんご} ＋ する ／ {参|まい}る・{申|もう}す・{拝見|はいけん}する・いただく"
+            },
+            {
+              "pos": "{受身形尊敬|うけみけいそんけい}",
+              "rule": "{受身形|うけみけい}（{五段|ごだん}：ア{段|だん}＋れる／{一段|いちだん}：{語幹|ごかん}＋られる／する→される・{来|く}る→{来|こ}られる）"
+            },
+            {
+              "pos": "{丁寧|ていねい}な{依頼|いらい}",
+              "rule": "お ＋ {動詞|どうし}ます{形|けい}{語幹|ごかん} ＋ ください ／ ご ＋ {漢語|かんご} ＋ ください"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "{高橋|たかはし}{部長|ぶちょう}は、もう{会議室|かいぎしつ}にいらっしゃいますか。",
+              "structure_note": "{目上|めうえ}の{相手|あいて}（{部長|ぶちょう}）の「いる・{行|い}く・{来|く}る」を{尊敬語|そんけいご}「いらっしゃる」で{高|たか}める。",
+              "en": "Is Department Manager Takahashi already in the conference room?"
+            },
+            {
+              "ja_ruby": "お{送|おく}りいただいた{資料|しりょう}を、ただいま{拝見|はいけん}いたしました。",
+              "structure_note": "{相手|あいて}から{受|う}け{取|と}る「いただく」と、{自分|じぶん}が{見|み}る{謙譲語|けんじょうご}「{拝見|はいけん}いたす」の{組|く}み{合|あ}わせ。",
+              "en": "I have just looked over the documents you kindly sent me."
+            },
+            {
+              "ja_ruby": "{佐藤|さとう}{様|さま}がご{到着|とうちゃく}になるまで、こちらのロビーでお{待|ま}ちいたします。",
+              "structure_note": "{客|きゃく}（{佐藤様|さとうさま}）に「ご{到着|とうちゃく}になる」、{自分|じぶん}に「お{待|ま}ちいたす」と{矢印|やじるし}を{分|わ}ける。",
+              "en": "I will wait here in the lobby until Sato-sama arrives."
+            },
+            {
+              "ja_ruby": "{田中|たなか}{先生|せんせい}がおっしゃったとおり、{明日|あした}の{午前中|ごぜんちゅう}に{学校|がっこう}へ{参|まい}ります。",
+              "structure_note": "{先生|せんせい}の「{言|い}う」は「おっしゃる」、{自分|じぶん}の「{行|い}く」は「{参|まい}る」で{統一|とういつ}。",
+              "en": "Just as Professor Tanaka said, I will come to the school tomorrow morning."
+            }
+          ],
+          "pitfalls": [
+            "NEVER apply {尊敬語|そんけいご} (いらっしゃる, おっしゃる, ご{覧|らん}になる) to yourself, nor {謙譲語|けんじょうご} ({参|まい}る, {申|もう}す, {拝見|はいけん}する) to the respected listener (× {先生|せんせい}が{参|まい}られました, × {私|わたし}がおっしゃいました).",
+            "Avoid double keigo ({二重敬語|にじゅうけいご}) such as × おっしゃられる or × ご{覧|らん}になられる, and never add お to already humble words (× お{拝見|はいけん}します).",
+            "Never mix humble vocabulary inside an honorific frame (× {先生|せんせい}が{拝見|はいけん}になりました -> ○ {先生|せんせい}がご{覧|らん}になりました)."
+          ]
+        }
+      ],
+      "lesson_contrast": {
+        "title": "Voice & Keigo Decision Grid: Who Acts, Who Suffers, Who Is Elevated",
+        "explanation": "Check the grammatical subject and directional arrow before picking a form in N4-to-N3 bridge questions.",
+        "rows": [
+          {
+            "expression": "{受身|うけみ}（〜れる・られる）",
+            "register": "Neutral",
+            "key_rule": "Experiencer/patient is は/が; doer takes に (によって for creations); suffering passive keeps を on object.",
+            "example_short": "{雨|あめ}に{降|ふ}られて{困|こま}った。"
+          },
+          {
+            "expression": "{使役|しえき}（〜せる・させる）",
+            "register": "Neutral",
+            "key_rule": "Causer is は/が; causee takes に if an を object exists, を for intransitive/emotion verbs.",
+            "example_short": "{子供|こども}に{野菜|やさい}を{食|た}べさせる。"
+          },
+          {
+            "expression": "{使役受身|しえきうけみ}（〜される・させられる）",
+            "register": "Neutral",
+            "key_rule": "Subject is forced to act; Godan contracts to 〜される EXCEPT す-verbs ({話|はな}させられる), Ichidan, する/{来|く}る.",
+            "example_short": "{大勢|おおぜい}の{前|まえ}で{話|はな}させられた。"
+          },
+          {
+            "expression": "{尊敬語|そんけいご}（お〜になる・いらっしゃる）",
+            "register": "Formal",
+            "key_rule": "Elevates respected other's action; NEVER used for speaker or speaker's in-group toward outsiders.",
+            "example_short": "{社長|しゃちょう}がご{覧|らん}になりました。"
+          },
+          {
+            "expression": "{謙譲語|けんじょうご}（お〜する・{拝見|はいけん}する）",
+            "register": "Formal",
+            "key_rule": "Humbles speaker's action directed toward respected other; NEVER used for the listener's own verb.",
+            "example_short": "{資料|しりょう}を{拝見|はいけん}いたしました。"
+          }
+        ]
+      },
+      "practice_quiz": [
+        {
+          "question_id": "B01-Q1",
+          "question_type": "fill_blank",
+          "prompt_ja_ruby": "{私|わたし}は{忙|いそが}しいとき、{部下|ぶか}（　　）{書類|しょるい}を{確認|かくにん}させることにしている。",
+          "context_en": "When I am busy, I make my subordinates check the documents.",
+          "choices": [
+            "が",
+            "を",
+            "に",
+            "で"
+          ],
+          "correct_index": 2,
+          "explanation": "Correct: C (に). Because the transitive verb {確認|かくにん}する already takes the direct object {書類|しょるい}を, the double-を constraint forbids marking the causee {部下|ぶか} with を, requiring に instead. A (が) is impossible because {私|わたし}は is already the causer/subject of させることにしている; B (を) triggers an ungrammatical double-を violation; D (で) marks location or instrument rather than a human causee."
+        },
+        {
+          "question_id": "B01-Q2",
+          "question_type": "attachment_trap",
+          "prompt_ja_ruby": "{私|わたし}は{人前|ひとまえ}でしゃべるのが{苦手|にがて}なのに、{司会者|しかいしゃ}からマイクを{渡|わた}されて、みんなの{前|まえ}で{十分間|じゅっぷんかん}も（　　　）。",
+          "context_en": "Even though I dislike speaking in public, the MC handed me the mic and I was forced to speak for ten minutes in front of everyone.",
+          "choices": [
+            "{話|はな}させられた",
+            "{話|はな}された",
+            "{話|はな}さされた",
+            "{話|はな}せさせられた"
+          ],
+          "correct_index": 0,
+          "explanation": "Correct: A ({話|はな}させられた). Godan verbs ending in す ({話|はな}す) NEVER contract in the causative-passive because dropping せ creates simple passive B ({話|はな}された, 'was spoken about'). C ({話|はな}さされた) is an invalid contracted stem, and D ({話|はな}せさせられた) wrongly attaches causative-passive to the potential e-stem instead of the a-stem."
+        },
+        {
+          "question_id": "B01-Q3",
+          "question_type": "nuance_choice",
+          "prompt_ja_ruby": "{佐藤|さとう}：「{部長|ぶちょう}がお{送|おく}りくださった{企画書|きかくしょ}は、{本日中|ほんじつちゅう}に（　　　）。」",
+          "context_en": "Sato politely tells the department manager that Sato will review the proposal the manager kindly sent by the end of today.",
+          "choices": [
+            "ご{覧|らん}になります",
+            "お{拝見|はいけん}します",
+            "{拝見|はいけん}なさいます",
+            "{拝見|はいけん}いたします"
+          ],
+          "correct_index": 3,
+          "explanation": "Correct: D ({拝見|はいけん}いたします). Since the speaker (Sato) is looking at the manager's proposal, humble {拝見|はいけん} + いたします properly humbles Sato's action toward the superior. A (ご{覧|らん}になります) is honorific and would falsely say the manager is reading it; B (お{拝見|はいけん}します) wrongly attaches お to a humble noun; C ({拝見|はいけん}なさいます) ungrammatically mixes humble {拝見|はいけん} with honorific なさる."
+        },
+        {
+          "question_id": "B01-Q4",
+          "question_type": "star_order",
+          "prompt_ja_ruby": "{母|はは}は{弟|おとうと}の{健康|けんこう}のために、{苦|にが}い　＿　＿　★　＿。",
+          "context_en": "Apparently, for my younger brother's health, my mother makes him eat bitter vegetables.",
+          "choices": [
+            "{弟|おとうと}に",
+            "{食|た}べさせて",
+            "{野菜|やさい}を",
+            "いるらしい"
+          ],
+          "correct_index": 1,
+          "explanation": "Correct: B ({食|た}べさせて). The only valid sequence is {苦|にが}い {野菜|やさい}を(1) {弟|おとうと}に(2) {食|た}べさせて(3★) いるらしい(4). The adjective {苦|にが}い forces {野菜|やさい}を into slot 1, {弟|おとうと}に marks the causee because {野菜|やさい}を already uses を, and the て-form {食|た}べさせて directly precedes the auxiliary いるらしい."
+        }
+      ]
+    },
+    {
+      "lesson_id": "B02",
+      "lesson_number": "B2",
+      "renshuu_title": "Exam Bridge 2: Borderline N3 Patterns (Renshuu N2 / Suffix Gaps)",
+      "has_video": false,
+      "summary": "Cover the high-frequency JLPT N3 grammar patterns that Renshuu either defers to its N2 deck or skips as standalone lessons: strong contrast/regret clauses (〜どころか・〜にもかかわらず・〜ばかりに), skill/occasion/span frames (〜にかけては・〜にあたって・〜にわたって), progression and opposition (〜にしたがって・〜に{反|はん}して), possibility/risk judgments (〜{得|え}る・〜かねない・〜がたい), institutional rules vs. personal habits (〜ことになっている / 〜ことになる / 〜ことにしている), general truths vs. nostalgic past habits (〜ものだ / 〜たものだ), target/interval/clutter suffixes (〜{向|む}き/〜{向|む}け・〜ぶり・〜だらけ), and urgent N3 endings (〜{恐|おそ}れがある・〜てたまらない・〜て{済|す}む・〜ている{場合|ばあい}じゃない).",
+      "study_tip": "Use polarity, agency, and attachment as quick tie-breakers on Bridge 2 items: 〜どころか escalates or reverses a baseline, 〜ばかりに ends strictly in regret, 〜にしたがって tracks matching change or compliance vs. 〜に{反|はん}して for reversed outcomes, 〜ことになっている states rules/schedules vs. 〜ことにしている for personal habits, 〜たものだ recalls nostalgic past habits, 〜かねない warns of unwanted danger, and 〜{得|え}ない NEVER conjugates as × ありうない.",
+      "grammar_points": [
+        {
+          "id": "dokoroka-nimokakawarazu-bakaribi",
+          "pattern": "〜どころか / 〜にもかかわらず / 〜ばかりに",
+          "pattern_ruby": "〜どころか / 〜にもかかわらず / 〜ばかりに",
+          "romaji": "~dokoroka / ~nimokakawarazu / ~bakari ni",
+          "meaning_en": "far from ~ (actually the opposite or more); despite ~ (formal); simply because ~ (causing regret)",
+          "register": "neutral",
+          "renshuu_status": "exam_border_n2",
+          "mental_model": "These three high-yield clause linkers sit right on the N3/N2 border and appear frequently on JLPT N3. First, 〜どころか ('far from A, actually B!') dismisses A as wildly off the mark—either scaling down ('far from speaking kanji, he can't even write hiragana') or flipping opposite ('far from getting cooler, it got even hotter'). Second, 〜にもかかわらず ('despite A') is the formal written big sibling of 〜のに; like a noun modifier's opposite, nouns and な-adjectives attach BARE without だ, な, or の ({雨|あめ}にもかかわらず, {不便|ふべん}にもかかわらず). Third, 〜ばかりに ('just because of A') isolates one small slip or factor and connects it directly to an unfortunate, regrettable result.",
+          "formation": [
+            {
+              "pos": "〜どころか",
+              "rule": "{動詞|どうし}・い{形容詞|けいようし}{普通形|ふつうけい} ／ な{形容詞|けいようし}{語幹|ごかん}・{名詞|めいし}（だ・な{不要|ふよう}）＋ どころか"
+            },
+            {
+              "pos": "〜にもかかわらず",
+              "rule": "{動詞|どうし}・い{形容詞|けいようし}{普通形|ふつうけい} ／ な{形容詞|けいようし}{語幹|ごかん}・{名詞|めいし}（だ・な{不要|ふよう}）＋ にもかかわらず"
+            },
+            {
+              "pos": "〜ばかりに",
+              "rule": "{動詞|どうし}・い{形容詞|けいようし}{普通形|ふつうけい} ／ な{形容詞|けいようし}な・{名詞|めいし}である ＋ ばかりに"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "{鈴木|すずき}さんは{英語|えいご}どころか、フランス{語|ご}やスペイン{語|ご}までペラペラに{話|はな}せるそうだ。",
+              "structure_note": "{名詞|めいし} ＋ どころか: rejects {英語|えいご} as too modest a benchmark and escalates to multiple languages.",
+              "en": "I hear Suzuki can speak not just English, far from it—she speaks French and Spanish fluently too."
+            },
+            {
+              "ja_ruby": "{薬|くすり}を{飲|の}んだのに、{熱|ねつ}が{下|さ}がるどころか、かえって{上|あ}がってしまった。",
+              "structure_note": "{動詞辞書形|どうしじしょけい} ＋ どころか: flips the expected {下|さ}がる into the opposite outcome {上|あ}がってしまった.",
+              "en": "Even though I took medicine, far from going down, my fever actually went up instead."
+            },
+            {
+              "ja_ruby": "{台風|たいふう}による{悪天候|あくてんこう}にもかかわらず、{大勢|おおぜい}のファンが{会場|かいじょう}に{集|あつ}まった。",
+              "structure_note": "{名詞|めいし}（{悪天候|あくてんこう}）に{直接接続|ちょくせつせつぞく}し、だ・な・のは{入|い}れない。",
+              "en": "Despite the bad weather caused by the typhoon, a large crowd of fans gathered at the venue."
+            },
+            {
+              "ja_ruby": "たった{五分|ごふん}{遅刻|ちこく}したばかりに、その{日|ひ}の{試験|しけん}を{受|う}けることができなかった。",
+              "structure_note": "Vた＋ばかりに: pinpoints one small mistake ({五分|ごふん}{遅刻|ちこく}した) as the cause of a bitter consequence.",
+              "en": "Simply because I was just five minutes late, I couldn't take that day's exam."
+            }
+          ],
+          "pitfalls": [
+            "Never insert な or の between a noun or な-adjective and にもかかわらず (× {雨|あめ}なのにもかかわらず, × {不便|ふべん}なにもかかわらず -> ○ {雨|あめ}にもかかわらず, ○ {不便|ふべん}にもかかわらず).",
+            "Never end a 〜ばかりに sentence with a happy achievement or neutral benefit (× {努力|どりょく}したばかりに{合格|ごうかく}した -> ○ 〜おかげで); 〜ばかりに strictly expresses regret over a negative outcome.",
+            "Do not confuse 〜ばかりに ('simply because [bad outcome]') with 〜ばかりだ ('only getting worse' or 'just did')."
+          ]
+        },
+        {
+          "id": "nikaketewa-niatatte-niwatatte",
+          "pattern": "〜にかけては / 〜にあたって / 〜にわたって",
+          "pattern_ruby": "〜にかけては / 〜にあたって / 〜にわたって",
+          "romaji": "~ni kakete wa / ~ni atatte / ~ni watatte",
+          "meaning_en": "when it comes to [unmatched skill]; on the occasion of [a milestone]; spanning across [time/area/items]",
+          "register": "formal",
+          "renshuu_status": "exam_border_n2",
+          "mental_model": "These three look-alike に+Verb-て expressions occupy completely different semantic worlds on JLPT N3. First, 〜にかけては isolates a positive field of mastery where someone outshines everyone else ({料理|りょうり}にかけては{誰|だれ}にも{負|ま}けない); do not confuse it with Lesson 3's spatial/temporal range から〜にかけて. Second, 〜にあたって (written variant: 〜にあたり) marks a deliberate milestone, ceremony, or new start ('on the occasion of graduating / launching a project'), pairing with preparation, thanks, or resolve. Third, 〜にわたって (noun-modifying: 〜にわたる + Noun) describes something stretching continuously over a duration ({三日間|みっかかん}にわたって), area ({全国|ぜんこく}にわたって), or wide scope ({多方面|たほうめん}にわたる).",
+          "formation": [
+            {
+              "pos": "〜にかけては",
+              "rule": "{分野|ぶんや}・{能力|のうりょく}の{名詞|めいし} ＋ にかけては（{高|たか}い{評価|ひょうか}）"
+            },
+            {
+              "pos": "〜にあたって",
+              "rule": "{名詞|めいし} ／ {動詞|どうし}{辞書形|じしょけい} ＋ にあたって（・にあたり）"
+            },
+            {
+              "pos": "〜にわたって",
+              "rule": "{期間|きかん}・{範囲|はんい}・{領域|りょういき}の{名詞|めいし} ＋ にわたって（{名詞修飾|めいししゅうしょく}：＋ にわたる ＋ {名詞|めいし}）"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "{高橋|たかはし}さんは{英語|えいご}の{発音|はつおん}にかけては、クラスで{誰|だれ}にも{負|ま}けない。",
+              "structure_note": "〜にかけては highlights unmatched superiority in a specific skill ({発音|はつおん}).",
+              "en": "When it comes to English pronunciation, Takahashi is second to none in the class."
+            },
+            {
+              "ja_ruby": "{新|あたら}しいプロジェクトの{開始|かいし}にあたって、チーム{全員|ぜんいん}で{目標|もくひょう}を{確認|かくにん}した。",
+              "structure_note": "{名詞|めいし}（{開始|かいし}）＋ にあたって marks a deliberate milestone kickoff.",
+              "en": "On the occasion of launching the new project, the whole team confirmed our goals."
+            },
+            {
+              "ja_ruby": "{留学|りゅうがく}を{決|き}めるにあたって、{家族|かぞく}や{先生|せんせい}と{何度|なんど}も{相談|そうだん}した。",
+              "structure_note": "{動詞辞書形|どうしじしょけい}（{決|き}める）＋ にあたって expresses careful preparation before a major life step.",
+              "en": "Upon deciding to study abroad, I consulted with my family and teachers many times."
+            },
+            {
+              "ja_ruby": "{今回|こんかい}の{調査|ちょうさ}は{全国|ぜんこく}にわたって{行|おこな}われ、{五年|ごねん}にわたる{研究報告書|けんきゅうほうこくしょ}がついに{完成|かんせい}した。",
+              "structure_note": "{副詞的|ふくしてき}な「にわたって」と{名詞修飾|めいししゅうしょく}の「にわたる＋{名詞|めいし}」の{両用|りょうよう}。",
+              "en": "This survey was conducted across the whole country, and the five-year research report was finally completed."
+            }
+          ],
+          "pitfalls": [
+            "Do not use 〜にかけては for bad habits or flaws (× {遅刻|ちこく}の{多|おお}さにかけては{一番|いちばん}だ); it strongly prefers praised talents, expertise, or positive strengths.",
+            "Never attach 〜にあたって to sudden disasters or negative accidents (× {地震|じしん}にあたって); reserve it for planned milestones, openings, or major transitions.",
+            "When modifying a noun directly with 〜にわたって, switch to 〜にわたる + Noun ({三日間|みっかかん}にわたる{会議|かいぎ}) rather than × 〜にわたっての{会議|かいぎ}."
+          ]
+        },
+        {
+          "id": "eru-kanenai-gatai",
+          "pattern": "〜得る（える/うる）・〜かねない・〜がたい",
+          "pattern_ruby": "〜{得|え}る（える/うる）・〜かねない・〜がたい",
+          "romaji": "~eru (~uru) / ~kanenai / ~gatai",
+          "meaning_en": "possible to / could happen (得る); might well [bad outcome] (かねない); psychologically hard to [believe/forgive] (がたい)",
+          "register": "written",
+          "renshuu_status": "canonical_n3",
+          "mental_model": "All three attach directly to the verb ます-stem, yet they test distinct traps. First, 〜{得|え}る / 〜{得|う}る denotes logical or situational possibility ('could conceivably happen'). While the dictionary and noun-modifying form accepts both える and うる ({起|お}こり{得|う}る), EVERY OTHER CONJUGATION USES え ONLY—so the negative is ALWAYS あり{得|え}ない, NEVER × ありうない! Second, 〜かねない literally means 'cannot hold back from doing,' warning that a risky or harmful result might well happen ({事故|じこ}を{起|お}こしかねない). Third, 〜がたい expresses psychological or emotional difficulty ({信|しん}じがたい, {許|ゆる}しがたい), contrasting sharply with physical/practical 〜にくい ({歩|ある}きにくい).",
+          "formation": [
+            {
+              "pos": "〜{得|え}る・〜{得|う}る",
+              "rule": "{動詞|どうし}ます{形|けい}{語幹|ごかん} ＋ {得|え}る・{得|う}る（{否定|ひてい}は「〜{得|え}ない」のみ）"
+            },
+            {
+              "pos": "〜かねない",
+              "rule": "{動詞|どうし}ます{形|けい}{語幹|ごかん} ＋ かねない（{悪|わる}い{可能性|かのうせい}）"
+            },
+            {
+              "pos": "〜がたい",
+              "rule": "{心理|しんり}・{認識動詞|にんしきどうし}ます{形|けい}{語幹|ごかん} ＋ がたい"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "どんなに{注意|ちゅうい}していても、システムにエラーが{起|お}こり{得|う}る。",
+              "structure_note": "{辞書形|じしょけい}では「{起|お}こりうる」「{起|お}こりえる」どちらも{可|か}。",
+              "en": "No matter how careful we are, system errors can still occur."
+            },
+            {
+              "ja_ruby": "{佐藤|さとう}さんが{約束|やくそく}を{忘|わす}れるなんて、{絶対|ぜったい}にあり{得|え}ないことだ。",
+              "structure_note": "{否定形|ひていけい}は「ありえない」のみ（「× ありうない」は{誤|あやま}り）。",
+              "en": "For Sato to forget a promise is something completely impossible."
+            },
+            {
+              "ja_ruby": "そんなに{無理|むり}なダイエットを{続|つづ}けると、{体|からだ}を{壊|こわ}しかねないよ。",
+              "structure_note": "Vます{形|けい} ＋ かねない: warns that continuing reckless dieting risks ruining one's health.",
+              "en": "If you keep up such an extreme diet, you could end up ruining your health."
+            },
+            {
+              "ja_ruby": "{長年|ながねん}{信|しん}じていた{友人|ゆうじん}にうそをつかれたことは、{本当|ほんとう}に{許|ゆる}しがたい。",
+              "structure_note": "{心理動詞|しんりどうし}（{許|ゆる}す）＋ がたい expresses deep emotional difficulty forgiving.",
+              "en": "Having been lied to by a friend I trusted for many years is truly hard to forgive."
+            }
+          ],
+          "pitfalls": [
+            "NEVER conjugate 〜{得|え}る as × ありうない or × ありうた; only the dictionary/noun-modifier allows うる, while negative (〜{得|え}ない), past (〜{得|え}た), and て-form (〜{得|え}て) strictly use え.",
+            "Do not use 〜かねない for hoped-for or fortunate outcomes (× {合格|ごうかく}しかねない -> ○ {合格|ごうかく}するかもしれない); 〜かねない warns of unwanted risks.",
+            "Do not attach 〜がたい to physical or everyday motor verbs (× {硬|かた}くて{食|た}べがたい -> ○ {食|た}べにくい); restrict 〜がたい to mental verbs like {信|しん}じる, {理解|りかい}する, {許|ゆる}す, and {想像|そうぞう}する."
+          ]
+        },
+        {
+          "id": "muki-muke-buri-darake",
+          "pattern": "〜向き / 〜向け・〜ぶり（に）・〜だらけ",
+          "pattern_ruby": "〜{向|む}き / 〜{向|む}け・〜ぶり（に）・〜だらけ",
+          "romaji": "~muki / ~muke / ~buri (ni) / ~darake",
+          "meaning_en": "naturally suited for (向き) vs. designed for (向け); for the first time in X / manner (ぶり); covered in [negative] (だらけ)",
+          "register": "neutral",
+          "renshuu_status": "canonical_n3",
+          "mental_model": "Three compact noun suffixes carry high exam frequency on JLPT N3. First, 〜{向|む}け vs 〜{向|む}き split on human intent: 〜{向|む}け means intentionally created or aimed at a target group ({初心者|しょしんしゃ}{向|む}けの{本|ほん}), whereas 〜{向|む}き means naturally well-suited because of inherent qualities ({家族|かぞく}{向|む}きの{間取|まど}り, {夏|なつ}{向|む}きの{服|ふく}). Second, Duration + ぶり（に） marks 'for the first time in [elapsed time]' ({五年|ごねん}ぶりに{会|あ}う, {一週間|いっしゅうかん}ぶりの{晴|は}れ), while Verb stem + ぶり describes someone's manner of acting ({話|はな}しぶり). Third, 〜だらけ expresses messy, unwanted excess ('covered/riddled with X': {間違|まちが}いだらけ, ほこりだらけ) and never applies to pleasant things.",
+          "formation": [
+            {
+              "pos": "〜{向|む}き / 〜{向|む}け",
+              "rule": "{名詞|めいし} ＋ {向|む}き（だ・の・に）／ {名詞|めいし} ＋ {向|む}け（だ・の・に）"
+            },
+            {
+              "pos": "〜ぶり（に）",
+              "rule": "{期間|きかん}の{名詞|めいし} ＋ ぶり（に・の）／ {動詞|どうし}ます{形|けい}{語幹|ごかん} ＋ ぶり"
+            },
+            {
+              "pos": "〜だらけ",
+              "rule": "{名詞|めいし}（マイナス・{雑多|ざった}なもの）＋ だらけ（だ・の）"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "この{辞典|じてん}は{日本語|にほんご}を{学|まな}び{始|はじ}めたばかりの{初心者|しょしんしゃ}{向|む}けに{作|つく}られています。",
+              "structure_note": "{制作|せいさく}の{意図|いと}（{作|つく}られている）を{伴|ともな}うため「{向|む}けに」を{選|えら}ぶ。",
+              "en": "This dictionary is made specifically for beginners who have just started learning Japanese."
+            },
+            {
+              "ja_ruby": "{駅|えき}から{近|ちか}くて{間取|まど}りも{広|ひろ}いので、このマンションは{家族|かぞく}{向|む}きだと{思|おも}う。",
+              "structure_note": "{部屋|へや}の{性質|せいしつ}としての{適性|てきせい}を{述|の}べるため「{家族|かぞく}{向|む}き」が{自然|しぜん}。",
+              "en": "Since it is close to the station and has a spacious layout, I think this apartment is well suited for families."
+            },
+            {
+              "ja_ruby": "{高校|こうこう}の{同級生|どうきゅうせい}と{五年|ごねん}ぶりに{会|あ}って、{昔|むかし}の{話|はなし}で{盛|も}り{上|あ}がった。",
+              "structure_note": "{経過時間|けいかじかん}（{五年|ごねん}）＋ ぶりに ＋ {動詞|どうし} marks doing something for the first time in five years.",
+              "en": "I met my high school classmate for the first time in five years, and we had a lively chat about old times."
+            },
+            {
+              "ja_ruby": "{急|いそ}いで{書|か}いたレポートを{見直|みなお}したら、{漢字|かんじ}の{間違|まちが}いだらけだった。",
+              "structure_note": "{否定的|ひていてき}な{名詞|めいし}（{間違|まちが}い）＋ だらけ emphasizes unpleasant excess.",
+              "en": "When I looked back over the report I wrote in a hurry, it was full of kanji mistakes."
+            }
+          ],
+          "pitfalls": [
+            "Do not swap 〜{向|む}け and 〜{向|む}き when the predicate highlights deliberate design ({作|つく}る, {書|か}く, {企画|きかく}する -> 〜{向|む}け) versus natural suitability ({味|あじ}が{大人|おとな}{向|む}き).",
+            "NEVER attach 〜だらけ to positive or pleasant items (× {花|はな}だらけの{庭|にわ}, × {笑顔|えがお}だらけ -> ○ {花|はな}でいっぱいの{庭|にわ}); 〜だらけ is strictly negative or messy.",
+            "Remember the linker split on 〜ぶり: use ぶりに before verbs ({十年|じゅうねん}ぶりに{帰国|きこく}する) and ぶりの before nouns ({十年|じゅうねん}ぶりの{帰国|きこく})."
+          ]
+        },
+        {
+          "id": "osore-tamaranai-sumu-baaijanai",
+          "pattern": "〜恐れがある・〜てたまらない / てしょうがない・〜て済む・〜ている場合じゃない",
+          "pattern_ruby": "〜{恐|おそ}れがある・〜てたまらない / てしょうがない・〜て{済|す}む・〜ている{場合|ばあい}じゃない",
+          "romaji": "~osore ga aru / ~te tamaranai / ~te shouganai / ~te sumu / ~te iru baai ja nai",
+          "meaning_en": "risk of ~ (恐れがある); unbearably ~ (てたまらない); get by/settle with ~ (て済む); no time to be doing ~ (ている場合じゃない)",
+          "register": "neutral",
+          "renshuu_status": "canonical_n3",
+          "mental_model": "Rounding out Bridge 2 are four common JLPT N3 exam endings not isolated in Renshuu's 55 lessons. First, 〜{恐|おそ}れがある issues a formal warning about a realistic danger or loss ('there is a risk of X': {台風|たいふう}が{上陸|じょうりく}する{恐|おそ}れがある). Second, 〜てたまらない / 〜てしょうがない expresses overwhelming, spontaneous physical sensation or emotion inside the speaker ({眠|ねむ}くてたまらない, {心配|しんぱい}でたまらない). Third, 〜て{済|す}む (or negative 〜ずに{済|す}む) judges whether an action is enough to settle a problem ({謝|あやま}って{済|す}む{問題|もんだい}ではない) or lets you escape trouble ({病院|びょういん}に{行|い}かずに{済|す}んだ). Fourth, 〜ている{場合|ばあい}じゃない snaps someone out of complacency during an urgent situation.",
+          "formation": [
+            {
+              "pos": "〜{恐|おそ}れがある",
+              "rule": "{動詞|どうし}{辞書形|じしょけい}・ない{形|けい} ／ {名詞|めいし} ＋ の ＋ {恐|おそ}れがある"
+            },
+            {
+              "pos": "〜てたまらない・しょうがない",
+              "rule": "{感情|かんじょう}・{感覚|かんかく}のい{形容詞|けいようし}（〜くて）／ な{形容詞|けいようし}（〜で）／ {動詞|どうし}（〜て）＋ たまらない・しょうがない"
+            },
+            {
+              "pos": "〜て{済|す}む・〜ずに{済|す}む",
+              "rule": "{動詞|どうし}て{形|けい} ＋ {済|す}む ／ {動詞|どうし}ない{形|けい} ＋ ずに{済|す}む（する → せずに）"
+            },
+            {
+              "pos": "〜ている{場合|ばあい}じゃない",
+              "rule": "{動詞|どうし}ている ＋ {場合|ばあい}ではない（・じゃない）"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "{天気予報|てんきよほう}によると、{今夜|こんや}から{明日|あした}にかけて{大雪|おおゆき}になる{恐|おそ}れがあるそうだ。",
+              "structure_note": "{動詞辞書形|どうしじしょけい} ＋ {恐|おそ}れがある: formal hazard warning used in news and forecasts.",
+              "en": "According to the weather forecast, there is a risk of heavy snow from tonight into tomorrow."
+            },
+            {
+              "ja_ruby": "{試験|しけん}の{結果|けっか}が{明日|あした}{発表|はっぴょう}されるので、{緊張|きんちょう}してたまらない。",
+              "structure_note": "{話|はな}し{手|て}の{抑|おさ}えきれない{感情|かんじょう}（{緊張|きんちょう}する）を「〜てたまらない」で{強|つよ}める。",
+              "en": "Since the exam results are announced tomorrow, I am unbearably nervous."
+            },
+            {
+              "ja_ruby": "{今回|こんかい}のミスは、「すみません」と{謝|あやま}っただけで{済|す}む{問題|もんだい}ではない。",
+              "structure_note": "「〜て{済|す}む{問題|もんだい}ではない」は、それだけでは{解決|かいけつ}しないことを{表|あらわ}す。",
+              "en": "This mistake is not a problem that can be settled just by saying 'I'm sorry'."
+            },
+            {
+              "ja_ruby": "{締|し}め{切|き}りがもうすぐなのに、こんなにのんびりゲームをしている{場合|ばあい}じゃない。",
+              "structure_note": "Vている ＋ {場合|ばあい}じゃない conveys urgency against wasting time.",
+              "en": "With the deadline right around the corner, this is no time to be leisurely playing games."
+            }
+          ],
+          "pitfalls": [
+            "Never use 〜{恐|おそ}れがある for welcome or positive possibilities (× {宝|たから}くじに{当|あ}たる{恐|おそ}れがある); it strictly warns of hazards, losses, or bad news.",
+            "Do not pair 〜てたまらない with intentional actions (× {勉強|べんきょう}してたまらない) or direct third-person states without hearsay/inference wrappers like 〜そうだ or 〜らしい.",
+            "In 〜ずに{済|す}む, remember する becomes せずに{済|す}む (never × しずに{済|す}む), and 〜ている{場合|ばあい}じゃない requires the progressive 〜ている form."
+          ]
+        },
+        {
+          "id": "nishitagatte-nihanshite",
+          "pattern": "〜にしたがって・〜に反して",
+          "pattern_ruby": "〜にしたがって・〜に{反|はん}して",
+          "romaji": "~ni shitagatte · ~ni hanshite",
+          "meaning_en": "as / in proportion to; in accordance with (にしたがって) vs. contrary to / against (に反して)",
+          "register": "written",
+          "renshuu_status": "canonical_n3",
+          "mental_model": "These two formal に-connectors point in opposite directions on JLPT N3. 〜にしたがって ('following / in step with') serves two high-frequency functions: (1) proportional co-variation after a change verb ('as A advances, B shifts in parallel,' like {台風|たいふう}が{近|ちか}づくにしたがって = as the typhoon approaches), and (2) compliance after a rule, order, or guide ('in accordance with,' like {指示|しじ}にしたがって). By contrast, 〜に{反|はん}して ('contrary to / against') flips the arrow 180 degrees to show that an outcome or action goes directly against a prediction, hope, or rule ({予想|よそう}に{反|はん}して = contrary to expectations; {法律|ほうりつ}に{反|はん}する{行為|こうい} = an act violating the law).",
+          "formation": [
+            {
+              "pos": "〜にしたがって（{比例変化|ひれいへんか}）",
+              "rule": "{動詞|どうし}{辞書形|じしょけい}（{変化動詞|へんかどうし}）＋ にしたがって（・にしたがい）"
+            },
+            {
+              "pos": "〜にしたがって（{準拠|じゅんきょ}）",
+              "rule": "{名詞|めいし}（{指示|しじ}・{規則|きそく}・{計画|けいかく}）＋ にしたがって（{名詞修飾|めいししゅうしょく}：＋ にしたがう ＋ {名詞|めいし}）"
+            },
+            {
+              "pos": "〜に{反|はん}して",
+              "rule": "{名詞|めいし}（{予想|よそう}・{期待|きたい}・{規則|きそく}）＋ に{反|はん}して（・に{反|はん}し）／ {名詞修飾|めいししゅうしょく}：＋ に{反|はん}する ＋ {名詞|めいし}"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "{台風|たいふう}が{近|ちか}づくにしたがって、{風|かぜ}と{雨|あめ}がだんだん{強|つよ}くなってきた。",
+              "structure_note": "{変化動詞|へんかどうし}{辞書形|じしょけい}（{近|ちか}づく）＋ にしたがって: Clause 2 shifts in step with Clause 1.",
+              "en": "As the typhoon draws nearer, the wind and rain have gradually been growing stronger."
+            },
+            {
+              "ja_ruby": "{地震|じしん}が{起|お}きたときは、{係員|かかりいん}の{指示|しじ}にしたがって{静|しず}かに{避難|ひなん}してください。",
+              "structure_note": "{名詞|めいし}（{指示|しじ}）＋ にしたがって: complying with instructions or rules.",
+              "en": "When an earthquake occurs, please evacuate calmly in accordance with the staff's instructions."
+            },
+            {
+              "ja_ruby": "{天気予報|てんきよほう}の{予想|よそう}に{反|はん}して、{午後|ごご}から{空|そら}がすっかり{晴|は}れ{渡|わた}った。",
+              "structure_note": "{名詞|めいし}（{予想|よそう}）＋ に{反|はん}して: outcome turns out opposite to what was predicted.",
+              "en": "Contrary to the weather forecast's prediction, the sky cleared up completely from the afternoon."
+            },
+            {
+              "ja_ruby": "チームの{期待|きたい}に{反|はん}する{結果|けっか}に{終|お}わってしまい、とても{残念|ざんねん}だ。",
+              "structure_note": "{名詞|めいし}の{前|まえ}では「〜に{反|はん}する ＋ {名詞|めいし}」の{形|かたち}をとる。",
+              "en": "It is very disappointing that it ended in a result contrary to the team's expectations."
+            }
+          ],
+          "pitfalls": [
+            "For proportional change, attach 〜にしたがって ONLY to plain dictionary change verbs (○ {年|とし}をとるにしたがって, × {年|とし}をとったにしたがって, × {春|はる}にしたがって).",
+            "Before a noun, 〜に{反|はん}して MUST switch to 〜に{反|はん}する + Noun ({期待|きたい}に{反|はん}する{結果|けっか}, NEVER × {期待|きたい}に{反|はん}しての{結果|けっか}).",
+            "Keep 〜にしたがって ('obeying / following') and 〜に{反|はん}して ('violating / opposing') strictly separated when both modify rules, wishes, or predictions."
+          ]
+        },
+        {
+          "id": "koto-ni-natteiru-naru-shiteiru",
+          "pattern": "〜ことになっている / ことになる / ことにしている",
+          "pattern_ruby": "〜ことになっている / ことになる / ことにしている",
+          "romaji": "~koto ni natte iru / ~koto ni naru / ~koto ni shite iru",
+          "meaning_en": "be a standing rule or schedule (ことになっている); be decided/turn out (ことになる); make a personal habit/rule (ことにしている)",
+          "register": "neutral",
+          "renshuu_status": "canonical_n3",
+          "mental_model": "JLPT N3 constantly contrasts these three こと phrases by checking WHO made the decision and whether it is a single event or an ongoing rule. First, 〜ことになる reports a decision, arrangement, or outcome reached externally by a group, company, or circumstances ('it has been decided that I will transfer'). Second, 〜ことになっている describes a standing institutional rule, social custom, or pre-set fixed schedule ('the dorm rule is to return by 11 p.m.'). Third, switching なる to する shifts agency inside the speaker: 〜ことにする is a single firm personal choice, while 〜ことにしている is a self-imposed personal habit or lifestyle rule ('I make it my personal rule to walk 30 minutes daily').",
+          "formation": [
+            {
+              "pos": "〜ことになっている",
+              "rule": "{動詞|どうし}{辞書形|じしょけい}・ない{形|けい} ＋ ことになっている（{規則|きそく}・{予定|よてい}・{習慣|しゅうかん}）"
+            },
+            {
+              "pos": "〜ことになる",
+              "rule": "{動詞|どうし}{辞書形|じしょけい}・ない{形|けい} ＋ ことになる ／ ことになった（{外部|がいぶ}の{決定|けってい}）"
+            },
+            {
+              "pos": "〜ことにしている",
+              "rule": "{動詞|どうし}{辞書形|じしょけい}・ない{形|けい} ＋ ことにしている（{個人|こじん}の{習慣|しゅうかん}・{方針|ほうしん}）"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "この{学生寮|がくせいりょう}では、{夜|よる}の{11時|じゅういちじ}までに{帰|かえ}ることになっている。",
+              "structure_note": "{動詞辞書形|どうしじしょけい} ＋ ことになっている（{寮|りょう}の{規則|きそく}・ルール）",
+              "en": "At this student dormitory, the rule is that everyone must return by 11 p.m."
+            },
+            {
+              "ja_ruby": "{来月|らいげつ}から、{大阪|おおさか}の{支社|ししゃ}へ{転勤|てんきん}することになりました。",
+              "structure_note": "{会社|かいしゃ}などの{外部決定|がいぶけってい}を{報告|ほうこく}するときは「〜ことになりました」を{使|つか}う。",
+              "en": "It has been decided that I will transfer to the Osaka branch office starting next month."
+            },
+            {
+              "ja_ruby": "{来週|らいしゅう}の{火曜日|かようび}は{祝日|しゅくじつ}なので、{授業|じゅぎょう}は{休|やす}みになることになっている。",
+              "structure_note": "{事前|じぜん}に{決|き}まっている{公式|こうしき}の{予定|よてい}を「〜ことになっている」で{伝|つた}える。",
+              "en": "Because next Tuesday is a public holiday, classes are scheduled to be off."
+            },
+            {
+              "ja_ruby": "{健康|けんこう}のために、{毎年|まいとし}{一回|いっかい}{必|かなら}ず{健康診断|けんこうしんだん}を{受|う}けることにしている。",
+              "structure_note": "{話|はな}し{手|て}が{自分|じぶん}で{決|き}めて{続|つづ}けている{習慣|しゅうかん}は「〜ことにしている」。",
+              "en": "For my health, I make it a personal rule to definitely get a health checkup once every year."
+            }
+          ],
+          "pitfalls": [
+            "Do NOT use 〜ことにしている for company rules, laws, or fixed public schedules (× この{図書館|としょかん}では{本|ほん}を{二週間|にしゅうかん}{借|か}りることにしている -> ○ 〜ことになっている).",
+            "Do NOT replace polite self-announcements of transfers or weddings with 〜ことにした when sounding modest or formal in Japan; 〜ことになりました softens personal agency ('it came to be decided').",
+            "Keep personal habit 〜ことにしている (decided rule) distinct from gradual ongoing effort 〜ようにしている ('trying to manage to...')."
+          ]
+        },
+        {
+          "id": "mono-da-ta-mono-da",
+          "pattern": "〜たものだ / 〜ものだ",
+          "pattern_ruby": "〜たものだ / 〜ものだ",
+          "romaji": "~ta mono da / ~mono da",
+          "meaning_en": "used to ~ (nostalgic past habit: たものだ); that's just how ~ is / general truth or social norm (ものだ)",
+          "register": "neutral",
+          "renshuu_status": "canonical_n3",
+          "mental_model": "Changing the verb tense before ものだ completely changes its world on JLPT N3. Attached to the PAST た-form (Vた + ものだ), 〜たものだ looks back fondly on a repeated childhood or past habit that no longer happens now ('back then, I used to swim in the river every summer'), often pairing with {昔|むかし}, {子供|こども}の{頃|ころ}, and よく. Attached to NON-PAST plain forms (Vる / い-Adj / な-Adjな + ものだ), 〜ものだ states a timeless general truth, human nature, or traditional social norm ('time really flies; everyone makes mistakes at first; one should respect elders').",
+          "formation": [
+            {
+              "pos": "〜たものだ（{懐|なつ}かしい{過去|かこ}の{習慣|しゅうかん}）",
+              "rule": "{動詞|どうし}た{形|けい} ＋ ものだ（よく〜たものだ）"
+            },
+            {
+              "pos": "〜ものだ（{一般論|いっぱんろん}・{常識|じょうしき}・{感嘆|かんたん}）",
+              "rule": "{動詞|どうし}{辞書形|じしょけい}・ない{形|けい} ／ い{形容詞|けいようし} ／ な{形容詞|けいようし}な ＋ ものだ"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "{子供|こども}の{頃|ころ}は、{夏休|なつやす}みになるとよく{祖父|そふ}の{家|いえ}の{近|ちか}くの{川|かわ}で{泳|およ}いだものだ。",
+              "structure_note": "{動詞|どうし}た{形|けい} ＋ ものだ（{昔|むかし}の{繰|く}り{返|かえ}しの{思|おも}い{出|で}）",
+              "en": "When I was a child, whenever summer vacation came around, I used to swim in the river near my grandfather's house."
+            },
+            {
+              "ja_ruby": "{学生|がくせい}{時代|じだい}は、{友達|ともだち}と{夜遅|よるおそ}くまで{将来|しょうらい}の{夢|ゆめ}について{語|かた}り{合|あ}ったものだ。",
+              "structure_note": "{昔|むかし}を{懐|なつ}かしむ「〜たものだ」は{長|なが}い{期間|きかん}の{習慣|しゅうかん}に{使|つか}う。",
+              "en": "During my student days, I used to talk late into the night with friends about our future dreams."
+            },
+            {
+              "ja_ruby": "{最初|さいしょ}はだれでも{失敗|しっぱい}するものだから、あまり{気|き}にしないほうがいいよ。",
+              "structure_note": "{動詞辞書形|どうしじしょけい} ＋ ものだ（{人間|にんげん}の{普遍的|ふへんてき}な{傾向|けいこう}・{慰|なぐさ}め）",
+              "en": "Since anyone naturally makes mistakes at first, you shouldn't worry about it too much."
+            },
+            {
+              "ja_ruby": "{一年|いちねん}がたつのは{本当|ほんとう}に{早|はや}いもので、もう{十二月|じゅうにがつ}になった。",
+              "structure_note": "い{形容詞|けいようし} ＋ ものだ（しみじみとした{実感|じっかん}・{感嘆|かんたん}）",
+              "en": "How fast a year truly goes by—it's already December!"
+            }
+          ],
+          "pitfalls": [
+            "NEVER use nostalgic 〜たものだ for a one-time recent event (× {昨日|きのう}おいしいラーメンを{食|た}べたものだ); it strictly requires a repeated or enduring habit from the distant past.",
+            "Distinguish past habit 〜たものだ ('used to') from Lesson 25's heartfelt future wish 〜たいものだ ('how I long to') and general truth Vる + ものだ.",
+            "Do not use general-norm 〜ものだ for specific conditional tactics ('if you want to pass, study': use 〜ことだ instead)."
+          ]
+        }
+      ],
+      "lesson_contrast": {
+        "title": "Borderline N3 Suffixes & Linkers: Polarity, Agency & Scope",
+        "explanation": "Apply three quick diagnostic checks when solving Bridge 2 exam items: outcome polarity, bare-noun attachment, and speaker vs. external agency.",
+        "rows": [
+          {
+            "expression": "〜どころか / 〜にもかかわらず",
+            "register": "Neutral / Formal",
+            "key_rule": "どころか rejects A for extreme/opposite B; にもかかわらず = formal のに (bare Noun/な-Adj).",
+            "example_short": "{雨|あめ}にもかかわらず{集|あつ}まった。"
+          },
+          {
+            "expression": "〜ばかりに / 〜かねない",
+            "register": "Neutral / Written",
+            "key_rule": "Both target bad outcomes: ばかりに regrets past cause; かねない warns of present/future danger.",
+            "example_short": "{油断|ゆだん}したばかりに{失敗|しっぱい}した。"
+          },
+          {
+            "expression": "〜にかけては / 〜にあたって / 〜にわたって",
+            "register": "Formal",
+            "key_rule": "Skill superiority (にかけては), milestone occasion (にあたって), continuous span (にわたって).",
+            "example_short": "{三日間|みっかかん}にわたって{調査|ちょうさ}する。"
+          },
+          {
+            "expression": "〜にしたがって / 〜に{反|はん}して",
+            "register": "Written / Formal",
+            "key_rule": "にしたがって = as V changes or obeying N; に反して = contrary to N (before noun: に反する).",
+            "example_short": "{予想|よそう}に{反|はん}して{晴|は}れた。"
+          },
+          {
+            "expression": "〜{得|え}る / 〜がたい",
+            "register": "Written",
+            "key_rule": "得る = logical possibility (neg ONLY 〜{得|え}ない); がたい = psychological difficulty ({信|しん}じがたい).",
+            "example_short": "そんなことはあり{得|え}ない。"
+          },
+          {
+            "expression": "〜{向|む}け / 〜{向|む}き / 〜だらけ",
+            "register": "Neutral",
+            "key_rule": "向け = intended audience; 向き = inherent fit; だらけ = covered in messy/negative excess.",
+            "example_short": "{初心者|しょしんしゃ}{向|む}けの{本|ほん}は{誤字|ごじ}だらけだ。"
+          },
+          {
+            "expression": "〜ことになっている / ことになる / ことにしている",
+            "register": "Neutral",
+            "key_rule": "ことになっている = rule/schedule; ことになる = external decision; ことにしている = personal habit.",
+            "example_short": "{夜|よる}の{11時|じゅういちじ}までに{帰|かえ}ることになっている。"
+          },
+          {
+            "expression": "〜たものだ / 〜ものだ",
+            "register": "Neutral",
+            "key_rule": "Vた + ものだ = nostalgic past habit ('used to'); Vる/Adj + ものだ = universal truth or norm.",
+            "example_short": "{昔|むかし}よく{川|かわ}で{泳|およ}いだものだ。"
+          },
+          {
+            "expression": "〜{恐|おそ}れがある / 〜てたまらない / 〜て{済|す}む",
+            "register": "Neutral / Formal",
+            "key_rule": "Formal risk (恐れがある); overwhelming feeling (てたまらない); settling with (て済む).",
+            "example_short": "{謝|あやま}って{済|す}むことではない。"
+          }
+        ]
+      },
+      "practice_quiz": [
+        {
+          "question_id": "B02-Q1",
+          "question_type": "attachment_trap",
+          "prompt_ja_ruby": "{鈴木|すずき}さんは{約束|やくそく}を{守|まも}る{人|ひと}だから、{連絡|れんらく}もせずに{来|こ}ないなんてことは（　　　）。",
+          "context_en": "Since Suzuki is someone who keeps her promises, failing to show up without even contacting us is completely impossible.",
+          "choices": [
+            "ありうない",
+            "ありえない",
+            "ありかねない",
+            "ありがたい"
+          ],
+          "correct_index": 1,
+          "explanation": "Correct: B (ありえない). Only the dictionary/noun-modifying form allows うる (ありうる); the negative form of 〜{得|え}る MUST conjugate with え as ありえない, making A (ありうない) ungrammatical. C (ありかねない) means 'might well happen' (the exact opposite meaning), and D (ありがたい) means 'thankful/appreciated'."
+        },
+        {
+          "question_id": "B02-Q2",
+          "question_type": "nuance_choice",
+          "prompt_ja_ruby": "{朝|あさ}、{目覚|めざ}まし{時計|どけい}のセットを{忘|わす}れた（　　　）、{大切|たいせつ}な{面接|めんせつ}に{遅|おく}れてしまった。",
+          "context_en": "Expressing bitter regret that simply forgetting to set the alarm caused arriving late to an important interview.",
+          "choices": [
+            "おかげで",
+            "どころか",
+            "にもかかわらず",
+            "ばかりに"
+          ],
+          "correct_index": 3,
+          "explanation": "Correct: D (ばかりに). 〜ばかりに pins the blame on a single careless cause ({忘|わす}れた) that led directly to a regrettable result ({遅|おく}れてしまった). A (おかげで) conveys positive gratitude, B (どころか) means 'far from forgetting' and makes no sense here, and C (にもかかわらず) means 'despite forgetting', contradicting the cause-effect logic."
+        },
+        {
+          "question_id": "B02-Q3",
+          "question_type": "fill_blank",
+          "prompt_ja_ruby": "{今度|こんど}の{展示会|てんじかい}は、{一週間|いっしゅうかん}（　　　）この{美術館|びじゅつかん}で{開|ひら}かれる。",
+          "context_en": "The upcoming exhibition will be held at this art museum spanning across one full week.",
+          "choices": [
+            "にわたって",
+            "にあたって",
+            "にかけては",
+            "にとって"
+          ],
+          "correct_index": 0,
+          "explanation": "Correct: A (にわたって). Duration nouns like {一週間|いっしゅうかん} take 〜にわたって to express an event stretching continuously across that span. B (にあたって) introduces a milestone occasion rather than an elapsed duration, C (にかけては) marks unrivaled excellence in a skill, and D (にとって) evaluates a standpoint ('for someone')."
+        },
+        {
+          "question_id": "B02-Q4",
+          "question_type": "star_order",
+          "prompt_ja_ruby": "これは、ただ　＿　＿　★　＿　ない。",
+          "context_en": "This is not a problem that can be settled merely by apologizing.",
+          "choices": [
+            "{問題|もんだい}では",
+            "{謝|あやま}った",
+            "{済|す}む",
+            "だけで"
+          ],
+          "correct_index": 2,
+          "explanation": "Correct: C ({済|す}む). The only grammatical arrangement is {謝|あやま}った(1) だけで(2) {済|す}む(3★) {問題|もんだい}では(4). Adverb ただ modifies {謝|あやま}った, だけで marks 'just by apologizing', plain verb {済|す}む modifies the noun {問題|もんだい}, and {問題|もんだい}では pairs with final ない."
+        }
+      ]
+    },
+    {
+      "lesson_id": "B03",
+      "lesson_number": "B3",
+      "renshuu_title": "Exam Bridge 3: JLPT N3 Star Puzzles (並べ替え) & Discourse Grammar",
+      "has_video": false,
+      "summary": "Master the structural exam mechanics unique to JLPT N3 Sections 2 and 3: locking outer correlative brackets first in star puzzles ({並|なら}べ{替|か}え / {呼応|こおう}のペア), resolving pre-noun modifier boundaries ({名詞修飾節|めいししゅうしょくせつ}), tracking paragraph-level topic は vs. new information が and text-referential コソアド, and preserving だ・である vs. です・ます register consistency ({文体|ぶんたい}の{一貫性|いっかんせい}).",
+      "study_tip": "When facing a JLPT star puzzle (＿　＿　★　＿), never assemble left-to-right by instinct: scan first for an outer correlative pair ({決|けっ}して〜ない, たとえ〜ても, なぜなら〜からだ), attach any modifier right before its head noun, and on paragraph cloze items check the ending of neighboring sentences before picking plain or polite options.",
+      "grammar_points": [
+        {
+          "id": "correlative-frame-anchors",
+          "pattern": "呼応のペア戦略（並べ替え対策）",
+          "pattern_ruby": "{呼応|こおう}のペア{戦略|せんりゃく}（{並|なら}べ{替|か}え{対策|たいさく}）",
+          "romaji": "koou no pea senryaku (narabekae taisaku)",
+          "meaning_en": "correlative frame anchors: locking outer adverb-ending brackets first in JLPT star-puzzle items",
+          "register": "neutral",
+          "renshuu_status": "canonical_n3",
+          "mental_model": "In JLPT Section 2 Star Puzzles (＿　＿　★　＿), trying all 24 permutations wastes time and invites translation traps. Instead, hunt first for 'correlative frame anchors' ({呼応|こおう}のペア)—adverbs or conjunctions that strictly demand a matching ending at the right edge of the clause. Spotting one locks the outer brackets immediately: {決|けっ}して〜ない ('never'), まるで〜ようだ ('just like'), たとえ〜ても ('even if'), なぜなら〜からだ ('because'), どんなに〜ことか / ても ('how much! / no matter how'), and どうか〜ように ('I pray/hope that'). Once the left opener and right closer are pinned down, only the inner two blanks remain!",
+          "formation": [
+            {
+              "pos": "{否定呼応|ひていこおう}",
+              "rule": "{決|けっ}して ＋ ⋯⋯ ＋ ない・ません"
+            },
+            {
+              "pos": "{比喩|ひゆ}・{仮定呼応|かていこおう}",
+              "rule": "まるで ＋ ⋯⋯ ＋ ようだ ／ たとえ ＋ ⋯⋯ ＋ ても"
+            },
+            {
+              "pos": "{理由|りゆう}・{感嘆|かんたん}・{祈願呼応|きがんこおう}",
+              "rule": "なぜなら ＋ ⋯⋯ ＋ からだ ／ どんなに ＋ ⋯⋯ ＋ ことか ／ どうか ＋ ⋯⋯ ＋ ように"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "たとえ{失敗|しっぱい}を{笑|わら}われても、{自分|じぶん}の{夢|ゆめ}を{決|けっ}してあきらめないと{決|き}めた。",
+              "structure_note": "「たとえ〜ても」と「{決|けっ}して〜ない」の{二組|ふたくみ}の{外枠|そとわく}をそれぞれ{閉|と}じる。",
+              "en": "Even if people laugh at my failures, I decided I will never give up on my dream."
+            },
+            {
+              "ja_ruby": "{春|はる}の{暖|あたた}かい{風|かぜ}が{吹|ふ}いてきて、まるで{別|べつ}の{世界|せかい}に{来|き}たようだ。",
+              "structure_note": "「まるで」が{比喩|ひゆ}の{始|はじ}まりを{合図|あいず}し、{文末|ぶんまつ}の「ようだ」で{受|う}ける。",
+              "en": "A warm spring breeze began to blow, and it feels just as if I have come to another world."
+            },
+            {
+              "ja_ruby": "{今年|ことし}の{夏|なつ}は{野菜|やさい}の{値段|ねだん}が{高|たか}い。なぜなら、{雨|あめ}がほとんど{降|ふ}らなかったからだ。",
+              "structure_note": "「なぜなら」で{始|はじ}まる{文|ぶん}は、{必|かなら}ず「〜からだ」または「〜のだ」で{結|むす}ぶ。",
+              "en": "Vegetable prices are high this summer. That is because hardly any rain fell."
+            },
+            {
+              "ja_ruby": "この{一年間|いちねんかん}、{合格|ごうかく}を{信|しん}じて{毎日|まいにち}どんなに{頑張|がんば}ってきたことか。どうか{努力|どりょく}が{実|みの}りますように。",
+              "structure_note": "「どんなに〜ことか」で{強|つよ}い{感嘆|かんたん}を、「どうか〜ように」で{祈願|きがん}を{表|あらわ}す。",
+              "en": "How hard I have worked every day over this past year believing I would pass! May my efforts bear fruit."
+            }
+          ],
+          "pitfalls": [
+            "Never drop からだ or のだ at the end of a なぜなら sentence (× なぜなら{雨|あめ}が{降|ふ}らなかった。 -> ○ なぜなら{雨|あめ}が{降|ふ}らなかったからだ。).",
+            "Do not pair {決|けっ}して with positive predicates (× {決|けっ}して{合格|ごうかく}する); {決|けっ}して requires negative polarity (~ない / ~ません).",
+            "Remember どんなに pairs with either 〜ことか (exclamation) or 〜ても (concession), so inspect the post-blank ending before locking the internal pieces."
+          ]
+        },
+        {
+          "id": "noun-modifier-boundaries",
+          "pattern": "名詞修飾節の境界見極め",
+          "pattern_ruby": "{名詞修飾節|めいししゅうしょくせつ}の{境界見極|きょうかいみきわ}め",
+          "romaji": "meishi-shuushokusetsu no kyoukai mikiwame",
+          "meaning_en": "identifying pre-noun modifier boundaries (の/な/た/る, という appositives, and についての/による modifiers)",
+          "register": "neutral",
+          "renshuu_status": "canonical_n3",
+          "mental_model": "Japanese has no relative pronouns ('who/which/that'); every modifier sits directly to the LEFT of its head noun in plain form—Verbs (る/た/ない), い-adjectives, な-adjectives + な, and Nouns + の. Three strict boundary rules solve modifier star puzzles on sight: (1) Inside a modifying clause, the subject takes が or の, NEVER は ({私|わたし}が{撮|と}った{写真|しゃしん}, not × {私|わたし}は{撮|と}った{写真|しゃしん}); (2) Clauses specifying content or news link to abstract nouns ({話|はなし}, {連絡|れんらく}, {意見|いけん}, {事実|じじつ}) via という; (3) Compound particles MUST convert before a noun—〜について becomes 〜についての, 〜によって becomes 〜による, and 〜にとって becomes 〜にとっての.",
+          "formation": [
+            {
+              "pos": "{基本修飾|きほんしゅうしょく}",
+              "rule": "{動詞普通形|どうしふつうけい} ／ い{形容詞|けいようし} ／ な{形容詞|けいようし}＋な ／ {名詞|めいし}＋の ＋ {名詞|めいし}"
+            },
+            {
+              "pos": "{同格|どうかく}（という）",
+              "rule": "{普通形文|ふつうけいぶん}・{名詞|めいし} ＋ という ＋ {抽象名詞|ちゅうしょうめいし}（{話|はなし}・{連絡|れんらく}・{事実|じじつ}）"
+            },
+            {
+              "pos": "{複合助詞|ふくごうじょし}の{名詞修飾|めいししゅうしょく}",
+              "rule": "〜についての ＋ {名詞|めいし} ／ 〜による ＋ {名詞|めいし} ／ 〜にとっての ＋ {名詞|めいし}"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "{姉|あね}が{去年|きょねん}イタリアで{撮|と}った{写真|しゃしん}は、どれもとてもきれいだった。",
+              "structure_note": "{修飾節内|しゅうしょくせつない}の{主語|しゅご}（{姉|あね}）は「は」ではなく「が」をとる。",
+              "en": "All of the photos my older sister took in Italy last year were very beautiful."
+            },
+            {
+              "ja_ruby": "{来週|らいしゅう}の{火曜日|かようび}が{休講|きゅうこう}になったという{連絡|れんらく}がメールで{届|とど}いた。",
+              "structure_note": "{内容|ないよう}を{説明|せつめい}する{節|せつ}と{抽象名詞|ちゅうしょうめいし}「{連絡|れんらく}」を「という」でつなぐ。",
+              "en": "A notice arrived by email saying that next Tuesday's class has been canceled."
+            },
+            {
+              "ja_ruby": "{図書館|としょかん}で、{日本|にほん}の{伝統音楽|でんとうおんがく}についての{本|ほん}を{三冊|さんさつ}{借|か}りた。",
+              "structure_note": "「〜について」が{名詞|めいし}「{本|ほん}」を{修飾|しゅうしょく}するため「についての」になる。",
+              "en": "At the library, I borrowed three books about traditional Japanese music."
+            },
+            {
+              "ja_ruby": "{台風|たいふう}による{被害|ひがい}が{広|ひろ}がっているため、{明日|あした}のイベントは{中止|ちゅうし}になった。",
+              "structure_note": "「〜によって」は{名詞|めいし}の{前|まえ}では「〜による」に{形|かたち}を{変|か}える。",
+              "en": "Because damage caused by the typhoon is spreading, tomorrow's event has been canceled."
+            }
+          ],
+          "pitfalls": [
+            "NEVER mark the subject inside a pre-noun modifier clause with は (× {私|わたし}は{作|つく}ったケーキ -> ○ {私|わたし}が{作|つく}ったケーキ); は breaks out of the clause to become the main sentence topic.",
+            "NEVER connect compound particles directly to nouns without の or る (× {環境|かんきょう}について{本|ほん}, × {台風|たいふう}によって{被害|ひがい} -> ○ {環境|かんきょう}についての{本|ほん}, ○ {台風|たいふう}による{被害|ひがい}).",
+            "Remember な-adjectives keep な before nouns ({大切|たいせつ}な{連絡|れんらく}), and content clauses modifying {話|はなし}, {噂|うわさ}, or {意見|いけん} typically require という."
+          ]
+        },
+        {
+          "id": "discourse-wa-ga-kosoado",
+          "pattern": "文章の「は」と「が」・指示語（コソアド）",
+          "pattern_ruby": "{文章|ぶんしょう}の「は」と「が」・{指示語|しじご}（コソアド）",
+          "romaji": "bunshou no 'wa' to 'ga' / shijigo (kosoado)",
+          "meaning_en": "paragraph-level topic continuity (は) vs. new information (が), and text-referential そ vs. shared-memory あ",
+          "register": "neutral",
+          "renshuu_status": "canonical_n3",
+          "mental_model": "In JLPT N3 Reading and Section 3 text-grammar cloze, は/が and コソアド operate across sentence boundaries rather than inside single isolated clauses. First, newly introduced characters, objects, or phenomena enter the paragraph with が (new information), and once established, switch to は (known topic) in subsequent sentences—staying active even when omitted as zero-subjects until a new は topic replaces them. Second, because written passages lack physical pointing, text-referential コソアド follows strict roles: そ (それ・その・そこ・そう) refers back to what was JUST mentioned in the previous sentence or by the other speaker; こ (これ・この) pulls an idea close or introduces what the writer is about to explain next; and あ (あれ・あの) is reserved strictly for shared personal memories familiar to BOTH speaker and listener.",
+          "formation": [
+            {
+              "pos": "{新情報|しんじょうほう} → {旧情報|きゅうじょうほう}",
+              "rule": "{初出|しょしゅつ}（{新|あたら}しい{登場|とうじょう}）＋ が → {二回目以降|にかいめいこう}（{既出|きしゅつ}トピック）＋ は"
+            },
+            {
+              "pos": "{文脈指示|ぶんみゃくしじ}（そ・こ）",
+              "rule": "{直前|ちょくぜん}の{文|ぶん}・{相手|あいて}の{話題|わだい} → そ（それ・その・そこ）／ {自分|じぶん}の{展開|てんかい} → こ（これ・この）"
+            },
+            {
+              "pos": "{共有記憶|きょうゆうきおく}（あ）",
+              "rule": "{話|はな}し{手|て}・{聞|き}き{手|て}が{共|とも}に{知|し}る{記憶|きおく} → あ（あれ・あの・あそこ）"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "{昨日|きのう}、{近所|きんじょ}に{新|あたら}しいパン{屋|や}がオープンした。その{店|みせ}は{朝七時|あさしちじ}から{開|あ}いているそうだ。",
+              "structure_note": "{初出|しょしゅつ}は「パン{屋|や}が」、{二文目|にぶんめ}では「その{店|みせ}は」と「そ＋は」で{話題|わだい}をつなぐ。",
+              "en": "Yesterday, a new bakery opened in the neighborhood. That shop is apparently open from 7 a.m."
+            },
+            {
+              "ja_ruby": "「この{企画|きかく}を{担当|たんとう}するのはだれですか。」「{田中|たなか}さんが{担当|たんとう}します。」",
+              "structure_note": "{疑問詞|ぎもんし}（だれ）を{受|う}ける{焦点情報|しょうてんじょうほう}は「は」ではなく「が」をとる。",
+              "en": "'Who is in charge of this project?' 'Tanaka is in charge of it.'"
+            },
+            {
+              "ja_ruby": "「{先週|せんしゅう}、{駅|えき}の{前|まえ}にできたカフェへ{行|い}きました。」「そこはどんな{雰囲気|ふんいき}でしたか。」",
+              "structure_note": "{相手|あいて}が{出|だ}した{場所|ばしょ}を{受|う}け{返|かえ}すときは「あそこ」ではなく「そこ」を{使|つか}う。",
+              "en": "'Last week I went to the cafe that opened in front of the station.' 'What was the atmosphere like there?'"
+            },
+            {
+              "ja_ruby": "{来週|らいしゅう}の{食事会|しょくじかい}は、{去年|きょねん}みんなで{行|い}ったあの{和食|わしょく}の{店|みせ}にしませんか。",
+              "structure_note": "{話|はな}し{手|て}と{聞|き}き{手|て}の{共通|きょうつう}の{過去経験|かこけいけん}には「あの」が{自然|しぜん}。",
+              "en": "For next week's dinner gathering, why don't we go to that Japanese restaurant we all went to last year?"
+            }
+          ],
+          "pitfalls": [
+            "NEVER use あの/あれ in an essay or news article to point back to a topic you just introduced to a general reader (× {最近|さいきん}あるアプリが{人気|にんき}だ。あれは〜 -> ○ それは〜 / このアプリは〜).",
+            "Do not answer a wh-question (だれが, どれが) with は (× {田中|たなか}さんは{行|い}きました -> ○ {田中|たなか}さんが{行|い}きました); new focus takes が.",
+            "Do not use そこ/それ for a shared past place both speakers visited together when recalling that joint memory; use あそこ/あの."
+          ]
+        },
+        {
+          "id": "register-consistency",
+          "pattern": "文体の一貫性（だ・である体 vs です・ます体）",
+          "pattern_ruby": "{文体|ぶんたい}の{一貫性|いっかんせい}（だ・である{体|たい} vs です・ます{体|たい}）",
+          "romaji": "buntai no ikkansei (da/de aru-tai vs desu/masu-tai)",
+          "meaning_en": "maintaining passage-level plain (だ/である) vs. polite (です/ます) register consistency in JLPT cloze texts",
+          "register": "written",
+          "renshuu_status": "canonical_n3",
+          "mental_model": "Every JLPT N3 Section 3 text-grammar passage ({文章|ぶんしょう}の{文法|ぶんぽう}) enforces strict sentence-final register consistency ({文体|ぶんたい}の{統一|とういつ}). Letters, guides, and speeches stay in polite です・ます{体|たい} (ending in 〜ます, 〜です, 〜のではないでしょうか, 〜のだそうです), whereas essays, reports, and newspaper columns stay in plain だ・である{体|たい} (ending in 〜る/〜た, 〜だ/〜である, 〜のではないだろうか, 〜からである). Even when two choices carry identical meaning—such as ではないだろうか vs ではないでしょうか—neighboring sentence endings decide the sole right answer. Equally important: subordinate clauses before 〜と{思|おも}う, 〜ため, or 〜から normally remain plain even inside polite です・ます texts!",
+          "formation": [
+            {
+              "pos": "{丁寧体|ていねいたい}（です・ます{体|たい}）",
+              "rule": "{文末|ぶんまつ}を「〜ます・〜です・〜ではないでしょうか・〜のだそうです」で{統一|とういつ}"
+            },
+            {
+              "pos": "{常体|じょうたい}（だ・である{体|たい}）",
+              "rule": "{文末|ぶんまつ}を「〜る・〜た・〜だ・〜である・〜ではないだろうか」で{統一|とういつ}"
+            },
+            {
+              "pos": "{従属節|じゅうぞくせつ}のルール",
+              "rule": "{文中|ぶんちゅう}の「〜と・〜から・〜けれど・〜ため」の{前|まえ}は{原則|げんそく}{普通形|ふつうけい}"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "{毎日|まいにち}{少|すこ}しずつ{続|つづ}けることが、{語学|ごがく}を{身|み}につけるいちばんの{近道|ちかみち}ではないでしょうか。",
+              "structure_note": "です・ます{体|たい}の{読者|どくしゃ}への{呼|よ}びかけ・{提案文|ていあんぶん}は「〜ではないでしょうか」で{結|むす}ぶ。",
+              "en": "Continuing little by little every day is surely the best shortcut to acquiring a language, isn't it?"
+            },
+            {
+              "ja_ruby": "{生活|せいかつ}が{便利|べんり}になる{一方|いっぽう}で、{人|ひと}との{直接|ちょくせつ}のつながりは{薄|うす}れているのではないだろうか。",
+              "structure_note": "だ・である{体|たい}の{論説文|ろんせつぶん}では「〜のではないだろうか」で{問題提起|もんだいていき}をする。",
+              "en": "While daily life becomes more convenient, aren't direct human connections growing weaker?"
+            },
+            {
+              "ja_ruby": "{地域|ちいき}のお{祭|まつ}りに{参加|さんか}することは、{近所|きんじょ}の{人|ひと}と{親|した}しくなるよい{機会|きかい}だと{思|おも}います。",
+              "structure_note": "「〜と{思|おも}います」の{前|まえ}の{引用節|いんようせつ}は{普通形|ふつうけい}「{機会|きかい}だ」を{保|たも}つ。",
+              "en": "I think participating in local festivals is a good opportunity to become friendly with neighbors."
+            },
+            {
+              "ja_ruby": "{近年|きんねん}、{自転車|じてんしゃ}で{通勤|つうきん}する{人|ひと}が{増|ふ}えてきた。{健康|けんこう}にいいうえに、{交通費|こうつうひ}も{節約|せつやく}できるからである。",
+              "structure_note": "{前文|ぜんぶん}の{常体|じょうたい}（{増|ふ}えてきた）に{合|あ}わせて「〜からである」で{理由|りゆう}を{締|し}める。",
+              "en": "In recent years, the number of people commuting by bicycle has increased. That is because besides being good for health, it also saves on transportation costs."
+            }
+          ],
+          "pitfalls": [
+            "Never mix main-clause です・ます endings and だ・である endings within the same passage; check neighboring sentences for 〜ている vs 〜ています before choosing ではないだろうか vs ではないでしょうか.",
+            "Do not force polite です inside embedded thought or reason clauses before と{思|おも}います or から (prefer {大切|たいせつ}だと{思|おも}います over × {大切|たいせつ}ですと{思|おも}います in essays).",
+            "Keep casual spoken contractions (〜てる, 〜ちゃう) out of formal だ・である essays unless inside direct quotation marks."
+          ]
+        }
+      ],
+      "lesson_contrast": {
+        "title": "JLPT Exam Strategy Map: Brackets, Modifiers, Reference & Register",
+        "explanation": "Use these four discourse rules on JLPT Section 2 and Section 3 to eliminate distractors structurally.",
+        "rows": [
+          {
+            "expression": "{呼応|こおう}のペア（{決|けっ}して〜ない・なぜなら〜からだ）",
+            "register": "Neutral",
+            "key_rule": "Spot the left opener first and lock its mandatory closing anchor in ＿　＿　★　＿ puzzles.",
+            "example_short": "なぜなら{時間|じかん}がなかったからだ。"
+          },
+          {
+            "expression": "{名詞修飾節|めいししゅうしょくせつ}（〜という・〜についての）",
+            "register": "Neutral",
+            "key_rule": "Keep clause subject as が/の (never は); use という or の/る before the head noun.",
+            "example_short": "{環境|かんきょう}についての{本|ほん}を{読|よ}む。"
+          },
+          {
+            "expression": "{文章|ぶんしょう}の「は・が」・コソアド",
+            "register": "Neutral",
+            "key_rule": "First mention uses が, continuing topic uses は; text anaphora uses そ, shared memory uses あ.",
+            "example_short": "{店|みせ}ができた。その{店|みせ}は{広|ひろ}い。"
+          },
+          {
+            "expression": "{文体|ぶんたい}の{一貫性|いっかんせい}（だ・である vs です・ます）",
+            "register": "Written",
+            "key_rule": "Match neighboring sentence endings (ではないだろうか vs ではないでしょうか); keep embedded clauses plain.",
+            "example_short": "{大切|たいせつ}なことではないでしょうか。"
+          }
+        ]
+      },
+      "practice_quiz": [
+        {
+          "question_id": "B03-Q1",
+          "question_type": "star_order",
+          "prompt_ja_ruby": "{明日|あした}のハイキングは、たとえ　＿　＿　★　＿　つもりだ。",
+          "context_en": "Tomorrow's hike: even if a cold north wind blows, I plan to go out.",
+          "choices": [
+            "{冷|つめ}たい",
+            "{北風|きたかぜ}が",
+            "{出|で}かける",
+            "{吹|ふ}いても"
+          ],
+          "correct_index": 3,
+          "explanation": "Correct: D ({吹|ふ}いても). The only valid sequence is {冷|つめ}たい(1) {北風|きたかぜ}が(2) {吹|ふ}いても(3★) {出|で}かける(4). Correlative frame たとえ〜ても locks {吹|ふ}いても at the end of the concessive clause before dictionary verb {出|で}かける (required by つもりだ), while adjective {冷|つめ}たい must immediately precede the noun {北風|きたかぜ}が."
+        },
+        {
+          "question_id": "B03-Q2",
+          "question_type": "attachment_trap",
+          "prompt_ja_ruby": "{佐藤|さとう}さんが{海外|かいがい}へ{転勤|てんきん}する（　　　）{話|はなし}を、さっき{同僚|どうりょう}から{聞|き}いた。",
+          "context_en": "Earlier I heard from a colleague the news that Sato is transferring overseas.",
+          "choices": [
+            "についての",
+            "という",
+            "と",
+            "にとって"
+          ],
+          "correct_index": 1,
+          "explanation": "Correct: B (という). Appositive という smoothly links a full plain clause ({佐藤|さとう}さんが{海外|かいがい}へ{転勤|てんきん}する) to the abstract head noun {話|はなし}. A (についての) attaches only to nouns, never finite verb clauses; C (と) cannot directly link a clause to {話|はなし} without いう; D (にとって) marks a standpoint noun and lacks a noun-modifying の."
+        },
+        {
+          "question_id": "B03-Q3",
+          "question_type": "nuance_choice",
+          "prompt_ja_ruby": "「{先週|せんしゅう}、{旅行|りょこう}で{京都|きょうと}の{新|あたら}しい{美術館|びじゅつかん}へ{行|い}ってきました。」「いいですね。（　　　）はどんなところでしたか。」",
+          "context_en": "Speaker B asks about the new museum in Kyoto that Speaker A just mentioned visiting, which B has never been to.",
+          "choices": [
+            "そこ",
+            "あそこ",
+            "ここ",
+            "どこ"
+          ],
+          "correct_index": 0,
+          "explanation": "Correct: A (そこ). In Japanese discourse, そ-series words (そこ) refer back to a place the other speaker just introduced that you do not personally share firsthand. B (あそこ) requires mutual shared memory familiar to both speakers—impossible since B has never visited that museum; C (ここ) means right where B stands; D (どこ) is an interrogative ('where?')."
+        },
+        {
+          "question_id": "B03-Q4",
+          "question_type": "fill_blank",
+          "prompt_ja_ruby": "{近年|きんねん}、オンラインで{買|か}い{物|もの}をする{人|ひと}が{急増|きゅうぞう}した。しかし、{実物|じつぶつ}を{見|み}て{買|か}いたいという{人|ひと}もまだ{多|おお}い（　　　）。",
+          "context_en": "Completing a plain-style (だ・である) expository paragraph arguing that many people still want to see real items before buying.",
+          "choices": [
+            "のではないでしょうか",
+            "のではありませんか",
+            "のではないだろうか",
+            "のですか"
+          ],
+          "correct_index": 2,
+          "explanation": "Correct: C (のではないだろうか). Because the opening sentence uses plain expository style ({急増|きゅうぞう}した), the closing rhetorical conjecture must preserve だ・である consistency with のではないだろうか. A (のではないでしょうか), B (のではありませんか), and D (のですか) all shift abruptly into polite です・ます style, breaking passage register."
+        }
+      ]
+    }
+  ]
+}

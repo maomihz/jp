@@ -1,0 +1,1163 @@
+{
+  "unit_number": 9,
+  "unit_slug": "unit-09-negative-endings-information-considering",
+  "unit_title": "Unit 9: Negative Verb Endings, Giving Info/Examples & Perspective (Lessons 46–49)",
+  "unit_overview": "Master Renshuu N3 Lessons 46–49: formal and literary negative verb suffixes (ずに, ずにはいられない, ようとしない, ぬ), defining and exemplifying structures (という, すなわち, の一つ, をはじめ), and evaluative perspective markers (といえば, にしては, わりに, から言うと).",
+  "lessons": [
+    {
+      "lesson_id": "L46",
+      "lesson_number": 46,
+      "renshuu_title": "Negative Verb Endings",
+      "has_video": false,
+      "summary": "Master formal, emotional, volitional, and literary negative verb suffixes: doing B without doing A (〜ずに), uncontrollable internal urges (〜ずにはいられない / ないではいられない), stubborn refusal to even try (〜ようとしない), and impossibility, unlikelihood, or classical negation (〜ようがない / そうもない・〜ぬ).",
+      "study_tip": "In Lesson 46, separate stem rules before meaning: 〜ずに, 〜ずにはいられない, and 〜ぬ attach to the ない-stem (with irregular する -> せずに / せぬ and {来|く}る -> {来|こ}ずに / {来|こ}ぬ), 〜ようとしない uses the volitional form, and 〜ようがない / 〜そうもない use the ます-stem.",
+      "grammar_points": [
+        {
+          "id": "zuni",
+          "pattern": "〜ずに",
+          "pattern_ruby": "〜ずに",
+          "romaji": "~zuni",
+          "meaning_en": "without doing ~ (formal/written counterpart to 〜ないで)",
+          "register": "written",
+          "renshuu_status": "canonical_n3",
+          "mental_model": "Built from the classical negative suffix ず plus adverbial に, 〜ずに describes performing action B in a state of not having done A. It carries a tighter, slightly more formal or written tone than everyday 〜ないで, especially in pairs like 〜ずに{済|す}む ('get by without doing') and {何|なに}も{言|い}わずに ('without saying a word'). Watch the two mandatory irregulars: する becomes せずに (never しずに) and {来|く}る becomes {来|こ}ずに (never きずに). Unlike 〜ないで, 〜ずに cannot plug directly into negative requests (× {忘|わす}れずにください).",
+          "formation": [
+            {
+              "pos": "{動詞|どうし}ない{形|けい}{語幹|ごかん}（1・2{類|るい}）",
+              "rule": "＋ ずに（{書|か}かずに・{食|た}べずに）"
+            },
+            {
+              "pos": "{不規則動詞|ふきそくどうし}（する・{来|く}る）",
+              "rule": "する → せずに・{来|く}る → {来|こ}ずに"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "{今日|きょう}は{朝|あさ}ごはんを{食|た}べずに、{急|いそ}いで{家|いえ}を{出|で}た。",
+              "structure_note": "{動詞|どうし}ない{形|けい}{語幹|ごかん}（{食|た}べ）＋ ずに",
+              "en": "Today I hurried out of the house without eating breakfast."
+            },
+            {
+              "ja_ruby": "{佐藤|さとう}さんは{誰|だれ}にも{相談|そうだん}せずに、{一人|ひとり}でその{仕事|しごと}を{引|ひ}き{受|う}けた。",
+              "structure_note": "{不規則動詞|ふきそくどうし}（{相談|そうだん}する → {相談|そうだん}せずに）",
+              "en": "Sato took on that job alone without consulting anyone."
+            },
+            {
+              "ja_ruby": "{高橋|たかはし}さんはパーティーに{来|こ}ずに、お{祝|いわ}いのメッセージだけ{送|おく}ってきた。",
+              "structure_note": "{不規則動詞|ふきそくどうし}（{来|く}る → {来|こ}ずに）",
+              "en": "Takahashi did not come to the party and only sent a congratulatory message."
+            },
+            {
+              "ja_ruby": "パソコンが{無事|ぶじ}に{直|なお}ったので、{新|あたら}しく{買|か}い{直|なお}さずに{済|す}んだ。",
+              "structure_note": "{動詞|どうし}ない{形|けい}{語幹|ごかん}（{買|か}い{直|なお}さ）＋ ずに{済|す}む",
+              "en": "Since my computer was fixed safely, I got by without having to buy a new one."
+            }
+          ],
+          "pitfalls": [
+            "Never conjugate する as しずに or すずに; it is strictly せずに ({無理|むり}をせずに), and {来|く}る is strictly {来|こ}ずに (never きずに).",
+            "Do not use 〜ずに directly before ください or ほしい for a negative request (× {忘|わす}れずにください → ○ {忘|わす}れないでください); 〜ずに must modify a following verb ({忘|わす}れずに{持|も}ってきてください).",
+            "〜ずに applies only to verbs, never to い-adjectives, な-adjectives, or nouns, and modern ある does not form あらずに (use なく or なくて instead)."
+          ]
+        },
+        {
+          "id": "zuniwa-irarenai",
+          "pattern": "〜ずにはいられない / ないではいられない",
+          "pattern_ruby": "〜ずにはいられない / ないではいられない",
+          "romaji": "~zuniwa irarenai / ~naidewa irarenai",
+          "meaning_en": "cannot help doing ~; cannot stop oneself from ~ing",
+          "register": "neutral",
+          "renshuu_status": "canonical_n3",
+          "mental_model": "Literally 'cannot stay/exist without doing ~,' this structure expresses an overwhelming internal urge or spontaneous reaction you simply cannot hold back: laughing ({笑|わら}わずにはいられない), crying ({泣|な}かずにはいられない), worrying ({心配|しんぱい}せずにはいられない), or speaking up. Choose 〜ずにはいられない for crisp written or emphatic speech (with せず / {来|こ}ず), and 〜ないではいられない in slightly softer spoken style. It describes involuntary human feelings—never use it for external schedules or obligations.",
+          "formation": [
+            {
+              "pos": "{動詞|どうし}ない{形|けい}{語幹|ごかん}",
+              "rule": "＋ ずにはいられない（する → せずにはいられない）"
+            },
+            {
+              "pos": "{動詞|どうし}ない{形|けい}",
+              "rule": "＋ ではいられない（しないではいられない）"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "その{映画|えいが}はあまりにおもしろくて、{見|み}ている{間|あいだ}{笑|わら}わずにはいられなかった。",
+              "structure_note": "{動詞|どうし}ない{形|けい}{語幹|ごかん}（{笑|わら}わ）＋ ずにはいられなかった",
+              "en": "That movie was so funny that I could not help laughing while watching it."
+            },
+            {
+              "ja_ruby": "{海外|かいがい}で{一人暮|ひとりぐ}らしをしている{娘|むすめ}のことを、{毎日|まいにち}{心配|しんぱい}せずにはいられない。",
+              "structure_note": "{不規則動詞|ふきそくどうし}（{心配|しんぱい}する → {心配|しんぱい}せずにはいられない）",
+              "en": "I cannot help worrying every day about my daughter living alone overseas."
+            },
+            {
+              "ja_ruby": "{田中|たなか}さんの{一生懸命|いっしょうけんめい}な{姿|すがた}を{見|み}て、{応援|おうえん}しないではいられなかった。",
+              "structure_note": "{動詞|どうし}ない{形|けい}（{応援|おうえん}しない）＋ ではいられなかった",
+              "en": "Seeing Tanaka try so hard, I could not help cheering for him."
+            },
+            {
+              "ja_ruby": "あまりに{失礼|しつれい}な{態度|たいど}だったので、{一言|ひとこと}{注意|ちゅうい}せずにはいられなかった。",
+              "structure_note": "{不規則動詞|ふきそくどうし}（{注意|ちゅうい}せず）＋ にはいられなかった",
+              "en": "Because the attitude was so rude, I could not stop myself from saying a word of caution."
+            }
+          ],
+          "pitfalls": [
+            "Keep the two stems strictly separate: ずに uses せずにはいられない, whereas ないで uses しないではいられない (× しずにはいられない, × せないではいられない).",
+            "Reserve this pattern for spontaneous emotional or psychological urges, not routine obligations or social constraints (× {朝|あさ}{会社|かいしゃ}へ{行|い}かずにはいられない → ○ {行|い}かなければならない).",
+            "Do not confuse 〜ずにはいられない ('cannot help doing X') with 〜てはいられない ('cannot remain sitting around doing X any longer') or 〜わけにはいかない ('cannot morally/socially do X')."
+          ]
+        },
+        {
+          "id": "you-to-shinai",
+          "pattern": "〜ようとしない",
+          "pattern_ruby": "〜ようとしない",
+          "romaji": "~you to shinai",
+          "meaning_en": "won't even try to ~; stubbornly refuses to ~",
+          "register": "neutral",
+          "renshuu_status": "verified_renshuu",
+          "mental_model": "Built by negating 〜ようとする ('try to / make an attempt to'), 〜ようとしない highlights an agent's visible lack of willingness or effort: 'won't even try to ~.' While simple 〜ない states a neutral fact ('doesn't listen'), 〜ようとしない adds the speaker's frustration or observation of stubbornness ({誰|だれ}の{話|はなし}も{聞|き}こうとしない). Because it assumes willpower, the subject is normally a person (or an animal or stubbornly unresponsive object like {動|うご}こうとしない). Adding も (〜ようともしない) makes the refusal even stronger.",
+          "formation": [
+            {
+              "pos": "{動詞|どうし}{意向形|いこうけい}（1{類|るい}・2{類|るい}）",
+              "rule": "＋ としない（{聞|き}こうとしない・{食|た}べようとしない）"
+            },
+            {
+              "pos": "{不規則動詞|ふきそくどうし}（する・{来|く}る）",
+              "rule": "しようとしない・{来|こ}ようとしない"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "{健太|けんた}は{自分|じぶん}が{悪|わる}いのに、{誰|だれ}の{注意|ちゅうい}も{聞|き}こうとしない。",
+              "structure_note": "1{類|るい}{動詞|どうし}{意向形|いこうけい}（{聞|き}こう）＋ としない",
+              "en": "Even though Kenta is in the wrong, he won't even try to listen to anyone's advice."
+            },
+            {
+              "ja_ruby": "{佐藤|さとう}さんは{失敗|しっぱい}を{認|みと}めようとせず、{黙|だま}り{込|こ}んでしまった。",
+              "structure_note": "2{類|るい}{動詞|どうし}{意向形|いこうけい}（{認|みと}めよう）＋ とせず",
+              "en": "Without even trying to admit the mistake, Sato fell completely silent."
+            },
+            {
+              "ja_ruby": "{鈴木|すずき}さんは{何度|なんど}{誘|さそ}っても、{新|あたら}しい{企画|きかく}に{参加|さんか}しようとしない。",
+              "structure_note": "{不規則動詞|ふきそくどうし}（{参加|さんか}する → {参加|さんか}しよう）＋ としない",
+              "en": "No matter how many times we invite Suzuki, he refuses to try joining the new project."
+            },
+            {
+              "ja_ruby": "どんなに{呼|よ}んでも、{猫|ねこ}はソファの{下|した}から{出|で}てこようとしない。",
+              "structure_note": "{補助動詞|ほじょどうし}（て{来|く}る → てこよう）＋ としない",
+              "en": "No matter how much we call it, the cat won't even try to come out from under the sofa."
+            }
+          ],
+          "pitfalls": [
+            "Always use the volitional form ({聞|き}こう, {認|みと}めよう, しよう, {来|こ}よう), never the dictionary form (× {聞|き}くとしない) or ます-stem (× {聞|き}きとしない).",
+            "Do not use 〜ようとしない for simple physical inability when the person actually wants to do it (× {暗|くら}くて{字|じ}を{読|よ}もうとしない → ○ {読|よ}めない)."
+          ]
+        },
+        {
+          "id": "youganai-soumonai-nu",
+          "pattern": "〜ようがない / そうもない・〜ぬ",
+          "pattern_ruby": "〜ようがない / そうもない・〜ぬ",
+          "romaji": "~you ga nai / ~sou mo nai · ~nu",
+          "meaning_en": "there is no way to ~; shows no sign of ~ing; literary negative ~nu",
+          "register": "written",
+          "renshuu_status": "verified_renshuu",
+          "mental_model": "Three high-frequency negative verb endings group together in Renshuu Lesson 46. First, 〜ようがない ('no method/means to do ~') uses ます-stem + よう (manner) + がない to show something is impossible because the means do not exist ({連絡|れんらく}のしようがない). Second, 〜そうもない ('shows no sign of ~ing') negates appearance-based prediction そうだ after a ます-stem ({雨|あめ}が{止|や}みそうもない). Third, 〜ぬ is the classical literary negative suffix equivalent to 〜ない, surviving at N3 in formal prose and fixed idioms like {知|し}らぬ{間|ま}に ('before I knew it') and {見|み}て{見|み}ぬふり ('pretending not to see').",
+          "formation": [
+            {
+              "pos": "〜ようがない（{方法|ほうほう}がない）",
+              "rule": "{動詞|どうし}ます{形|けい}{語幹|ごかん} ＋ ようがない（する → しようがない）"
+            },
+            {
+              "pos": "〜そうもない（{見込|みこ}みがない）",
+              "rule": "{動詞|どうし}ます{形|けい}{語幹|ごかん} ＋ そうもない（・そうにない）"
+            },
+            {
+              "pos": "〜ぬ（{文語|ぶんご}・{慣用表現|かんようひょうげん}）",
+              "rule": "{動詞|どうし}ない{形|けい}{語幹|ごかん} ＋ ぬ（する → せぬ・{来|く}る → こぬ）"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "{住所|じゅうしょ}も{電話番号|でんわばんごう}もわからないので、{連絡|れんらく}のしようがない。",
+              "structure_note": "{名詞|めいし}・する{動詞|どうし}（{連絡|れんらく}の ＋ しようがない）",
+              "en": "Since I know neither their address nor phone number, there is no way to contact them."
+            },
+            {
+              "ja_ruby": "{空|そら}がまだ{真|ま}っ{暗|くら}で、この{雨|あめ}はすぐには{止|や}みそうもない。",
+              "structure_note": "{動詞|どうし}ます{形|けい}{語幹|ごかん}（{止|や}み）＋ そうもない",
+              "en": "The sky is still pitch dark, and this rain shows no sign of stopping anytime soon."
+            },
+            {
+              "ja_ruby": "{仕事|しごと}に{集中|しゅうちゅう}しているうちに、{知|し}らぬ{間|ま}に{外|そと}はすっかり{暗|くら}くなっていた。",
+              "structure_note": "{慣用句|かんようく}（{知|し}ら ＋ ぬ ＋ {間|ま}に）",
+              "en": "While I was concentrating on work, before I knew it, it had gotten completely dark outside."
+            },
+            {
+              "ja_ruby": "{電車|でんしゃ}の{中|なか}で{困|こま}っている{人|ひと}を{見|み}て{見|み}ぬふりはできない。",
+              "structure_note": "{慣用句|かんようく}（{見|み}て{見|み} ＋ ぬ ＋ ふり）",
+              "en": "I cannot pretend not to see someone who is in trouble on the train."
+            }
+          ],
+          "pitfalls": [
+            "Watch the stem split: 〜ようがない and 〜そうもない take the ます-stem ({直|なお}しようがない, {止|や}みそうもない), whereas 〜ぬ takes the ない-stem ({知|し}らぬ, {思|おも}わぬ, せぬ, こぬ).",
+            "For adjectives, use 〜なさそうだ instead of 〜そうもない (× {美味|おい}しそうもない → ○ {美味|おい}しくなさそうだ); 〜そうもない attaches to verbs.",
+            "Do not use standalone 〜ぬ in ordinary spoken conversation (× {今日|きょう}は{行|い}かぬ → ○ {行|い}かない); stick to written prose and set expressions like {知|し}らぬ{間|ま}に and {見|み}て{見|み}ぬふり."
+          ]
+        }
+      ],
+      "lesson_contrast": {
+        "title": "Negative Verb Endings Compared in Lesson 46",
+        "explanation": "Distinguish these four negative structures by checking which verb stem they require and whether they express manner, uncontrollable urge, refusal, or impossibility.",
+        "rows": [
+          {
+            "expression": "〜ずに",
+            "register": "Written / Formal",
+            "key_rule": "ない-stem ＋ ずに (する→せずに, {来|く}る→{来|こ}ずに); 'without doing A, do B'.",
+            "example_short": "{朝|あさ}ごはんを{食|た}べずに{出|で}かけた。"
+          },
+          {
+            "expression": "〜ずにはいられない",
+            "register": "Neutral",
+            "key_rule": "ない-stem ＋ ずにはいられない (or ないではいられない); involuntary emotional urge.",
+            "example_short": "おもしろくて{笑|わら}わずにはいられない。"
+          },
+          {
+            "expression": "〜ようとしない",
+            "register": "Neutral",
+            "key_rule": "Volitional ＋ としない; stubborn refusal or zero effort to even attempt.",
+            "example_short": "{誰|だれ}の{話|はなし}も{聞|き}こうとしない。"
+          },
+          {
+            "expression": "〜ようがない / そうもない・〜ぬ",
+            "register": "Written / Neutral",
+            "key_rule": "ます-stem＋ようがない ('no way') / そうもない ('no sign'); ない-stem＋ぬ (literary/idioms).",
+            "example_short": "{連絡|れんらく}のしようがない。{知|し}らぬ{間|ま}に。"
+          }
+        ]
+      },
+      "practice_quiz": [
+        {
+          "question_id": "L46-Q1",
+          "question_type": "attachment_trap",
+          "prompt_ja_ruby": "{田中|たなか}さんは{誰|だれ}にも{相談|そうだん}（　　　）、{一人|ひとり}で{進路|しんろ}を{決|き}めてしまった。",
+          "context_en": "Testing the irregular negative suffix 〜ずに with a する-verb: 'Tanaka decided his path alone without consulting anyone.'",
+          "choices": [
+            "しずに",
+            "せずに",
+            "すずに",
+            "せないで"
+          ],
+          "correct_index": 1,
+          "explanation": "Correct: B (せずに). With 〜ずに, する conjugates irregularly to せずに ({相談|そうだん}せずに). A (しずに) and C (すずに) are non-existent conjugations of する; D (せないで) wrongly mixes the せ-stem of ずに into ないで (which takes しないで)."
+        },
+        {
+          "question_id": "L46-Q2",
+          "question_type": "nuance_choice",
+          "prompt_ja_ruby": "{美咲|みさき}さんの{優|やさ}しい{手紙|てがみ}を{読|よ}んで、{感動|かんどう}してつい（　　　）。",
+          "context_en": "Expressing an involuntary emotional reaction: 'Reading Misaki's kind letter, I was moved and could not help crying.'",
+          "choices": [
+            "{泣|な}いてはいられなかった",
+            "{泣|な}くわけにはいかなかった",
+            "{泣|な}こうともしなかった",
+            "{泣|な}かずにはいられなかった"
+          ],
+          "correct_index": 3,
+          "explanation": "Correct: D ({泣|な}かずにはいられなかった). 〜ずにはいられない expresses an uncontrollable spontaneous urge triggered by emotion ({感動|かんどう}してつい). A ({泣|な}いてはいられなかった) means 'could not stay crying any longer and had to act', B ({泣|な}くわけにはいかなかった) means 'socially/morally could not cry', and C ({泣|な}こうともしなかった) means 'did not even try to cry'—none fit an involuntary emotional reaction."
+        },
+        {
+          "question_id": "L46-Q3",
+          "question_type": "fill_blank",
+          "prompt_ja_ruby": "{何度|なんど}{注意|ちゅうい}しても、{弟|おとうと}は{自分|じぶん}の{間違|まちが}いを（　　　）ので、{本当|ほんとう}に{困|こま}っている。",
+          "context_en": "Describing stubborn refusal to even try: 'No matter how many times I warn him, my younger brother won't even try to admit his mistake, so I am really troubled.'",
+          "choices": [
+            "{認|みと}めようとしない",
+            "{認|みと}めようがない",
+            "{認|みと}めようとしている",
+            "{認|みと}めずにはいられない"
+          ],
+          "correct_index": 0,
+          "explanation": "Correct: A ({認|みと}めようとしない). Volitional {認|みと}めよう ＋ としない expresses stubborn unwillingness to even attempt admitting fault despite repeated warnings, explaining why the speaker is troubled. B means 'there is no method/means to admit it', C ({認|みと}めようとしている) means 'is trying to admit it' (opposite attitude), and D means 'can't help admitting it' (opposite meaning)."
+        },
+        {
+          "question_id": "L46-Q4",
+          "question_type": "star_order",
+          "prompt_ja_ruby": "{田中|たなか}さんは{困|こま}っている＿　＿　★　＿、いつも{必|かなら}ず{声|こえ}をかけてくれる。",
+          "context_en": "Combining 〜ぬ and 〜ずに: 'Tanaka never turns a blind eye to people in trouble and always speaks up to help.'",
+          "choices": [
+            "{見|み}て{見|み}ぬ",
+            "{人|ひと}を",
+            "ふりを",
+            "せずに"
+          ],
+          "correct_index": 2,
+          "explanation": "Correct: C (ふりを). Full order: {困|こま}っている {人|ひと}を(1) {見|み}て{見|み}ぬ(2) ふりを(3★) せずに(4)。{人|ひと}を completes the relative clause {困|こま}っている{人|ひと}, followed by the literary negative idiom {見|み}て{見|み}ぬ modifying ふりを before irregular negative せずに ('without pretending not to see')."
+        }
+      ]
+    },
+    {
+      "lesson_id": "L47",
+      "lesson_number": 47,
+      "renshuu_title": "Giving Information",
+      "has_video": false,
+      "summary": "Explain, define, restate, and evaluate information clearly in N3 Japanese: naming or attaching clausal content to nouns (〜という＋{名詞|めいし}), defining terms explicitly (〜というのは〜のことだ / という{意味|いみ}だ), separating formal equivalence (すなわち) from conversational summary (つまり), and offering measured conclusions (〜と{言|い}える).",
+      "study_tip": "Watch the copula だ carefully in Lesson 47: bare proper names before という＋{名詞|めいし} drop だ ('さくら'という{店|みせ}), while claims inside 〜という＋{話|はなし} or predicates before 〜と{言|い}える keep だ ({安全|あんぜん}だと{言|い}える). Also pair すなわち with written precision and つまり with spoken summary.",
+      "grammar_points": [
+        {
+          "id": "to-iu-noun",
+          "pattern": "〜という＋名詞",
+          "pattern_ruby": "〜という＋{名詞|めいし}",
+          "romaji": "~to iu + Noun",
+          "meaning_en": "called ~; named ~; the fact/report/idea that ~",
+          "register": "neutral",
+          "renshuu_status": "verified_renshuu",
+          "mental_model": "〜という＋{名詞|めいし} acts as an information bridge linking a label or full statement directly onto a noun. It serves two major roles at N3. First, it introduces a name or term the listener might not recognize ('a shop called Himawari' = 「ひまわり」という{店|みせ}). Second, it packs a complete proposition inside content nouns like {話|はなし}, {連絡|れんらく}, {噂|うわさ}, {事実|じじつ}, or ニュース ('the news that the exam was postponed'). When giving just a name, attach the noun directly without だ; when reporting a claim or fact, use plain form (including だ for nouns and な-adjectives).",
+          "formation": [
+            {
+              "pos": "{固有名詞|こゆうめいし}・{名称|めいしょう}（{名前|なまえ}）",
+              "rule": "＋ という ＋ {名詞|めいし}（だは{不要|ふよう}）"
+            },
+            {
+              "pos": "{動詞|どうし}・い{形容詞|けいようし}{普通形|ふつうけい}",
+              "rule": "＋ という ＋ {内容名詞|ないようめいし}（{話|はなし}・{連絡|れんらく}など）"
+            },
+            {
+              "pos": "な{形容詞|けいようし}・{名詞|めいし}（{内容|ないよう}）",
+              "rule": "＋ だ ＋ という ＋ {内容名詞|ないようめいし}"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "{駅前|えきまえ}に「ひまわり」という{新|あたら}しいパン{屋|や}がオープンした。",
+              "structure_note": "{名称|めいしょう}（ひまわり）＋ という ＋ {名詞|めいし}（パン{屋|や}）",
+              "en": "A new bakery called 'Himawari' opened in front of the station."
+            },
+            {
+              "ja_ruby": "{日本|にほん}には「お{節|せち}{料理|りょうり}」というお{正月|しょうがつ}の{特別|とくべつ}な{料理|りょうり}がある。",
+              "structure_note": "{名称|めいしょう} ＋ という ＋ {名詞|めいし}（{定義|ていぎ}・{紹介|しょうかい}）",
+              "en": "In Japan, there is a special New Year's cuisine called 'osechi ryori.'"
+            },
+            {
+              "ja_ruby": "{来月|らいげつ}、{山田|やまだ}さんが{大阪|おおさか}へ{転勤|てんきん}するという{話|はなし}を{聞|き}いた。",
+              "structure_note": "{動詞|どうし}{普通形|ふつうけい}（{転勤|てんきん}する）＋ という ＋ {名詞|めいし}（{話|はなし}）",
+              "en": "I heard the news that Yamada is transferring to Osaka next month."
+            },
+            {
+              "ja_ruby": "この{地域|ちいき}は{治安|ちあん}がよくて{安全|あんぜん}だという{評判|ひょうばん}だ。",
+              "structure_note": "な{形容詞|けいようし} ＋ だ ＋ という ＋ {名詞|めいし}（{評判|ひょうばん}）",
+              "en": "This neighborhood has a reputation for being safe with good public security."
+            }
+          ],
+          "pitfalls": [
+            "Do not insert だ when simply naming a person, place, or thing (× 「さくら」だという{店|みせ} → ○ 「さくら」という{店|みせ}); keep だ only when the preceding phrase is a full propositional claim ({明日|あした}が{締|し}め{切|き}りだという{連絡|れんらく}).",
+            "Do not omit という before content nouns like {噂|うわさ}, {知|し}らせ, or {事実|じじつ} (× {鈴木|すずき}さんが{来|く}る{噂|うわさ} → ○ {鈴木|すずき}さんが{来|く}るという{噂|うわさ})."
+          ]
+        },
+        {
+          "id": "to-iu-nowa-koto-da",
+          "pattern": "〜というのは〜のことだ / という意味だ",
+          "pattern_ruby": "〜というのは〜のことだ / という{意味|いみ}だ",
+          "romaji": "~to iu nowa ~no koto da / ~to iu imi da",
+          "meaning_en": "what ~ means is ...; ~ refers to ...",
+          "register": "neutral",
+          "renshuu_status": "canonical_n3",
+          "mental_model": "Use 〜というのは to put a word, idiom, sign, or quoted remark on the table as the topic ('As for what people call X...'), then finish with either 〜のことだ or 〜という{意味|いみ}だ. Choose 〜のことだ when identifying the real-world referent, person, or custom ('Hand-gifts refer to presents brought when visiting'), and choose 〜という{意味|いみ}だ when explaining a lexical definition, symbol, or someone's hidden intent ('This sign means do not take photos here'). In casual conversation, 〜というのは often softens to 〜っていうのは.",
+          "formation": [
+            {
+              "pos": "{言葉|ことば}・{文|ぶん} ＋ というのは",
+              "rule": "{名詞|めいし} ＋ の ＋ ことだ"
+            },
+            {
+              "pos": "{言葉|ことば}・{文|ぶん} ＋ というのは",
+              "rule": "{普通形|ふつうけい} ＋ ことだ / ということだ"
+            },
+            {
+              "pos": "{言葉|ことば}・{文|ぶん} ＋ というのは",
+              "rule": "{普通形|ふつうけい}・{引用文|いんようぶん} ＋ という{意味|いみ}だ"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "「{木漏|こも}れ{日|び}」というのは、{木|き}の{葉|は}の{間|あいだ}から{差|さ}し{込|こ}む{太陽|たいよう}の{光|ひかり}のことだ。",
+              "structure_note": "{名詞|めいし}（{太陽|たいよう}の{光|ひかり}）＋ のことだ",
+              "en": "'Komorebi' refers to sunlight filtering down through the leaves of trees."
+            },
+            {
+              "ja_ruby": "このマークは「ここで{写真|しゃしん}を{撮|と}らないでください」という{意味|いみ}です。",
+              "structure_note": "{引用文|いんようぶん} ＋ という{意味|いみ}です",
+              "en": "This mark means 'Please do not take photos here.'"
+            },
+            {
+              "ja_ruby": "{佐藤|さとう}さんが「{今週|こんしゅう}は{厳|きび}しい」と{言|い}ったのは、{手伝|てつだ}えないという{意味|いみ}だろう。",
+              "structure_note": "{動詞|どうし}ない{形|けい}（{手伝|てつだ}えない）＋ という{意味|いみ}",
+              "en": "When Sato said 'this week is tough,' he probably meant that he cannot help out."
+            },
+            {
+              "ja_ruby": "「{早起|はやお}きは{三文|さんもん}の{徳|とく}」というのは、{朝|あさ}{早|はや}く{起|お}きるといいことがあるということだ。",
+              "structure_note": "{普通形|ふつうけい}（いいことがある）＋ ということだ",
+              "en": "'The early bird catches the worm' means that waking up early in the morning brings good things."
+            }
+          ],
+          "pitfalls": [
+            "Nouns before ことだ require the linking particle の ({贈|おく}り{物|もの}のことだ), whereas clauses before という{意味|いみ}だ take plain form or direct quotation without の (× {入|はい}るなのことだ).",
+            "Do not confuse definitional 〜というのは〜のことだ with sentence-final hearsay 〜ということだ ('I heard that...')."
+          ]
+        },
+        {
+          "id": "sunawachi-vs-tsumari",
+          "pattern": "すなわち・つまり",
+          "pattern_ruby": "すなわち・つまり",
+          "romaji": "sunawachi · tsumari",
+          "meaning_en": "namely / that is to say (exact formal equivalence) vs. in short / in other words (summary)",
+          "register": "formal",
+          "renshuu_status": "verified_renshuu",
+          "mental_model": "Both words say 'let me restate that as B,' yet they occupy different registers and logical roles. すなわち is formal, written, and mathematically precise: it sets up an exact equivalence (A = B), such as equating a number to a threshold or a role to its formal definition ({日本|にほん}の{首都|しゅと}、すなわち{東京|とうきょう}). By contrast, つまり is everyday and conversational: it boils down a messy explanation into a practical takeaway ('In short, what I'm saying is...'), frequently pairing with 〜ということだ or 〜わけだ at the end.",
+          "formation": [
+            {
+              "pos": "すなわち（{文語的|ぶんごてき}・{厳密|げんみつ}な{言|い}い{換|か}え）",
+              "rule": "A 、すなわち B（A ＝ B の{関係|かんけい}）"
+            },
+            {
+              "pos": "つまり（{日常的|にちじょうてき}な{要約|ようやく}）",
+              "rule": "{文|ぶん} A 。つまり、{文|ぶん} B（〜ということだ）"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "{日本|にほん}の{首都|しゅと}、すなわち{東京|とうきょう}は、{政治|せいじ}と{経済|けいざい}の{中心地|ちゅうしんち}です。",
+              "structure_note": "{名詞|めいし} A 、すなわち {名詞|めいし} B（{厳密|げんみつ}な{同一視|どういつし}）",
+              "en": "Japan's capital, namely Tokyo, is the center of politics and the economy."
+            },
+            {
+              "ja_ruby": "このテストで{八割|はちわり}、すなわち{百点満点|ひゃくてんまんてん}のうち{八十点以上|はちじゅってんいじょう}を{取|と}れば{合格|ごうかく}です。",
+              "structure_note": "{数値|すうち} A 、すなわち {数値|すうち} B（{正確|せいかく}な{定義|ていぎ}）",
+              "en": "You pass if you score eighty percent on this test, that is, eighty points or higher out of one hundred."
+            },
+            {
+              "ja_ruby": "{電車|でんしゃ}もバスも{止|と}まっている。つまり、{今日|きょう}は{歩|ある}いて{帰|かえ}るしかないということだ。",
+              "structure_note": "{文|ぶん} A 。つまり、{要約文|ようやくぶん} B ということだ",
+              "en": "Both the trains and buses have stopped. In short, we have no choice but to walk home today."
+            },
+            {
+              "ja_ruby": "{説明|せつめい}が{長|なが}くなりましたが、つまり、{来週|らいしゅう}の{会議|かいぎ}は{中止|ちゅうし}になりました。",
+              "structure_note": "{会話|かいわ}・{説明|せつめい}のまとめ（つまり〜）",
+              "en": "My explanation got long, but in short, next week's meeting has been canceled."
+            }
+          ],
+          "pitfalls": [
+            "Avoid dropping すなわち into casual conversation to sum up an everyday problem (× {財布|さいふ}を{忘|わす}れた、すなわち{買|か}えない → ○ つまり{買|か}えない).",
+            "Neither すなわち nor つまり expresses simple cause-and-effect ('because A, therefore B happened')—for results use だから or そのため; use すなわち for A = B equivalence and つまり for summarizing."
+          ]
+        },
+        {
+          "id": "to-ieru",
+          "pattern": "〜と言える",
+          "pattern_ruby": "〜と{言|い}える",
+          "romaji": "~to ieru",
+          "meaning_en": "it can be said that ~; one can reasonably conclude that ~",
+          "register": "written",
+          "renshuu_status": "canonical_n3",
+          "mental_model": "Combining the potential form of {言|い}う ({言|い}える, 'can say') with quotative と yields 〜と{言|い}える: an objective, measured conclusion backed by evidence. Instead of sounding blunt or impulsive ('This project was a huge success!'), adding 〜と{言|い}える gives essays, reports, and presentations an analytical voice ('One can fairly say this project was a huge success'). Notice its strict copula rule: nouns and な-adjectives MUST keep だ (or だった) before と{言|い}える ({大成功|だいせいこう}だと{言|い}える). Its negative 〜とは{言|い}えない means 'cannot necessarily be called ~.'",
+          "formation": [
+            {
+              "pos": "{動詞|どうし}・い{形容詞|けいようし}{普通形|ふつうけい}",
+              "rule": "＋ と{言|い}える"
+            },
+            {
+              "pos": "な{形容詞|けいようし}・{名詞|めいし}",
+              "rule": "＋ だ（・だった）＋ と{言|い}える"
+            },
+            {
+              "pos": "{否定形|ひていけい}（{部分否定|ぶぶんひてい}）",
+              "rule": "〜とは{言|い}えない（{名詞|めいし}・な{形容詞|けいようし}は だ{不要|ふよう}）"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "{練習|れんしゅう}を{続|つづ}けたおかげで、チーム{全員|ぜんいん}のレベルが{上|あ}がったと{言|い}える。",
+              "structure_note": "{動詞|どうし}{普通形|ふつうけい}（{上|あ}がった）＋ と{言|い}える",
+              "en": "Thanks to continuing practice, it can be said that the whole team's level has risen."
+            },
+            {
+              "ja_ruby": "{今回|こんかい}のイベントは、{多|おお}くの{人|ひと}に{喜|よろこ}ばれたので、{大成功|だいせいこう}だと{言|い}える。",
+              "structure_note": "{名詞|めいし}（{大成功|だいせいこう}）＋ だ ＋ と{言|い}える",
+              "en": "Since many people enjoyed this event, it can be called a huge success."
+            },
+            {
+              "ja_ruby": "{毎日|まいにち}{少|すこ}しずつ{復習|ふくしゅう}することが、{合格|ごうかく}のために{最|もっと}も{効果的|こうかてき}だと{言|い}える。",
+              "structure_note": "な{形容詞|けいようし}（{効果的|こうかてき}）＋ だ ＋ と{言|い}える",
+              "en": "Reviewing a little bit every day can be said to be the most effective method for passing."
+            },
+            {
+              "ja_ruby": "この{製品|せいひん}は{値段|ねだん}は{安|やす}いが、{品質|ひんしつ}が{十分|じゅうぶん}に{良|よ}いとは{言|い}えない。",
+              "structure_note": "い{形容詞|けいようし} ＋ とは{言|い}えない（{評価|ひょうか}の{否定|ひてい}）",
+              "en": "Although this product is cheap, its quality cannot really be said to be good enough."
+            }
+          ],
+          "pitfalls": [
+            "Always attach だ after a な-adjective before と{言|い}える ({効果的|こうかてき}だと{言|い}える, × {効果的|こうかてき}なと{言|い}える), and include だ for declarative noun claims ({大成功|だいせいこう}だと{言|い}える, never の or な before と{言|い}える); note that the negative 〜とは{言|い}えない normally omits だ after nouns ({成功|せいこう}とは{言|い}えない).",
+            "Do not use 〜と{言|い}える for purely personal wishes or physical sensations (× おなかがすいたからラーメンが{食|た}べたいと{言|い}える); save it for reasoned evaluations."
+          ]
+        }
+      ],
+      "lesson_contrast": {
+        "title": "Four Information-Framing Expressions in Lesson 47",
+        "explanation": "Choose the right tool for the job depending on whether you are labeling a noun, defining a term, restating a point, or delivering an analytical judgment.",
+        "rows": [
+          {
+            "expression": "〜という＋{名詞|めいし}",
+            "register": "Neutral",
+            "key_rule": "Names an item (no だ) or packs a clausal claim into a content noun (N/なAdj takes だ).",
+            "example_short": "{転勤|てんきん}するという{話|はなし}を{聞|き}いた。"
+          },
+          {
+            "expression": "〜というのは〜のことだ / {意味|いみ}だ",
+            "register": "Neutral",
+            "key_rule": "Topic-marks a word/phrase; ことだ gives the referent (N＋の), {意味|いみ}だ gives lexical meaning.",
+            "example_short": "このマークは{撮影禁止|さつえいきんし}という{意味|いみ}だ。"
+          },
+          {
+            "expression": "すなわち・つまり",
+            "register": "Formal / Neutral",
+            "key_rule": "すなわち = exact written/logical equivalence (A = B); つまり = conversational summary.",
+            "example_short": "{首都|しゅと}、すなわち{東京|とうきょう}。つまり{中止|ちゅうし}だ。"
+          },
+          {
+            "expression": "〜と{言|い}える",
+            "register": "Written / Formal",
+            "key_rule": "Measured, evidence-based judgment; nouns and な-adjectives require だ before と{言|い}える.",
+            "example_short": "{今回|こんかい}は{大成功|だいせいこう}だと{言|い}える。"
+          }
+        ]
+      },
+      "practice_quiz": [
+        {
+          "question_id": "L47-Q1",
+          "question_type": "fill_blank",
+          "prompt_ja_ruby": "{山田|やまだ}さんから、{明日|あした}の{会議|かいぎ}が{一時|いちじ}からに{変更|へんこう}になった（　　　）メールが{届|とど}いた。",
+          "context_en": "Linking the clausal content of a message to the noun メール: 'An email arrived from Yamada saying tomorrow's meeting moved to 1 o'clock.'",
+          "choices": [
+            "というのは",
+            "と{言|い}える",
+            "という",
+            "すなわち"
+          ],
+          "correct_index": 2,
+          "explanation": "Correct: C (という). Plain clause {変更|へんこう}になった ＋ という directly attaches the message content to the noun メール. A (というのは) introduces a topic rather than modifying a noun; B (と{言|い}える) ends a predicate rather than linking to メール; D (すなわち) is an independent conjunction and cannot connect a clause to a noun."
+        },
+        {
+          "question_id": "L47-Q2",
+          "question_type": "nuance_choice",
+          "prompt_ja_ruby": "{兄|あに}「{電車|でんしゃ}が{止|と}まったし、タクシーもつかまらないんだ。」 {妹|いもうと}「（　　　）、{今日|きょう}は{家|いえ}まで{歩|ある}くしかないってこと？」",
+          "context_en": "Summarizing a sibling's problem in casual conversation: 'In other words, does that mean we have no choice but to walk home today?'",
+          "choices": [
+            "つまり",
+            "すなわち",
+            "という",
+            "と{言|い}えて"
+          ],
+          "correct_index": 0,
+          "explanation": "Correct: A (つまり). つまり naturally summarizes someone's explanation into a practical takeaway in everyday conversation. B (すなわち) sounds overly stiff and formal/definitional for casual sibling dialogue; C (という) and D (と{言|い}えて) are ungrammatical sentence-initial connectors."
+        },
+        {
+          "question_id": "L47-Q3",
+          "question_type": "attachment_trap",
+          "prompt_ja_ruby": "{今回|こんかい}のプロジェクトは{目標|もくひょう}を{達成|たっせい}したので、（　　　）と{言|い}えるでしょう。",
+          "context_en": "Testing noun attachment before 〜と言える (to ieru): 'Since this project achieved its goal, one can probably call it a success.'",
+          "choices": [
+            "{成功|せいこう}の",
+            "{成功|せいこう}な",
+            "{成功|せいこう}で",
+            "{成功|せいこう}だ"
+          ],
+          "correct_index": 3,
+          "explanation": "Correct: D ({成功|せいこう}だ). Declarative nouns and な-adjectives take the plain copula だ before quotative と{言|い}える. A ({成功|せいこう}の) wrongly uses possessive の; B ({成功|せいこう}な) wrongly treats a noun as a noun-modifying な-adjective; C ({成功|せいこう}で) places conjunctive で before quotative と, which is ungrammatical."
+        },
+        {
+          "question_id": "L47-Q4",
+          "question_type": "star_order",
+          "prompt_ja_ruby": "「{手土産|てみやげ}」＿　＿　★　＿ことだ。",
+          "context_en": "Building a clear definition with 〜というのは〜のことだ: 'Temiyage refers to a gift you bring when visiting someone.'",
+          "choices": [
+            "{訪問|ほうもん}するときに",
+            "{持|も}っていく",
+            "というのは",
+            "{贈|おく}り{物|もの}の"
+          ],
+          "correct_index": 1,
+          "explanation": "Correct: B ({持|も}っていく). Full order: 「{手土産|てみやげ}」 というのは(1) {訪問|ほうもん}するときに(2) {持|も}っていく(3★) {贈|おく}り{物|もの}の(4) ことだ。というのは marks the term being defined, {訪問|ほうもん}するときに modifies {持|も}っていく, and {持|も}っていく modifies noun {贈|おく}り{物|もの}の before ことだ."
+        }
+      ]
+    },
+    {
+      "lesson_id": "L48",
+      "lesson_number": 48,
+      "renshuu_title": "Giving Examples",
+      "has_video": false,
+      "summary": "Introduce and group examples with precision: placing an item inside a broader category (A は B の{一|ひと}つだ), spotlighting the leading representative (〜をはじめ（として）), summarizing parallel examples under a category noun (〜といった＋{名詞|めいし}), and framing open lists cleanly ({例|たと}えば〜など / とか〜とか).",
+      "study_tip": "In Lesson 48, match each pattern to how it treats the example: A は B の{一|ひと}つだ classifies one member; 〜をはじめ crowns the #1 standout member; 〜といった＋{名詞|めいし} gathers peer examples before an umbrella noun; and 〜とか〜とか lets you list verb actions conversationally where 〜や〜など cannot.",
+      "grammar_points": [
+        {
+          "id": "wa-no-hitotsu",
+          "pattern": "A は B の一つだ",
+          "pattern_ruby": "A は B の{一|ひと}つだ",
+          "romaji": "A wa B no hitotsu da",
+          "meaning_en": "A is one of the Bs; A is one instance/example of category B",
+          "register": "neutral",
+          "renshuu_status": "verified_renshuu",
+          "mental_model": "A は B の{一|ひと}つだ cleanly assigns specific item A into broader category B: 'A is one of B.' Category B can be a concrete class of things or places ({観光地|かんこうち}の{一|ひと}つ), an abstract class of reasons or methods ({理由|りゆう}の{一|ひと}つ, {習慣|しゅうかん}の{一|ひと}つ), or a nominalized activity. Remember two semantic checks: B must represent a plural/broad group containing multiple candidates (never just one), and if both A and B refer directly to people, switch {一|ひと}つ to {一人|ひとり} ({選手|せんしゅ}の{一人|ひとり}だ). Adding として gives 〜の{一|ひと}つとして ('as one of...').",
+          "formation": [
+            {
+              "pos": "{基本形|きほんけい}（A ＝ {具体例|ぐたいれい}・B ＝ {分類|ぶんるい}）",
+              "rule": "A（{名詞|めいし}・〜こと）は B（{名詞|めいし}）の{一|ひと}つだ"
+            },
+            {
+              "pos": "{副詞的|ふくしてき}な{導入|どうにゅう}",
+              "rule": "B の{一|ひと}つとして、〜"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "{京都|きょうと}の{金閣寺|きんかくじ}は、{日本|にほん}で{最|もっと}も{有名|ゆうめい}な{観光地|かんこうち}の{一|ひと}つです。",
+              "structure_note": "{名詞|めいし} A は {名詞|めいし} B の{一|ひと}つです",
+              "en": "Kinkaku-ji in Kyoto is one of the most famous tourist spots in Japan."
+            },
+            {
+              "ja_ruby": "{早寝早起|はやねはやお}きは、{健康|けんこう}を{保|たも}つための{大切|たいせつ}な{習慣|しゅうかん}の{一|ひと}つだ。",
+              "structure_note": "{名詞|めいし} A は {修飾節|しゅうしょくせつ}＋{名詞|めいし} B の{一|ひと}つだ",
+              "en": "Going to bed early and waking up early is one important habit for maintaining health."
+            },
+            {
+              "ja_ruby": "ラーメンは、{世界中|せかいじゅう}で{人気|にんき}のある{日本|にほん}{料理|りょうり}の{一|ひと}つになってきた。",
+              "structure_note": "B の{一|ひと}つ ＋ になる（{変化|へんか}）",
+              "en": "Ramen has become one of the Japanese dishes popular all around the world."
+            },
+            {
+              "ja_ruby": "{環境|かんきょう}{問題|もんだい}への{対策|たいさく}の{一|ひと}つとして、レジ{袋|ぶくろ}の{有料化|ゆうりょうか}が{始|はじ}まった。",
+              "structure_note": "{名詞|めいし} B ＋ の{一|ひと}つとして",
+              "en": "Charging for plastic shopping bags began as one measure to address environmental problems."
+            }
+          ],
+          "pitfalls": [
+            "Do not use の{一|ひと}つだ when A and B directly designate people (× {佐藤|さとう}さんは{優秀|ゆうしゅう}な{社員|しゃいん}の{一|ひと}つだ → ○ の{一人|ひとり}だ); reserve {一|ひと}つ for things, places, habits, dishes, and reasons.",
+            "Keep the hierarchy in the right direction: A must be the specific member and B the broader category (× {果物|くだもの}はりんごの{一|ひと}つだ → ○ りんごは{果物|くだもの}の{一|ひと}つだ)."
+          ]
+        },
+        {
+          "id": "wo-hajime",
+          "pattern": "〜をはじめ（として）",
+          "pattern_ruby": "〜をはじめ（として）",
+          "romaji": "~wo hajime (toshite)",
+          "meaning_en": "starting with ~ (as the foremost example), as well as ...",
+          "register": "formal",
+          "renshuu_status": "canonical_n3",
+          "mental_model": "Literally 'taking X as the beginning,' 〜をはじめ（として） spotlights X as the undisputed #1 or flagship representative of a group, then broadens out to include other members (often marked with も, など, or {各地|かくち} / {多|おお}くの〜). Unlike 〜といった or 〜など, which list everyday equals, 〜をはじめ requires X to be prominent—such as a company president, a host country, or a signature landmark. To modify a noun directly, switch to 〜をはじめとする＋{名詞|めいし} ({東京|とうきょう}をはじめとする{大都市|だいとし}).",
+          "formation": [
+            {
+              "pos": "{名詞|めいし}（{代表例|だいひょうれい}）",
+              "rule": "＋ をはじめ / をはじめとして、〜（も・など）"
+            },
+            {
+              "pos": "{名詞修飾|めいししゅうしょく}",
+              "rule": "{名詞|めいし} ＋ をはじめとする ＋ {名詞|めいし}"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "{今年|ことし}の{大会|たいかい}には、{日本|にほん}をはじめ、アジア{各地|かくち}から{選手|せんしゅ}が{集|あつ}まった。",
+              "structure_note": "{代表|だいひょう}{名詞|めいし}（{日本|にほん}）＋ をはじめ、{広|ひろ}い{範囲|はんい}",
+              "en": "Athletes gathered for this year's tournament from all over Asia, starting with Japan."
+            },
+            {
+              "ja_ruby": "{駅前|えきまえ}の{再開発|さいかいはつ}により、デパートをはじめとして、ホテルやオフィスビルが{次々|つぎつぎ}と{建|た}てられた。",
+              "structure_note": "{名詞|めいし} ＋ をはじめとして ＋ {他|ほか}（ホテルやビル）",
+              "en": "Through redevelopment in front of the station, starting with a department store, hotels and office buildings were built one after another."
+            },
+            {
+              "ja_ruby": "{田中|たなか}{部長|ぶちょう}をはじめとするプロジェクトチームのメンバーが{表彰|ひょうしょう}された。",
+              "structure_note": "{名詞|めいし} ＋ をはじめとする ＋ {名詞|めいし}（メンバー）",
+              "en": "The project team members, led by Department Manager Tanaka, were honored with an award."
+            },
+            {
+              "ja_ruby": "{英語|えいご}をはじめ、{外国語|がいこくご}を{身|み}につけるには{毎日|まいにち}の{積|つ}み{重|かさ}ねが{欠|か}かせない。",
+              "structure_note": "{名詞|めいし}（{英語|えいご}）＋ をはじめ ＋ {上位名詞|じょういめいし}（{外国語|がいこくご}）",
+              "en": "Daily steady effort is indispensable for mastering foreign languages, starting with English."
+            }
+          ],
+          "pitfalls": [
+            "〜をはじめ（として） attaches strictly to nouns (× {走|はし}るをはじめ → ○ ランニングをはじめ), and modifying a following noun requires をはじめとする (× {東京|とうきょう}をはじめ{都市|とし} → ○ {東京|とうきょう}をはじめとする{大都市|だいとし}).",
+            "Ensure X is genuinely a leading or primary representative of the set, and include broader scope or additional items afterward rather than isolating X alone."
+          ]
+        },
+        {
+          "id": "to-itta-noun",
+          "pattern": "〜といった＋名詞",
+          "pattern_ruby": "〜といった＋{名詞|めいし}",
+          "romaji": "~to itta + Noun",
+          "meaning_en": "such ~ as ...; (things) like A and B",
+          "register": "neutral",
+          "renshuu_status": "canonical_n3",
+          "mental_model": "Picture dropping two or three typical examples onto the table (A や B) and wrapping a clean umbrella label around them (といった＋{名詞|めいし}): りんごやみかんといった{果物|くだもの} ('fruits such as apples and mandarins'). Coming from {言|い}う ('things one would call...'), 〜といった feels crisp and explanatory, putting examples on equal footing rather than elevating one as #1 like 〜をはじめ. Use it whenever you want to illustrate a category noun cleanly in speech or writing.",
+          "formation": [
+            {
+              "pos": "{名詞|めいし}（{複数例|ふくすうれい}）",
+              "rule": "A や B ＋ といった ＋ {総称名詞|そうしょうめいし}（C）"
+            },
+            {
+              "pos": "{単一|たんいつ}の{例|れい}",
+              "rule": "A ＋ といった ＋ {総称名詞|そうしょうめいし}（C）"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "この{地域|ちいき}では、りんごやみかんといった{果物|くだもの}がたくさん{育|そだ}つ。",
+              "structure_note": "{例|れい}（りんごやみかん）＋ といった ＋ {上位名詞|じょういめいし}（{果物|くだもの}）",
+              "en": "Fruits such as apples and mandarins grow abundantly in this region."
+            },
+            {
+              "ja_ruby": "{地震|じしん}や{台風|たいふう}といった{自然|しぜん}{災害|さいがい}に{備|そな}えて、{水|みず}や{食料|しょくりょう}を{用意|ようい}している。",
+              "structure_note": "{例|れい}（{地震|じしん}や{台風|たいふう}）＋ といった ＋ {名詞|めいし}（{自然|しぜん}{災害|さいがい}）",
+              "en": "In preparation for natural disasters like earthquakes and typhoons, I keep water and food ready."
+            },
+            {
+              "ja_ruby": "ピアノやギターといった{楽器|がっき}が{弾|ひ}けると、{趣味|しゅみ}の{幅|はば}が{広|ひろ}がる。",
+              "structure_note": "{例|れい}（ピアノやギター）＋ といった ＋ {名詞|めいし}（{楽器|がっき}）",
+              "en": "Being able to play musical instruments such as the piano and guitar broadens the range of your hobbies."
+            },
+            {
+              "ja_ruby": "{時間|じかん}を{守|まも}ることや{丁寧|ていねい}な{挨拶|あいさつ}といった{基本|きほん}が{社会人|しゃかいじん}には{大切|たいせつ}だ。",
+              "structure_note": "{名詞句|めいしく}（〜ことや〜）＋ といった ＋ {名詞|めいし}（{基本|きほん}）",
+              "en": "Basics such as keeping time and greeting politely are important for working adults."
+            }
+          ],
+          "pitfalls": [
+            "〜といった MUST be followed immediately by a summarizing category noun; never leave it at the end of a sentence without a noun (× りんごやみかんといったです → ○ りんごやみかんといった{果物|くだもの}です).",
+            "Do not confuse 〜といった ('examples such as...') with past-tense 〜と{言|い}った ('said that...') or Lesson 49's 〜といったら ('speaking of...')."
+          ]
+        },
+        {
+          "id": "tatoeba-toka",
+          "pattern": "例えば〜など / とか〜とか",
+          "pattern_ruby": "{例|たと}えば〜など / とか〜とか",
+          "romaji": "tatoeba ~ nado / ~toka ~toka",
+          "meaning_en": "for example ~ (and so on); things like ~ and ~",
+          "register": "neutral",
+          "renshuu_status": "canonical_n3",
+          "mental_model": "These two framing patterns signal that your list is illustrative rather than exhaustive. {例|たと}えば〜など sets a clean, structured frame suited to explanations and writing: {例|たと}えば signals 'for instance' upfront, and など closes the sample neatly. Meanwhile, 〜とか〜とか is relaxed and conversational ('things like A, B, and what not'). Its superpower over 〜や〜など is grammar flexibility: while や links ONLY nouns, 〜とか〜とか directly links both nouns AND plain-form verbs or adjectives ({泳|およ}ぐとか{走|はし}るとか).",
+          "formation": [
+            {
+              "pos": "{例|たと}えば〜など（{整理|せいり}・{説明|せつめい}）",
+              "rule": "{例|たと}えば ＋ A や B ＋ など"
+            },
+            {
+              "pos": "〜とか〜とか（{名詞|めいし}・{会話|かいわ}）",
+              "rule": "{名詞|めいし} A ＋ とか ＋ {名詞|めいし} B ＋ とか"
+            },
+            {
+              "pos": "〜とか〜とか（{動詞|どうし}・{形容詞|けいようし}）",
+              "rule": "{普通形|ふつうけい} A ＋ とか ＋ {普通形|ふつうけい} B ＋ とか（する）"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "{日本|にほん}の{春|はる}には、{例|たと}えば{花見|はなみ}や{入学式|にゅうがくしき}など、さまざまな{行事|ぎょうじ}がある。",
+              "structure_note": "{例|たと}えば ＋ {名詞|めいし} A や B ＋ など",
+              "en": "In spring in Japan, there are various events such as cherry-blossom viewing and entrance ceremonies, for example."
+            },
+            {
+              "ja_ruby": "{健康|けんこう}のために、{例|たと}えば{毎日|まいにち}{一駅|ひとえき}{歩|ある}くことなどを{心|こころ}がけている。",
+              "structure_note": "{例|たと}えば ＋ {名詞句|めいしく}（〜こと）＋ など",
+              "en": "For my health, I try to do things like walking one extra station every day, for example."
+            },
+            {
+              "ja_ruby": "{週末|しゅうまつ}はよく、スーパーで{野菜|やさい}とかお{菓子|かし}とかをまとめて{買|か}う。",
+              "structure_note": "{名詞|めいし} ＋ とか ＋ {名詞|めいし} ＋ とか",
+              "en": "On weekends, I often buy things like vegetables and snacks in bulk at the supermarket."
+            },
+            {
+              "ja_ruby": "{夏休|なつやす}みは{海|うみ}で{泳|およ}ぐとか、{山|やま}へキャンプに{行|い}くとか、いろいろ{計画|けいかく}している。",
+              "structure_note": "{動詞|どうし}{辞書形|じしょけい} ＋ とか ＋ {動詞|どうし}{辞書形|じしょけい} ＋ とか",
+              "en": "For summer vacation, I am planning various things like swimming in the ocean and going camping in the mountains."
+            }
+          ],
+          "pitfalls": [
+            "Never link bare verbs with や (× {歌|うた}うや{踊|おど}るなど); either switch to 〜とか〜とか ({歌|うた}うとか{踊|おど}るとか) or nominalize both verbs with こと ({歌|うた}うことや{踊|おど}ることなど).",
+            "Avoid using 〜とか〜とか in formal essays, academic reports, or business speeches; choose {例|たと}えば〜など or 〜といった＋{名詞|めいし} instead."
+          ]
+        }
+      ],
+      "lesson_contrast": {
+        "title": "Four Ways to Give Examples in Lesson 48",
+        "explanation": "Pick the structure that matches whether you are categorizing one item, highlighting a #1 representative, grouping nouns under an umbrella label, or chatting through verb options.",
+        "rows": [
+          {
+            "expression": "A は B の{一|ひと}つだ",
+            "register": "Neutral",
+            "key_rule": "Places single item A inside broader group B (use の{一人|ひとり}だ when referring to people).",
+            "example_short": "ラーメンは{日本料理|にほんりょうり}の{一|ひと}つだ。"
+          },
+          {
+            "expression": "〜をはじめ（として）",
+            "register": "Formal",
+            "key_rule": "Noun only; crowns the #1 representative before mentioning others (〜をはじめとする＋N).",
+            "example_short": "{日本|にほん}をはじめ{各国|かっこく}から{集|あつ}まった。"
+          },
+          {
+            "expression": "〜といった＋{名詞|めいし}",
+            "register": "Neutral",
+            "key_rule": "Lists peer examples (A や B) directly before a summarizing category noun C.",
+            "example_short": "りんごやみかんといった{果物|くだもの}。"
+          },
+          {
+            "expression": "{例|たと}えば〜など / とか〜とか",
+            "register": "Neutral / Casual",
+            "key_rule": "{例|たと}えば〜など frames crisp lists; とか〜とか conversationally links nouns or plain verbs.",
+            "example_short": "{海|うみ}で{泳|およ}ぐとかキャンプに{行|い}くとか。"
+          }
+        ]
+      },
+      "practice_quiz": [
+        {
+          "question_id": "L48-Q1",
+          "question_type": "nuance_choice",
+          "prompt_ja_ruby": "{今回|こんかい}の{国際|こくさい}{会議|かいぎ}には、{開催国|かいさいこく}の{日本|にほん}（　　　）、{世界|せかい}{各国|かっこく}から{代表|だいひょう}が{集|あつ}まった。",
+          "context_en": "Highlighting the host nation as the foremost member of a broader group: 'Starting with the host country Japan, representatives gathered from around the world.'",
+          "choices": [
+            "の{一|ひと}つとして",
+            "という{意味|いみ}で",
+            "といった{点|てん}で",
+            "をはじめ"
+          ],
+          "correct_index": 3,
+          "explanation": "Correct: D (をはじめ). 〜をはじめ spotlights {日本|にほん} as the primary/leading representative ({開催国|かいさいこく}の{日本|にほん}) before expanding to representatives from {世界|せかい}{各国|かっこく}. A (の{一|ひと}つとして) treats Japan merely as an ordinary instance rather than leading off a broader list; B (という{意味|いみ}で) introduces a meaning/sense; C (といった{点|てん}で) narrows to an example aspect rather than a host nation."
+        },
+        {
+          "question_id": "L48-Q2",
+          "question_type": "attachment_trap",
+          "prompt_ja_ruby": "{休|やす}みの{日|ひ}は、{部屋|へや}で{本|ほん}を（　　　）、{好|す}きなように{過|す}ごしている。",
+          "context_en": "Testing example connectors with verb actions: 'On days off, I spend time however I like, doing things like reading books and watching movies in my room.'",
+          "choices": [
+            "{読|よ}むとか{映画|えいが}を{見|み}るとかして",
+            "{読|よ}むや{映画|えいが}を{見|み}るなどして",
+            "{読|よ}むといった{映画|えいが}を{見|み}るなどして",
+            "{読|よ}むをはじめ{映画|えいが}を{見|み}るなどして"
+          ],
+          "correct_index": 0,
+          "explanation": "Correct: A ({読|よ}むとか{映画|えいが}を{見|み}るとかして). Only とか〜とか can link plain-form verb phrases directly before して. B wrongly joins verbs with noun-only particle や; C wrongly inserts といった (which requires a category noun, not an action clause); D wrongly attaches noun-only をはじめ to a verb."
+        },
+        {
+          "question_id": "L48-Q3",
+          "question_type": "fill_blank",
+          "prompt_ja_ruby": "{富士山|ふじさん}は、{世界中|せかいじゅう}の{旅行者|りょこうしゃ}に{愛|あい}されている{日本|にほん}の（　　　）。",
+          "context_en": "Identifying Mount Fuji as one member of a broad category: 'Mount Fuji is one of Japan's tourist destinations loved by travelers worldwide.'",
+          "choices": [
+            "{観光地|かんこうち}をはじめ",
+            "{観光地|かんこうち}といった",
+            "{観光地|かんこうち}の{一|ひと}つだ",
+            "{観光地|かんこうち}のことだ"
+          ],
+          "correct_index": 2,
+          "explanation": "Correct: C ({観光地|かんこうち}の{一|ひと}つだ). A は B の{一|ひと}つだ cleanly identifies Mount Fuji as one member of Japan's tourist spots. A (をはじめ) cannot end a predicate and implies further items follow; B (といった) must precede an umbrella noun; D (のことだ) defines a word rather than classifying an instance."
+        },
+        {
+          "question_id": "L48-Q4",
+          "question_type": "star_order",
+          "prompt_ja_ruby": "{高橋|たかはし}さんは＿　＿　★　＿を{集|あつ}めるのが{趣味|しゅみ}だ。",
+          "context_en": "Grouping specific items before a category noun with 〜といった＋名詞: 'Takahashi's hobby is collecting tableware such as cups and plates.'",
+          "choices": [
+            "{食器|しょっき}",
+            "といった",
+            "カップや",
+            "お{皿|さら}"
+          ],
+          "correct_index": 1,
+          "explanation": "Correct: B (といった). Full order: カップや(1) お{皿|さら}(2) といった(3★) {食器|しょっき}(4) を{集|あつ}める。カップや must precede the second example お{皿|さら}, and といった immediately bridges those examples to the umbrella category noun {食器|しょっき} before を."
+        }
+      ]
+    },
+    {
+      "lesson_id": "L49",
+      "lesson_number": 49,
+      "renshuu_title": "Considering",
+      "has_video": false,
+      "summary": "Consider topics, unexpected contrasts, and evaluative viewpoints cleanly: instant topic recall (〜といえば / といったら / というと), unexpected gap vs. a specific status (〜にしては), unexpected gap vs. a general scale (〜わりに（は）), and perspective or scope markers (〜から{言|い}うと / から{見|み}ると / からすると・〜は{別|べつ}として).",
+      "study_tip": "Lesson 49 hides one classic JLPT attachment trap: after a Noun, 〜にしては takes NO particle ({初心者|しょしんしゃ}にしては), whereas 〜わりに（は） REQUIRES の ({値段|ねだん}のわりに) and な-adjectives take な ({簡単|かんたん}なわりに). Drill those two noun links side by side until automatic.",
+      "grammar_points": [
+        {
+          "id": "to-ieba-to-iuto",
+          "pattern": "〜といえば / といったら / というと",
+          "pattern_ruby": "〜といえば / といったら / というと",
+          "romaji": "~to ieba / ~to ittara / ~to iu to",
+          "meaning_en": "speaking of ~; when you mention ~ (instant association or topic pivot)",
+          "register": "neutral",
+          "renshuu_status": "verified_renshuu",
+          "mental_model": "All three take a noun topic X and express what immediately comes to mind when X is mentioned, yet each colors the turn differently. 〜といえば is the everyday all-rounder for free association ('Speaking of Kyoto, it's temples!') or pivoting a conversation (そういえば, 'Come to think of it...'). 〜といったら adds strong emotional punch to spotlight an extreme standout ('When it comes to summer treats, nothing beats watermelon!'). 〜というと seeks confirmation or traces a canonical mental link ('When you say traditional Kyoto buildings, do you mean Kinkaku-ji?').",
+          "formation": [
+            {
+              "pos": "{名詞|めいし}（{話題|わだい}・テーマ）",
+              "rule": "＋ といえば / といったら / というと"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "{秋|あき}の{味覚|みかく}といえば、やはりさんまや{栗|くり}が{思|おも}い{浮|う}かぶ。",
+              "structure_note": "{名詞|めいし}（{秋|あき}の{味覚|みかく}）＋ といえば（{連想|れんそう}）",
+              "en": "Speaking of autumn flavors, saury and chestnuts definitely come to mind."
+            },
+            {
+              "ja_ruby": "「{明日|あした}から{連休|れんきゅう}だね。」「そういえば、{佐藤|さとう}さんは{旅行|りょこう}に{行|い}くって{言|い}っていたよ。」",
+              "structure_note": "そういえば（{話題|わだい}の{転換|てんかん}）",
+              "en": "'Starting tomorrow it's a long weekend.' 'Oh, come to think of it, Sato said he was going on a trip.'"
+            },
+            {
+              "ja_ruby": "{夏|なつ}の{暑|あつ}い{日|ひ}の{楽|たの}しみといったら、{冷|つめ}たいアイスを{食|た}べることに{限|かぎ}る。",
+              "structure_note": "{名詞|めいし} ＋ といったら（{強調|きょうちょう}・{代表|だいひょう}）",
+              "en": "When it comes to pleasures on a hot summer day, nothing beats eating cold ice cream."
+            },
+            {
+              "ja_ruby": "「{京都|きょうと}の{伝統的|でんとうてき}な{建物|たてもの}」というと、やはり{金閣寺|きんかくじ}や{清水寺|きよみずでら}を{思|おも}い{出|だ}します。",
+              "structure_note": "{引用名詞|いんようめいし} ＋ というと（{確認|かくにん}・{連想|れんそう}）",
+              "en": "When you say 'traditional buildings in Kyoto,' Kinkaku-ji and Kiyomizu-dera naturally come to mind."
+            }
+          ],
+          "pitfalls": [
+            "Do not use 〜というと to change the subject abruptly to a loosely triggered memory (× 「もう{五時|ごじ}だね」「というと、{帰|かえ}らなきゃ」 → ○ そういえば or それなら).",
+            "Keep 〜といったら ('speaking of X, wow...') separate from Lesson 48's 〜といった＋{名詞|めいし} ('examples such as X')."
+          ]
+        },
+        {
+          "id": "ni-shite-wa",
+          "pattern": "〜にしては",
+          "pattern_ruby": "〜にしては",
+          "romaji": "~ni shite wa",
+          "meaning_en": "for ~; considering someone or something is ~ (unexpected gap vs. a specific status)",
+          "register": "neutral",
+          "renshuu_status": "canonical_n3",
+          "mental_model": "〜にしては signals genuine surprise that reality does not match a specific identity, membership, season, or concrete condition X: 'For a beginner, Suzuki plays really well!' or 'For December in Hokkaido, it is unusually warm!' Its #1 JLPT attachment rule is absolute: bare Nouns attach DIRECTLY with ZERO particle—never insert の or だ ({初心者|しょしんしゃ}にしては, NEVER {初心者|しょしんしゃ}のにしては). Also avoid pairing it with abstract scale nouns like {値段|ねだん} or {年齢|ねんれい}; those belong exclusively to 〜のわりに.",
+          "formation": [
+            {
+              "pos": "{名詞|めいし}（{特定|とくてい}の{立場|たちば}・{時期|じき}）",
+              "rule": "＋ にしては（の・だは{絶対|ぜったい}{不要|ふよう}）"
+            },
+            {
+              "pos": "{動詞|どうし}・い{形容詞|けいようし}{普通形|ふつうけい}",
+              "rule": "＋ にしては"
+            },
+            {
+              "pos": "な{形容詞|けいようし}{語幹|ごかん}（まれ）",
+              "rule": "＋ にしては（{状態|じょうたい}にはわりにを{優先|ゆうせん}）"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "{鈴木|すずき}さんはまだ{初心者|しょしんしゃ}にしては、ギターがとても{上手|じょうず}だ。",
+              "structure_note": "{裸|はだか}の{名詞|めいし}（{初心者|しょしんしゃ}）＋ にしては（の{不要|ふよう}）",
+              "en": "For a beginner, Suzuki is very good at playing the guitar."
+            },
+            {
+              "ja_ruby": "{十二月|じゅうにがつ}の{北海道|ほっかいどう}にしては、{今日|きょう}は{珍|めずら}しく{暖|あたた}かい。",
+              "structure_note": "{名詞|めいし}（{十二月|じゅうにがつ}の{北海道|ほっかいどう}）＋ にしては",
+              "en": "For Hokkaido in December, today is unusually warm."
+            },
+            {
+              "ja_ruby": "{半年|はんとし}しか{練習|れんしゅう}していないにしては、{美咲|みさき}さんの{発音|はつおん}はきれいだ。",
+              "structure_note": "{動詞|どうし}{普通形|ふつうけい}（{練習|れんしゅう}していない）＋ にしては",
+              "en": "Considering she has only practiced for half a year, Misaki's pronunciation is very clear."
+            },
+            {
+              "ja_ruby": "{急|いそ}いで{作|つく}ったにしては、なかなか{見|み}た{目|め}もよくできている。",
+              "structure_note": "{動詞|どうし}た{形|けい}（{作|つく}った）＋ にしては",
+              "en": "For something made in a hurry, it turned out looking pretty good too."
+            }
+          ],
+          "pitfalls": [
+            "NEVER insert の or だ after a noun before にしては (× {初心者|しょしんしゃ}のにしては, × {初心者|しょしんしゃ}だにしては → ○ {初心者|しょしんしゃ}にしては).",
+            "Do not use 〜にしては with abstract scale or degree nouns like {値段|ねだん}, {年齢|ねんれい}, or {量|りょう} (× {値段|ねだん}にしては → ○ {値段|ねだん}のわりに); use にしては for concrete figures ({五百円|ごひゃくえん}にしては) or specific categories ({子供|こども}にしては)."
+          ]
+        },
+        {
+          "id": "wari-ni",
+          "pattern": "〜わりに（は）",
+          "pattern_ruby": "〜わりに（は）",
+          "romaji": "~wari ni (wa)",
+          "meaning_en": "considering ~; relatively ~ for the cost/effort/degree (unexpected gap vs. a scale)",
+          "register": "neutral",
+          "renshuu_status": "canonical_n3",
+          "mental_model": "Derived from わり ('ratio / proportion'), 〜わりに（は） weighs reality against a general scale, cost, effort, or degree: 'Considering the price, the portions are generous!' or 'For someone who doesn't exercise much, Takahashi has great stamina!' Remember the mirror-image attachment rule against 〜にしては: Nouns REQUIRE の ({値段|ねだん}のわりに) and な-adjectives REQUIRE な ({丈夫|じょうぶ}なわりに), while verbs and い-adjectives attach in plain form. Never use it when the outcome matches normal expectations.",
+          "formation": [
+            {
+              "pos": "{名詞|めいし}（{尺度|しゃくど}・{価格|かかく}・{年齢|ねんれい}など）",
+              "rule": "＋ の ＋ わりに（は）"
+            },
+            {
+              "pos": "な{形容詞|けいようし}",
+              "rule": "＋ な ＋ わりに（は）"
+            },
+            {
+              "pos": "{動詞|どうし}・い{形容詞|けいようし}{普通形|ふつうけい}",
+              "rule": "＋ わりに（は）"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "このレストランは{値段|ねだん}のわりに、ボリュームがあっておいしい。",
+              "structure_note": "{名詞|めいし}（{値段|ねだん}）＋ の ＋ わりに",
+              "en": "Considering the price, this restaurant has generous portions and tastes delicious."
+            },
+            {
+              "ja_ruby": "このバッグは{軽|かる}くて{丈夫|じょうぶ}なわりに、{意外|いがい}と{手|て}ごろな{価格|かかく}だ。",
+              "structure_note": "な{形容詞|けいようし}（{丈夫|じょうぶ}）＋ な ＋ わりに",
+              "en": "For how light and sturdy this bag is, it is surprisingly reasonably priced."
+            },
+            {
+              "ja_ruby": "{高橋|たかはし}さんはあまり{運動|うんどう}しないわりには、いつも{元気|げんき}で{体力|たいりょく}がある。",
+              "structure_note": "{動詞|どうし}ない{形|けい}（{運動|うんどう}しない）＋ わりには",
+              "en": "Considering Takahashi doesn't exercise much, he is always energetic and has stamina."
+            },
+            {
+              "ja_ruby": "{駅|えき}から{遠|とお}いわりに、このマンションの{家賃|やちん}は{少|すこ}し{高|たか}い。",
+              "structure_note": "い{形容詞|けいようし}（{遠|とお}い）＋ わりに",
+              "en": "Considering how far it is from the station, the rent for this apartment is a bit high."
+            }
+          ],
+          "pitfalls": [
+            "Never drop の after a noun (× {値段|ねだん}わりに → ○ {値段|ねだん}のわりに) or な after a な-adjective (× {丈夫|じょうぶ}わりに → ○ {丈夫|じょうぶ}なわりに)—the exact reverse of bare-noun 〜にしては.",
+            "Do not use 〜わりに（は） when B is the expected, logical result of A (× よく{勉強|べんきょう}したわりにいい{点|てん}を{取|と}った → ○ {勉強|べんきょう}しただけあって)."
+          ]
+        },
+        {
+          "id": "kara-iuto-betsutoshite",
+          "pattern": "〜から言うと / から見ると / からすると・〜は別として",
+          "pattern_ruby": "〜から{言|い}うと / から{見|み}ると / からすると・〜は{別|べつ}として",
+          "romaji": "~kara iu to / ~kara miru to / ~kara suru to · ~wa betsu to shite",
+          "meaning_en": "speaking from ~'s perspective / judging from ~; setting ~ aside",
+          "register": "neutral",
+          "renshuu_status": "canonical_n3",
+          "mental_model": "These noun-based framing tools define which lens you are looking through—or which factor you are deliberately leaving out. 〜から{言|い}うと (also {言|い}えば / {言|い}って) evaluates from a criterion or standpoint ('speaking in terms of budget'). 〜から{見|み}ると (also {見|み}れば / {見|み}て) views the situation from another person's vantage point ('from an adult's viewpoint'). 〜からすると (also すれば) draws an inference from visible clues ('judging from her expression'). Finally, 〜は{別|べつ}として sets one factor aside ('price aside') so you can judge the remaining points fairly.",
+          "formation": [
+            {
+              "pos": "{名詞|めいし}（{視点|してん}・{基準|きじゅん}・{手|て}がかり）",
+              "rule": "＋ から{言|い}うと / から{見|み}ると / からすると"
+            },
+            {
+              "pos": "{名詞|めいし}（{除外|じょがい}する{要素|ようそ}）・〜かどうか",
+              "rule": "＋ は{別|べつ}として"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "{予算|よさん}から{言|い}うと、{今年|ことし}の{夏|なつ}は{海外|かいがい}{旅行|りょこう}より{国内|こくない}{旅行|りょこう}のほうが{現実的|げんじつてき}だ。",
+              "structure_note": "{名詞|めいし}（{予算|よさん}）＋ から{言|い}うと（{基準|きじゅん}）",
+              "en": "Speaking from a budget standpoint, domestic travel is more realistic than overseas travel this summer."
+            },
+            {
+              "ja_ruby": "{大人|おとな}から{見|み}ると{簡単|かんたん}な{問題|もんだい}でも、{小学生|しょうがくせい}には{難|むずか}しいことがある。",
+              "structure_note": "{名詞|めいし}（{大人|おとな}）＋ から{見|み}ると（{視点|してん}）",
+              "en": "Even problems that look easy from an adult's perspective can be difficult for elementary school students."
+            },
+            {
+              "ja_ruby": "{佐藤|さとう}さんの{今|いま}の{表情|ひょうじょう}からすると、{面接|めんせつ}はうまくいったようだ。",
+              "structure_note": "{名詞|めいし}（{表情|ひょうじょう}）＋ からすると（{根拠|こんきょ}による{推測|すいそく}）",
+              "en": "Judging from Sato's expression right now, the interview seems to have gone well."
+            },
+            {
+              "ja_ruby": "{味|あじ}は{別|べつ}として、この{店|みせ}の{店員|てんいん}さんのサービスは{本当|ほんとう}に{丁寧|ていねい}だ。",
+              "structure_note": "{名詞|めいし}（{味|あじ}）＋ は{別|べつ}として（{一旦|いったん}{除外|じょがい}）",
+              "en": "Setting the taste aside, the staff's service at this shop is genuinely polite."
+            }
+          ],
+          "pitfalls": [
+            "All four structures attach directly to nouns without の or で (× {予算|よさん}のから{言|い}うと → ○ {予算|よさん}から{言|い}うと).",
+            "Separate 〜から{見|み}ると (an observer's viewpoint, like {親|おや}から{見|み}ると) from 〜からすると (inferring from evidence/clues, like {足音|あしおと}からすると), and never follow 〜は{別|べつ}として by immediately praising or criticizing that very same excluded item."
+          ]
+        }
+      ],
+      "lesson_contrast": {
+        "title": "Perspective & Unexpected-Gap Markers in Lesson 49",
+        "explanation": "Compare how Lesson 49 markers introduce a mental association, contrast reality against two kinds of standards, or set an analytical viewpoint.",
+        "rows": [
+          {
+            "expression": "〜といえば / といったら / というと",
+            "register": "Neutral",
+            "key_rule": "といえば = recall/pivot; といったら = vivid standout; というと = logical link/clarification.",
+            "example_short": "{秋|あき}の{味覚|みかく}といえばさんまだ。"
+          },
+          {
+            "expression": "〜にしては",
+            "register": "Neutral",
+            "key_rule": "Bare Noun ONLY (NO の, NO だ) ＋ にしては; unexpected gap vs. a specific status/category.",
+            "example_short": "{初心者|しょしんしゃ}にしてはとても{上手|じょうず}だ。"
+          },
+          {
+            "expression": "〜わりに（は）",
+            "register": "Neutral",
+            "key_rule": "REQUIRES Noun＋の or な-Adj＋な ＋ わりに; unexpected gap vs. a general scale/cost.",
+            "example_short": "{値段|ねだん}のわりにボリュームがある。"
+          },
+          {
+            "expression": "〜から{言|い}うと・は{別|べつ}として",
+            "register": "Neutral",
+            "key_rule": "Noun＋から{言|い}うと/{見|み}ると/すると sets viewpoint or clue; は{別|べつ}として sets X aside.",
+            "example_short": "{味|あじ}は{別|べつ}としてサービスが{良|よ}い。"
+          }
+        ]
+      },
+      "practice_quiz": [
+        {
+          "question_id": "L49-Q1",
+          "question_type": "attachment_trap",
+          "prompt_ja_ruby": "{田中|たなか}さんはまだ{初心者|しょしんしゃ}（　　　）、テニスがとても{上手|じょうず}だ。",
+          "context_en": "Testing bare-noun attachment before 〜にしては: 'For a beginner, Tanaka is very good at tennis.'",
+          "choices": [
+            "のにしては",
+            "だにしては",
+            "にしては",
+            "なにしては"
+          ],
+          "correct_index": 2,
+          "explanation": "Correct: C (にしては). Nouns attach directly to にしては with zero linking particle ({初心者|しょしんしゃ}にしては). A (のにしては) wrongly inserts の (confusing it with 〜のわりに); B (だにしては) wrongly adds copula だ; D (なにしては) wrongly treats a noun as a な-adjective."
+        },
+        {
+          "question_id": "L49-Q2",
+          "question_type": "fill_blank",
+          "prompt_ja_ruby": "このパソコンは{値段|ねだん}（　　　）、{性能|せいのう}がすごく{良|よ}い。",
+          "context_en": "Contrasting performance against a general cost scale: 'Considering the price, this computer has really good performance.'",
+          "choices": [
+            "にしては",
+            "のわりに",
+            "といえば",
+            "といったら"
+          ],
+          "correct_index": 1,
+          "explanation": "Correct: B (のわりに). General scale/degree nouns like {値段|ねだん} require の before わりに to show an unexpected bargain relative to cost. A (にしては) cannot attach to general scale nouns like {値段|ねだん} (only specific amounts like {五万円|ごまんえん}にしては); C (といえば) introduces a topic association rather than a price-vs-performance contrast; D (といったら) introduces an exclamation/standout topic rather than a cost-vs-quality gap."
+        },
+        {
+          "question_id": "L49-Q3",
+          "question_type": "nuance_choice",
+          "prompt_ja_ruby": "この{曲|きょく}は、{歌|うた}がうまいかどうか（　　　）、メロディーがとてもきれいですね。",
+          "context_en": "Setting one criterion aside to evaluate another: 'Setting aside whether the singing is good or not, the melody of this song is really pretty.'",
+          "choices": [
+            "は{別|べつ}として",
+            "から{見|み}ると",
+            "にしては",
+            "のわりに"
+          ],
+          "correct_index": 0,
+          "explanation": "Correct: A (は{別|べつ}として). 〜は{別|べつ}として smoothly sets aside an embedded question ({歌|うた}がうまいかどうか) to praise the melody independently. B (から{見|み}ると), C (にしては), and D (のわりに) cannot attach directly to 〜かどうか and fail to express setting one criterion aside."
+        },
+        {
+          "question_id": "L49-Q4",
+          "question_type": "star_order",
+          "prompt_ja_ruby": "{日本|にほん}の{春|はる}＿　＿　★　＿が{多|おお}いのではないでしょうか。",
+          "context_en": "Expressing instant association with 〜といえば: 'Speaking of spring in Japan, aren't there many people who recall cherry blossoms in full bloom?'",
+          "choices": [
+            "といえば",
+            "{人|ひと}",
+            "{満開|まんかい}の{桜|さくら}を",
+            "{思|おも}い{出|だ}す"
+          ],
+          "correct_index": 3,
+          "explanation": "Correct: D ({思|おも}い{出|だ}す). Full order: {日本|にほん}の{春|はる} といえば(1) {満開|まんかい}の{桜|さくら}を(2) {思|おも}い{出|だ}す(3★) {人|ひと}(4) が{多|おお}いのではないでしょうか。といえば immediately follows topic {日本|にほん}の{春|はる}, and {満開|まんかい}の{桜|さくら}を{思|おも}い{出|だ}す modifies noun {人|ひと} before が{多|おお}い。"
+        }
+      ]
+    }
+  ]
+}

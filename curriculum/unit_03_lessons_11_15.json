@@ -1,0 +1,1357 @@
+{
+  "unit_number": 3,
+  "unit_slug": "unit-03-examples-emphasis-negation",
+  "unit_title": "Unit 3: Vagueness, Emphasis, Negation & Extent (Lessons 11–15)",
+  "unit_overview": "Master Renshuu N3 Lessons 11–15: non-exhaustive/emotive markers (など・なんて・なんか), exclamatory and emphatic patterns (ことか, ことに, こそ, からこそ), intensified and conditional negation, and expanded proportional/comparative uses of ほど.",
+  "lessons": [
+    {
+      "lesson_id": "L11",
+      "lesson_number": 11,
+      "renshuu_title": "Using など・なんて・なんか",
+      "has_video": false,
+      "summary": "Distinguish four core Japanese non-exhaustive and emotive example markers: neutral 〜など, colloquial noun-focused 〜なんか, clause-flexible emotive 〜なんて, and uncertain 〜か{何|なに}か.",
+      "study_tip": "Match the marker to both attachment shape and speaker attitude: use 〜など for neutral lists, save 〜なんか for casual noun examples or self-deprecation, and reach for 〜なんて whenever you react with shock to a full verb or adjective clause.",
+      "grammar_points": [
+        {
+          "id": "nado",
+          "pattern": "〜など",
+          "pattern_ruby": "〜など",
+          "romaji": "nado",
+          "meaning_en": "things like ~, ~ and so on, etc. (neutral non-exhaustive example)",
+          "register": "neutral",
+          "renshuu_status": "verified_renshuu",
+          "mental_model": "Think of 〜など as a clean, objective 'etc.' bracket that presents one or two representative items without claiming the list is complete. It pairs naturally with や (AやBなど) across everyday conversation, news, and essays, and can follow nouns, noun-modifying phrases (〜などの[N]), or plain-form verb clauses without adding sarcasm or emotional surprise.",
+          "formation": [
+            {
+              "pos": "{名詞|めいし}",
+              "rule": "{名詞|めいし} ＋ など（＋ が・を・に・で・の）"
+            },
+            {
+              "pos": "A や B",
+              "rule": "{名詞|めいし} A や {名詞|めいし} B ＋ など"
+            },
+            {
+              "pos": "{動詞|どうし}{普通形|ふつうけい}",
+              "rule": "{動詞|どうし}（{辞書形|じしょけい}・ない{形|けい}・た{形|けい}） ＋ など"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "{週末|しゅうまつ}は{掃除|そうじ}や{買|か}い{物|もの}などをします。",
+              "structure_note": "{名詞|めいし} A や {名詞|めいし} B ＋ などを (を follows など for a direct object).",
+              "en": "On weekends I do things like cleaning and shopping."
+            },
+            {
+              "ja_ruby": "{日本|にほん}には{和食|わしょく}やカレーなどの{人気|にんき}がある{料理|りょうり}がたくさんあります。",
+              "structure_note": "〜など ＋ の ＋ {名詞|めいし} turns representative examples into a category modifier.",
+              "en": "In Japan there are many popular dishes such as Japanese cuisine and curry."
+            },
+            {
+              "ja_ruby": "{毎日|まいにち}{散歩|さんぽ}をしたり、{早|はや}く{寝|ね}たりするなど、{健康|けんこう}に{気|き}をつけています。",
+              "structure_note": "〜たり〜たりする ({辞書形|じしょけい}) ＋ など lists representative actions.",
+              "en": "I take care of my health by doing things such as taking daily walks and going to bed early."
+            },
+            {
+              "ja_ruby": "{会議|かいぎ}では{予算|よさん}やスケジュールなどについて{話|はな}し{合|あ}いました。",
+              "structure_note": "{名詞|めいし} ＋ など ＋ について fits formal business discussions.",
+              "en": "At the meeting we discussed topics such as the budget and schedule."
+            }
+          ],
+          "pitfalls": [
+            "Unlike と (exhaustive list), や〜など leaves room for unmentioned items; do not use など if you specifically mean 'only A and B and nothing else.'",
+            "Always place が and を after など ({本|ほん}などを{読|よ}む), never before them (×{本|ほん}をなど{読|よ}む); in neutral lists, に・で・と also follow など ({会議|かいぎ}などについて{話|はな}す)."
+          ]
+        },
+        {
+          "id": "nanka",
+          "pattern": "〜なんか",
+          "pattern_ruby": "〜なんか",
+          "romaji": "nanka",
+          "meaning_en": "something like ~, the likes of ~ (casual example, self-deprecation, or mild dismissal)",
+          "register": "casual",
+          "renshuu_status": "verified_renshuu",
+          "mental_model": "The colloquial, attitude-carrying sibling of など that attaches primarily to nouns and pronouns. Depending on context, 〜なんか conveys one of three spoken nuances: pitching an offhand casual suggestion ('how about coffee or something?'), downplaying oneself ({私|わたし}なんか = 'someone like me'), or mildly dismissing something unimportant ('who needs things like money?').",
+          "formation": [
+            {
+              "pos": "{名詞|めいし}・{代名詞|だいめいし}",
+              "rule": "{名詞|めいし} ＋ なんか（が・を は{省略|しょうりゃく}）"
+            },
+            {
+              "pos": "{助詞|じょし}との{組合|くみあわ}せ",
+              "rule": "{名詞|めいし} ＋ なんか ＋ に・で・と ／ に・で・と ＋ なんか"
+            },
+            {
+              "pos": "{動詞|どうし}て{形|けい}",
+              "rule": "{動詞|どうし}て{形|けい} ＋ なんか ＋ いる・いない（{会話表現|かいわひょうげん}）"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "{疲|つか}れたから、{喫茶店|きっさてん}でコーヒーなんかどう？",
+              "structure_note": "{名詞|めいし} ＋ なんか offers an easygoing, casual suggestion.",
+              "en": "Since we're tired, how about coffee or something at a café?"
+            },
+            {
+              "ja_ruby": "{私|わたし}なんかにこんな{大切|たいせつ}な{仕事|しごと}ができるでしょうか。",
+              "structure_note": "{代名詞|だいめいし} ＋ なんか ＋ に expresses humble self-deprecation.",
+              "en": "Could someone like me really handle such an important job?"
+            },
+            {
+              "ja_ruby": "お{金|かね}なんかなくても、{家族|かぞく}がいれば{幸|しあわ}せだ。",
+              "structure_note": "{名詞|めいし} ＋ なんか downplays the noun as secondary or unimportant.",
+              "en": "Even without things like money, I am happy as long as I have my family."
+            },
+            {
+              "ja_ruby": "そんな{遠|とお}い{場所|ばしょ}になんか、{一人|ひとり}で{行|い}かないほうがいいよ。",
+              "structure_note": "{名詞|めいし} ＋ に ＋ なんか stacks after に to dismiss going there.",
+              "en": "You shouldn't go alone to a faraway place like that."
+            }
+          ],
+          "pitfalls": [
+            "Avoid 〜なんか in business emails, speeches, or polite writing to superiors because its dismissive tone can sound disrespectful; use 〜など instead.",
+            "Do not confuse suffix 〜なんか with sentence-initial なんか ('somehow / kind of', e.g., なんか{変|へん}だ), which acts as an independent adverb.",
+            "Unlike 〜なんて, 〜なんか strongly favors nouns and pronouns—do not attach it straight onto full clauses or adjectives to express shock."
+          ]
+        },
+        {
+          "id": "nante",
+          "pattern": "〜なんて",
+          "pattern_ruby": "〜なんて",
+          "romaji": "nante",
+          "meaning_en": "things like ~, to think that ~ (surprise, disbelief, or emotional evaluation)",
+          "register": "casual",
+          "renshuu_status": "verified_renshuu",
+          "mental_model": "Derived from などという ('saying such a thing as'), 〜なんて acts as an emotional amplifier for disbelief, shock, delight, or disdain. Its key structural advantage over 〜なんか is full clause flexibility: it attaches smoothly not only to nouns, but also directly to verbs, adjectives, and entire plain-form sentences ({合格|ごうかく}するなんて) to spotlight the speaker's gut reaction.",
+          "formation": [
+            {
+              "pos": "{名詞|めいし}",
+              "rule": "{名詞|めいし}（＋ だ） ＋ なんて"
+            },
+            {
+              "pos": "{動詞|どうし}・い{形容詞|けいようし}",
+              "rule": "{普通形|ふつうけい} ＋ なんて"
+            },
+            {
+              "pos": "な{形容詞|けいようし}",
+              "rule": "{語幹|ごかん} ＋ だ ＋ なんて"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "テストの{前日|ぜんじつ}にゲームなんて、{考|かんが}えられない。",
+              "structure_note": "{名詞|めいし} ＋ なんて expresses strong disapproval or disbelief.",
+              "en": "Playing video games the day before an exam—I can't believe it."
+            },
+            {
+              "ja_ruby": "{田中|たなか}さんが{会社|かいしゃ}を{辞|や}めるなんて、{聞|き}いていませんでした。",
+              "structure_note": "{動詞|どうし}{辞書形|じしょけい} ＋ なんて quotes a surprising fact.",
+              "en": "I hadn't heard at all that Tanaka was quitting the company!"
+            },
+            {
+              "ja_ruby": "こんなに{駅|えき}から{近|ちか}いのに{家賃|やちん}が{安|やす}いなんて、{夢|ゆめ}みたいだ。",
+              "structure_note": "い{形容詞|けいようし}{普通形|ふつうけい} ＋ なんて highlights happy disbelief.",
+              "en": "To think the rent is this cheap despite being so close to the station—it feels like a dream!"
+            },
+            {
+              "ja_ruby": "{高橋|たかはし}さんがそんなに{料理|りょうり}が{上手|じょうず}だなんて、{知|し}らなかったよ。",
+              "structure_note": "な{形容詞|けいようし} ＋ だ ＋ なんて quotes a newly discovered fact with surprise.",
+              "en": "I had no idea Takahashi was that good at cooking!"
+            }
+          ],
+          "pitfalls": [
+            "Do not use 〜なんて as a dry, neutral list marker (×ペンやノートなんてを{買|か}った); it injects emotion and cannot precede が or を in plain lists.",
+            "When reacting to a surprising state expressed by a noun or な-adjective, include だ before なんて ({嘘|うそ}だなんて, {簡単|かんたん}だなんて)."
+          ]
+        },
+        {
+          "id": "ka-nanika",
+          "pattern": "〜か何か",
+          "pattern_ruby": "〜か{何|なに}か",
+          "romaji": "ka nanika",
+          "meaning_en": "~ or something (like that) (uncertain or tentative example)",
+          "register": "neutral",
+          "renshuu_status": "canonical_n3",
+          "mental_model": "Pairs the alternative particle か ('or') with {何|なに}か ('something') to keep a statement tentative and low-pressure. Use it either when guessing an unknown cause ('a cold or something?') or when offering a soft, open-ended suggestion ('would you like tea or something?') so the listener feels free to pick something else without feeling cornered.",
+          "formation": [
+            {
+              "pos": "{名詞|めいし}",
+              "rule": "{名詞|めいし} ＋ か{何|なに}か（＋ が・を・に・で）"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "{山田|やまだ}さんは{今日|きょう}お{休|やす}みですね。{風邪|かぜ}か{何|なに}かでしょうか。",
+              "structure_note": "{名詞|めいし} ＋ か{何|なに}か offers a tentative guess about an unseen reason.",
+              "en": "Yamada is absent today, isn't he? Could it be a cold or something?"
+            },
+            {
+              "ja_ruby": "のどが{渇|かわ}いたでしょう。お{茶|ちゃ}か{何|なに}か{飲|の}みませんか。",
+              "structure_note": "{名詞|めいし} ＋ か{何|なに}か makes an invitation polite and flexible.",
+              "en": "You must be thirsty. Would you like to drink tea or something?"
+            },
+            {
+              "ja_ruby": "{机|つくえ}の{上|うえ}に{鍵|かぎ}か{何|なに}かを{忘|わす}れたような{気|き}がします。",
+              "structure_note": "{名詞|めいし} ＋ か{何|なに}か ＋ を marks an imperfectly remembered object.",
+              "en": "I feel like I left my keys or something on the desk."
+            }
+          ],
+          "pitfalls": [
+            "〜か{何|なに}か attaches strictly to nouns; do not attach it to verbs or adjectives (×{走|はし}るか{何|なに}か).",
+            "For uncertain places or people, switch {何|なに}か to the matching WH-pronoun: 〜かどこか ('somewhere') or 〜か{誰|だれ}か ('someone')."
+          ]
+        }
+      ],
+      "lesson_contrast": {
+        "title": "Non-Exhaustive & Emotive Markers: など vs なんか vs なんて vs か{何|なに}か",
+        "explanation": "All four patterns introduce non-exhaustive examples or references, yet they divide sharply along formality, emotional color, and whether they can attach to full clauses.",
+        "rows": [
+          {
+            "expression": "〜など",
+            "register": "Neutral / Formal",
+            "key_rule": "Attaches to {名詞|めいし} or {普通形|ふつうけい}; objective open list (often with や)",
+            "example_short": "{本|ほん}やペンなどを{買|か}った。"
+          },
+          {
+            "expression": "〜なんか",
+            "register": "Casual",
+            "key_rule": "Mainly {名詞|めいし} (drops が/を); casual example, self-deprecation, dismissal",
+            "example_short": "{私|わたし}なんかにできるかな。"
+          },
+          {
+            "expression": "〜なんて",
+            "register": "Casual / Spoken",
+            "key_rule": "Attaches to {名詞|めいし}, {動詞|どうし}, {形容詞|けいようし}; strong surprise or judgment",
+            "example_short": "{合格|ごうかく}するなんてすごい！"
+          },
+          {
+            "expression": "〜か{何|なに}か",
+            "register": "Neutral",
+            "key_rule": "Attaches to {名詞|めいし} only; uncertain guess or polite open option",
+            "example_short": "{風邪|かぜ}か{何|なに}かですか。"
+          }
+        ]
+      },
+      "practice_quiz": [
+        {
+          "question_id": "L11-Q1",
+          "question_type": "fill_blank",
+          "prompt_ja_ruby": "{机|つくえ}の{上|うえ}に、ペンやノート（　）が{置|お}いてあります。",
+          "context_en": "Choose the neutral marker that pairs with や and precedes the subject particle が.",
+          "choices": [
+            "か{何|なに}か",
+            "など",
+            "なんて",
+            "なんか"
+          ],
+          "correct_index": 1,
+          "explanation": "など is correct because AやBなど is the standard neutral open-listing frame and takes が directly afterward. か{何|なに}か cannot follow や listing, while なんて and なんか inject subjective emotion and cannot precede が after a neutral noun list."
+        },
+        {
+          "question_id": "L11-Q2",
+          "question_type": "nuance_choice",
+          "prompt_ja_ruby": "{山田|やまだ}さんは{今日|きょう}お{休|やす}みですね。{風邪|かぜ}（　）でしょうか。",
+          "context_en": "You make a tentative, polite guess about why Yamada is absent from work today.",
+          "choices": [
+            "なんか",
+            "なんて",
+            "などは",
+            "か{何|なに}か"
+          ],
+          "correct_index": 3,
+          "explanation": "か{何|なに}か is correct because it attaches to a noun to form a tentative guess ('a cold or something?'). なんか sounds too casual and dismissive for politely guessing a colleague's illness, なんて conveys shock rather than uncertainty, and などは marks contrastive examples and cannot express an uncertain cause."
+        },
+        {
+          "question_id": "L11-Q3",
+          "question_type": "attachment_trap",
+          "prompt_ja_ruby": "あんなに{難|むずか}しいテストで{満点|まんてん}を（　）、{本当|ほんとう}にすごいね。",
+          "context_en": "Select the form that grammatically attaches to a verb phrase to express amazement.",
+          "choices": [
+            "{取|と}るなんて",
+            "{取|と}るか{何|なに}か",
+            "{取|と}るなんかは",
+            "{取|と}りなど"
+          ],
+          "correct_index": 0,
+          "explanation": "{取|と}るなんて is correct because なんて attaches directly to a plain-form verb clause to react with surprise. か{何|なに}か only attaches to nouns, なんかは awkwardly attaches to a full clause with a contrastive topic, and など never attaches to a verb masu-stem ({取|と}り)."
+        },
+        {
+          "question_id": "L11-Q4",
+          "question_type": "star_order",
+          "prompt_ja_ruby": "こんな{雨|あめ}の{日|ひ}に　＿　＿　★　＿　{考|かんが}えられない。",
+          "context_en": "Arrange the fragments to express disbelief about walking in the mountains on a rainy day.",
+          "choices": [
+            "{中|なか}を",
+            "なんて",
+            "{歩|ある}く",
+            "{山|やま}の"
+          ],
+          "correct_index": 2,
+          "explanation": "The unique grammatical sequence is {山|やま}の → {中|なか}を → {歩|ある}く (★) → なんて. {山|やま}の modifies {中|なか}を ('inside the mountains'), which serves as the path marked by を for {歩|ある}く, and なんて closes the plain-form clause to express disbelief before {考|かんが}えられない."
+        }
+      ]
+    },
+    {
+      "lesson_id": "L12",
+      "lesson_number": 12,
+      "renshuu_title": "Emphasis: こと",
+      "has_video": false,
+      "summary": "Explore three distinct ways こと shapes emphasis: sentence-final exclamatory 〜ことか / 〜ことだろう, sentence-initial emotional framing 〜ことに, and summarizing 〜ということだ.",
+      "study_tip": "Track where こと sits in the sentence: pair WH-degree words with sentence-final 〜ことか, open a sentence with an emotion word + 〜ことに to frame your reaction, and end logical summaries with plain-form + 〜ということだ.",
+      "grammar_points": [
+        {
+          "id": "koto-ka",
+          "pattern": "〜ことか / 〜ことだろう",
+          "pattern_ruby": "〜ことか / 〜ことだろう",
+          "romaji": "koto ka / koto darou",
+          "meaning_en": "how ~!, what a ~! (unmeasurable emotion or degree)",
+          "register": "written",
+          "renshuu_status": "verified_renshuu",
+          "mental_model": "Transforms an emotional reflection into a heartfelt exclamation of unmeasurable intensity. It almost always works as a two-part frame with an interrogative degree adverb earlier in the sentence—such as どんなに ('how'), どれほど ('to what extent'), なんと ('what'), or {何度|なんど} ('how many times'). Use 〜ことか for direct exclamatory punch about your own experience, and 〜ことだろう / 〜ことでしょう when imagining someone else's feelings or a future moment.",
+          "formation": [
+            {
+              "pos": "{動詞|どうし}・い{形容詞|けいようし}",
+              "rule": "{普通形|ふつうけい} ＋ ことか（・ことだろう・ことでしょう）"
+            },
+            {
+              "pos": "な{形容詞|けいようし}",
+              "rule": "{語幹|ごかん} ＋ な ＋ ことか（・ことだろう・ことでしょう）"
+            },
+            {
+              "pos": "{呼応|こおう}の{副詞|ふくし}",
+              "rule": "どんなに・どれほど・{何度|なんど} ＋ 〜 ＋ ことか"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "{合格|ごうかく}の{知|し}らせを{聞|き}いて、どんなに{嬉|うれ}しかったことか。",
+              "structure_note": "どんなに ＋ い{形容詞|けいようし}た{形|けい} ＋ ことか expresses past joy beyond words.",
+              "en": "How happy I was upon hearing the news that I had passed!"
+            },
+            {
+              "ja_ruby": "あきらめようと{思|おも}ったことが、これまで{何度|なんど}あったことか。",
+              "structure_note": "{何度|なんど} ＋ {動詞|どうし}た{形|けい} ＋ ことか emphasizes countless past times.",
+              "en": "How many times up to now have I thought about giving up!"
+            },
+            {
+              "ja_ruby": "{家族|かぞく}と{離|はな}れて{暮|く}らすのは、どれほど{不安|ふあん}なことだろう。",
+              "structure_note": "どれほど ＋ な{形容詞|けいようし}な ＋ ことだろう imagines another person's deep anxiety.",
+              "en": "How anxious it must be to live apart from one's family!"
+            },
+            {
+              "ja_ruby": "この{手紙|てがみ}を{読|よ}んだら、{両親|りょうしん}はどんなに{喜|よろこ}ぶことでしょう。",
+              "structure_note": "Polite 〜ことでしょう projects warm empathy onto someone else's future reaction.",
+              "en": "How delighted my parents will surely be when they read this letter!"
+            }
+          ],
+          "pitfalls": [
+            "Remember that な-adjectives take な before ことか or ことだろう ({大変|たいへん}なことか), never だ (×{大変|たいへん}だことか).",
+            "Even though 〜ことか ends in か, it is an exclamation rather than a yes/no question expecting a reply, and nearly always pairs with どんなに, どれほど, or {何度|なんど}."
+          ]
+        },
+        {
+          "id": "koto-ni",
+          "pattern": "〜ことに",
+          "pattern_ruby": "〜ことに",
+          "romaji": "koto ni",
+          "meaning_en": "to my [surprise/joy/regret], amazingly, unfortunately",
+          "register": "neutral",
+          "renshuu_status": "canonical_n3",
+          "mental_model": "Acts like an emotional stage direction placed at the very start of a sentence—just like English 'Surprisingly,' or 'To my regret,'. By wrapping an emotion or evaluation word inside 〜ことに, you tell the listener how to feel about the news *before* revealing what actually happened. Emotion verbs nearly always take the た-form ({驚|おどろ}いたことに, {困|こま}ったことに) because the speaker's reaction has already been triggered.",
+          "formation": [
+            {
+              "pos": "{感情|かんじょう}・{評価|ひょうか}のい{形容詞|けいようし}",
+              "rule": "い{形容詞|けいようし}{辞書形|じしょけい} ＋ ことに"
+            },
+            {
+              "pos": "{感情|かんじょう}・{評価|ひょうか}のな{形容詞|けいようし}",
+              "rule": "{語幹|ごかん} ＋ な ＋ ことに"
+            },
+            {
+              "pos": "{感情|かんじょう}の{動詞|どうし}",
+              "rule": "{動詞|どうし}た{形|けい} ＋ ことに（{驚|おどろ}いた・{困|こま}った）"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "{嬉|うれ}しいことに、{姉|あね}が{来月|らいげつ}{日本|にほん}へ{帰|かえ}ってくることになりました。",
+              "structure_note": "い{形容詞|けいようし} ＋ ことに frames good news warmly at the start.",
+              "en": "To my delight, it has been decided that my older sister is coming back to Japan next month."
+            },
+            {
+              "ja_ruby": "{残念|ざんねん}なことに、{明日|あした}の{遠足|えんそく}は{台風|たいふう}で{中止|ちゅうし}になった。",
+              "structure_note": "な{形容詞|けいようし} ＋ な ＋ ことに introduces regrettable news.",
+              "en": "Unfortunately, tomorrow's field trip was canceled due to the typhoon."
+            },
+            {
+              "ja_ruby": "{驚|おどろ}いたことに、{佐藤|さとう}さんは{半年|はんとし}で{日本語|にほんご}がペラペラになった。",
+              "structure_note": "{動詞|どうし}た{形|けい} ＋ ことに conveys astonishment at the following fact.",
+              "en": "Surprisingly, Sato became fluent in Japanese in just half a year."
+            },
+            {
+              "ja_ruby": "{困|こま}ったことに、{駅|えき}へ{向|む}かう{途中|とちゅう}で{財布|さいふ}を{落|お}としてしまった。",
+              "structure_note": "{困|こま}ったことに frames an inconvenient or troubling turn of events.",
+              "en": "Troublingly, I dropped my wallet on the way to the station."
+            }
+          ],
+          "pitfalls": [
+            "Only emotion, surprise, or evaluative words can precede 〜ことに; objective adjectives like {高|たか}い or neutral action verbs like {走|はし}った cannot form this opener.",
+            "Verbs of emotion take the た-form ({驚|おどろ}いたことに, {困|こま}ったことに, {呆|あき}れたことに) rather than non-past dictionary forms (×{困|こま}ることに) when framing a realized reaction."
+          ]
+        },
+        {
+          "id": "to-iu-koto-da-emphasis",
+          "pattern": "〜ということだ",
+          "pattern_ruby": "〜ということだ",
+          "romaji": "to iu koto da",
+          "meaning_en": "that means ~, in short it comes down to ~ (emphatic conclusion / summary)",
+          "register": "neutral",
+          "renshuu_status": "canonical_n3",
+          "mental_model": "Functions as an interpretive 'equals sign' at the end of an explanation. Rather than simply reporting what someone said (its hearsay usage), this emphatic pattern translates an earlier fact, rule, or clue into its core practical takeaway ('in other words, that means X'). It frequently pairs with つまり ('in short') or 〜ということは ('which means that...') to lock in a decisive summary.",
+          "formation": [
+            {
+              "pos": "{動詞|どうし}・い{形容詞|けいようし}",
+              "rule": "{普通形|ふつうけい} ＋ ということだ"
+            },
+            {
+              "pos": "な{形容詞|けいようし}・{名詞|めいし}",
+              "rule": "{語幹|ごかん}・{名詞|めいし} ＋ だ ＋ ということだ"
+            },
+            {
+              "pos": "{要約|ようやく}の{合図|あいず}",
+              "rule": "つまり・{要|よう}するに ＋ 〜 ＋ ということだ"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "{全員|ぜんいん}が{賛成|さんせい}したのだから、つまりこの{計画|けいかく}で{進|すす}めるということですね。",
+              "structure_note": "つまり ＋ {動詞|どうし}{辞書形|じしょけい} ＋ ということだ confirms the practical conclusion.",
+              "en": "Since everyone agreed, in short that means we are going ahead with this plan, right?"
+            },
+            {
+              "ja_ruby": "「{無料|むりょう}」と{書|か}いてあるのは、お{金|かね}を{払|はら}わなくていいということだ。",
+              "structure_note": "A のは B ということだ defines what a sign or statement actually means.",
+              "en": "The fact that it says 'free' means you don't have to pay any money."
+            },
+            {
+              "ja_ruby": "まだ{電気|でんき}がついているということは、{田中|たなか}さんはまだ{帰|かえ}っていないということだ。",
+              "structure_note": "A ということは B ということだ draws a clear logical deduction from visible evidence.",
+              "en": "The fact that the light is still on means Tanaka hasn't gone home yet."
+            },
+            {
+              "ja_ruby": "{経験|けいけん}が{大切|たいせつ}だということは、まずやってみることが{一番|いちばん}の{近道|ちかみち}だということだ。",
+              "structure_note": "{名詞|めいし} ＋ だ ＋ ということだ summarizes an abstract idea emphatically.",
+              "en": "Saying experience is important comes down to the fact that trying first is the shortest path."
+            }
+          ],
+          "pitfalls": [
+            "Unlike 〜ことか (which uses な), nouns and な-adjectives require だ before ということだ ({中止|ちゅうし}だということだ, {安全|あんぜん}だということだ).",
+            "Distinguish the hearsay use of 〜ということだ ('I heard that...') from this emphatic summary use by looking for clues like つまり, 〜のは, or 〜ということは."
+          ]
+        }
+      ],
+      "lesson_contrast": {
+        "title": "Three Ways こと Creates Emphasis in Lesson 12",
+        "explanation": "Although all three patterns end or center on こと, they occupy different slots in the sentence and attach differently to な-adjectives.",
+        "rows": [
+          {
+            "expression": "〜ことか / 〜ことだろう",
+            "register": "Written / Formal",
+            "key_rule": "Sentence-final; な{形容詞|けいようし} takes な; pairs with どんなに / {何度|なんど}",
+            "example_short": "どんなに{嬉|うれ}しかったことか。"
+          },
+          {
+            "expression": "〜ことに",
+            "register": "Neutral / Narrative",
+            "key_rule": "Sentence-initial; emotion {形容詞|けいようし} or V-た{形|けい} framing reaction",
+            "example_short": "{驚|おどろ}いたことに、{彼|かれ}は{来|こ}なかった。"
+          },
+          {
+            "expression": "〜ということだ",
+            "register": "Neutral",
+            "key_rule": "Sentence-final; {名詞|めいし}/な{形容詞|けいようし} takes だ; logical summary",
+            "example_short": "つまり、{中止|ちゅうし}だということだ。"
+          }
+        ]
+      },
+      "practice_quiz": [
+        {
+          "question_id": "L12-Q1",
+          "question_type": "fill_blank",
+          "prompt_ja_ruby": "{家族|かぞく}からの{手紙|てがみ}が、{留学中|りゅうがくちゅう}どんなに{嬉|うれ}しかった（　）。",
+          "context_en": "Complete the exclamatory sentence expressing how deeply happy the speaker felt.",
+          "choices": [
+            "ことに",
+            "ということだ",
+            "ことか",
+            "ことになる"
+          ],
+          "correct_index": 2,
+          "explanation": "ことか is correct because it pairs with どんなに at the end of a sentence to express unmeasurable emotion. ことに opens a sentence rather than ending it, ということだ delivers a logical summary instead of an exclamation, and ことになる expresses an external decision."
+        },
+        {
+          "question_id": "L12-Q2",
+          "question_type": "nuance_choice",
+          "prompt_ja_ruby": "（　）、いつも{静|しず}かな{佐藤|さとう}さんがスピーチ{大会|たいかい}で{優勝|ゆうしょう}したそうだ。",
+          "context_en": "Open the sentence by framing the upcoming fact with your genuine amazement.",
+          "choices": [
+            "{驚|おどろ}いたことに",
+            "{驚|おどろ}くことか",
+            "{驚|おどろ}きということだ",
+            "{残念|ざんねん}なことに"
+          ],
+          "correct_index": 0,
+          "explanation": "{驚|おどろ}いたことに is correct because emotion verbs appear in the た-form before sentence-initial ことに to introduce surprising news. {驚|おどろ}くことか is sentence-final, {驚|おどろ}きということだ does not act as a sentence-opening adverbial, and {残念|ざんねん}なことに ('unfortunately') clashes with winning a speech contest."
+        },
+        {
+          "question_id": "L12-Q3",
+          "question_type": "attachment_trap",
+          "prompt_ja_ruby": "{一人|ひとり}で{新|あたら}しい{町|まち}に{引|ひ}っ{越|こ}すときは、どれほど（　）。",
+          "context_en": "Choose the grammatically valid form of the na-adjective fuan (anxious) before ことだろう.",
+          "choices": [
+            "{不安|ふあん}ことだろう",
+            "{不安|ふあん}だことだろう",
+            "{不安|ふあん}のことだろう",
+            "{不安|ふあん}なことだろう"
+          ],
+          "correct_index": 3,
+          "explanation": "{不安|ふあん}なことだろう is correct because な-adjectives require な before ことか and ことだろう. Attaching directly ({不安|ふあん}こと), using だ ({不安|ふあん}だこと), or using の ({不安|ふあん}のこと) are all ungrammatical attachments for a な-adjective."
+        },
+        {
+          "question_id": "L12-Q4",
+          "question_type": "star_order",
+          "prompt_ja_ruby": "みんながもう{帰|かえ}ったのは、つまり　＿　＿　★　＿　。",
+          "context_en": "Order the pieces to summarize that today's practice is canceled.",
+          "choices": [
+            "{今日|きょう}の",
+            "{中止|ちゅうし}だ",
+            "ということだ",
+            "{練習|れんしゅう}は"
+          ],
+          "correct_index": 1,
+          "explanation": "The only natural order is {今日|きょう}の → {練習|れんしゅう}は → {中止|ちゅうし}だ (★) → ということだ. {今日|きょう}の modifies {練習|れんしゅう}は, and nouns require だ ({中止|ちゅうし}だ) before ということだ to deliver an emphatic summary."
+        }
+      ]
+    },
+    {
+      "lesson_id": "L13",
+      "lesson_number": 13,
+      "renshuu_title": "Emphasis: Other",
+      "has_video": false,
+      "summary": "Build four high-impact emphatic tools: focus particle 〜こそ, heartfelt reason 〜からこそ, extent climax 〜くらいだ / ぐらいだ, and urgent WH-interrogative {一体|いったい}〜か.",
+      "study_tip": "Watch particle collisions closely: 〜こそ replaces が and を completely while stacking after に・で・から, and 〜からこそ demands だ after nouns or な-adjectives so the phrase expresses a reason rather than a starting location.",
+      "grammar_points": [
+        {
+          "id": "koso",
+          "pattern": "〜こそ",
+          "pattern_ruby": "〜こそ",
+          "romaji": "koso",
+          "meaning_en": "precisely ~, this very ~, it is ~ that (emphatic focus)",
+          "register": "neutral",
+          "renshuu_status": "verified_renshuu",
+          "mental_model": "A spotlight particle that isolates one target ('this exact thing, not anything else') to show strong determination, sincere gratitude, or contrast. Just like は and も, こそ completely replaces the subject/object particles が and を, whereas it stacks *after* particles like に, で, から, and と. It is also woven into essential daily idioms such as こちらこそ ('the pleasure/thanks is mine') and {今度|こんど}こそ ('this time for sure').",
+          "formation": [
+            {
+              "pos": "{名詞|めいし}",
+              "rule": "{名詞|めいし} ＋ こそ（が・を は{置|お}き{換|か}える）"
+            },
+            {
+              "pos": "{助詞|じょし}の{後|あと}",
+              "rule": "{名詞|めいし} ＋ に・で・と・へ・から ＋ こそ"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "{今度|こんど}こそ、JLPTのN3に{合格|ごうかく}してみせます。",
+              "structure_note": "{名詞|めいし} ＋ こそ expresses strong determination ('this very time').",
+              "en": "This time for sure, I will pass JLPT N3!"
+            },
+            {
+              "ja_ruby": "{失敗|しっぱい}した{経験|けいけん}こそ、{将来|しょうらい}の{役|やく}に{立|た}つと{思|おも}います。",
+              "structure_note": "こそ replaces が on the focused subject ({経験|けいけん}).",
+              "en": "It is precisely experiences of failure that I think become useful in the future."
+            },
+            {
+              "ja_ruby": "そんな{優|やさ}しいあなたにこそ、この{賞|しょう}を{受|う}け{取|と}ってほしい。",
+              "structure_note": "こそ stacks after に (あなたにこそ) to single out the recipient.",
+              "en": "It is precisely someone as kind as you whom I want to receive this award."
+            },
+            {
+              "ja_ruby": "「いつも{助|たす}けてくれてありがとう。」「いいえ、こちらこそいつも{感謝|かんしゃ}しています。」",
+              "structure_note": "こちらこそ is a fixed polite expression returning gratitude warmly.",
+              "en": "'Thank you for always helping me.' 'No, it is I who am always grateful to you.'"
+            }
+          ],
+          "pitfalls": [
+            "Never pair こそ with が or を (×{私|わたし}がこそ, ×これをこそ); こそ replaces が and を entirely.",
+            "When stacking with に, で, から, or と, always put the case particle before こそ (あなたにこそ / あなたとこそ), never after (×あなたこそに)."
+          ]
+        },
+        {
+          "id": "kara-koso",
+          "pattern": "〜からこそ",
+          "pattern_ruby": "〜からこそ",
+          "romaji": "kara koso",
+          "meaning_en": "precisely because ~, for the very reason that ~",
+          "register": "neutral",
+          "renshuu_status": "verified_renshuu",
+          "mental_model": "Combines the reason marker から with the spotlight particle こそ to highlight a deliberate, heartfelt, or meaningful driving force. Speakers reach for 〜からこそ either to resolve a seeming contradiction ('precisely *because* I care about you, I'm strict') or to credit hard-won success ('precisely *because* we practiced daily, we won'). Ending a sentence with 〜からこそだ powerfully answers 'why?'.",
+          "formation": [
+            {
+              "pos": "{動詞|どうし}・い{形容詞|けいようし}",
+              "rule": "{普通形|ふつうけい} ＋ からこそ"
+            },
+            {
+              "pos": "な{形容詞|けいようし}・{名詞|めいし}",
+              "rule": "{語幹|ごかん}・{名詞|めいし} ＋ だ ＋ からこそ"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "{大切|たいせつ}な{友達|ともだち}に{成長|せいちょう}してほしいからこそ、きびしいことも{言|い}うのです。",
+              "structure_note": "{動詞|どうし} ＋ からこそ resolves the apparent contrast between caring and speaking strictly.",
+              "en": "It is precisely because I want my dear friend to grow that I also say strict things."
+            },
+            {
+              "ja_ruby": "{毎日|まいにち}コツコツ{努力|どりょく}したからこそ、この{結果|けっか}が{出|だ}せたんだと{思|おも}う。",
+              "structure_note": "{動詞|どうし}た{形|けい} ＋ からこそ credits dedicated past effort for a positive outcome.",
+              "en": "I think we were able to achieve this result precisely because we worked hard steadily every day."
+            },
+            {
+              "ja_ruby": "{日本語|にほんご}が{好|す}きだからこそ、{難|むずか}しい{漢字|かんじ}の{勉強|べんきょう}も{楽|たの}しく{続|つづ}けられる。",
+              "structure_note": "な{形容詞|けいようし} ＋ だ ＋ からこそ explains enduring motivation.",
+              "en": "Precisely because I like Japanese, I can happily keep studying even difficult kanji."
+            },
+            {
+              "ja_ruby": "{彼|かれ}がみんなに{信頼|しんらい}されているのは、いつも{約束|やくそく}を{守|まも}るからこそだ。",
+              "structure_note": "Sentence-final 〜からこそだ pinpoints the core reason behind a stated fact.",
+              "en": "The reason he is trusted by everyone is precisely because he always keeps his promises."
+            }
+          ],
+          "pitfalls": [
+            "Nouns and な-adjectives MUST take だ before からこそ to express a reason ({学生|がくせい}だからこそ); writing {学生|がくせい}からこそ without だ literally means 'from a student.'",
+            "Reserve 〜からこそ for meaningful, purposeful, or deeply felt motives rather than trivial accidental causes (×{寝坊|ねぼう}したからこそ{遅刻|ちこく}した)."
+          ]
+        },
+        {
+          "id": "kurai-da-emphasis",
+          "pattern": "〜くらいだ / ぐらいだ",
+          "pattern_ruby": "〜くらいだ / ぐらいだ",
+          "romaji": "kurai da / gurai da",
+          "meaning_en": "to such a degree that ~, almost enough to ~ (emphatic extent)",
+          "register": "neutral",
+          "renshuu_status": "verified_renshuu",
+          "mental_model": "Measures how intense a condition or feeling is by pointing to a vivid benchmark or dramatic symptom ('so exhausted I couldn't stand', 'so happy I could cry'). You can end the sentence with 〜くらいだ as an emotional climax, or drop だ mid-sentence to modify an adjective or verb ({歩|ある}けないくらい{疲|つか}れた). After clauses, くらい and ぐらい are interchangeable, with くらい slightly crisper and ぐらい softer in conversation.",
+          "formation": [
+            {
+              "pos": "{動詞|どうし}・い{形容詞|けいようし}",
+              "rule": "{普通形|ふつうけい} ＋ くらい（だ）・ぐらい（だ）"
+            },
+            {
+              "pos": "な{形容詞|けいようし}",
+              "rule": "{語幹|ごかん} ＋ な ＋ くらい（だ）・ぐらい（だ）"
+            },
+            {
+              "pos": "{名詞|めいし}",
+              "rule": "{名詞|めいし} ＋ くらい（だ）・ぐらい（だ）（{最小限|さいしょうげん}・{例示|れいじ}）"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "{昨日|きのう}は{朝|あさ}から{夜|よる}まで{働|はたら}いて、{立|た}っていられないくらいだった。",
+              "structure_note": "{動詞|どうし}ない{形|けい} ＋ くらいだった ends the sentence with a vivid degree.",
+              "en": "Yesterday I worked from morning till night, to the point where I could barely stay standing."
+            },
+            {
+              "ja_ruby": "{久|ひさ}しぶりに{家族|かぞく}に{会|あ}えて、{涙|なみだ}が{出|で}るくらい{嬉|うれ}しかった。",
+              "structure_note": "Clause ＋ くらい modifies the following adjective {嬉|うれ}しかった.",
+              "en": "Being able to see my family for the first time in a while, I was so happy I could cry."
+            },
+            {
+              "ja_ruby": "この{部屋|へや}は、{昼|ひる}でもライトが{必要|ひつよう}なぐらい{暗|くら}い。",
+              "structure_note": "な{形容詞|けいようし} ＋ な ＋ ぐらい links degree smoothly to {暗|くら}い.",
+              "en": "This room is so dark that you need a light even during the daytime."
+            },
+            {
+              "ja_ruby": "コーヒーを{一杯|いっぱい}{飲|の}むぐらいの{時間|じかん}はあるでしょう。",
+              "structure_note": "Clause ＋ ぐらいの ＋ {名詞|めいし} indicates a modest, easily met minimum.",
+              "en": "Surely you have enough time to at least drink one cup of coffee."
+            }
+          ],
+          "pitfalls": [
+            "Remember to insert な between a な-adjective stem and くらい ({静|しず}かなくらい, never ×{静|しず}かだくらい).",
+            "When modifying a noun directly after くらい, include の ({歩|ある}けないくらいの{痛|いた}み), not bare くらい."
+          ]
+        },
+        {
+          "id": "ittai-ka",
+          "pattern": "一体〜か",
+          "pattern_ruby": "{一体|いったい}〜か",
+          "romaji": "ittai ~ ka",
+          "meaning_en": "what/who/why/where on earth ~? (emphatic interrogative)",
+          "register": "neutral",
+          "renshuu_status": "canonical_n3",
+          "mental_model": "Acts like an urgency spotlight aimed at a WH-question word ({何|なに}, {誰|だれ}, どこ, いつ, どうして, どう), directly matching English 'on earth' or 'in the world'. Placing {一体|いったい} before the question word signals strong bewilderment, shock, or urgency to get to the bottom of a mystery. Because it seeks an explanation, sentences with {一体|いったい} very frequently end in 〜んですか, 〜のか, or 〜んだろう.",
+          "formation": [
+            {
+              "pos": "{疑問詞|ぎもんし}の{文|ぶん}",
+              "rule": "{一体|いったい} ＋ {何|なに}・{誰|だれ}・どこ・いつ・どうして・どう ＋ 〜か（・のか・んですか）"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "こんな{遅|おそ}くに、{一体|いったい}{誰|だれ}からの{電話|でんわ}でしょうか。",
+              "structure_note": "{一体|いったい} ＋ {誰|だれ} intensifies genuine curiosity or worry.",
+              "en": "So late at night—who on earth could this phone call be from?"
+            },
+            {
+              "ja_ruby": "{昨日|きのう}まで{元気|げんき}だったのに、{一体|いったい}どうして{急|きゅう}に{会社|かいしゃ}を{休|やす}んだんでしょうか。",
+              "structure_note": "{一体|いったい} ＋ どうして ＋ 〜んでしょうか demands the reason behind a surprise.",
+              "en": "They were fine until yesterday, so why on earth did they suddenly take time off work?"
+            },
+            {
+              "ja_ruby": "みんなが{駅|えき}の{前|まえ}に{集|あつ}まっている。{一体|いったい}{何|なに}が{起|お}きたのか。",
+              "structure_note": "{一体|いったい} ＋ {何|なに} ＋ のか expresses urgent internal wondering.",
+              "en": "Everyone is gathering in front of the station. What on earth happened?"
+            },
+            {
+              "ja_ruby": "こんなにたくさん{荷物|にもつ}があるのに、{一体|いったい}どうやって{一人|ひとり}で{運|はこ}ぶつもりですか。",
+              "structure_note": "{一体|いったい} ＋ どうやって questions how an apparently impossible task will be done.",
+              "en": "When there is this much luggage, how on earth do you plan to carry it alone?"
+            }
+          ],
+          "pitfalls": [
+            "{一体|いったい} MUST pair with an explicit WH-question word ({何|なに}, {誰|だれ}, どうして, etc.); never put it in a simple yes/no question (×{一体|いったい}{明日|あした}{行|い}きますか).",
+            "Because {一体|いったい} carries sharp impatience or interrogation, avoid aiming it bluntly at superiors or clients in formal business settings."
+          ]
+        }
+      ],
+      "lesson_contrast": {
+        "title": "Four Emphatic Structures in Lesson 13",
+        "explanation": "Choose the right emphatic marker according to what you are highlighting: a target noun, a heartfelt reason, an extreme benchmark, or a baffling question.",
+        "rows": [
+          {
+            "expression": "〜こそ",
+            "register": "Neutral",
+            "key_rule": "Replaces が/を; follows に/で/から; spotlights a chosen noun",
+            "example_short": "{今度|こんど}こそ{成功|せいこう}する。"
+          },
+          {
+            "expression": "〜からこそ",
+            "register": "Neutral",
+            "key_rule": "{普通形|ふつうけい} (+だ for N/なAdj) + からこそ; heartfelt/deliberate motive",
+            "example_short": "{好|す}きだからこそ{頑張|がんば}れる。"
+          },
+          {
+            "expression": "〜くらいだ / ぐらいだ",
+            "register": "Neutral",
+            "key_rule": "{普通形|ふつうけい} (+な for なAdj) + くらいだ; vivid benchmark extent",
+            "example_short": "{泣|な}きたいくらい{嬉|うれ}しい。"
+          },
+          {
+            "expression": "{一体|いったい}〜か",
+            "register": "Neutral",
+            "key_rule": "{一体|いったい} + WH-word + 〜か (often のか/んですか); urgent confusion",
+            "example_short": "{一体|いったい}どうしたんですか。"
+          }
+        ]
+      },
+      "practice_quiz": [
+        {
+          "question_id": "L13-Q1",
+          "question_type": "fill_blank",
+          "prompt_ja_ruby": "{去年|きょねん}は{不合格|ふごうかく}だったが、{今年|ことし}（　）{合格|ごうかく}してみせる。",
+          "context_en": "Choose the focus particle showing firm determination for 'this very year.'",
+          "choices": [
+            "こそ",
+            "くらいだ",
+            "からこそ",
+            "なんて"
+          ],
+          "correct_index": 0,
+          "explanation": "こそ is correct because it spotlights {今年|ことし} ('this year for sure!') to express strong determination. くらいだ marks degree, からこそ marks a reason ('because'), and なんて expresses surprise or dismissal rather than resolve."
+        },
+        {
+          "question_id": "L13-Q2",
+          "question_type": "nuance_choice",
+          "prompt_ja_ruby": "こんな{夜中|よなか}に、（　）{何|なに}が{起|お}きたんだろうか。",
+          "context_en": "Pick the adverb that intensifies a WH-question with a sense of urgent bewilderment ('what on earth').",
+          "choices": [
+            "まったく",
+            "ぜひ",
+            "{一体|いったい}",
+            "{決|けっ}して"
+          ],
+          "correct_index": 2,
+          "explanation": "{一体|いったい} is correct because it pairs with {何|なに}〜だろうか to mean 'what on earth?'. まったく pairs with negatives or expresses annoyance as a standalone expletive, ぜひ expresses an eager request/wish, and {決|けっ}して only occurs in negative sentences."
+        },
+        {
+          "question_id": "L13-Q3",
+          "question_type": "attachment_trap",
+          "prompt_ja_ruby": "{本当|ほんとう}の（　）、きびしいことも{正直|しょうじき}に{伝|つた}えるのです。",
+          "context_en": "Select the correct attachment for the noun tomodachi (friend) before からこそ ('precisely because they are a true friend').",
+          "choices": [
+            "{友達|ともだち}からこそ",
+            "{友達|ともだち}だからこそ",
+            "{友達|ともだち}なからこそ",
+            "{友達|ともだち}のからこそ"
+          ],
+          "correct_index": 1,
+          "explanation": "{友達|ともだち}だからこそ is correct because nouns require だ before からこそ when expressing a reason. Dropping だ ({友達|ともだち}からこそ) changes the meaning to 'from a friend', while な and の never link nouns to からこそ."
+        },
+        {
+          "question_id": "L13-Q4",
+          "question_type": "star_order",
+          "prompt_ja_ruby": "{毎日|まいにち}{練習|れんしゅう}を　＿　＿　★　＿　{勝|か}てたのだと{思|おも}う。",
+          "context_en": "Arrange the fragments to say we won precisely because we practiced daily against a strong opponent.",
+          "choices": [
+            "からこそ",
+            "{続|つづ}けてきた",
+            "{相手|あいて}に",
+            "{強|つよ}い"
+          ],
+          "correct_index": 3,
+          "explanation": "The unique valid sequence is {続|つづ}けてきた → からこそ → {強|つよ}い (★) → {相手|あいて}に. {続|つづ}けてきた completes {練習|れんしゅう}を and attaches to からこそ, while {強|つよ}い modifies {相手|あいて}に directly before {勝|か}てた."
+        }
+      ]
+    },
+    {
+      "lesson_id": "L14",
+      "lesson_number": 14,
+      "renshuu_title": "Negation: ~ない",
+      "has_video": false,
+      "summary": "Master Japanese negative-polarity adverbs and conditional negation: {全|まった}く vs {決|けっ}して, {少|すこ}しも vs ちっとも vs {別|べつ}に, frequency/impossibility adverbs (めったに・なかなか・とても), and prerequisite 〜ないことには〜ない.",
+      "study_tip": "Never memorize negative adverbs as interchangeable 'not at all' clones: ask whether the speaker states a cold fact ({全|まった}く), swears a vow ({決|けっ}して), vents impatience (ちっとも), or faces impossibility (とても + potential negative).",
+      "grammar_points": [
+        {
+          "id": "mattaku-kesshite-nai",
+          "pattern": "全く〜ない / 決して〜ない",
+          "pattern_ruby": "{全|まった}く〜ない / {決|けっ}して〜ない",
+          "romaji": "mattaku ~ nai / kesshite ~ nai",
+          "meaning_en": "not ~ at all (complete factual negation) / never, by no means (strong resolve or rule)",
+          "register": "neutral",
+          "renshuu_status": "verified_renshuu",
+          "mental_model": "Both adverbs reach 100% negation, yet they measure two completely different things. {全|まった}く〜ない is an objective thermometer reading zero—stating that a skill, memory, or problem simply doesn't exist at all. {決|けっ}して〜ない is a human pledge or strict rule ('I will never give up' / 'You must never tell anyone'), expressing willpower, assurance, or prohibition rather than passive lack.",
+          "formation": [
+            {
+              "pos": "{全|まった}く",
+              "rule": "{全|まった}く ＋ {否定形|ひていけい}（〜ない・〜ません・〜ではない）"
+            },
+            {
+              "pos": "{決|けっ}して",
+              "rule": "{決|けっ}して ＋ {否定形|ひていけい}（〜ない・〜ません・〜ないで・〜てはいけない）"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "この{漢字|かんじ}の{読|よ}み{方|かた}が{全|まった}く{分|わ}かりません。",
+              "structure_note": "{全|まった}く ＋ {分|わ}かりません states an objective, factual zero.",
+              "en": "I don't understand how to read this kanji at all."
+            },
+            {
+              "ja_ruby": "{練習|れんしゅう}を{始|はじ}めたばかりなので、まだ{全|まった}く{上手|じょうず}に{弾|ひ}けない。",
+              "structure_note": "{全|まった}く ＋ potential negative describes current factual inability.",
+              "en": "Because I just started practicing, I still can't play well at all."
+            },
+            {
+              "ja_ruby": "どんなに{大変|たいへん}でも、{夢|ゆめ}を{決|けっ}してあきらめません。",
+              "structure_note": "{決|けっ}して ＋ volitional negative declares firm determination.",
+              "en": "No matter how hard it gets, I will never give up on my dream."
+            },
+            {
+              "ja_ruby": "これは{秘密|ひみつ}ですから、{決|けっ}して{他|ほか}の{人|ひと}に{話|はな}さないでください。",
+              "structure_note": "{決|けっ}して ＋ negative request delivers an absolute prohibition.",
+              "en": "This is a secret, so please never tell anyone else."
+            }
+          ],
+          "pitfalls": [
+            "Do not use {決|けっ}して for passive lack of knowledge or current skill (×{英語|えいご}が{決|けっ}して{分|わ}かりません); use {全|まった}く for factual states and reserve {決|けっ}して for vows, warnings, or firm guarantees.",
+            "{決|けっ}して cannot appear in an affirmative sentence (×{決|けっ}して{成功|せいこう}する); it strictly demands a negative ending."
+          ]
+        },
+        {
+          "id": "sukoshimo-chittomo-betsuni-nai",
+          "pattern": "少しも〜ない / ちっとも〜ない / 別に〜ない",
+          "pattern_ruby": "{少|すこ}しも〜ない / ちっとも〜ない / {別|べつ}に〜ない",
+          "romaji": "sukoshimo ~ nai / chittomo ~ nai / betsu ni ~ nai",
+          "meaning_en": "not even a little bit (neutral / colloquial) / not particularly, not really",
+          "register": "neutral",
+          "renshuu_status": "verified_renshuu",
+          "mental_model": "Three adverbs that scale down a quality or action, separated by tone and emotional expectation. {少|すこ}しも〜ない and ちっとも〜ない both mean 'not even one tiny bit', contrasting with an expectation that *some* change should appear: {少|すこ}しも is neutral and suited to writing, whereas ちっとも is colloquial and often carries impatience ('why hasn't it moved an inch?!'). {別|べつ}に〜ない sits softer, casually brushing something off as 'not particularly / nothing special'.",
+          "formation": [
+            {
+              "pos": "{少|すこ}しも",
+              "rule": "{少|すこ}しも ＋ {否定形|ひていけい}（{中立的|ちゅうりつてき}・{書|か}き{言葉|ことば}でも{可|か}）"
+            },
+            {
+              "pos": "ちっとも",
+              "rule": "ちっとも ＋ {否定形|ひていけい}（{会話表現|かいわひょうげん}・{不満|ふまん}のニュアンス）"
+            },
+            {
+              "pos": "{別|べつ}に",
+              "rule": "{別|べつ}に ＋ {否定形|ひていけい}（〜ない・〜ではない）"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "たくさん{寝|ね}たのに、{疲|つか}れが{少|すこ}しもとれない。",
+              "structure_note": "{少|すこ}しも ＋ negative neutrally notes zero improvement despite expectation.",
+              "en": "Even though I slept a lot, my fatigue hasn't gone away even a bit."
+            },
+            {
+              "ja_ruby": "{一時間|いちじかん}も{待|ま}っているのに、バスがちっとも{来|こ}ないよ。",
+              "structure_note": "ちっとも ＋ negative voices casual impatience while waiting.",
+              "en": "I've been waiting for a whole hour, and the bus isn't coming at all!"
+            },
+            {
+              "ja_ruby": "「あの{映画|えいが}、{怖|こわ}かったですか。」「いいえ、{別|べつ}に{怖|こわ}くなかったです。」",
+              "structure_note": "{別|べつ}に ＋ negative politely shrugs off the premise as 'not really.'",
+              "en": "'Was that movie scary?' 'No, it wasn't particularly scary.'"
+            },
+            {
+              "ja_ruby": "{今日|きょう}は{別|べつ}に{予定|よてい}がないので、{家|いえ}でのんびりしようと{思|おも}います。",
+              "structure_note": "{別|べつ}に ＋ ない states casually that there is no particular plan.",
+              "en": "I don't have any particular plans today, so I think I'll relax at home."
+            }
+          ],
+          "pitfalls": [
+            "Avoid ちっとも in formal reports or polite complaints to superiors; switch to {少|すこ}しも or {全|まった}く in formal Japanese.",
+            "Do not use {別|べつ}に〜ない for factual zero comprehension (×{別|べつ}に{分|わ}かりません sounds indifferent or rude); use {全|まった}く{分|わ}かりません instead."
+          ]
+        },
+        {
+          "id": "mettani-nakanaka-totemo-nai",
+          "pattern": "めったに〜ない / なかなか〜ない / とても〜ない",
+          "pattern_ruby": "めったに〜ない / なかなか〜ない / とても〜ない",
+          "romaji": "mettani ~ nai / nakanaka ~ nai / totemo ~ nai",
+          "meaning_en": "rarely; not easily / stubbornly won't; cannot possibly",
+          "register": "neutral",
+          "renshuu_status": "canonical_n3",
+          "mental_model": "Three crucial negative-polarity adverbs whose meanings transform when combined with 〜ない. めったに〜ない compresses frequency down to 'hardly ever / rarely'. なかなか〜ない describes stubborn resistance ('no matter how much one waits or tries, it doesn't happen easily'). And とても〜ない—completely separate from positive とても ('very')—pairs strictly with potential or ability negatives (できない, {食|た}べきれない) to mean 'cannot possibly / no way'.",
+          "formation": [
+            {
+              "pos": "めったに",
+              "rule": "めったに ＋ {否定形|ひていけい}（{頻度|ひんど}がごく{少|すく}ない）"
+            },
+            {
+              "pos": "なかなか",
+              "rule": "なかなか ＋ {否定形|ひていけい}（{簡単|かんたん}に〜しない）"
+            },
+            {
+              "pos": "とても",
+              "rule": "とても ＋ {可能形|かのうけい}の{否定|ひてい}・できない・{無理|むり}だ"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "{忙|いそが}しくて、{平日|へいじつ}はめったにテレビを{見|み}ません。",
+              "structure_note": "めったに ＋ {見|み}ません expresses very low frequency ('rarely').",
+              "en": "Because I'm busy, I rarely watch TV on weekdays."
+            },
+            {
+              "ja_ruby": "{春|はる}になったのに、なかなか{暖|あたた}かくならないですね。",
+              "structure_note": "なかなか ＋ ならない expresses slow, stubborn resistance to change.",
+              "en": "Even though spring has arrived, it's taking quite a long time to warm up, isn't it?"
+            },
+            {
+              "ja_ruby": "この{漢字|かんじ}は{複雑|ふくざつ}で、なかなか{覚|おぼ}えられません。",
+              "structure_note": "なかなか ＋ potential negative notes difficulty despite effort.",
+              "en": "This kanji is complex, so I can't memorize it easily."
+            },
+            {
+              "ja_ruby": "こんなにたくさんの{料理|りょうり}は、{一人|ひとり}ではとても{食|た}べきれません。",
+              "structure_note": "とても ＋ {食|た}べきれません signals absolute impossibility ('no way I can finish').",
+              "en": "There is no way I can possibly finish eating this much food by myself."
+            }
+          ],
+          "pitfalls": [
+            "Never pair とても〜ない with ordinary opinions or degrees (×この{本|ほん}はとても{面白|おもしろ}くない); use あまり〜ない for 'not very', and save とても〜ない strictly for impossibility.",
+            "Remember that なかなか changes meaning completely in positive sentences (なかなか{上手|じょうず}だ = 'surprisingly good') whereas めったに can never appear in positive statements."
+          ]
+        },
+        {
+          "id": "nai-koto-niwa-nai",
+          "pattern": "〜ないことには〜ない",
+          "pattern_ruby": "〜ないことには〜ない",
+          "romaji": "nai koto niwa ~ nai",
+          "meaning_en": "unless ~ happens first, [B] cannot happen",
+          "register": "neutral",
+          "renshuu_status": "verified_renshuu",
+          "mental_model": "Establishes an ironclad prerequisite lock: as long as Condition A remains unfulfilled (〜ないことには), Outcome B cannot take place (〜ない / できない / わからない). Think of A as the key that must turn before door B can open. Because the second clause states the inevitable failure or impossibility when A is absent, the sentence MUST end in a negative or impossible predicate.",
+          "formation": [
+            {
+              "pos": "{動詞|どうし}",
+              "rule": "{動詞|どうし}ない{形|けい} ＋ ことには ＋ {否定|ひてい}・{不可能|ふかのう}"
+            },
+            {
+              "pos": "い{形容詞|けいようし}",
+              "rule": "い{形容詞|けいようし}くない ＋ ことには ＋ {否定|ひてい}・{不可能|ふかのう}"
+            },
+            {
+              "pos": "な{形容詞|けいようし}・{名詞|めいし}",
+              "rule": "{語幹|ごかん}・{名詞|めいし} ＋ ではない / じゃない ＋ ことには ＋ {否定|ひてい}・{不可能|ふかのう}"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "まず{自分|じぶん}でやってみないことには、できるかどうかわかりません。",
+              "structure_note": "{動詞|どうし}てみない ＋ ことには sets trying first as an absolute prerequisite.",
+              "en": "Unless you try doing it yourself first, you won't know whether you can do it or not."
+            },
+            {
+              "ja_ruby": "{実物|じつぶつ}を{見|み}ないことには、{買|か}うかどうか{決|き}められない。",
+              "structure_note": "Followed by potential negative {決|き}められない ('cannot decide').",
+              "en": "Without seeing the actual item first, I can't decide whether to buy it."
+            },
+            {
+              "ja_ruby": "{値段|ねだん}がもっと{安|やす}くないことには、{学生|がくせい}には{買|か}えないよ。",
+              "structure_note": "い{形容詞|けいようし}くない ＋ ことには states a price threshold.",
+              "en": "Unless the price is cheaper, students won't be able to buy it."
+            },
+            {
+              "ja_ruby": "{経験者|けいけんしゃ}ではないことには、このチームには{入|はい}れないそうだ。",
+              "structure_note": "{名詞|めいし} ＋ ではない ＋ ことには states an eligibility requirement.",
+              "en": "I hear that unless you are an experienced person, you can't join this team."
+            }
+          ],
+          "pitfalls": [
+            "The main clause after 〜ないことには MUST end negatively or denote impossibility (〜ない, 〜できない, {無理|むり}だ); never follow it with an ordinary positive outcome (×{行|い}かないことには{楽|たの}しい).",
+            "Do not confuse 〜ないことには ('unless A, B cannot happen') with 〜ないことはない ('it's not that it isn't ~', a mild double-negative)."
+          ]
+        }
+      ],
+      "lesson_contrast": {
+        "title": "Negative-Polarity Nuances & Conditional Negation",
+        "explanation": "Negative adverbs differ sharply by whether they describe facts, personal vows, low frequency, stubborn resistance, impossibility, or a prerequisite gate.",
+        "rows": [
+          {
+            "expression": "{全|まった}く〜ない",
+            "register": "Neutral",
+            "key_rule": "Complete factual negation (0% truth, skill, or degree)",
+            "example_short": "{全|まった}く{分|わ}かりません。"
+          },
+          {
+            "expression": "{決|けっ}して〜ない",
+            "register": "Formal / Emphatic",
+            "key_rule": "Personal vow, guarantee, or strict prohibition",
+            "example_short": "{決|けっ}してあきらめません。"
+          },
+          {
+            "expression": "{少|すこ}しも / ちっとも〜ない",
+            "register": "Neutral / Casual",
+            "key_rule": "Not even a bit; ちっとも adds conversational impatience",
+            "example_short": "バスがちっとも{来|こ}ない。"
+          },
+          {
+            "expression": "めったに / なかなか / とても〜ない",
+            "register": "Neutral",
+            "key_rule": "Rarely / not easily / impossible (with potential negative)",
+            "example_short": "{一人|ひとり}ではとても{無理|むり}だ。"
+          },
+          {
+            "expression": "〜ないことには〜ない",
+            "register": "Neutral",
+            "key_rule": "Prerequisite lock + mandatory negative second clause",
+            "example_short": "やってみないことにはわからない。"
+          }
+        ]
+      },
+      "practice_quiz": [
+        {
+          "question_id": "L14-Q1",
+          "question_type": "fill_blank",
+          "prompt_ja_ruby": "こんな{大|おお}きなケーキは、{一人|ひとり}では（　）{食|た}べきれません。",
+          "context_en": "Select the adverb that pairs with a potential negative to mean 'cannot possibly.'",
+          "choices": [
+            "めったに",
+            "{別|べつ}に",
+            "ちっとも",
+            "とても"
+          ],
+          "correct_index": 3,
+          "explanation": "とても is correct because とても + potential negative ({食|た}べきれない) means 'cannot possibly finish.' めったに means 'rarely' and clashes with a single present cake, {別|べつ}に means 'not particularly', and ちっとも implies impatience over an ongoing failed attempt."
+        },
+        {
+          "question_id": "L14-Q2",
+          "question_type": "nuance_choice",
+          "prompt_ja_ruby": "これからどんなことがあっても、この{約束|やくそく}を（　）{破|やぶ}りません。",
+          "context_en": "Choose the negative adverb that expresses a solemn personal vow never to break a promise.",
+          "choices": [
+            "{全|まった}く",
+            "{決|けっ}して",
+            "{別|べつ}に",
+            "めったに"
+          ],
+          "correct_index": 1,
+          "explanation": "{決|けっ}して is correct because it expresses an unwavering vow or strict rule about future action ('never'). {全|まった}く states factual zero degree rather than volitional resolve, {別|べつ}に sounds indifferent, and めったに ('rarely') weakens a firm promise."
+        },
+        {
+          "question_id": "L14-Q3",
+          "question_type": "attachment_trap",
+          "prompt_ja_ruby": "{参加費|さんかひ}がもっと（　）、{多|おお}くの{学生|がくせい}は{参加|さんか}できないだろう。",
+          "context_en": "Pick the correct attachment of yasui (cheap) before ことには to mean 'unless the fee is cheaper.'",
+          "choices": [
+            "{安|やす}かったことには",
+            "{安|やす}いということには",
+            "{安|やす}くないことには",
+            "{安|やす}くすることには"
+          ],
+          "correct_index": 2,
+          "explanation": "{安|やす}くないことには is correct because 〜ないことには requires the negative くない form of an い-adjective. {安|やす}かったことには, {安|やす}いということには, and {安|やす}くすることには all lack the mandatory 〜ない conditional negation."
+        },
+        {
+          "question_id": "L14-Q4",
+          "question_type": "star_order",
+          "prompt_ja_ruby": "{自分|じぶん}で　＿　＿　★　＿　{本当|ほんとう}の{味|あじ}はわからない。",
+          "context_en": "Arrange the fragments to express that you won't know the true taste unless you try eating it yourself.",
+          "choices": [
+            "ことには",
+            "{食|た}べて",
+            "その{料理|りょうり}の",
+            "みない"
+          ],
+          "correct_index": 0,
+          "explanation": "The unique grammatical sequence is {食|た}べて → みない → ことには (★) → その{料理|りょうり}の. {食|た}べてみない forms the negative prerequisite before ことには, and その{料理|りょうり}の directly modifies {本当|ほんとう}の{味|あじ}."
+        }
+      ]
+    },
+    {
+      "lesson_id": "L15",
+      "lesson_number": 15,
+      "renshuu_title": "ほど expanded",
+      "has_video": false,
+      "summary": "Unpack the three major N3 uses of ほど: proportional scaling (〜ば〜ほど), negative comparison and superlatives (〜ほど〜ない / はない), and hyperbolic vivid degree (〜ほどだ / ほどの).",
+      "study_tip": "Memorize the mirror rule for 〜ば〜ほど: whenever ば appears, you must repeat the exact same verb or adjective before ほど—and for 〜ほど〜ない, remember that the noun before ほど holds the higher benchmark.",
+      "grammar_points": [
+        {
+          "id": "ba-hodo",
+          "pattern": "〜ば〜ほど",
+          "pattern_ruby": "〜ば〜ほど",
+          "romaji": "~ ba ~ hodo",
+          "meaning_en": "the more ~, the more ~ (proportional correlation)",
+          "register": "neutral",
+          "renshuu_status": "verified_renshuu",
+          "mental_model": "Expresses a proportional sliding scale: as X rises or deepens, Y shifts along with it ('the more you read, the deeper it gets'). Whenever you include ば (or なら for な-adjectives), Japanese enforces a strict mirror rule—you must repeat the *same* predicate immediately in its plain/modifying form right before ほど ({読|よ}めば{読|よ}むほど, {高|たか}ければ{高|たか}いほど, {静|しず}かなら{静|しず}かなほど).",
+          "formation": [
+            {
+              "pos": "{動詞|どうし}",
+              "rule": "{動詞|どうし}ば{形|けい} ＋ {同|おな}じ{動詞|どうし}{辞書形|じしょけい} ＋ ほど"
+            },
+            {
+              "pos": "い{形容詞|けいようし}",
+              "rule": "い{形容詞|けいようし}ければ ＋ {同|おな}じい{形容詞|けいようし} ＋ ほど"
+            },
+            {
+              "pos": "な{形容詞|けいようし}",
+              "rule": "{語幹|ごかん} ＋ なら（ば） ＋ {同|おな}じ{語幹|ごかん} ＋ な ＋ ほど"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "この{小説|しょうせつ}は、{読|よ}めば{読|よ}むほど{面白|おもしろ}さが{分|わ}かってきます。",
+              "structure_note": "{動詞|どうし}ば{形|けい} ＋ {辞書形|じしょけい} ＋ ほど scales appreciation with repeated reading.",
+              "en": "The more you read this novel, the more you come to understand how interesting it is."
+            },
+            {
+              "ja_ruby": "ピアノは{毎日|まいにち}{練習|れんしゅう}すればするほど、{上手|じょうず}に{弾|ひ}けるようになります。",
+              "structure_note": "With する-verbs, 〜すればするほど omits repeating the noun before する.",
+              "en": "The more you practice piano every day, the better you become at playing it."
+            },
+            {
+              "ja_ruby": "{引|ひ}っ{越|こ}しの{準備|じゅんび}は、{早|はや}ければ{早|はや}いほどいいですよ。",
+              "structure_note": "い{形容詞|けいようし}ければ ＋ い{形容詞|けいようし} ＋ ほど states 'the earlier, the better.'",
+              "en": "When it comes to moving preparations, the earlier the better!"
+            },
+            {
+              "ja_ruby": "{勉強|べんきょう}する{部屋|へや}は、{静|しず}かなら{静|しず}かなほど{集中|しゅうちゅう}できます。",
+              "structure_note": "な{形容詞|けいようし} ＋ なら ＋ な{形容詞|けいようし}な ＋ ほど keeps な before ほど.",
+              "en": "The quieter the study room is, the better I can concentrate."
+            }
+          ],
+          "pitfalls": [
+            "Never drop the repeated predicate when ば is used (×{安|やす}ければほどいい); either repeat the word ({安|やす}ければ{安|やす}いほど) or drop ば altogether ({安|やす}いほど).",
+            "For な-adjectives, always include な before ほど ({簡単|かんたん}なら{簡単|かんたん}なほど, never ×{簡単|かんたん}なら{簡単|かんたん}ほど)."
+          ]
+        },
+        {
+          "id": "hodo-nai",
+          "pattern": "〜ほど〜ない / 〜ほど〜はない",
+          "pattern_ruby": "〜ほど〜ない / 〜ほど〜はない",
+          "romaji": "hodo ~ nai / hodo ~ wa nai",
+          "meaning_en": "not as ~ as [A] (negative comparison) / nothing is more ~ than [A] (superlative)",
+          "register": "neutral",
+          "renshuu_status": "verified_renshuu",
+          "mental_model": "Turns A into the upper ceiling on a scale. In a two-way comparison ('B は A ほど〜ない'), A possesses MORE of the quality while B falls short ('Today is not as cold as yesterday' = yesterday was colder). Swap B for a whole category noun plus はない / はいない ('A ほど〜[N]はない'), and A stands alone at the top as a superlative ('No mountain is as famous as Mt. Fuji').",
+          "formation": [
+            {
+              "pos": "{比較|ひかく}",
+              "rule": "B は A ＋ ほど ＋ {形容詞|けいようし}・{動詞|どうし}{否定形|ひていけい}"
+            },
+            {
+              "pos": "{最上級|さいじょうきゅう}",
+              "rule": "A ＋ ほど ＋ {形容詞|けいようし} ＋ {名詞|めいし} ＋ はない（・いない）"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "{今年|ことし}の{冬|ふゆ}は、{去年|きょねん}ほど{寒|さむ}くないですね。",
+              "structure_note": "B は A ほど ＋ い{形容詞|けいようし}ない means last year was colder.",
+              "en": "This winter isn't as cold as last year, is it?"
+            },
+            {
+              "ja_ruby": "この{町|まち}は、{前|まえ}に{住|す}んでいた{町|まち}ほど{車|くるま}が{通|とお}らない。",
+              "structure_note": "{普通形|ふつうけい} ＋ {名詞|めいし} ＋ ほど ＋ {動詞|どうし}ない compares traffic frequency.",
+              "en": "Not as many cars pass through this town as the town I used to live in."
+            },
+            {
+              "ja_ruby": "{日本|にほん}で{富士山|ふじさん}ほど{有名|ゆうめい}な{山|やま}はありません。",
+              "structure_note": "A ほど 〜 {名詞|めいし} はありません declares an inanimate superlative.",
+              "en": "In Japan, there is no mountain as famous as Mount Fuji."
+            },
+            {
+              "ja_ruby": "クラスの{中|なか}で、{健太|けんた}さんほど{親切|しんせつ}な{人|ひと}はいないと{思|おも}います。",
+              "structure_note": "Use はいない (not はない) when the superlative category is people.",
+              "en": "I think there is no one in the class as kind as Kenta."
+            }
+          ],
+          "pitfalls": [
+            "Keep comparison direction straight: in B は A ほど〜ない, A is higher on the scale than B; flipping A and B reverses the meaning.",
+            "〜ほど〜ない strictly requires a negative ending; never pair this comparative frame with an affirmative predicate (×{今年|ことし}は{去年|きょねん}ほど{寒|さむ}いです).",
+            "Choose はいません / はいない for people and animals, and はありません / はない for inanimate things or concepts."
+          ]
+        },
+        {
+          "id": "hodo-da",
+          "pattern": "〜ほどだ / ほどの",
+          "pattern_ruby": "〜ほどだ / ほどの",
+          "romaji": "hodo da / hodo no",
+          "meaning_en": "so ~ that ..., to the extent that ... (hyperbolic or vivid degree)",
+          "register": "neutral",
+          "renshuu_status": "verified_renshuu",
+          "mental_model": "Paints an unmistakable, often hyperbolic picture of how intense an experience is ('so loud I couldn't hear myself', 'beauty that leaves you speechless'). Put the vivid consequence right before ほど to act as the yardstick. Use 〜ほどだ at the end of a sentence for dramatic climax, 〜ほど mid-sentence before a predicate, and 〜ほどの[N] (even [N1]ほどの[N2]) when turning that vivid degree into a noun modifier.",
+          "formation": [
+            {
+              "pos": "{動詞|どうし}・い{形容詞|けいようし}",
+              "rule": "{普通形|ふつうけい} ＋ ほど（だ） / ほどの ＋ {名詞|めいし}"
+            },
+            {
+              "pos": "な{形容詞|けいようし}",
+              "rule": "{語幹|ごかん} ＋ な ＋ ほど（だ） / ほどの ＋ {名詞|めいし}"
+            },
+            {
+              "pos": "{名詞|めいし}",
+              "rule": "{名詞|めいし} ＋ ほどの ＋ {名詞|めいし}"
+            }
+          ],
+          "examples": [
+            {
+              "ja_ruby": "そのニュースを{聞|き}いたとき、{自分|じぶん}の{耳|みみ}を{疑|うたが}うほどだった。",
+              "structure_note": "{動詞|どうし}{辞書形|じしょけい} ＋ ほどだった closes on a dramatic, vivid image.",
+              "en": "When I heard that news, it was to such an extent that I doubted my own ears."
+            },
+            {
+              "ja_ruby": "{昨日|きのう}は{目|め}が{開|あ}けられないほど{強|つよ}い{風|かぜ}が{吹|ふ}いていた。",
+              "structure_note": "{動詞|どうし}ない{形|けい} ＋ ほど modifies the intensity of {強|つよ}い{風|かぜ}.",
+              "en": "Yesterday a wind so strong you couldn't keep your eyes open was blowing."
+            },
+            {
+              "ja_ruby": "この{湖|みずうみ}の{景色|けしき}は、{言葉|ことば}が{出|で}ないほどの{美|うつく}しさだ。",
+              "structure_note": "Clause ＋ ほどの ＋ {名詞|めいし} turns vivid degree into a noun modifier.",
+              "en": "The scenery of this lake has a beauty so striking that words fail."
+            },
+            {
+              "ja_ruby": "{美咲|みさき}さんほどの{実力|じつりょく}があれば、きっと{合格|ごうかく}できますよ。",
+              "structure_note": "{名詞|めいし} ＋ ほどの ＋ {名詞|めいし} means 'ability on the level of Misaki.'",
+              "en": "If you have ability on the level of Misaki, you can surely pass!"
+            }
+          ],
+          "pitfalls": [
+            "Do not insert だ or の between a verb/い-adjective and ほど (×{泣|な}くのほど); attach directly to the plain form, and use な for な-adjectives ({邪魔|じゃま}なほど).",
+            "Always insert の when ほど modifies a following noun ({言葉|ことば}が{出|で}ないほどの{美|うつく}しさ, never ×{出|で}ないほど{美|うつく}しさ)."
+          ]
+        }
+      ],
+      "lesson_contrast": {
+        "title": "Three Functions of ほど in Lesson 15",
+        "explanation": "Notice how the surrounding syntax immediately tells you which ほど construction you are reading: repeated predicates, negative endings, or vivid benchmarks.",
+        "rows": [
+          {
+            "expression": "〜ば〜ほど",
+            "register": "Neutral",
+            "key_rule": "Same V/Adj repeated (ば/なら + plain + ほど); proportional scaling",
+            "example_short": "{読|よ}めば{読|よ}むほど{面白|おもしろ}い。"
+          },
+          {
+            "expression": "〜ほど〜ない / はない",
+            "register": "Neutral",
+            "key_rule": "B は A ほど〜ない (A exceeds B); or superlative 〜ほど[N]はない",
+            "example_short": "{今日|きょう}は{昨日|きのう}ほど{暑|あつ}くない。"
+          },
+          {
+            "expression": "〜ほどだ / ほどの",
+            "register": "Neutral / Written",
+            "key_rule": "Vivid benchmark + ほど(だ/のN); hyperbolic extent",
+            "example_short": "{泣|な}きたいほど{嬉|うれ}しかった。"
+          }
+        ]
+      },
+      "practice_quiz": [
+        {
+          "question_id": "L15-Q1",
+          "question_type": "fill_blank",
+          "prompt_ja_ruby": "{今日|きょう}のテストは、{思|おも}っていた（　）{難|むずか}しくなかった。",
+          "context_en": "Choose the particle completing a negative comparison ('not as difficult as expected').",
+          "choices": [
+            "ば",
+            "からこそ",
+            "ほど",
+            "ことか"
+          ],
+          "correct_index": 2,
+          "explanation": "ほど is correct because {思|おも}っていたほど〜なかった expresses 'not as [difficult] as I had thought.' ば cannot attach directly after the た-form, からこそ gives a reason, and ことか is a sentence-final exclamation."
+        },
+        {
+          "question_id": "L15-Q2",
+          "question_type": "nuance_choice",
+          "prompt_ja_ruby": "{日本|にほん}で{富士山|ふじさん}ほど{有名|ゆうめい}な{山|やま}は（　）。",
+          "context_en": "Pick the ending that forms an accurate superlative for an inanimate subject (mountain).",
+          "choices": [
+            "あります",
+            "います",
+            "いません",
+            "ありません"
+          ],
+          "correct_index": 3,
+          "explanation": "ありません is correct because 〜ほど[N]はありません states a superlative for inanimate things ('there is no mountain as famous as'). あります breaks the mandatory negative frame, います fails both negative polarity and inanimate subject agreement, and いません is used only for animate beings."
+        },
+        {
+          "question_id": "L15-Q3",
+          "question_type": "attachment_trap",
+          "prompt_ja_ruby": "{図書館|としょかん}の{席|せき}は、（　）{勉強|べんきょう}しやすいです。",
+          "context_en": "Choose the valid 〜ば〜ほど form for the na-adjective shizuka (quiet).",
+          "choices": [
+            "{静|しず}かなら{静|しず}かなほど",
+            "{静|しず}かれば{静|しず}かほど",
+            "{静|しず}かなら{静|しず}かほど",
+            "{静|しず}かだなら{静|しず}かなほど"
+          ],
+          "correct_index": 0,
+          "explanation": "{静|しず}かなら{静|しず}かなほど is correct because な-adjectives use なら for the conditional half and retain な before ほど. Treating it like an い-adjective ({静|しず}かれば), omitting な before ほど, or inserting だ before なら are all ungrammatical."
+        },
+        {
+          "question_id": "L15-Q4",
+          "question_type": "star_order",
+          "prompt_ja_ruby": "{部屋|へや}を{借|か}りるとき、{駅|えき}から　＿　＿　★　＿　が{高|たか}くなる。",
+          "context_en": "Arrange the fragments to say the closer an apartment is to the station, the higher the rent becomes.",
+          "choices": [
+            "{近|ちか}い",
+            "ほど",
+            "{家賃|やちん}",
+            "{近|ちか}ければ"
+          ],
+          "correct_index": 1,
+          "explanation": "The unique valid order is {近|ちか}ければ → {近|ちか}い → ほど (★) → {家賃|やちん}. The 〜ば〜ほど frame locks {近|ちか}ければ followed by plain {近|ちか}い and ほど, and {家賃|やちん} links directly to が{高|たか}くなる."
+        }
+      ]
+    }
+  ]
+}
