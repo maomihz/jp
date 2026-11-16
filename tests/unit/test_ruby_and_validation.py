@@ -277,6 +277,9 @@ class BoundaryLoaderTests(unittest.TestCase):
         assert isinstance(q0, dict)
         q0["choices"] = ["{行|い}く", "{行|おこな}く", "{見|み}る", "{聞|き}く"]
         q0["correct_index"] = 5
+        q1 = quiz[1]
+        assert isinstance(q1, dict)
+        q1["question_id"] = "custom-q2"
 
         errors: list[ValidationError] = []
         parse_unit_dict(bad_payload, "unit_01.json", set(), set(), set(), errors)
@@ -286,6 +289,9 @@ class BoundaryLoaderTests(unittest.TestCase):
         self.assertTrue(any("must not contain ruby braces" in m for m in messages))
         self.assertTrue(any("Unexpected keys in grammar point" in m for m in messages))
         self.assertTrue(any("must equal structural id" in m for m in messages))
+        self.assertTrue(
+            any("Question id" in m and "must equal structural id" in m for m in messages)
+        )
 
     def test_parse_matrices_dict_enforces_exact_column_contract(self) -> None:
         raw = {
@@ -324,6 +330,18 @@ class BoundaryLoaderTests(unittest.TestCase):
         self.assertTrue(any("Expected 12 matrices" in e.message for e in errors))
         non_count_errors = [e for e in errors if "Expected 12 matrices" not in e.message]
         self.assertEqual(non_count_errors, [])
+
+        bad_raw = {
+            "matrices": [{**raw["matrices"][0], "matrix_id": "M99"}],
+        }
+        bad_id_errors: list[ValidationError] = []
+        parse_matrices_dict(bad_raw, "synonym_matrices.json", bad_id_errors)
+        self.assertTrue(
+            any(
+                "Matrix id" in e.message and "must equal structural id" in e.message
+                for e in bad_id_errors
+            )
+        )
 
 
 if __name__ == "__main__":

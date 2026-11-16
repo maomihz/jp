@@ -267,6 +267,7 @@ def _parse_contrast(
 def _parse_quiz(
     raw_list: object,
     location: str,
+    lesson_id: str,
     seen_question_ids: set[str],
     errors: list[ValidationError],
 ) -> tuple[QuizQuestion, ...]:
@@ -283,6 +284,15 @@ def _parse_quiz(
 
         qid = _require_str(item, "question_id", q_loc, errors, ruby_mode="literal")
         if qid:
+            if lesson_id:
+                expected_qid = f"{lesson_id}-Q{idx + 1}"
+                if qid != expected_qid:
+                    errors.append(
+                        ValidationError(
+                            q_loc,
+                            f"Question id {qid!r} must equal structural id {expected_qid!r}",
+                        )
+                    )
             if qid in seen_question_ids:
                 errors.append(ValidationError(q_loc, f"Duplicate question_id '{qid}'"))
             seen_question_ids.add(qid)
@@ -407,7 +417,7 @@ def _parse_lesson(
                 points.append(gp)
 
     contrast = _parse_contrast(raw.get("lesson_contrast"), location, errors)
-    quiz = _parse_quiz(raw.get("practice_quiz"), location, seen_question_ids, errors)
+    quiz = _parse_quiz(raw.get("practice_quiz"), location, lesson_id, seen_question_ids, errors)
 
     return Lesson(
         lesson_id=lesson_id,
@@ -560,6 +570,14 @@ def parse_matrices_dict(
 
         mid = _require_str(item, "matrix_id", m_loc, errors, ruby_mode="literal")
         if mid:
+            expected_mid = f"M{idx + 1:02d}"
+            if mid != expected_mid:
+                errors.append(
+                    ValidationError(
+                        m_loc,
+                        f"Matrix id {mid!r} must equal structural id {expected_mid!r}",
+                    )
+                )
             if mid in seen_ids:
                 errors.append(ValidationError(m_loc, f"Duplicate matrix_id '{mid}'"))
             seen_ids.add(mid)
