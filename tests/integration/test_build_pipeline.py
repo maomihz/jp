@@ -54,11 +54,19 @@ class BuildPipelineIntegrationTests(unittest.TestCase):
                         resp.headers.get("Content-Type", "").startswith("text/javascript")
                     )
 
+                with urllib.request.urlopen(f"{base}/favicon.svg", timeout=3) as resp:
+                    self.assertEqual(resp.status, 200)
+
                 with urllib.request.urlopen(f"{base}/data/manifest.json", timeout=3) as resp:
                     self.assertEqual(resp.status, 200)
                     manifest = json.loads(resp.read().decode("utf-8"))
                     self.assertEqual(manifest["total_renshuu_lessons"], 55)
                     self.assertEqual(manifest["total_grammar_points"], 220)
+                    m06 = next(m for m in manifest["matrices"] if m["matrix_id"] == "M06")
+                    self.assertIn("L17", m06["related_lessons"])
+                    unit4_meta = next(u for u in manifest["units"] if u["unit_number"] == 4)
+                    l17_meta = next(ls for ls in unit4_meta["lessons"] if ls["lesson_id"] == "L17")
+                    self.assertIn("M06", l17_meta["related_matrices"])
 
                 with urllib.request.urlopen(f"{base}/data/units/unit_01.json", timeout=3) as resp:
                     self.assertEqual(resp.status, 200)

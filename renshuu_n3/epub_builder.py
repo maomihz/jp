@@ -113,7 +113,9 @@ def _render_grammar_card_xhtml(gp: GrammarPoint) -> list[str]:
     return parts
 
 
-def _render_lesson_xhtml(lesson: Lesson) -> list[str]:
+def _render_lesson_xhtml(
+    lesson: Lesson, related_matrices: tuple[SynonymMatrix, ...] = ()
+) -> list[str]:
     lid = html.escape(lesson.lesson_id)
     badge = html.escape(lesson.format_badge())
     video_badge = ' <span class="badge">Video Lesson</span>' if lesson.has_video else ""
@@ -122,9 +124,21 @@ def _render_lesson_xhtml(lesson: Lesson) -> list[str]:
         f"<h2>{badge}: {html.escape(lesson.renshuu_title)}{video_badge}</h2>",
         f"<p><strong>Orientation:</strong> {render_ruby_html(lesson.summary)}</p>",
         f'<div class="callout"><p><strong>Study Tip:</strong> {render_ruby_html(lesson.study_tip)}</p></div>',
-        "<h3>Lesson Snapshot</h3>",
-        "<table><thead><tr><th>Pattern</th><th>Meaning</th><th>Register</th><th>Status</th></tr></thead><tbody>",
     ]
+    if related_matrices:
+        matrix_anchors = ", ".join(
+            f'<a href="matrices.xhtml#{html.escape(matrix.matrix_id)}">{html.escape(matrix.matrix_id)}: {html.escape(matrix.theme)}</a>'
+            for matrix in related_matrices
+        )
+        parts.append(
+            f'<p class="meta"><strong>Related Synonym Matrices:</strong> {matrix_anchors}</p>'
+        )
+    parts.extend(
+        [
+            "<h3>Lesson Snapshot</h3>",
+            "<table><thead><tr><th>Pattern</th><th>Meaning</th><th>Register</th><th>Status</th></tr></thead><tbody>",
+        ]
+    )
     for gp in lesson.grammar_points:
         reg = html.escape(REGISTER_LABELS[gp.register])
         st = html.escape(STATUS_LABELS[gp.renshuu_status])
@@ -189,19 +203,27 @@ def _render_lesson_xhtml(lesson: Lesson) -> list[str]:
     return parts
 
 
-def _render_unit_xhtml(unit: Unit) -> str:
+def _render_unit_xhtml(unit: Unit, curriculum: Curriculum | None = None) -> str:
     parts = [
         f'<section id="unit-{unit.unit_number:02d}" epub:type="chapter">',
         f"<h1>{html.escape(unit.unit_title)}</h1>",
         f"<p>{render_ruby_html(unit.unit_overview)}</p>",
     ]
     for lesson in unit.lessons:
-        parts.extend(_render_lesson_xhtml(lesson))
+        related_matrices = (
+            curriculum.related_matrices_for_lesson(lesson.lesson_id)
+            if curriculum is not None
+            else ()
+        )
+        parts.extend(_render_lesson_xhtml(lesson, related_matrices))
     parts.append("</section>")
     return _wrap_xhtml(unit.unit_title, "../styles/guide.css", "\n".join(parts))
 
 
-def _render_matrices_xhtml(matrices: tuple[SynonymMatrix, ...]) -> str:
+def _render_matrices_xhtml(
+    matrices: tuple[SynonymMatrix, ...], curriculum: Curriculum | None = None
+) -> str:
+    by_id = curriculum.lesson_unit_map() if curriculum is not None else {}
     parts = [
         '<section id="synonym-matrices" epub:type="chapter">',
         "<h1>JLPT N3 Synonym Disambiguation Matrices (M01–M12)</h1>",
@@ -214,6 +236,22 @@ def _render_matrices_xhtml(matrices: tuple[SynonymMatrix, ...]) -> str:
                 f'<section id="{mid}" class="matrix">',
                 f"<h2>{mid}: {render_ruby_html(matrix.title)}</h2>",
                 f"<p><strong>Theme:</strong> {html.escape(matrix.theme)}</p>",
+            ]
+        )
+        if curriculum is not None:
+            related_lessons = curriculum.related_lessons_for_matrix(matrix.matrix_id)
+            if related_lessons:
+                lesson_anchors = ", ".join(
+                    f'<a href="unit_{by_id[ls.lesson_id][0].unit_number:02d}.xhtml#{html.escape(ls.lesson_id)}">'
+                    f"{html.escape(ls.format_badge())}: {html.escape(ls.renshuu_title)}</a>"
+                    for ls in related_lessons
+                    if ls.lesson_id in by_id
+                )
+                parts.append(
+                    f'<p class="meta"><strong>Related Lessons:</strong> {lesson_anchors}</p>'
+                )
+        parts.extend(
+            [
                 f'<div class="callout"><p><strong>Decision Heuristic:</strong> {render_ruby_html(matrix.decision_heuristic)}</p></div>',
                 "<table><thead><tr>",
                 "".join(f"<th>{html.escape(col)}</th>" for col in matrix.columns),
@@ -282,7 +320,9 @@ def build_epub(curriculum: Curriculum, epub_path: Path) -> None:
             f'<item id="{item_id}" href="{href}" media-type="application/xhtml+xml"/>'
         )
         spine_items.append(f'<itemref idref="{item_id}"/>')
-        chapter_files[f"EPUB/{href}"] = _validate_xml_string(_render_unit_xhtml(unit), href)
+        chapter_files[f"EPUB/{href}"] = _validate_xml_string(
+            _render_unit_xhtml(unit, curriculum), href
+        )
 
         unit_title_esc = html.escape(unit.unit_title, quote=False)
         sub_nav: list[str] = []
@@ -317,7 +357,7 @@ def build_epub(curriculum: Curriculum, epub_path: Path) -> None:
     spine_items.append('<itemref idref="ch-matrices"/>')
     spine_items.append('<itemref idref="nav" linear="no"/>')
     chapter_files["EPUB/text/matrices.xhtml"] = _validate_xml_string(
-        _render_matrices_xhtml(curriculum.matrices), "matrices.xhtml"
+        _render_matrices_xhtml(curriculum.matrices, curriculum), "matrices.xhtml"
     )
 
     m_sub_nav: list[str] = []

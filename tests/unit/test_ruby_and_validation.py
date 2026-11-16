@@ -5,7 +5,7 @@ from __future__ import annotations
 import unittest
 
 from renshuu_n3.curriculum_loader import parse_matrices_dict, parse_unit_dict
-from renshuu_n3.models import EXPECTED_MATRIX_COLUMNS
+from renshuu_n3.models import EXPECTED_BRIDGE_IDS, EXPECTED_MATRIX_COLUMNS, MATRIX_RELATED_LESSONS
 from renshuu_n3.ruby import (
     ValidationError,
     check_literal_field,
@@ -15,6 +15,7 @@ from renshuu_n3.ruby import (
     render_ruby_html,
     render_ruby_markdown,
     strip_ruby_to_surface,
+    to_searchable_plain,
 )
 
 
@@ -167,6 +168,26 @@ class RubyEngineTests(unittest.TestCase):
             rendered,
             "<ruby>山<rp>(</rp><rt>やま</rt><rp>)</rp></ruby> &amp; &lt;script&gt;alert(1)&lt;/script&gt;",
         )
+
+    def test_render_ruby_html_formats_inline_emphasis_and_search_text(self) -> None:
+        raw = "**Core**: *not* `に` before {対|たい}して"
+        self.assertEqual(
+            render_ruby_html(raw),
+            "<strong>Core</strong>: <em>not</em> <code>に</code> before <ruby>対<rp>(</rp><rt>たい</rt><rp>)</rp></ruby>して",
+        )
+        self.assertEqual(
+            to_searchable_plain("〜に{対|たい}して"),
+            "〜に対して 〜にたいして",
+        )
+
+    def test_matrix_related_lessons_map_covers_all_twelve_matrices(self) -> None:
+        expected_matrices = {f"M{idx:02d}" for idx in range(1, 13)}
+        self.assertEqual(set(MATRIX_RELATED_LESSONS.keys()), expected_matrices)
+        valid_ids = {f"L{idx:02d}" for idx in range(1, 56)} | set(EXPECTED_BRIDGE_IDS)
+        for mid, lesson_ids in MATRIX_RELATED_LESSONS.items():
+            self.assertTrue(lesson_ids, f"{mid} must map to at least one lesson")
+            for lid in lesson_ids:
+                self.assertIn(lid, valid_ids, f"{mid} references invalid lesson ID {lid}")
 
     def test_render_ruby_markdown_and_pipe_escaping(self) -> None:
         self.assertEqual(render_ruby_markdown("{山|やま}を{見|み}る"), "山【やま】を見【み】る")

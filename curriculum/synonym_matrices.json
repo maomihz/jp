@@ -716,13 +716,13 @@
       ],
       "minimal_pair_test": [
         {
-          "pair_title": "Noun-modifier trap: の (について・にとって) vs dictionary form (にたいする・による)",
+          "pair_title": "Noun-modifier trap: の (について・にとって) vs dictionary form (に{対|たい}する・による)",
           "sentence_valid": "{先生|せんせい}は{生徒|せいと}からの{質問|しつもん}に{対|たい}する{丁寧|ていねい}な{答|こた}えをノートに{書|か}いた。",
           "sentence_contrast": "× {先生|せんせい}は{生徒|せいと}からの{質問|しつもん}に{対|たい}しての{丁寧|ていねい}な{答|こた}えをノートに{書|か}いた。",
           "explanation": "Verb-derived compound markers (に{対|たい}して, に{関|かん}して, によって) drop て and revert to plain dictionary form before a noun (に{対|たい}する, に{関|かん}する, による), whereas について and にとって retain て and add の (についての, にとっての)."
         },
         {
-          "pair_title": "Evaluative standpoint (にとって) vs directed attitude (にたいして)",
+          "pair_title": "Evaluative standpoint (にとって) vs directed attitude (に{対|たい}して)",
           "sentence_valid": "{私|わたし}にとって、{家族|かぞく}と{過|す}ごす{時間|じかん}がいちばん{大切|たいせつ}だ。",
           "sentence_contrast": "× {私|わたし}に{対|たい}して、{家族|かぞく}と{過|す}ごす{時間|じかん}がいちばん{大切|たいせつ}だ。",
           "explanation": "にとって marks the evaluator whose personal viewpoint defines a value judgment ('for me / in my eyes, X is important'). に{対|たい}して targets an outward recipient for a feeling, attitude, or action ('polite toward guests')."

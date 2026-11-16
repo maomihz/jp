@@ -7,11 +7,12 @@ import shutil
 from dataclasses import asdict
 from pathlib import Path
 
-from renshuu_n3.models import Curriculum, SynonymMatrix, Unit
-from renshuu_n3.ruby import RUBY_TOKEN_PATTERN
+from renshuu_n3.models import Curriculum, Unit
+from renshuu_n3.ruby import to_searchable_plain
 
 WEB_STATIC_FILES: tuple[str, ...] = (
     "index.html",
+    "favicon.svg",
     "styles/main.css",
     "js/app.js",
     "js/data.js",
@@ -19,10 +20,6 @@ WEB_STATIC_FILES: tuple[str, ...] = (
     "js/state.js",
     "js/views.js",
 )
-
-
-def _to_searchable_plain(text: str) -> str:
-    return RUBY_TOKEN_PATTERN.sub(r"\1 \2", text).lower()
 
 
 def _write_json(path: Path, payload: object) -> None:
@@ -46,9 +43,13 @@ def _build_manifest_payload(curriculum: Curriculum) -> dict[str, object]:
                     "pattern": gp.pattern,
                     "pattern_ruby": gp.pattern_ruby,
                     "meaning_en": gp.meaning_en,
-                    "mental_model_search": _to_searchable_plain(gp.mental_model),
+                    "mental_model_search": to_searchable_plain(gp.mental_model),
                 }
                 for gp in lesson.grammar_points
+            ]
+            related_matrices = [
+                matrix.matrix_id
+                for matrix in curriculum.related_matrices_for_lesson(lesson.lesson_id)
             ]
             lesson_entries.append(
                 {
@@ -58,6 +59,7 @@ def _build_manifest_payload(curriculum: Curriculum) -> dict[str, object]:
                     "has_video": lesson.has_video,
                     "summary": lesson.summary,
                     "unit_number": unit.unit_number,
+                    "related_matrices": related_matrices,
                     "grammar_index": grammar_index,
                 }
             )
@@ -76,7 +78,11 @@ def _build_manifest_payload(curriculum: Curriculum) -> dict[str, object]:
             "matrix_id": matrix.matrix_id,
             "title": matrix.title,
             "theme": matrix.theme,
-            "decision_heuristic_search": _to_searchable_plain(matrix.decision_heuristic),
+            "decision_heuristic_search": to_searchable_plain(matrix.decision_heuristic),
+            "related_lessons": [
+                lesson.lesson_id
+                for lesson in curriculum.related_lessons_for_matrix(matrix.matrix_id)
+            ],
         }
         for matrix in curriculum.matrices
     ]
@@ -91,12 +97,25 @@ def _build_manifest_payload(curriculum: Curriculum) -> dict[str, object]:
     }
 
 
-def _serialize_unit(unit: Unit) -> dict[str, object]:
-    return asdict(unit)
+def _serialize_unit(unit: Unit, curriculum: Curriculum) -> dict[str, object]:
+    payload = asdict(unit)
+    for lesson_dict in payload["lessons"]:
+        lid = str(lesson_dict["lesson_id"])
+        lesson_dict["related_matrices"] = [
+            matrix.matrix_id for matrix in curriculum.related_matrices_for_lesson(lid)
+        ]
+    return payload
 
 
-def _serialize_matrices(matrices: tuple[SynonymMatrix, ...]) -> dict[str, list[dict[str, object]]]:
-    return {"matrices": [asdict(matrix) for matrix in matrices]}
+def _serialize_matrices(curriculum: Curriculum) -> dict[str, list[dict[str, object]]]:
+    serialized: list[dict[str, object]] = []
+    for matrix in curriculum.matrices:
+        entry = asdict(matrix)
+        entry["related_lessons"] = [
+            lesson.lesson_id for lesson in curriculum.related_lessons_for_matrix(matrix.matrix_id)
+        ]
+        serialized.append(entry)
+    return {"matrices": serialized}
 
 
 def build_web_site(curriculum: Curriculum, web_src_dir: Path, site_out_dir: Path) -> None:
@@ -110,7 +129,7 @@ def build_web_site(curriculum: Curriculum, web_src_dir: Path, site_out_dir: Path
 
     data_dir = site_out_dir / "data"
     _write_json(data_dir / "manifest.json", _build_manifest_payload(curriculum))
-    _write_json(data_dir / "matrices.json", _serialize_matrices(curriculum.matrices))
+    _write_json(data_dir / "matrices.json", _serialize_matrices(curriculum))
     for unit in curriculum.units:
         unit_path = data_dir / "units" / f"unit_{unit.unit_number:02d}.json"
-        _write_json(unit_path, _serialize_unit(unit))
+        _write_json(unit_path, _serialize_unit(unit, curriculum))

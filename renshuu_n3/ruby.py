@@ -60,6 +60,9 @@ KANA_CHAR_PATTERN = re.compile(r"[ぁ-ゖァ-ヶー]")
 RUBY_SPLIT_PATTERN = re.compile(r"(\{[^{}|]+\|[^{}|]+\})")
 RUBY_TOKEN_PATTERN = re.compile(r"\{([^{}|]+)\|([^{}|]+)\}")
 RUBY_ANCHORED_PATTERN = re.compile(r"^\{([^{}|]+)\|([^{}|]+)\}$")
+INLINE_CODE_PATTERN = re.compile(r"`([^`\n<>]+)`")
+INLINE_BOLD_PATTERN = re.compile(r"\*\*([^*\n<>]+)\*\*")
+INLINE_ITALIC_PATTERN = re.compile(r"(?<!\*)\*([^*\n<>]+)\*(?!\*)")
 PLACEHOLDER_PATTERN = re.compile(r"\b(?:TODO|TBD|FIXME|XXX|PLACEHOLDER)\b", re.IGNORECASE)
 ROMAJI_TERM_PATTERN = re.compile(r"\bromanj?i\b", re.IGNORECASE)
 MACRON_VOWEL_PATTERN = re.compile(r"[āīūēōĀĪŪĒŌ]")
@@ -240,8 +243,25 @@ def strip_ruby_to_surface(text: str) -> str:
     return RUBY_TOKEN_PATTERN.sub(r"\1", text)
 
 
+def _format_inline_emphasis_html(escaped_text: str) -> str:
+    """Convert markdown code, bold, and italic spans in HTML-escaped prose."""
+    formatted = INLINE_CODE_PATTERN.sub(r"<code>\1</code>", escaped_text)
+    formatted = INLINE_BOLD_PATTERN.sub(r"<strong>\1</strong>", formatted)
+    return INLINE_ITALIC_PATTERN.sub(r"<em>\1</em>", formatted)
+
+
+def to_searchable_plain(text: str) -> str:
+    """Emit contiguous lowercase surface and reading strings for client indexing."""
+    clean = INLINE_CODE_PATTERN.sub(r"\1", text)
+    clean = INLINE_BOLD_PATTERN.sub(r"\1", clean)
+    clean = INLINE_ITALIC_PATTERN.sub(r"\1", clean)
+    surface = RUBY_TOKEN_PATTERN.sub(r"\1", clean).lower()
+    reading = RUBY_TOKEN_PATTERN.sub(r"\2", clean).lower()
+    return surface if surface == reading else f"{surface} {reading}"
+
+
 def render_ruby_html(text: str) -> str:
-    """Convert {Base|Reading} tokens into XML/HTML-safe <ruby> markup."""
+    """Convert {Base|Reading} tokens and inline emphasis into XML/HTML-safe markup."""
     parts = RUBY_SPLIT_PATTERN.split(text)
     rendered: list[str] = []
     for part in parts:
@@ -253,7 +273,7 @@ def render_ruby_html(text: str) -> str:
             reading = html.escape(match.group(2), quote=False)
             rendered.append(f"<ruby>{base}<rp>(</rp><rt>{reading}</rt><rp>)</rp></ruby>")
         else:
-            rendered.append(html.escape(part, quote=False))
+            rendered.append(_format_inline_emphasis_html(html.escape(part, quote=False)))
     return "".join(rendered)
 
 

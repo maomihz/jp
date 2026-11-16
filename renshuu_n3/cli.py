@@ -138,7 +138,10 @@ def _cmd_serve(args: argparse.Namespace) -> int:
 
     server = create_static_server(site_dir, host=args.host, port=args.port)
     actual_host, actual_port = server.server_address[:2]
-    print(f"Serving Renshuu N3 Companion at http://{actual_host}:{actual_port}/ (Ctrl+C to stop)")
+    print(
+        f"Serving Renshuu N3 Companion at http://{actual_host}:{actual_port}/ (Ctrl+C to stop)",
+        flush=True,
+    )
     try:
         server.serve_forever()
     except KeyboardInterrupt:

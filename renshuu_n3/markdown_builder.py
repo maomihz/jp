@@ -129,7 +129,9 @@ def _render_grammar_point_markdown(gp: GrammarPoint) -> list[str]:
     return lines
 
 
-def _render_lesson_markdown(lesson: Lesson) -> list[str]:
+def _render_lesson_markdown(
+    lesson: Lesson, related_matrices: tuple[SynonymMatrix, ...] = ()
+) -> list[str]:
     anchor = lesson.lesson_id.lower()
     badge = lesson.format_badge()
     video_tag = " *(Includes Renshuu Video Lesson)*" if lesson.has_video else ""
@@ -141,11 +143,21 @@ def _render_lesson_markdown(lesson: Lesson) -> list[str]:
         "",
         f"> **Renshuu Study Tip:** {render_ruby_markdown(lesson.study_tip)}",
         "",
-        "### Lesson Snapshot",
-        "",
-        "| Pattern | Meaning | Register | Status |",
-        "| :--- | :--- | :--- | :--- |",
     ]
+    if related_matrices:
+        matrix_links = ", ".join(
+            f"[{matrix.matrix_id}: {matrix.theme}](13-synonym-matrices.md#{matrix.matrix_id.lower()})"
+            for matrix in related_matrices
+        )
+        lines.extend([f"**Related Synonym Matrices:** {matrix_links}", ""])
+    lines.extend(
+        [
+            "### Lesson Snapshot",
+            "",
+            "| Pattern | Meaning | Register | Status |",
+            "| :--- | :--- | :--- | :--- |",
+        ]
+    )
     for gp in lesson.grammar_points:
         reg = REGISTER_LABELS[gp.register]
         st = STATUS_LABELS[gp.renshuu_status]
@@ -206,7 +218,7 @@ def _render_lesson_markdown(lesson: Lesson) -> list[str]:
     return lines
 
 
-def render_unit_markdown(unit: Unit) -> str:
+def render_unit_markdown(unit: Unit, curriculum: Curriculum | None = None) -> str:
     """Render one validated Unit into a standalone Markdown guide."""
     lines = [
         f"# {unit.unit_title}",
@@ -219,12 +231,20 @@ def render_unit_markdown(unit: Unit) -> str:
         "",
     ]
     for lesson in unit.lessons:
-        lines.extend(_render_lesson_markdown(lesson))
+        related_matrices = (
+            curriculum.related_matrices_for_lesson(lesson.lesson_id)
+            if curriculum is not None
+            else ()
+        )
+        lines.extend(_render_lesson_markdown(lesson, related_matrices))
     return "\n".join(lines)
 
 
-def render_matrices_markdown(matrices: tuple[SynonymMatrix, ...]) -> str:
+def render_matrices_markdown(
+    matrices: tuple[SynonymMatrix, ...], curriculum: Curriculum | None = None
+) -> str:
     """Render all 12 synonym disambiguation matrices to Markdown."""
+    by_id = curriculum.lesson_unit_map() if curriculum is not None else {}
     lines = [
         "# JLPT N3 Synonym Disambiguation Matrices (M01–M12)",
         "",
@@ -243,6 +263,20 @@ def render_matrices_markdown(matrices: tuple[SynonymMatrix, ...]) -> str:
                 "",
                 f"**Theme:** {matrix.theme}",
                 "",
+            ]
+        )
+        if curriculum is not None:
+            related_lessons = curriculum.related_lessons_for_matrix(matrix.matrix_id)
+            if related_lessons:
+                lesson_links = ", ".join(
+                    f"[{ls.format_badge()}: {ls.renshuu_title}]"
+                    f"({UNIT_MARKDOWN_FILENAMES[by_id[ls.lesson_id][0].unit_number]}#{ls.lesson_id.lower()})"
+                    for ls in related_lessons
+                    if ls.lesson_id in by_id
+                )
+                lines.extend([f"**Related Lessons:** {lesson_links}", ""])
+        lines.extend(
+            [
                 f"> **Decision Heuristic:** {render_ruby_markdown(matrix.decision_heuristic)}",
                 "",
                 "| " + " | ".join(matrix.columns) + " |",
@@ -273,7 +307,7 @@ def build_markdown_guides(curriculum: Curriculum, guide_dir: Path) -> None:
     )
     for unit in curriculum.units:
         md_name = UNIT_MARKDOWN_FILENAMES[unit.unit_number]
-        (guide_dir / md_name).write_text(render_unit_markdown(unit), encoding="utf-8")
+        (guide_dir / md_name).write_text(render_unit_markdown(unit, curriculum), encoding="utf-8")
     (guide_dir / "13-synonym-matrices.md").write_text(
-        render_matrices_markdown(curriculum.matrices), encoding="utf-8"
+        render_matrices_markdown(curriculum.matrices, curriculum), encoding="utf-8"
     )

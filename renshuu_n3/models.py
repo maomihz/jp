@@ -109,6 +109,21 @@ EXPECTED_MATRIX_COLUMNS: tuple[str, ...] = (
     "Canonical Example",
 )
 
+MATRIX_RELATED_LESSONS: dict[str, tuple[str, ...]] = {
+    "M01": ("L40", "L41", "L49"),
+    "M02": ("L20", "B02"),
+    "M03": ("L20", "L27", "L33", "L34"),
+    "M04": ("L30", "L32"),
+    "M05": ("L31", "L55"),
+    "M06": ("L17", "L18", "L19", "L23", "L25", "B02"),
+    "M07": ("L11", "L37", "L48"),
+    "M08": ("L28", "L36", "L51", "L52"),
+    "M09": ("L54", "L55"),
+    "M10": ("L35", "L53"),
+    "M11": ("L03", "L04", "L35"),
+    "M12": ("L06", "L07", "L08"),
+}
+
 REGISTER_VALUES: tuple[Register, ...] = ("casual", "neutral", "formal", "written")
 STATUS_VALUES: tuple[RenshuuStatus, ...] = (
     "verified_renshuu",
@@ -300,3 +315,21 @@ class Curriculum:
     @property
     def total_questions(self) -> int:
         return sum(len(lesson.practice_quiz) for lesson in self.lessons)
+
+    def lesson_unit_map(self) -> dict[str, tuple[Unit, Lesson]]:
+        """Map each lesson_id to its enclosing (Unit, Lesson) pair."""
+        return {lesson.lesson_id: (unit, lesson) for unit in self.units for lesson in unit.lessons}
+
+    def related_lessons_for_matrix(self, matrix_id: str) -> tuple[Lesson, ...]:
+        """Return ordered deep-dive lessons paired with a Synonym Matrix."""
+        by_id = self.lesson_unit_map()
+        lesson_ids = MATRIX_RELATED_LESSONS.get(matrix_id, ())
+        return tuple(by_id[lid][1] for lid in lesson_ids if lid in by_id)
+
+    def related_matrices_for_lesson(self, lesson_id: str) -> tuple[SynonymMatrix, ...]:
+        """Return all Synonym Matrices referencing the given lesson."""
+        return tuple(
+            matrix
+            for matrix in self.matrices
+            if lesson_id in MATRIX_RELATED_LESSONS.get(matrix.matrix_id, ())
+        )
