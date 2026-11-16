@@ -83,8 +83,8 @@ def _render_grammar_card_xhtml(gp: GrammarPoint) -> list[str]:
     st = html.escape(STATUS_LABELS[gp.renshuu_status])
     parts = [
         f'<article id="gp-{gid}" class="grammar-card">',
-        f"<h3>{render_ruby_html(gp.pattern_ruby)} ({html.escape(gp.romaji)})</h3>",
-        f'<p class="meta"><strong>Meaning:</strong> {html.escape(gp.meaning_en)} | <strong>Register:</strong> {reg} | <strong>Status:</strong> {st}</p>',
+        f"<h3>{render_ruby_html(gp.pattern_ruby)}</h3>",
+        f'<p class="meta"><strong>Meaning:</strong> {render_ruby_html(gp.meaning_en)} | <strong>Register:</strong> {reg} | <strong>Status:</strong> {st}</p>',
         "<table><thead><tr><th>Part of Speech</th><th>Attachment Rule</th></tr></thead><tbody>",
     ]
     for rule in gp.formation:
@@ -123,15 +123,16 @@ def _render_lesson_xhtml(lesson: Lesson) -> list[str]:
         f"<p><strong>Orientation:</strong> {render_ruby_html(lesson.summary)}</p>",
         f'<div class="callout"><p><strong>Study Tip:</strong> {render_ruby_html(lesson.study_tip)}</p></div>',
         "<h3>Lesson Snapshot</h3>",
-        "<table><thead><tr><th>Pattern</th><th>Romaji</th><th>Meaning</th><th>Status</th></tr></thead><tbody>",
+        "<table><thead><tr><th>Pattern</th><th>Meaning</th><th>Register</th><th>Status</th></tr></thead><tbody>",
     ]
     for gp in lesson.grammar_points:
+        reg = html.escape(REGISTER_LABELS[gp.register])
         st = html.escape(STATUS_LABELS[gp.renshuu_status])
         parts.append(
             "<tr>"
             f'<td><a href="#gp-{html.escape(gp.id)}">{render_ruby_html(gp.pattern_ruby)}</a></td>'
-            f"<td>{html.escape(gp.romaji)}</td>"
-            f"<td>{html.escape(gp.meaning_en)}</td>"
+            f"<td>{render_ruby_html(gp.meaning_en)}</td>"
+            f"<td>{reg}</td>"
             f"<td>{st}</td>"
             "</tr>"
         )
@@ -165,7 +166,7 @@ def _render_lesson_xhtml(lesson: Lesson) -> list[str]:
             [
                 '<div class="quiz-item">',
                 f"<p><strong>Q{q_idx} ({qlabel}):</strong> {render_ruby_html(q.prompt_ja_ruby)}</p>",
-                f"<p><em>Context:</em> {html.escape(q.context_en)}</p>",
+                f"<p><em>Context:</em> {render_ruby_html(q.context_en)}</p>",
                 "<ul>",
             ]
         )
@@ -226,7 +227,7 @@ def _render_matrices_xhtml(matrices: tuple[SynonymMatrix, ...]) -> str:
         for pair in matrix.minimal_pair_test:
             parts.append(
                 "<li>"
-                f"<p><strong>{html.escape(pair.pair_title)}</strong></p>"
+                f"<p><strong>{render_ruby_html(pair.pair_title)}</strong></p>"
                 f"<p><em>Natural:</em> {render_ruby_html(pair.sentence_valid)}<br/>"
                 f"<em>Contrast:</em> {render_ruby_html(pair.sentence_contrast)}<br/>"
                 f"<em>Why:</em> {render_ruby_html(pair.explanation)}</p>"

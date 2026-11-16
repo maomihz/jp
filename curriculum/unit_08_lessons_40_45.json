@@ -13,10 +13,9 @@
       "study_tip": "When choosing among 'although' patterns on Renshuu, check the speaker's target and emotion first: angry/annoyed at a person takes 〜くせに; calm reflective contrast takes 〜ながらも; a real action followed by an unexpected shortcoming takes 〜ものの; toning down a label or granting a point with a 'but' uses 〜といっても or 〜ことは〜が.",
       "grammar_points": [
         {
-          "id": "nagaramo",
+          "id": "l40-g01",
           "pattern": "〜ながらも",
           "pattern_ruby": "〜ながらも",
-          "romaji": "~nagaramo",
           "meaning_en": "although ~; even while ~ (reflective, composed contrast)",
           "register": "written",
           "renshuu_status": "verified_renshuu",
@@ -64,10 +63,9 @@
           ]
         },
         {
-          "id": "kuseni",
+          "id": "l40-g02",
           "pattern": "〜くせに",
           "pattern_ruby": "〜くせに",
-          "romaji": "~kuseni",
           "meaning_en": "even though ~; and yet ~ (critical, annoyed, or scornful toward someone)",
           "register": "casual",
           "renshuu_status": "verified_renshuu",
@@ -119,10 +117,9 @@
           ]
         },
         {
-          "id": "monono",
+          "id": "l40-g03",
           "pattern": "〜ものの",
           "pattern_ruby": "〜ものの",
-          "romaji": "~monono",
           "meaning_en": "although ~; even though ~ (acknowledging fact A, yet contrasting reality B)",
           "register": "written",
           "renshuu_status": "canonical_n3",
@@ -173,10 +170,9 @@
           ]
         },
         {
-          "id": "to-ittemo-kotowa-ga",
+          "id": "l40-g04",
           "pattern": "〜といっても・〜ことは〜が",
           "pattern_ruby": "〜といっても・〜ことは〜が",
-          "romaji": "~to ittemo · ~koto wa ~ga",
           "meaning_en": "although I say ~, actually... (calibrating expectations); admittedly ~, but... (qualified concession)",
           "register": "neutral",
           "renshuu_status": "canonical_n3",
@@ -234,7 +230,7 @@
           {
             "expression": "〜ながらも",
             "register": "Written / Reflective",
-            "key_rule": "Calm, poised concession; attaches to Vます-stem, い-Adj, or bare な-Adj/Noun.",
+            "key_rule": "Calm, poised concession; attaches to Vます-stem, い-adjective, or bare な-adjective/Noun.",
             "example_short": "{狭|せま}いながらも{快適|かいてき}だ。"
           },
           {
@@ -322,13 +318,12 @@
       "renshuu_title": "Even Though",
       "has_video": false,
       "summary": "Master hypothetical and emphatic 'even if / even granting' concessions: granting a premise or pairing two options (〜にしても), hypothetical supposition (〜としても), colloquial emphatic 〜たって / だって, permissive 〜てもかまわない, and futility/helplessness contrasts (〜ても{始|はじ}まらない vs. 〜てもしょうがない / 〜てもしかたがない).",
-      "study_tip": "Watch formality and noun/adjective links in Lesson 41: neutral granting uses 〜にしても (bare noun/な-adj, never だ) or 〜としても (noun + だとしても), while casual spoken speech turns 〜ても into 〜たって / 〜くたって / 〜だって. Also separate permissive 〜てもかまわない from futility 〜ても{始|はじ}まらない and resigned 〜てもしょうがない / 〜てもしかたがない.",
+      "study_tip": "Watch formality and noun/adjective links in Lesson 41: neutral granting uses 〜にしても (bare noun/な-adjective, never だ) or 〜としても (noun + だとしても), while casual spoken speech turns 〜ても into 〜たって / 〜くたって / 〜だって. Also separate permissive 〜てもかまわない from futility 〜ても{始|はじ}まらない and resigned 〜てもしょうがない / 〜てもしかたがない.",
       "grammar_points": [
         {
-          "id": "ni-shitemo",
+          "id": "l41-g01",
           "pattern": "〜にしても",
           "pattern_ruby": "〜にしても",
-          "romaji": "~ni shitemo",
           "meaning_en": "even granting that ~; even if ~; whether A or B (A にしても B にしても)",
           "register": "neutral",
           "renshuu_status": "canonical_n3",
@@ -375,10 +370,9 @@
           ]
         },
         {
-          "id": "to-shitemo",
+          "id": "l41-g02",
           "pattern": "〜としても",
           "pattern_ruby": "〜としても",
-          "romaji": "~to shitemo",
           "meaning_en": "even supposing ~; even assuming ~ (hypothetical concession)",
           "register": "neutral",
           "renshuu_status": "canonical_n3",
@@ -421,10 +415,9 @@
           ]
         },
         {
-          "id": "tatte",
+          "id": "l41-g03",
           "pattern": "〜たって / だって",
           "pattern_ruby": "〜たって / だって",
-          "romaji": "~tatte / datte",
           "meaning_en": "even if ~; even though ~ (emphatic colloquial equivalent of 〜ても / でも)",
           "register": "casual",
           "renshuu_status": "canonical_n3",
@@ -471,10 +464,9 @@
           ]
         },
         {
-          "id": "temo-kamawanai-hajimaranai",
+          "id": "l41-g04",
           "pattern": "〜てもかまわない・〜ても始まらない",
           "pattern_ruby": "〜てもかまわない・〜ても{始|はじ}まらない",
-          "romaji": "~temo kamawanai · ~temo hajimaranai",
           "meaning_en": "doesn't matter if ~ / it's fine even if ~ (てもかまわない); there's no point in ~ / gets nowhere (ても始まらない)",
           "register": "neutral",
           "renshuu_status": "canonical_n3",
@@ -521,10 +513,9 @@
           ]
         },
         {
-          "id": "temo-shouganai-shikataganai",
+          "id": "l41-g05",
           "pattern": "〜てもしょうがない / 〜てもしかたがない",
           "pattern_ruby": "〜てもしょうがない / 〜てもしかたがない",
-          "romaji": "~temo shou ga nai / ~temo shikata ga nai",
           "meaning_en": "there is no use doing ~; it does no good even if ~ (resigned helplessness, contrasted with ても始まらない)",
           "register": "neutral",
           "renshuu_status": "canonical_n3",
@@ -574,19 +565,19 @@
           {
             "expression": "〜にしても",
             "register": "Neutral",
-            "key_rule": "Granting a point or pairing A にしても B にしても; bare N/な-Adj (no だ).",
+            "key_rule": "Granting a point or pairing A にしても B にしても; bare N/な-adjective (no だ).",
             "example_short": "{冗談|じょうだん}にしてもよくない。"
           },
           {
             "expression": "〜としても",
             "register": "Neutral",
-            "key_rule": "Hypothetical supposition ('even assuming'); N/な-Adj normally takes だとしても.",
+            "key_rule": "Hypothetical supposition ('even assuming'); N/な-adjective normally takes だとしても.",
             "example_short": "{本当|ほんとう}だとしても{驚|おどろ}く。"
           },
           {
             "expression": "〜たって / だって",
             "register": "Casual",
-            "key_rule": "Emphatic spoken 〜ても/でも; い-Adj becomes 〜くたって, N/な-Adj takes だって.",
+            "key_rule": "Emphatic spoken 〜ても/でも; い-adjective becomes 〜くたって, N/な-adjective takes だって.",
             "example_short": "{高|たか}くたって{買|か}うよ。"
           },
           {
@@ -616,7 +607,7 @@
             "{忙|いそが}しくだって"
           ],
           "correct_index": 1,
-          "explanation": "Correct: B ({忙|いそが}しくたって). Like 〜ても ({忙|いそが}しくても), い-adjectives drop い and add くたって for the casual emphatic 'even if'. A ({忙|いそが}しいたって) wrongly leaves finite い; C ({忙|いそが}しいだって) misuses noun/な-adj だって; D ({忙|いそが}しくだって) wrongly voices た into だ after く."
+          "explanation": "Correct: B ({忙|いそが}しくたって). Like 〜ても ({忙|いそが}しくても), い-adjectives drop い and add くたって for the casual emphatic 'even if'. A ({忙|いそが}しいたって) wrongly leaves finite い; C ({忙|いそが}しいだって) misuses noun/な-adjective だって; D ({忙|いそが}しくだって) wrongly voices た into だ after く."
         },
         {
           "question_id": "L41-Q2",
@@ -671,10 +662,9 @@
       "study_tip": "Ask what kind of 'instead' you mean before choosing: swapping one action/item for another or balancing a trade-off takes 〜かわりに; formally stepping into a person's role takes 〜に{代|か}わって; refining how you label one thing takes 〜というより; rejecting a false claim takes 〜ではなく（て）.",
       "grammar_points": [
         {
-          "id": "to-iu-yori",
+          "id": "l42-g01",
           "pattern": "〜というより",
           "pattern_ruby": "〜というより",
-          "romaji": "~to iu yori",
           "meaning_en": "rather than calling it ~; more accurately ~ (rephrasing A as B)",
           "register": "neutral",
           "renshuu_status": "verified_renshuu",
@@ -717,10 +707,9 @@
           ]
         },
         {
-          "id": "kawari-ni",
+          "id": "l42-g02",
           "pattern": "〜かわりに",
           "pattern_ruby": "〜かわりに",
-          "romaji": "~kawari ni",
           "meaning_en": "instead of ~ (substitution); on behalf of ~ (proxy); in exchange for ~ / on the other hand ~ (compensation)",
           "register": "neutral",
           "renshuu_status": "verified_renshuu",
@@ -772,10 +761,9 @@
           ]
         },
         {
-          "id": "ni-kawatte",
+          "id": "l42-g03",
           "pattern": "〜に代わって / に代わり",
           "pattern_ruby": "〜に{代|か}わって / に{代|か}わり",
-          "romaji": "~ni kawatte / ni kawari",
           "meaning_en": "on behalf of ~; replacing ~ (formal substitution of a person, role, or system)",
           "register": "formal",
           "renshuu_status": "canonical_n3",
@@ -814,11 +802,10 @@
           ]
         },
         {
-          "id": "mushiro-dewanakute",
+          "id": "l42-g04",
           "pattern": "〜むしろ・〜ではなく（て）",
           "pattern_ruby": "〜むしろ・〜ではなく（て）",
-          "romaji": "~mushiro · ~dewa naku(te)",
-          "meaning_en": "rather / preferably (mushiro); not A, but B (dewa naku(te))",
+          "meaning_en": "rather / preferably (むしろ); not A, but B (ではなく（て）)",
           "register": "neutral",
           "renshuu_status": "canonical_n3",
           "mental_model": "When you need to cross out A completely and point to B instead, use A ではなく（て）B ('not A, it's B'). Unlike 〜かわりに (which trades one valid choice for another) or 〜というより (which softens a label), 〜ではなく（て） flatly denies A as wrong or unintended. Meanwhile, the adverb むしろ ('rather / if anything') leans your preference toward B, often partnering with 〜というより or 〜より.",
@@ -889,7 +876,7 @@
           {
             "expression": "むしろ・〜ではなく（て）",
             "register": "Neutral",
-            "key_rule": "むしろ = 'rather/preferably'; ではなく（て） rejects A completely (V/い-Adj need の).",
+            "key_rule": "むしろ = 'rather/preferably'; ではなく（て） rejects A completely (V/い-adjective need の).",
             "example_short": "{出|で}かけるのではなく{家|いえ}で{休|やす}む。"
           }
         ]
@@ -962,10 +949,9 @@
       "study_tip": "Lock in three particle habits for Lesson 43: benchmark comparisons use 〜に{比|くら}べて (with に); sameness and difference use 〜と{同|おな}じで / 〜と{違|ちが}って (with と); and {同|おな}じ attaches directly to nouns with ZERO の or な (○ {同|おな}じ{意見|いけん}, × {同|おな}じの{意見|いけん}).",
       "grammar_points": [
         {
-          "id": "ni-kurabete-comparison",
+          "id": "l43-g01",
           "pattern": "〜に比べて",
           "pattern_ruby": "〜に{比|くら}べて",
-          "romaji": "~ni kurabete",
           "meaning_en": "compared to ~; in comparison with ~",
           "register": "neutral",
           "renshuu_status": "verified_renshuu",
@@ -1008,10 +994,9 @@
           ]
         },
         {
-          "id": "yorimo-zutto",
+          "id": "l43-g02",
           "pattern": "〜より（も）〜ほうが＋ずっと",
           "pattern_ruby": "〜より（も）〜ほうが＋ずっと",
-          "romaji": "~yori (mo) ~hou ga + zutto",
           "meaning_en": "far more ~ than ~; way ~-er than ~ (intensified comparison)",
           "register": "neutral",
           "renshuu_status": "canonical_n3",
@@ -1054,11 +1039,10 @@
           ]
         },
         {
-          "id": "onaji-kurai-chigatte",
+          "id": "l43-g03",
           "pattern": "〜と同じくらい・〜と同じで / と違って",
           "pattern_ruby": "〜と{同|おな}じくらい・〜と{同|おな}じで / と{違|ちが}って",
-          "romaji": "~to onaji kurai · ~to onaji de / to chigatte",
-          "meaning_en": "about the same as ~ (onaji kurai); just like ~ / unlike ~ (onaji de / chigatte)",
+          "meaning_en": "about the same as ~ (〜と{同|おな}じくらい); just like ~ / unlike ~ (〜と{同|おな}じで・〜と{違|ちが}って)",
           "register": "neutral",
           "renshuu_status": "canonical_n3",
           "mental_model": "When two things match or diverge rather than outranking each other, particle と is your anchor: 〜と{同|おな}じくらい puts two items at roughly equal height on a scale ('about as tall as Mom'), while 〜と{同|おな}じで ('just like X') and 〜と{違|ちが}って ('unlike X') link whole clauses. Crucially, {同|おな}じ is a special noun modifier that snaps onto nouns directly with ZERO の and ZERO な: always say {同|おな}じ{色|いろ}, never {同|おな}じの{色|いろ}.",
@@ -1104,11 +1088,10 @@
           ]
         },
         {
-          "id": "ni-tsurete-ippoude",
+          "id": "l43-g04",
           "pattern": "〜につれて・一方で",
           "pattern_ruby": "〜につれて・{一方|いっぽう}で",
-          "romaji": "~ni tsurete · ippou de",
-          "meaning_en": "as ~ changes, ~ changes too (ni tsurete); on the other hand / while simultaneously (ippou de)",
+          "meaning_en": "as ~ changes, ~ changes too (につれて); on the other hand / while simultaneously ({一方|いっぽう}で)",
           "register": "written",
           "renshuu_status": "canonical_n3",
           "mental_model": "Both patterns examine pairs, in different dimensions. 〜につれて links two changes across time like gears turning together: as A shifts continuously in one direction ({年|とし}をとる, {登|のぼ}る), B shifts right alongside it ({弱|よわ}くなる, {下|さ}がる). By contrast, {一方|いっぽう}で acts like a balanced scale holding two coexisting sides at once—either two contrasting traits of one thing, or two people/roles moving simultaneously.",
@@ -1256,10 +1239,9 @@
       "study_tip": "Check particle links and sentence direction in Lesson 44: 〜だけでなく / ばかりでなく attach directly to nouns, whereas 〜{上|うえ}に requires の after nouns (N＋の{上|うえ}に) and stacks two same-polarity traits; 〜ばかりか / はもちろん expand upward (with も, まで, さえ), while 〜だけしか〜ない narrows down and MUST end negatively.",
       "grammar_points": [
         {
-          "id": "dake-denaku-bakari-denaku",
+          "id": "l44-g01",
           "pattern": "〜だけでなく・〜ばかりでなく",
           "pattern_ruby": "〜だけでなく・〜ばかりでなく",
-          "romaji": "~dake de naku · ~bakari de naku",
           "meaning_en": "not only ~, but also ~ (additive expansion)",
           "register": "neutral",
           "renshuu_status": "verified_renshuu",
@@ -1306,10 +1288,9 @@
           ]
         },
         {
-          "id": "bakari-ka",
+          "id": "l44-g02",
           "pattern": "〜ばかりか",
           "pattern_ruby": "〜ばかりか",
-          "romaji": "~bakari ka",
           "meaning_en": "not only ~, why, even ~! (strong escalation with surprise)",
           "register": "written",
           "renshuu_status": "verified_renshuu",
@@ -1356,10 +1337,9 @@
           ]
         },
         {
-          "id": "wa-mochiron-motoyori",
+          "id": "l44-g03",
           "pattern": "〜はもちろん / はもとより",
           "pattern_ruby": "〜はもちろん / はもとより",
-          "romaji": "~wa mochiron / wa motoyori",
           "meaning_en": "~ goes without saying, let alone/plus ~; naturally ~ as well as ~",
           "register": "formal",
           "renshuu_status": "verified_renshuu",
@@ -1402,11 +1382,10 @@
           ]
         },
         {
-          "id": "dakeshika-ni-kagitte",
+          "id": "l44-g04",
           "pattern": "〜だけしか〜ない・〜に限って",
           "pattern_ruby": "〜だけしか〜ない・〜に{限|かぎ}って",
-          "romaji": "~dake shika ~nai · ~ni kagitte",
-          "meaning_en": "nothing but ~ / only ~ (emphatic restriction); of all times/people ~ / specifically ~ would never ~ (ni kagitte)",
+          "meaning_en": "nothing but ~ / only ~ (emphatic restriction); of all times/people ~ / specifically ~ would never ~ (に{限|かぎ}って)",
           "register": "neutral",
           "renshuu_status": "canonical_n3",
           "mental_model": "Both narrow the spotlight to one pinpoint target in very different ways. Stacking 〜だけしか〜ない squeezes an amount down to a tiny remainder ('literally ONLY 100 yen left and nothing more') and ALWAYS ends in a negative verb because of しか. Meanwhile, 〜に{限|かぎ}って zooms in on one fateful target for two classic N3 scenarios: (1) Murphy's-law bad timing ('specifically on the day I forgot my umbrella, it pours!'), and (2) unshakable trust ('of all people, Tanaka would NEVER do that!').",
@@ -1452,10 +1431,9 @@
           ]
         },
         {
-          "id": "ueni-moreover",
+          "id": "l44-g05",
           "pattern": "〜上に",
           "pattern_ruby": "〜{上|うえ}に",
-          "romaji": "~ue ni",
           "meaning_en": "in addition to ~; on top of ~; moreover",
           "register": "neutral",
           "renshuu_status": "verified_renshuu",
@@ -1510,13 +1488,13 @@
           {
             "expression": "〜だけでなく・ばかりでなく",
             "register": "Neutral",
-            "key_rule": "Neutral 'not only A, also B'; bare N (no の), な-Adj takes な; pair Clause B with も.",
+            "key_rule": "Neutral 'not only A, also B'; bare N (no の), な-adjective takes な; pair Clause B with も.",
             "example_short": "{味|あじ}だけでなく{値段|ねだん}も{良|よ}い。"
           },
           {
             "expression": "〜{上|うえ}に",
             "register": "Neutral",
-            "key_rule": "Stacks same-polarity traits/events ('moreover / on top of'); N takes の{上|うえ}に, な-Adj takes な{上|うえ}に.",
+            "key_rule": "Stacks same-polarity traits/events ('moreover / on top of'); N takes の{上|うえ}に, な-adjective takes な{上|うえ}に.",
             "example_short": "{駅|えき}に{近|ちか}い{上|うえ}に{安|やす}い。"
           },
           {
@@ -1607,10 +1585,9 @@
       "study_tip": "Always read all the way to the predicate in Lesson 45: {数量|すうりょう}＋も flips meaning completely at the verb ending (affirmative = 'as many as N', negative = 'not even one'), while double negatives like 〜なくはない soften into a reluctant 'kind of / not impossible' rather than an enthusiastic yes.",
       "grammar_points": [
         {
-          "id": "hitotsu-mo-nai",
+          "id": "l45-g01",
           "pattern": "一＋助数詞＋も〜ない",
           "pattern_ruby": "{一|いち}＋{助数詞|じょすうし}＋も〜ない",
-          "romaji": "ichi + josuushi + mo ~nai",
           "meaning_en": "not even one ~; none at all; not a bit (~ない)",
           "register": "neutral",
           "renshuu_status": "verified_renshuu",
@@ -1653,10 +1630,9 @@
           ]
         },
         {
-          "id": "mo-mo-nai",
+          "id": "l45-g02",
           "pattern": "A も B も〜ない",
           "pattern_ruby": "A も B も〜ない",
-          "romaji": "A mo B mo ~nai",
           "meaning_en": "neither A nor B",
           "register": "neutral",
           "renshuu_status": "verified_renshuu",
@@ -1707,10 +1683,9 @@
           ]
         },
         {
-          "id": "nakuwanai-naikotowanai",
+          "id": "l45-g03",
           "pattern": "〜なくはない / なくもない・〜ないことはない",
           "pattern_ruby": "〜なくはない / なくもない・〜ないことはない",
-          "romaji": "~naku wa nai / naku mo nai · ~nai koto wa nai",
           "meaning_en": "it's not that I don't ~; kind of ~; not impossible to ~ (hesitant double negative)",
           "register": "neutral",
           "renshuu_status": "verified_renshuu",

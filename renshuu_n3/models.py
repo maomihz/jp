@@ -146,6 +146,21 @@ QUESTION_TYPE_LABELS: dict[QuestionType, str] = {
 
 BOOK_UUID = "urn:uuid:7c42b8e1-93a4-4f2b-9d12-8a4f6e30b5c1"
 
+EXPECTED_GRAMMAR_POINT_KEYS: frozenset[str] = frozenset(
+    {
+        "id",
+        "pattern",
+        "pattern_ruby",
+        "meaning_en",
+        "register",
+        "renshuu_status",
+        "mental_model",
+        "formation",
+        "examples",
+        "pitfalls",
+    }
+)
+
 
 @dataclass(frozen=True, slots=True)
 class FormationRule:
@@ -203,7 +218,6 @@ class GrammarPoint:
     id: str
     pattern: str
     pattern_ruby: str
-    romaji: str
     meaning_en: str
     register: Register
     renshuu_status: RenshuuStatus

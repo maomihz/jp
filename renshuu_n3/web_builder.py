@@ -45,7 +45,6 @@ def _build_manifest_payload(curriculum: Curriculum) -> dict[str, object]:
                     "id": gp.id,
                     "pattern": gp.pattern,
                     "pattern_ruby": gp.pattern_ruby,
-                    "romaji": gp.romaji,
                     "meaning_en": gp.meaning_en,
                     "mental_model_search": _to_searchable_plain(gp.mental_model),
                 }

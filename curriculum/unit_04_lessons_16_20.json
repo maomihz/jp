@@ -13,10 +13,9 @@
       "study_tip": "Keep your numerical direction straight: {数量|すうりょう}＋は and minimal くらい push UP from a floor ('at least'), whereas {数量|すうりょう}＋も marvels at a big count ('as many as'), and せいぜい・といったところだ cap expectations LOW ('at most / about X').",
       "grammar_points": [
         {
-          "id": "amari-ni",
+          "id": "l16-g01",
           "pattern": "〜あまり / あまりに（も）",
           "pattern_ruby": "〜あまり / あまりに（も）",
-          "romaji": "~amari / amari ni (mo)",
           "meaning_en": "so ~ that...; out of excessive ~ (causing an unintended outcome)",
           "register": "written",
           "renshuu_status": "canonical_n3",
@@ -68,10 +67,9 @@
           ]
         },
         {
-          "id": "to-itta-tokoro-da",
+          "id": "l16-g02",
           "pattern": "〜といったところだ",
           "pattern_ruby": "〜といったところだ",
-          "romaji": "~to itta tokoro da",
           "meaning_en": "at most about ~; roughly ~ (modest upper estimate)",
           "register": "neutral",
           "renshuu_status": "verified_renshuu",
@@ -118,11 +116,10 @@
           ]
         },
         {
-          "id": "kurai-seizei",
+          "id": "l16-g03",
           "pattern": "〜くらい / ぐらい・せいぜい",
           "pattern_ruby": "〜くらい / ぐらい・せいぜい",
-          "romaji": "~kurai / gurai · seizei",
-          "meaning_en": "about ~ / at least ~ (minimal degree); at most ~ (upper limit: seizei)",
+          "meaning_en": "about ~ / at least ~ (minimal degree); at most ~ (upper limit: せいぜい)",
           "register": "neutral",
           "renshuu_status": "verified_renshuu",
           "mental_model": "くらい・ぐらい acts as a sliding reference point on a scale: on numbers it softens into an approximation ('around 10 minutes'), while on actions or easy tasks it marks a bare minimum ('you can at least say thank you'). The adverb せいぜい, by contrast, clamps a lid over the top of the scale ('at most, no more than'), signaling that expectations should stay modest.",
@@ -168,10 +165,9 @@
           ]
         },
         {
-          "id": "suuryou-wa-mo-zutsu",
+          "id": "l16-g04",
           "pattern": "数量＋は / も・〜ずつ",
           "pattern_ruby": "{数量|すうりょう}＋は / も・〜ずつ",
-          "romaji": "suuryou + wa / mo · ~zutsu",
           "meaning_en": "at least N (は); as many as N (も); N each / N at a time (ずつ)",
           "register": "neutral",
           "renshuu_status": "verified_renshuu",
@@ -316,10 +312,9 @@
       "study_tip": "Never memorize the four わけ endings as isolated vocabulary: picture わけ as 'the logical path.' わけだ = the path leads right here ('no wonder!'); わけではない = not every path leads there ('not necessarily'); わけがない = zero path exists ('no way!'); わけにはいかない = socially I cannot take that path ('cannot afford to').",
       "grammar_points": [
         {
-          "id": "wake-da",
+          "id": "l17-g01",
           "pattern": "〜わけだ / というわけだ",
           "pattern_ruby": "〜わけだ / というわけだ",
-          "romaji": "~wake da / to iu wake da",
           "meaning_en": "no wonder ~; so that means ~; naturally ~ (logical conclusion)",
           "register": "neutral",
           "renshuu_status": "verified_renshuu",
@@ -366,10 +361,9 @@
           ]
         },
         {
-          "id": "wake-dewa-nai",
+          "id": "l17-g02",
           "pattern": "〜わけではない",
           "pattern_ruby": "〜わけではない",
-          "romaji": "~wake dewa nai",
           "meaning_en": "it doesn't necessarily mean that ~; it's not that ~ (partial negation)",
           "register": "neutral",
           "renshuu_status": "verified_renshuu",
@@ -416,10 +410,9 @@
           ]
         },
         {
-          "id": "wake-ga-nai",
+          "id": "l17-g03",
           "pattern": "〜わけがない",
           "pattern_ruby": "〜わけがない",
-          "romaji": "~wake ga nai",
           "meaning_en": "there is no way that ~; it is completely impossible that ~",
           "register": "neutral",
           "renshuu_status": "canonical_n3",
@@ -466,10 +459,9 @@
           ]
         },
         {
-          "id": "wake-niwa-ikanai",
+          "id": "l17-g04",
           "pattern": "〜わけにはいかない / ないわけにはいかない",
           "pattern_ruby": "〜わけにはいかない / ないわけにはいかない",
-          "romaji": "~wake niwa ikanai / nai wake niwa ikanai",
           "meaning_en": "cannot afford to ~ (socially/morally); cannot avoid doing ~ (compelled duty)",
           "register": "neutral",
           "renshuu_status": "verified_renshuu",
@@ -509,7 +501,7 @@
           "pitfalls": [
             "Attaches strictly to verbs in the dictionary form or ない-form; NEVER use past た-form (× {休|やす}んだわけにはいかない), adjectives, or nouns.",
             "Do not use 〜わけにはいかない for pure physical impossibility (× {足|あし}をけがして{走|はし}るわけにはいかない -> use {走|はし}れない). There must be a moral, social, or situational reason stopping you.",
-            "Keep the two polarities straight: V-dict ＋ わけにはいかない = 'must not do V,' while V-nai ＋ わけにはいかない = 'must do V (cannot get out of it).'"
+            "Keep the two polarities straight: V-dict ＋ わけにはいかない = 'must not do V,' while V-ない ＋ わけにはいかない = 'must do V (cannot get out of it).'"
           ]
         }
       ],
@@ -608,13 +600,12 @@
       "renshuu_title": "Expectations",
       "has_video": false,
       "summary": "Separate objective, evidence-backed expectations (はずだ・はずだった) from personal intentions and mistaken assumptions (つもりだった・つもりで), strong speaker conviction (に{違|ちが}いない), and logical exceptions (とは{限|かぎ}らない).",
-      "study_tip": "Drill the noun and な-adjective links here—they are the #1 N3 attachment trap! はずだ takes Nの / Naな, つもりだ takes Nの / Naな, に{違|ちが}いない takes BARE N / Na (no particle!), and とは{限|かぎ}らない takes optional だ (N(だ) / Na(だ)).",
+      "study_tip": "Drill the noun and な-adjective links here—they are the #1 N3 attachment trap! はずだ takes N＋の / な-adjective＋な, つもりだ takes N＋の / な-adjective＋な, に{違|ちが}いない takes bare N / bare な-adjective (no particle!), and とは{限|かぎ}らない takes optional だ (N(だ) / な-adjective(だ)).",
       "grammar_points": [
         {
-          "id": "hazu-da",
+          "id": "l18-g01",
           "pattern": "〜はずだ / はずがない / はずだった",
           "pattern_ruby": "〜はずだ / はずがない / はずだった",
-          "romaji": "~hazu da / hazu ga nai / hazu datta",
           "meaning_en": "supposed to be ~; bound to ~ (evidence-based); was supposed to ~ (unfulfilled)",
           "register": "neutral",
           "renshuu_status": "verified_renshuu",
@@ -661,14 +652,13 @@
           ]
         },
         {
-          "id": "tsumori-datta",
+          "id": "l18-g02",
           "pattern": "〜つもりだった / つもりで",
           "pattern_ruby": "〜つもりだった / つもりで",
-          "romaji": "~tsumori datta / tsumori de",
           "meaning_en": "was planning to / thought I had ~ (unfulfilled or mistaken); acting as if / intending as ~",
           "register": "neutral",
           "renshuu_status": "verified_renshuu",
-          "mental_model": "While present 〜つもりだ states a firm plan, past 〜つもりだった highlights a collision between what you intended or believed and what actually happened. With V-dict ＋ つもりだった, a plan fell through; with V-ta ＋ つもりだった, you wrongly believed you had already completed an action. Meanwhile, 〜つもりで describes acting under an assumed mindset or role ('treating it as if...').",
+          "mental_model": "While present 〜つもりだ states a firm plan, past 〜つもりだった highlights a collision between what you intended or believed and what actually happened. With V-dict ＋ つもりだった, a plan fell through; with V-た ＋ つもりだった, you wrongly believed you had already completed an action. Meanwhile, 〜つもりで describes acting under an assumed mindset or role ('treating it as if...').",
           "formation": [
             {
               "pos": "{動詞|どうし}{辞書形|じしょけい}・ない{形|けい}",
@@ -711,10 +701,9 @@
           ]
         },
         {
-          "id": "ni-chigainai",
+          "id": "l18-g03",
           "pattern": "〜に違いない",
           "pattern_ruby": "〜に{違|ちが}いない",
-          "romaji": "~ni chigainai",
           "meaning_en": "must be ~; no doubt ~; I'm convinced that ~",
           "register": "neutral",
           "renshuu_status": "canonical_n3",
@@ -761,10 +750,9 @@
           ]
         },
         {
-          "id": "towa-kagiranai",
+          "id": "l18-g04",
           "pattern": "〜とは限らない",
           "pattern_ruby": "〜とは{限|かぎ}らない",
-          "romaji": "~towa kagiranai",
           "meaning_en": "not necessarily true that ~; not always ~ (exceptions exist)",
           "register": "neutral",
           "renshuu_status": "canonical_n3",
@@ -818,25 +806,25 @@
           {
             "expression": "〜はずだ / はずだった",
             "register": "Neutral",
-            "key_rule": "Evidence/schedule-based expectation (Nの / Naな); past はずだったのに = unfulfilled.",
+            "key_rule": "Evidence/schedule-based expectation (N＋の / な-adjective＋な); past はずだったのに = unfulfilled.",
             "example_short": "{今日|きょう}は{休|やす}みのはずだ。"
           },
           {
             "expression": "〜つもりだった / つもりで",
             "register": "Neutral",
-            "key_rule": "V{辞書形|じしょけい} = thwarted plan; Vた{形|けい} = mistaken belief; Nの/Naな＋つもりで = assuming mindset.",
+            "key_rule": "V{辞書形|じしょけい} = thwarted plan; Vた{形|けい} = mistaken belief; N＋の / な-adjective＋な＋つもりで = assuming mindset.",
             "example_short": "{鍵|かぎ}を{閉|し}めたつもりだった。"
           },
           {
             "expression": "〜に{違|ちが}いない",
             "register": "Neutral",
-            "key_rule": "Strong personal conviction; BARE N / Na stem only (NO だ, な, の!).",
+            "key_rule": "Strong personal conviction; bare N / bare な-adjective stem only (NO だ, な, の!).",
             "example_short": "{彼|かれ}が{犯人|はんにん}に{違|ちが}いない。"
           },
           {
             "expression": "〜とは{限|かぎ}らない",
             "register": "Neutral",
-            "key_rule": "Exceptions exist ('not necessarily'); N(だ) / Na(だ) + とは{限|かぎ}らない (NO な/の).",
+            "key_rule": "Exceptions exist ('not necessarily'); N(だ) / な-adjective(だ) + とは{限|かぎ}らない (NO な/の).",
             "example_short": "{安|やす}いから{悪|わる}いとは{限|かぎ}らない。"
           }
         ]
@@ -909,10 +897,9 @@
       "study_tip": "Watch the verb forms closely! べきだ and ことはない and しかない take the dictionary form (with irregular する → すべきだ), whereas ねばならない attaches to the ない-stem and conjugates する → せねばならない (NEVER しねばならない!).",
       "grammar_points": [
         {
-          "id": "beki-da",
+          "id": "l19-g01",
           "pattern": "〜べきだ / すべきだ / べきではない",
           "pattern_ruby": "〜べきだ / すべきだ / べきではない",
-          "romaji": "~beki da / subeki da / beki dewa nai",
           "meaning_en": "ought to ~; should ~ (moral/rational duty); shouldn't ~",
           "register": "formal",
           "renshuu_status": "verified_renshuu",
@@ -955,10 +942,9 @@
           ]
         },
         {
-          "id": "neba-naranai",
+          "id": "l19-g02",
           "pattern": "〜ねばならない / せねばならない",
           "pattern_ruby": "〜ねばならない / せねばならない",
-          "romaji": "~neba naranai / seneba naranai",
           "meaning_en": "must ~; have to ~ (formal, written, or resolute obligation)",
           "register": "written",
           "renshuu_status": "verified_renshuu",
@@ -1005,10 +991,9 @@
           ]
         },
         {
-          "id": "koto-wa-nai",
+          "id": "l19-g03",
           "pattern": "〜ことはない",
           "pattern_ruby": "〜ことはない",
-          "romaji": "~koto wa nai",
           "meaning_en": "there is no need to ~; you don't have to ~",
           "register": "neutral",
           "renshuu_status": "canonical_n3",
@@ -1042,15 +1027,14 @@
             }
           ],
           "pitfalls": [
-            "Tense trap: V-dict ＋ ことはない means 'no need to V,' whereas V-ta ＋ ことはない means 'have never experienced V' ({行|い}ったことはない).",
+            "Tense trap: V-dict ＋ ことはない means 'no need to V,' whereas V-た ＋ ことはない means 'have never experienced V' ({行|い}ったことはない).",
             "Do not confuse 'no need to' (〜ことはない) with prohibition ('must not,' 〜てはいけない / 〜べきではない)."
           ]
         },
         {
-          "id": "shika-nai",
+          "id": "l19-g04",
           "pattern": "〜しかない",
           "pattern_ruby": "〜しかない",
-          "romaji": "~shika nai",
           "meaning_en": "have no choice but to ~; nothing left except to ~",
           "register": "neutral",
           "renshuu_status": "canonical_n3",
@@ -1187,10 +1171,9 @@
       "study_tip": "Before picking a 'because' word, run a 3-point check: (1) Outcome mood—grateful (おかげで), negative blame (せいで), or neutral/official (ために)? (2) Main clause—does it end in a request (~てください)? If yes, ために and ものだから are BANNED! (3) Noun attachment—Nの (おかげで/せいで/ために) vs Nである (ことから) vs Nな (ものだから).",
       "grammar_points": [
         {
-          "id": "okage-de",
+          "id": "l20-g01",
           "pattern": "〜おかげで / おかげだ",
           "pattern_ruby": "〜おかげで / おかげだ",
-          "romaji": "~okage de / okage da",
           "meaning_en": "thanks to ~ (grateful/positive causal attribution)",
           "register": "neutral",
           "renshuu_status": "verified_renshuu",
@@ -1237,10 +1220,9 @@
           ]
         },
         {
-          "id": "sei-de",
+          "id": "l20-g02",
           "pattern": "〜せいで / せいだ / せいか",
           "pattern_ruby": "〜せいで / せいだ / せいか",
-          "romaji": "~sei de / sei da / sei ka",
           "meaning_en": "because of ~ (blame for bad result); maybe because ~ (せいか)",
           "register": "neutral",
           "renshuu_status": "verified_renshuu",
@@ -1287,10 +1269,9 @@
           ]
         },
         {
-          "id": "tame-ni-cause",
+          "id": "l20-g03",
           "pattern": "〜ため（に）",
           "pattern_ruby": "〜ため（に）",
-          "romaji": "~tame (ni)",
           "meaning_en": "because of ~; due to ~ (formal, objective cause)",
           "register": "formal",
           "renshuu_status": "verified_renshuu",
@@ -1337,11 +1318,10 @@
           ]
         },
         {
-          "id": "kotokara-monodakara",
+          "id": "l20-g04",
           "pattern": "〜ことから・〜ものだから",
           "pattern_ruby": "〜ことから・〜ものだから",
-          "romaji": "~kotokara · ~monodakara",
-          "meaning_en": "from the fact/clue that ~ (kotokara); because [apologetic/personal excuse] (monodakara)",
+          "meaning_en": "from the fact/clue that ~ (ことから); because [apologetic/personal excuse] (ものだから)",
           "register": "neutral",
           "renshuu_status": "canonical_n3",
           "mental_model": "Both anchor a reason in a real fact, yet point in opposite directions. 〜ことから acts like an objective detective or historian: 'From the clue/fact X, people deduced Y or named it Y.' By contrast, 〜ものだから (casual もんだから) is warm, spoken, and apologetic: 'You see, the thing was X, so I couldn't help Y'—perfect for personal excuses.",
@@ -1363,7 +1343,7 @@
             {
               "ja_ruby": "{形|かたち}が{雪|ゆき}の{傘|かさ}のように{見|み}えることから、この{花|はな}は「ユキガサ」と{呼|よ}ばれている。",
               "structure_note": "〜ことから、〜と{呼|よ}ばれている（{名称|めいしょう}の{由来|ゆらい}）",
-              "en": "From the fact that its shape looks like a snowy umbrella, this flower is called 'Yukigasa.'"
+              "en": "From the fact that its shape looks like a snowy umbrella, this flower is called 'Snow Umbrella' (ユキガサ)."
             },
             {
               "ja_ruby": "{現場|げんば}に{靴|くつ}の{跡|あと}が{残|のこ}っていたことから、{犯人|はんにん}は{男|おとこ}だとわかった。",
@@ -1394,19 +1374,19 @@
           {
             "expression": "〜おかげで / おかげだ",
             "register": "Neutral",
-            "key_rule": "Grateful positive outcome; takes Nの / Naな.",
+            "key_rule": "Grateful positive outcome; takes N＋の / な-adjective＋な.",
             "example_short": "{先生|せんせい}のおかげで{合格|ごうかく}した。"
           },
           {
             "expression": "〜せいで / せいか",
             "register": "Neutral",
-            "key_rule": "Negative blame (せいで) or unsure hunch (せいか); takes Nの / Naな.",
+            "key_rule": "Negative blame (せいで) or unsure hunch (せいか); takes N＋の / な-adjective＋な.",
             "example_short": "{大雨|おおあめ}のせいで{中止|ちゅうし}になった。"
           },
           {
             "expression": "〜ため（に）",
             "register": "Formal",
-            "key_rule": "Objective/official cause; NO requests/commands allowed; takes Nの / Naな.",
+            "key_rule": "Objective/official cause; NO requests/commands allowed; takes N＋の / な-adjective＋な.",
             "example_short": "{台風|たいふう}のため{休校|きゅうこう}となった。"
           },
           {
@@ -1450,7 +1430,7 @@
           "question_id": "L20-Q3",
           "question_type": "attachment_trap",
           "prompt_ja_ruby": "{駅前|えきまえ}の{道|みち}が（　　　）、{初|はじ}めて{来|き}た{人|ひと}はよく{迷|まよ}ってしまう。",
-          "context_en": "Attaching せいで to a な-adjective (fukuzatsu): 'Because the roads in front of the station are complicated, first-time visitors often get lost.'",
+          "context_en": "Attaching せいで to a な-adjective ({複雑|ふくざつ}): 'Because the roads in front of the station are complicated, first-time visitors often get lost.'",
           "choices": [
             "{複雑|ふくざつ}なせいで",
             "{複雑|ふくざつ}のせいで",

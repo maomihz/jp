@@ -13,10 +13,9 @@
       "study_tip": "When quizzing Lesson 1 on Renshuu, check the clause ending first: hindsight realizations take 〜て{初|はじ}めて, while negative prohibitions or 'cannot do Y unless X first' require 〜てからでないと.",
       "grammar_points": [
         {
-          "id": "te-hajimete",
+          "id": "l01-g01",
           "pattern": "〜て初めて",
           "pattern_ruby": "〜て{初|はじ}めて",
-          "romaji": "~te hajimete",
           "meaning_en": "not until (doing X) did (Y finally happen/become clear); only after (X)",
           "register": "neutral",
           "renshuu_status": "verified_renshuu",
@@ -60,10 +59,9 @@
           ]
         },
         {
-          "id": "hajimete-standalone",
+          "id": "l01-g02",
           "pattern": "初めて",
           "pattern_ruby": "{初|はじ}めて",
-          "romaji": "hajimete",
           "meaning_en": "for the first time (adverbial); first-time (初めての + Noun); contrast with 〜てからでないと",
           "register": "neutral",
           "renshuu_status": "verified_renshuu",
@@ -208,10 +206,9 @@
       "study_tip": "Memorize the Particle + の drop rule as a quick filter: から・まで・へ・と・で stay intact before の, whereas が・を・に vanish completely.",
       "grammar_points": [
         {
-          "id": "ni-rate-allocation",
+          "id": "l02-g01",
           "pattern": "に（割合・基準）",
           "pattern_ruby": "に（{割合|わりあい}・{基準|きじゅん}）",
-          "romaji": "ni (wariai / kijun)",
           "meaning_en": "per / for each / out of (rate, frequency, and allocation benchmark)",
           "register": "neutral",
           "renshuu_status": "verified_renshuu",
@@ -258,10 +255,9 @@
           ]
         },
         {
-          "id": "wo-emotion-and-path",
+          "id": "l02-g02",
           "pattern": "を（感情の原因・通過点）",
           "pattern_ruby": "を（{感情|かんじょう}の{原因|げんいん}・{通過点|つうかてん}）",
-          "romaji": "wo (kanjou no gen'in / tsuukaten)",
           "meaning_en": "over / at (target or cause of emotion); through / across / along (path of motion)",
           "register": "neutral",
           "renshuu_status": "verified_renshuu",
@@ -304,10 +300,9 @@
           ]
         },
         {
-          "id": "de-cause-scope-means",
+          "id": "l02-g03",
           "pattern": "で（原因・範囲・手段）",
           "pattern_ruby": "で（{原因|げんいん}・{範囲|はんい}・{手段|しゅだん}）",
-          "romaji": "de (gen'in / han'i / shudan)",
           "meaning_en": "due to / because of (cause); within / in (superlative scope); by means of / as a group",
           "register": "neutral",
           "renshuu_status": "verified_renshuu",
@@ -354,10 +349,9 @@
           ]
         },
         {
-          "id": "te-means-and-particle-no",
+          "id": "l02-g04",
           "pattern": "〜て（手段・状態）・助詞＋の",
           "pattern_ruby": "〜て（{手段|しゅだん}・{状態|じょうたい}）・{助詞|じょし}＋の",
-          "romaji": "~te (shudan / joutai) & joshi + no",
           "meaning_en": "by doing / in the state of (〜て); stacked Particle + の noun linkage",
           "register": "neutral",
           "renshuu_status": "verified_renshuu",
@@ -502,10 +496,9 @@
       "study_tip": "Use the noun-modifier ending as a quick memory anchor: について becomes についての, whereas に{対|たい}して and に{関|かん}して shift to に{対|たい}する and に{関|かん}する.",
       "grammar_points": [
         {
-          "id": "ni-totte",
+          "id": "l03-g01",
           "pattern": "〜にとって",
           "pattern_ruby": "〜にとって",
-          "romaji": "~ni totte",
           "meaning_en": "for (someone/something); from the standpoint or perspective of",
           "register": "neutral",
           "renshuu_status": "verified_renshuu",
@@ -548,10 +541,9 @@
           ]
         },
         {
-          "id": "ni-taishite",
+          "id": "l03-g02",
           "pattern": "〜に対して / に対する",
           "pattern_ruby": "〜に{対|たい}して / に{対|たい}する",
-          "romaji": "~ni taishite / ~ni taisuru",
           "meaning_en": "toward / against (target of attitude or action); whereas / in contrast to",
           "register": "neutral",
           "renshuu_status": "verified_renshuu",
@@ -598,10 +590,9 @@
           ]
         },
         {
-          "id": "ni-tsuite",
+          "id": "l03-g03",
           "pattern": "〜について / についての",
           "pattern_ruby": "〜について / についての",
-          "romaji": "~ni tsuite / ~ni tsuite no",
           "meaning_en": "about / concerning (direct topic of discussion, thought, or study)",
           "register": "neutral",
           "renshuu_status": "canonical_n3",
@@ -639,10 +630,9 @@
           ]
         },
         {
-          "id": "ni-kanshite",
+          "id": "l03-g04",
           "pattern": "〜に関して / に関する",
           "pattern_ruby": "〜に{関|かん}して / に{関|かん}する",
-          "romaji": "~ni kanshite / ~ni kansuru",
           "meaning_en": "regarding / concerning / related to (formal and broader perimeter)",
           "register": "formal",
           "renshuu_status": "verified_renshuu",
@@ -680,10 +670,9 @@
           ]
         },
         {
-          "id": "ni-kurabete",
+          "id": "l03-g05",
           "pattern": "〜に比べて",
           "pattern_ruby": "〜に{比|くら}べて",
-          "romaji": "~ni kurabete",
           "meaning_en": "compared to / in comparison with",
           "register": "neutral",
           "renshuu_status": "canonical_n3",
@@ -825,10 +814,9 @@
       "study_tip": "Watch the nuance jump when は attaches to 〜によって: bare 〜によって states general variation ({国|くに}によって{違|ちが}う), whereas 〜によっては warns of specific cases ('depending on X, sometimes...').",
       "grammar_points": [
         {
-          "id": "ni-yotte",
+          "id": "l04-g01",
           "pattern": "〜によって / により / による",
           "pattern_ruby": "〜によって / により / による",
-          "romaji": "~ni yotte / ~ni yori / ~ni yoru",
           "meaning_en": "by means of; due to (cause); by (passive creator/agent); depending on (variation)",
           "register": "neutral",
           "renshuu_status": "verified_renshuu",
@@ -871,10 +859,9 @@
           ]
         },
         {
-          "id": "ni-yotte-wa",
+          "id": "l04-g02",
           "pattern": "〜によっては",
           "pattern_ruby": "〜によっては",
-          "romaji": "~ni yotte wa",
           "meaning_en": "depending on the (person/case/time), sometimes...",
           "register": "neutral",
           "renshuu_status": "verified_renshuu",
@@ -908,10 +895,9 @@
           ]
         },
         {
-          "id": "kara-ni-kakete",
+          "id": "l04-g03",
           "pattern": "〜から〜にかけて",
           "pattern_ruby": "〜から〜にかけて",
-          "romaji": "~kara ~ni kakete",
           "meaning_en": "from (A) through/across to (B) (approximate continuous span)",
           "register": "neutral",
           "renshuu_status": "canonical_n3",
@@ -945,10 +931,9 @@
           ]
         },
         {
-          "id": "ni-oite",
+          "id": "l04-g04",
           "pattern": "〜において / における",
           "pattern_ruby": "〜において / における",
-          "romaji": "~ni oite / ~ni okeru",
           "meaning_en": "in / at / on (formal/written location, time, situation, or domain)",
           "register": "written",
           "renshuu_status": "canonical_n3",
@@ -1084,21 +1069,20 @@
       "study_tip": "Drill two high-yield distinctions in Lesson 5: nouns/な-adjectives MUST take だ before としたら, and while both 〜を{通|つう}じて and 〜を{通|とお}して can mark time spans or channels, 〜を{通|つう}じて prefers formal/natural states (like climate) whereas 〜を{通|とお}して is required for literal physical passage (like looking through a window).",
       "grammar_points": [
         {
-          "id": "to-shitara",
+          "id": "l05-g01",
           "pattern": "〜としたら / とすれば / とすると",
           "pattern_ruby": "〜としたら / とすれば / とすると",
-          "romaji": "~to shitara / ~to sureba / ~to suru to",
           "meaning_en": "supposing that / assuming that (hypothetical premise)",
           "register": "neutral",
           "renshuu_status": "verified_renshuu",
           "mental_model": "〜としたら (along with slightly more logical 〜とすれば and 〜とすると) sets up a deliberate thought experiment: 'assuming for argument's sake that X is true, what follows?' Unlike everyday たら for real scheduled events ({家|いえ}に{帰|かえ}ったら), 〜としたら introduces an unrealized wish, unconfirmed report, or hypothetical premise, and therefore naturally finishes with questions, conjectures (〜だろう, 〜かもしれない), or conclusions (〜{必要|ひつよう}がある). Crucially, nouns and な-adjectives require plain copula だ before としたら ({本当|ほんとう}だとしたら, {雨|あめ}だとしたら).",
           "formation": [
             {
-              "pos": "Verb / い-Adj (Plain form)",
+              "pos": "Verb / い-adjective (Plain form)",
               "rule": "{動詞|どうし}・い{形|けい}（{普通形|ふつうけい}） + としたら / とすれば / とすると"
             },
             {
-              "pos": "Noun / な-Adj + だ",
+              "pos": "Noun / な-adjective + だ",
               "rule": "{名詞|めいし}・な{形|けい} + だ + としたら / とすれば / とすると"
             }
           ],
@@ -1130,10 +1114,9 @@
           ]
         },
         {
-          "id": "to-shite",
+          "id": "l05-g02",
           "pattern": "〜として（は / も）",
           "pattern_ruby": "〜として（は / も）",
-          "romaji": "~to shite (wa / mo)",
           "meaning_en": "as / in the capacity of (role, status, category, or stance)",
           "register": "neutral",
           "renshuu_status": "canonical_n3",
@@ -1176,10 +1159,9 @@
           ]
         },
         {
-          "id": "wo-chuushin-ni",
+          "id": "l05-g03",
           "pattern": "〜を中心に（して）",
           "pattern_ruby": "〜を{中心|ちゅうしん}に（して）",
-          "romaji": "~wo chuushin ni (shite)",
           "meaning_en": "centered around / focusing mainly on / led by",
           "register": "neutral",
           "renshuu_status": "canonical_n3",
@@ -1217,10 +1199,9 @@
           ]
         },
         {
-          "id": "wo-tsujite",
+          "id": "l05-g04",
           "pattern": "〜を通じて / を通して",
           "pattern_ruby": "〜を{通|つう}じて / を{通|とお}して",
-          "romaji": "~wo tsuujite / ~wo tooshite",
           "meaning_en": "through / via (an intermediary or medium); throughout (an entire span)",
           "register": "neutral",
           "renshuu_status": "canonical_n3",
@@ -1254,14 +1235,13 @@
           ],
           "pitfalls": [
             "Do not use 〜を{通|つう}じて for physical passage through a concrete opening or filter (×「{窓|まど}を{通|つう}じて{光|ひかり}が{入|はい}る」 → ○「{窓|まど}を{通|とお}して{光|ひかり}が{入|はい}る」).",
-            "Watch the kanji readings carefully: {通|つう}じて is つうじて (on'yomi), while {通|とお}して is とおして (kun'yomi)."
+            "Watch the kanji readings carefully: {通|つう}じて is つうじて ({音読|おんよ}み), while {通|とお}して is とおして ({訓読|くんよ}み)."
           ]
         },
         {
-          "id": "wo-komete",
+          "id": "l05-g05",
           "pattern": "〜を込めて",
           "pattern_ruby": "〜を{込|こ}めて",
-          "romaji": "~wo komete",
           "meaning_en": "filled with / putting (heartfelt emotion, gratitude, or effort) into",
           "register": "neutral",
           "renshuu_status": "canonical_n3",
@@ -1306,7 +1286,7 @@
           {
             "expression": "〜としたら",
             "register": "Neutral",
-            "key_rule": "Hypothetical premise ('supposing X is true'); nouns/な-adj MUST take だ before としたら.",
+            "key_rule": "Hypothetical premise ('supposing X is true'); nouns/な-adjective MUST take だ before としたら.",
             "example_short": "{嘘|うそ}だとしたら{大変|たいへん}だ。"
           },
           {

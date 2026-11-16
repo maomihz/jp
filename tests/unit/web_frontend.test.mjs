@@ -41,12 +41,11 @@ function makeSyntheticManifest() {
             unit_number: 1,
             grammar_index: [
               {
-                id: "sample-one",
+                id: "l01-g01",
                 pattern: "〜て山",
                 pattern_ruby: "〜て{山|やま}",
-                romaji: "~te yama",
                 meaning_en: "mountain sample",
-                mental_model_search: "climb peak yama",
+                mental_model_search: "climb peak やま",
               },
             ],
           },
@@ -85,17 +84,16 @@ function makeSyntheticLessonPayload() {
       study_tip: "Check particle links.",
       grammar_points: [
         {
-          id: "sample-one",
+          id: "l01-g01",
           pattern: "〜て山",
           pattern_ruby: "〜て{山|やま}",
-          romaji: "~te yama",
           meaning_en: "mountain sample",
           register: "neutral",
           renshuu_status: "canonical_n3",
           mental_model: "Picture climbing a trail.",
           formation: [{ pos: "{名詞|めいし}", rule: "{山|やま}＋だ" }],
           examples: [
-            { ja_ruby: "{山|やま}へ{行|い}く。", en: "Go to the mountain.", structure_note: "directional he" },
+            { ja_ruby: "{山|やま}へ{行|い}く。", en: "Go to the mountain.", structure_note: "directional particle へ" },
           ],
           pitfalls: ["Watch attachment rules cleanly."],
         },
@@ -173,14 +171,15 @@ test("view renderers build sidebar, overview, search hits, and graded lesson HTM
   assert.match(overview, /data-open-lesson="L01"/);
   assert.match(overview, /data-open-matrix="M01"/);
 
-  const searchHtml = renderSearchResultsHtml(manifest, "yama");
+  const searchHtml = renderSearchResultsHtml(manifest, "やま");
   assert.match(searchHtml, /1 grammar point\(s\)/);
-  assert.match(searchHtml, /data-jump="L01::gp-sample-one"/);
+  assert.match(searchHtml, /data-jump="L01::gp-l01-g01"/);
 
   const { unit, lesson } = makeSyntheticLessonPayload();
   const gradedState = recordQuizAnswer(createInitialState(), "L01-Q1", 0);
   const lessonHtml = renderLessonHtml(lesson, unit, manifest, gradedState, starred);
   assert.match(lessonHtml, /<ruby>山<rp>\(<\/rp><rt>やま<\/rt><rp>\)<\/rp><\/ruby>/);
+  assert.doesNotMatch(lessonHtml, /Romaji/i);
   assert.match(lessonHtml, /choice-btn correct/);
   assert.match(lessonHtml, /1 \/ 1 Answered, 1 Correct/);
 });

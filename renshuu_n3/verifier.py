@@ -17,6 +17,7 @@ from renshuu_n3.web_builder import WEB_STATIC_FILES
 RAW_RUBY_PATTERN = re.compile(r"\{[^{}|]+\|[^{}|]+\}")
 MD_LINK_PATTERN = re.compile(r"\[[^\]]+\]\(([^)]+)\)")
 HTML_ANCHOR_PATTERN = re.compile(r'<a\s+id="([^"]+)"')
+FORBIDDEN_OUTPUT_ROMAJI_RE = re.compile(r"\bromanj?i\b|gp-romaji", re.IGNORECASE)
 
 
 def _collect_xml_ids(xml_bytes: bytes) -> set[str]:
@@ -48,6 +49,10 @@ def verify_site(curriculum: Curriculum, site_dir: Path) -> list[str]:
         asset_path = site_dir / rel_path
         if not asset_path.is_file():
             errors.append(f"Missing site asset: {rel_path}")
+            continue
+        asset_text = asset_path.read_text(encoding="utf-8")
+        if FORBIDDEN_OUTPUT_ROMAJI_RE.search(asset_text):
+            errors.append(f"Forbidden romaji reference in site asset: {rel_path}")
 
     index_path = site_dir / "index.html"
     if index_path.is_file():
@@ -78,7 +83,10 @@ def verify_site(curriculum: Curriculum, site_dir: Path) -> list[str]:
         return errors
 
     try:
-        manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+        manifest_raw = manifest_path.read_text(encoding="utf-8")
+        if FORBIDDEN_OUTPUT_ROMAJI_RE.search(manifest_raw):
+            errors.append("Forbidden romaji reference in dist/site/data/manifest.json")
+        manifest = json.loads(manifest_raw)
     except json.JSONDecodeError as exc:
         errors.append(f"Invalid manifest.json: {exc}")
         return errors
@@ -103,7 +111,10 @@ def verify_site(curriculum: Curriculum, site_dir: Path) -> list[str]:
     if not matrices_path.is_file():
         errors.append("Missing dist/site/data/matrices.json")
     else:
-        matrices_data = json.loads(matrices_path.read_text(encoding="utf-8"))
+        matrices_raw = matrices_path.read_text(encoding="utf-8")
+        if FORBIDDEN_OUTPUT_ROMAJI_RE.search(matrices_raw):
+            errors.append("Forbidden romaji reference in dist/site/data/matrices.json")
+        matrices_data = json.loads(matrices_raw)
         found_m = {str(m["matrix_id"]) for m in matrices_data.get("matrices", [])}
         if found_m != expected_matrices:
             errors.append("matrices.json IDs do not match curriculum")
@@ -113,7 +124,10 @@ def verify_site(curriculum: Curriculum, site_dir: Path) -> list[str]:
         if not unit_file.is_file():
             errors.append(f"Missing unit dataset: units/unit_{unit.unit_number:02d}.json")
             continue
-        unit_json = json.loads(unit_file.read_text(encoding="utf-8"))
+        unit_raw = unit_file.read_text(encoding="utf-8")
+        if FORBIDDEN_OUTPUT_ROMAJI_RE.search(unit_raw):
+            errors.append(f"Forbidden romaji reference in {unit_file.name}")
+        unit_json = json.loads(unit_raw)
         expected_unit_lessons = {ls.lesson_id for ls in unit.lessons}
         found_unit_lessons = {str(ls["lesson_id"]) for ls in unit_json.get("lessons", [])}
         if found_unit_lessons != expected_unit_lessons:
@@ -199,6 +213,11 @@ def verify_epub(
                 )
 
         xhtml_files = [n for n in names if n.endswith(".xhtml")]
+        for name in names:
+            if name.endswith((".xhtml", ".opf", ".ncx")):
+                raw_entry_text = zf.read(name).decode("utf-8")
+                if FORBIDDEN_OUTPUT_ROMAJI_RE.search(raw_entry_text):
+                    errors.append(f"Forbidden romaji reference in EPUB {name}")
         for xfile in xhtml_files:
             raw_text = zf.read(xfile).decode("utf-8")
             if RAW_RUBY_PATTERN.search(raw_text):
@@ -269,6 +288,8 @@ def verify_markdown(curriculum: Curriculum, guide_dir: Path) -> list[str]:
         text = path.read_text(encoding="utf-8")
         if RAW_RUBY_PATTERN.search(text):
             errors.append(f"Unrendered {{Base|Reading}} token in {filename}")
+        if FORBIDDEN_OUTPUT_ROMAJI_RE.search(text):
+            errors.append(f"Forbidden romaji reference in {filename}")
         anchors_by_file[path.resolve()] = set(HTML_ANCHOR_PATTERN.findall(text))
 
     for path in md_paths:

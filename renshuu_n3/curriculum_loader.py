@@ -8,6 +8,7 @@ from pathlib import Path
 
 from renshuu_n3.models import (
     EXPECTED_BRIDGE_IDS,
+    EXPECTED_GRAMMAR_POINT_KEYS,
     EXPECTED_MATRIX_COLUMNS,
     EXPECTED_RENSHUU_TITLES,
     EXPECTED_UNIT_FILES,
@@ -147,6 +148,8 @@ def _parse_pitfalls(
 def _parse_grammar_point(
     raw: object,
     location: str,
+    lesson_id: str,
+    point_index: int,
     seen_point_ids: set[str],
     errors: list[ValidationError],
 ) -> GrammarPoint | None:
@@ -154,11 +157,25 @@ def _parse_grammar_point(
         errors.append(ValidationError(location, "Grammar point must be an object"))
         return None
 
+    unexpected_keys = sorted(set(raw.keys()) - EXPECTED_GRAMMAR_POINT_KEYS)
+    if unexpected_keys:
+        errors.append(
+            ValidationError(location, f"Unexpected keys in grammar point: {unexpected_keys}")
+        )
+
     point_id = _require_str(raw, "id", location, errors, ruby_mode="literal")
+    expected_point_id = f"{lesson_id.lower()}-g{point_index:02d}"
     if point_id:
         if not SLUG_PATTERN.match(point_id):
             errors.append(
                 ValidationError(location, f"Grammar id '{point_id}' must match ^[a-z0-9-]+$")
+            )
+        if lesson_id and point_id != expected_point_id:
+            errors.append(
+                ValidationError(
+                    location,
+                    f"Grammar id {point_id!r} must equal structural id {expected_point_id!r}",
+                )
             )
         if point_id in seen_point_ids:
             errors.append(ValidationError(location, f"Duplicate grammar point id '{point_id}'"))
@@ -174,8 +191,7 @@ def _parse_grammar_point(
             )
         )
 
-    romaji = _require_str(raw, "romaji", location, errors, ruby_mode="literal")
-    meaning_en = _require_str(raw, "meaning_en", location, errors, ruby_mode="literal")
+    meaning_en = _require_str(raw, "meaning_en", location, errors, ruby_mode="prose_ruby")
 
     raw_register = raw.get("register")
     register = REGISTER_MAP.get(raw_register) if isinstance(raw_register, str) else None
@@ -200,7 +216,6 @@ def _parse_grammar_point(
         id=point_id,
         pattern=pattern_plain,
         pattern_ruby=pattern_ruby,
-        romaji=romaji,
         meaning_en=meaning_en,
         register=register,
         renshuu_status=status,
@@ -279,7 +294,7 @@ def _parse_quiz(
             qtype = "fill_blank"
 
         prompt = _require_str(item, "prompt_ja_ruby", q_loc, errors, ruby_mode="strict_ruby")
-        context_en = _require_str(item, "context_en", q_loc, errors, ruby_mode="literal")
+        context_en = _require_str(item, "context_en", q_loc, errors, ruby_mode="prose_ruby")
 
         choices_out: list[str] = []
         raw_choices = item.get("choices")
@@ -381,7 +396,12 @@ def _parse_lesson(
     else:
         for idx, item in enumerate(raw_points):
             gp = _parse_grammar_point(
-                item, f"{location}.grammar_points[{idx}]", seen_point_ids, errors
+                item,
+                f"{location}.grammar_points[{idx}]",
+                lesson_id,
+                idx + 1,
+                seen_point_ids,
+                errors,
             )
             if gp is not None:
                 points.append(gp)
@@ -470,7 +490,7 @@ def _parse_minimal_pairs(
         if not isinstance(item, dict):
             errors.append(ValidationError(pair_loc, "Minimal pair entry must be an object"))
             continue
-        title = _require_str(item, "pair_title", pair_loc, errors, ruby_mode="literal")
+        title = _require_str(item, "pair_title", pair_loc, errors, ruby_mode="prose_ruby")
         valid = _require_str(item, "sentence_valid", pair_loc, errors, ruby_mode="strict_ruby")
         contrast = _require_str(
             item, "sentence_contrast", pair_loc, errors, ruby_mode="strict_ruby"

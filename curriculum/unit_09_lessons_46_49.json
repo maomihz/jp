@@ -13,10 +13,9 @@
       "study_tip": "In Lesson 46, separate stem rules before meaning: 〜ずに, 〜ずにはいられない, and 〜ぬ attach to the ない-stem (with irregular する -> せずに / せぬ and {来|く}る -> {来|こ}ずに / {来|こ}ぬ), 〜ようとしない uses the volitional form, and 〜ようがない / 〜そうもない use the ます-stem.",
       "grammar_points": [
         {
-          "id": "zuni",
+          "id": "l46-g01",
           "pattern": "〜ずに",
           "pattern_ruby": "〜ずに",
-          "romaji": "~zuni",
           "meaning_en": "without doing ~ (formal/written counterpart to 〜ないで)",
           "register": "written",
           "renshuu_status": "canonical_n3",
@@ -60,10 +59,9 @@
           ]
         },
         {
-          "id": "zuniwa-irarenai",
+          "id": "l46-g02",
           "pattern": "〜ずにはいられない / ないではいられない",
           "pattern_ruby": "〜ずにはいられない / ないではいられない",
-          "romaji": "~zuniwa irarenai / ~naidewa irarenai",
           "meaning_en": "cannot help doing ~; cannot stop oneself from ~ing",
           "register": "neutral",
           "renshuu_status": "canonical_n3",
@@ -107,10 +105,9 @@
           ]
         },
         {
-          "id": "you-to-shinai",
+          "id": "l46-g03",
           "pattern": "〜ようとしない",
           "pattern_ruby": "〜ようとしない",
-          "romaji": "~you to shinai",
           "meaning_en": "won't even try to ~; stubbornly refuses to ~",
           "register": "neutral",
           "renshuu_status": "verified_renshuu",
@@ -153,11 +150,10 @@
           ]
         },
         {
-          "id": "youganai-soumonai-nu",
+          "id": "l46-g04",
           "pattern": "〜ようがない / そうもない・〜ぬ",
           "pattern_ruby": "〜ようがない / そうもない・〜ぬ",
-          "romaji": "~you ga nai / ~sou mo nai · ~nu",
-          "meaning_en": "there is no way to ~; shows no sign of ~ing; literary negative ~nu",
+          "meaning_en": "there is no way to ~; shows no sign of ~ing; literary negative 〜ぬ",
           "register": "written",
           "renshuu_status": "verified_renshuu",
           "mental_model": "Three high-frequency negative verb endings group together in Renshuu Lesson 46. First, 〜ようがない ('no method/means to do ~') uses ます-stem + よう (manner) + がない to show something is impossible because the means do not exist ({連絡|れんらく}のしようがない). Second, 〜そうもない ('shows no sign of ~ing') negates appearance-based prediction そうだ after a ます-stem ({雨|あめ}が{止|や}みそうもない). Third, 〜ぬ is the classical literary negative suffix equivalent to 〜ない, surviving at N3 in formal prose and fixed idioms like {知|し}らぬ{間|ま}に ('before I knew it') and {見|み}て{見|み}ぬふり ('pretending not to see').",
@@ -302,14 +298,13 @@
       "study_tip": "Watch the copula だ carefully in Lesson 47: bare proper names before という＋{名詞|めいし} drop だ ('さくら'という{店|みせ}), while claims inside 〜という＋{話|はなし} or predicates before 〜と{言|い}える keep だ ({安全|あんぜん}だと{言|い}える). Also pair すなわち with written precision and つまり with spoken summary.",
       "grammar_points": [
         {
-          "id": "to-iu-noun",
+          "id": "l47-g01",
           "pattern": "〜という＋名詞",
           "pattern_ruby": "〜という＋{名詞|めいし}",
-          "romaji": "~to iu + Noun",
           "meaning_en": "called ~; named ~; the fact/report/idea that ~",
           "register": "neutral",
           "renshuu_status": "verified_renshuu",
-          "mental_model": "〜という＋{名詞|めいし} acts as an information bridge linking a label or full statement directly onto a noun. It serves two major roles at N3. First, it introduces a name or term the listener might not recognize ('a shop called Himawari' = 「ひまわり」という{店|みせ}). Second, it packs a complete proposition inside content nouns like {話|はなし}, {連絡|れんらく}, {噂|うわさ}, {事実|じじつ}, or ニュース ('the news that the exam was postponed'). When giving just a name, attach the noun directly without だ; when reporting a claim or fact, use plain form (including だ for nouns and な-adjectives).",
+          "mental_model": "〜という＋{名詞|めいし} acts as an information bridge linking a label or full statement directly onto a noun. It serves two major roles at N3. First, it introduces a name or term the listener might not recognize ('a shop called Sunflower' = 「ひまわり」という{店|みせ}). Second, it packs a complete proposition inside content nouns like {話|はなし}, {連絡|れんらく}, {噂|うわさ}, {事実|じじつ}, or ニュース ('the news that the exam was postponed'). When giving just a name, attach the noun directly without だ; when reporting a claim or fact, use plain form (including だ for nouns and な-adjectives).",
           "formation": [
             {
               "pos": "{固有名詞|こゆうめいし}・{名称|めいしょう}（{名前|なまえ}）",
@@ -328,12 +323,12 @@
             {
               "ja_ruby": "{駅前|えきまえ}に「ひまわり」という{新|あたら}しいパン{屋|や}がオープンした。",
               "structure_note": "{名称|めいしょう}（ひまわり）＋ という ＋ {名詞|めいし}（パン{屋|や}）",
-              "en": "A new bakery called 'Himawari' opened in front of the station."
+              "en": "A new bakery called 'Sunflower' (ひまわり) opened in front of the station."
             },
             {
               "ja_ruby": "{日本|にほん}には「お{節|せち}{料理|りょうり}」というお{正月|しょうがつ}の{特別|とくべつ}な{料理|りょうり}がある。",
               "structure_note": "{名称|めいしょう} ＋ という ＋ {名詞|めいし}（{定義|ていぎ}・{紹介|しょうかい}）",
-              "en": "In Japan, there is a special New Year's cuisine called 'osechi ryori.'"
+              "en": "In Japan, there is a special New Year's cuisine called おせち料理 (festive New Year cuisine)."
             },
             {
               "ja_ruby": "{来月|らいげつ}、{山田|やまだ}さんが{大阪|おおさか}へ{転勤|てんきん}するという{話|はなし}を{聞|き}いた。",
@@ -352,10 +347,9 @@
           ]
         },
         {
-          "id": "to-iu-nowa-koto-da",
+          "id": "l47-g02",
           "pattern": "〜というのは〜のことだ / という意味だ",
           "pattern_ruby": "〜というのは〜のことだ / という{意味|いみ}だ",
-          "romaji": "~to iu nowa ~no koto da / ~to iu imi da",
           "meaning_en": "what ~ means is ...; ~ refers to ...",
           "register": "neutral",
           "renshuu_status": "canonical_n3",
@@ -378,7 +372,7 @@
             {
               "ja_ruby": "「{木漏|こも}れ{日|び}」というのは、{木|き}の{葉|は}の{間|あいだ}から{差|さ}し{込|こ}む{太陽|たいよう}の{光|ひかり}のことだ。",
               "structure_note": "{名詞|めいし}（{太陽|たいよう}の{光|ひかり}）＋ のことだ",
-              "en": "'Komorebi' refers to sunlight filtering down through the leaves of trees."
+              "en": "「木漏れ日」 refers to sunlight filtering down through the leaves of trees."
             },
             {
               "ja_ruby": "このマークは「ここで{写真|しゃしん}を{撮|と}らないでください」という{意味|いみ}です。",
@@ -402,10 +396,9 @@
           ]
         },
         {
-          "id": "sunawachi-vs-tsumari",
+          "id": "l47-g03",
           "pattern": "すなわち・つまり",
           "pattern_ruby": "すなわち・つまり",
-          "romaji": "sunawachi · tsumari",
           "meaning_en": "namely / that is to say (exact formal equivalence) vs. in short / in other words (summary)",
           "register": "formal",
           "renshuu_status": "verified_renshuu",
@@ -448,10 +441,9 @@
           ]
         },
         {
-          "id": "to-ieru",
+          "id": "l47-g04",
           "pattern": "〜と言える",
           "pattern_ruby": "〜と{言|い}える",
-          "romaji": "~to ieru",
           "meaning_en": "it can be said that ~; one can reasonably conclude that ~",
           "register": "written",
           "renshuu_status": "canonical_n3",
@@ -505,7 +497,7 @@
           {
             "expression": "〜という＋{名詞|めいし}",
             "register": "Neutral",
-            "key_rule": "Names an item (no だ) or packs a clausal claim into a content noun (N/なAdj takes だ).",
+            "key_rule": "Names an item (no だ) or packs a clausal claim into a content noun (N/な-adjective takes だ).",
             "example_short": "{転勤|てんきん}するという{話|はなし}を{聞|き}いた。"
           },
           {
@@ -561,7 +553,7 @@
           "question_id": "L47-Q3",
           "question_type": "attachment_trap",
           "prompt_ja_ruby": "{今回|こんかい}のプロジェクトは{目標|もくひょう}を{達成|たっせい}したので、（　　　）と{言|い}えるでしょう。",
-          "context_en": "Testing noun attachment before 〜と言える (to ieru): 'Since this project achieved its goal, one can probably call it a success.'",
+          "context_en": "Testing noun attachment before 〜と{言|い}える: 'Since this project achieved its goal, one can probably call it a success.'",
           "choices": [
             "{成功|せいこう}の",
             "{成功|せいこう}な",
@@ -575,7 +567,7 @@
           "question_id": "L47-Q4",
           "question_type": "star_order",
           "prompt_ja_ruby": "「{手土産|てみやげ}」＿　＿　★　＿ことだ。",
-          "context_en": "Building a clear definition with 〜というのは〜のことだ: 'Temiyage refers to a gift you bring when visiting someone.'",
+          "context_en": "Building a clear definition with 〜というのは〜のことだ: '{手土産|てみやげ} refers to a gift you bring when visiting someone.'",
           "choices": [
             "{訪問|ほうもん}するときに",
             "{持|も}っていく",
@@ -596,10 +588,9 @@
       "study_tip": "In Lesson 48, match each pattern to how it treats the example: A は B の{一|ひと}つだ classifies one member; 〜をはじめ crowns the #1 standout member; 〜といった＋{名詞|めいし} gathers peer examples before an umbrella noun; and 〜とか〜とか lets you list verb actions conversationally where 〜や〜など cannot.",
       "grammar_points": [
         {
-          "id": "wa-no-hitotsu",
+          "id": "l48-g01",
           "pattern": "A は B の一つだ",
           "pattern_ruby": "A は B の{一|ひと}つだ",
-          "romaji": "A wa B no hitotsu da",
           "meaning_en": "A is one of the Bs; A is one instance/example of category B",
           "register": "neutral",
           "renshuu_status": "verified_renshuu",
@@ -618,7 +609,7 @@
             {
               "ja_ruby": "{京都|きょうと}の{金閣寺|きんかくじ}は、{日本|にほん}で{最|もっと}も{有名|ゆうめい}な{観光地|かんこうち}の{一|ひと}つです。",
               "structure_note": "{名詞|めいし} A は {名詞|めいし} B の{一|ひと}つです",
-              "en": "Kinkaku-ji in Kyoto is one of the most famous tourist spots in Japan."
+              "en": "the Golden Pavilion (金閣寺) in Kyoto is one of the most famous tourist spots in Japan."
             },
             {
               "ja_ruby": "{早寝早起|はやねはやお}きは、{健康|けんこう}を{保|たも}つための{大切|たいせつ}な{習慣|しゅうかん}の{一|ひと}つだ。",
@@ -642,10 +633,9 @@
           ]
         },
         {
-          "id": "wo-hajime",
+          "id": "l48-g02",
           "pattern": "〜をはじめ（として）",
           "pattern_ruby": "〜をはじめ（として）",
-          "romaji": "~wo hajime (toshite)",
           "meaning_en": "starting with ~ (as the foremost example), as well as ...",
           "register": "formal",
           "renshuu_status": "canonical_n3",
@@ -688,10 +678,9 @@
           ]
         },
         {
-          "id": "to-itta-noun",
+          "id": "l48-g03",
           "pattern": "〜といった＋名詞",
           "pattern_ruby": "〜といった＋{名詞|めいし}",
-          "romaji": "~to itta + Noun",
           "meaning_en": "such ~ as ...; (things) like A and B",
           "register": "neutral",
           "renshuu_status": "canonical_n3",
@@ -734,10 +723,9 @@
           ]
         },
         {
-          "id": "tatoeba-toka",
+          "id": "l48-g04",
           "pattern": "例えば〜など / とか〜とか",
           "pattern_ruby": "{例|たと}えば〜など / とか〜とか",
-          "romaji": "tatoeba ~ nado / ~toka ~toka",
           "meaning_en": "for example ~ (and so on); things like ~ and ~",
           "register": "neutral",
           "renshuu_status": "canonical_n3",
@@ -861,7 +849,7 @@
           "question_id": "L48-Q4",
           "question_type": "star_order",
           "prompt_ja_ruby": "{高橋|たかはし}さんは＿　＿　★　＿を{集|あつ}めるのが{趣味|しゅみ}だ。",
-          "context_en": "Grouping specific items before a category noun with 〜といった＋名詞: 'Takahashi's hobby is collecting tableware such as cups and plates.'",
+          "context_en": "Grouping specific items before a category noun with 〜といった＋{名詞|めいし}: 'Takahashi's hobby is collecting tableware such as cups and plates.'",
           "choices": [
             "{食器|しょっき}",
             "といった",
@@ -882,14 +870,13 @@
       "study_tip": "Lesson 49 hides one classic JLPT attachment trap: after a Noun, 〜にしては takes NO particle ({初心者|しょしんしゃ}にしては), whereas 〜わりに（は） REQUIRES の ({値段|ねだん}のわりに) and な-adjectives take な ({簡単|かんたん}なわりに). Drill those two noun links side by side until automatic.",
       "grammar_points": [
         {
-          "id": "to-ieba-to-iuto",
+          "id": "l49-g01",
           "pattern": "〜といえば / といったら / というと",
           "pattern_ruby": "〜といえば / といったら / というと",
-          "romaji": "~to ieba / ~to ittara / ~to iu to",
           "meaning_en": "speaking of ~; when you mention ~ (instant association or topic pivot)",
           "register": "neutral",
           "renshuu_status": "verified_renshuu",
-          "mental_model": "All three take a noun topic X and express what immediately comes to mind when X is mentioned, yet each colors the turn differently. 〜といえば is the everyday all-rounder for free association ('Speaking of Kyoto, it's temples!') or pivoting a conversation (そういえば, 'Come to think of it...'). 〜といったら adds strong emotional punch to spotlight an extreme standout ('When it comes to summer treats, nothing beats watermelon!'). 〜というと seeks confirmation or traces a canonical mental link ('When you say traditional Kyoto buildings, do you mean Kinkaku-ji?').",
+          "mental_model": "All three take a noun topic X and express what immediately comes to mind when X is mentioned, yet each colors the turn differently. 〜といえば is the everyday all-rounder for free association ('Speaking of Kyoto, it's temples!') or pivoting a conversation (そういえば, 'Come to think of it...'). 〜といったら adds strong emotional punch to spotlight an extreme standout ('When it comes to summer treats, nothing beats watermelon!'). 〜というと seeks confirmation or traces a canonical mental link ('When you say traditional Kyoto buildings, do you mean {金閣寺|きんかくじ}?').",
           "formation": [
             {
               "pos": "{名詞|めいし}（{話題|わだい}・テーマ）",
@@ -915,7 +902,7 @@
             {
               "ja_ruby": "「{京都|きょうと}の{伝統的|でんとうてき}な{建物|たてもの}」というと、やはり{金閣寺|きんかくじ}や{清水寺|きよみずでら}を{思|おも}い{出|だ}します。",
               "structure_note": "{引用名詞|いんようめいし} ＋ というと（{確認|かくにん}・{連想|れんそう}）",
-              "en": "When you say 'traditional buildings in Kyoto,' Kinkaku-ji and Kiyomizu-dera naturally come to mind."
+              "en": "When you say 'traditional buildings in Kyoto,' the Golden Pavilion (金閣寺) and Pure Water Temple (清水寺) naturally come to mind."
             }
           ],
           "pitfalls": [
@@ -924,10 +911,9 @@
           ]
         },
         {
-          "id": "ni-shite-wa",
+          "id": "l49-g02",
           "pattern": "〜にしては",
           "pattern_ruby": "〜にしては",
-          "romaji": "~ni shite wa",
           "meaning_en": "for ~; considering someone or something is ~ (unexpected gap vs. a specific status)",
           "register": "neutral",
           "renshuu_status": "canonical_n3",
@@ -974,10 +960,9 @@
           ]
         },
         {
-          "id": "wari-ni",
+          "id": "l49-g03",
           "pattern": "〜わりに（は）",
           "pattern_ruby": "〜わりに（は）",
-          "romaji": "~wari ni (wa)",
           "meaning_en": "considering ~; relatively ~ for the cost/effort/degree (unexpected gap vs. a scale)",
           "register": "neutral",
           "renshuu_status": "canonical_n3",
@@ -1024,10 +1009,9 @@
           ]
         },
         {
-          "id": "kara-iuto-betsutoshite",
+          "id": "l49-g04",
           "pattern": "〜から言うと / から見ると / からすると・〜は別として",
           "pattern_ruby": "〜から{言|い}うと / から{見|み}ると / からすると・〜は{別|べつ}として",
-          "romaji": "~kara iu to / ~kara miru to / ~kara suru to · ~wa betsu to shite",
           "meaning_en": "speaking from ~'s perspective / judging from ~; setting ~ aside",
           "register": "neutral",
           "renshuu_status": "canonical_n3",
@@ -1089,7 +1073,7 @@
           {
             "expression": "〜わりに（は）",
             "register": "Neutral",
-            "key_rule": "REQUIRES Noun＋の or な-Adj＋な ＋ わりに; unexpected gap vs. a general scale/cost.",
+            "key_rule": "REQUIRES Noun＋の or な-adjective＋な ＋ わりに; unexpected gap vs. a general scale/cost.",
             "example_short": "{値段|ねだん}のわりにボリュームがある。"
           },
           {

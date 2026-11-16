@@ -13,10 +13,9 @@
       "study_tip": "Check both the verb stem and the speaker's attitude in Lesson 53: 〜てばかりいる and 〜ていく/てくる use the て-form; 〜っぱなし, 〜つつある, and 〜かけ all attach to the ます-stem; and 〜一方だ strictly requires the plain dictionary form (Vる) for unstoppable one-way trends.",
       "grammar_points": [
         {
-          "id": "te-bakari-iru",
+          "id": "l53-g01",
           "pattern": "〜てばかりいる",
           "pattern_ruby": "〜てばかりいる",
-          "romaji": "~te bakari iru",
           "meaning_en": "doing nothing but ~; always ~ing (critical complaint about repetitive behavior)",
           "register": "neutral",
           "renshuu_status": "verified_renshuu",
@@ -59,10 +58,9 @@
           ]
         },
         {
-          "id": "ppanashi",
+          "id": "l53-g02",
           "pattern": "〜っぱなし",
           "pattern_ruby": "〜っぱなし",
-          "romaji": "~ppanashi",
           "meaning_en": "leaving ~ undone, open, or on; keeping an action's resulting state unattended",
           "register": "casual",
           "renshuu_status": "canonical_n3",
@@ -106,10 +104,9 @@
           ]
         },
         {
-          "id": "ippou-da-tsutsu-aru",
+          "id": "l53-g03",
           "pattern": "〜一方だ・〜つつある",
           "pattern_ruby": "〜{一方|いっぽう}だ・〜つつある",
-          "romaji": "~ippou da · ~tsutsu aru",
           "meaning_en": "keep ~ing more and more (one-way trend); be steadily in the process of ~ing (formal ongoing change)",
           "register": "written",
           "renshuu_status": "canonical_n3",
@@ -152,10 +149,9 @@
           ]
         },
         {
-          "id": "teiku-tekuru-kake",
+          "id": "l53-g04",
           "pattern": "〜ていく / てくる・〜かけ（だ / の）",
           "pattern_ruby": "〜ていく / てくる・〜かけ（だ / の）",
-          "romaji": "~te iku / ~te kuru · ~kake (da / no)",
           "meaning_en": "continue changing toward the future / up to now; half-finished or interrupted (half-~)",
           "register": "neutral",
           "renshuu_status": "canonical_n3",
@@ -308,10 +304,9 @@
       "study_tip": "Separate Lesson 54's finishers by control and tone: Vます + 切る stresses hitting 100% exhaustion or certainty (with potential 切れる/切れない for capacity); Vます + 終える requires a conscious human agent wrapping up a task, whereas Vます + 終わる also handles weather and natural endings; and Vて + しまう expresses finality or regret, contracting in casual chat to 〜ちゃう (from て) and 〜じゃう (from で).",
       "grammar_points": [
         {
-          "id": "kiru-kireru-kirenai",
+          "id": "l54-g01",
           "pattern": "〜切る / 切れる / 切れない",
           "pattern_ruby": "〜{切|き}る / {切|き}れる / {切|き}れない",
-          "romaji": "~kiru / ~kireru / ~kirenai",
           "meaning_en": "do ~ completely to the end; assert firmly; can / cannot finish all of ~",
           "register": "neutral",
           "renshuu_status": "verified_renshuu",
@@ -349,19 +344,18 @@
             }
           ],
           "pitfalls": [
-            "Do NOT confuse godan 〜{切|き}る ({食|た}べ{切|き}らない = deliberately choose not to finish) with ichidan potential 〜{切|き}れる ({食|た}べ{切|き}れない = physically cannot finish it all due to excess).",
+            "Do NOT confuse {五段|ごだん} 〜{切|き}る ({食|た}べ{切|き}らない = deliberately choose not to finish) with {一段|いちだん} potential 〜{切|き}れる ({食|た}べ{切|き}れない = physically cannot finish it all due to excess).",
             "Attach 〜{切|き}る / {切|き}れる strictly to the ます-stem ({使|つか}い{切|き}る), never the て-form or dictionary form (× {使|つか}って{切|き}る, × {使|つか}う{切|き}る)."
           ]
         },
         {
-          "id": "oeru-vs-owaru",
+          "id": "l54-g02",
           "pattern": "〜終える・〜終わる",
           "pattern_ruby": "〜{終|お}える・〜{終|お}わる",
-          "romaji": "~oeru · ~owaru",
           "meaning_en": "finish doing ~ (intentional completion of a task vs general/natural cessation)",
           "register": "neutral",
           "renshuu_status": "verified_renshuu",
-          "mental_model": "This auxiliary pair mirrors the standalone transitive/intransitive contrast between {終|お}える and {終|お}わる. 〜{終|お}える (transitive ichidan) spotlights an intentional human agent wrapping up a deliberate, bounded task (writing a thesis, reviewing all documents). 〜{終|お}わる (intransitive godan) is far broader: it covers everyday activities ({朝|あさ}ごはんを{食|た}べ{終|お}わる) AND natural or non-volitional events ending on their own ({雨|あめ}が{降|ふ}り{終|お}わる). When there is no conscious human finisher, ONLY 〜{終|お}わる is grammatical.",
+          "mental_model": "This auxiliary pair mirrors the standalone transitive/intransitive contrast between {終|お}える and {終|お}わる. 〜{終|お}える (transitive {一段|いちだん}) spotlights an intentional human agent wrapping up a deliberate, bounded task (writing a thesis, reviewing all documents). 〜{終|お}わる (intransitive {五段|ごだん}) is far broader: it covers everyday activities ({朝|あさ}ごはんを{食|た}べ{終|お}わる) AND natural or non-volitional events ending on their own ({雨|あめ}が{降|ふ}り{終|お}わる). When there is no conscious human finisher, ONLY 〜{終|お}わる is grammatical.",
           "formation": [
             {
               "pos": "{動詞|どうし}ます{形|けい}{語幹|ごかん}（{意志動詞|いしどうし}）",
@@ -396,14 +390,13 @@
           ],
           "pitfalls": [
             "NEVER attach 〜{終|お}える to natural phenomena or non-volitional verbs (× {雨|あめ}が{降|ふ}り{終|お}える, × {桜|さくら}が{咲|さ}き{終|お}える)—always use 〜{終|お}わる when there is no deliberate human agent.",
-            "Mind the verb classes when conjugating: 〜{終|お}える is ichidan ({書|か}き{終|お}えない), whereas 〜{終|お}わる is godan ({降|ふ}り{終|お}わらない)."
+            "Mind the verb classes when conjugating: 〜{終|お}える is {一段|いちだん} ({書|か}き{終|お}えない), whereas 〜{終|お}わる is {五段|ごだん} ({降|ふ}り{終|お}わらない)."
           ]
         },
         {
-          "id": "te-shimau",
+          "id": "l54-g03",
           "pattern": "〜てしまう / 〜ちゃう / 〜じゃう",
           "pattern_ruby": "〜てしまう / 〜ちゃう / 〜じゃう",
-          "romaji": "~te shimau / ~chau / ~jau",
           "meaning_en": "finish ~ completely; end up ~ing (irreversibility, inadvertence, or regret)",
           "register": "neutral",
           "renshuu_status": "verified_renshuu",
@@ -549,10 +542,9 @@
       "study_tip": "Split Lesson 55 into two clean tools: compound verbs on the ます-stem specify *how* an action plays out (crafted with 上げる/上がる, endured with 通す/抜く, steeped with 込む, corrected with 直す, shared mutually with 合う), while 〜ところだ pins down exact timing on the action clock (Vる = about to, Vている = in the middle, Vた = just finished)—and remember that Vる + ところだった flips into 'almost happened!'",
       "grammar_points": [
         {
-          "id": "ageru-agaru",
+          "id": "l55-g01",
           "pattern": "〜上げる / 上がる",
           "pattern_ruby": "〜{上|あ}げる / {上|あ}がる",
-          "romaji": "~ageru / ~agaru",
           "meaning_en": "finish crafting/building ~ (transitive); be completed/ready (intransitive)",
           "register": "neutral",
           "renshuu_status": "canonical_n3",
@@ -595,10 +587,9 @@
           ]
         },
         {
-          "id": "toosu-nuku",
+          "id": "l55-g02",
           "pattern": "〜通す・〜抜く",
           "pattern_ruby": "〜{通|とお}す・〜{抜|ぬ}く",
-          "romaji": "~toosu · ~nuku",
           "meaning_en": "keep doing ~ steadfastly from start to finish; push ~ through despite hardship",
           "register": "neutral",
           "renshuu_status": "canonical_n3",
@@ -641,10 +632,9 @@
           ]
         },
         {
-          "id": "komu-naosu",
+          "id": "l55-g03",
           "pattern": "〜込む・〜直す",
           "pattern_ruby": "〜{込|こ}む・〜{直|なお}す",
-          "romaji": "~komu · ~naosu",
           "meaning_en": "do ~ thoroughly/deeply into a state; redo ~ properly to fix or improve",
           "register": "neutral",
           "renshuu_status": "canonical_n3",
@@ -687,10 +677,9 @@
           ]
         },
         {
-          "id": "au-reciprocal",
+          "id": "l55-g04",
           "pattern": "〜合う",
           "pattern_ruby": "〜{合|あ}う",
-          "romaji": "~au",
           "meaning_en": "do ~ with or to each other (mutual, reciprocal action)",
           "register": "neutral",
           "renshuu_status": "canonical_n3",
@@ -733,10 +722,9 @@
           ]
         },
         {
-          "id": "tokoro-da-datta",
+          "id": "l55-g05",
           "pattern": "〜ところだ / 〜ところだった",
           "pattern_ruby": "〜ところだ / 〜ところだった",
-          "romaji": "~tokoro da / ~tokoro datta",
           "meaning_en": "be just about to / right in the middle of / just finished ~; almost ~ed (narrow escape)",
           "register": "neutral",
           "renshuu_status": "verified_renshuu",

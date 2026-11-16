@@ -61,6 +61,170 @@ RUBY_SPLIT_PATTERN = re.compile(r"(\{[^{}|]+\|[^{}|]+\})")
 RUBY_TOKEN_PATTERN = re.compile(r"\{([^{}|]+)\|([^{}|]+)\}")
 RUBY_ANCHORED_PATTERN = re.compile(r"^\{([^{}|]+)\|([^{}|]+)\}$")
 PLACEHOLDER_PATTERN = re.compile(r"\b(?:TODO|TBD|FIXME|XXX|PLACEHOLDER)\b", re.IGNORECASE)
+ROMAJI_TERM_PATTERN = re.compile(r"\bromanj?i\b", re.IGNORECASE)
+MACRON_VOWEL_PATTERN = re.compile(r"[āīūēōĀĪŪĒŌ]")
+HEPBURN_NASAL_PATTERN = re.compile(r"\b[A-Za-z]*n'[aiueoyAIUEOY][A-Za-z]*\b")
+TILDE_ROMAJI_PATTERN = re.compile(r"[~〜](?!(?:ing|ed|er|s)\b)[A-Za-z]+\b")
+ROMANIZED_INFLECTION_PATTERN = re.compile(
+    r"\b(?:te|ta|nai|masu|ba|tara|ru|u|suru|kuru|i|na|a|e|o)-(?:form|forms|stem|stems|adjective|adjectives|adj|verb|verbs|conditional|conditionals|row|rows)\b"
+    r"|\bV-(?!dict(?:ionary)?\b|plain\b|stem\b)[A-Za-z]+\b",
+    re.IGNORECASE,
+)
+ASCII_WORD_PATTERN = re.compile(r"\b[A-Za-z]+\b")
+
+FORBIDDEN_ROMAJI_WORDS: frozenset[str] = frozenset(
+    {
+        "romaji",
+        "romanji",
+        "keigo",
+        "sonkeigo",
+        "kenjougo",
+        "teineigo",
+        "ukemi",
+        "shieki",
+        "godan",
+        "ichidan",
+        "kosoado",
+        "rendaku",
+        "okurigana",
+        "jukujikun",
+        "kotoba",
+        "bunpou",
+        "katsuyou",
+        "meishi",
+        "doushi",
+        "keiyoushi",
+        "fukushi",
+        "joshi",
+        "gokan",
+        "jishokei",
+        "futsuukei",
+        "kinshikei",
+        "gimonshi",
+        "hodo",
+        "koto",
+        "mono",
+        "bakari",
+        "dake",
+        "shika",
+        "sae",
+        "koso",
+        "noni",
+        "node",
+        "tame",
+        "uchi",
+        "nagara",
+        "tsutsu",
+        "ppoi",
+        "garu",
+        "gatteiru",
+        "tagaru",
+        "hoshigaru",
+        "gachi",
+        "gimi",
+        "darake",
+        "muki",
+        "muke",
+        "beki",
+        "hazu",
+        "tsumori",
+        "kagiri",
+        "kagitte",
+        "rashii",
+        "mitai",
+        "souda",
+        "youda",
+        "youni",
+        "hajimete",
+        "totte",
+        "taishite",
+        "tsuite",
+        "kanshite",
+        "kurabete",
+        "yotte",
+        "kakete",
+        "oite",
+        "shitara",
+        "tsujite",
+        "komete",
+        "dokoroka",
+        "nimokakawarazu",
+        "niatatte",
+        "niwatatte",
+        "kanenai",
+        "gatai",
+        "tamaranai",
+        "shouganai",
+        "shikataganai",
+        "kamawanai",
+        "hajimaranai",
+        "kuseni",
+        "monono",
+        "nagaramo",
+        "kawarini",
+        "mushiro",
+        "ippou",
+        "tsurete",
+        "mochiron",
+        "motoyori",
+        "zuni",
+        "sunawachi",
+        "tsumari",
+        "tatoeba",
+        "tatoe",
+        "moshimo",
+        "moshi",
+        "ikura",
+        "donnani",
+        "tokoroga",
+        "tokorode",
+        "shitagatte",
+        "sokode",
+        "sorede",
+        "soreni",
+        "soretomo",
+        "sarani",
+        "shikamo",
+        "suruto",
+        "mottomo",
+        "tadashi",
+        "kaette",
+        "seizei",
+        "kotokara",
+        "monodakara",
+        "ittai",
+        "metta",
+        "fuan",
+        "fukuzatsu",
+        "genki",
+        "hima",
+        "shizuka",
+        "tomodachi",
+        "yasui",
+        "saichuu",
+        "tochuu",
+        "tabi",
+        "tsuide",
+        "tanabata",
+        "ema",
+        "temiyage",
+        "osechi",
+        "ryori",
+        "komorebi",
+        "yukigasa",
+        "aozora",
+        "himawari",
+        "kinkaku",
+        "kiyomizu",
+        "sekkaku",
+        "kanari",
+        "masumasu",
+        "masaka",
+        "narubeku",
+        "tashika",
+        "osoraku",
+    }
+)
 
 
 @dataclass(frozen=True, slots=True)
@@ -103,8 +267,51 @@ def escape_markdown_cell(text: str) -> str:
     return render_ruby_markdown(text).replace("|", "\\|").replace("\n", " ")
 
 
+def check_script_purity(text: str, location: str, errors: list[ValidationError]) -> None:
+    """Reject romanized Japanese patterns, inflections, and lexicon in text fields."""
+    if ROMAJI_TERM_PATTERN.search(text):
+        errors.append(ValidationError(location, f"Forbidden romaji reference in: {text!r}"))
+    if MACRON_VOWEL_PATTERN.search(text):
+        errors.append(ValidationError(location, f"Macron romanization not allowed in: {text!r}"))
+    if HEPBURN_NASAL_PATTERN.search(text):
+        errors.append(
+            ValidationError(location, f"Apostrophe romanization not allowed in: {text!r}")
+        )
+
+    tilde_match = TILDE_ROMAJI_PATTERN.search(text)
+    if tilde_match:
+        errors.append(
+            ValidationError(
+                location,
+                f"Romanized pattern {tilde_match.group(0)!r} must use Japanese script in: {text!r}",
+            )
+        )
+
+    inflection_match = ROMANIZED_INFLECTION_PATTERN.search(text)
+    if inflection_match:
+        errors.append(
+            ValidationError(
+                location,
+                f"Romanized form {inflection_match.group(0)!r} must use Japanese script in: {text!r}",
+            )
+        )
+
+    surface = strip_ruby_to_surface(text)
+    for word_match in ASCII_WORD_PATTERN.finditer(surface):
+        word = word_match.group(0)
+        if word.lower() in FORBIDDEN_ROMAJI_WORDS:
+            errors.append(
+                ValidationError(
+                    location,
+                    f"Romanized Japanese token {word!r} must use Japanese script in: {text!r}",
+                )
+            )
+
+
 def check_balanced_delimiters(text: str, location: str, errors: list[ValidationError]) -> None:
-    """Check delimiter balance and absence of placeholder markers."""
+    """Check delimiter balance, script purity, and absence of placeholder markers."""
+    check_script_purity(text, location, errors)
+
     if PLACEHOLDER_PATTERN.search(text):
         errors.append(ValidationError(location, f"Contains placeholder token in: {text!r}"))
 

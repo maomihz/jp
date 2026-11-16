@@ -13,11 +13,10 @@
       "study_tip": "Use a simple filter for noun suffixes: 〜さ works like a ruler on almost any adjective stem ({高|たか}さ・{静|しず}かさ), whereas 〜み only attaches to a small memorized set of words for inner/sensory flavor ({深|ふか}み・{強|つよ}み・{悲|かな}しみ). For nominalizing clauses, ask whether the main verb is about abstract thought/rules (こと) or direct sights and sounds (の).",
       "grammar_points": [
         {
-          "id": "sa-vs-mi",
+          "id": "l33-g01",
           "pattern": "〜さ・〜み",
           "pattern_ruby": "〜さ・〜み",
-          "romaji": "~sa · ~mi",
-          "meaning_en": "objective measurable degree (~ness: ~sa) vs. subjective or experiential quality (~mi)",
+          "meaning_en": "objective measurable degree (measurable 〜さ) vs. subjective or experiential quality (〜み)",
           "register": "neutral",
           "renshuu_status": "verified_renshuu",
           "mental_model": "Think of 〜さ as a ruler or thermometer: it attaches productively to virtually any い-adjective or な-adjective stem to turn a property into an objective, measurable scale ({高|たか}さ, {深|ふか}さ, {静|しず}かさ, {便利|べんり}さ). By contrast, 〜み is an experiential palette restricted to a small closed set of adjective stems (some matching verb stems like {悲|かな}しむ/{楽|たの}しむ)—it captures a felt flavor, emotional resonance, or qualitative character ({悲|かな}しみ, {楽|たの}しみ, {深|ふか}み, {強|つよ}み, {甘|あま}み, {重|おも}み). Minimal pairs like {深|ふか}さ (meters deep) versus {深|ふか}み (richness of flavor or thought) reveal the core split cleanly.",
@@ -64,10 +63,9 @@
           ]
         },
         {
-          "id": "teki",
+          "id": "l33-g02",
           "pattern": "〜的（だ / な / に）",
           "pattern_ruby": "〜{的|てき}（だ / な / に）",
-          "romaji": "~teki (da / na / ni)",
           "meaning_en": "-like; -ic; -ical; -ive (turning nouns into な-adjectives or adverbs)",
           "register": "neutral",
           "renshuu_status": "canonical_n3",
@@ -115,10 +113,9 @@
           ]
         },
         {
-          "id": "koto-vs-no-overview",
+          "id": "l33-g03",
           "pattern": "〜こと・〜の（名詞化の基本比較）",
           "pattern_ruby": "〜こと・〜の（{名詞化|めいしか}の{基本|きほん}{比較|ひかく}）",
-          "romaji": "~koto · ~no (meishika no kihon hikaku)",
           "meaning_en": "clause nominalization: conceptual/formal こと vs. sensory/direct の",
           "register": "neutral",
           "renshuu_status": "verified_renshuu",
@@ -270,10 +267,9 @@
       "study_tip": "Check what sits on both sides of の to spot its job right away: [Verb/Adj] + の + が/を/は turns an action into a noun; [Modifier] + の standing alone replaces a physical item ('the blue one'); and [Clause] + のだ/んだ at the end of a sentence delivers an explanation or realization.",
       "grammar_points": [
         {
-          "id": "no-ga-wo-wa",
+          "id": "l34-g01",
           "pattern": "動詞・形容詞＋のが / のを / のは",
           "pattern_ruby": "{動詞|どうし}・{形容詞|けいようし}＋のが / のを / のは",
-          "romaji": "doushi / keiyoushi + no ga / no wo / no wa",
           "meaning_en": "nominalizing actions or states as clause subjects, objects, or topics",
           "register": "neutral",
           "renshuu_status": "verified_renshuu",
@@ -317,10 +313,9 @@
           ]
         },
         {
-          "id": "pronoun-no",
+          "id": "l34-g02",
           "pattern": "〜の（代名詞の「の」）",
           "pattern_ruby": "〜の（{代名詞|だいめいし}の「の」）",
-          "romaji": "~no (daimeishi no 'no')",
           "meaning_en": "the ~ one; ~'s one (substituting for a concrete noun)",
           "register": "neutral",
           "renshuu_status": "canonical_n3",
@@ -368,10 +363,9 @@
           ]
         },
         {
-          "id": "no-da-explanatory",
+          "id": "l34-g03",
           "pattern": "〜のだ / 〜んだ",
           "pattern_ruby": "〜のだ / 〜んだ",
-          "romaji": "~no da / ~n da",
           "meaning_en": "it's that ~; the reason/explanation is ~ (explanatory or background tone)",
           "register": "neutral",
           "renshuu_status": "canonical_n3",
@@ -507,10 +501,9 @@
       "study_tip": "Watch the exact gear-shift when a compound particle modifies a noun: について keeps の (〜についての{本|ほん}), while verb-based particles drop 〜て and switch back to dictionary 〜る form (〜に{関|かん}する{調査|ちょうさ}, 〜による{被害|ひがい}, 〜に{対|たい}する{意見|いけん})—never write ×〜ての!",
       "grammar_points": [
         {
-          "id": "ni-yotte-qualifier",
+          "id": "l35-g01",
           "pattern": "〜によって / により（限定・基準）",
           "pattern_ruby": "〜によって / により（{限定|げんてい}・{基準|きじゅん}）",
-          "romaji": "~ni yotte / ~ni yori (gentei / kijun)",
           "meaning_en": "depending on ~; according to ~; based on ~ (qualifying scope or basis)",
           "register": "neutral",
           "renshuu_status": "verified_renshuu",
@@ -553,11 +546,10 @@
           ]
         },
         {
-          "id": "made-sae-extreme",
+          "id": "l35-g02",
           "pattern": "〜まで / 〜さえ（極端な範囲）",
           "pattern_ruby": "〜まで / 〜さえ（{極端|きょくたん}な{範囲|はんい}）",
-          "romaji": "~made / ~sae (kyokutan na han'i)",
-          "meaning_en": "even ~ (escalating to an extreme with made vs. citing a minimum baseline with sae)",
+          "meaning_en": "even ~ (escalating to an extreme with まで vs. citing a minimum baseline with さえ)",
           "register": "neutral",
           "renshuu_status": "verified_renshuu",
           "mental_model": "Both 〜まで and 〜さえ translate as 'even,' yet they travel opposite ends of a scale. 〜まで climbs upward beyond what is normally expected ('A, B, and all the way to extreme C too!'), highlighting surprise at how far something spreads ({大人|おとな}だけでなく{子供|こども}にまで). 〜さえ points down at the most basic, obvious baseline ('not even the simplest X—let alone anything else!'), emphasizing shock or inadequacy ({自分|じぶん}の{名前|なまえ}さえ{忘|わす}れた), and also powers minimal conditions ('if only X': 〜さえ〜ば). Drop が and を before both, while keeping に, で, と, and から.",
@@ -604,10 +596,9 @@
           ]
         },
         {
-          "id": "kiri",
+          "id": "l35-g03",
           "pattern": "〜きり（〜だけ / 〜たまま）",
           "pattern_ruby": "〜きり（〜だけ / 〜たまま）",
-          "romaji": "~kiri (~dake / ~ta mama)",
           "meaning_en": "only / just ~ (bounded nouns); ever since doing ~, the state hasn't changed",
           "register": "neutral",
           "renshuu_status": "canonical_n3",
@@ -650,10 +641,9 @@
           ]
         },
         {
-          "id": "compound-particle-no-modifiers",
+          "id": "l35-g04",
           "pattern": "〜についての / 〜に関する / 〜による＋名詞",
           "pattern_ruby": "〜についての / 〜に{関|かん}する / 〜による＋{名詞|めいし}",
-          "romaji": "~ni tsuite no / ~ni kansuru / ~ni yoru + meishi",
           "meaning_en": "adnominal compound particles linking topics, causes, or targets to a following noun",
           "register": "neutral",
           "renshuu_status": "canonical_n3",
@@ -795,10 +785,9 @@
       "study_tip": "Treat hearsay sentences like matched bookends: if you open with 〜によると or 〜によれば ('According to X'), you must close the sentence with a hearsay or inference ending (〜そうだ・〜とのことだ・〜ということだ・〜らしい)—never leave it ending in a bare direct statement!",
       "grammar_points": [
         {
-          "id": "ni-yoruto-yoreba",
+          "id": "l36-g01",
           "pattern": "〜によると / によれば",
           "pattern_ruby": "〜によると / によれば",
-          "romaji": "~ni yoruto / ~ni yoreba",
           "meaning_en": "according to ~ (citing an external information source)",
           "register": "neutral",
           "renshuu_status": "verified_renshuu",
@@ -838,10 +827,9 @@
           ]
         },
         {
-          "id": "hearsay-souda",
+          "id": "l36-g02",
           "pattern": "〜そうだ（伝聞）",
           "pattern_ruby": "〜そうだ（{伝聞|でんぶん}）",
-          "romaji": "~sou da (denbun)",
           "meaning_en": "I heard that ~; they say that ~ (hearsay)",
           "register": "neutral",
           "renshuu_status": "canonical_n3",
@@ -885,10 +873,9 @@
           ]
         },
         {
-          "id": "to-iu-koto-da-hearsay",
+          "id": "l36-g03",
           "pattern": "〜ということだ / とのことだ",
           "pattern_ruby": "〜ということだ / とのことだ",
-          "romaji": "~to iu koto da / ~to no koto da",
           "meaning_en": "word has it that ~; it is reported/said that ~ (formal or business hearsay)",
           "register": "formal",
           "renshuu_status": "canonical_n3",
@@ -932,10 +919,9 @@
           ]
         },
         {
-          "id": "youni-reference",
+          "id": "l36-g04",
           "pattern": "〜ように（引用・参照）",
           "pattern_ruby": "〜ように（{引用|いんよう}・{参照|さんしょう}）",
-          "romaji": "~you ni (in'you / sanshou)",
           "meaning_en": "just as [stated/written/known] ~; as shown in ~",
           "register": "neutral",
           "renshuu_status": "verified_renshuu",
@@ -1077,10 +1063,9 @@
       "study_tip": "Every pattern in Lesson 37 belongs to spoken conversation: use 〜っけ/でしたっけ when jogging your memory about something you once knew, 〜って as a one-syllable stand-in for と/という/は, 〜んだって/だって instead of formal そうだ with friends, and 〜とか when your source is vague.",
       "grammar_points": [
         {
-          "id": "deshita-kke",
+          "id": "l37-g01",
           "pattern": "〜っけ / 〜でしたっけ",
           "pattern_ruby": "〜っけ / 〜でしたっけ",
-          "romaji": "~kke / ~deshita kke",
           "meaning_en": "what was it again?; did we say ~? (recalling or confirming forgotten shared info)",
           "register": "casual",
           "renshuu_status": "verified_renshuu",
@@ -1128,10 +1113,9 @@
           ]
         },
         {
-          "id": "tte-quotative-topic",
+          "id": "l37-g02",
           "pattern": "〜って（引用・トピック）",
           "pattern_ruby": "〜って（{引用|いんよう}・トピック）",
-          "romaji": "~tte (in'you / topikku)",
           "meaning_en": "casual replacement for quotative と, naming という, or topic は",
           "register": "casual",
           "renshuu_status": "canonical_n3",
@@ -1179,10 +1163,9 @@
           ]
         },
         {
-          "id": "ndatte-datte",
+          "id": "l37-g03",
           "pattern": "〜んだって / 〜だって（伝聞）",
           "pattern_ruby": "〜んだって / 〜だって（{伝聞|でんぶん}）",
-          "romaji": "~n datte / ~datte (denbun)",
           "meaning_en": "I heard that ~; they say that ~ (casual spoken hearsay)",
           "register": "casual",
           "renshuu_status": "canonical_n3",
@@ -1226,10 +1209,9 @@
           ]
         },
         {
-          "id": "toka-hearsay",
+          "id": "l37-g04",
           "pattern": "〜とか（伝聞・曖昧）",
           "pattern_ruby": "〜とか（{伝聞|でんぶん}・{曖昧|あいまい}）",
-          "romaji": "~toka (denbun / aimai)",
           "meaning_en": "I heard something like ~; rumors say ~ (uncertain or secondhand hearsay)",
           "register": "neutral",
           "renshuu_status": "canonical_n3",
@@ -1259,7 +1241,7 @@
             {
               "ja_ruby": "{健太|けんた}さんが「{青空|あおぞら}」とかいうお{店|みせ}を{勧|すす}めてくれた。",
               "structure_note": "〜とかいう ＋ {名詞|めいし}（よく{知|し}らない{名称|めいしょう}への{言及|げんきゅう}）",
-              "en": "Kenta recommended a shop called 'Aozora' or something like that."
+              "en": "Kenta recommended a shop called 'Blue Sky' (あおぞら) or something like that."
             }
           ],
           "pitfalls": [
@@ -1366,10 +1348,9 @@
       "study_tip": "Keep speaker role and question type sharp: だい/んだい only asks WH-questions (whereas かい asks Yes/No); かな drops だ on nouns/な-adjectives; 〜ではないだろうか politely invites agreement in essays; and 〜さ vs. 〜もん live exclusively in casual spoken Japanese.",
       "grammar_points": [
         {
-          "id": "dai-ndai",
+          "id": "l38-g01",
           "pattern": "〜だい / 〜んだい",
           "pattern_ruby": "〜だい / 〜んだい",
-          "romaji": "~dai / ~n dai",
           "meaning_en": "informal open-ended WH-question ending (contrasted with yes/no かい)",
           "register": "casual",
           "renshuu_status": "verified_renshuu",
@@ -1421,10 +1402,9 @@
           ]
         },
         {
-          "id": "kanaa",
+          "id": "l38-g02",
           "pattern": "〜かな / 〜かなあ",
           "pattern_ruby": "〜かな / 〜かなあ",
-          "romaji": "~kana / ~kanaa",
           "meaning_en": "I wonder if ~; maybe ~ (self-directed wondering or soft question)",
           "register": "casual",
           "renshuu_status": "verified_renshuu",
@@ -1467,10 +1447,9 @@
           ]
         },
         {
-          "id": "dewa-nai-darouka",
+          "id": "l38-g03",
           "pattern": "〜（の）ではないだろうか / 〜んじゃないか",
           "pattern_ruby": "〜（の）ではないだろうか / 〜んじゃないか",
-          "romaji": "~(no) dewa nai darou ka / ~n ja nai ka",
           "meaning_en": "isn't it perhaps that ~?; I think maybe ~ (gentle reflective conjecture)",
           "register": "neutral",
           "renshuu_status": "verified_renshuu",
@@ -1514,11 +1493,10 @@
           ]
         },
         {
-          "id": "sa-mono-mon",
+          "id": "l38-g04",
           "pattern": "〜さ・〜もの / 〜もん",
           "pattern_ruby": "〜さ・〜もの / 〜もん",
-          "romaji": "~sa · ~mono / ~mon",
-          "meaning_en": "breezy casual assertion (~sa); emotional reason or excuse ('because ~!': ~mono / ~mon)",
+          "meaning_en": "breezy casual assertion (〜さ); emotional reason or excuse ('because ~!': 〜もの・〜もん)",
           "register": "casual",
           "renshuu_status": "canonical_n3",
           "mental_model": "These two casual sentence-final particles carry completely different attitudes. 〜さ adds a breezy, matter-of-fact shrug ('Sure, obviously—you know?'), reassuring someone lightly (なんとかなるさ) or casually asserting what goes without saying. 〜もの (and even more colloquial/playful 〜もん) offers an emotional self-justification or excuse ('Well, because X!'), often defending yourself against a mild reproach (だって{寒|さむ}かったんだもん). Both require plain forms and belong strictly to close, informal speech.",
@@ -1659,10 +1637,9 @@
       "study_tip": "Memorize two strict question rules: (1) use それとも ONLY when asking a question ('A, or B?'), never in statements (use または/あるいは); (2) inside embedded questions, use 〜かどうか for Yes/No, and drop どうか completely—using 〜か alone—whenever a WH-word like いつ or どこ appears!",
       "grammar_points": [
         {
-          "id": "soretomo",
+          "id": "l39-g01",
           "pattern": "〜か、それとも〜（か）",
           "pattern_ruby": "〜か、それとも〜（か）",
-          "romaji": "~ka, soretomo ~(ka)",
           "meaning_en": "or; or else (exclusively linking choices inside a question)",
           "register": "neutral",
           "renshuu_status": "verified_renshuu",
@@ -1706,10 +1683,9 @@
           ]
         },
         {
-          "id": "no-deshouka",
+          "id": "l39-g02",
           "pattern": "〜のでしょうか",
           "pattern_ruby": "〜のでしょうか",
-          "romaji": "~no deshou ka",
           "meaning_en": "could it be that ~?; I wonder if ~ (polite, indirect question)",
           "register": "formal",
           "renshuu_status": "canonical_n3",
@@ -1753,10 +1729,9 @@
           ]
         },
         {
-          "id": "ka-to-iuto",
+          "id": "l39-g03",
           "pattern": "〜かというと / 〜かといえば",
           "pattern_ruby": "〜かというと / 〜かといえば",
-          "romaji": "~ka to iu to / ~ka to ieba",
           "meaning_en": "if you ask whether/why ~; when it comes to whether ~ (rhetorical lead-in)",
           "register": "neutral",
           "renshuu_status": "canonical_n3",
@@ -1804,11 +1779,10 @@
           ]
         },
         {
-          "id": "kadouka-embedded",
+          "id": "l39-g04",
           "pattern": "〜かどうか / 疑問詞＋か（間接疑問）",
           "pattern_ruby": "〜かどうか / {疑問詞|ぎもんし}＋か（{間接疑問|かんせつぎもん}）",
-          "romaji": "~ka dou ka / gimonshi + ka (kansetsu gimon)",
-          "meaning_en": "whether or not ~ (~ka dou ka); embedded WH-question ('when/where/who ~')",
+          "meaning_en": "whether or not ~ (〜かどうか); embedded WH-question ('when/where/who ~')",
           "register": "neutral",
           "renshuu_status": "canonical_n3",
           "mental_model": "When embedding a question inside a larger sentence ('I don't know whether...' or 'Please tell me when...'), Japanese enforces a sharp two-track rule. For Yes/No embedded questions, wrap the plain clause in 〜かどうか ('whether or not'). Whenever a WH-question word (いつ, どこ, {誰|だれ}, {何|なに}, どうして, どのくらい) is inside the clause, drop どうか completely and use 〜か alone! Both patterns attach to plain forms without だ on present nouns and な-adjectives ({本当|ほんとう}かどうか, {誰|だれ}か).",

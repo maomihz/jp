@@ -13,10 +13,9 @@
       "study_tip": "Match the marker to both attachment shape and speaker attitude: use 〜など for neutral lists, save 〜なんか for casual noun examples or self-deprecation, and reach for 〜なんて whenever you react with shock to a full verb or adjective clause.",
       "grammar_points": [
         {
-          "id": "nado",
+          "id": "l11-g01",
           "pattern": "〜など",
           "pattern_ruby": "〜など",
-          "romaji": "nado",
           "meaning_en": "things like ~, ~ and so on, etc. (neutral non-exhaustive example)",
           "register": "neutral",
           "renshuu_status": "verified_renshuu",
@@ -63,10 +62,9 @@
           ]
         },
         {
-          "id": "nanka",
+          "id": "l11-g02",
           "pattern": "〜なんか",
           "pattern_ruby": "〜なんか",
-          "romaji": "nanka",
           "meaning_en": "something like ~, the likes of ~ (casual example, self-deprecation, or mild dismissal)",
           "register": "casual",
           "renshuu_status": "verified_renshuu",
@@ -114,10 +112,9 @@
           ]
         },
         {
-          "id": "nante",
+          "id": "l11-g03",
           "pattern": "〜なんて",
           "pattern_ruby": "〜なんて",
-          "romaji": "nante",
           "meaning_en": "things like ~, to think that ~ (surprise, disbelief, or emotional evaluation)",
           "register": "casual",
           "renshuu_status": "verified_renshuu",
@@ -164,10 +161,9 @@
           ]
         },
         {
-          "id": "ka-nanika",
+          "id": "l11-g04",
           "pattern": "〜か何か",
           "pattern_ruby": "〜か{何|なに}か",
-          "romaji": "ka nanika",
           "meaning_en": "~ or something (like that) (uncertain or tentative example)",
           "register": "neutral",
           "renshuu_status": "canonical_n3",
@@ -272,7 +268,7 @@
             "{取|と}りなど"
           ],
           "correct_index": 0,
-          "explanation": "{取|と}るなんて is correct because なんて attaches directly to a plain-form verb clause to react with surprise. か{何|なに}か only attaches to nouns, なんかは awkwardly attaches to a full clause with a contrastive topic, and など never attaches to a verb masu-stem ({取|と}り)."
+          "explanation": "{取|と}るなんて is correct because なんて attaches directly to a plain-form verb clause to react with surprise. か{何|なに}か only attaches to nouns, なんかは awkwardly attaches to a full clause with a contrastive topic, and など never attaches to a verb ます-stem ({取|と}り)."
         },
         {
           "question_id": "L11-Q4",
@@ -299,10 +295,9 @@
       "study_tip": "Track where こと sits in the sentence: pair WH-degree words with sentence-final 〜ことか, open a sentence with an emotion word + 〜ことに to frame your reaction, and end logical summaries with plain-form + 〜ということだ.",
       "grammar_points": [
         {
-          "id": "koto-ka",
+          "id": "l12-g01",
           "pattern": "〜ことか / 〜ことだろう",
           "pattern_ruby": "〜ことか / 〜ことだろう",
-          "romaji": "koto ka / koto darou",
           "meaning_en": "how ~!, what a ~! (unmeasurable emotion or degree)",
           "register": "written",
           "renshuu_status": "verified_renshuu",
@@ -349,10 +344,9 @@
           ]
         },
         {
-          "id": "koto-ni",
+          "id": "l12-g02",
           "pattern": "〜ことに",
           "pattern_ruby": "〜ことに",
-          "romaji": "koto ni",
           "meaning_en": "to my [surprise/joy/regret], amazingly, unfortunately",
           "register": "neutral",
           "renshuu_status": "canonical_n3",
@@ -399,10 +393,9 @@
           ]
         },
         {
-          "id": "to-iu-koto-da-emphasis",
+          "id": "l12-g03",
           "pattern": "〜ということだ",
           "pattern_ruby": "〜ということだ",
-          "romaji": "to iu koto da",
           "meaning_en": "that means ~, in short it comes down to ~ (emphatic conclusion / summary)",
           "register": "neutral",
           "renshuu_status": "canonical_n3",
@@ -506,7 +499,7 @@
           "question_id": "L12-Q3",
           "question_type": "attachment_trap",
           "prompt_ja_ruby": "{一人|ひとり}で{新|あたら}しい{町|まち}に{引|ひ}っ{越|こ}すときは、どれほど（　）。",
-          "context_en": "Choose the grammatically valid form of the na-adjective fuan (anxious) before ことだろう.",
+          "context_en": "Choose the grammatically valid form of the な-adjective {不安|ふあん} ('anxious') before ことだろう.",
           "choices": [
             "{不安|ふあん}ことだろう",
             "{不安|ふあん}だことだろう",
@@ -541,10 +534,9 @@
       "study_tip": "Watch particle collisions closely: 〜こそ replaces が and を completely while stacking after に・で・から, and 〜からこそ demands だ after nouns or な-adjectives so the phrase expresses a reason rather than a starting location.",
       "grammar_points": [
         {
-          "id": "koso",
+          "id": "l13-g01",
           "pattern": "〜こそ",
           "pattern_ruby": "〜こそ",
-          "romaji": "koso",
           "meaning_en": "precisely ~, this very ~, it is ~ that (emphatic focus)",
           "register": "neutral",
           "renshuu_status": "verified_renshuu",
@@ -587,10 +579,9 @@
           ]
         },
         {
-          "id": "kara-koso",
+          "id": "l13-g02",
           "pattern": "〜からこそ",
           "pattern_ruby": "〜からこそ",
-          "romaji": "kara koso",
           "meaning_en": "precisely because ~, for the very reason that ~",
           "register": "neutral",
           "renshuu_status": "verified_renshuu",
@@ -633,10 +624,9 @@
           ]
         },
         {
-          "id": "kurai-da-emphasis",
+          "id": "l13-g03",
           "pattern": "〜くらいだ / ぐらいだ",
           "pattern_ruby": "〜くらいだ / ぐらいだ",
-          "romaji": "kurai da / gurai da",
           "meaning_en": "to such a degree that ~, almost enough to ~ (emphatic extent)",
           "register": "neutral",
           "renshuu_status": "verified_renshuu",
@@ -683,10 +673,9 @@
           ]
         },
         {
-          "id": "ittai-ka",
+          "id": "l13-g04",
           "pattern": "一体〜か",
           "pattern_ruby": "{一体|いったい}〜か",
-          "romaji": "ittai ~ ka",
           "meaning_en": "what/who/why/where on earth ~? (emphatic interrogative)",
           "register": "neutral",
           "renshuu_status": "canonical_n3",
@@ -738,13 +727,13 @@
           {
             "expression": "〜からこそ",
             "register": "Neutral",
-            "key_rule": "{普通形|ふつうけい} (+だ for N/なAdj) + からこそ; heartfelt/deliberate motive",
+            "key_rule": "{普通形|ふつうけい} (+だ for N/な-adjective) + からこそ; heartfelt/deliberate motive",
             "example_short": "{好|す}きだからこそ{頑張|がんば}れる。"
           },
           {
             "expression": "〜くらいだ / ぐらいだ",
             "register": "Neutral",
-            "key_rule": "{普通形|ふつうけい} (+な for なAdj) + くらいだ; vivid benchmark extent",
+            "key_rule": "{普通形|ふつうけい} (+な for な-adjective) + くらいだ; vivid benchmark extent",
             "example_short": "{泣|な}きたいくらい{嬉|うれ}しい。"
           },
           {
@@ -788,7 +777,7 @@
           "question_id": "L13-Q3",
           "question_type": "attachment_trap",
           "prompt_ja_ruby": "{本当|ほんとう}の（　）、きびしいことも{正直|しょうじき}に{伝|つた}えるのです。",
-          "context_en": "Select the correct attachment for the noun tomodachi (friend) before からこそ ('precisely because they are a true friend').",
+          "context_en": "Select the correct attachment for the noun {友達|ともだち} ('friend') before からこそ ('precisely because they are a true friend').",
           "choices": [
             "{友達|ともだち}からこそ",
             "{友達|ともだち}だからこそ",
@@ -823,10 +812,9 @@
       "study_tip": "Never memorize negative adverbs as interchangeable 'not at all' clones: ask whether the speaker states a cold fact ({全|まった}く), swears a vow ({決|けっ}して), vents impatience (ちっとも), or faces impossibility (とても + potential negative).",
       "grammar_points": [
         {
-          "id": "mattaku-kesshite-nai",
+          "id": "l14-g01",
           "pattern": "全く〜ない / 決して〜ない",
           "pattern_ruby": "{全|まった}く〜ない / {決|けっ}して〜ない",
-          "romaji": "mattaku ~ nai / kesshite ~ nai",
           "meaning_en": "not ~ at all (complete factual negation) / never, by no means (strong resolve or rule)",
           "register": "neutral",
           "renshuu_status": "verified_renshuu",
@@ -869,10 +857,9 @@
           ]
         },
         {
-          "id": "sukoshimo-chittomo-betsuni-nai",
+          "id": "l14-g02",
           "pattern": "少しも〜ない / ちっとも〜ない / 別に〜ない",
           "pattern_ruby": "{少|すこ}しも〜ない / ちっとも〜ない / {別|べつ}に〜ない",
-          "romaji": "sukoshimo ~ nai / chittomo ~ nai / betsu ni ~ nai",
           "meaning_en": "not even a little bit (neutral / colloquial) / not particularly, not really",
           "register": "neutral",
           "renshuu_status": "verified_renshuu",
@@ -919,10 +906,9 @@
           ]
         },
         {
-          "id": "mettani-nakanaka-totemo-nai",
+          "id": "l14-g03",
           "pattern": "めったに〜ない / なかなか〜ない / とても〜ない",
           "pattern_ruby": "めったに〜ない / なかなか〜ない / とても〜ない",
-          "romaji": "mettani ~ nai / nakanaka ~ nai / totemo ~ nai",
           "meaning_en": "rarely; not easily / stubbornly won't; cannot possibly",
           "register": "neutral",
           "renshuu_status": "canonical_n3",
@@ -969,10 +955,9 @@
           ]
         },
         {
-          "id": "nai-koto-niwa-nai",
+          "id": "l14-g04",
           "pattern": "〜ないことには〜ない",
           "pattern_ruby": "〜ないことには〜ない",
-          "romaji": "nai koto niwa ~ nai",
           "meaning_en": "unless ~ happens first, [B] cannot happen",
           "register": "neutral",
           "renshuu_status": "verified_renshuu",
@@ -1088,7 +1073,7 @@
           "question_id": "L14-Q3",
           "question_type": "attachment_trap",
           "prompt_ja_ruby": "{参加費|さんかひ}がもっと（　）、{多|おお}くの{学生|がくせい}は{参加|さんか}できないだろう。",
-          "context_en": "Pick the correct attachment of yasui (cheap) before ことには to mean 'unless the fee is cheaper.'",
+          "context_en": "Pick the correct attachment of {安|やす}い ('cheap') before ことには to mean 'unless the fee is cheaper.'",
           "choices": [
             "{安|やす}かったことには",
             "{安|やす}いということには",
@@ -1123,10 +1108,9 @@
       "study_tip": "Memorize the mirror rule for 〜ば〜ほど: whenever ば appears, you must repeat the exact same verb or adjective before ほど—and for 〜ほど〜ない, remember that the noun before ほど holds the higher benchmark.",
       "grammar_points": [
         {
-          "id": "ba-hodo",
+          "id": "l15-g01",
           "pattern": "〜ば〜ほど",
           "pattern_ruby": "〜ば〜ほど",
-          "romaji": "~ ba ~ hodo",
           "meaning_en": "the more ~, the more ~ (proportional correlation)",
           "register": "neutral",
           "renshuu_status": "verified_renshuu",
@@ -1173,10 +1157,9 @@
           ]
         },
         {
-          "id": "hodo-nai",
+          "id": "l15-g02",
           "pattern": "〜ほど〜ない / 〜ほど〜はない",
           "pattern_ruby": "〜ほど〜ない / 〜ほど〜はない",
-          "romaji": "hodo ~ nai / hodo ~ wa nai",
           "meaning_en": "not as ~ as [A] (negative comparison) / nothing is more ~ than [A] (superlative)",
           "register": "neutral",
           "renshuu_status": "verified_renshuu",
@@ -1220,10 +1203,9 @@
           ]
         },
         {
-          "id": "hodo-da",
+          "id": "l15-g03",
           "pattern": "〜ほどだ / ほどの",
           "pattern_ruby": "〜ほどだ / ほどの",
-          "romaji": "hodo da / hodo no",
           "meaning_en": "so ~ that ..., to the extent that ... (hyperbolic or vivid degree)",
           "register": "neutral",
           "renshuu_status": "verified_renshuu",
@@ -1277,7 +1259,7 @@
           {
             "expression": "〜ば〜ほど",
             "register": "Neutral",
-            "key_rule": "Same V/Adj repeated (ば/なら + plain + ほど); proportional scaling",
+            "key_rule": "Same V / adjective repeated (ば/なら + plain + ほど); proportional scaling",
             "example_short": "{読|よ}めば{読|よ}むほど{面白|おもしろ}い。"
           },
           {
@@ -1327,7 +1309,7 @@
           "question_id": "L15-Q3",
           "question_type": "attachment_trap",
           "prompt_ja_ruby": "{図書館|としょかん}の{席|せき}は、（　）{勉強|べんきょう}しやすいです。",
-          "context_en": "Choose the valid 〜ば〜ほど form for the na-adjective shizuka (quiet).",
+          "context_en": "Choose the valid 〜ば〜ほど form for the な-adjective {静|しず}か ('quiet').",
           "choices": [
             "{静|しず}かなら{静|しず}かなほど",
             "{静|しず}かれば{静|しず}かほど",

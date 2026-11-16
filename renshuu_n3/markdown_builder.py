@@ -57,7 +57,7 @@ def render_master_index_markdown(curriculum: Curriculum) -> str:
         "1. **Preview before queuing:** Read the unit summary, mental models, and formation rules before unlocking the matching lesson on Renshuu.",
         "2. **Use the contrast tables:** Every lesson highlights the subtle boundary that Renshuu sentence-scramble and fill-in-the-blank quizzes test most frequently.",
         "3. **Test active recall:** Complete the 4 diagnostic questions at the end of each lesson (or open the interactive web app with `Recall` blur enabled).",
-        "4. **Close exam gaps with Unit 12:** For the official JLPT N3 exam, complete Bridge modules **B1** (N4 voice/keigo prerequisites), **B2** (high-frequency N3 exam patterns deferred to Renshuu N2), and **B3** (star-puzzle word order and discourse grammar).",
+        "4. **Close exam gaps with Unit 12:** For the official JLPT N3 exam, complete Bridge modules **B1** (N4 voice and honorific speech prerequisites), **B2** (high-frequency N3 exam patterns deferred to Renshuu N2), and **B3** (star-puzzle word order and discourse grammar).",
         "",
         "## Unit Directory",
         "",
@@ -95,9 +95,9 @@ def _render_grammar_point_markdown(gp: GrammarPoint) -> list[str]:
     reg = REGISTER_LABELS[gp.register]
     st = STATUS_LABELS[gp.renshuu_status]
     lines = [
-        f"### {render_ruby_markdown(gp.pattern_ruby)} (`{gp.romaji}`)",
+        f"### {render_ruby_markdown(gp.pattern_ruby)}",
         "",
-        f"- **Meaning:** {gp.meaning_en}",
+        f"- **Meaning:** {render_ruby_markdown(gp.meaning_en)}",
         f"- **Register / Status:** {reg} / {st}",
         "",
         "**Formation:**",
@@ -143,14 +143,14 @@ def _render_lesson_markdown(lesson: Lesson) -> list[str]:
         "",
         "### Lesson Snapshot",
         "",
-        "| Pattern | Romaji | Meaning | Register | Status |",
-        "| :--- | :--- | :--- | :--- | :--- |",
+        "| Pattern | Meaning | Register | Status |",
+        "| :--- | :--- | :--- | :--- |",
     ]
     for gp in lesson.grammar_points:
         reg = REGISTER_LABELS[gp.register]
         st = STATUS_LABELS[gp.renshuu_status]
         lines.append(
-            f"| {escape_markdown_cell(gp.pattern_ruby)} | `{gp.romaji}` | {escape_markdown_cell(gp.meaning_en)} | {reg} | {st} |"
+            f"| {escape_markdown_cell(gp.pattern_ruby)} | {escape_markdown_cell(gp.meaning_en)} | {reg} | {st} |"
         )
     lines.append("")
 
@@ -180,7 +180,7 @@ def _render_lesson_markdown(lesson: Lesson) -> list[str]:
             [
                 f"**Q{q_idx} ({qlabel}):** {render_ruby_markdown(q.prompt_ja_ruby)}",
                 "",
-                f"*Context:* {q.context_en}",
+                f"*Context:* {render_ruby_markdown(q.context_en)}",
                 "",
             ]
         )
@@ -255,7 +255,7 @@ def render_matrices_markdown(matrices: tuple[SynonymMatrix, ...]) -> str:
         for pair in matrix.minimal_pair_test:
             lines.extend(
                 [
-                    f"- **{pair.pair_title}**",
+                    f"- **{render_ruby_markdown(pair.pair_title)}**",
                     f"  - Natural: {render_ruby_markdown(pair.sentence_valid)}",
                     f"  - Contrast: {render_ruby_markdown(pair.sentence_contrast)}",
                     f"  - Why: {render_ruby_markdown(pair.explanation)}",

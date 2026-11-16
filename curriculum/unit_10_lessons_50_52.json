@@ -1,6 +1,6 @@
 {
   "unit_number": 10,
-  "unit_slug": "unit-10-garu-ppoi-seeming",
+  "unit_slug": "unit-10-emotions-similitude-appearance",
   "unit_title": "Unit 10: Third-Person Feelings, Similitude & Seeming/Pretending (Lessons 50–52)",
   "unit_overview": "Master Renshuu N3 Lessons 50–52: converting internal adjectives/desires into third-person observations with 〜がる, forming '-ish / prone to' adjectives with 〜っぽい, and distinguishing all N3 appearance, pretense, and tendency forms.",
   "lessons": [
@@ -13,10 +13,9 @@
       "study_tip": "Japanese treats inner feelings and desires as private unless visibly displayed. For third-person subjects, convert emotion adjectives and 〜たい into 〜がる / 〜たがる—and remember that the object particle shifts from が to を when expressing someone else's desire or emotion target.",
       "grammar_points": [
         {
-          "id": "garu-gatteiru",
+          "id": "l50-g01",
           "pattern": "〜がる / 〜がっている",
           "pattern_ruby": "〜がる / 〜がっている",
-          "romaji": "~garu / ~gatte iru",
           "meaning_en": "to show signs of feeling ~; to seem/act ~ (third-person emotions & sensations)",
           "register": "neutral",
           "renshuu_status": "verified_renshuu",
@@ -60,18 +59,17 @@
           "pitfalls": [
             "Never use 〜がる for your own present sensations or emotions (×{私|わたし}は{寒|さむ}がっている -> ○{私|わたし}は{寒|さむ}い). Bare adjectives express first-person feeling directly.",
             "Do not attach 〜がる to {好|す}き or {嫌|きら}い (×{好|す}きがる, ×{嫌|きら}いがる); use {嫌|いや}がる for reluctance/dislike or regular verbs like {好|この}む and {嫌|きら}う instead.",
-            "Because 〜がる turns an adjective into a godan transitive verb, the target of the feeling takes を rather than が (○{蛇|へび}を{怖|こわ}がる, ×{蛇|へび}が{怖|こわ}がる). Also separate general habit (-がる) from visible right-now display (-がっている)."
+            "Because 〜がる turns an adjective into a {五段|ごだん} transitive verb, the target of the feeling takes を rather than が (○{蛇|へび}を{怖|こわ}がる, ×{蛇|へび}が{怖|こわ}がる). Also separate general habit (-がる) from visible right-now display (-がっている)."
           ]
         },
         {
-          "id": "tagaru-hoshigaru",
+          "id": "l50-g02",
           "pattern": "〜たがる / 欲しがる（が→を変換）",
           "pattern_ruby": "〜たがる / {欲|ほ}しがる（が→を{変換|へんかん}）",
-          "romaji": "~tagaru / hoshigaru (ga -> o henkan)",
           "meaning_en": "wants to do ~; wants [object] (third-person desire with を)",
           "register": "neutral",
           "renshuu_status": "verified_renshuu",
-          "mental_model": "Just as you cannot state another person's raw emotions directly, you cannot say '×{弟|おとうと}は{水|みず}が{欲|ほ}しい' or '×{美咲|みさき}さんは{日本|にほん}へ{行|い}きたい' as a bare factual declaration. Convert the adjective-like desire forms 〜たい and {欲|ほ}しい into observable verbs: 〜たがる / 〜たがっている and {欲|ほ}しがる / {欲|ほ}しがっている. Because adding 〜がる converts an い-adjective into a regular transitive godan verb, the object particle switches obligatorily from が to を: '{水|みず}が{欲|ほ}しい' (I want water) becomes '{水|みず}を{欲|ほ}しがっている' (someone wants water).",
+          "mental_model": "Just as you cannot state another person's raw emotions directly, you cannot say '×{弟|おとうと}は{水|みず}が{欲|ほ}しい' or '×{美咲|みさき}さんは{日本|にほん}へ{行|い}きたい' as a bare factual declaration. Convert the adjective-like desire forms 〜たい and {欲|ほ}しい into observable verbs: 〜たがる / 〜たがっている and {欲|ほ}しがる / {欲|ほ}しがっている. Because adding 〜がる converts an い-adjective into a regular transitive {五段|ごだん} verb, the object particle switches obligatorily from が to を: '{水|みず}が{欲|ほ}しい' (I want water) becomes '{水|みず}を{欲|ほ}しがっている' (someone wants water).",
           "formation": [
             {
               "pos": "{動詞|どうし}ます{形|けい}{語幹|ごかん}",
@@ -115,10 +113,9 @@
           ]
         },
         {
-          "id": "tsuyogaru-idioms",
+          "id": "l50-g03",
           "pattern": "強がる・得意がる（慣用表現）",
           "pattern_ruby": "{強|つよ}がる・{得意|とくい}がる（{慣用表現|かんようひょうげん}）",
-          "romaji": "tsuyogaru · tokuigaru (kan'you hyougen)",
           "meaning_en": "to act tough / put on a brave front; to act proud / boastful",
           "register": "neutral",
           "renshuu_status": "verified_renshuu",
@@ -230,7 +227,7 @@
             "{怖|こわ}い"
           ],
           "correct_index": 0,
-          "explanation": "Correct: A ({怖|こわ}がる). Dropping い from {怖|こわ}い and adding 〜がる creates a transitive godan verb that matches the object marker を ({大人|おとな}を{怖|こわ}がる) and describes a third person's habitual fear. B ({好|す}きがる) and C ({嫌|きら}いがる) are ungrammatical formations because 〜がる cannot attach to {好|す}き or {嫌|きら}い; D ({怖|こわ}い) cannot take particle を or directly state a third person's private feeling."
+          "explanation": "Correct: A ({怖|こわ}がる). Dropping い from {怖|こわ}い and adding 〜がる creates a transitive {五段|ごだん} verb that matches the object marker を ({大人|おとな}を{怖|こわ}がる) and describes a third person's habitual fear. B ({好|す}きがる) and C ({嫌|きら}いがる) are ungrammatical formations because 〜がる cannot attach to {好|す}き or {嫌|きら}い; D ({怖|こわ}い) cannot take particle を or directly state a third person's private feeling."
         },
         {
           "question_id": "L50-Q4",
@@ -257,10 +254,9 @@
       "study_tip": "Check the word class right before 〜っぽい to decode the nuance: Noun＋っぽい means 'resembles X (often critically, because it isn't really X),' Verbます-stem＋っぽい means 'prone to doing X by temperament,' and い-adjective stem＋っぽい means 'gives a touch/impression of X.'",
       "grammar_points": [
         {
-          "id": "noun-ppoi",
+          "id": "l51-g01",
           "pattern": "名詞＋っぽい",
           "pattern_ruby": "{名詞|めいし}＋っぽい",
-          "romaji": "meishi + ppoi",
           "meaning_en": "-ish; like ~ (often implying something is NOT truly that thing, or has an unwelcome trace)",
           "register": "casual",
           "renshuu_status": "verified_renshuu",
@@ -300,10 +296,9 @@
           ]
         },
         {
-          "id": "verb-ppoi",
+          "id": "l51-g02",
           "pattern": "動詞ます形＋っぽい",
           "pattern_ruby": "{動詞|どうし}ます{形|けい}＋っぽい",
-          "romaji": "doushi masu-kei + ppoi",
           "meaning_en": "prone to ~; easily ~ing (character quirk or habitual tendency)",
           "register": "casual",
           "renshuu_status": "verified_renshuu",
@@ -342,10 +337,9 @@
           ]
         },
         {
-          "id": "adj-ppoi-conjugation",
+          "id": "l51-g03",
           "pattern": "い形容詞語幹＋っぽい・活用規則",
           "pattern_ruby": "い{形容詞|けいようし}{語幹|ごかん}＋っぽい・{活用規則|かつようきそく}",
-          "romaji": "i-keiyoushi gokan + ppoi · katsuyou kisoku",
           "meaning_en": "looks/feels somewhat ~ (い-adjective stem); conjugates strictly as an い-adjective",
           "register": "casual",
           "renshuu_status": "verified_renshuu",
@@ -407,7 +401,7 @@
           {
             "expression": "い{形容詞|けいようし}{語幹|ごかん}＋っぽい",
             "register": "Casual",
-            "key_rule": "Limited mainly to {安|やす}っぽい and colors ({白|しろ}っぽい); conjugates strictly as い-Adj.",
+            "key_rule": "Limited mainly to {安|やす}っぽい and colors ({白|しろ}っぽい); conjugates strictly as い-adjective.",
             "example_short": "この{靴|くつ}は{安|やす}っぽく{見|み}える。"
           }
         ]
@@ -480,10 +474,9 @@
       "study_tip": "Separate 'pretense,' 'appearance,' and 'tendency' by intent and evidence: 〜ふりをする is deliberate acting; 〜らしい cites outside rumors or quintessential ideals; 〜ようだ / みたいだ / とみえる rely on your own sensory clues or deduction; 〜がち flags frequent bad habits while 〜{気味|ぎみ} marks a slight touch or onset.",
       "grammar_points": [
         {
-          "id": "furi-wo-suru",
+          "id": "l52-g01",
           "pattern": "〜ふりをする",
           "pattern_ruby": "〜ふりをする",
-          "romaji": "~furi wo suru",
           "meaning_en": "to pretend to ~; to act as if ~",
           "register": "neutral",
           "renshuu_status": "verified_renshuu",
@@ -535,10 +528,9 @@
           ]
         },
         {
-          "id": "rashii-quintessential-vs-hearsay",
+          "id": "l52-g02",
           "pattern": "〜らしい",
           "pattern_ruby": "〜らしい",
-          "romaji": "~rashii",
           "meaning_en": "it seems / apparently ~ (evidential/hearsay); truly ~-like / quintessential (N+らしい)",
           "register": "neutral",
           "renshuu_status": "canonical_n3",
@@ -586,10 +578,9 @@
           ]
         },
         {
-          "id": "youda-mitai-tomieru",
+          "id": "l52-g03",
           "pattern": "〜ようだ / みたいだ / ような気がする / とみえる",
           "pattern_ruby": "〜ようだ / みたいだ / ような{気|き}がする / とみえる",
-          "romaji": "~you da / mitai da / you na ki ga suru / to mieru",
           "meaning_en": "it seems/looks like ~ (sensory/inferential); I have a hunch that ~; apparently (reasoned observation)",
           "register": "neutral",
           "renshuu_status": "canonical_n3",
@@ -641,11 +632,10 @@
           ]
         },
         {
-          "id": "gachi-gimi",
+          "id": "l52-g04",
           "pattern": "〜がち・〜気味（ぎみ）",
           "pattern_ruby": "〜がち・〜{気味|ぎみ}（ぎみ）",
-          "romaji": "~gachi · ~gimi",
-          "meaning_en": "prone to ~ / tends to ~ often (negative habit: gachi); a slight touch/onset of ~ (gimi)",
+          "meaning_en": "prone to ~ / tends to ~ often (negative habit: がち); a slight touch/onset of ~ ({気味|ぎみ})",
           "register": "neutral",
           "renshuu_status": "canonical_n3",
           "mental_model": "Both 〜がち and 〜{気味|ぎみ} lean toward unwanted conditions, yet they measure two completely different dimensions: frequency versus mild degree! 〜がち means 'tends to happen too often' (frequent undesirable events or habits like {休|やす}みがち, {忘|わす}れがち, {曇|くも}りがち) and behaves like a な-adjective/noun (がちだ・がちな・がちになる). By contrast, 〜{気味|ぎみ} means 'a slight touch or early onset of a physical, mental, or situational state' right now—for example {風邪気味|かぜぎみ} (かぜぎみ, 'a touch of a cold'), {疲|つか}れ{気味|ぎみ} (つかれぎみ, 'a bit worn out'), or {遅|おく}れ{気味|ぎみ} ('running slightly behind schedule').",
@@ -699,19 +689,19 @@
           {
             "expression": "〜ふりをする",
             "register": "Neutral",
-            "key_rule": "Deliberate acting/pretense; requires な-Adj＋な and N＋の before ふり.",
+            "key_rule": "Deliberate acting/pretense; requires な-adjective＋な and N＋の before ふり.",
             "example_short": "{知|し}らないふりをした。"
           },
           {
             "expression": "〜らしい",
             "register": "Neutral",
-            "key_rule": "Hearsay/clues (N/な-Adj drop だ) vs. positive ideal N＋らしい ({子供|こども}らしい).",
+            "key_rule": "Hearsay/clues (N/な-adjective drop だ) vs. positive ideal N＋らしい ({子供|こども}らしい).",
             "example_short": "{春|はる}らしい{天気|てんき}だ。"
           },
           {
             "expression": "〜ようだ / みたいだ / ような{気|き}がする / とみえる",
             "register": "Neutral / Casual / Written",
-            "key_rule": "Personal clues/hunch/deduction; ようだ takes N＋の・な-Adj＋な, みたいだ attaches bare.",
+            "key_rule": "Personal clues/hunch/deduction; ようだ takes N＋の・な-adjective＋な, みたいだ attaches bare.",
             "example_short": "{誰|だれ}か{来|き}たみたいだ。"
           },
           {

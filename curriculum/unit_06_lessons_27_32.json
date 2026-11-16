@@ -1,6 +1,6 @@
 {
   "unit_number": 6,
-  "unit_slug": "unit-06-youni-moshi-actions-time",
+  "unit_slug": "unit-06-purpose-conditionals-time",
   "unit_title": "Unit 6: Using ように, Hypothetical もし & Actions in Time (Lessons 27–32)",
   "unit_overview": "Master Renshuu N3 Lessons 27–32: both ように units (purpose, effort habits, state transitions, likeness, prayers), hypothetical もし framing, and all temporal action grammar (うちに, たばかり, たて, 最中に, 際に, たびに, ついでに, たとたん, 上で, おきに/ごとに).",
   "lessons": [
@@ -13,10 +13,9 @@
       "study_tip": "Ask who controls the change: gradual shift over time = ようになる; conscious daily effort = ようにする; firm personal choice = ことにする; external decision = ことになる; standing rule or schedule = ことになっている!",
       "grammar_points": [
         {
-          "id": "youni-purpose",
+          "id": "l27-g01",
           "pattern": "〜ように（目的）",
           "pattern_ruby": "〜ように（{目的|もくてき}）",
-          "romaji": "~you ni (purpose)",
           "meaning_en": "so that ~; in order that ~ (non-volitional or potential goal)",
           "register": "neutral",
           "renshuu_status": "verified_renshuu",
@@ -59,10 +58,9 @@
           ]
         },
         {
-          "id": "youni-suru",
+          "id": "l27-g02",
           "pattern": "〜ようにする / ようにしている",
           "pattern_ruby": "〜ようにする / ようにしている",
-          "romaji": "~you ni suru / ~you ni shite iru",
           "meaning_en": "to try to ~; to make a conscious effort to ~ / to make it a habit to ~",
           "register": "neutral",
           "renshuu_status": "verified_renshuu",
@@ -105,10 +103,9 @@
           ]
         },
         {
-          "id": "youni-naru",
+          "id": "l27-g03",
           "pattern": "〜ようになる",
           "pattern_ruby": "〜ようになる",
-          "romaji": "~you ni naru",
           "meaning_en": "to come to ~; to become able to ~; to reach the point where ~",
           "register": "neutral",
           "renshuu_status": "verified_renshuu",
@@ -262,10 +259,9 @@
       "study_tip": "Treat ようだ as a な-adjective-like noun at heart: attach の before it after nouns ({氷|こおり}のように), な before it after な-adjectives ({元気|げんき}なように{見|み}える), and direct plain forms (or polite ます for prayers!) after verbs.",
       "grammar_points": [
         {
-          "id": "no-youni-simile",
+          "id": "l28-g01",
           "pattern": "〜のように / 〜ように（比喩・例）",
           "pattern_ruby": "〜のように / 〜ように（{比喩|ひゆ}・{例|れい}）",
-          "romaji": "~no you ni / ~you ni (simile / example)",
           "meaning_en": "just like ~; as ~; such as ~ (comparison, example, or model)",
           "register": "neutral",
           "renshuu_status": "verified_renshuu",
@@ -308,10 +304,9 @@
           ]
         },
         {
-          "id": "youni-inoru-negau",
+          "id": "l28-g02",
           "pattern": "〜ように祈る / 願う",
           "pattern_ruby": "〜ように{祈|いの}る / {願|ねが}う",
-          "romaji": "~you ni inoru / negau",
           "meaning_en": "to pray/wish that ~; may ~ happen",
           "register": "neutral",
           "renshuu_status": "verified_renshuu",
@@ -354,10 +349,9 @@
           ]
         },
         {
-          "id": "youni-mieru-marude",
+          "id": "l28-g03",
           "pattern": "〜ように見える / まるで〜ようだ",
           "pattern_ruby": "〜ように{見|み}える / まるで〜ようだ",
-          "romaji": "~you ni mieru / marude ~you da",
           "meaning_en": "to look as if ~; to seem just like ~ (visual impression)",
           "register": "neutral",
           "renshuu_status": "canonical_n3",
@@ -433,7 +427,7 @@
           {
             "expression": "〜ように{見|み}える / まるで〜ようだ",
             "register": "Neutral",
-            "key_rule": "Outward impression vs. reality or vivid 'as if'; な-adj takes な, noun takes の.",
+            "key_rule": "Outward impression vs. reality or vivid 'as if'; な-adjective takes な, noun takes の.",
             "example_short": "まるで{夏|なつ}が{来|き}たようだ。"
           }
         ]
@@ -471,7 +465,7 @@
           "question_id": "L28-Q3",
           "question_type": "attachment_trap",
           "prompt_ja_ruby": "{田中|たなか}さんは{仕事|しごと}が{忙|いそが}しいはずなのに、いつも（　　　）{見|み}える。",
-          "context_en": "Attaching a な-adjective (hima) before ように見える: 'Even though Tanaka should be busy with work, he always looks free.'",
+          "context_en": "Attaching a な-adjective ({暇|ひま}) before ように見える: 'Even though Tanaka should be busy with work, he always looks free.'",
           "choices": [
             "{暇|ひま}だように",
             "{暇|ひま}のように",
@@ -506,10 +500,9 @@
       "study_tip": "Never mix up もし ('if' -> must end with a conditional like たら・ば・なら・としても) with もしかしたら ('perhaps / by any chance' -> must end with uncertainty like かもしれない・だろう). And keep もし far away from automatic と!",
       "grammar_points": [
         {
-          "id": "moshimo-tara-nara",
+          "id": "l29-g01",
           "pattern": "もしも〜たら / なら",
           "pattern_ruby": "もしも〜たら / なら",
-          "romaji": "moshimo ~tara / nara",
           "meaning_en": "if by any chance ~; suppose ~ (hypothetical framing)",
           "register": "neutral",
           "renshuu_status": "verified_renshuu",
@@ -552,10 +545,9 @@
           ]
         },
         {
-          "id": "moshi-tanara-toshitemo",
+          "id": "l29-g02",
           "pattern": "もし〜たなら / もし〜としても",
           "pattern_ruby": "もし〜たなら / もし〜としても",
-          "romaji": "moshi ~ta nara / moshi ~to shite mo",
           "meaning_en": "if it had happened / if indeed ~ (supposition); even supposing ~ (concession)",
           "register": "neutral",
           "renshuu_status": "verified_renshuu",
@@ -602,10 +594,9 @@
           ]
         },
         {
-          "id": "moshikashitara-saeba",
+          "id": "l29-g03",
           "pattern": "もしかしたら〜かもしれない・〜さえ〜ば",
           "pattern_ruby": "もしかしたら〜かもしれない・〜さえ〜ば",
-          "romaji": "moshikashitara ~kamo shirenai · ~sae ~ba",
           "meaning_en": "perhaps / by any chance ~ (maybe); if only X, then Y (minimum sufficient condition)",
           "register": "neutral",
           "renshuu_status": "canonical_n3",
@@ -758,10 +749,9 @@
       "study_tip": "Picture うち as 'inside a fragile bubble before it pops.' State + うちに = act before the good condition fades; V-ている + うちに = something gradually shifts while you're busy doing V; V-ない + うちに = hurry up before the negative flip happens!",
       "grammar_points": [
         {
-          "id": "uchi-ni",
+          "id": "l30-g01",
           "pattern": "〜うちに",
           "pattern_ruby": "〜うちに",
-          "romaji": "~uchi ni",
           "meaning_en": "while ~ (before the current favorable state changes)",
           "register": "neutral",
           "renshuu_status": "verified_renshuu",
@@ -812,10 +802,9 @@
           ]
         },
         {
-          "id": "teiru-uchi-ni",
+          "id": "l30-g02",
           "pattern": "〜ているうちに",
           "pattern_ruby": "〜ているうちに",
-          "romaji": "~te iru uchi ni",
           "meaning_en": "while ~ing (a gradual or unexpected change happens)",
           "register": "neutral",
           "renshuu_status": "verified_renshuu",
@@ -854,10 +843,9 @@
           ]
         },
         {
-          "id": "nai-uchi-ni",
+          "id": "l30-g03",
           "pattern": "〜ないうちに",
           "pattern_ruby": "〜ないうちに",
-          "romaji": "~nai uchi ni",
           "meaning_en": "before ~ happens; while ~ hasn't happened yet",
           "register": "neutral",
           "renshuu_status": "verified_renshuu",
@@ -907,7 +895,7 @@
           {
             "expression": "〜うちに",
             "register": "Neutral",
-            "key_rule": "Act while a favorable state still lasts; takes Nの / Naな / いAdj / {状態|じょうたい}V.",
+            "key_rule": "Act while a favorable state still lasts; takes N＋の / な-adjective＋な / い-adjective / {状態|じょうたい}V.",
             "example_short": "{温|あたた}かいうちに{食|た}べよう。"
           },
           {
@@ -963,7 +951,7 @@
           "question_id": "L30-Q3",
           "question_type": "attachment_trap",
           "prompt_ja_ruby": "まだ{体|からだ}が（　　　）、やりたいことをどんどんやっておこう。",
-          "context_en": "Attaching a な-adjective (genki) before うちに: 'While my body is still healthy and energetic, let's do the things I want to do.'",
+          "context_en": "Attaching a な-adjective ({元気|げんき}) before うちに: 'While my body is still healthy and energetic, let's do the things I want to do.'",
           "choices": [
             "{元気|げんき}なうちに",
             "{元気|げんき}のうちに",
@@ -998,10 +986,9 @@
       "study_tip": "Check both the verb stem and the speaker's lens: 〜たばかり attaches to た-form and measures how recent the event FEELS (even months ago!), while 〜たて attaches ONLY to ます-stem and captures sensory freshness right after making something ({焼|や}きたて, {塗|ぬ}りたて).",
       "grammar_points": [
         {
-          "id": "ta-bakari",
+          "id": "l31-g01",
           "pattern": "〜たばかり",
           "pattern_ruby": "〜たばかり",
-          "romaji": "~ta bakari",
           "meaning_en": "just did ~ (speaker's subjective feeling of recency)",
           "register": "neutral",
           "renshuu_status": "verified_renshuu",
@@ -1048,10 +1035,9 @@
           ]
         },
         {
-          "id": "tate-no",
+          "id": "l31-g02",
           "pattern": "〜たて / 〜立ての",
           "pattern_ruby": "〜たて / 〜{立|た}ての",
-          "romaji": "~tate / ~tate no",
           "meaning_en": "freshly ~ed; brand-new right after production",
           "register": "neutral",
           "renshuu_status": "verified_renshuu",
@@ -1182,10 +1168,9 @@
       "study_tip": "Check two instant traps in Lesson 32: read {最中|さいちゅう}に as さいちゅう (NEVER もなか, the sweet wafer!), and count the skipped gap in おきに—{一日|いちにち}おきに means every OTHER day (skipping 1 day), whereas {一日|いちにち}ごとに means every single day!",
       "grammar_points": [
         {
-          "id": "saichuu-ni",
+          "id": "l32-g01",
           "pattern": "〜最中に（さいちゅうに）",
           "pattern_ruby": "〜{最中|さいちゅう}に（さいちゅうに）",
-          "romaji": "~saichuu ni",
           "meaning_en": "right in the middle of ~ (when an unexpected interruption occurs)",
           "register": "neutral",
           "renshuu_status": "verified_renshuu",
@@ -1228,11 +1213,10 @@
           ]
         },
         {
-          "id": "sai-ni-ue-de",
+          "id": "l32-g02",
           "pattern": "〜際に（さいに）・〜上で（うえで）",
           "pattern_ruby": "〜{際|さい}に（さいに）・〜{上|うえ}で（うえで）",
-          "romaji": "~sai ni · ~ue de",
-          "meaning_en": "on the occasion of / when ~ (formal: sai ni); upon doing X first / after ~ing (ue de)",
+          "meaning_en": "on the occasion of / when ~ (formal: {際|さい}に); upon doing X first / after ~ing ({上|うえ}で)",
           "register": "formal",
           "renshuu_status": "canonical_n3",
           "mental_model": "Both bring crisp structure to serious or formal events. 〜{際|さい}（に） is the polite, official counterpart to 〜{時|とき}（に）, heard on train announcements and service counters ('on the occasion of boarding or applying'). 〜{上|うえ}で builds a two-step staircase: first complete preparation Step 1 (researching, consulting, checking) thoroughly, and only upon that solid foundation proceed to important Decision 2.",
@@ -1274,11 +1258,10 @@
           ]
         },
         {
-          "id": "tabini-tsuideni",
+          "id": "l32-g03",
           "pattern": "〜たびに・〜ついでに",
           "pattern_ruby": "〜たびに・〜ついでに",
-          "romaji": "~tabi ni · ~tsuide ni",
-          "meaning_en": "every single time ~ (tabi ni); while already doing X / on the way (tsuide ni)",
+          "meaning_en": "every single time ~ (たびに); while already doing X / on the way (ついでに)",
           "register": "neutral",
           "renshuu_status": "verified_renshuu",
           "mental_model": "Both link two actions in time, yet with completely different logic. 〜たびに is a reliable trigger button: every single time Event X occurs, Effect Y repeats without fail ('every time I hear this song, I remember home'). By contrast, 〜ついでに is smart errand-stacking: since you are already going out or doing main task X anyway, you conveniently tack on minor bonus task Y along the way.",
@@ -1320,10 +1303,9 @@
           ]
         },
         {
-          "id": "tatotan-okini-gotoni",
+          "id": "l32-g04",
           "pattern": "〜たとたん（に）・〜おきに / ごとに",
           "pattern_ruby": "〜たとたん（に）・〜おきに / ごとに",
-          "romaji": "~ta totan (ni) · ~oki ni / goto ni",
           "meaning_en": "the instant ~ happened (unexpected trigger); at intervals of ~ / every ~",
           "register": "neutral",
           "renshuu_status": "canonical_n3",
@@ -1370,11 +1352,10 @@
           ]
         },
         {
-          "id": "tochuu-de-tomoni",
+          "id": "l32-g05",
           "pattern": "〜途中で / 途中に・〜と共に",
           "pattern_ruby": "〜{途中|とちゅう}で / {途中|とちゅう}に・〜と{共|とも}に",
-          "romaji": "~tochuu de / tochuu ni · ~to tomo ni",
-          "meaning_en": "on the way / in the middle of ~ (tochuu de/ni); together with / at the same time as ~ (to tomo ni)",
+          "meaning_en": "on the way / in the middle of ~ ({途中|とちゅう}で・に); together with / at the same time as ~ (と{共|とも}に)",
           "register": "neutral",
           "renshuu_status": "canonical_n3",
           "mental_model": "Both anchor events along an unfolding path, yet track different relationships. 〜{途中|とちゅう}で（に） places an event or landmark partway along a directional journey or sequential process ('on the way home / halfway through a task') and strictly takes a plain dictionary verb or Noun＋の. 〜と{共|とも}に (read ともに) links two things side by side: either working/spending time together with people, or marking two events/changes happening simultaneously ('upon graduating / as one grows older').",
@@ -1500,7 +1481,7 @@
           "question_id": "L32-Q3",
           "question_type": "attachment_trap",
           "prompt_ja_ruby": "{大切|たいせつ}な{発表|はっぴょう}を（　　　）{最中|さいちゅう}に、マイクの{音|おと}が{突然|とつぜん}{切|き}れてしまった。",
-          "context_en": "Attaching a verb cleanly before 最中に (saichuu ni): 'Right in the middle of giving an important presentation, the microphone sound suddenly cut out.'",
+          "context_en": "Attaching a verb cleanly before {最中|さいちゅう}に: 'Right in the middle of giving an important presentation, the microphone sound suddenly cut out.'",
           "choices": [
             "する",
             "している",

@@ -15,28 +15,28 @@
       "rows": [
         [
           "〜わりに（は）",
-          "V plain / い-Adj / な-Adj + な / N + の + わりに（は）",
+          "V plain / い-adjective / な-adjective + な / N + の + わりに（は）",
           "Proportional ratio mismatch: 'for [price, age, or effort], unexpectedly Y.' Neutral surprise at disproportion.",
           "Nouns REQUIRE の (× {値段|ねだん}わりに). Needs a scalable expectation to weigh against; avoid harsh blame.",
           "このレストランは{値段|ねだん}が{安|やす}いわりに、{料理|りょうり}がとてもおいしい。"
         ],
         [
           "〜にしては",
-          "V plain / い-Adj / な-Adj (bare) / N (bare) + にしては",
+          "V plain / い-adjective / な-adjective (bare) / N (bare) + にしては",
           "Category benchmark surprise: 'considering X belongs to [category], Y is surprisingly good/bad.'",
           "Nouns attach BARE without の or な (○ {初心者|しょしんしゃ}にしては, × {初心者|しょしんしゃ}のにしては). Never used to scold directly.",
           "{健太|けんた}さんは{日本|にほん}に{来|き}たばかりにしては、{漢字|かんじ}をよく{知|し}っている。"
         ],
         [
           "〜くせに",
-          "V plain / い-Adj / な-Adj + な / N + の + くせに",
+          "V plain / い-adjective / な-adjective + な / N + の + くせに",
           "Sharp annoyance, sarcasm, or scolding at hypocrisy: 'even though [you/they] are X, how dare [you/they] do Y!'",
           "Subject MUST be a person or living creature (never weather/prices) and identical in both clauses. Banned for neutral facts or self-praise.",
           "{佐藤|さとう}さんは{自分|じぶん}で{何|なに}もしないくせに、いつも{文句|もんく}ばかり{言|い}う。"
         ],
         [
           "〜のに",
-          "V plain / い-Adj / な-Adj + な / N + な + のに",
+          "V plain / い-adjective / な-adjective + な / N + な + のに",
           "General unmet expectation, surprise, or regret: 'even though X is true, unexpectedly Y happened.'",
           "Nouns and な-adjectives REQUIRE な (○ {雨|あめ}なのに, × {雨|あめ}のに). Clause 2 cannot end with commands, requests, or invitations.",
           "{毎日|まいにち}{一生懸命|いっしょうけんめい}{練習|れんしゅう}したのに、{試合|しあい}に{勝|か}てなかった。"
@@ -78,35 +78,35 @@
       "rows": [
         [
           "〜おかげで",
-          "V plain / い-Adj / な-Adj + な / N + の + おかげで（おかげだ）",
+          "V plain / い-adjective / な-adjective + な / N + の + おかげで（おかげだ）",
           "Warm gratitude or relief for a fortunate outcome ('thanks to X').",
           "Restricted to positive, appreciated outcomes (except obvious sarcasm). Clause 2 cannot be a command, request, or blame.",
           "{鈴木|すずき}さんが{手伝|てつだ}ってくれたおかげで、{時間|じかん}どおりに{仕事|しごと}が{終|お}わった。"
         ],
         [
           "〜せいで",
-          "V plain / い-Adj / な-Adj + な / N + の + せいで（せいだ / せいか）",
+          "V plain / い-adjective / な-adjective + な / N + の + せいで（せいだ / せいか）",
           "Frustrated blame or fault attribution for an unwelcome outcome ('because of X's fault').",
           "Strictly for undesirable results; never for happy wins (× {先生|せんせい}のせいで{合格|ごうかく}した). Soften uncertain blame with せいか.",
           "{昨日|きのう}の{台風|たいふう}のせいで、{朝|あさ}の{新幹線|しんかんせん}がすべて{止|と}まってしまった。"
         ],
         [
           "〜ために",
-          "V plain / い-Adj / な-Adj + な / N + の + ために（ため / ためか）",
+          "V plain / い-adjective / な-adjective + な / N + の + ために（ため / ためか）",
           "Neutral, objective cause-and-effect ('due to X, Y occurred'), free of personal gratitude or blame.",
           "Causal ために cannot end Clause 2 with commands, requests, or volition (which mark purpose ために). Nouns take の.",
           "{大雨|おおあめ}のために、{今日|きょう}の{試合|しあい}は{来週|らいしゅう}に{延期|えんき}された。"
         ],
         [
           "〜ことから",
-          "V plain / い-Adj / な-Adj + な・である / N + である + ことから",
+          "V plain / い-adjective / な-adjective + な・である / N + である + ことから",
           "Objective clue, evidence, or origin behind a name, label, or judgment ('judging from the fact that X...').",
           "TRAP: Nouns MUST use である (○ {学生|がくせい}であることから, × {学生|がくせい}のことから). Typically ends with {呼|よ}ばれている, {名付|なづ}けられた, or {分|わ}かる.",
           "この{山|やま}は{形|かたち}が{富士山|ふじさん}に{似|に}ていることから、{地域|ちいき}の{富士|ふじ}と{呼|よ}ばれている。"
         ],
         [
           "〜ばかりに",
-          "V plain (often た / ない) / い-Adj / な-Adj + な / N + である + ばかりに",
+          "V plain (often た / ない) / い-adjective / な-adjective + な / N + である + ばかりに",
           "Bitter regret over a single minor slip or circumstance causing a disproportionately bad outcome ('just because X...').",
           "Clause 2 is almost always an unfortunate reality outside the speaker's control; never for routine logistics or good news.",
           "{財布|さいふ}を{忘|わす}れたばかりに、せっかく{予約|よやく}した{店|みせ}で{食事|しょくじ}ができなかった。"
@@ -204,14 +204,14 @@
       "rows": [
         [
           "〜うちに",
-          "V plain / V-ている / V-ない / い-Adj / な-Adj + な / N + の + うちに",
+          "V plain / V-ている / V-ない / い-adjective / な-adjective + な / N + の + うちに",
           "Expiring window ('before state X ends') OR gradual unnoticed shift ('while doing X, Y naturally happened').",
           "Rejects past た-form (× {忘|わす}れたうちに). With intentional Clause 2, highlights acting before an opportunity slips away.",
           "スープが{冷|さ}めないうちに、{早|はや}く{飲|の}んでしまいましょう。"
         ],
         [
           "〜{間|あいだ}に",
-          "V plain (state) / V-ている / い-Adj / な-Adj + な / N + の + {間|あいだ}に",
+          "V plain (state) / V-ている / い-adjective / な-adjective + な / N + の + {間|あいだ}に",
           "Bounded time container: a finite event occurs at some point inside span X (contrast bare {間|あいだ} = full continuous overlap).",
           "Clause 2 must be a bounded event inside the span, NOT a continuous state spanning the entire duration (omit に for full-duration ずっと).",
           "{母|はは}が{買|か}い{物|もの}に{行|い}っている{間|あいだ}に、{高橋|たかはし}さんは{部屋|へや}を{片付|かたづ}けた。"
@@ -323,14 +323,14 @@
       "rows": [
         [
           "〜はずだ",
-          "V plain / い-Adj / な-Adj + な / N + の + はずだ（はずがない）",
+          "V plain / い-adjective / な-adjective + な / N + の + はずだ（はずがない）",
           "Confident logical prediction before verification: 'given the schedule/facts, X is bound to be true.'",
           "Nouns take の (○ {日曜日|にちようび}のはずだ). Avoid for guessing one's own planned actions (× {明日|あした}{行|い}くはずだ) or facts already directly witnessed.",
           "{健太|けんた}さんは{朝|あさ}{8時|はちじ}の{電車|でんしゃ}に{乗|の}ったから、もうすぐ{駅|えき}に{着|つ}くはずだ。"
         ],
         [
           "〜わけだ",
-          "V plain / い-Adj / な-Adj + な / N + な・である + わけだ",
+          "V plain / い-adjective / な-adjective + な / N + な・である + わけだ",
           "Logical conclusion explaining a confirmed fact: 'no wonder / that explains why / in other words.'",
           "Nouns take な or である (× {学生|がくせい}のわけだ). Always connects to an observed outcome or math premise, not an unverified guess.",
           "このパソコンは{10年|じゅうねん}も{使|つか}っているのだから、{調子|ちょうし}が{悪|わる}くなるわけだ。"
@@ -351,7 +351,7 @@
         ],
         [
           "〜ものだ",
-          "V plain / い-Adj / な-Adj + な + ものだ (norm/emotion); V-た + ものだ (nostalgia)",
+          "V plain / い-adjective / な-adjective + な + ものだ (norm/emotion); V-た + ものだ (nostalgia)",
           "Timeless universal truth ('that is just how X is'), deep emotion, OR nostalgic past habit ('used to').",
           "General-norm ものだ expresses broad cultural or natural wisdom, NOT situational tactical advice or one-off requests.",
           "{時間|じかん}がたつのは{本当|ほんとう}に{早|はや}いもので、もう{今年|ことし}も{終|お}わりに{近|ちか}づいている。"
@@ -400,7 +400,7 @@
         ],
         [
           "〜なんて",
-          "V plain / い-Adj / な-Adj (bare / だ) / N + なんて",
+          "V plain / い-adjective / な-adjective (bare / だ) / N + なんて",
           "Vivid exclamation of shock, disbelief, admiration, or scorn: 'to think [X happened]!' or 'such a thing as X!'",
           "Freely attaches to full clauses and quotes unlike なんか. Carries strong emotion; unsuitable for dry objective reporting.",
           "{山田|やまだ}さんが{来月|らいげつ}{会社|かいしゃ}を{辞|や}めるなんて、ぜんぜん{知|し}らなかった。"
@@ -445,7 +445,7 @@
       "matrix_id": "M08",
       "title": "っぽい vs らしい vs ようだ vs みたいだ vs そうだ vs がち vs {気味|ぎみ} — Appearance & Tendency",
       "theme": "Appearance, Evidentials, and Tendencies",
-      "decision_heuristic": "1. Separate tendency suffixes first: repeated negative habit ('prone to') = がち; mild present physical/mental onset ('a touch of') = {気味|ぎみ} (N / V-ます). 2. Split noun traits: 'superficially/childishly acting like X' = っぽい; 'embodying the ideal archetype of X' = らしい. 3. Split evidentials by attachment and source: instant visual sign right before happening = V-ます/Adj-stem + そうだ (NO bare nouns); second-hand report = plain + そうだ (N/な-Adj keep だ); reasoned inference = ようだ (N + の, written/neutral) vs みたいだ (bare N, spoken).",
+      "decision_heuristic": "1. Separate tendency suffixes first: repeated negative habit ('prone to') = がち; mild present physical/mental onset ('a touch of') = {気味|ぎみ} (N / V-ます). 2. Split noun traits: 'superficially/childishly acting like X' = っぽい; 'embodying the ideal archetype of X' = らしい. 3. Split evidentials by attachment and source: instant visual sign right before happening = V-ます/adjective stem + そうだ (NO bare nouns); second-hand report = plain + そうだ (N/な-adjective keep だ); reasoned inference = ようだ (N + の, written/neutral) vs みたいだ (bare N, spoken).",
       "columns": [
         "Pattern",
         "Formation Key",
@@ -456,42 +456,42 @@
       "rows": [
         [
           "〜っぽい",
-          "N / V-ます stem / い-Adj stem + っぽい",
+          "N / V-ます stem / い-adjective stem + っぽい",
           "Impressionistic resemblance or dominant quality ('childish, watery, forgetful'), often slightly casual or critical.",
           "Attaches directly to bare nouns and V-ます stems ({忘|わす}れっぽい). Conjugates as an い-adjective (っぽくない, っぽくて).",
           "{健太|けんた}さんはもう{大学生|だいがくせい}なのに、まだ{子供|こども}っぽいところがある。"
         ],
         [
           "〜らしい",
-          "N + らしい (archetype); V plain / い-Adj / な-Adj (bare) / N (bare) + らしい (rumor/evidence)",
+          "N + らしい (archetype); V plain / い-adjective / な-adjective (bare) / N (bare) + らしい (rumor/evidence)",
           "1) Authentic archetype ('truly like X': {春|はる}らしい); 2) Objective outside inference/rumor ('apparently').",
           "No の or な before らしい (○ {雨|あめ}らしい, × {雨|あめ}ならしい). Reflects external evidence or reports rather than personal hunch.",
           "ニュースによると、{来週|らいしゅう}からようやく{春|はる}らしい{暖|あたた}かい{日|ひ}が{続|つづ}くらしい。"
         ],
         [
           "〜ようだ",
-          "V plain / い-Adj / な-Adj + な / N + の + ようだ",
+          "V plain / い-adjective / な-adjective + な / N + の + ようだ",
           "Measured sensory/contextual deduction ('it seems / feels like') or formal figurative simile (まるで〜ようだ).",
           "Nouns require の and な-adjectives require な (○ {学生|がくせい}のようだ, ○ {静|しず}かなようだ). More formal/written than みたいだ.",
           "{外|そと}で{傘|かさ}をさしている{人|ひと}が{多|おお}いので、{雨|あめ}が{降|ふ}っているようだ。"
         ],
         [
           "〜みたいだ",
-          "V plain / い-Adj / な-Adj (bare) / N (bare) + みたいだ",
+          "V plain / い-adjective / な-adjective (bare) / N (bare) + みたいだ",
           "Conversational sensory impression or simile ('looks like / just like'): spoken twin of ようだ.",
           "TRAP: Attaches directly to bare nouns and bare な-adjectives WITHOUT の or な (○ {学生|がくせい}みたいだ, × {学生|がくせい}のみたいだ). Too casual for formal essays.",
           "まだ{3月|さんがつ}なのに、{今日|きょう}はまるで{夏|なつ}みたいに{暑|あつ}いね。"
         ],
         [
           "〜そうだ（{様態|ようたい}）",
-          "V-ます stem / い-Adj stem (よい→よさ / ない→なさ) / な-Adj (bare) + そうだ",
+          "V-ます stem / い-adjective stem (よい→よさ / ない→なさ) / な-adjective (bare) + そうだ",
           "Immediate visual impression of an impending event or surface quality ('about to fall / looks delicious').",
           "NEVER attaches directly to nouns (× {学生|がくせい}そうだ). Insert さ for いい→よさそうだ and ない→なさそうだ. Negates as 〜そうもない / 〜そうにない.",
           "{今|いま}にも{黒|くろ}い{雲|くも}から{雨|あめ}が{降|ふ}り{出|だ}しそうだから、{傘|かさ}を{持|も}っていこう。"
         ],
         [
           "〜そうだ（{伝聞|でんぶん}）",
-          "V plain / い-Adj / な-Adj + だ / N + だ + そうだ",
+          "V plain / い-adjective / な-adjective + だ / N + だ + そうだ",
           "Pure second-hand hearsay reporting a specific source ('I heard that... / according to X').",
           "Nouns and な-adjectives MUST keep だ (○ {雨|あめ}だそうだ, × {雨|あめ}そうだ). Does not conjugate to past でした; negate the inner clause (〜ないそうだ).",
           "{天気予報|てんきよほう}によると、{明日|あした}の{午後|ごご}からかなり{強|つよ}い{風|かぜ}が{吹|ふ}くそうだ。"
@@ -624,7 +624,7 @@
         ],
         [
           "〜まま",
-          "V-た / V-ない / い-Adj / な-Adj + な / N + の + まま（で / にする）",
+          "V-た / V-ない / い-adjective / な-adjective + な / N + の + まま（で / にする）",
           "Neutral unaltered state: doing B while leaving A unchanged ('with glasses on / just as it was').",
           "Uses V-た (resulting state) or V-ない, NEVER dictionary V-る (× {着|き}るまま{寝|ね}る -> ○ {着|き}たまま{寝|ね}る). Neutral across positive or negative contexts.",
           "{眼鏡|めがね}をかけたまま{寝|ね}てしまったので、{朝|あさ}{起|お}きたらフレームが{曲|ま}がっていた。"

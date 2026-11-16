@@ -13,10 +13,9 @@
       "study_tip": "Before picking a 'so / therefore' connector on Renshuu, inspect Sentence B first: is it a planned human action (そこで), a formal rule-based deduction (したがって), an objective report (そのため), or a casual factual recap with zero commands attached (それで)?",
       "grammar_points": [
         {
-          "id": "sono-tame-ni",
+          "id": "l06-g01",
           "pattern": "そのため（に）",
           "pattern_ruby": "そのため（に）",
-          "romaji": "sono tame (ni)",
           "meaning_en": "for that reason; because of that; consequently",
           "register": "formal",
           "renshuu_status": "verified_renshuu",
@@ -45,7 +44,7 @@
             {
               "ja_ruby": "{鈴木|すずき}さんは{来月|らいげつ}から{大阪|おおさか}へ{転勤|てんきん}します。そのため、{送別会|そうべつかい}を{開|ひら}くことになりました。",
               "structure_note": "Smoothly links a workplace personnel change to an official group decision (ことになりました).",
-              "en": "Suzuki-san is transferring to Osaka next month. For that reason, it has been decided that we will hold a farewell party."
+              "en": "Suzuki is transferring to Osaka next month. For that reason, it has been decided that we will hold a farewell party."
             },
             {
               "ja_ruby": "{夜|よる}から{大雪|おおゆき}が{降|ふ}り{続|つづ}いている。そのため、{高速道路|こうそくどうろ}が{通行止|つうこうど}めになっているそうだ。",
@@ -59,10 +58,9 @@
           ]
         },
         {
-          "id": "shitagatte",
+          "id": "l06-g02",
           "pattern": "したがって",
           "pattern_ruby": "したがって",
-          "romaji": "shitagatte",
           "meaning_en": "therefore; consequently; accordingly (logical deduction)",
           "register": "written",
           "renshuu_status": "verified_renshuu",
@@ -100,10 +98,9 @@
           ]
         },
         {
-          "id": "sokode",
+          "id": "l06-g03",
           "pattern": "そこで",
           "pattern_ruby": "そこで",
-          "romaji": "sokode",
           "meaning_en": "so; accordingly; thereupon (deliberate action in response)",
           "register": "neutral",
           "renshuu_status": "verified_renshuu",
@@ -121,8 +118,8 @@
           "examples": [
             {
               "ja_ruby": "{部屋|へや}が{少|すこ}し{寒|さむ}くなってきた。そこで、{高橋|たかはし}さんはエアコンをつけることにした。",
-              "structure_note": "Feeling the cold room prompts Takahashi-san's deliberate countermeasure (エアコンをつけることにした).",
-              "en": "The room started getting a bit cold. So Takahashi-san decided to turn on the air conditioner."
+              "structure_note": "Feeling the cold room prompts Takahashi's deliberate countermeasure (エアコンをつけることにした).",
+              "en": "The room started getting a bit cold. So Takahashi decided to turn on the air conditioner."
             },
             {
               "ja_ruby": "{駅|えき}の{前|まえ}の{道|みち}がいつも{混|こ}んでいる。そこで、{市|し}は{新|あたら}しいバス{路線|ろせん}を{作|つく}る{計画|けいかく}を{立|た}てた。",
@@ -131,8 +128,8 @@
             },
             {
               "ja_ruby": "{健太|けんた}さんは{漢字|かんじ}がなかなか{覚|おぼ}えられなかった。そこで、{毎日|まいにち}{十個|じゅっこ}ずつノートに{書|か}くようにした。",
-              "structure_note": "Connects a study obstacle directly to Kenta-san's intentional new study routine.",
-              "en": "Kenta-san had trouble memorizing kanji. So he made a habit of writing ten of them in his notebook every day."
+              "structure_note": "Connects a study obstacle directly to Kenta's intentional new study routine.",
+              "en": "Kenta had trouble memorizing kanji. So he made a habit of writing ten of them in his notebook every day."
             },
             {
               "ja_ruby": "{来月|らいげつ}の{学園祭|がくえんさい}について{大切|たいせつ}な{連絡|れんらく}があります。そこで、{今週|こんしゅう}の{金曜日|きんようび}に{全員|ぜんいん}で{集|あつ}まりましょう。",
@@ -146,10 +143,9 @@
           ]
         },
         {
-          "id": "sorede",
+          "id": "l06-g04",
           "pattern": "それで",
           "pattern_ruby": "それで",
-          "romaji": "sorede",
           "meaning_en": "so; because of that; and then (conversational factual result)",
           "register": "neutral",
           "renshuu_status": "verified_renshuu",
@@ -182,7 +178,7 @@
             {
               "ja_ruby": "{美咲|みさき}さん、{面接|めんせつ}はどうでしたか。それで、{合格|ごうかく}の{連絡|れんらく}は{来|き}ましたか。",
               "structure_note": "Functions as a natural conversational follow-up prompting the listener for what happened next.",
-              "en": "Misaki-san, how did the interview go? So, did you hear back about passing?"
+              "en": "Misaki, how did the interview go? So, did you hear back about passing?"
             },
             {
               "ja_ruby": "{最近|さいきん}{運動不足|うんどうぶそく}で{体重|たいじゅう}が{増|ふ}えた。それで、{先週|せんしゅう}から{近所|きんじょ}を{走|はし}り{始|はじ}めたんだ。",
@@ -196,10 +192,9 @@
           ]
         },
         {
-          "id": "sono-kekka-nazenara",
+          "id": "l06-g05",
           "pattern": "その結果 / なぜなら〜からだ",
           "pattern_ruby": "その{結果|けっか} / なぜなら〜からだ",
-          "romaji": "sono kekka / nazenara ~ kara da",
           "meaning_en": "as a result of that / the reason is that...",
           "register": "formal",
           "renshuu_status": "canonical_n3",
@@ -222,7 +217,7 @@
             {
               "ja_ruby": "{佐藤|さとう}さんは{半年|はんとし}{間|かん}、{毎日|まいにち}{単語|たんご}を{復習|ふくしゅう}した。その{結果|けっか}、{模擬試験|もぎしけん}で{満点|まんてん}を{取|と}った。",
               "structure_note": "Summarizes six months of continuous study and presents the measurable concrete result via その結果.",
-              "en": "Sato-san reviewed vocabulary every day for half a year. As a result, he got a perfect score on the mock exam."
+              "en": "Sato reviewed vocabulary every day for half a year. As a result, he got a perfect score on the mock exam."
             },
             {
               "ja_ruby": "{新|あたら}しい{広告|こうこく}を{出|だ}してみた。その{結果|けっか}、{先月|せんげつ}より{客|きゃく}が{三割|さんわり}{増|ふ}えたそうだ。",
@@ -231,18 +226,18 @@
             },
             {
               "ja_ruby": "{夏|なつ}の{京都|きょうと}は{旅行客|りょこうきゃく}が{多|おお}い。なぜなら、{歴史的|れきしてき}なお{寺|てら}や{祭|まつ}りが{有名|ゆうめい}だからだ。",
-              "structure_note": "States the claim first; なぜなら opens the inverted explanation ending in na-adjective + だからだ.",
+              "structure_note": "States the claim first; なぜなら opens the inverted explanation ending in な-adjective + だからだ.",
               "en": "Kyoto gets many tourists in summer. That is because its historic temples and festivals are famous."
             },
             {
               "ja_ruby": "{山田|やまだ}さんは{今日|きょう}の{会議|かいぎ}に{出席|しゅっせき}できません。なぜなら、{急|きゅう}な{出張|しゅっちょう}が{入|はい}ったからです。",
               "structure_note": "Polite spoken/business pattern closing the reason with plain past verb + からです.",
-              "en": "Yamada-san cannot attend today's meeting. The reason is that an urgent business trip came up."
+              "en": "Yamada cannot attend today's meeting. The reason is that an urgent business trip came up."
             }
           ],
           "pitfalls": [
             "Never drop からだ／からです at the end of a なぜなら sentence: 「×なぜなら忙しい。」 is grammatically incomplete—always close with からだ (or ～ためだ).",
-            "With nouns and na-adjectives before からだ, you MUST keep だ (「雨だからだ」「便利だからだ」); never write 「×雨からだ」 or 「×便利なからだ」.",
+            "With nouns and な-adjectives before からだ, you MUST keep だ (「雨だからだ」「便利だからだ」); never write 「×雨からだ」 or 「×便利なからだ」.",
             "Reserve その結果 for the outcome of a sustained process or initiative rather than instant everyday sensations (e.g., avoid 「×辛い物を食べた。その結果、口が痛い」)."
           ]
         }
@@ -316,7 +311,7 @@
           "question_id": "L06-Q3",
           "question_type": "attachment_trap",
           "prompt_ja_ruby": "{田中|たなか}さんがこの{街|まち}を{好|す}きなのには、{理由|りゆう}がある。なぜなら、{交通|こうつう}が＿＿からだ。",
-          "context_en": "There is a reason why Tanaka-san likes this town. That is because transportation is convenient.",
+          "context_en": "There is a reason why Tanaka likes this town. That is because transportation is convenient.",
           "choices": [
             "{便利|べんり}だ",
             "{便利|べんり}な",
@@ -324,7 +319,7 @@
             "{便利|べんり}で"
           ],
           "correct_index": 0,
-          "explanation": "A ({便利|べんり}だ) is the only grammatical attachment: before からだ, nouns and na-adjectives MUST take the plain copula だ (便利だからだ). B (便利な) is an illegal adnominal form before からだ unless nominalized with の (便利なのだ); C (便利) omits the required だ; D (便利で) uses the conjunctive te-form, which cannot link directly to からだ."
+          "explanation": "A ({便利|べんり}だ) is the only grammatical attachment: before からだ, nouns and な-adjectives MUST take the plain copula だ (便利だからだ). B (便利な) is an illegal adnominal form before からだ unless nominalized with の (便利なのだ); C (便利) omits the required だ; D (便利で) uses the conjunctive て-form, which cannot link directly to からだ."
         },
         {
           "question_id": "L06-Q4",
@@ -351,10 +346,9 @@
       "study_tip": "Track the speaker's intent when adding Sentence B: casually tacking on an extra item (それと・あと), piling up matching evidence (それに・しかも), escalating formally in writing (さらに), reporting what instantly happened next without volition (すると), or moving cleanly to the main agenda (さて).",
       "grammar_points": [
         {
-          "id": "soreto-ato",
+          "id": "l07-g01",
           "pattern": "それと・あと",
           "pattern_ruby": "それと・あと",
-          "romaji": "sore to / ato",
           "meaning_en": "and also; oh, and; besides (casual spoken addition)",
           "register": "casual",
           "renshuu_status": "verified_renshuu",
@@ -397,10 +391,9 @@
           ]
         },
         {
-          "id": "soreni-shikamo",
+          "id": "l07-g02",
           "pattern": "それに・しかも",
           "pattern_ruby": "それに・しかも",
-          "romaji": "sore ni / shikamo",
           "meaning_en": "besides; moreover; on top of that",
           "register": "neutral",
           "renshuu_status": "canonical_n3",
@@ -429,7 +422,7 @@
             {
               "ja_ruby": "{高橋|たかはし}さんは{英語|えいご}がペラペラだ。しかも、{独学|どくがく}で{覚|おぼ}えたらしい。",
               "structure_note": "しかも highlights an impressive, surprising additional detail beyond mere fluency.",
-              "en": "Takahashi-san speaks English fluently. What's more, I hear he learned it completely on his own."
+              "en": "Takahashi speaks English fluently. What's more, I hear he learned it completely on his own."
             },
             {
               "ja_ruby": "そのレストランは{味|あじ}が{良|よ}くて、しかも{値段|ねだん}が{安|やす}いからいつも{並|なら}んでいる。",
@@ -443,10 +436,9 @@
           ]
         },
         {
-          "id": "sarani",
+          "id": "l07-g03",
           "pattern": "さらに",
           "pattern_ruby": "さらに",
-          "romaji": "sarani",
           "meaning_en": "furthermore; in addition; even more",
           "register": "written",
           "renshuu_status": "canonical_n3",
@@ -484,10 +476,9 @@
           ]
         },
         {
-          "id": "suruto-sate",
+          "id": "l07-g04",
           "pattern": "すると / そうすると・さて",
           "pattern_ruby": "すると / そうすると・さて",
-          "romaji": "suruto / sō suruto / sate",
           "meaning_en": "thereupon / and then (immediate discovery); well then / now (topic pivot)",
           "register": "neutral",
           "renshuu_status": "canonical_n3",
@@ -506,7 +497,7 @@
             {
               "ja_ruby": "{山田|やまだ}さんがカーテンを{開|あ}けた。すると、{外|そと}は{一面|いちめん}の{雪|ゆき}だった。",
               "structure_note": "Classic narrative discovery with すると: opening the curtain immediately reveals an unexpected scene (a snowy landscape).",
-              "en": "Yamada-san opened the curtain. Thereupon, everything outside was covered in snow."
+              "en": "Yamada opened the curtain. Thereupon, everything outside was covered in snow."
             },
             {
               "ja_ruby": "まずこの{赤|あか}いボタンを{押|お}してください。そうすると、{番号|ばんごう}が{書|か}いてある{紙|かみ}が{出|で}てきます。",
@@ -634,10 +625,9 @@
       "study_tip": "Never mix up ところが ('however, contrary to what happened') with ところで ('by the way'). Check whether Sentence B reports a factual plot twist (ところが), limits a rule with an exception (ただし), softens a bold claim (もっとも), or backfires opposite to expectation (かえって).",
       "grammar_points": [
         {
-          "id": "tokoroga",
+          "id": "l08-g01",
           "pattern": "ところが",
           "pattern_ruby": "ところが",
-          "romaji": "tokoro ga",
           "meaning_en": "however; yet; contrary to expectation (factual reversal)",
           "register": "neutral",
           "renshuu_status": "verified_renshuu",
@@ -666,7 +656,7 @@
             {
               "ja_ruby": "{健太|けんた}さんは{毎日|まいにち}{走|はし}るつもりだった。ところが、{三日|みっか}で{足|あし}が{痛|いた}くなってやめてしまった。",
               "structure_note": "Planned resolve collides with a factual setback reported in the past tense.",
-              "en": "Kenta-san intended to run every day. However, after three days his legs started hurting and he quit."
+              "en": "Kenta intended to run every day. However, after three days his legs started hurting and he quit."
             }
           ],
           "pitfalls": [
@@ -675,10 +665,9 @@
           ]
         },
         {
-          "id": "tokorode",
+          "id": "l08-g02",
           "pattern": "ところで",
           "pattern_ruby": "ところで",
-          "romaji": "tokoro de",
           "meaning_en": "by the way; changing the subject",
           "register": "neutral",
           "renshuu_status": "canonical_n3",
@@ -703,7 +692,7 @@
             {
               "ja_ruby": "{美咲|みさき}さん、お{茶|ちゃ}のおかわりはいかがですか。ところで、{最近|さいきん}よく{行|い}くお{店|みせ}はありますか。",
               "structure_note": "Casual polite conversation shift opening a fresh topic.",
-              "en": "Misaki-san, would you like another cup of tea? By the way, are there any shops you go to often lately?"
+              "en": "Misaki, would you like another cup of tea? By the way, are there any shops you go to often lately?"
             }
           ],
           "pitfalls": [
@@ -712,10 +701,9 @@
           ]
         },
         {
-          "id": "mottomo-tadashi",
+          "id": "l08-g03",
           "pattern": "もっとも・ただし",
           "pattern_ruby": "もっとも・ただし",
-          "romaji": "mottomo / tadashi",
           "meaning_en": "although; mind you (caveat) / however; provided that (formal exception)",
           "register": "written",
           "renshuu_status": "canonical_n3",
@@ -739,7 +727,7 @@
             {
               "ja_ruby": "{佐藤|さとう}さんはいつも{元気|げんき}に{見|み}える。もっとも、{本当|ほんとう}は{疲|つか}れていることもあるだろう。",
               "structure_note": "Tempers an absolute observation with a realistic qualification.",
-              "en": "Sato-san always looks energetic. Mind you, there are probably times when he's actually tired."
+              "en": "Sato always looks energetic. Mind you, there are probably times when he's actually tired."
             },
             {
               "ja_ruby": "この{図書館|としょかん}は{誰|だれ}でも{利用|りよう}できます。ただし、{本|ほん}を{借|か}りるには{登録|とうろく}が{必要|ひつよう}です。",
@@ -758,10 +746,9 @@
           ]
         },
         {
-          "id": "kaette",
+          "id": "l08-g04",
           "pattern": "かえって",
           "pattern_ruby": "かえって",
-          "romaji": "kaette",
           "meaning_en": "on the contrary; rather; all the more (backfiring effect)",
           "register": "neutral",
           "renshuu_status": "canonical_n3",
@@ -908,10 +895,9 @@
       "study_tip": "Watch particle order like a hawk: でも completely replaces が and を, yet MUST stand after に・で・へ・から・と (日曜日にでも, 誰とでも). And remember: 疑問詞＋でも only pairs with positive/universal claims—switch to 疑問詞＋も〜ない for 'nobody / nothing / nowhere.'",
       "grammar_points": [
         {
-          "id": "noun-demo-extreme",
+          "id": "l09-g01",
           "pattern": "名詞＋でも（極端な例）",
           "pattern_ruby": "{名詞|めいし}＋でも（{極端|きょくたん}な{例|れい}）",
-          "romaji": "meishi + demo (kyokutan na rei)",
           "meaning_en": "even X (highlighting an extreme or minimal baseline)",
           "register": "neutral",
           "renshuu_status": "verified_renshuu",
@@ -954,10 +940,9 @@
           ]
         },
         {
-          "id": "noun-demo-suggestion",
+          "id": "l09-g02",
           "pattern": "名詞＋でも（例示・提案）",
           "pattern_ruby": "{名詞|めいし}＋でも（{例示|れいじ}・{提案|ていあん}）",
-          "romaji": "meishi + demo (reiji / teian)",
           "meaning_en": "X or something; something like X (soft suggestion)",
           "register": "neutral",
           "renshuu_status": "verified_renshuu",
@@ -986,7 +971,7 @@
             {
               "ja_ruby": "{分|わ}からないところがあれば、{田中|たなか}さんとでも{相談|そうだん}してみてください。",
               "structure_note": "Partner particle と comes BEFORE でも (田中さんとでも).",
-              "en": "If there are parts you don't understand, try consulting with Tanaka-san or someone like him."
+              "en": "If there are parts you don't understand, try consulting with Tanaka or someone like him."
             },
             {
               "ja_ruby": "{連休|れんきゅう}は、{近|ちか}くの{温泉|おんせん}へでも{出|で}かけようかと{思|おも}っています。",
@@ -1000,10 +985,9 @@
           ]
         },
         {
-          "id": "wh-demo-universal",
+          "id": "l09-g03",
           "pattern": "疑問詞＋でも",
           "pattern_ruby": "{疑問詞|ぎもんし}＋でも",
-          "romaji": "gimonshi + demo",
           "meaning_en": "anytime / anyone / anywhere / anything (universal affirmative)",
           "register": "neutral",
           "renshuu_status": "verified_renshuu",
@@ -1041,7 +1025,7 @@
             {
               "ja_ruby": "{鈴木|すずき}さんは{話|はな}し{上手|じょうず}で、{初|はじ}めて{会|あ}う{人|ひと}とでもすぐ{仲良|なかよ}くなれる。",
               "structure_note": "Stacks と + でも after the noun phrase modified by 初めて会う.",
-              "en": "Suzuki-san is a great conversationalist and can quickly get along with anyone, even people she meets for the first time."
+              "en": "Suzuki is a great conversationalist and can quickly get along with anyone, even people she meets for the first time."
             }
           ],
           "pitfalls": [
@@ -1149,14 +1133,13 @@
       "study_tip": "Match concessive adverbs to their exact partners: いくら highlights measurable amount or repeated effort, どんなに targets emotional or qualitative intensity, and たとえ demands a hypothetical ～ても / ～でも ending—never a known past fact with のに.",
       "grammar_points": [
         {
-          "id": "concessive-demo",
+          "id": "l10-g01",
           "pattern": "譲歩の「でも」",
           "pattern_ruby": "{譲歩|じょうほ}の「でも」",
-          "romaji": "jōho no demo",
           "meaning_en": "but; even so; still; nevertheless (concessive pivot)",
           "register": "neutral",
           "renshuu_status": "verified_renshuu",
-          "mental_model": "Concessive でも is the polite, grounded way to say 'Yes, I hear A—and A may be true—yet B still stands.' Whether opening a new sentence ('でも、〜') or attaching directly to a noun/na-adjective ('雨でも〜') as the cousin of verb ～ても, it lets you validate one point before asserting your overriding reason, feeling, or plan.",
+          "mental_model": "Concessive でも is the polite, grounded way to say 'Yes, I hear A—and A may be true—yet B still stands.' Whether opening a new sentence ('でも、〜') or attaching directly to a noun/な-adjective ('雨でも〜') as the cousin of verb ～ても, it lets you validate one point before asserting your overriding reason, feeling, or plan.",
           "formation": [
             {
               "pos": "{文頭|ぶんとう}（{接続詞|せつぞくし}）",
@@ -1189,20 +1172,19 @@
             },
             {
               "ja_ruby": "どんなに{忙|いそが}しくても、{高橋|たかはし}さんは{毎日|まいにち}{家族|かぞく}に{連絡|れんらく}するようにしている。",
-              "structure_note": "Concessive ～くても on an i-adjective connecting ongoing busyness to steady effort.",
-              "en": "No matter how busy he is, Takahashi-san makes sure to contact his family every day."
+              "structure_note": "Concessive ～くても on an い-adjective connecting ongoing busyness to steady effort.",
+              "en": "No matter how busy he is, Takahashi makes sure to contact his family every day."
             }
           ],
           "pitfalls": [
             "In formal reports, academic papers, or stiff business correspondence, replace sentence-initial でも with しかし or けれども.",
-            "Keep concessive endings separate by part of speech: nouns and na-adjectives take ～でも (「暇でも」), while i-adjectives take ～くても (「安くて＋も」→「安くても」, NEVER 「×安いでも」)."
+            "Keep concessive endings separate by part of speech: nouns and な-adjectives take ～でも (「暇でも」), while い-adjectives take ～くても (「安くて＋も」→「安くても」, NEVER 「×安いでも」)."
           ]
         },
         {
-          "id": "ikura-donnani-temo",
+          "id": "l10-g02",
           "pattern": "いくら〜ても / どんなに〜ても",
           "pattern_ruby": "いくら〜ても / どんなに〜ても",
-          "romaji": "ikura ~temo / donna ni ~temo",
           "meaning_en": "no matter how much / no matter how (degree, effort, or emotion)",
           "register": "neutral",
           "renshuu_status": "canonical_n3",
@@ -1239,20 +1221,19 @@
             },
             {
               "ja_ruby": "どんなに{有名|ゆうめい}な{選手|せんしゅ}でも、{毎日|まいにち}の{基礎|きそ}{練習|れんしゅう}は{欠|か}かさないそうだ。",
-              "structure_note": "Shows どんなに with a na-adjective + noun phrase ending in でも.",
+              "structure_note": "Shows どんなに with a な-adjective + noun phrase ending in でも.",
               "en": "I hear that no matter how famous an athlete is, they never skip daily basic practice."
             }
           ],
           "pitfalls": [
             "Use どんなに rather than いくら for pure feelings and qualitative states (say 「どんなに悲しくても」, avoid 「×いくら悲しくても」).",
-            "Do not attach でも directly to plain dictionary i-adjectives (say 「いくら安くても」, NEVER 「×いくら安いでも」 or 「×いくら安いても」)."
+            "Do not attach でも directly to plain dictionary い-adjectives (say 「いくら安くても」, NEVER 「×いくら安いでも」 or 「×いくら安いても」)."
           ]
         },
         {
-          "id": "temo-nakutemo-tatoe",
+          "id": "l10-g03",
           "pattern": "〜ても〜なくても・たとえ〜ても",
           "pattern_ruby": "〜ても〜なくても・たとえ〜ても",
-          "romaji": "~temo ~nakutemo / tatoe ~temo",
           "meaning_en": "whether A or not A / even supposing (hypothetical extreme)",
           "register": "neutral",
           "renshuu_status": "canonical_n3",
@@ -1356,7 +1337,7 @@
             "{高|たか}くて"
           ],
           "correct_index": 2,
-          "explanation": "C ({高|たか}くても) is the sole grammatical attachment for i-adjectives with いくら〜ても: replace final い with くても. A (高いでも) illegally attaches でも directly to an i-adjective; B (高いで) is ungrammatical; D (高くて) drops も, losing the concessive 'even if / no matter how' meaning."
+          "explanation": "C ({高|たか}くても) is the sole grammatical attachment for い-adjectives with いくら〜ても: replace final い with くても. A (高いでも) illegally attaches でも directly to an い-adjective; B (高いで) is ungrammatical; D (高くて) drops も, losing the concessive 'even if / no matter how' meaning."
         },
         {
           "question_id": "L10-Q3",

@@ -10,6 +10,7 @@ from renshuu_n3.ruby import (
     ValidationError,
     check_literal_field,
     check_ruby_field,
+    check_script_purity,
     escape_markdown_cell,
     render_ruby_html,
     render_ruby_markdown,
@@ -35,10 +36,9 @@ def make_synthetic_unit() -> dict[str, object]:
                 "study_tip": filler_text.strip(),
                 "grammar_points": [
                     {
-                        "id": "sample-one",
+                        "id": "l01-g01",
                         "pattern": "〜て山",
                         "pattern_ruby": "〜て{山|やま}",
-                        "romaji": "~te yama",
                         "meaning_en": "sample first pattern",
                         "register": "neutral",
                         "renshuu_status": "canonical_n3",
@@ -57,7 +57,7 @@ def make_synthetic_unit() -> dict[str, object]:
                             },
                             {
                                 "ja_ruby": "{空|そら}が{青|あお}い。",
-                                "structure_note": "simple i-adjective",
+                                "structure_note": "simple い-adjective",
                                 "en": "The sky is blue.",
                             },
                         ],
@@ -67,10 +67,9 @@ def make_synthetic_unit() -> dict[str, object]:
                         ],
                     },
                     {
-                        "id": "sample-two",
+                        "id": "l01-g02",
                         "pattern": "〜から川",
                         "pattern_ruby": "〜から{川|かわ}",
-                        "romaji": "~kara kawa",
                         "meaning_en": "sample second pattern",
                         "register": "formal",
                         "renshuu_status": "canonical_n3",
@@ -84,7 +83,7 @@ def make_synthetic_unit() -> dict[str, object]:
                             },
                             {
                                 "ja_ruby": "{木|き}の{下|した}で{休|やす}む。",
-                                "structure_note": "location marker de",
+                                "structure_note": "location marker で",
                                 "en": "Rest under the tree.",
                             },
                             {
@@ -197,8 +196,33 @@ class RubyEngineTests(unittest.TestCase):
 
     def test_check_literal_field_rejects_raw_ruby_braces(self) -> None:
         errors: list[ValidationError] = []
-        check_literal_field("Testing {山|やま} attachment", "quiz.context_en", errors)
+        check_literal_field("Testing {山|やま} attachment", "examples[0].en", errors)
         self.assertEqual(len(errors), 1)
+
+    def test_check_script_purity_enforces_japanese_script_invariants(self) -> None:
+        rejected_samples = (
+            "Search by romaji or romanji",
+            "Use keigo here",
+            "Regular godan verb",
+            "Attach te-form directly",
+            "A na-adjective takes な",
+            "Use V-ru before の",
+            "Read as gen'in",
+            "Compare with ~hodo",
+            "Adjective fuan before の",
+        )
+        for sample in rejected_samples:
+            sample_errors: list[ValidationError] = []
+            check_script_purity(sample, "purity", sample_errors)
+            self.assertTrue(sample_errors, f"Expected script purity rejection for {sample!r}")
+
+        accepted_sample = (
+            "{敬語|けいご} and {五段|ごだん} verbs use て-form, な-adjective, V-dict, "
+            "while ~ing in Tokyo with furigana."
+        )
+        accepted_errors: list[ValidationError] = []
+        check_script_purity(accepted_sample, "purity", accepted_errors)
+        self.assertEqual(accepted_errors, [])
 
 
 class BoundaryLoaderTests(unittest.TestCase):
@@ -215,13 +239,23 @@ class BoundaryLoaderTests(unittest.TestCase):
         assert isinstance(lessons, list)
         lesson0 = lessons[0]
         assert isinstance(lesson0, dict)
+        gps = lesson0["grammar_points"]
+        assert isinstance(gps, list)
+        gp0 = gps[0]
+        assert isinstance(gp0, dict)
+        gp0["id"] = "custom-slug"
+        gp0["romaji"] = "~te yama"
+        examples = gp0["examples"]
+        assert isinstance(examples, list)
+        ex0 = examples[0]
+        assert isinstance(ex0, dict)
+        ex0["en"] = "Translation with {山|やま} leak"
         quiz = lesson0["practice_quiz"]
         assert isinstance(quiz, list)
         q0 = quiz[0]
         assert isinstance(q0, dict)
         q0["choices"] = ["{行|い}く", "{行|おこな}く", "{見|み}る", "{聞|き}く"]
         q0["correct_index"] = 5
-        q0["context_en"] = "Context with {山|やま} leak"
 
         errors: list[ValidationError] = []
         parse_unit_dict(bad_payload, "unit_01.json", set(), set(), set(), errors)
@@ -229,6 +263,8 @@ class BoundaryLoaderTests(unittest.TestCase):
         self.assertTrue(any("Duplicate choice surface" in m for m in messages))
         self.assertTrue(any("Invalid correct_index" in m for m in messages))
         self.assertTrue(any("must not contain ruby braces" in m for m in messages))
+        self.assertTrue(any("Unexpected keys in grammar point" in m for m in messages))
+        self.assertTrue(any("must equal structural id" in m for m in messages))
 
     def test_parse_matrices_dict_enforces_exact_column_contract(self) -> None:
         raw = {

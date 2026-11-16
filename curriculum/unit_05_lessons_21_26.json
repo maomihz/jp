@@ -13,10 +13,9 @@
       "study_tip": "Track WHO performs the action! When YOU want to do something with permission, use the causative (〜させてもらう / 〜させていただきたい); when YOU want the OTHER person to act for you, drop the causative and use 〜てもらえませんか / 〜ていただけませんか.",
       "grammar_points": [
         {
-          "id": "sasete-itadakitai",
+          "id": "l21-g01",
           "pattern": "〜させていただきたい",
           "pattern_ruby": "〜させていただきたい",
-          "romaji": "~sasete itadakitai",
           "meaning_en": "I would humbly like to be allowed to ~; please permit me to ~",
           "register": "formal",
           "renshuu_status": "verified_renshuu",
@@ -62,16 +61,15 @@
             }
           ],
           "pitfalls": [
-            "Avoid the common さ{入|い}れ{言葉|ことば} error on Godan verbs: use ○ {行|い}かせていただきたい / {読|よ}ませていただきたい, NEVER × {行|い}かさせていただきたい or × {読|よ}まさせていただきたい.",
+            "Avoid the common さ{入|い}れ{言葉|ことば} error on {五段|ごだん} verbs: use ○ {行|い}かせていただきたい / {読|よ}ませていただきたい, NEVER × {行|い}かさせていただきたい or × {読|よ}まさせていただきたい.",
             "Only use 〜させていただきたい when another party's permission, time, or territory is genuinely involved; using it for private daily actions like eating lunch alone sounds stiff and unnatural.",
             "Do not omit the causative element: 〜ていただきたい asks the *other* person to do something, whereas 〜させていただきたい asks permission to do it *yourself*."
           ]
         },
         {
-          "id": "sasete-morau",
+          "id": "l21-g02",
           "pattern": "〜させてもらう / 〜させていただく",
           "pattern_ruby": "〜させてもらう / 〜させていただく",
-          "romaji": "~sasete morau / ~sasete itadaku",
           "meaning_en": "to be allowed to ~; to humbly do ~ with someone's permission",
           "register": "neutral",
           "renshuu_status": "canonical_n3",
@@ -114,15 +112,14 @@
           ],
           "pitfalls": [
             "Notice the difference between declaring and asking: 〜させていただきます politely announces an action already understood as acceptable, whereas asking fresh permission requires a question form such as 〜させていただけませんか or 〜させてもらってもいいですか.",
-            "Remember the Godan causative trap: ○ {使|つか}わせてもらう / {休|やす}ませていただく, NEVER × {使|つか}わさせてもらう.",
+            "Remember the {五段|ごだん} causative trap: ○ {使|つか}わせてもらう / {休|やす}ませていただく, NEVER × {使|つか}わさせてもらう.",
             "Never confuse 〜てもらう (someone else does the action for your benefit) with 〜させてもらう (you perform the action with someone's permission)."
           ]
         },
         {
-          "id": "te-itadakemasenka",
+          "id": "l21-g03",
           "pattern": "〜ていただけませんか / 〜てもらえませんか",
           "pattern_ruby": "〜ていただけませんか / 〜てもらえませんか",
-          "romaji": "~te itadakemasen ka / ~te moraemasen ka",
           "meaning_en": "could you please ~ for me?; would you be willing to ~?",
           "register": "formal",
           "renshuu_status": "canonical_n3",
@@ -183,7 +180,7 @@
           {
             "expression": "〜させてもらう / 〜させていただく",
             "register": "Neutral / Formal",
-            "key_rule": "Speaker performs the action with consent; announces or receives permission (casual to keigo).",
+            "key_rule": "Speaker performs the action with consent; announces or receives permission (casual to {敬語|けいご}).",
             "example_short": "{今日|きょう}は{先|さき}に{失礼|しつれい}させていただきます。"
           },
           {
@@ -227,7 +224,7 @@
           "question_id": "L21-Q3",
           "question_type": "attachment_trap",
           "prompt_ja_ruby": "{先|さき}に{私|わたし}からメールを（　　　）と{思|おも}います。",
-          "context_en": "Testing correct Godan causative attachment without sa-ire kotoba (さ入れ言葉): 'I would humbly like to send the email first from my side.'",
+          "context_en": "Testing correct {五段|ごだん} causative attachment without さ{入|い}れ{言葉|ことば}: 'I would humbly like to send the email first from my side.'",
           "choices": [
             "{送|おく}らせていただきたい",
             "{送|おく}らさせていただきたい",
@@ -235,7 +232,7 @@
             "{送|おく}るさせていただきたい"
           ],
           "correct_index": 0,
-          "explanation": "Correct: A ({送|おく}らせていただきたい). {送|おく}る is a Godan verb, so its causative stem takes only せ ({送|おく}らせ) before ていただきたい. B ({送|おく}らさせていただきたい) commits the classic さ{入|い}れ{言葉|ことば} error by adding an extra さ; C ({送|おく}りさせていただきたい) wrongly uses the ます-stem; D ({送|おく}るさせていただきたい) wrongly attaches させ directly to the dictionary form."
+          "explanation": "Correct: A ({送|おく}らせていただきたい). {送|おく}る is a {五段|ごだん} verb, so its causative stem takes only せ ({送|おく}らせ) before ていただきたい. B ({送|おく}らさせていただきたい) commits the classic さ{入|い}れ{言葉|ことば} error by adding an extra さ; C ({送|おく}りさせていただきたい) wrongly uses the ます-stem; D ({送|おく}るさせていただきたい) wrongly attaches させ directly to the dictionary form."
         },
         {
           "question_id": "L21-Q4",
@@ -259,13 +256,12 @@
       "renshuu_title": "Commands/Requests #2",
       "has_video": false,
       "summary": "Distinguish warm encouraging prompts (〜てごらん), constructive problem-solving advice (〜ばいい / 〜たらいい), calm senior-to-junior directives (〜なさい), and open suggestions (〜たらどうですか).",
-      "study_tip": "Never confuse 〜なさい with polite keigo just because it comes from なさる: it is strictly downward (parent, teacher, or exam instructions). When speaking to peers, switch to 〜たらどうですか or 〜ばいいですよ.",
+      "study_tip": "Never confuse 〜なさい with polite {敬語|けいご} just because it comes from なさる: it is strictly downward (parent, teacher, or exam instructions). When speaking to peers, switch to 〜たらどうですか or 〜ばいいですよ.",
       "grammar_points": [
         {
-          "id": "te-goran",
+          "id": "l22-g01",
           "pattern": "〜てごらん / 〜てごらんなさい",
           "pattern_ruby": "〜てごらん / 〜てごらんなさい",
-          "romaji": "~te goran / ~te goran nasai",
           "meaning_en": "try doing ~; go ahead and ~ (warm encouraging prompt)",
           "register": "casual",
           "renshuu_status": "canonical_n3",
@@ -309,10 +305,9 @@
           ]
         },
         {
-          "id": "ba-ii-tara-ii",
+          "id": "l22-g02",
           "pattern": "〜ばいい / 〜たらいい",
           "pattern_ruby": "〜ばいい / 〜たらいい",
-          "romaji": "~ba ii / ~tara ii",
           "meaning_en": "you should ~; it's fine if you ~; what should I ~? (with question word)",
           "register": "neutral",
           "renshuu_status": "verified_renshuu",
@@ -354,17 +349,16 @@
             }
           ],
           "pitfalls": [
-            "Watch your ば-form stems: Ichidan verbs drop る and add れば ({見|み}ればいい, {食|た}べればいい), する becomes すればいい, {来|く}る becomes {来|く}ればいい, and い-adjectives take 〜ければ ({安|やす}ければいい, NEVER × {安|やす}いばいい).",
+            "Watch your ば-form stems: {一段|いちだん} verbs drop る and add れば ({見|み}ればいい, {食|た}べればいい), する becomes すればいい, {来|く}る becomes {来|く}ればいい, and い-adjectives take 〜ければ ({安|やす}ければいい, NEVER × {安|やす}いばいい).",
             "Mind the emotional trap with 〜ばいいのに or dismissive intonation: {勝手|かって}にすればいい ('do whatever you like, then') sounds sharp or annoyed, whereas {聞|き}いてみればいいよ sounds helpful.",
             "Remember the tense boundary: present 〜ばいい gives advice for now or the future, while past 〜ばよかった (Lesson 25) expresses counterfactual regret ('I wish I had...')."
           ]
         },
         {
-          "id": "nasai-tara-dou",
+          "id": "l22-g03",
           "pattern": "〜なさい / 〜たらどうですか",
           "pattern_ruby": "〜なさい / 〜たらどうですか",
-          "romaji": "~nasai / ~tara dou desu ka",
-          "meaning_en": "do ~! (calm authoritative directive: nasai); why don't you ~? (suggestion: tara dou desu ka)",
+          "meaning_en": "do ~! (calm authoritative directive: なさい); why don't you ~? (suggestion: たらどうですか)",
           "register": "neutral",
           "renshuu_status": "canonical_n3",
           "mental_model": "Compare an unchallengeable instruction with an open suggestion. Vます-stem + なさい is a calm, firm command used downward by parents and teachers—or impersonally on exam prompts ('Choose the best answer')—where compliance is expected. Vたらどうですか ('how would it be if you did X?') steps down from authority to propose a helpful option to a friend, classmate, or junior.",
@@ -478,7 +472,7 @@
             "{聞|き}けば"
           ],
           "correct_index": 3,
-          "explanation": "Correct: D ({聞|き}けば). To form the ば-conditional on a Godan verb like {聞|き}く, shift the final -u vowel to the え-row ({聞|き}け) and add ば to get {聞|き}けばいいですよ. A ({聞|き}くば) wrongly leaves the dictionary form; B ({聞|き}きば) uses the ます-stem; C ({聞|き}いてば) attaches ば to the て-form."
+          "explanation": "Correct: D ({聞|き}けば). To form the ば-conditional on a {五段|ごだん} verb like {聞|き}く, shift the final う-row ending to the え-row ({聞|き}け) and add ば to get {聞|き}けばいいですよ. A ({聞|き}くば) wrongly leaves the dictionary form; B ({聞|き}きば) uses the ます-stem; C ({聞|き}いてば) attaches ば to the て-form."
         },
         {
           "question_id": "L22-Q4",
@@ -505,10 +499,9 @@
       "study_tip": "Watch whether だ/です follows こと: bare Vる / Vない＋こと at the end of a line is a strict posted rule ('Do not enter'), whereas Vる / Vない＋ことだ shares wise personal advice ('What one ought to do is...').",
       "grammar_points": [
         {
-          "id": "koto-written-rule",
+          "id": "l23-g01",
           "pattern": "〜こと（規則・指示）",
           "pattern_ruby": "〜こと（{規則|きそく}・{指示|しじ}）",
-          "romaji": "~koto (kisoku / shiji)",
           "meaning_en": "must ~; must not ~ (impersonal written rules, signs, and instructions)",
           "register": "written",
           "renshuu_status": "canonical_n3",
@@ -552,10 +545,9 @@
           ]
         },
         {
-          "id": "koto-da-advice",
+          "id": "l23-g02",
           "pattern": "〜ことだ（忠告）",
           "pattern_ruby": "〜ことだ（{忠告|ちゅうこく}）",
-          "romaji": "~koto da (chuukoku)",
           "meaning_en": "what one ought to do is ~; the best thing is to ~ (advisory wisdom)",
           "register": "neutral",
           "renshuu_status": "canonical_n3",
@@ -599,10 +591,9 @@
           ]
         },
         {
-          "id": "youni-iu-tanomu",
+          "id": "l23-g03",
           "pattern": "〜ように言う / 頼む / 伝える",
           "pattern_ruby": "〜ように{言|い}う / {頼|たの}む / {伝|つた}える",
-          "romaji": "~you ni iu / tanomu / tsutaeru",
           "meaning_en": "tell / ask / remind someone to do ~ (indirect command or request)",
           "register": "neutral",
           "renshuu_status": "verified_renshuu",
@@ -738,10 +729,9 @@
       "study_tip": "Watch the verb form before sentence-final な: dictionary form Vる＋な is a blunt prohibition ('Don't do it!'), whereas ます-stem＋な (like {行|い}きな, short for {行|い}きなさい) is a casual command to DO it!",
       "grammar_points": [
         {
-          "id": "naito-nakucha",
+          "id": "l24-g01",
           "pattern": "〜ないと / 〜なくちゃ / 〜なきゃ",
           "pattern_ruby": "〜ないと / 〜なくちゃ / 〜なきゃ",
-          "romaji": "~naito / ~nakucha / ~nakya",
           "meaning_en": "have to ~; gotta ~ (casual spoken obligation)",
           "register": "casual",
           "renshuu_status": "verified_renshuu",
@@ -789,10 +779,9 @@
           ]
         },
         {
-          "id": "n-ja-nai",
+          "id": "l24-g02",
           "pattern": "〜んじゃない",
           "pattern_ruby": "〜んじゃない",
-          "romaji": "~n ja nai",
           "meaning_en": "don't do ~!; stop doing ~! (casual stern prohibition)",
           "register": "casual",
           "renshuu_status": "canonical_n3",
@@ -832,11 +821,10 @@
           ]
         },
         {
-          "id": "tewa-ikenai-imperative-na",
+          "id": "l24-g03",
           "pattern": "〜てはいけないから・禁止形（Vる＋な）",
           "pattern_ruby": "〜てはいけないから・{禁止形|きんしけい}（Vる＋な）",
-          "romaji": "~tewa ikenai kara · kinshikei (V-ru + na)",
-          "meaning_en": "so that [bad thing] doesn't happen (te wa ikenai kara); don't ~! (blunt negative command V-ru + na)",
+          "meaning_en": "so that [bad thing] doesn't happen (〜てはいけないから); don't ~! (blunt negative command V-る＋な)",
           "register": "casual",
           "renshuu_status": "canonical_n3",
           "mental_model": "This entry pairs two direct ways of blocking bad outcomes. First, 〜てはいけないから ('because it must not happen that...') frames a worst-case slip-up—catching a cold, getting lost, missing a train—as the reason for a sensible precaution. Second, the bare {禁止形|きんしけい} (V-dictionary + な) is the bluntest prohibition in Japanese: short, urgent, and unpadded on danger signs ('Do not enter!'), athletic cheers ('Don't lose!'), or rough speech.",
@@ -974,13 +962,12 @@
       "renshuu_title": "Wishes & Hopes",
       "has_video": false,
       "summary": "Express the full spectrum of hopes and regrets: warm everyday wishes (〜といい / といいな / たらいい), heartfelt enduring dreams (〜たいものだ / てほしいものだ), counterfactual regret (〜ばよかった / ば〜のに), and formal prayers (〜ますように).",
-      "study_tip": "Match the wish form to the timeline and scale: use 〜といい for uncertain future hopes ('hope it stays sunny'), 〜ますように for prayers on ema or cards, 〜たいものだ for big lifelong dreams (contrasting sharply with 〜たものだ for nostalgic past habits!), and past 〜ばよかった（のに） for looking back with regret.",
+      "study_tip": "Match the wish form to the timeline and scale: use 〜といい for uncertain future hopes ('hope it stays sunny'), 〜ますように for prayers on {絵馬|えま} plaques or cards, 〜たいものだ for big lifelong dreams (contrasting sharply with 〜たものだ for nostalgic past habits!), and past 〜ばよかった（のに） for looking back with regret.",
       "grammar_points": [
         {
-          "id": "to-ii-wish",
+          "id": "l25-g01",
           "pattern": "〜といい / といいな（あ） / たらいい",
           "pattern_ruby": "〜といい / といいな（あ） / たらいい",
-          "romaji": "~to ii / to ii na(a) / tara ii",
           "meaning_en": "I hope ~; it would be nice if ~",
           "register": "neutral",
           "renshuu_status": "verified_renshuu",
@@ -1028,10 +1015,9 @@
           ]
         },
         {
-          "id": "tai-mono-da",
+          "id": "l25-g02",
           "pattern": "〜たいものだ / 〜てほしいものだ",
           "pattern_ruby": "〜たいものだ / 〜てほしいものだ",
-          "romaji": "~tai mono da / ~te hoshii mono da",
           "meaning_en": "how I wish I could ~; I truly hope someone would ~ (heartfelt, enduring wish)",
           "register": "neutral",
           "renshuu_status": "verified_renshuu",
@@ -1079,10 +1065,9 @@
           ]
         },
         {
-          "id": "ba-yokatta-noni",
+          "id": "l25-g03",
           "pattern": "〜ばよかった / 〜ば〜のに",
           "pattern_ruby": "〜ばよかった / 〜ば〜のに",
-          "romaji": "~ba yokatta / ~ba ~noni",
           "meaning_en": "I wish I had ~; I should have ~; if only ~ (counterfactual regret)",
           "register": "neutral",
           "renshuu_status": "canonical_n3",
@@ -1130,14 +1115,13 @@
           ]
         },
         {
-          "id": "masu-youni-prayer",
+          "id": "l25-g04",
           "pattern": "〜ますように",
           "pattern_ruby": "〜ますように",
-          "romaji": "~masu you ni",
           "meaning_en": "I pray that ~; may ~ come true (heartfelt wish or prayer)",
           "register": "neutral",
           "renshuu_status": "canonical_n3",
-          "mental_model": "You see 〜ますように written on wooden shrine ema plaques, colorful Tanabata paper strips, and New Year's cards. By putting a wish into polite 〜ます (or 〜ません) followed by ように and leaving the main verb ('I pray / wish') unspoken, the sentence lifts gently upward like a quiet prayer. It naturally pairs with potential verbs, states, and events outside your direct control.",
+          "mental_model": "You see 〜ますように written on wooden shrine prayer plaques ({絵馬|えま}), colorful {七夕|たなばた} paper strips, and New Year's cards. By putting a wish into polite 〜ます (or 〜ません) followed by ように and leaving the main verb ('I pray / wish') unspoken, the sentence lifts gently upward like a quiet prayer. It naturally pairs with potential verbs, states, and events outside your direct control.",
           "formation": [
             {
               "pos": "{動詞|どうし}ます{形|けい}（{無意志|むいし}・{可能動詞|かのうどうし}）",
@@ -1216,7 +1200,7 @@
           {
             "expression": "〜ますように / 〜ませんように",
             "register": "Neutral (written / prayer)",
-            "key_rule": "Heartfelt prayer on ema, Tanabata strips, or cards; uses potential or non-volitional verbs.",
+            "key_rule": "Heartfelt prayer on {絵馬|えま} plaques, {七夕|たなばた} strips, or cards; uses potential or non-volitional verbs.",
             "example_short": "{合格|ごうかく}できますように。"
           }
         ]
@@ -1226,7 +1210,7 @@
           "question_id": "L25-Q1",
           "question_type": "fill_blank",
           "prompt_ja_ruby": "（{七夕|たなばた}の{短冊|たんざく}に）{家族|かぞく}みんながいつまでも{健康|けんこう}で（　　　）。",
-          "context_en": "Written on a Tanabata wish strip: 'May everyone in my family stay healthy forever.'",
+          "context_en": "Written on a {七夕|たなばた} wish strip: 'May everyone in my family stay healthy forever.'",
           "choices": [
             "ありたい",
             "ありますように",
@@ -1234,7 +1218,7 @@
             "あったらよかった"
           ],
           "correct_index": 1,
-          "explanation": "Correct: B (ありますように). Written prayers on Tanabata strips and shrine plaques end in polite 〜ますように (here {健康|けんこう}でありますように). A (ありたい) expresses a first-person desire and clashes with {家族|かぞく}みんなが; C (あるべきだ) states a stern obligation rather than a wish; D (あったらよかった) is past regret, clashing with いつまでも."
+          "explanation": "Correct: B (ありますように). Written prayers on {七夕|たなばた} wish strips and shrine plaques end in polite 〜ますように (here {健康|けんこう}でありますように). A (ありたい) expresses a first-person desire and clashes with {家族|かぞく}みんなが; C (あるべきだ) states a stern obligation rather than a wish; D (あったらよかった) is past regret, clashing with いつまでも."
         },
         {
           "question_id": "L25-Q2",
@@ -1289,11 +1273,10 @@
       "study_tip": "Never ascribe raw 〜たい, 〜てほしい, or {欲|ほ}しい directly to a third person like {妹|いもうと} or {彼|かれ}: swap the final い for がっている ({行|い}きたがっている, {欲|ほ}しがっている) and remember that {欲|ほ}しがる switches the object particle from が to を!",
       "grammar_points": [
         {
-          "id": "naide-hoshii",
+          "id": "l26-g01",
           "pattern": "〜ないでほしい / 〜てほしくない",
           "pattern_ruby": "〜ないでほしい / 〜てほしくない",
-          "romaji": "~naide hoshii / ~te hoshikunai",
-          "meaning_en": "I want you not to ~ (naide hoshii); I don't want you to ~ (te hoshikunai)",
+          "meaning_en": "I want you not to ~ (〜ないでほしい); I don't want you to ~ (〜てほしくない)",
           "register": "neutral",
           "renshuu_status": "verified_renshuu",
           "mental_model": "Notice where the negative sits! Placing ない on the verb itself (〜ないでほしい) focuses directly on asking someone to refrain from an action: 'Please do NOT smoke here / Please don't forget.' Placing ない on ほしい (〜てほしくない) negates your wish as a protective or reluctant feeling: 'I don't really want you to push yourself too hard.' In direct requests to avoid an action, 〜ないでほしい is the standard everyday choice.",
@@ -1336,10 +1319,9 @@
           ]
         },
         {
-          "id": "te-moraitai",
+          "id": "l26-g02",
           "pattern": "〜てもらいたい / 〜ていただきたい",
           "pattern_ruby": "〜てもらいたい / 〜ていただきたい",
-          "romaji": "~te moraitai / ~te itadakitai",
           "meaning_en": "I would like someone to ~ (more formal or objective than 〜てほしい)",
           "register": "formal",
           "renshuu_status": "canonical_n3",
@@ -1382,15 +1364,14 @@
           ],
           "pitfalls": [
             "Mark the person performing the action with に (or から), NEVER が, before 〜てもらいたい / 〜ていただきたい: ○ {田中|たなか}さんに{手伝|てつだ}ってもらいたい, × {田中|たなか}さんが{手伝|てつだ}ってもらいたい.",
-            "Always keep the て-form before もらいたい / いただきたい when using normal verbs (○ {読|よ}んでいただきたい, × {読|よ}みいただきたい unless using the separate keigo frame お{読|よ}みいただきたい).",
+            "Always keep the て-form before もらいたい / いただきたい when using normal verbs (○ {読|よ}んでいただきたい, × {読|よ}みいただきたい unless using the separate {敬語|けいご} frame お{読|よ}みいただきたい).",
             "Ending flatly with 〜ていただきたいです to a superior can still sound slightly declarative; adding 〜のですが or turning it into 〜ていただけませんか makes an actual favor request much smoother."
           ]
         },
         {
-          "id": "tagatte-iru",
+          "id": "l26-g03",
           "pattern": "〜たがっている / 欲しがっている",
           "pattern_ruby": "〜たがっている / {欲|ほ}しがっている",
-          "romaji": "~tagatte iru / hoshigatte iru",
           "meaning_en": "he/she wants to ~; seems eager for ~ (third-person visible desire)",
           "register": "neutral",
           "renshuu_status": "verified_renshuu",

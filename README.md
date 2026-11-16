@@ -4,7 +4,8 @@ Modular curriculum source, boundary validator, and multi-format study guide comp
 
 ## Architecture
 
-- `curriculum/` — Single canonical source of truth (`unit_01_lessons_01_05.json` .. `unit_12_exam_bridge.json` and `synonym_matrices.json`) using inline `{Base|Reading}` furigana notation.
+- `AGENTS.md` — Repository engineering invariants, native Japanese script policy, and quality gates.
+- `curriculum/` — Single canonical source of truth (`unit_01_lessons_01_05.json` .. `unit_12_exam_bridge.json` and `synonym_matrices.json`) using inline `{Base|Reading}` furigana notation and structural IDs (`l01-g01` .. `b03-g04`).
 - `renshuu_n3/` — Zero-dependency Python 3.12+ package:
   - `models.py` — Immutable domain dataclasses (`Curriculum`, `Unit`, `Lesson`, `GrammarPoint`, `SynonymMatrix`) and canonical Renshuu syllabus constants.
   - `ruby.py` — Furigana syntax validator, kana-leak checker, literal-field guard, and HTML/Markdown renderers.

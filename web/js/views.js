@@ -160,8 +160,7 @@ export function renderSearchResultsHtml(manifest, query) {
       const pointHay = [
         gp.pattern,
         toSearchableText(gp.pattern_ruby),
-        gp.romaji,
-        gp.meaning_en,
+        toSearchableText(gp.meaning_en),
         gp.mental_model_search,
       ]
         .join(" ")
@@ -195,9 +194,9 @@ export function renderSearchResultsHtml(manifest, query) {
     for (const { lesson, gp } of matchedPoints.slice(0, 60)) {
       out +=
         `<div class="ex-item" style="cursor:pointer" data-jump="${escapeHtml(lesson.lesson_id)}::gp-${escapeHtml(gp.id)}">` +
-        `<div><strong>${renderRubyHtml(gp.pattern_ruby)}</strong> <span class="gp-romaji">${escapeHtml(gp.romaji)}</span> ` +
+        `<div><strong>${renderRubyHtml(gp.pattern_ruby)}</strong> ` +
         `<span class="badge">${escapeHtml(lessonBadge(lesson))} ${escapeHtml(lesson.renshuu_title)}</span></div>` +
-        `<div class="ex-en">${escapeHtml(gp.meaning_en)}</div></div>`;
+        `<div class="ex-en">${renderRubyHtml(gp.meaning_en)}</div></div>`;
     }
     out += `</div>`;
   }
@@ -227,7 +226,7 @@ export function renderSearchResultsHtml(manifest, query) {
   }
 
   if (!matchedPoints.length && !matchedLessons.length && !matchedMatrices.length) {
-    out += `<div class="card"><p>No matching grammar points found. Try hiragana (e.g., <code>わけ</code>, <code>ように</code>), romaji (<code>hodo</code>), or English keywords.</p></div>`;
+    out += `<div class="card"><p>No matching grammar points found. Try kanji, hiragana (e.g., <code>わけ</code>, <code>ように</code>, <code>ほど</code>), or English keywords.</p></div>`;
   }
 
   return out;
@@ -244,8 +243,8 @@ export function renderLessonHtml(lesson, unit, manifest, state, starredSet) {
     .map(
       (gp) =>
         `<tr><td><a href="#lesson/${escapeHtml(lesson.lesson_id)}/gp-${escapeHtml(gp.id)}" data-jump="${escapeHtml(lesson.lesson_id)}::gp-${escapeHtml(gp.id)}" style="color:var(--accent);text-decoration:none">${renderRubyHtml(gp.pattern_ruby)}</a></td>` +
-        `<td><code>${escapeHtml(gp.romaji)}</code></td>` +
-        `<td class="recall-target">${escapeHtml(gp.meaning_en)}</td>` +
+        `<td class="recall-target">${renderRubyHtml(gp.meaning_en)}</td>` +
+        `<td>${escapeHtml(REGISTER_LABELS[gp.register] || gp.register)}</td>` +
         `<td><span class="badge">${escapeHtml(STATUS_LABELS[gp.renshuu_status] || gp.renshuu_status)}</span></td></tr>`,
     )
     .join("");
@@ -269,13 +268,13 @@ export function renderLessonHtml(lesson, unit, manifest, state, starredSet) {
       return `
         <div class="card" id="gp-${escapeHtml(gp.id)}">
           <div class="gp-head">
-            <div><span class="gp-title">${renderRubyHtml(gp.pattern_ruby)}</span><span class="gp-romaji">${escapeHtml(gp.romaji)}</span></div>
+            <div><span class="gp-title">${renderRubyHtml(gp.pattern_ruby)}</span></div>
             <div>
               <span class="badge">${escapeHtml(REGISTER_LABELS[gp.register] || gp.register)}</span>
               <span class="badge accent">${escapeHtml(STATUS_LABELS[gp.renshuu_status] || gp.renshuu_status)}</span>
             </div>
           </div>
-          <p><strong>Meaning:</strong> <span class="recall-target">${escapeHtml(gp.meaning_en)}</span></p>
+          <p><strong>Meaning:</strong> <span class="recall-target">${renderRubyHtml(gp.meaning_en)}</span></p>
           <div class="table-wrap"><table><thead><tr><th>Part of Speech</th><th>Attachment Rule</th></tr></thead><tbody>${fRows}</tbody></table></div>
           <p><strong>Mental Model:</strong> ${renderRubyHtml(gp.mental_model)}</p>
           <h3>Graded Examples</h3>
@@ -320,7 +319,7 @@ export function renderLessonHtml(lesson, unit, manifest, state, starredSet) {
         <div class="quiz-card">
           <div><span class="badge accent">Q${qIdx + 1} — ${escapeHtml(QTYPE_LABELS[q.question_type] || q.question_type)}</span></div>
           <p style="font-size:1.05rem;margin:8px 0 4px">${renderRubyHtml(q.prompt_ja_ruby)}</p>
-          <p class="ex-note recall-target">Context: ${escapeHtml(q.context_en)}</p>
+          <p class="ex-note recall-target">Context: ${renderRubyHtml(q.context_en)}</p>
           <div class="quiz-choices">${buttons}</div>
           ${hasAnswered ? `<div class="quiz-expl"><strong>${chosen === q.correct_index ? "Correct!" : "Review:"}</strong> ${renderRubyHtml(q.explanation)}</div>` : ""}
         </div>`;
@@ -340,7 +339,7 @@ export function renderLessonHtml(lesson, unit, manifest, state, starredSet) {
       </div>
       <p>${renderRubyHtml(lesson.summary)}</p>
       <div class="callout"><strong>Renshuu Study Tip:</strong> ${renderRubyHtml(lesson.study_tip)}</div>
-      <div class="table-wrap"><table><thead><tr><th>Pattern</th><th>Romaji</th><th>Meaning</th><th>Status</th></tr></thead><tbody>${snapshotRows}</tbody></table></div>
+      <div class="table-wrap"><table><thead><tr><th>Pattern</th><th>Meaning</th><th>Register</th><th>Status</th></tr></thead><tbody>${snapshotRows}</tbody></table></div>
     </div>
     ${cards}
     <div class="card">
@@ -374,7 +373,7 @@ export function renderMatrixHtml(matrix, allMatrices) {
     .map(
       (pair) =>
         `<div class="ex-item">` +
-        `<div style="font-weight:600;margin-bottom:4px">${escapeHtml(pair.pair_title)}</div>` +
+        `<div style="font-weight:600;margin-bottom:4px">${renderRubyHtml(pair.pair_title)}</div>` +
         `<div class="ex-jp"><span class="badge ok">Natural</span> ${renderRubyHtml(pair.sentence_valid)}</div>` +
         `<div class="ex-jp"><span class="badge warn">Contrast</span> ${renderRubyHtml(pair.sentence_contrast)}</div>` +
         `<div class="ex-note">${renderRubyHtml(pair.explanation)}</div>` +

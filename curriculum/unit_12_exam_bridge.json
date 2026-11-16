@@ -2,21 +2,20 @@
   "unit_number": 12,
   "unit_slug": "unit-12-exam-bridge",
   "unit_title": "Unit 12: JLPT N3 Exam Bridge (N4 Prerequisites, N2-Border Patterns & Star Puzzles)",
-  "unit_overview": "Close every remaining gap between Renshuu's 55-lesson N3 schedule and the full JLPT N3 exam: Voice & Keigo prerequisites (N4-to-N3), high-frequency N3 exam patterns Renshuu places in N2 or omits as standalone lessons, and JLPT Section 2/3 Star-Puzzle (並べ替え) & Discourse Grammar.",
+  "unit_overview": "Close every remaining gap between Renshuu's 55-lesson N3 schedule and the full JLPT N3 exam: Voice & honorific speech ({敬語|けいご}) prerequisites (N4-to-N3), high-frequency N3 exam patterns Renshuu places in N2 or omits as standalone lessons, and JLPT Section 2/3 Star-Puzzle (並べ替え) & Discourse Grammar.",
   "lessons": [
     {
       "lesson_id": "B01",
       "lesson_number": "B1",
-      "renshuu_title": "Exam Bridge 1: Voice & Keigo Essentials (N4-to-N3)",
+      "renshuu_title": "Exam Bridge 1: Voice & Honorific Speech (N4-to-N3)",
       "has_video": false,
-      "summary": "Lock down the four N4-to-N3 grammar pillars constantly tested across JLPT N3 grammar, reading, and listening: direct vs. adversative passive ({受|う}け{身|み}), を/に causative causee marking ({使役|しえき}), Godan causative-passive contraction traps ({使役受身|しえきうけみ}), and honorific vs. humble keigo boundaries ({尊敬語|そんけいご}・{謙譲語|けんじょうご}).",
-      "study_tip": "In every JLPT N3 voice or keigo item, map the subject and particle arrows first: passive puts the affected experiencer in は/が, causative switches the doer to に whenever an を object already exists, causative-passive NEVER contracts す-verbs like {話|はな}す to 〜される, and keigo NEVER puts the speaker into an honorific verb or the listener into a humble verb.",
+      "summary": "Lock down the four N4-to-N3 grammar pillars constantly tested across JLPT N3 grammar, reading, and listening: direct vs. adversative passive ({受|う}け{身|み}), を/に causative causee marking ({使役|しえき}), {五段|ごだん} causative-passive contraction traps ({使役受身|しえきうけみ}), and honorific vs. humble {敬語|けいご} boundaries ({尊敬語|そんけいご}・{謙譲語|けんじょうご}).",
+      "study_tip": "In every JLPT N3 voice or {敬語|けいご} item, map the subject and particle arrows first: passive puts the affected experiencer in は/が, causative switches the doer to に whenever an を object already exists, causative-passive NEVER contracts す-verbs like {話|はな}す to 〜される, and {敬語|けいご} NEVER puts the speaker into an honorific verb or the listener into a humble verb.",
       "grammar_points": [
         {
-          "id": "ukemi-passive",
+          "id": "b01-g01",
           "pattern": "受身（直接受身・被害の受身）",
           "pattern_ruby": "{受身|うけみ}（{直接受身|ちょくせつうけみ}・{被害|ひがい}の{受身|うけみ}）",
-          "romaji": "ukemi (chokusetsu-ukemi / higai no ukemi)",
           "meaning_en": "passive voice: direct passive and Japanese-specific indirect 'suffering/adversative' passive",
           "register": "neutral",
           "renshuu_status": "n4_prerequisite",
@@ -64,14 +63,13 @@
           "pitfalls": [
             "Do not drop を in possessive adversative passives: keep を on the affected object or body part and に on the doer ({足|あし}を{踏|ふ}まれた, NOT × {足|あし}に{踏|ふ}まれた).",
             "Do not use によって for personal emotional or suffering passives (× {雨|あめ}によって{降|ふ}られた -> ○ {雨|あめ}に{降|ふ}られた); reserve によって for discoveries, works, or institutions.",
-            "Remember Ichidan passive {見|み}られる matches the formal potential form morphologically; check whether a に agent ({先生|せんせい}に{見|み}られた) is present to identify passive voice."
+            "Remember {一段|いちだん} passive {見|み}られる matches the formal potential form morphologically; check whether a に agent ({先生|せんせい}に{見|み}られた) is present to identify passive voice."
           ]
         },
         {
-          "id": "shieki-causative",
+          "id": "b01-g02",
           "pattern": "使役（「を」と「に」の使い分け）",
           "pattern_ruby": "{使役|しえき}（「を」と「に」の{使|つか}い{分|わ}け）",
-          "romaji": "shieki ('wo' to 'ni' no tsukaiwake)",
           "meaning_en": "causative voice: 'make/let someone do' and choosing を vs. に for the causee",
           "register": "neutral",
           "renshuu_status": "n4_prerequisite",
@@ -123,14 +121,13 @@
           ]
         },
         {
-          "id": "shieki-ukemi",
+          "id": "b01-g03",
           "pattern": "使役受身（短縮形・非短縮の罠）",
           "pattern_ruby": "{使役受身|しえきうけみ}（{短縮形|たんしゅくけい}・{非短縮|ひたんしゅく}の{罠|わな}）",
-          "romaji": "shieki-ukemi (tanshukukei / hi-tanshuku no wana)",
           "meaning_en": "causative-passive ('be made/forced to do'); contracted short forms vs. non-contracting verb traps",
           "register": "neutral",
           "renshuu_status": "n4_prerequisite",
-          "mental_model": "Causative-passive ({使役受身|しえきうけみ}) layers passive onto causative to mean 'to be forced/made to do X'—or in reflective contexts, 'to be moved/compelled to think' ({考|かんが}えさせられる). Every JLPT N3 exam tests one sharp morphological split: regular Godan verbs contract from 〜せられる to the shorter 〜される ({待|ま}たせられる → {待|ま}たされる, {飲|の}まされる, {書|か}かされる). HOWEVER, Godan verbs ending in す ({話|はな}す, {出|だ}す, {渡|わた}す, {直|なお}す) NEVER contract because dropping せ from {話|はな}させられる would produce {話|はな}される, colliding with the simple passive! Ichidan verbs ({食|た}べさせられる) and irregular する/来る (させられる / {来|こ}させられる) NEVER contract either.",
+          "mental_model": "Causative-passive ({使役受身|しえきうけみ}) layers passive onto causative to mean 'to be forced/made to do X'—or in reflective contexts, 'to be moved/compelled to think' ({考|かんが}えさせられる). Every JLPT N3 exam tests one sharp morphological split: regular {五段|ごだん} verbs contract from 〜せられる to the shorter 〜される ({待|ま}たせられる → {待|ま}たされる, {飲|の}まされる, {書|か}かされる). HOWEVER, {五段|ごだん} verbs ending in す ({話|はな}す, {出|だ}す, {渡|わた}す, {直|なお}す) NEVER contract because dropping せ from {話|はな}させられる would produce {話|はな}される, colliding with the simple passive! {一段|いちだん} verbs ({食|た}べさせられる) and irregular する/来る (させられる / {来|こ}させられる) NEVER contract either.",
           "formation": [
             {
               "pos": "「す」{以外|いがい}の{五段動詞|ごだんどうし}",
@@ -172,20 +169,19 @@
             }
           ],
           "pitfalls": [
-            "NEVER contract Godan verbs ending in す ({話|はな}す, {出|だ}す, {渡|わた}す, {押|お}す): × {話|はな}された is simple passive, whereas causative-passive MUST be {話|はな}させられた.",
-            "NEVER invent × 〜さされる on Ichidan or する verbs (× {食|た}べさされた, × さされた -> ○ {食|た}べさせられた, ○ させられた).",
+            "NEVER contract {五段|ごだん} verbs ending in す ({話|はな}す, {出|だ}す, {渡|わた}す, {押|お}す): × {話|はな}された is simple passive, whereas causative-passive MUST be {話|はな}させられた.",
+            "NEVER invent × 〜さされる on {一段|いちだん} or する verbs (× {食|た}べさされた, × さされた -> ○ {食|た}べさせられた, ○ させられた).",
             "In a causative-passive sentence, mark the person who forced you with に ({上司|じょうし}に{残業|ざんぎょう}させられた), not を."
           ]
         },
         {
-          "id": "keigo-essentials",
+          "id": "b01-g04",
           "pattern": "敬語の基礎（尊敬語・謙譲語）",
           "pattern_ruby": "{敬語|けいご}の{基礎|きそ}（{尊敬語|そんけいご}・{謙譲語|けんじょうご}）",
-          "romaji": "keigo no kiso (sonkeigo / kenjougo)",
-          "meaning_en": "core keigo: elevating respected others (sonkeigo) vs. humbling oneself (kenjougo)",
+          "meaning_en": "honorific speech ({敬語|けいご}): elevating respected others ({尊敬語|そんけいご}) vs. humbling oneself ({謙譲語|けんじょうご})",
           "register": "formal",
           "renshuu_status": "n4_prerequisite",
-          "mental_model": "Think of keigo strictly as a directional arrow. Honorific ({尊敬語|そんけいご}) points UP at a respected person's own action—using お〜になる, passive 〜れる/られる, or special verbs (いらっしゃる, おっしゃる, ご{覧|らん}になる, なさる, {召|め}し{上|あ}がる, くださる)—and NEVER describes you or your in-group. Humble ({謙譲語|けんじょうご}) points DOWN on your own (or your in-group's) action directed toward a superior—using お〜する/いたす or special verbs ({参|まい}る, {申|もう}す, {拝見|はいけん}する, いただく, {伺|うかが}う, {存|ぞん}じている)—and NEVER describes the customer, teacher, or manager. Remember the pair お{待|ま}ちになる (guest waits) vs お{待|ま}ちする (I wait for guest), and watch out for forbidden double keigo (× おっしゃられる) or mixed frames (× {拝見|はいけん}になる).",
+          "mental_model": "Think of {敬語|けいご} strictly as a directional arrow. Honorific ({尊敬語|そんけいご}) points UP at a respected person's own action—using お〜になる, passive 〜れる/られる, or special verbs (いらっしゃる, おっしゃる, ご{覧|らん}になる, なさる, {召|め}し{上|あ}がる, くださる)—and NEVER describes you or your in-group. Humble ({謙譲語|けんじょうご}) points DOWN on your own (or your in-group's) action directed toward a superior—using お〜する/いたす or special verbs ({参|まい}る, {申|もう}す, {拝見|はいけん}する, いただく, {伺|うかが}う, {存|ぞん}じている)—and NEVER describes the customer, teacher, or manager. Remember the pair お{待|ま}ちになる (guest waits) vs お{待|ま}ちする (I wait for guest), and watch out for forbidden double {敬語|けいご} (× おっしゃられる) or mixed frames (× {拝見|はいけん}になる).",
           "formation": [
             {
               "pos": "{尊敬語|そんけいご}（お〜になる・{特別動詞|とくべつどうし}）",
@@ -218,7 +214,7 @@
             {
               "ja_ruby": "{佐藤|さとう}{様|さま}がご{到着|とうちゃく}になるまで、こちらのロビーでお{待|ま}ちいたします。",
               "structure_note": "{客|きゃく}（{佐藤様|さとうさま}）に「ご{到着|とうちゃく}になる」、{自分|じぶん}に「お{待|ま}ちいたす」と{矢印|やじるし}を{分|わ}ける。",
-              "en": "I will wait here in the lobby until Sato-sama arrives."
+              "en": "I will wait here in the lobby until Mr./Ms. Sato arrives."
             },
             {
               "ja_ruby": "{田中|たなか}{先生|せんせい}がおっしゃったとおり、{明日|あした}の{午前中|ごぜんちゅう}に{学校|がっこう}へ{参|まい}ります。",
@@ -228,13 +224,13 @@
           ],
           "pitfalls": [
             "NEVER apply {尊敬語|そんけいご} (いらっしゃる, おっしゃる, ご{覧|らん}になる) to yourself, nor {謙譲語|けんじょうご} ({参|まい}る, {申|もう}す, {拝見|はいけん}する) to the respected listener (× {先生|せんせい}が{参|まい}られました, × {私|わたし}がおっしゃいました).",
-            "Avoid double keigo ({二重敬語|にじゅうけいご}) such as × おっしゃられる or × ご{覧|らん}になられる, and never add お to already humble words (× お{拝見|はいけん}します).",
+            "Avoid double {敬語|けいご} ({二重敬語|にじゅうけいご}) such as × おっしゃられる or × ご{覧|らん}になられる, and never add お to already humble words (× お{拝見|はいけん}します).",
             "Never mix humble vocabulary inside an honorific frame (× {先生|せんせい}が{拝見|はいけん}になりました -> ○ {先生|せんせい}がご{覧|らん}になりました)."
           ]
         }
       ],
       "lesson_contrast": {
-        "title": "Voice & Keigo Decision Grid: Who Acts, Who Suffers, Who Is Elevated",
+        "title": "Voice & {敬語|けいご} Decision Grid: Who Acts, Who Suffers, Who Is Elevated",
         "explanation": "Check the grammatical subject and directional arrow before picking a form in N4-to-N3 bridge questions.",
         "rows": [
           {
@@ -252,7 +248,7 @@
           {
             "expression": "{使役受身|しえきうけみ}（〜される・させられる）",
             "register": "Neutral",
-            "key_rule": "Subject is forced to act; Godan contracts to 〜される EXCEPT す-verbs ({話|はな}させられる), Ichidan, する/{来|く}る.",
+            "key_rule": "Subject is forced to act; {五段|ごだん} contracts to 〜される EXCEPT す-verbs ({話|はな}させられる), {一段|いちだん}, する/{来|く}る.",
             "example_short": "{大勢|おおぜい}の{前|まえ}で{話|はな}させられた。"
           },
           {
@@ -296,7 +292,7 @@
             "{話|はな}せさせられた"
           ],
           "correct_index": 0,
-          "explanation": "Correct: A ({話|はな}させられた). Godan verbs ending in す ({話|はな}す) NEVER contract in the causative-passive because dropping せ creates simple passive B ({話|はな}された, 'was spoken about'). C ({話|はな}さされた) is an invalid contracted stem, and D ({話|はな}せさせられた) wrongly attaches causative-passive to the potential e-stem instead of the a-stem."
+          "explanation": "Correct: A ({話|はな}させられた). {五段|ごだん} verbs ending in す ({話|はな}す) NEVER contract in the causative-passive because dropping せ creates simple passive B ({話|はな}された, 'was spoken about'). C ({話|はな}さされた) is an invalid contracted stem, and D ({話|はな}せさせられた) wrongly attaches causative-passive to the potential え-row stem instead of the あ-row stem."
         },
         {
           "question_id": "B01-Q3",
@@ -337,10 +333,9 @@
       "study_tip": "Use polarity, agency, and attachment as quick tie-breakers on Bridge 2 items: 〜どころか escalates or reverses a baseline, 〜ばかりに ends strictly in regret, 〜にしたがって tracks matching change or compliance vs. 〜に{反|はん}して for reversed outcomes, 〜ことになっている states rules/schedules vs. 〜ことにしている for personal habits, 〜たものだ recalls nostalgic past habits, 〜かねない warns of unwanted danger, and 〜{得|え}ない NEVER conjugates as × ありうない.",
       "grammar_points": [
         {
-          "id": "dokoroka-nimokakawarazu-bakaribi",
+          "id": "b02-g01",
           "pattern": "〜どころか / 〜にもかかわらず / 〜ばかりに",
           "pattern_ruby": "〜どころか / 〜にもかかわらず / 〜ばかりに",
-          "romaji": "~dokoroka / ~nimokakawarazu / ~bakari ni",
           "meaning_en": "far from ~ (actually the opposite or more); despite ~ (formal); simply because ~ (causing regret)",
           "register": "neutral",
           "renshuu_status": "exam_border_n2",
@@ -388,10 +383,9 @@
           ]
         },
         {
-          "id": "nikaketewa-niatatte-niwatatte",
+          "id": "b02-g02",
           "pattern": "〜にかけては / 〜にあたって / 〜にわたって",
           "pattern_ruby": "〜にかけては / 〜にあたって / 〜にわたって",
-          "romaji": "~ni kakete wa / ~ni atatte / ~ni watatte",
           "meaning_en": "when it comes to [unmatched skill]; on the occasion of [a milestone]; spanning across [time/area/items]",
           "register": "formal",
           "renshuu_status": "exam_border_n2",
@@ -439,10 +433,9 @@
           ]
         },
         {
-          "id": "eru-kanenai-gatai",
+          "id": "b02-g03",
           "pattern": "〜得る（える/うる）・〜かねない・〜がたい",
           "pattern_ruby": "〜{得|え}る（える/うる）・〜かねない・〜がたい",
-          "romaji": "~eru (~uru) / ~kanenai / ~gatai",
           "meaning_en": "possible to / could happen (得る); might well [bad outcome] (かねない); psychologically hard to [believe/forgive] (がたい)",
           "register": "written",
           "renshuu_status": "canonical_n3",
@@ -490,10 +483,9 @@
           ]
         },
         {
-          "id": "muki-muke-buri-darake",
+          "id": "b02-g04",
           "pattern": "〜向き / 〜向け・〜ぶり（に）・〜だらけ",
           "pattern_ruby": "〜{向|む}き / 〜{向|む}け・〜ぶり（に）・〜だらけ",
-          "romaji": "~muki / ~muke / ~buri (ni) / ~darake",
           "meaning_en": "naturally suited for (向き) vs. designed for (向け); for the first time in X / manner (ぶり); covered in [negative] (だらけ)",
           "register": "neutral",
           "renshuu_status": "canonical_n3",
@@ -541,10 +533,9 @@
           ]
         },
         {
-          "id": "osore-tamaranai-sumu-baaijanai",
+          "id": "b02-g05",
           "pattern": "〜恐れがある・〜てたまらない / てしょうがない・〜て済む・〜ている場合じゃない",
           "pattern_ruby": "〜{恐|おそ}れがある・〜てたまらない / てしょうがない・〜て{済|す}む・〜ている{場合|ばあい}じゃない",
-          "romaji": "~osore ga aru / ~te tamaranai / ~te shouganai / ~te sumu / ~te iru baai ja nai",
           "meaning_en": "risk of ~ (恐れがある); unbearably ~ (てたまらない); get by/settle with ~ (て済む); no time to be doing ~ (ている場合じゃない)",
           "register": "neutral",
           "renshuu_status": "canonical_n3",
@@ -596,10 +587,9 @@
           ]
         },
         {
-          "id": "nishitagatte-nihanshite",
+          "id": "b02-g06",
           "pattern": "〜にしたがって・〜に反して",
           "pattern_ruby": "〜にしたがって・〜に{反|はん}して",
-          "romaji": "~ni shitagatte · ~ni hanshite",
           "meaning_en": "as / in proportion to; in accordance with (にしたがって) vs. contrary to / against (に反して)",
           "register": "written",
           "renshuu_status": "canonical_n3",
@@ -647,10 +637,9 @@
           ]
         },
         {
-          "id": "koto-ni-natteiru-naru-shiteiru",
+          "id": "b02-g07",
           "pattern": "〜ことになっている / ことになる / ことにしている",
           "pattern_ruby": "〜ことになっている / ことになる / ことにしている",
-          "romaji": "~koto ni natte iru / ~koto ni naru / ~koto ni shite iru",
           "meaning_en": "be a standing rule or schedule (ことになっている); be decided/turn out (ことになる); make a personal habit/rule (ことにしている)",
           "register": "neutral",
           "renshuu_status": "canonical_n3",
@@ -698,14 +687,13 @@
           ]
         },
         {
-          "id": "mono-da-ta-mono-da",
+          "id": "b02-g08",
           "pattern": "〜たものだ / 〜ものだ",
           "pattern_ruby": "〜たものだ / 〜ものだ",
-          "romaji": "~ta mono da / ~mono da",
           "meaning_en": "used to ~ (nostalgic past habit: たものだ); that's just how ~ is / general truth or social norm (ものだ)",
           "register": "neutral",
           "renshuu_status": "canonical_n3",
-          "mental_model": "Changing the verb tense before ものだ completely changes its world on JLPT N3. Attached to the PAST た-form (Vた + ものだ), 〜たものだ looks back fondly on a repeated childhood or past habit that no longer happens now ('back then, I used to swim in the river every summer'), often pairing with {昔|むかし}, {子供|こども}の{頃|ころ}, and よく. Attached to NON-PAST plain forms (Vる / い-Adj / な-Adjな + ものだ), 〜ものだ states a timeless general truth, human nature, or traditional social norm ('time really flies; everyone makes mistakes at first; one should respect elders').",
+          "mental_model": "Changing the verb tense before ものだ completely changes its world on JLPT N3. Attached to the PAST た-form (Vた + ものだ), 〜たものだ looks back fondly on a repeated childhood or past habit that no longer happens now ('back then, I used to swim in the river every summer'), often pairing with {昔|むかし}, {子供|こども}の{頃|ころ}, and よく. Attached to NON-PAST plain forms (Vる / い-adjective / な-adjectiveな + ものだ), 〜ものだ states a timeless general truth, human nature, or traditional social norm ('time really flies; everyone makes mistakes at first; one should respect elders').",
           "formation": [
             {
               "pos": "〜たものだ（{懐|なつ}かしい{過去|かこ}の{習慣|しゅうかん}）",
@@ -752,7 +740,7 @@
           {
             "expression": "〜どころか / 〜にもかかわらず",
             "register": "Neutral / Formal",
-            "key_rule": "どころか rejects A for extreme/opposite B; にもかかわらず = formal のに (bare Noun/な-Adj).",
+            "key_rule": "どころか rejects A for extreme/opposite B; にもかかわらず = formal のに (bare Noun/な-adjective).",
             "example_short": "{雨|あめ}にもかかわらず{集|あつ}まった。"
           },
           {
@@ -873,10 +861,9 @@
       "study_tip": "When facing a JLPT star puzzle (＿　＿　★　＿), never assemble left-to-right by instinct: scan first for an outer correlative pair ({決|けっ}して〜ない, たとえ〜ても, なぜなら〜からだ), attach any modifier right before its head noun, and on paragraph cloze items check the ending of neighboring sentences before picking plain or polite options.",
       "grammar_points": [
         {
-          "id": "correlative-frame-anchors",
+          "id": "b03-g01",
           "pattern": "呼応のペア戦略（並べ替え対策）",
           "pattern_ruby": "{呼応|こおう}のペア{戦略|せんりゃく}（{並|なら}べ{替|か}え{対策|たいさく}）",
-          "romaji": "koou no pea senryaku (narabekae taisaku)",
           "meaning_en": "correlative frame anchors: locking outer adverb-ending brackets first in JLPT star-puzzle items",
           "register": "neutral",
           "renshuu_status": "canonical_n3",
@@ -924,10 +911,9 @@
           ]
         },
         {
-          "id": "noun-modifier-boundaries",
+          "id": "b03-g02",
           "pattern": "名詞修飾節の境界見極め",
           "pattern_ruby": "{名詞修飾節|めいししゅうしょくせつ}の{境界見極|きょうかいみきわ}め",
-          "romaji": "meishi-shuushokusetsu no kyoukai mikiwame",
           "meaning_en": "identifying pre-noun modifier boundaries (の/な/た/る, という appositives, and についての/による modifiers)",
           "register": "neutral",
           "renshuu_status": "canonical_n3",
@@ -975,10 +961,9 @@
           ]
         },
         {
-          "id": "discourse-wa-ga-kosoado",
+          "id": "b03-g03",
           "pattern": "文章の「は」と「が」・指示語（コソアド）",
           "pattern_ruby": "{文章|ぶんしょう}の「は」と「が」・{指示語|しじご}（コソアド）",
-          "romaji": "bunshou no 'wa' to 'ga' / shijigo (kosoado)",
           "meaning_en": "paragraph-level topic continuity (は) vs. new information (が), and text-referential そ vs. shared-memory あ",
           "register": "neutral",
           "renshuu_status": "canonical_n3",
@@ -1026,10 +1011,9 @@
           ]
         },
         {
-          "id": "register-consistency",
+          "id": "b03-g04",
           "pattern": "文体の一貫性（だ・である体 vs です・ます体）",
           "pattern_ruby": "{文体|ぶんたい}の{一貫性|いっかんせい}（だ・である{体|たい} vs です・ます{体|たい}）",
-          "romaji": "buntai no ikkansei (da/de aru-tai vs desu/masu-tai)",
           "meaning_en": "maintaining passage-level plain (だ/である) vs. polite (です/ます) register consistency in JLPT cloze texts",
           "register": "written",
           "renshuu_status": "canonical_n3",
