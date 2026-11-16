@@ -1,20 +1,28 @@
 export const STORAGE_STARS_KEY = "renshuu_n3_stars_v1";
 export const STORAGE_PREFS_KEY = "renshuu_n3_prefs_v1";
+export const STORAGE_QUIZ_KEY = "renshuu_n3_quiz_v1";
+
+export const VALID_FILTERS = new Set(["all", "unstarred", "starred", "bridge", "matrices"]);
 
 export const DEFAULT_PREFS = Object.freeze({
   theme: "dark",
   ruby: "all",
   recall: "show",
+  filter: "all",
 });
 
-export function createInitialState(initialRoute = { view: "overview", activeId: "overview", anchorId: null }) {
+export function createInitialState(
+  initialRoute = { view: "overview", activeId: "overview", anchorId: null },
+  initialFilter = "all",
+  initialQuizAnswers = {},
+) {
   return {
     view: initialRoute.view,
     activeId: initialRoute.activeId,
     anchorId: initialRoute.anchorId ?? null,
-    filter: "all",
-    query: "",
-    quizAnswers: {},
+    filter: VALID_FILTERS.has(initialFilter) ? initialFilter : "all",
+    query: initialRoute.view === "search" ? String(initialRoute.query ?? "") : "",
+    quizAnswers: { ...initialQuizAnswers },
   };
 }
 
@@ -29,7 +37,7 @@ export function toggleLessonStar(starredSet, lessonId) {
 }
 
 export function setFilter(state, filter) {
-  return { ...state, filter };
+  return { ...state, filter: VALID_FILTERS.has(filter) ? filter : "all" };
 }
 
 export function setQuery(state, query) {
@@ -59,6 +67,16 @@ export function parseHashRoute(hashValue) {
   if (!cleaned || cleaned === "overview") {
     return { view: "overview", activeId: "overview", anchorId: null };
   }
+  if (cleaned.startsWith("search/")) {
+    const encoded = cleaned.slice(7);
+    let decoded = encoded;
+    try {
+      decoded = decodeURIComponent(encoded);
+    } catch {
+      // Keep raw string when URI decoding fails on partial hash.
+    }
+    return { view: "search", activeId: "search", anchorId: null, query: decoded };
+  }
   const [section, primaryId, subAnchor] = cleaned.split("/");
   if (section === "lesson" && primaryId) {
     return { view: "lesson", activeId: primaryId, anchorId: subAnchor || null };
@@ -69,7 +87,11 @@ export function parseHashRoute(hashValue) {
   return { view: "overview", activeId: "overview", anchorId: null };
 }
 
-export function formatHashRoute(view, activeId, anchorId = null) {
+export function formatHashRoute(view, activeId, anchorId = null, query = "") {
+  if (view === "search") {
+    const trimmed = String(query ?? "").trim();
+    return trimmed ? `#search/${encodeURIComponent(trimmed)}` : "#overview";
+  }
   if (view === "lesson" && activeId) {
     return anchorId ? `#lesson/${activeId}/${anchorId}` : `#lesson/${activeId}`;
   }
@@ -108,6 +130,7 @@ export function loadSavedPrefs(storage = globalThis.localStorage) {
       theme: parsed.theme === "light" ? "light" : "dark",
       ruby: parsed.ruby === "hover" || parsed.ruby === "off" ? parsed.ruby : "all",
       recall: parsed.recall === "blur" ? "blur" : "show",
+      filter: VALID_FILTERS.has(parsed.filter) ? parsed.filter : "all",
     };
   } catch {
     return { ...DEFAULT_PREFS };
@@ -117,6 +140,32 @@ export function loadSavedPrefs(storage = globalThis.localStorage) {
 export function savePrefs(prefs, storage = globalThis.localStorage) {
   try {
     storage?.setItem(STORAGE_PREFS_KEY, JSON.stringify(prefs));
+  } catch {
+    // Ignore storage quota or sandbox restrictions.
+  }
+}
+
+export function loadSavedQuizAnswers(storage = globalThis.localStorage) {
+  try {
+    const raw = storage?.getItem(STORAGE_QUIZ_KEY);
+    if (!raw) return {};
+    const parsed = JSON.parse(raw);
+    if (!parsed || typeof parsed !== "object" || Array.isArray(parsed)) return {};
+    const cleaned = {};
+    for (const [qid, choiceIndex] of Object.entries(parsed)) {
+      if (typeof choiceIndex === "number" && Number.isInteger(choiceIndex) && choiceIndex >= 0 && choiceIndex <= 3) {
+        cleaned[qid] = choiceIndex;
+      }
+    }
+    return cleaned;
+  } catch {
+    return {};
+  }
+}
+
+export function saveQuizAnswers(quizAnswers, storage = globalThis.localStorage) {
+  try {
+    storage?.setItem(STORAGE_QUIZ_KEY, JSON.stringify(quizAnswers ?? {}));
   } catch {
     // Ignore storage quota or sandbox restrictions.
   }

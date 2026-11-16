@@ -4,53 +4,90 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Renshuu JLPT N3 Grammar Companion</title>
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
+  <script>
+    try {
+      var saved = JSON.parse(localStorage.getItem("renshuu_n3_prefs_v1") || "{}");
+      if (saved && saved.theme === "light") document.documentElement.setAttribute("data-theme", "light");
+      if (saved && (saved.ruby === "hover" || saved.ruby === "off")) document.documentElement.setAttribute("data-ruby", saved.ruby);
+      if (saved && saved.recall === "blur") document.documentElement.setAttribute("data-recall", "blur");
+    } catch (_err) {}
+  </script>
   <link rel="stylesheet" href="./styles/main.css" />
 </head>
 <body>
-  <header class="topbar">
-    <div class="topbar-left">
-      <button id="menu-btn" class="menu-btn" type="button" aria-label="Toggle Menu">&#9776;</button>
-      <div id="brand-home" class="brand" role="button" tabindex="0">Renshuu N3 Grammar Companion</div>
+  <header id="topbar" class="topbar">
+    <div class="topbar-head">
+      <button
+        id="menu-btn"
+        class="menu-btn"
+        type="button"
+        aria-label="Toggle navigation sidebar"
+        aria-controls="sidebar"
+        aria-expanded="true"
+      >&#9776;</button>
+      <a id="brand-home" class="brand" href="#overview">Renshuu N3 <span class="brand-sub">Grammar Companion</span></a>
+      <div class="topbar-meta">
+        <span id="progress-pill" class="progress-pill" aria-live="polite">&#9733; 0 / 55</span>
+        <button
+          id="mobile-search-btn"
+          class="icon-btn"
+          type="button"
+          aria-label="Open search"
+          title="Search (/)"
+        ><svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg><span class="search-btn-label">Search</span></button>
+      </div>
     </div>
     <div class="controls">
-      <span id="progress-pill" class="progress-pill">&#9733; 0 / 55</span>
-      <div class="seg-group" aria-label="Furigana mode">
-        <button class="seg-btn active" data-ruby-opt="all" type="button">Ruby: On</button>
-        <button class="seg-btn" data-ruby-opt="hover" type="button">Hover</button>
-        <button class="seg-btn" data-ruby-opt="off" type="button">Off</button>
+      <div class="seg-group" role="group" aria-label="Furigana visibility">
+        <button class="seg-btn active" data-ruby-opt="all" type="button" aria-pressed="true" title="Show all furigana readings">Furigana: On</button>
+        <button class="seg-btn" data-ruby-opt="hover" type="button" aria-pressed="false" title="Reveal furigana on hover, tap, or keyboard focus">Peek</button>
+        <button class="seg-btn" data-ruby-opt="off" type="button" aria-pressed="false" title="Hide furigana readings">Off</button>
       </div>
-      <div class="seg-group" aria-label="Translation visibility">
-        <button class="seg-btn active" data-recall-opt="show" type="button">EN: Show</button>
-        <button class="seg-btn" data-recall-opt="blur" type="button">Recall</button>
+      <div class="seg-group" role="group" aria-label="English recall mode">
+        <button class="seg-btn active" data-recall-opt="show" type="button" aria-pressed="true" title="Show English translations">EN: Show</button>
+        <button class="seg-btn" data-recall-opt="blur" type="button" aria-pressed="false" title="Blur English translations until clicked, tapped, or focused">Recall</button>
       </div>
-      <div class="seg-group" aria-label="Color theme">
-        <button class="seg-btn active" data-theme-opt="dark" type="button">Dark</button>
-        <button class="seg-btn" data-theme-opt="light" type="button">Light</button>
+      <div class="seg-group" role="group" aria-label="Color theme">
+        <button class="seg-btn active" data-theme-opt="dark" type="button" aria-pressed="true">Dark</button>
+        <button class="seg-btn" data-theme-opt="light" type="button" aria-pressed="false">Light</button>
       </div>
     </div>
   </header>
 
+  <div id="drawer-backdrop" class="drawer-backdrop" hidden></div>
+
   <div class="layout">
-    <aside id="sidebar" class="sidebar">
+    <aside id="sidebar" class="sidebar" aria-label="Curriculum navigation">
       <div class="sidebar-controls">
-        <input
-          id="search-input"
-          class="search-input"
-          type="search"
-          placeholder="Search kanji, kana, or English... (/)"
-        />
-        <div class="filter-row">
-          <button class="filter-pill active" data-filter="all" type="button">All</button>
-          <button class="filter-pill" data-filter="unstarred" type="button">Unstarred</button>
-          <button class="filter-pill" data-filter="starred" type="button">Starred</button>
-          <button class="filter-pill" data-filter="bridge" type="button">Bridge</button>
-          <button class="filter-pill" data-filter="matrices" type="button">Matrices</button>
+        <div class="search-row">
+          <input
+            id="search-input"
+            class="search-input"
+            type="search"
+            placeholder="Search kanji, kana, EN, #17 (/)"
+            aria-label="Search grammar points, lessons, or synonym matrices"
+          />
+          <button
+            id="drawer-close-btn"
+            class="drawer-close-btn"
+            type="button"
+            aria-label="Close navigation menu"
+          >&times;</button>
+        </div>
+        <div id="sidebar-search-status" class="sidebar-search-status" hidden></div>
+        <div class="filter-row" role="group" aria-label="Sidebar filter">
+          <button class="filter-pill active" data-filter="all" type="button" aria-pressed="true">All</button>
+          <button class="filter-pill" data-filter="unstarred" type="button" aria-pressed="false">Unstarred</button>
+          <button class="filter-pill" data-filter="starred" type="button" aria-pressed="false">Starred</button>
+          <button class="filter-pill" data-filter="bridge" type="button" aria-pressed="false">Bridge</button>
+          <button class="filter-pill" data-filter="matrices" type="button" aria-pressed="false">Matrices</button>
         </div>
       </div>
-      <nav id="nav-scroll" class="nav-scroll"></nav>
+      <nav id="nav-scroll" class="nav-scroll" aria-label="Lessons and matrices"></nav>
     </aside>
 
-    <main id="main-content" class="main">
+    <main id="main-content" class="main" tabindex="-1">
       <div id="boot-fallback" class="card">
         <h1>Loading Renshuu JLPT N3 Grammar Companion</h1>
         <p>
@@ -67,6 +104,8 @@
       </div>
     </main>
   </div>
+
+  <button id="back-to-top" class="back-to-top" type="button" hidden aria-label="Scroll back to top">&#8593; Top</button>
 
   <script type="module" src="./js/app.js"></script>
 </body>

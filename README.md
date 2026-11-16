@@ -32,7 +32,7 @@ Serve the modular web study guide over local HTTP (auto-builds `dist/site/` if a
 python3 -m renshuu_n3 serve --port 8000
 ```
 
-Then open `http://127.0.0.1:8000/` in any browser for instant global `/` search, furigana toggle (`On` / `Hover` / `Off`), active-recall translation blur, Renshuu `#01`–`#55` star tracking (`localStorage`), Dark/Light themes, and self-grading quizzes.
+Then open `http://127.0.0.1:8000/` in any browser for instant global `/` search (kanji, hiragana readings, English, or lesson/matrix IDs), furigana toggle (`On` / `Peek` / `Off`), active-recall translation blur, local `localStorage` star & quiz progress tracking, bi-directional lesson–matrix cross-links, and Dark/Light themes.
 
 ### Offline Reading Formats (`dist/`)
 
