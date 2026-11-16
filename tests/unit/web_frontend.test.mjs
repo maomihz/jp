@@ -1,17 +1,21 @@
 import assert from "node:assert/strict";
 import test from "node:test";
 
+import { createCurriculumStore } from "../../web/js/data.js";
 import { escapeHtml, renderRubyHtml, stripRubySurface, toSearchableText } from "../../web/js/ruby.js";
 import {
   createInitialState,
   formatHashRoute,
   loadSavedPrefs,
   loadSavedQuizAnswers,
+  loadSavedStars,
   parseHashRoute,
   recordQuizAnswer,
   resetLessonQuiz,
   savePrefs,
   saveQuizAnswers,
+  saveStars,
+  setQuery,
   toggleLessonStar,
 } from "../../web/js/state.js";
 import {
@@ -214,6 +218,30 @@ test("state, search routing, and persistence helpers preserve immutability", () 
   assert.deepEqual(loadSavedQuizAnswers(storage), { "L01-Q1": 2 });
   const reset = resetLessonQuiz(answered, ["L01-Q1"]);
   assert.equal(reset.quizAnswers["L01-Q1"], undefined);
+
+  const searchState = createInitialState(parseHashRoute("#search/%E3%82%8F%E3%81%91"));
+  assert.deepEqual(
+    setQuery(searchState, "", { view: "lesson", activeId: "L01", anchorId: "gp-l01-g01" }),
+    {
+      view: "lesson",
+      activeId: "L01",
+      anchorId: "gp-l01-g01",
+      filter: "all",
+      query: "",
+      quizAnswers: {},
+    },
+  );
+  assert.deepEqual(
+    setQuery(createInitialState(), "わけ", { view: "overview", activeId: "overview", anchorId: null }),
+    {
+      view: "search",
+      activeId: "search",
+      anchorId: null,
+      filter: "all",
+      query: "わけ",
+      quizAnswers: {},
+    },
+  );
 });
 
 test("view renderers support filters, search edge cases, cross-links, and quiz states", () => {
@@ -275,4 +303,93 @@ test("view renderers support filters, search edge cases, cross-links, and quiz s
   const matrixHtml = renderMatrixHtml(matrix, [matrix], manifest);
   assert.match(matrixHtml, /data-open-lesson="L01"/);
   assert.match(matrixHtml, /<span class="recall-target">Targeted attitude nuance\.<\/span>/);
+});
+
+test("curriculum store preserves global fetch receiver, caches payloads, and reports HTTP errors", async () => {
+  const originalFetch = globalThis.fetch;
+  const manifest = makeSyntheticManifest();
+  const { unit, lesson } = makeSyntheticLessonPayload();
+  const unitPayload = { ...unit, lessons: [lesson] };
+  const matrixPayload = { matrices: [makeSyntheticMatrixPayload()] };
+  const callCounts = new Map();
+
+  globalThis.fetch = async function (url) {
+    if (this !== globalThis) {
+      throw new TypeError("Illegal invocation");
+    }
+    const target = String(url);
+    callCounts.set(target, (callCounts.get(target) ?? 0) + 1);
+    if (target === "./data/manifest.json") {
+      return { ok: true, status: 200, json: async () => manifest };
+    }
+    if (target === "./data/units/unit_01.json") {
+      return { ok: true, status: 200, json: async () => unitPayload };
+    }
+    if (target === "./data/matrices.json") {
+      return { ok: true, status: 200, json: async () => matrixPayload };
+    }
+    if (target === "./err/manifest.json") {
+      return { ok: false, status: 500, json: async () => ({}) };
+    }
+    return { ok: false, status: 404, json: async () => ({}) };
+  };
+
+  try {
+    const store = createCurriculumStore("./data");
+    const first = await store.loadLesson("L01");
+    assert.equal(first?.lesson.lesson_id, "L01");
+    assert.equal(first?.unit.unit_number, 1);
+
+    const second = await store.loadLesson("L01");
+    assert.equal(second?.lesson.lesson_id, "L01");
+    assert.equal(callCounts.get("./data/manifest.json"), 1);
+    assert.equal(callCounts.get("./data/units/unit_01.json"), 1);
+
+    assert.equal(await store.loadLesson("L99"), null);
+
+    const matrix = await store.loadMatrix("M01");
+    assert.equal(matrix?.matrix_id, "M01");
+    assert.equal((await store.loadMatrices()).length, 1);
+    assert.equal(callCounts.get("./data/matrices.json"), 1);
+    assert.equal(await store.loadMatrix("M99"), null);
+
+    await assert.rejects(() => store.loadUnit(99), /Unknown unit number/);
+
+    const errStore = createCurriculumStore("./err");
+    await assert.rejects(() => errStore.loadManifest(), /HTTP 500/);
+  } finally {
+    globalThis.fetch = originalFetch;
+  }
+});
+
+test("storage helpers fall back cleanly when localStorage property access throws", () => {
+  const descriptor = Object.getOwnPropertyDescriptor(globalThis, "localStorage");
+  Object.defineProperty(globalThis, "localStorage", {
+    configurable: true,
+    get() {
+      throw new Error("SecurityError");
+    },
+  });
+
+  try {
+    assert.deepEqual([...loadSavedStars()], []);
+    assert.doesNotThrow(() => saveStars(new Set(["L01"])));
+    assert.deepEqual(loadSavedPrefs(), {
+      theme: "dark",
+      ruby: "all",
+      recall: "show",
+      filter: "all",
+    });
+    assert.doesNotThrow(() =>
+      savePrefs({ theme: "light", ruby: "all", recall: "show", filter: "all" }),
+    );
+    assert.deepEqual(loadSavedQuizAnswers(), {});
+    assert.doesNotThrow(() => saveQuizAnswers({ "L01-Q1": 1 }));
+  } finally {
+    if (descriptor) {
+      Object.defineProperty(globalThis, "localStorage", descriptor);
+    } else {
+      delete globalThis.localStorage;
+    }
+  }
 });

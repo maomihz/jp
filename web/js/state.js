@@ -40,7 +40,35 @@ export function setFilter(state, filter) {
   return { ...state, filter: VALID_FILTERS.has(filter) ? filter : "all" };
 }
 
-export function setQuery(state, query) {
+export function setQuery(state, query, fallbackRoute = null) {
+  const trimmed = String(query ?? "").trim();
+  if (trimmed) {
+    return {
+      ...state,
+      view: "search",
+      activeId: "search",
+      anchorId: null,
+      query,
+    };
+  }
+  if (fallbackRoute) {
+    return {
+      ...state,
+      view: fallbackRoute.view,
+      activeId: fallbackRoute.activeId,
+      anchorId: fallbackRoute.anchorId ?? null,
+      query,
+    };
+  }
+  if (state.view === "search") {
+    return {
+      ...state,
+      view: "overview",
+      activeId: "overview",
+      anchorId: null,
+      query,
+    };
+  }
   return { ...state, query };
 }
 
@@ -101,9 +129,18 @@ export function formatHashRoute(view, activeId, anchorId = null, query = "") {
   return "#overview";
 }
 
-export function loadSavedStars(storage = globalThis.localStorage) {
+function resolveStorage(storage) {
+  if (storage !== undefined) return storage;
   try {
-    const raw = storage?.getItem(STORAGE_STARS_KEY);
+    return globalThis.localStorage;
+  } catch {
+    return null;
+  }
+}
+
+export function loadSavedStars(storage) {
+  try {
+    const raw = resolveStorage(storage)?.getItem(STORAGE_STARS_KEY);
     if (!raw) return new Set();
     const parsed = JSON.parse(raw);
     return Array.isArray(parsed) ? new Set(parsed.map(String)) : new Set();
@@ -112,17 +149,17 @@ export function loadSavedStars(storage = globalThis.localStorage) {
   }
 }
 
-export function saveStars(starredSet, storage = globalThis.localStorage) {
+export function saveStars(starredSet, storage) {
   try {
-    storage?.setItem(STORAGE_STARS_KEY, JSON.stringify([...starredSet]));
+    resolveStorage(storage)?.setItem(STORAGE_STARS_KEY, JSON.stringify([...starredSet]));
   } catch {
     // Ignore storage quota or sandbox restrictions.
   }
 }
 
-export function loadSavedPrefs(storage = globalThis.localStorage) {
+export function loadSavedPrefs(storage) {
   try {
-    const raw = storage?.getItem(STORAGE_PREFS_KEY);
+    const raw = resolveStorage(storage)?.getItem(STORAGE_PREFS_KEY);
     if (!raw) return { ...DEFAULT_PREFS };
     const parsed = JSON.parse(raw);
     if (!parsed || typeof parsed !== "object") return { ...DEFAULT_PREFS };
@@ -137,17 +174,17 @@ export function loadSavedPrefs(storage = globalThis.localStorage) {
   }
 }
 
-export function savePrefs(prefs, storage = globalThis.localStorage) {
+export function savePrefs(prefs, storage) {
   try {
-    storage?.setItem(STORAGE_PREFS_KEY, JSON.stringify(prefs));
+    resolveStorage(storage)?.setItem(STORAGE_PREFS_KEY, JSON.stringify(prefs));
   } catch {
     // Ignore storage quota or sandbox restrictions.
   }
 }
 
-export function loadSavedQuizAnswers(storage = globalThis.localStorage) {
+export function loadSavedQuizAnswers(storage) {
   try {
-    const raw = storage?.getItem(STORAGE_QUIZ_KEY);
+    const raw = resolveStorage(storage)?.getItem(STORAGE_QUIZ_KEY);
     if (!raw) return {};
     const parsed = JSON.parse(raw);
     if (!parsed || typeof parsed !== "object" || Array.isArray(parsed)) return {};
@@ -163,9 +200,9 @@ export function loadSavedQuizAnswers(storage = globalThis.localStorage) {
   }
 }
 
-export function saveQuizAnswers(quizAnswers, storage = globalThis.localStorage) {
+export function saveQuizAnswers(quizAnswers, storage) {
   try {
-    storage?.setItem(STORAGE_QUIZ_KEY, JSON.stringify(quizAnswers ?? {}));
+    resolveStorage(storage)?.setItem(STORAGE_QUIZ_KEY, JSON.stringify(quizAnswers ?? {}));
   } catch {
     // Ignore storage quota or sandbox restrictions.
   }

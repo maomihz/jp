@@ -1,4 +1,7 @@
-export function createCurriculumStore(baseUrl = "./data", fetchFn = globalThis.fetch) {
+export function createCurriculumStore(
+  baseUrl = "./data",
+  fetchFn = (url, init) => globalThis.fetch(url, init),
+) {
   let manifestCache = null;
   let matricesCache = null;
   const unitCache = new Map();

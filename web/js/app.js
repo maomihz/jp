@@ -51,6 +51,19 @@ function isMobileViewport() {
   return mobileViewportQuery.matches;
 }
 
+function isModifiedAnchorClick(ev, element) {
+  return (
+    element?.tagName === "A" &&
+    (ev.button !== 0 || ev.metaKey || ev.ctrlKey || ev.shiftKey || ev.altKey)
+  );
+}
+
+function isEditableElement(element) {
+  if (!element) return false;
+  const tag = element.tagName;
+  return tag === "INPUT" || tag === "TEXTAREA" || tag === "SELECT" || element.isContentEditable;
+}
+
 function setDrawerOpen(open) {
   const sidebar = document.getElementById("sidebar");
   const backdrop = document.getElementById("drawer-backdrop");
@@ -119,7 +132,9 @@ function syncInteractiveTargets() {
 
   const rubyHover = prefs.ruby === "hover";
   main.querySelectorAll("ruby").forEach((rubyEl) => {
-    if (!rubyHover || rubyEl.closest("a, button")) {
+    const insideUnrevealedRecall =
+      recallBlur && Boolean(rubyEl.closest(".recall-target:not(.revealed)"));
+    if (!rubyHover || rubyEl.closest("a, button") || insideUnrevealedRecall) {
       rubyEl.classList.remove("ruby-peek");
       rubyEl.removeAttribute("tabindex");
       return;
@@ -365,7 +380,9 @@ function wireControls() {
     { passive: true },
   );
 
-  document.getElementById("brand-home").addEventListener("click", (ev) => {
+  const brandHome = document.getElementById("brand-home");
+  brandHome.addEventListener("click", (ev) => {
+    if (isModifiedAnchorClick(ev, brandHome)) return;
     ev.preventDefault();
     navigate("overview", "overview");
   });
@@ -399,11 +416,14 @@ function wireControls() {
 
   searchInput.addEventListener("input", () => {
     const value = searchInput.value;
-    state = setQuery(state, value);
+    const hadSearch = state.view === "search" || Boolean(state.query.trim());
+    state = setQuery(state, value, lastNonSearchRoute);
+    const isSearching = Boolean(value.trim());
+    const routeChanged = hadSearch !== isSearching;
     syncSearchHistoryUrl(value.trim());
     updateSidebarSearchStatus();
-    renderSidebar();
-    void renderMain({ scroll: value.trim() ? "route" : "preserve" });
+    renderSidebar({ scrollToActive: routeChanged && !isSearching });
+    void renderMain({ scroll: isSearching || routeChanged ? "route" : "preserve" });
   });
 
   searchInput.addEventListener("keydown", (ev) => {
@@ -422,7 +442,15 @@ function wireControls() {
   });
 
   document.addEventListener("keydown", (ev) => {
-    if (ev.key === "/" && document.activeElement !== searchInput) {
+    if (
+      ev.key === "/" &&
+      !ev.ctrlKey &&
+      !ev.metaKey &&
+      !ev.altKey &&
+      !ev.isComposing &&
+      !ev.defaultPrevented &&
+      !isEditableElement(document.activeElement)
+    ) {
       if (isMobileViewport() && !document.getElementById("sidebar").classList.contains("open")) {
         setDrawerOpen(true);
       } else if (!isMobileViewport() && document.body.classList.contains("sidebar-collapsed")) {
@@ -466,7 +494,7 @@ function wireControls() {
     }
 
     const navItem = ev.target.closest("[data-nav]");
-    if (!navItem) return;
+    if (!navItem || isModifiedAnchorClick(ev, navItem)) return;
     ev.preventDefault();
     const spec = navItem.dataset.nav;
     if (spec === "overview") navigate("overview", "overview");
@@ -476,18 +504,27 @@ function wireControls() {
 
   const mainEl = document.getElementById("main-content");
   mainEl.addEventListener("keydown", (ev) => {
+    const rubyEl = ev.target.closest("ruby");
+    const insideUnrevealedRecall =
+      prefs.recall === "blur" && Boolean(rubyEl?.closest(".recall-target:not(.revealed)"));
+    if (
+      rubyEl &&
+      prefs.ruby === "hover" &&
+      !rubyEl.closest("a, button") &&
+      !insideUnrevealedRecall &&
+      (ev.key === "Enter" || ev.key === " ")
+    ) {
+      ev.preventDefault();
+      rubyEl.classList.toggle("ruby-peek");
+      return;
+    }
+
     const recallEl = ev.target.closest(".recall-target");
     if (recallEl && prefs.recall === "blur" && (ev.key === "Enter" || ev.key === " ")) {
       ev.preventDefault();
       const revealed = recallEl.classList.toggle("revealed");
       recallEl.setAttribute("aria-expanded", String(revealed));
-      return;
-    }
-
-    const rubyEl = ev.target.closest("ruby");
-    if (rubyEl && prefs.ruby === "hover" && !rubyEl.closest("a, button") && (ev.key === "Enter" || ev.key === " ")) {
-      ev.preventDefault();
-      rubyEl.classList.toggle("ruby-peek");
+      syncInteractiveTargets();
     }
   });
 
@@ -511,24 +548,33 @@ function wireControls() {
       return;
     }
 
+    const rubyEl = ev.target.closest("ruby");
+    const insideUnrevealedRecall =
+      prefs.recall === "blur" && Boolean(rubyEl?.closest(".recall-target:not(.revealed)"));
+    if (
+      rubyEl &&
+      prefs.ruby === "hover" &&
+      !rubyEl.closest("a, button") &&
+      !insideUnrevealedRecall
+    ) {
+      rubyEl.classList.toggle("ruby-peek");
+      return;
+    }
+
     const recallEl = ev.target.closest(".recall-target");
     if (recallEl && prefs.recall === "blur") {
       const selected = String(window.getSelection?.() ?? "").trim();
       if (!(recallEl.classList.contains("revealed") && selected.length > 0)) {
         const revealed = recallEl.classList.toggle("revealed");
         recallEl.setAttribute("aria-expanded", String(revealed));
+        syncInteractiveTargets();
       }
-      return;
-    }
-
-    const rubyEl = ev.target.closest("ruby");
-    if (rubyEl && prefs.ruby === "hover" && !rubyEl.closest("a, button")) {
-      rubyEl.classList.toggle("ruby-peek");
       return;
     }
 
     const jumpEl = ev.target.closest("[data-jump]");
     if (jumpEl) {
+      if (isModifiedAnchorClick(ev, jumpEl)) return;
       ev.preventDefault();
       const [lessonId, anchorId] = jumpEl.dataset.jump.split("::");
       navigate("lesson", lessonId, anchorId || null);
@@ -537,6 +583,7 @@ function wireControls() {
 
     const lessonBtn = ev.target.closest("[data-open-lesson]");
     if (lessonBtn) {
+      if (isModifiedAnchorClick(ev, lessonBtn)) return;
       ev.preventDefault();
       navigate("lesson", lessonBtn.dataset.openLesson);
       return;
@@ -544,6 +591,7 @@ function wireControls() {
 
     const matrixBtn = ev.target.closest("[data-open-matrix]");
     if (matrixBtn) {
+      if (isModifiedAnchorClick(ev, matrixBtn)) return;
       ev.preventDefault();
       navigate("matrix", matrixBtn.dataset.openMatrix);
       return;
