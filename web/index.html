@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark" data-ruby="all" data-recall="show">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Renshuu JLPT N3 Grammar Companion</title>
+  <link rel="stylesheet" href="./styles/main.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-left">
+      <button id="menu-btn" class="menu-btn" type="button" aria-label="Toggle Menu">&#9776;</button>
+      <div id="brand-home" class="brand" role="button" tabindex="0">Renshuu N3 Grammar Companion</div>
+    </div>
+    <div class="controls">
+      <span id="progress-pill" class="progress-pill">&#9733; 0 / 55</span>
+      <div class="seg-group" aria-label="Furigana mode">
+        <button class="seg-btn active" data-ruby-opt="all" type="button">Ruby: On</button>
+        <button class="seg-btn" data-ruby-opt="hover" type="button">Hover</button>
+        <button class="seg-btn" data-ruby-opt="off" type="button">Off</button>
+      </div>
+      <div class="seg-group" aria-label="Translation visibility">
+        <button class="seg-btn active" data-recall-opt="show" type="button">EN: Show</button>
+        <button class="seg-btn" data-recall-opt="blur" type="button">Recall</button>
+      </div>
+      <div class="seg-group" aria-label="Color theme">
+        <button class="seg-btn active" data-theme-opt="dark" type="button">Dark</button>
+        <button class="seg-btn" data-theme-opt="light" type="button">Light</button>
+      </div>
+    </div>
+  </header>
+
+  <div class="layout">
+    <aside id="sidebar" class="sidebar">
+      <div class="sidebar-controls">
+        <input
+          id="search-input"
+          class="search-input"
+          type="search"
+          placeholder="Search grammar, kana, romaji... (/)"
+        />
+        <div class="filter-row">
+          <button class="filter-pill active" data-filter="all" type="button">All</button>
+          <button class="filter-pill" data-filter="unstarred" type="button">Unstarred</button>
+          <button class="filter-pill" data-filter="starred" type="button">Starred</button>
+          <button class="filter-pill" data-filter="bridge" type="button">Bridge</button>
+          <button class="filter-pill" data-filter="matrices" type="button">Matrices</button>
+        </div>
+      </div>
+      <nav id="nav-scroll" class="nav-scroll"></nav>
+    </aside>
+
+    <main id="main-content" class="main">
+      <div id="boot-fallback" class="card">
+        <h1>Loading Renshuu JLPT N3 Grammar Companion</h1>
+        <p>
+          If you opened <code>index.html</code> directly via <code>file://</code>, modern browsers
+          block ES module and JSON fetches across local files. Start the built-in static server from
+          the repository root instead:
+        </p>
+        <pre><code>python3 -m renshuu_n3 serve</code></pre>
+        <p class="ex-note">
+          For zero-server offline reading, open the compiled EPUB
+          (<code>dist/renshuu-n3-companion.epub</code>) or Markdown guides
+          (<code>dist/guide/00-master-index.md</code>).
+        </p>
+      </div>
+    </main>
+  </div>
+
+  <script type="module" src="./js/app.js"></script>
+</body>
+</html>
