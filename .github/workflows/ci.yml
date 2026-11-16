@@ -1,0 +1,83 @@
+name: CI & GitHub Pages
+
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    name: Validate, Lint, Test & Build
+    runs-on: ubuntu-latest
+    concurrency:
+      group: ci-${{ github.workflow }}-${{ github.ref }}
+      cancel-in-progress: ${{ github.event_name == 'pull_request' }}
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v7
+
+      - name: Set up Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: "3.13"
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v7
+        with:
+          node-version: "22"
+
+      - name: Install lint and EPUB verification tools
+        run: |
+          python -m pip install --upgrade pip ruff
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends epubcheck
+          command -v epubcheck
+
+      - name: Lint and check formatting with Ruff
+        run: |
+          ruff check .
+          ruff format --check .
+
+      - name: Run Python and Node test suites
+        run: |
+          python -m unittest discover -s tests -v
+          node --test tests/unit/web_frontend.test.mjs
+
+      - name: Validate curriculum, compile outputs, and verify build
+        run: |
+          python -m renshuu_n3 validate
+          python -m renshuu_n3 build
+          python -m renshuu_n3 verify
+
+      - name: Upload GitHub Pages site artifact
+        if: github.event_name != 'pull_request' && github.ref == 'refs/heads/master'
+        uses: actions/upload-pages-artifact@v5
+        with:
+          path: dist/site
+
+  deploy:
+    name: Deploy to GitHub Pages
+    needs: check
+    if: github.event_name != 'pull_request' && github.ref == 'refs/heads/master'
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    concurrency:
+      group: pages
+      cancel-in-progress: false
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v6
+
+      - name: Deploy artifact to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v5
