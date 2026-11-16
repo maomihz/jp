@@ -32,6 +32,7 @@ class _StaticSiteHandler(SimpleHTTPRequestHandler):
         ".js": "text/javascript; charset=utf-8",
         ".mjs": "text/javascript; charset=utf-8",
         ".json": "application/json; charset=utf-8",
+        ".svg": "image/svg+xml",
     }
 
     def log_message(self, format: str, *args: object) -> None:
@@ -133,7 +134,11 @@ def _cmd_serve(args: argparse.Namespace) -> int:
         not (site_dir / "index.html").is_file()
         or not (site_dir / "data" / "manifest.json").is_file()
     ):
-        curriculum = load_curriculum(Path(args.curriculum_dir))
+        try:
+            curriculum = load_curriculum(Path(args.curriculum_dir))
+        except ValueError as exc:
+            print(str(exc), file=sys.stderr)
+            return 1
         build_web_site(curriculum, Path(args.web_dir), site_dir)
 
     server = create_static_server(site_dir, host=args.host, port=args.port)
